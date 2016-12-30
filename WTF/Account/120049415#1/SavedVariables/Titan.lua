@@ -6,9 +6,9 @@ TitanAll = {
 	["TimerDualSpec"] = 2,
 	["GlobalProfileName"] = "Redus@Burning Legion",
 	["TimerLDB"] = 2,
-	["GlobalProfileUse"] = true,
-	["Silenced"] = false,
 	["TimerVehicle"] = 1,
+	["Silenced"] = false,
+	["GlobalProfileUse"] = true,
 }
 TitanSettings = {
 	["Players"] = {
@@ -71,22 +71,22 @@ TitanSettings = {
 				["VersionShown"] = 1,
 				["AuxBar2_Transparency"] = 0.7,
 				["AuxScreenAdjust"] = false,
-				["LogAdjust"] = false,
-				["AuxBar_Hide"] = false,
+				["TooltipTrans"] = 1,
+				["MinimapAdjust"] = false,
 				["AuxBar2_Show"] = false,
-				["DisableTooltipFont"] = 1,
+				["TicketAdjust"] = 1,
 				["IconSpacing"] = 0,
-				["AuxBar_Show"] = false,
+				["ToolTipsShown"] = 1,
 				["FontName"] = "Friz Quadrata TT",
 				["Bar2_Align"] = 1,
-				["Bar_Align"] = 1,
-				["Bar_Hide"] = 1,
 				["HideTipsInCombat"] = false,
+				["Bar_Hide"] = 1,
+				["Bar_Align"] = 1,
 				["Position"] = 1,
-				["ToolTipsShown"] = 1,
-				["TicketAdjust"] = 1,
-				["MinimapAdjust"] = false,
-				["TooltipTrans"] = 1,
+				["AuxBar_Show"] = false,
+				["DisableTooltipFont"] = 1,
+				["AuxBar_Hide"] = false,
+				["LogAdjust"] = false,
 			},
 			["Plugins"] = {
 				["AnnounceIt"] = {
@@ -149,9 +149,9 @@ TitanSettings = {
 					["ShowLabelText"] = true,
 				},
 				["ItmC"] = {
-					["debug"] = false,
-					["ShowItem"] = true,
 					["ShowIcon"] = 1,
+					["ShowItem"] = true,
+					["debug"] = false,
 					["ShowLabelText"] = false,
 				},
 				["AutoHide_Bar2"] = {
@@ -181,23 +181,23 @@ TitanSettings = {
 					["AppendChanged"] = 1,
 					["ShowCAP_Alert"] = 1,
 					["ShowLog"] = false,
-					["ShowCAP"] = 1,
+					["ShowSummary"] = 1,
 					["BarIconSize"] = 20,
 					["IconSize"] = 16,
-					["ShowSummary"] = 1,
+					["ShowCAP"] = 1,
 				},
 				["Location"] = {
 					["ShowColoredText"] = 1,
 					["ShowZoneText"] = 1,
 					["ShowCursorOnMap"] = true,
 					["ShowLabelText"] = 1,
-					["CoordsFormat3"] = false,
+					["ShowLocOnMiniMap"] = 1,
 					["ShowIcon"] = 1,
-					["UpdateWorldmap"] = false,
+					["ShowCoordsOnMap"] = true,
 					["CoordsFormat1"] = 1,
 					["CoordsFormat2"] = false,
-					["ShowCoordsOnMap"] = true,
-					["ShowLocOnMiniMap"] = 1,
+					["UpdateWorldmap"] = false,
+					["CoordsFormat3"] = false,
 				},
 				["Paste"] = {
 					["ShowColoredText"] = false,
@@ -206,7 +206,7 @@ TitanSettings = {
 					["DisplayOnRightSide"] = true,
 					["ShowLabelText"] = true,
 				},
-				["ServerHopMinimapButton"] = {
+				["RaidAchievement"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
 					["ShowRegularText"] = false,
@@ -232,11 +232,11 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = true,
 				},
-				["Flight Map Enhanced"] = {
+				["BagnonLauncher"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
-					["ShowRegularText"] = true,
-					["DisplayOnRightSide"] = false,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = true,
 					["ShowLabelText"] = true,
 				},
 				["CurrencyTracking"] = {
@@ -246,26 +246,12 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = true,
 				},
-				["Gold"] = {
-					["Initialized"] = true,
-					["MergeServers"] = false,
-					["SeparateServers"] = true,
-					["DisplayGoldPerHour"] = true,
-					["ShowColoredText"] = true,
-					["UseSeperatorPeriod"] = false,
-					["ShowCoinLabels"] = true,
-					["ShowLabelText"] = false,
-					["ShowCoinIcons"] = false,
-					["gold"] = {
-						["neg"] = false,
-						["total"] = "112233",
-					},
+				["MisdirectionHelper"] = {
+					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
-					["SortByName"] = true,
-					["ShowGoldOnly"] = false,
-					["ShowCoinNone"] = false,
-					["ViewAll"] = true,
-					["UseSeperatorComma"] = true,
+					["ShowRegularText"] = true,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = true,
 				},
 				["GuildSearch"] = {
 					["ShowColoredText"] = false,
@@ -302,9 +288,9 @@ TitanSettings = {
 				["LootType"] = {
 					["RandomRoll"] = 100,
 					["ShowIcon"] = 1,
-					["ShowDungeonDiff"] = false,
-					["DungeonDiffType"] = "AUTO",
 					["ShowLabelText"] = 1,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
 				},
 				["Speed"] = {
 					["ShowOnlyX"] = false,
@@ -318,9 +304,9 @@ TitanSettings = {
 					["ShowColoredText"] = false,
 					["DisplayOnRightSide"] = 1,
 					["OffsetHour"] = 0,
-					["HideGameTimeMinimap"] = false,
-					["Format"] = "12H",
 					["TimeMode"] = "Server",
+					["Format"] = "12H",
+					["HideGameTimeMinimap"] = false,
 					["ShowLabelText"] = false,
 				},
 				["ArtifactPowerUser"] = {
@@ -337,74 +323,7 @@ TitanSettings = {
 					["DisplayOnRightSide"] = true,
 					["ShowLabelText"] = true,
 				},
-				["XP"] = {
-					["UseSeperatorComma"] = true,
-					["ShowSimpleRested"] = false,
-					["UseSeperatorPeriod"] = false,
-					["ShowLabelText"] = 1,
-					["ShowSimpleNumOfKills"] = false,
-					["ShowIcon"] = 1,
-					["ShowSimpleNumOfGains"] = false,
-					["ShowSimpleToLevel"] = false,
-					["DisplayType"] = "ShowXPPerHourSession",
-				},
-				["CrossRealmAssistMinimapIcon"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = true,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = true,
-				},
-				["Bad Pet"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = true,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = true,
-				},
-				["Volume"] = {
-					["VolumeMaster"] = 0.100000023841858,
-					["DisplayOnRightSide"] = 1,
-					["VolumeDialog"] = 1,
-					["VolumeInboundChat"] = 0.319999992847443,
-					["VolumeAmbience"] = 1,
-					["VolumeSFX"] = 1,
-					["OverrideBlizzSettings"] = false,
-					["VolumeOutboundChat"] = 2.5,
-					["VolumeMusic"] = 1,
-				},
-				["TradeSkillMaster"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = false,
-					["DisplayOnRightSide"] = true,
-					["ShowLabelText"] = true,
-				},
-				["GnomeSequencer-Enhanced"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = true,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = true,
-				},
-				["AutoHide_Bar"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "Bar",
-				},
-				["Performance"] = {
-					["ShowAddonMemory"] = 1,
-					["ShowMemory"] = 1,
-					["AddonMemoryType"] = 1,
-					["ShowLatency"] = 1,
-					["ShowWorldLatency"] = 1,
-					["ShowLabelText"] = false,
-					["ShowIcon"] = 1,
-					["ShowAddonIncRate"] = false,
-					["ShowColoredText"] = 1,
-					["NumOfAddons"] = 8.44546508789063,
-					["ShowFPS"] = 1,
-				},
-				["LDB_WhisperPop"] = {
+				["Bitten's SpellFlash"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
 					["ShowRegularText"] = true,
@@ -435,12 +354,79 @@ TitanSettings = {
 					["ShowPopup"] = false,
 					["ShowMostDamaged"] = false,
 				},
-				["Bitten's SpellFlash"] = {
+				["Bad Pet"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
 					["ShowRegularText"] = true,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = true,
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = 1,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowWorldLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = 1,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 8.44546508789063,
+					["ShowFPS"] = 1,
+				},
+				["AutoHide_Bar"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["TradeSkillMaster"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = true,
+					["ShowLabelText"] = true,
+				},
+				["GnomeSequencer-Enhanced"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = true,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = true,
+				},
+				["Volume"] = {
+					["VolumeMaster"] = 0.100000023841858,
+					["DisplayOnRightSide"] = 1,
+					["VolumeDialog"] = 1,
+					["VolumeInboundChat"] = 0.319999992847443,
+					["VolumeAmbience"] = 1,
+					["VolumeSFX"] = 1,
+					["VolumeMusic"] = 1,
+					["VolumeOutboundChat"] = 2.5,
+					["OverrideBlizzSettings"] = false,
+				},
+				["LDB_WhisperPop"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = true,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = true,
+				},
+				["CrossRealmAssistMinimapIcon"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = true,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = true,
+				},
+				["XP"] = {
+					["UseSeperatorComma"] = true,
+					["ShowSimpleRested"] = false,
+					["UseSeperatorPeriod"] = false,
+					["ShowLabelText"] = 1,
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleNumOfGains"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
 				},
 				["GR"] = {
 					["ShowIcon"] = 1,
@@ -453,21 +439,35 @@ TitanSettings = {
 					["DisplayOnRightSide"] = true,
 					["ShowLabelText"] = true,
 				},
-				["MisdirectionHelper"] = {
+				["Gold"] = {
+					["Initialized"] = true,
+					["MergeServers"] = false,
+					["SeparateServers"] = true,
+					["DisplayGoldPerHour"] = true,
+					["UseSeperatorComma"] = true,
+					["ViewAll"] = true,
+					["UseSeperatorPeriod"] = false,
+					["ShowLabelText"] = false,
+					["ShowCoinIcons"] = false,
+					["SortByName"] = true,
+					["ShowIcon"] = true,
+					["gold"] = {
+						["neg"] = false,
+						["total"] = "112233",
+					},
+					["ShowGoldOnly"] = false,
+					["ShowCoinNone"] = false,
+					["ShowCoinLabels"] = true,
+					["ShowColoredText"] = true,
+				},
+				["Flight Map Enhanced"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
 					["ShowRegularText"] = true,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = true,
 				},
-				["BagnonLauncher"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = true,
-					["ShowRegularText"] = false,
-					["DisplayOnRightSide"] = true,
-					["ShowLabelText"] = true,
-				},
-				["RaidAchievement"] = {
+				["ServerHopMinimapButton"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = true,
 					["ShowRegularText"] = false,
@@ -476,7 +476,7 @@ TitanSettings = {
 				},
 			},
 			["Register"] = {
-				["ToBeNum"] = 40,
+				["ToBeNum"] = 39,
 				["TitanPlugins"] = {
 					["AnnounceIt"] = {
 						["notes"] = "\nThis is a LDB 'launcher' without .label using .text instead!!!!",
@@ -746,7 +746,7 @@ TitanSettings = {
 							["name"] = "TomTomPing",
 							["suffix"] = "",
 							["value"] = "",
-							["text"] = "|cffffffff---|cffffff00N|r|cffffffff---NE--|r",
+							["text"] = "|cffffffff-NW---|cffffff00N|r|cffffffff---N|r",
 							["label"] = "TomTomPing",
 						},
 					},
@@ -883,39 +883,6 @@ TitanSettings = {
 							["label"] = "",
 						},
 					},
-					["CurrencyTracking"] = {
-						["notes"] = "",
-						["iconWidth"] = 16,
-						["id"] = "CurrencyTracking",
-						["menuText"] = "Currency Tracking",
-						["category"] = "Information",
-						["savedVariables"] = {
-							["ShowColoredText"] = false,
-							["ShowIcon"] = true,
-							["ShowRegularText"] = true,
-							["DisplayOnRightSide"] = false,
-							["ShowLabelText"] = true,
-						},
-						["controlVariables"] = {
-							["ShowColoredText"] = false,
-							["ShowIcon"] = true,
-							["ShowRegularText"] = true,
-							["DisplayOnRightSide"] = true,
-							["ShowLabelText"] = true,
-						},
-						["version"] = "2.00",
-						["buttonTextFunction"] = "TitanLDBShowText",
-						["ldb"] = "data source",
-						["icon"] = "Interface\\Icons\\timelesscoin",
-						["LDBVariables"] = {
-							["type"] = "data source",
-							["name"] = "CurrencyTracking",
-							["suffix"] = "",
-							["value"] = "",
-							["text"] = "Currency Tracking",
-							["label"] = "Currency Tracking",
-						},
-					},
 					["GuildSearch"] = {
 						["notes"] = "",
 						["iconWidth"] = 16,
@@ -1007,7 +974,7 @@ TitanSettings = {
 							["name"] = "Guild Recruitment",
 							["suffix"] = "",
 							["value"] = "",
-							["text"] = "On (5 min)",
+							["text"] = "On (28 sec)",
 							["label"] = "On (5 min)",
 						},
 					},
@@ -1814,6 +1781,8 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanGold\\Artwork\\TitanGold",
 								["tooltipTitle"] = "Gold Info",
 							},
+							["tooltipText"] = "|cffff0000Total Gold on : Burning Legion : Horde|r|r\nRedbullek	|cFFFFFF00892g |r|cFFCCCCCC95s |r|cFFFF660013c|r\nRedus	|cFFFFFF00132,598g |r|cFFCCCCCC36s |r|cFFFF660041c|r\nÐeadshot	|cFFFFFF002,973g |r|cFFCCCCCC91s |r|cFFFF660052c|r\n--------------------\nTotal Gold	|cFFFFFF00136,465g |r|cFFCCCCCC23s |r|cFFFF660006c|r\n\n|cffffffffSession Statistics|r\nStarting Gold	|cFFFFFF00132,598g |r|cFFCCCCCC36s |r|cFFFF660041c|r\n|cff00ff00Earned This Session|r	|cFFFF66000c|r \n|cff00ff00Earned Per Hour|r	|cFFFF66000c|r \n",
+							["tooltipTitle"] = "Gold Info",
 						},
 						["notes"] = "",
 						["plugin_type"] = "Titan",
@@ -1844,6 +1813,8 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanBag\\TitanBag",
 								["tooltipTitle"] = "|cff20ff20Item Count",
 							},
+							["tooltipText"] = "|cffffff00Item 	|cffffffff|cffffffff|Hitem:124105::::::::110:63::::::|h[Starlight Rose]|h|r|r\n|cffffff00Qty on hand	|cffffffff0|r\n\n|cff00ff00Left-click to open Options Panel,\n|cff00ff00or use the |cffffffff/tic|cff00ff00 slash command.",
+							["tooltipTitle"] = "|cff20ff20Item Count",
 						},
 						["notes"] = "",
 						["plugin_type"] = "Titan",
@@ -1888,9 +1859,11 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanLocation\\TitanLocation",
 								["tooltipTitle"] = "Location Info",
 							},
+							["px"] = 0.782549023628235,
+							["py"] = 0.531609416007996,
 							["subZoneText"] = "",
-							["px"] = 0.793575882911682,
-							["py"] = 0.505979180335999,
+							["tooltipText"] = "Zone: 	|cffffffffHall of the Guardian|r\nPVP Info: 	|cff20ff20(Sanctuary)|r\n\n|cffffffffHome Location|r\nInn: 	|cffffffffShal'Aran|r\n|cff20ff20Hint: Shift + left-click to add location|r\n|cff20ff20info to the chat message.|r",
+							["tooltipTitle"] = "Location Info",
 							["pvpType"] = "sanctuary",
 							["zoneText"] = "Hall of the Guardian",
 						},
@@ -1974,19 +1947,19 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanPerformance\\TitanPerformance",
 								["buttonTextFunction"] = "TitanPanelPerformanceButton_GetButtonText",
 							},
-							["maxFPS"] = 1000,
-							["minFPS"] = 3.5054919719696,
-							["avgFPS"] = 193.149956382238,
-							["bandwidthOut"] = 0.340184926986694,
+							["maxFPS"] = 166.666687011719,
+							["minFPS"] = 1.80201828479767,
+							["avgFPS"] = 148.419250557582,
+							["bandwidthOut"] = 0.191146209836006,
+							["fps"] = 144.230773925781,
+							["initialMemory"] = 268090,
+							["memory"] = 271253,
+							["bandwidthIn"] = 1.65142893791199,
 							["tooltipCustomFunction"] = nil --[[ skipped inline function ]],
-							["fps"] = 157.068084716797,
-							["initialMemory"] = 305203,
-							["memory"] = 330739,
-							["bandwidthIn"] = 5.11859273910522,
-							["fpsSampleCount"] = 26,
-							["startSessionTime"] = 1483115010,
-							["latencyHome"] = 102,
-							["latencyWorld"] = 102,
+							["startSessionTime"] = 1483115559,
+							["latencyHome"] = 62,
+							["fpsSampleCount"] = 375,
+							["latencyWorld"] = 62,
 						},
 						["notes"] = "",
 						["plugin_type"] = "Titan",
@@ -2042,6 +2015,8 @@ TitanSettings = {
 								["icon"] = "Interface\\AddOns\\TitanRepair\\TitanRepair",
 								["tooltipTitle"] = "Repair Info",
 							},
+							["tooltipText"] = "|cffffd700Items|r|cffffffff\n|r|cffffffff97 / 100|r |cffa335eeHood of Darkened Visions	|cffffd1001|r.|cffe6e6e689|r.|cffc8602c09|r\n|cffffffff98 / 100|r |cffa335eeMantle of Perpetual Bloom	|cffffd1001|r.|cffe6e6e627|r.|cffc8602c31|r\n|cffffffff163 / 165|r |cffa335eeRobes of the Ancient Chronicle	|cffffd1001|r.|cffe6e6e604|r.|cffc8602c90|r\n|cffffffff53 / 55|r |cffa335eeNethertether Cord	|cffe6e6e699|r.|cffc8602c85|r\n|cffffffff116 / 120|r |cffa335eeBurrow-Dweller Leggings	|cffffd1001|r.|cffe6e6e689|r.|cffc8602c50|r\n|cffffffff76 / 80|r |cffa335eeCrimson Wool-Lined Slippers	|cffffd1004|r.|cffe6e6e607|r.|cffc8602c40|r\n|cffffffff67 / 70|r |cffff8000Marquee Bindings of the Sun King	|cffffd1001|r.|cffe6e6e694|r.|cffc8602c31|r\n|cffffffff54 / 55|r |cffa335eeSilken Bloodscent Gloves	|cffe6e6e646|r.|cffc8602c88|r\n\n|cffffd700Discounts|r|cffffffff|r\n|cffffffffRepair Cost (Normal): |r	|cffffd10013|r.|cffe6e6e659|r.|cffc8602c24|r\n|cffffffffRepair Cost (Friendly): |r	|cffffd10012|r.|cffe6e6e691|r.|cffc8602c27|r\n|cffffffffRepair Cost (Honored): |r	|cffffd10012|r.|cffe6e6e623|r.|cffc8602c31|r\n|cffffffffRepair Cost (Revered): |r	|cffffd10011|r.|cffe6e6e655|r.|cffc8602c35|r\n|cffffffffRepair Cost (Exalted): |r	|cffffd10010|r.|cffe6e6e687|r.|cffc8602c39|r\n\n|cffffd700Costs|r\n|cffffffffTotal Cost|r	|cffffd10013|r.|cffe6e6e659|r.|cffc8602c24|r\n\n|cffffffffEquip Cost|r	|cffffd10013|r.|cffe6e6e659|r.|cffc8602c24|r\n|cffffffffBag Cost|r	|cffa0a0a0None|r\n\n",
+							["tooltipTitle"] = "Repair Info",
 						},
 						["notes"] = "",
 						["plugin_type"] = "Titan",
@@ -2089,10 +2064,10 @@ TitanSettings = {
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
-							["sessionTime"] = 1483115010,
+							["sessionTime"] = 1483115060,
 							["sessionXP"] = 0,
 							["initXP"] = 0,
-							["startSessionTime"] = 1483115010,
+							["startSessionTime"] = 1483115060,
 							["registry"] = {
 								["tooltipTextFunction"] = "TitanPanelXPButton_GetTooltipText",
 								["id"] = "XP",
@@ -2228,52 +2203,6 @@ TitanSettings = {
 							["registry"] = {
 								["notes"] = "",
 								["iconWidth"] = 16,
-								["id"] = "CurrencyTracking",
-								["menuText"] = "Currency Tracking",
-								["category"] = "Information",
-								["savedVariables"] = {
-									["ShowColoredText"] = false,
-									["ShowIcon"] = true,
-									["ShowRegularText"] = true,
-									["DisplayOnRightSide"] = false,
-									["ShowLabelText"] = true,
-								},
-								["controlVariables"] = {
-									["ShowColoredText"] = false,
-									["ShowIcon"] = true,
-									["ShowRegularText"] = true,
-									["DisplayOnRightSide"] = true,
-									["ShowLabelText"] = true,
-								},
-								["version"] = "2.00",
-								["buttonTextFunction"] = "TitanLDBShowText",
-								["ldb"] = "data source",
-								["icon"] = "Interface\\Icons\\timelesscoin",
-								["LDBVariables"] = {
-									["type"] = "data source",
-									["name"] = "CurrencyTracking",
-									["suffix"] = "",
-									["value"] = "",
-									["text"] = "Currency Tracking",
-									["label"] = "Currency Tracking",
-								},
-							},
-						},
-						["notes"] = "",
-						["plugin_type"] = "LDB: 'data source'",
-						["name"] = "CurrencyTracking",
-						["category"] = "Information",
-						["button"] = "TitanPanelCurrencyTrackingButton",
-						["issue"] = "",
-						["isChild"] = false,
-						["status"] = "|cff20ff20Registered|r",
-					}, -- [22]
-					{
-						["self"] = {
-							[0] = nil --[[ skipped userdata ]],
-							["registry"] = {
-								["notes"] = "",
-								["iconWidth"] = 16,
 								["id"] = "GuildSearch",
 								["menuText"] = "GuildSearch",
 								["savedVariables"] = {
@@ -2312,7 +2241,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [23]
+					}, -- [22]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2357,7 +2286,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [24]
+					}, -- [23]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2403,7 +2332,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [25]
+					}, -- [24]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2434,7 +2363,7 @@ TitanSettings = {
 									["name"] = "Guild Recruitment",
 									["suffix"] = "",
 									["value"] = "",
-									["text"] = "On (5 min)",
+									["text"] = "On (28 sec)",
 									["label"] = "On (5 min)",
 								},
 							},
@@ -2447,7 +2376,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [26]
+					}, -- [25]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2492,7 +2421,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [27]
+					}, -- [26]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2541,7 +2470,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [28]
+					}, -- [27]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2586,7 +2515,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [29]
+					}, -- [28]
 					{
 						["plugin_type"] = "Unknown",
 						["name"] = "TradeSkillMasterMinimapIcon",
@@ -2595,7 +2524,7 @@ TitanSettings = {
 						["issue"] = "Unsupported LDB type 'Unknown'",
 						["isChild"] = false,
 						["status"] = "|cffff2020Failed_to_Register|r",
-					}, -- [30]
+					}, -- [29]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2639,7 +2568,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [31]
+					}, -- [30]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2685,7 +2614,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [32]
+					}, -- [31]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2728,7 +2657,7 @@ TitanSettings = {
 									["name"] = "TomTomPing",
 									["suffix"] = "",
 									["value"] = "",
-									["text"] = "|cffffffff---|cffffff00N|r|cffffffff---NE--|r",
+									["text"] = "|cffffffff-NW---|cffffff00N|r|cffffffff---N|r",
 									["label"] = "TomTomPing",
 								},
 							},
@@ -2741,7 +2670,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [33]
+					}, -- [32]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2785,7 +2714,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [34]
+					}, -- [33]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2829,7 +2758,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [35]
+					}, -- [34]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2874,7 +2803,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [36]
+					}, -- [35]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2919,7 +2848,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [37]
+					}, -- [36]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -2964,7 +2893,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [38]
+					}, -- [37]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3008,7 +2937,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [39]
+					}, -- [38]
 					{
 						["self"] = {
 							[0] = nil --[[ skipped userdata ]],
@@ -3052,7 +2981,7 @@ TitanSettings = {
 						["issue"] = "",
 						["isChild"] = false,
 						["status"] = "|cff20ff20Registered|r",
-					}, -- [40]
+					}, -- [39]
 				},
 				["Extras"] = {
 					{
@@ -3068,41 +2997,45 @@ TitanSettings = {
 						["num"] = 3,
 					}, -- [3]
 					{
-						["id"] = "ServerHopMinimapButton",
+						["id"] = "CurrencyTracking",
 						["num"] = 4,
 					}, -- [4]
 					{
-						["id"] = "TicketStatus",
+						["id"] = "MisdirectionHelper",
 						["num"] = 5,
 					}, -- [5]
 					{
-						["id"] = "Speed",
+						["id"] = "TicketStatus",
 						["num"] = 6,
 					}, -- [6]
 					{
-						["id"] = "ArtifactPowerUser",
+						["id"] = "Speed",
 						["num"] = 7,
 					}, -- [7]
 					{
-						["id"] = "CrossRealmAssistMinimapIcon",
+						["id"] = "ArtifactPowerUser",
 						["num"] = 8,
 					}, -- [8]
 					{
-						["id"] = "Bad Pet",
+						["id"] = "Bitten's SpellFlash",
 						["num"] = 9,
 					}, -- [9]
 					{
-						["id"] = "Bitten's SpellFlash",
+						["id"] = "Bad Pet",
 						["num"] = 10,
 					}, -- [10]
 					{
-						["id"] = "prioTarget",
+						["id"] = "CrossRealmAssistMinimapIcon",
 						["num"] = 11,
 					}, -- [11]
 					{
-						["id"] = "MisdirectionHelper",
+						["id"] = "prioTarget",
 						["num"] = 12,
 					}, -- [12]
+					{
+						["id"] = "ServerHopMinimapButton",
+						["num"] = 13,
+					}, -- [13]
 				},
 			},
 		},

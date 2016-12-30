@@ -232,7 +232,7 @@ TradeSkillMaster_AppHelper: enabled
 ArtifactPowerUser: enabled
 Broker_TicketStatus: disabled
 FlyPitch: disabled
-Poll: enabled
+Poll: disabled
 Postal: disabled
 GroupCalendar5: disabled
 MyMagicMarker: disabled

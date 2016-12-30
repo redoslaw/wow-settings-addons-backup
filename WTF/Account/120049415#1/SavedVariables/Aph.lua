@@ -24,15 +24,15 @@ APHDB = {
 					0, -- [2]
 					100, -- [3]
 				},
-				[127857] = {
-					29, -- [1]
-					73280, -- [2]
-					417560, -- [3]
-				},
 				[128820] = {
 					41, -- [1]
 					1717787, -- [2]
 					2560000, -- [3]
+				},
+				[127857] = {
+					29, -- [1]
+					73280, -- [2]
+					417560, -- [3]
 				},
 			},
 			["autoMinimize"] = true,
@@ -45,9 +45,9 @@ APHDB = {
 	},
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
-		["Redbullek - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

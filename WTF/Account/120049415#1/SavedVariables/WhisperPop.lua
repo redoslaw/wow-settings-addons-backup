@@ -2,7 +2,7 @@
 WhisperPopDB = {
 	["listHeight"] = 360,
 	["listWidth"] = 240,
-	["save"] = 1,
+	["listScale"] = 110,
 	["buttonScale"] = 200,
 	["history"] = {
 		{
@@ -8635,9 +8635,9 @@ WhisperPopDB = {
 		}, -- [361]
 	},
 	["time"] = 1,
-	["sound"] = 1,
-	["version"] = 4.12,
-	["ignoreTags"] = 1,
 	["notifyButton"] = 1,
-	["listScale"] = 110,
+	["ignoreTags"] = 1,
+	["version"] = 4.12,
+	["sound"] = 1,
+	["save"] = 1,
 }
