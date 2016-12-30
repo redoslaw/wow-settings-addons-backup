@@ -29,7 +29,7 @@ RecountDB = {
 		["Redus - Burning Legion"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -226.999359130859,
+					["y"] = -226.999237060547,
 					["x"] = 685.500244140625,
 					["w"] = 249.000015258789,
 					["h"] = 309,
@@ -49,7 +49,7 @@ RecountDB = {
 			["DetailWindowY"] = -121.000450134277,
 			["DetailWindowX"] = 795.000793457031,
 			["LastInstanceName"] = "Assault on Violet Hold",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 249.000152587891,
 			["MainWindowHeight"] = 309,
 		},

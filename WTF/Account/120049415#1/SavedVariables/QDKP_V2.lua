@@ -282,7 +282,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Simas-BurningLegion"] = {
+			["Rabtym-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -302,12 +302,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rabtym-BurningLegion"] = {
+			["Simas-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Viirg-BurningLegion"] = {
+			["Keltazaz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -322,12 +322,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qrient-BurningLegion"] = {
+			["Angueme-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angueme-BurningLegion"] = {
+			["Qrient-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -357,7 +357,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Vinoopij-BurningLegion"] = {
+			["Balirius-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -367,12 +367,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Cygán-BurningLegion"] = {
+			["Merikea-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Balirius-BurningLegion"] = {
+			["Vinoopij-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -397,12 +397,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Garkug-BurningLegion"] = {
+			["Assymia-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Assymia-BurningLegion"] = {
+			["Garkug-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -427,12 +427,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Dominiko-BurningLegion"] = {
+			["Rempejdz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rempejdz-BurningLegion"] = {
+			["Dominiko-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -447,9 +447,9 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Flammadator-BurningLegion"] = {
-				0, -- [1]
-				0, -- [2]
+			["Mitthi-BurningLegion"] = {
+				11, -- [1]
+				1, -- [2]
 				0, -- [3]
 			},
 			["Burnny-BurningLegion"] = {
@@ -487,8 +487,8 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Oban-BurningLegion"] = {
-				0, -- [1]
+			["Lickitüng-BurningLegion"] = {
+				1, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
@@ -497,22 +497,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Lickitüng-BurningLegion"] = {
-				1, -- [1]
+			["Oban-BurningLegion"] = {
+				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
 			["Tragoro-BurningLegion"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			},
-			["Ilizon-BurningLegion"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			},
-			["Kusmir-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -522,12 +512,22 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
+			["Kusmir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darioran-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
 			["Mustav-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Shoobpupper-BurningLegion"] = {
+			["Qergu-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -537,12 +537,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kabajel-BurningLegion"] = {
+			["Mishiima-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qergu-BurningLegion"] = {
+			["Angryhorse-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -592,17 +592,17 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Enomekk-BurningLegion"] = {
+			["Mcbercik-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Recus-BurningLegion"] = {
+			["Rocknrooll-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rudswie-BurningLegion"] = {
+			["Maenlan-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -617,7 +617,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Alakazamer-BurningLegion"] = {
+			["Recus-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -667,7 +667,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Maenlan-BurningLegion"] = {
+			["Rudswie-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -687,7 +687,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rocknrooll-BurningLegion"] = {
+			["Alakazamer-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -797,8 +797,8 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Ahdo-BurningLegion"] = {
-				0, -- [1]
+			["Senurtan-BurningLegion"] = {
+				11, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
@@ -817,12 +817,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Noaidee-BurningLegion"] = {
-				0, -- [1]
+			["Moadib-BurningLegion"] = {
+				2, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rakug-BurningLegion"] = {
+			["Noaidee-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -837,12 +837,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Moadib-BurningLegion"] = {
-				2, -- [1]
+			["Rakug-BurningLegion"] = {
+				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Starcar-BurningLegion"] = {
+			["Erednash-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -857,12 +857,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Naghdar-BurningLegion"] = {
+			["Starcar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Erednash-BurningLegion"] = {
+			["Naghdar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -882,7 +882,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Zdepkaxd-BurningLegion"] = {
+			["Kskí-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -892,12 +892,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Requs-BurningLegion"] = {
+			["Tienki-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kskí-BurningLegion"] = {
+			["Zdepkaxd-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -912,12 +912,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tequilä-BurningLegion"] = {
+			["Requs-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tienki-BurningLegion"] = {
+			["Tequilä-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -977,8 +977,8 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Senurtan-BurningLegion"] = {
-				11, -- [1]
+			["Ahdo-BurningLegion"] = {
+				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
@@ -1042,7 +1042,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mishiima-BurningLegion"] = {
+			["Kabajel-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1062,12 +1062,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mcbercik-BurningLegion"] = {
+			["Enomekk-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angryhorse-BurningLegion"] = {
+			["Shoobpupper-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1082,7 +1082,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Darioran-BurningLegion"] = {
+			["Ilizon-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1117,9 +1117,9 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mitthi-BurningLegion"] = {
-				11, -- [1]
-				1, -- [2]
+			["Flammadator-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
 				0, -- [3]
 			},
 			["Kiljadyn-BurningLegion"] = {
@@ -1142,7 +1142,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Merikea-BurningLegion"] = {
+			["Cygán-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1177,7 +1177,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Keltazaz-BurningLegion"] = {
+			["Viirg-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1226,7 +1226,7 @@ QDKP2_Data = {
 			},
 		},
 		["FixedPrices"] = true,
-		["LAST_OPEN"] = 1483115631,
+		["LAST_OPEN"] = 1483124504,
 		["stored"] = {
 			["Ledarr-BurningLegion"] = {
 				0, -- [1]
@@ -1508,7 +1508,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Simas-BurningLegion"] = {
+			["Rabtym-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1528,12 +1528,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rabtym-BurningLegion"] = {
+			["Simas-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Viirg-BurningLegion"] = {
+			["Keltazaz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1548,12 +1548,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qrient-BurningLegion"] = {
+			["Angueme-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angueme-BurningLegion"] = {
+			["Qrient-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1583,7 +1583,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Vinoopij-BurningLegion"] = {
+			["Balirius-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1593,12 +1593,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Cygán-BurningLegion"] = {
+			["Merikea-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Balirius-BurningLegion"] = {
+			["Vinoopij-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1623,12 +1623,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Garkug-BurningLegion"] = {
+			["Assymia-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Assymia-BurningLegion"] = {
+			["Garkug-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1653,12 +1653,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Dominiko-BurningLegion"] = {
+			["Rempejdz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rempejdz-BurningLegion"] = {
+			["Dominiko-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1673,9 +1673,9 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Flammadator-BurningLegion"] = {
-				0, -- [1]
-				0, -- [2]
+			["Mitthi-BurningLegion"] = {
+				9, -- [1]
+				1, -- [2]
 				0, -- [3]
 			},
 			["Burnny-BurningLegion"] = {
@@ -1713,7 +1713,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Oban-BurningLegion"] = {
+			["Lickitüng-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1723,7 +1723,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Lickitüng-BurningLegion"] = {
+			["Oban-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1733,7 +1733,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Ilizon-BurningLegion"] = {
+			["Martiziusz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1743,7 +1743,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Martiziusz-BurningLegion"] = {
+			["Darioran-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1753,7 +1753,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Shoobpupper-BurningLegion"] = {
+			["Qergu-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1763,12 +1763,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kabajel-BurningLegion"] = {
+			["Mishiima-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qergu-BurningLegion"] = {
+			["Angryhorse-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1818,17 +1818,17 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Enomekk-BurningLegion"] = {
+			["Mcbercik-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Recus-BurningLegion"] = {
+			["Rocknrooll-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rudswie-BurningLegion"] = {
+			["Maenlan-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1843,7 +1843,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Alakazamer-BurningLegion"] = {
+			["Recus-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1893,7 +1893,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Maenlan-BurningLegion"] = {
+			["Rudswie-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -1913,7 +1913,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rocknrooll-BurningLegion"] = {
+			["Alakazamer-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2023,8 +2023,8 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Ahdo-BurningLegion"] = {
-				0, -- [1]
+			["Senurtan-BurningLegion"] = {
+				9, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
@@ -2043,12 +2043,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Noaidee-BurningLegion"] = {
+			["Moadib-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rakug-BurningLegion"] = {
+			["Noaidee-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2063,12 +2063,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Moadib-BurningLegion"] = {
+			["Rakug-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Starcar-BurningLegion"] = {
+			["Erednash-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2083,12 +2083,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Naghdar-BurningLegion"] = {
+			["Starcar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Erednash-BurningLegion"] = {
+			["Naghdar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2108,7 +2108,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Zdepkaxd-BurningLegion"] = {
+			["Kskí-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2118,12 +2118,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Requs-BurningLegion"] = {
+			["Tienki-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kskí-BurningLegion"] = {
+			["Zdepkaxd-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2138,12 +2138,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tequilä-BurningLegion"] = {
+			["Requs-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tienki-BurningLegion"] = {
+			["Tequilä-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2203,8 +2203,8 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Senurtan-BurningLegion"] = {
-				9, -- [1]
+			["Ahdo-BurningLegion"] = {
+				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
@@ -2268,7 +2268,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mishiima-BurningLegion"] = {
+			["Kabajel-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2288,12 +2288,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mcbercik-BurningLegion"] = {
+			["Enomekk-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angryhorse-BurningLegion"] = {
+			["Shoobpupper-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2308,7 +2308,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Darioran-BurningLegion"] = {
+			["Ilizon-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2343,9 +2343,9 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mitthi-BurningLegion"] = {
-				9, -- [1]
-				1, -- [2]
+			["Flammadator-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
 				0, -- [3]
 			},
 			["Kiljadyn-BurningLegion"] = {
@@ -2368,7 +2368,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Merikea-BurningLegion"] = {
+			["Cygán-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -2403,7 +2403,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Keltazaz-BurningLegion"] = {
+			["Viirg-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3221,9 +3221,13 @@ QDKP2_Data = {
 				},
 			},
 		},
+		["ironMan"] = {
+		},
+		["AltsRestore"] = {
+		},
 		["GUI"] = {
+			["ShowOutGuild"] = true,
 			["DKP_Timer"] = 10,
-			["DKP_IM"] = 10,
 			["DKP_QuickModify"] = 10,
 			["CustomPlayerRosterList"] = {
 				"Akcent-BurningLegion", -- [1]
@@ -3256,12 +3260,8 @@ QDKP2_Data = {
 				"Zaiy-BurningLegion", -- [28]
 				"Zozusek-BurningLegion", -- [29]
 			},
-			["ShowOutGuild"] = true,
+			["DKP_IM"] = 10,
 			["DKP_RaidBonus"] = 1,
-		},
-		["AltsRestore"] = {
-		},
-		["ironMan"] = {
 		},
 		["sync"] = {
 			["Ledarr-BurningLegion"] = {
@@ -3544,7 +3544,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Simas-BurningLegion"] = {
+			["Rabtym-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3564,12 +3564,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rabtym-BurningLegion"] = {
+			["Simas-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Viirg-BurningLegion"] = {
+			["Keltazaz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3584,12 +3584,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qrient-BurningLegion"] = {
+			["Angueme-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angueme-BurningLegion"] = {
+			["Qrient-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3619,7 +3619,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Vinoopij-BurningLegion"] = {
+			["Balirius-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3629,12 +3629,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Cygán-BurningLegion"] = {
+			["Merikea-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Balirius-BurningLegion"] = {
+			["Vinoopij-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3659,12 +3659,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Garkug-BurningLegion"] = {
+			["Assymia-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Assymia-BurningLegion"] = {
+			["Garkug-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3689,12 +3689,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Dominiko-BurningLegion"] = {
+			["Rempejdz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rempejdz-BurningLegion"] = {
+			["Dominiko-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3709,7 +3709,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Flammadator-BurningLegion"] = {
+			["Mitthi-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3749,7 +3749,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Oban-BurningLegion"] = {
+			["Lickitüng-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3759,7 +3759,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Lickitüng-BurningLegion"] = {
+			["Oban-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3769,7 +3769,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Ilizon-BurningLegion"] = {
+			["Martiziusz-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3779,7 +3779,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Martiziusz-BurningLegion"] = {
+			["Darioran-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3789,7 +3789,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Shoobpupper-BurningLegion"] = {
+			["Qergu-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3799,12 +3799,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kabajel-BurningLegion"] = {
+			["Mishiima-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Qergu-BurningLegion"] = {
+			["Angryhorse-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3854,17 +3854,17 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Enomekk-BurningLegion"] = {
+			["Mcbercik-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Recus-BurningLegion"] = {
+			["Rocknrooll-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rudswie-BurningLegion"] = {
+			["Maenlan-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3879,7 +3879,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Alakazamer-BurningLegion"] = {
+			["Recus-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3929,7 +3929,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Maenlan-BurningLegion"] = {
+			["Rudswie-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -3949,7 +3949,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rocknrooll-BurningLegion"] = {
+			["Alakazamer-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4059,7 +4059,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Ahdo-BurningLegion"] = {
+			["Senurtan-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4079,12 +4079,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Noaidee-BurningLegion"] = {
+			["Moadib-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Rakug-BurningLegion"] = {
+			["Noaidee-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4099,12 +4099,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Moadib-BurningLegion"] = {
+			["Rakug-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Starcar-BurningLegion"] = {
+			["Erednash-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4119,12 +4119,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Naghdar-BurningLegion"] = {
+			["Starcar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Erednash-BurningLegion"] = {
+			["Naghdar-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4144,7 +4144,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Zdepkaxd-BurningLegion"] = {
+			["Kskí-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4154,12 +4154,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Requs-BurningLegion"] = {
+			["Tienki-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Kskí-BurningLegion"] = {
+			["Zdepkaxd-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4174,12 +4174,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tequilä-BurningLegion"] = {
+			["Requs-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Tienki-BurningLegion"] = {
+			["Tequilä-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4239,7 +4239,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Senurtan-BurningLegion"] = {
+			["Ahdo-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4304,7 +4304,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mishiima-BurningLegion"] = {
+			["Kabajel-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4324,12 +4324,12 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mcbercik-BurningLegion"] = {
+			["Enomekk-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 			},
-			["Angryhorse-BurningLegion"] = {
+			["Shoobpupper-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4344,7 +4344,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Darioran-BurningLegion"] = {
+			["Ilizon-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4379,7 +4379,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Mitthi-BurningLegion"] = {
+			["Flammadator-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4404,7 +4404,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Merikea-BurningLegion"] = {
+			["Cygán-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4439,7 +4439,7 @@ QDKP2_Data = {
 				0, -- [2]
 				0, -- [3]
 			},
-			["Keltazaz-BurningLegion"] = {
+			["Viirg-BurningLegion"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
@@ -4484,8 +4484,8 @@ QDKP2_Data = {
 		},
 		["Alts"] = {
 			["Razerix-BurningLegion"] = "Aenash-BurningLegion",
-			["Tienki-BurningLegion"] = "Sheinen-BurningLegion",
 			["Klozapin-BurningLegion"] = "Avanafil-BurningLegion",
+			["Tienki-BurningLegion"] = "Sheinen-BurningLegion",
 		},
 		["raidRemoved"] = {
 		},
@@ -5082,7 +5082,25 @@ QDKP2_Data = {
 						"Is in the raid as the session starts", -- [3]
 					}, -- [3]
 				},
-				["_NAME"] = "Dalaran (Mythic)",
+				["RAID"] = {
+					{
+						12, -- [1]
+						1480024524.43, -- [2]
+						"Dragons of Nightmare", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						1480013952.19, -- [2]
+						"obecnosc", -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						5, -- [8]
+					}, -- [2]
+				},
 				["Morfajzero-BurningLegion"] = {
 					{
 						8, -- [1]
@@ -5107,25 +5125,7 @@ QDKP2_Data = {
 						"Is in the raid as the session starts", -- [3]
 					}, -- [3]
 				},
-				["RAID"] = {
-					{
-						12, -- [1]
-						1480024524.43, -- [2]
-						"Dragons of Nightmare", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						1480013952.19, -- [2]
-						"obecnosc", -- [3]
-						0, -- [4]
-						{
-							1, -- [1]
-						}, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						5, -- [8]
-					}, -- [2]
-				},
+				["_NAME"] = "Dalaran (Mythic)",
 				["Fantrise-BurningLegion"] = {
 					{
 						4, -- [1]
@@ -5901,19 +5901,19 @@ QDKP2_Data = {
 						}, -- [5]
 					}, -- [1]
 				},
-				["Gehennus-BurningLegion"] = {
+				["Harkog-BurningLegion"] = {
 					{
-						4, -- [1]
-						1479942986.08, -- [2]
+						2, -- [1]
+						1479773961.55, -- [2]
 						nil, -- [3]
 						0, -- [4]
 						{
-							1, -- [1]
+							[2] = 1,
 						}, -- [5]
 					}, -- [1]
 					{
 						2, -- [1]
-						1479773937.53, -- [2]
+						1479773960.54, -- [2]
 						nil, -- [3]
 						0, -- [4]
 						{
@@ -5922,52 +5922,14 @@ QDKP2_Data = {
 					}, -- [2]
 					{
 						2, -- [1]
-						1479773616.25, -- [2]
+						1479773303.94, -- [2]
 						"manual edit", -- [3]
 						0, -- [4]
 						{
-							3, -- [1]
-							3, -- [2]
+							7, -- [1]
+							4, -- [2]
 						}, -- [5]
 					}, -- [3]
-					{
-						2, -- [1]
-						1479773600.21, -- [2]
-						"manual edit", -- [3]
-						0, -- [4]
-						{
-							2, -- [1]
-							-1, -- [2]
-						}, -- [5]
-					}, -- [4]
-					{
-						2, -- [1]
-						1479772498.12, -- [2]
-						"manual edit", -- [3]
-						0, -- [4]
-						{
-							-6, -- [1]
-							-2, -- [2]
-						}, -- [5]
-					}, -- [5]
-					{
-						2, -- [1]
-						1479772165.62, -- [2]
-						nil, -- [3]
-						0, -- [4]
-						{
-							[2] = 2,
-						}, -- [5]
-					}, -- [6]
-					{
-						2, -- [1]
-						1479772162.61, -- [2]
-						nil, -- [3]
-						0, -- [4]
-						{
-							6, -- [1]
-						}, -- [5]
-					}, -- [7]
 				},
 				["Szniff-BurningLegion"] = {
 					{
@@ -6058,19 +6020,19 @@ QDKP2_Data = {
 						}, -- [5]
 					}, -- [2]
 				},
-				["Harkog-BurningLegion"] = {
+				["Gehennus-BurningLegion"] = {
 					{
-						2, -- [1]
-						1479773961.55, -- [2]
+						4, -- [1]
+						1479942986.08, -- [2]
 						nil, -- [3]
 						0, -- [4]
 						{
-							[2] = 1,
+							1, -- [1]
 						}, -- [5]
 					}, -- [1]
 					{
 						2, -- [1]
-						1479773960.54, -- [2]
+						1479773937.53, -- [2]
 						nil, -- [3]
 						0, -- [4]
 						{
@@ -6079,14 +6041,52 @@ QDKP2_Data = {
 					}, -- [2]
 					{
 						2, -- [1]
-						1479773303.94, -- [2]
+						1479773616.25, -- [2]
 						"manual edit", -- [3]
 						0, -- [4]
 						{
-							7, -- [1]
-							4, -- [2]
+							3, -- [1]
+							3, -- [2]
 						}, -- [5]
 					}, -- [3]
+					{
+						2, -- [1]
+						1479773600.21, -- [2]
+						"manual edit", -- [3]
+						0, -- [4]
+						{
+							2, -- [1]
+							-1, -- [2]
+						}, -- [5]
+					}, -- [4]
+					{
+						2, -- [1]
+						1479772498.12, -- [2]
+						"manual edit", -- [3]
+						0, -- [4]
+						{
+							-6, -- [1]
+							-2, -- [2]
+						}, -- [5]
+					}, -- [5]
+					{
+						2, -- [1]
+						1479772165.62, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 2,
+						}, -- [5]
+					}, -- [6]
+					{
+						2, -- [1]
+						1479772162.61, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							6, -- [1]
+						}, -- [5]
+					}, -- [7]
 				},
 				["Earthwaves-BurningLegion"] = {
 					{
@@ -6947,45 +6947,6 @@ QDKP2_Data = {
 				},
 				["_MANAGE"] = {
 				},
-				["Moadib-BurningLegion"] = {
-					{
-						8, -- [1]
-						1479938569.89, -- [2]
-						"Leaves the Raid", -- [3]
-					}, -- [1]
-					{
-						7, -- [1]
-						1479929721.34, -- [2]
-						"Returns Online", -- [3]
-					}, -- [2]
-					{
-						8, -- [1]
-						1479929719.33, -- [2]
-						"Joins the session, offline", -- [3]
-					}, -- [3]
-					{
-						8, -- [1]
-						1479928247.41, -- [2]
-						"Leaves the Raid", -- [3]
-					}, -- [4]
-					{
-						4, -- [1]
-						1479927795.17, -- [2]
-						"obecnosc", -- [3]
-						0, -- [4]
-						{
-							1, -- [1]
-						}, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						1, -- [8]
-					}, -- [5]
-					{
-						7, -- [1]
-						1479927776.14, -- [2]
-						"Is in the raid as the session starts", -- [3]
-					}, -- [6]
-				},
 				["Lickitüng-BurningLegion"] = {
 					{
 						8, -- [1]
@@ -7022,6 +6983,45 @@ QDKP2_Data = {
 					{
 						7, -- [1]
 						1479927776.15, -- [2]
+						"Is in the raid as the session starts", -- [3]
+					}, -- [6]
+				},
+				["Moadib-BurningLegion"] = {
+					{
+						8, -- [1]
+						1479938569.89, -- [2]
+						"Leaves the Raid", -- [3]
+					}, -- [1]
+					{
+						7, -- [1]
+						1479929721.34, -- [2]
+						"Returns Online", -- [3]
+					}, -- [2]
+					{
+						8, -- [1]
+						1479929719.33, -- [2]
+						"Joins the session, offline", -- [3]
+					}, -- [3]
+					{
+						8, -- [1]
+						1479928247.41, -- [2]
+						"Leaves the Raid", -- [3]
+					}, -- [4]
+					{
+						4, -- [1]
+						1479927795.17, -- [2]
+						"obecnosc", -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						1, -- [8]
+					}, -- [5]
+					{
+						7, -- [1]
+						1479927776.14, -- [2]
 						"Is in the raid as the session starts", -- [3]
 					}, -- [6]
 				},
@@ -7108,6 +7108,30 @@ QDKP2_Data = {
 						"Is in the raid as the session starts", -- [3]
 					}, -- [3]
 				},
+				["Pastuh-BurningLegion"] = {
+					{
+						8, -- [1]
+						1479928243.34, -- [2]
+						"Leaves the Raid", -- [3]
+					}, -- [1]
+					{
+						4, -- [1]
+						1479927795.17, -- [2]
+						"obecnosc", -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						1, -- [8]
+					}, -- [2]
+					{
+						7, -- [1]
+						1479927776.09, -- [2]
+						"Is in the raid as the session starts", -- [3]
+					}, -- [3]
+				},
 				["RAID"] = {
 					{
 						12, -- [1]
@@ -7151,30 +7175,6 @@ QDKP2_Data = {
 						nil, -- [7]
 						5, -- [8]
 					}, -- [7]
-				},
-				["Pastuh-BurningLegion"] = {
-					{
-						8, -- [1]
-						1479928243.34, -- [2]
-						"Leaves the Raid", -- [3]
-					}, -- [1]
-					{
-						4, -- [1]
-						1479927795.17, -- [2]
-						"obecnosc", -- [3]
-						0, -- [4]
-						{
-							1, -- [1]
-						}, -- [5]
-						nil, -- [6]
-						nil, -- [7]
-						1, -- [8]
-					}, -- [2]
-					{
-						7, -- [1]
-						1479927776.09, -- [2]
-						"Is in the raid as the session starts", -- [3]
-					}, -- [3]
 				},
 				["Fantrise-BurningLegion"] = {
 					{

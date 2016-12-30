@@ -70,7 +70,7 @@ RADataBase = {
 						["g"] = 0,
 						["r"] = 0,
 					},
-					["text_anchor"] = "center",
+					["panel_height"] = 30,
 					["RABattleResMainFrame"] = {
 						["IsLocked"] = false,
 						["position"] = {
@@ -78,7 +78,7 @@ RADataBase = {
 							["x"] = 0,
 						},
 					},
-					["panel_height"] = 30,
+					["text_anchor"] = "center",
 					["panel_show_res"] = true,
 					["text_color"] = {
 						["a"] = 1,
@@ -93,8 +93,8 @@ RADataBase = {
 						["g"] = 0,
 						["r"] = 0,
 					},
-					["panel_width"] = 130,
 					["panel_locked"] = false,
+					["panel_width"] = 130,
 				},
 				["Paste Text"] = {
 					["enabled"] = true,
@@ -178,8 +178,8 @@ RADataBase = {
 							["x"] = 0,
 						},
 					},
-					["show_level"] = true,
 					["filter"] = false,
+					["show_level"] = true,
 					["enabled"] = true,
 					["text_shadow"] = false,
 					["menu_priority"] = 23,
@@ -188,6 +188,12 @@ RADataBase = {
 				["Raid Assignments"] = {
 					["notes"] = {
 					},
+					["auto_format"] = true,
+					["text_size"] = 12,
+					["currently_shown"] = false,
+					["hide_on_combat"] = false,
+					["auto_complete"] = true,
+					["text_face"] = "Friz Quadrata TT",
 					["background"] = {
 						["show"] = true,
 						["r"] = 0,
@@ -195,18 +201,6 @@ RADataBase = {
 						["g"] = 0,
 						["b"] = 0,
 					},
-					["NotepadScreenFrame"] = {
-						["IsLocked"] = false,
-						["position"] = {
-							["y"] = 0,
-							["x"] = 0,
-						},
-					},
-					["currently_shown"] = false,
-					["hide_on_combat"] = false,
-					["auto_complete"] = true,
-					["text_face"] = "Friz Quadrata TT",
-					["auto_format"] = true,
 					["locked"] = false,
 					["menu_priority"] = 20,
 					["framestrata"] = "LOW",
@@ -219,7 +213,13 @@ RADataBase = {
 							["x"] = 0,
 						},
 					},
-					["text_size"] = 12,
+					["NotepadScreenFrame"] = {
+						["IsLocked"] = false,
+						["position"] = {
+							["y"] = 0,
+							["x"] = 0,
+						},
+					},
 				},
 				["Player Check"] = {
 					["RAPlayerCheckMainFrame"] = {
@@ -280,8 +280,8 @@ RADataBase = {
 									["08569025"] = 7,
 									["083D75FF"] = 3,
 									["07217E3D"] = 7,
-									["07E8A3AC"] = 9,
 									["07D2DE99"] = 9,
+									["07E8A3AC"] = 9,
 									["086ECB46"] = 9,
 									["08419E55"] = 10,
 									["071CB8A4"] = 4,
@@ -305,9 +305,9 @@ RADataBase = {
 									["0844DFFA"] = 4,
 									["083D75FF"] = 5,
 									["08458AB8"] = 5,
-									["07D2DE99"] = 5,
-									["086EA28D"] = 5,
 									["07217E3D"] = 5,
+									["086EA28D"] = 5,
+									["07D2DE99"] = 5,
 									["0822FE8E"] = 5,
 									["085B3E22"] = 6,
 								},
@@ -325,17 +325,17 @@ RADataBase = {
 									["085B3E22"] = 50,
 									["07D17CD0"] = 43,
 									["0847AE3D"] = 33,
-									["07D2DE99"] = 35,
-									["086F8064"] = 32,
-									["07D6B38C"] = 30,
 									["07E8A3AC"] = 3,
+									["08419E55"] = 18,
+									["07D6B38C"] = 30,
+									["07D2DE99"] = 35,
 									["086EA28D"] = 34,
 									["0721418C"] = 34,
 									["08569025"] = 37,
 									["086ECB46"] = 54,
 									["07664F2D"] = 38,
 									["07217E3D"] = 41,
-									["08419E55"] = 18,
+									["086F8064"] = 32,
 									["084235D2"] = 10,
 									["0822FE8E"] = 35,
 									["071CB8A4"] = 1,
@@ -446,7 +446,6 @@ RADataBase = {
 				},
 				["Aura Check"] = {
 					["enabled"] = true,
-					["menu_priority"] = 26,
 					["installed_history"] = {
 						{
 							"Touch of Corruption", -- [1]
@@ -459,6 +458,8 @@ RADataBase = {
 							1481140721, -- [3]
 						}, -- [2]
 					},
+					["menu_priority"] = 26,
+					["auto_install_from_trusted"] = false,
 					["AskToAcceptAura"] = {
 						["position"] = {
 							["y"] = 151,
@@ -466,7 +467,6 @@ RADataBase = {
 						},
 						["IsLocked"] = false,
 					},
-					["auto_install_from_trusted"] = false,
 					["only_from_guild"] = true,
 					["RAAuraCheckMainFrame"] = {
 						["IsLocked"] = false,

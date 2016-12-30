@@ -31,7 +31,7 @@ APHDB = {
 				},
 				[128820] = {
 					41, -- [1]
-					1831987, -- [2]
+					2145587, -- [2]
 					2560000, -- [3]
 				},
 			},
@@ -46,8 +46,8 @@ APHDB = {
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Redus - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

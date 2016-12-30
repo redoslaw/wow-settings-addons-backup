@@ -3,8 +3,8 @@ GuildSearchDB = {
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Redus - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

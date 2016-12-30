@@ -7,9 +7,9 @@ TradeSkillMaster_AppHelperDB = {
 	},
 	["wowToken"] = {
 		["EU"] = {
-			["key"] = 10544624,
-			["data"] = 101430,
-			["updateTime"] = 1483119229,
+			["key"] = 11893047,
+			["data"] = 102970,
+			["updateTime"] = 1483125094,
 		},
 	},
 	["analytics"] = {
@@ -19,7 +19,8 @@ TradeSkillMaster_AppHelperDB = {
 			"[\"Auctioning\",\"CANCEL_GROUP_START\",\"v3.0.14\",\"\",1483119099]", -- [3]
 			"[\"Auctioning\",\"POST_GROUP_START\",\"v3.0.14\",\"\",1483119164]", -- [4]
 			"[\"Auctioning\",\"CANCEL_GROUP_START\",\"v3.0.14\",\"\",1483119204]", -- [5]
+			"[\"Auctioning\",\"POST_GROUP_START\",\"v3.0.14\",\"\",1483125097]", -- [6]
 		},
-		["updateTime"] = 1483119204,
+		["updateTime"] = 1483125097,
 	},
 }

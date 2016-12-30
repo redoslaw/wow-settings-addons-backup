@@ -7,7 +7,6 @@ WhisperPopDB = {
 	["history"] = {
 		{
 			["received"] = 1,
-			["name"] = "Recus-BurningLegion",
 			["class"] = "PALADIN",
 			["messages"] = {
 				"000:26:14jeszcze jedno", -- [1]
@@ -292,20 +291,154 @@ WhisperPopDB = {
 				"100:43:37zaraz chyba idziem", -- [280]
 				"018:42:39inv", -- [281]
 				"018:42:41>.>", -- [282]
+				"019:02:04bedzie chujnia xd", -- [283]
+				"019:02:39mowilem :S", -- [284]
+				"119:08:10nie widze tego nb", -- [285]
+				"119:08:13mi zostalo 40 min :D", -- [286]
+				"019:08:13ja tez", -- [287]
+				"019:40:23czesc, kogo szukacie?", -- [288]
+				"119:40:56fajnych cycatych dziewczyn", -- [289]
+				"119:41:03obojetnie w jakim specu", -- [290]
+				"019:41:03shieet", -- [291]
+				"119:41:09liczy sie transmo", -- [292]
+				"019:41:27leon slyszalem ze ma cycki", -- [293]
+				"019:41:35liczy sie?", -- [294]
+				"019:46:08co robimy w takim razie?", -- [295]
+				"019:46:19bo nie bylem na sluchawkach od poczatku vh prawie", -- [296]
+				"119:46:42no na dzis juz koniec;p", -- [297]
+				"019:46:58aha", -- [298]
+				"019:47:03to zesmy zrobili ", -- [299]
+				"119:47:19ugadamy sie na to w pn pewnie", -- [300]
+				"019:47:36tylko zrobmy to bo takie przekladanie   jest meczace", -- [301]
 			},
+			["name"] = "Recus-BurningLegion",
 		}, -- [1]
 		{
 			["received"] = 1,
-			["name"] = "Yakushi-Burning Legion",
-			["class"] = "HUNTER",
+			["class"] = "DRUID",
 			["messages"] = {
-				"018:42:05inv", -- [1]
+				"015:49:57sheinen przegina z iloscia raidow ^", -- [1]
+				"115:50:26bo niedzielny jest?", -- [2]
+				"015:50:29niee", -- [3]
+				"015:50:31wtorek ;P", -- [4]
+				"115:51:08tez doddatkowy dla chetnych :P", -- [5]
+				"115:51:14albo alt run", -- [6]
+				"016:44:31dajesz na ts", -- [7]
+				"020:02:20inv", -- [8]
+				"019:53:50inv", -- [9]
+				"019:54:45inv", -- [10]
+				"122:01:45sorry ze jape wydarlem...  ", -- [11]
+				"122:01:58co chwile ktos do mnie puka do pokoju i pytaja o to samo", -- [12]
+				"122:02:07i tylko cisnienie podnosza", -- [13]
+				"022:02:16^", -- [14]
+				"022:02:20no problemo amigo", -- [15]
+				"122:03:50awa Ice Block", -- [16]
+				"122:03:50awa Ice Block", -- [17]
+				"122:04:36awa Ice Block", -- [18]
+				"122:04:36awa Ice Block", -- [19]
+				"122:04:37awa Ice Block", -- [20]
+				"019:51:14inv", -- [21]
+				"019:57:13inv", -- [22]
+				"023:42:37jeez", -- [23]
+				"023:45:42kupie jej jednak zyletke", -- [24]
+				"123:46:12xD", -- [25]
+				"000:32:45:D", -- [26]
+				"019:47:59inv", -- [27]
+				"121:26:29masz nasionka albo hp potki na zbyciu?", -- [28]
+				"021:26:58oj nie :<", -- [29]
+				"021:27:005 sztuk", -- [30]
+				"021:27:08jak chcesz", -- [31]
+				"020:49:39inv", -- [32]
+				"020:50:00inv", -- [33]
+				"020:50:04red inv", -- [34]
+				"021:56:44inv", -- [35]
+				"019:50:58inv", -- [36]
+				"019:52:57inv red", -- [37]
+				"005:32:24nolife :P", -- [38]
+				"105:32:33:P", -- [39]
+				"019:55:56red inv", -- [40]
+				"019:58:51red inv", -- [41]
+				"019:57:11inv", -- [42]
+				"019:57:15red inv", -- [43]
+				"006:41:04juz na nogach  ?^", -- [44]
+				"106:41:17serial ogladam", -- [45]
+				"106:41:20caly sezon na raz :p", -- [46]
+				"006:41:42:P", -- [47]
+				"006:41:47czyli jeszcze bez snu", -- [48]
+				"106:41:57nom", -- [49]
+				"006:42:12:P", -- [50]
+				"006:46:35golda Ci na paypala pozniej podesle ^", -- [51]
+				"106:46:47kk", -- [52]
+				"021:35:21red inv", -- [53]
+				"022:34:32dajesz red  ^", -- [54]
+				"122:34:45niech sam Ci sheinen powie", -- [55]
+				"022:34:59ale czego dotyczy temat", -- [56]
+				"122:35:02jego", -- [57]
+				"022:35:15nie chce prowadzic raidow / przerwa?", -- [58]
+				"019:38:07nie na tsie ? ^", -- [59]
+				"119:38:41skoncze mythica i wbije", -- [60]
+				"119:40:11..", -- [61]
+				"019:51:10red inv", -- [62]
+				"020:15:23wez ml'a od sheinena zeby sie nie zjebalo znowu", -- [63]
+				"100:15:36jestes?:D", -- [64]
+				"100:17:02Jestes? :p", -- [65]
+				"021:29:28inv", -- [66]
+				"021:29:36red inv", -- [67]
+				"022:37:35wrzuc mi skade msiek", -- [68]
+				"122:37:40sa live logi", -- [69]
+				"122:37:44na stronie dalem linka do logow", -- [70]
+				"022:38:14danke", -- [71]
+				"022:38:26wogole chuj, rzucam fajki i jestem zajebiscie spiacy p.p", -- [72]
+				"022:38:35ale widze ze spoko idzie", -- [73]
+				"022:38:38wiec tak trzymac ^", -- [74]
+				"020:10:14kupilem wszystko ale zapomnialem o flachach , masz sprzedac ?:<", -- [75]
+				"020:10:15ciii", -- [76]
+				"120:10:24no ja sam wzialem 2 :D", -- [77]
+				"120:10:34serio", -- [78]
+				"120:10:41dopiero je wycraftowalem pod blood vendorem -_-", -- [79]
+				"022:36:43grupa smierci :P", -- [80]
+				"122:36:50sueside squad", -- [81]
+				"119:48:09cho na ts", -- [82]
+				"019:04:52mama gosci misiek, wiec jak cos to nie wiem o ktorej bede na 100%", -- [83]
+				"019:04:56moge slackowac :P", -- [84]
+				"020:05:37po nythendrze wejdziesz za mnie bo mam gosci", -- [85]
+				"020:05:42a teraz w uj na trinkecie mi zalezy", -- [86]
+				"120:05:50na luzie", -- [87]
+				"021:08:34red inv", -- [88]
+				"121:09:00sheinen ma lida", -- [89]
+				"021:15:18inv", -- [90]
+				"119:05:21xD", -- [91]
+				"119:05:22bez kitu", -- [92]
+				"119:44:46zdzwonilmy sie ;P", -- [93]
 			},
+			["name"] = "Moadib-BurningLegion",
 		}, -- [2]
 		{
 			["received"] = 1,
-			["name"] = "Queth#2417",
+			["class"] = "HUNTER",
+			["name"] = "Yakushi-BurningLegion",
+			["messages"] = {
+				"119:05:33ten nightbane", -- [1]
+				"119:05:35to bedzie komedia", -- [2]
+				"119:05:49Recus tez uwazza ze moze byc lipa z depsem tam ;)", -- [3]
+				"019:06:35damy rade", -- [4]
+				"019:06:38szukam sluchawek nowych", -- [5]
+				"019:06:41zaraz opowiem", -- [6]
+				"119:06:59mi zostalo jakies 30-40 min z tego 1,5h :p", -- [7]
+			},
+		}, -- [3]
+		{
+			["received"] = 1,
+			["class"] = "HUNTER",
+			["name"] = "Yakushi-Burning Legion",
+			["messages"] = {
+				"018:42:05inv", -- [1]
+			},
+		}, -- [4]
+		{
+			["received"] = 1,
 			["class"] = "BN",
+			["name"] = "Queth#2417",
 			["messages"] = {
 				"023:11:33masz logi z dzis?", -- [1]
 				"123:11:41nie robilem live", -- [2]
@@ -473,11 +606,11 @@ WhisperPopDB = {
 				"119:49:54zeby ML byl na tobie itd", -- [164]
 				"018:35:15bede kolo 20 wtedy na m+0 mozna", -- [165]
 			},
-		}, -- [3]
+		}, -- [5]
 		{
 			["received"] = 1,
-			["name"] = "Mishiima-BurningLegion",
 			["class"] = "WARRIOR",
+			["name"] = "Mishiima-BurningLegion",
 			["messages"] = {
 				"019:53:53jestes?", -- [1]
 				"019:56:43masz chwile czasu zeby pogadac?", -- [2]
@@ -548,22 +681,22 @@ WhisperPopDB = {
 				"018:21:40narazie musze q porobic bo dopiero sie zalogowalem:D", -- [67]
 				"118:21:58;p spoko", -- [68]
 			},
-		}, -- [4]
+		}, -- [6]
 		{
 			["received"] = 1,
-			["name"] = "Werell-BurningLegion",
 			["class"] = "ROGUE",
+			["name"] = "Werell-BurningLegion",
 			["messages"] = {
 				"118:04:17hej", -- [1]
 				"018:04:27Czy z 57 lvl Rouge assasination mogę dolonczyc do waszej grupy?", -- [2]
 				"118:05:18Musialbys wypelnic krotki formularz na wipeforged.com", -- [3]
 				"118:05:38napisac pare slow o sobie :) I mysle ze by nie bylo problemu - jesli chodzi o socjal", -- [4]
 			},
-		}, -- [5]
+		}, -- [7]
 		{
 			["received"] = 1,
-			["name"] = "Azurewratmg-BurningLegion",
 			["class"] = "MAGE",
+			["name"] = "Azurewratmg-BurningLegion",
 			["messages"] = {
 				"017:00:12czesc", -- [1]
 				"017:00:22inv to ja azur dasz inva", -- [2]
@@ -862,15 +995,15 @@ WhisperPopDB = {
 				"018:04:05z zona idziesz??", -- [295]
 				"118:04:14nie;)", -- [296]
 			},
-		}, -- [6]
+		}, -- [8]
 		{
 			["received"] = 1,
-			["name"] = "Werell-Burning Legion",
 			["class"] = "ROGUE",
+			["name"] = "Werell-Burning Legion",
 			["messages"] = {
 				"018:04:07Hej", -- [1]
 			},
-		}, -- [7]
+		}, -- [9]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -888,7 +1021,7 @@ WhisperPopDB = {
 				"112:27:30Generalnie to nighthold za 2-3 tygodnie", -- [10]
 				"112:27:56Powodzenia, trzymaj sie", -- [11]
 			},
-		}, -- [8]
+		}, -- [10]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -943,7 +1076,7 @@ WhisperPopDB = {
 				"020:39:41kochasz mnie za to ?", -- [47]
 				"123:44:38chcesz na tego kara?", -- [48]
 			},
-		}, -- [9]
+		}, -- [11]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -1088,7 +1221,7 @@ WhisperPopDB = {
 				"123:38:47zara sie dowiem", -- [138]
 			},
 			["name"] = "Requs-BurningLegion",
-		}, -- [10]
+		}, -- [12]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -1211,7 +1344,7 @@ WhisperPopDB = {
 				"123:33:32nie", -- [116]
 			},
 			["name"] = "Avanafil-BurningLegion",
-		}, -- [11]
+		}, -- [13]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -1425,7 +1558,7 @@ WhisperPopDB = {
 				"122:58:31wbijaj", -- [206]
 				"122:59:56wbijasz?", -- [207]
 			},
-		}, -- [12]
+		}, -- [14]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -1503,7 +1636,7 @@ WhisperPopDB = {
 				"022:20:42nie będe tykał BL'a ty tylko wolaj o drugi ", -- [70]
 				"122:20:47ok", -- [71]
 			},
-		}, -- [13]
+		}, -- [15]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -1529,7 +1662,7 @@ WhisperPopDB = {
 				"122:09:03robiles odyna?", -- [18]
 				"122:09:05mozesz wejsc?", -- [19]
 			},
-		}, -- [14]
+		}, -- [16]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -1735,7 +1868,7 @@ WhisperPopDB = {
 				"022:08:25moze sultanow motywacji mu wyslesz :D ", -- [198]
 				"022:08:27tak btw :D", -- [199]
 			},
-		}, -- [15]
+		}, -- [17]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -1746,7 +1879,7 @@ WhisperPopDB = {
 				"120:55:33Jak napisali mi takie prosby to nie bede nawet tematu zaczynal co jak i czemu", -- [3]
 				"120:55:52Przypakiem polecialo z serwera, a mialo byc z kanalu", -- [4]
 			},
-		}, -- [16]
+		}, -- [18]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -1754,7 +1887,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:54:46no spoko, mowicie ze moge siedziec jak nic nie robie a z powodu 2 pajacow kicka dostaje teraz", -- [1]
 			},
-		}, -- [17]
+		}, -- [19]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -1767,7 +1900,7 @@ WhisperPopDB = {
 				"020:47:29xD", -- [6]
 			},
 			["name"] = "Voidflame-BurningLegion",
-		}, -- [18]
+		}, -- [20]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -1785,7 +1918,7 @@ WhisperPopDB = {
 				"020:21:49Zaspałem ale jak coś już jestem", -- [11]
 			},
 			["name"] = "Dario#22533",
-		}, -- [19]
+		}, -- [21]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -1845,7 +1978,7 @@ WhisperPopDB = {
 				"020:04:07dobra to lece na bg warkiem", -- [53]
 			},
 			["name"] = "Szniff-BurningLegion",
-		}, -- [20]
+		}, -- [22]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -1855,7 +1988,7 @@ WhisperPopDB = {
 				"015:13:39mhm", -- [2]
 				"020:01:13ej sorka nie bylo mnie chwile ja na stand by?", -- [3]
 			},
-		}, -- [21]
+		}, -- [23]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -1863,7 +1996,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:01:13ale to whatever", -- [1]
 			},
-		}, -- [22]
+		}, -- [24]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -1927,7 +2060,7 @@ WhisperPopDB = {
 				"119:57:12ten sam co w encore", -- [56]
 				"119:57:15rc_loot_council", -- [57]
 			},
-		}, -- [23]
+		}, -- [25]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -1939,7 +2072,7 @@ WhisperPopDB = {
 				"119:45:03Tak pytam czy jakis powod byl ^^ ", -- [4]
 				"119:45:17Bo mialem byc na lawce a wzieli mnie bo zrezygnowalas", -- [5]
 			},
-		}, -- [24]
+		}, -- [26]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -1948,7 +2081,7 @@ WhisperPopDB = {
 				"116:15:00zaczeliscie tego nla?", -- [1]
 				"016:15:22nie", -- [2]
 			},
-		}, -- [25]
+		}, -- [27]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -2001,7 +2134,7 @@ WhisperPopDB = {
 				"115:41:41tam sie wiekszosc rzeczy ustala :D", -- [45]
 				"015:41:47no tak :P", -- [46]
 			},
-		}, -- [26]
+		}, -- [28]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2019,7 +2152,7 @@ WhisperPopDB = {
 				"002:11:33was lagging badly", -- [10]
 				"002:11:54shut up u meanward if u don't know the reason", -- [11]
 			},
-		}, -- [27]
+		}, -- [29]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -2078,7 +2211,7 @@ WhisperPopDB = {
 				"100:30:48i ja", -- [51]
 				"100:31:03wiec we 2 musimy nadrabiac za tego hunta wtedy", -- [52]
 			},
-		}, -- [28]
+		}, -- [30]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -2116,7 +2249,7 @@ WhisperPopDB = {
 				"023:24:30nie moge wejsc na ts, kobita sie wkurwia a nie mam sluchawek", -- [31]
 			},
 			["name"] = "Abunasan-BurningLegion",
-		}, -- [29]
+		}, -- [31]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2214,7 +2347,7 @@ WhisperPopDB = {
 				"016:57:20ok", -- [90]
 				"023:24:29wa ogarniete", -- [91]
 			},
-		}, -- [30]
+		}, -- [32]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -2248,7 +2381,7 @@ WhisperPopDB = {
 				"117:29:37lol", -- [27]
 			},
 			["name"] = "Regiss#2765",
-		}, -- [31]
+		}, -- [33]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2312,7 +2445,7 @@ WhisperPopDB = {
 				"017:23:40bedzie ^^", -- [57]
 			},
 			["name"] = "Qaddafi-BurningLegion",
-		}, -- [32]
+		}, -- [34]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2320,7 +2453,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:19:42so orgri?", -- [1]
 			},
-		}, -- [33]
+		}, -- [35]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -2328,7 +2461,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:54:22Hej, mam pytanie. Zeby zapisac sie na raidy musze zarejestrowac sie raid.wipeforged.com czy musze jeszcze wypełnic formularz na stronie głównej?", -- [1]
 			},
-		}, -- [34]
+		}, -- [36]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -2354,7 +2487,7 @@ WhisperPopDB = {
 				"016:52:19ta", -- [18]
 				"116:52:31to wpisz sie", -- [19]
 			},
-		}, -- [35]
+		}, -- [37]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -2363,7 +2496,7 @@ WhisperPopDB = {
 				"117:45:59|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
 			},
 			["name"] = "Sahlburger-Stormscale",
-		}, -- [36]
+		}, -- [38]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2846,7 +2979,7 @@ WhisperPopDB = {
 				"116:08:00wbijam na ts", -- [475]
 				"016:08:04jestes na ts xd", -- [476]
 			},
-		}, -- [37]
+		}, -- [39]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -2855,7 +2988,7 @@ WhisperPopDB = {
 				"115:30:51how much?", -- [1]
 				"015:31:00hey, 500k", -- [2]
 			},
-		}, -- [38]
+		}, -- [40]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -2907,7 +3040,7 @@ WhisperPopDB = {
 				"113:34:57No nic, powodzenia Ci zycze - obys znalaz to czego szukasz. Szkoda ze nie zdazylismy pograc.", -- [44]
 				"013:36:11Okazalo sie, ze mam kumpla innej gildii z ktorym kiedys dlugo gralem no i zaproponowal, a raczej meczyl mnie 3 dni bym doszedl do nich", -- [45]
 			},
-		}, -- [39]
+		}, -- [41]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -3005,7 +3138,7 @@ WhisperPopDB = {
 				"019:00:28co to za kicki:D", -- [90]
 				"018:02:25jak tam swieta? wesolych tak wogole ;p", -- [91]
 			},
-		}, -- [40]
+		}, -- [42]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -3014,14 +3147,14 @@ WhisperPopDB = {
 				"002:18:51invniesz mi alta do gildii? (Harkog)", -- [1]
 				"002:19:15dzieki", -- [2]
 			},
-		}, -- [41]
+		}, -- [43]
 		{
 			["class"] = "PRIEST",
 			["messages"] = {
 				"100:31:18wipeforged.com", -- [1]
 			},
 			["name"] = "Kime-BurningLegion",
-		}, -- [42]
+		}, -- [44]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -3038,7 +3171,7 @@ WhisperPopDB = {
 				"023:25:02inv", -- [10]
 			},
 			["name"] = "Speyside-BurningLegion",
-		}, -- [43]
+		}, -- [45]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3051,7 +3184,7 @@ WhisperPopDB = {
 				"115:33:01take care", -- [5]
 				"015:33:33u2", -- [6]
 			},
-		}, -- [44]
+		}, -- [46]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -3064,7 +3197,7 @@ WhisperPopDB = {
 				"011:39:31can you link a mats ? :d", -- [5]
 				"111:40:06 |cffffd000|Henchant:188342|h[Alchemy: Flask of the Seventh Demon]|h|r", -- [6]
 			},
-		}, -- [45]
+		}, -- [47]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -3072,104 +3205,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"011:38:33sup", -- [1]
 			},
-		}, -- [46]
-		{
-			["received"] = 1,
-			["class"] = "DRUID",
-			["name"] = "Moadib-BurningLegion",
-			["messages"] = {
-				"015:49:57sheinen przegina z iloscia raidow ^", -- [1]
-				"115:50:26bo niedzielny jest?", -- [2]
-				"015:50:29niee", -- [3]
-				"015:50:31wtorek ;P", -- [4]
-				"115:51:08tez doddatkowy dla chetnych :P", -- [5]
-				"115:51:14albo alt run", -- [6]
-				"016:44:31dajesz na ts", -- [7]
-				"020:02:20inv", -- [8]
-				"019:53:50inv", -- [9]
-				"019:54:45inv", -- [10]
-				"122:01:45sorry ze jape wydarlem...  ", -- [11]
-				"122:01:58co chwile ktos do mnie puka do pokoju i pytaja o to samo", -- [12]
-				"122:02:07i tylko cisnienie podnosza", -- [13]
-				"022:02:16^", -- [14]
-				"022:02:20no problemo amigo", -- [15]
-				"122:03:50awa Ice Block", -- [16]
-				"122:03:50awa Ice Block", -- [17]
-				"122:04:36awa Ice Block", -- [18]
-				"122:04:36awa Ice Block", -- [19]
-				"122:04:37awa Ice Block", -- [20]
-				"019:51:14inv", -- [21]
-				"019:57:13inv", -- [22]
-				"023:42:37jeez", -- [23]
-				"023:45:42kupie jej jednak zyletke", -- [24]
-				"123:46:12xD", -- [25]
-				"000:32:45:D", -- [26]
-				"019:47:59inv", -- [27]
-				"121:26:29masz nasionka albo hp potki na zbyciu?", -- [28]
-				"021:26:58oj nie :<", -- [29]
-				"021:27:005 sztuk", -- [30]
-				"021:27:08jak chcesz", -- [31]
-				"020:49:39inv", -- [32]
-				"020:50:00inv", -- [33]
-				"020:50:04red inv", -- [34]
-				"021:56:44inv", -- [35]
-				"019:50:58inv", -- [36]
-				"019:52:57inv red", -- [37]
-				"005:32:24nolife :P", -- [38]
-				"105:32:33:P", -- [39]
-				"019:55:56red inv", -- [40]
-				"019:58:51red inv", -- [41]
-				"019:57:11inv", -- [42]
-				"019:57:15red inv", -- [43]
-				"006:41:04juz na nogach  ?^", -- [44]
-				"106:41:17serial ogladam", -- [45]
-				"106:41:20caly sezon na raz :p", -- [46]
-				"006:41:42:P", -- [47]
-				"006:41:47czyli jeszcze bez snu", -- [48]
-				"106:41:57nom", -- [49]
-				"006:42:12:P", -- [50]
-				"006:46:35golda Ci na paypala pozniej podesle ^", -- [51]
-				"106:46:47kk", -- [52]
-				"021:35:21red inv", -- [53]
-				"022:34:32dajesz red  ^", -- [54]
-				"122:34:45niech sam Ci sheinen powie", -- [55]
-				"022:34:59ale czego dotyczy temat", -- [56]
-				"122:35:02jego", -- [57]
-				"022:35:15nie chce prowadzic raidow / przerwa?", -- [58]
-				"019:38:07nie na tsie ? ^", -- [59]
-				"119:38:41skoncze mythica i wbije", -- [60]
-				"119:40:11..", -- [61]
-				"019:51:10red inv", -- [62]
-				"020:15:23wez ml'a od sheinena zeby sie nie zjebalo znowu", -- [63]
-				"100:15:36jestes?:D", -- [64]
-				"100:17:02Jestes? :p", -- [65]
-				"021:29:28inv", -- [66]
-				"021:29:36red inv", -- [67]
-				"022:37:35wrzuc mi skade msiek", -- [68]
-				"122:37:40sa live logi", -- [69]
-				"122:37:44na stronie dalem linka do logow", -- [70]
-				"022:38:14danke", -- [71]
-				"022:38:26wogole chuj, rzucam fajki i jestem zajebiscie spiacy p.p", -- [72]
-				"022:38:35ale widze ze spoko idzie", -- [73]
-				"022:38:38wiec tak trzymac ^", -- [74]
-				"020:10:14kupilem wszystko ale zapomnialem o flachach , masz sprzedac ?:<", -- [75]
-				"020:10:15ciii", -- [76]
-				"120:10:24no ja sam wzialem 2 :D", -- [77]
-				"120:10:34serio", -- [78]
-				"120:10:41dopiero je wycraftowalem pod blood vendorem -_-", -- [79]
-				"022:36:43grupa smierci :P", -- [80]
-				"122:36:50sueside squad", -- [81]
-				"119:48:09cho na ts", -- [82]
-				"019:04:52mama gosci misiek, wiec jak cos to nie wiem o ktorej bede na 100%", -- [83]
-				"019:04:56moge slackowac :P", -- [84]
-				"020:05:37po nythendrze wejdziesz za mnie bo mam gosci", -- [85]
-				"020:05:42a teraz w uj na trinkecie mi zalezy", -- [86]
-				"120:05:50na luzie", -- [87]
-				"021:08:34red inv", -- [88]
-				"121:09:00sheinen ma lida", -- [89]
-				"021:15:18inv", -- [90]
-			},
-		}, -- [47]
+		}, -- [48]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3178,7 +3214,7 @@ WhisperPopDB = {
 				"020:46:43duzo macie magow ?", -- [1]
 				"120:58:472", -- [2]
 			},
-		}, -- [48]
+		}, -- [49]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -3280,7 +3316,7 @@ WhisperPopDB = {
 				"020:25:25Speyside?", -- [94]
 				"020:44:47jest slot na pajaka?", -- [95]
 			},
-		}, -- [49]
+		}, -- [50]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3331,7 +3367,7 @@ WhisperPopDB = {
 				"020:07:27bedzie miejsce dla mnie na mythic czy jest juz full ?", -- [44]
 			},
 			["name"] = "Sneakypand-BurningLegion",
-		}, -- [50]
+		}, -- [51]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -3339,7 +3375,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:41:11inv", -- [1]
 			},
-		}, -- [51]
+		}, -- [52]
 		{
 			["received"] = 1,
 			["protected"] = 1,
@@ -3432,7 +3468,7 @@ WhisperPopDB = {
 				"118:34:04wipeforged.com", -- [84]
 				"019:10:38daj cos mimarudzasec :P", -- [85]
 			},
-		}, -- [52]
+		}, -- [53]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3448,7 +3484,7 @@ WhisperPopDB = {
 				"119:10:26tak", -- [8]
 				"019:10:28ty", -- [9]
 			},
-		}, -- [53]
+		}, -- [54]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3457,7 +3493,7 @@ WhisperPopDB = {
 				"018:00:07hej", -- [2]
 			},
 			["name"] = "Vizzü-Burning Legion",
-		}, -- [54]
+		}, -- [55]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3476,7 +3512,7 @@ WhisperPopDB = {
 				"017:10:25co musz?", -- [11]
 				"017:10:29musza?", -- [12]
 			},
-		}, -- [55]
+		}, -- [56]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3485,7 +3521,7 @@ WhisperPopDB = {
 				"015:40:55!note Heal", -- [1]
 				"115:40:55Note updated.", -- [2]
 			},
-		}, -- [56]
+		}, -- [57]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3493,7 +3529,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:49siemka ", -- [1]
 			},
-		}, -- [57]
+		}, -- [58]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3501,7 +3537,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:22To ja z porośba i inva .", -- [1]
 			},
-		}, -- [58]
+		}, -- [59]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3509,7 +3545,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:08yo", -- [1]
 			},
-		}, -- [59]
+		}, -- [60]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3542,7 +3578,7 @@ WhisperPopDB = {
 				"015:28:41luz", -- [26]
 			},
 			["name"] = "Simas-BurningLegion",
-		}, -- [60]
+		}, -- [61]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3638,7 +3674,7 @@ WhisperPopDB = {
 				"015:07:01ok jakby co mimo iz jestem tam na dzis zapisany to nie moge poprostu zmienic i mnie nie bedzie dzis :/", -- [89]
 			},
 			["name"] = "Alastor-BurningLegion",
-		}, -- [61]
+		}, -- [62]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -3646,7 +3682,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:04:49main tutaj ", -- [1]
 			},
-		}, -- [62]
+		}, -- [63]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3654,7 +3690,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:03:21daj inva prosze od Lolerza jestem", -- [1]
 			},
-		}, -- [63]
+		}, -- [64]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3662,7 +3698,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:15:13suggest him after boss", -- [1]
 			},
-		}, -- [64]
+		}, -- [65]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3692,7 +3728,7 @@ WhisperPopDB = {
 				"100:24:47bb :)", -- [23]
 			},
 			["name"] = "Clÿdê-Thrall",
-		}, -- [65]
+		}, -- [66]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -3733,7 +3769,7 @@ WhisperPopDB = {
 				"120:35:57dz", -- [34]
 			},
 			["name"] = "Zaiy-BurningLegion",
-		}, -- [66]
+		}, -- [67]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -3744,7 +3780,7 @@ WhisperPopDB = {
 				"120:30:03progres dla chetnych:)", -- [3]
 				"020:30:04jasne", -- [4]
 			},
-		}, -- [67]
+		}, -- [68]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3764,7 +3800,7 @@ WhisperPopDB = {
 				"020:27:33moge", -- [13]
 			},
 			["name"] = "Harkog-BurningLegion",
-		}, -- [68]
+		}, -- [69]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3809,7 +3845,7 @@ WhisperPopDB = {
 				"120:10:49ja sam do 21 jestem", -- [37]
 				"020:11:24ok to ja spadam do jutra", -- [38]
 			},
-		}, -- [69]
+		}, -- [70]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -3823,7 +3859,7 @@ WhisperPopDB = {
 				"100:04:04oki", -- [6]
 				"020:02:08.", -- [7]
 			},
-		}, -- [70]
+		}, -- [71]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3936,7 +3972,7 @@ WhisperPopDB = {
 				"119:17:32no zawsze potencjalna opcja :D", -- [106]
 			},
 			["name"] = "Stamperia-BurningLegion",
-		}, -- [71]
+		}, -- [72]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4033,14 +4069,14 @@ WhisperPopDB = {
 				"017:05:43 |Hitem:137578::::::::110:72::11::::|h[Snowfeather Hunter]|h", -- [89]
 				"019:16:51good point", -- [90]
 			},
-		}, -- [72]
+		}, -- [73]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
 				"119:12:57napisz do mnie z tego", -- [1]
 			},
 			["name"] = "Cygán-BurningLegion",
-		}, -- [73]
+		}, -- [74]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -4048,7 +4084,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:12:45inv alt Rachark", -- [1]
 			},
-		}, -- [74]
+		}, -- [75]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -4059,7 +4095,7 @@ WhisperPopDB = {
 				"117:51:45OK dzisiaj obadamy i damy znac :)", -- [3]
 				"017:52:00super dzieki", -- [4]
 			},
-		}, -- [75]
+		}, -- [76]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -4067,7 +4103,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:04:05ale gadales z  mischima juz chyba?", -- [1]
 			},
-		}, -- [76]
+		}, -- [77]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -4116,7 +4152,7 @@ WhisperPopDB = {
 				"016:59:27z 2 godziny temu", -- [42]
 			},
 			["name"] = "Morfizer-BurningLegion",
-		}, -- [77]
+		}, -- [78]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4128,7 +4164,7 @@ WhisperPopDB = {
 				"001:06:49nie wazne :0 thx", -- [4]
 				"101:07:00Ja wzialem Redus bo Red bylo zajete :c", -- [5]
 			},
-		}, -- [78]
+		}, -- [79]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4136,7 +4172,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:06:20grales kiedys na molotenie ?", -- [1]
 			},
-		}, -- [79]
+		}, -- [80]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -4145,7 +4181,7 @@ WhisperPopDB = {
 				"023:41:19hi can you craft 2x  |cffffffff|Hitem:76084::::::::110:267::::::|h[Flask of Spring Blossoms]|h|r? :)", -- [1]
 				"123:41:39hi, sorry starting m+ right now", -- [2]
 			},
-		}, -- [80]
+		}, -- [81]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4168,7 +4204,7 @@ WhisperPopDB = {
 				"022:51:42sorry wrong chat mate", -- [16]
 			},
 			["name"] = "pusher#2463",
-		}, -- [81]
+		}, -- [82]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4258,7 +4294,7 @@ WhisperPopDB = {
 				"121:55:55chodzi o item czy po prostu.. ?", -- [82]
 				"021:56:18po prostu", -- [83]
 			},
-		}, -- [82]
+		}, -- [83]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4266,14 +4302,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:24:52zaprosisz do gildi mam w gildi dh \"Burnny\" ", -- [1]
 			},
-		}, -- [83]
+		}, -- [84]
 		{
 			["class"] = "WARLOCK",
 			["messages"] = {
 				"117:00:44 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Navalon-LosErrantes",
-		}, -- [84]
+		}, -- [85]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
@@ -4282,7 +4318,7 @@ WhisperPopDB = {
 				"116:59:41 |cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r |cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
 			},
 			["name"] = "Icyy-Ragnaros",
-		}, -- [85]
+		}, -- [86]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -4291,7 +4327,7 @@ WhisperPopDB = {
 				"116:56:53 |cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Teeksyy-TarrenMill",
-		}, -- [86]
+		}, -- [87]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4318,7 +4354,7 @@ WhisperPopDB = {
 				"116:38:18seams promissing :D", -- [20]
 			},
 			["name"] = "Keepitup#2898",
-		}, -- [87]
+		}, -- [88]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4338,7 +4374,7 @@ WhisperPopDB = {
 				"121:00:41nvm :p", -- [12]
 				"000:50:00 |Henchant:188330|h[Alchemie: Trank des Alten Krieges]|h", -- [13]
 			},
-		}, -- [88]
+		}, -- [89]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4414,7 +4450,7 @@ WhisperPopDB = {
 				"000:31:00gl man and cya", -- [68]
 				"100:31:07cheers, gn", -- [69]
 			},
-		}, -- [89]
+		}, -- [90]
 		{
 			["class"] = "MONK",
 			["messages"] = {
@@ -4424,7 +4460,7 @@ WhisperPopDB = {
 				"123:07:55 |cffa335ee|Hitem:139326::::::::110:63::6:2:1806:1502:::|h[Wriggling Sinew]|h|r", -- [4]
 			},
 			["name"] = "Wanðerer-Nemesis",
-		}, -- [90]
+		}, -- [91]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4453,7 +4489,7 @@ WhisperPopDB = {
 				"121:14:57progresu", -- [21]
 				"121:14:59brb", -- [22]
 			},
-		}, -- [91]
+		}, -- [92]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4461,7 +4497,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:19:40hey, fajna macie strone gildii! ;d ogladalem ostatnio z ciekawosci.", -- [1]
 			},
-		}, -- [92]
+		}, -- [93]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -4472,7 +4508,7 @@ WhisperPopDB = {
 				"015:36:38mhm", -- [3]
 				"015:47:24lm", -- [4]
 			},
-		}, -- [93]
+		}, -- [94]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -4532,7 +4568,7 @@ WhisperPopDB = {
 				"117:11:47Oni dadza znac we wtorek / srode", -- [52]
 				"117:11:53dali sobie ost szanse", -- [53]
 			},
-		}, -- [94]
+		}, -- [95]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4548,7 +4584,7 @@ WhisperPopDB = {
 				"016:32:18kurwa", -- [9]
 			},
 			["name"] = "Neleron#2114",
-		}, -- [95]
+		}, -- [96]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4661,7 +4697,7 @@ WhisperPopDB = {
 				"116:06:22i powiesz \"jestem caly twoj\"", -- [105]
 				"016:06:32mhm, a ty zagadasz Piotrka :D", -- [106]
 			},
-		}, -- [96]
+		}, -- [97]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -4670,7 +4706,7 @@ WhisperPopDB = {
 				"104:11:26u've got mos key?", -- [1]
 				"004:11:41no", -- [2]
 			},
-		}, -- [97]
+		}, -- [98]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -4678,7 +4714,7 @@ WhisperPopDB = {
 				"103:09:05 |cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [2]
 			},
 			["name"] = "Vîolent-Frostwolf",
-		}, -- [98]
+		}, -- [99]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -4689,7 +4725,7 @@ WhisperPopDB = {
 				"102:06:36sorry", -- [3]
 				"002:07:01np", -- [4]
 			},
-		}, -- [99]
+		}, -- [100]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -4706,7 +4742,7 @@ WhisperPopDB = {
 				"001:37:51Oh", -- [9]
 				"001:37:52sorry", -- [10]
 			},
-		}, -- [100]
+		}, -- [101]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -4723,7 +4759,7 @@ WhisperPopDB = {
 				"001:36:05ja juz jestem tak wkurwion na rogala bo pierdolone legendarki mnie ograniczaja", -- [9]
 				"001:37:05i nie wiem czy skonczyc expic drugiego rogala i ilczyc ze tam je dorwe czy expic huntarda", -- [10]
 			},
-		}, -- [101]
+		}, -- [102]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -4731,7 +4767,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:34:58na jakim poziomie robisz tego EN (tutaj fantrise)", -- [1]
 			},
-		}, -- [102]
+		}, -- [103]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4804,7 +4840,7 @@ WhisperPopDB = {
 				"101:01:16paranoja", -- [65]
 				"001:01:27tez nas to irytuje", -- [66]
 			},
-		}, -- [103]
+		}, -- [104]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4822,7 +4858,7 @@ WhisperPopDB = {
 				"118:24:14oko", -- [11]
 			},
 			["name"] = "Cålippox-BurningLegion",
-		}, -- [104]
+		}, -- [105]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4830,7 +4866,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:23:53hej zrobisz mi flaski?;)", -- [1]
 			},
-		}, -- [105]
+		}, -- [106]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4838,7 +4874,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:25:04Witam, macie moze miejsce dla socjla w gildi?", -- [1]
 			},
-		}, -- [106]
+		}, -- [107]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4862,7 +4898,7 @@ WhisperPopDB = {
 				"116:24:29spk", -- [17]
 			},
 			["name"] = "Voodooprst-BurningLegion",
-		}, -- [107]
+		}, -- [108]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -4876,7 +4912,7 @@ WhisperPopDB = {
 				"023:52:38cześć", -- [6]
 				"023:52:43oki jak co to wpadne :)", -- [7]
 			},
-		}, -- [108]
+		}, -- [109]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4885,7 +4921,7 @@ WhisperPopDB = {
 				"122:12:15Siemka, jak tam? :)", -- [1]
 				"022:13:02pomalu do przodu :P", -- [2]
 			},
-		}, -- [109]
+		}, -- [110]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -5232,14 +5268,14 @@ WhisperPopDB = {
 				"021:48:36nie ide jutro na raid, zapislem w kalendarzu", -- [339]
 				"121:50:01ok", -- [340]
 			},
-		}, -- [110]
+		}, -- [111]
 		{
 			["class"] = "SHAMAN",
 			["messages"] = {
 				"120:12:39szkoda ze nie w resto :p", -- [1]
 			},
 			["name"] = "Chromemaster-BurningLegion",
-		}, -- [111]
+		}, -- [112]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5254,7 +5290,7 @@ WhisperPopDB = {
 				"120:03:35anyway mam raid do 23 ;p", -- [7]
 				"020:04:31no jest napisane 30 dni sub do WoWa :D ", -- [8]
 			},
-		}, -- [112]
+		}, -- [113]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5301,7 +5337,7 @@ WhisperPopDB = {
 				"020:04:14gl", -- [40]
 			},
 			["name"] = "Zawrat-BurningLegion",
-		}, -- [113]
+		}, -- [114]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5309,7 +5345,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:03:58hey, dzieki za wytlumaczenie sytulacji ale skozystalem z oferty innej gildi", -- [1]
 			},
-		}, -- [114]
+		}, -- [115]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -5338,7 +5374,7 @@ WhisperPopDB = {
 				"019:58:50na stand by raczej :D ", -- [21]
 				"119:58:51mamy obecnie 22 os w grupie", -- [22]
 			},
-		}, -- [115]
+		}, -- [116]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -5377,7 +5413,7 @@ WhisperPopDB = {
 				"019:56:14ale mysle ze ok", -- [31]
 				"019:56:22jak na ity", -- [32]
 			},
-		}, -- [116]
+		}, -- [117]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5385,7 +5421,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:46:31Hello I am Dh Havoc 828 iLvl are U looking for some dps to your guild ?", -- [1]
 			},
-		}, -- [117]
+		}, -- [118]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5394,7 +5430,7 @@ WhisperPopDB = {
 				"101:41:15no", -- [1]
 				"001:41:40to ja nubilon przyjmiesz mojego holy palka do gildi ?:P", -- [2]
 			},
-		}, -- [118]
+		}, -- [119]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5402,7 +5438,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:40:56jestes?", -- [1]
 			},
-		}, -- [119]
+		}, -- [120]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5415,7 +5451,7 @@ WhisperPopDB = {
 				"100:17:24sprawe mamy", -- [6]
 			},
 			["name"] = "Rempejdz-BurningLegion",
-		}, -- [120]
+		}, -- [121]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -5437,7 +5473,7 @@ WhisperPopDB = {
 				"123:07:59I will inv u one more time", -- [14]
 				"123:08:02we're swiching tank", -- [15]
 			},
-		}, -- [121]
+		}, -- [122]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5490,7 +5526,7 @@ WhisperPopDB = {
 				"123:04:05Zawsze mount moze wpasc no i fajne itemki leca 875+", -- [45]
 				"023:04:19na nic czasu w tym tyg  nie mialem", -- [46]
 			},
-		}, -- [122]
+		}, -- [123]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5501,7 +5537,7 @@ WhisperPopDB = {
 				"023:03:15!note Gehennus", -- [3]
 				"123:03:16Note updated.", -- [4]
 			},
-		}, -- [123]
+		}, -- [124]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -5509,7 +5545,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:03:07 |cffffff00|Hachievement:11430:Player-579-034D121A:1:11:16:16:4294967295:4294967295:4294967295:4294967295|h[Eine Nacht in Karazhan]|h|r", -- [1]
 			},
-		}, -- [124]
+		}, -- [125]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5517,7 +5553,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:02:41dodasz mnie do gildii? Gehennus", -- [1]
 			},
-		}, -- [125]
+		}, -- [126]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5535,7 +5571,7 @@ WhisperPopDB = {
 				"017:16:51ts", -- [11]
 			},
 			["name"] = "Voodoopal-BurningLegion",
-		}, -- [126]
+		}, -- [127]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5554,14 +5590,14 @@ WhisperPopDB = {
 				"023:09:02siemka", -- [11]
 				"017:08:04kup mi abomment xD", -- [12]
 			},
-		}, -- [127]
+		}, -- [128]
 		{
 			["class"] = "BN",
 			["messages"] = {
 				"116:29:02jak tam? dalej gracie? :D", -- [1]
 			},
 			["name"] = "jaeenia#2228",
-		}, -- [128]
+		}, -- [129]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5574,7 +5610,7 @@ WhisperPopDB = {
 				"100:26:48No nic w takim razie powodzenia, pozdrow ekipe :)", -- [5]
 				"000:27:04dzieki i rowniez powodzenia w daleszej grze :)", -- [6]
 			},
-		}, -- [129]
+		}, -- [130]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5597,14 +5633,14 @@ WhisperPopDB = {
 				"000:23:14ill buy it 220g each", -- [16]
 			},
 			["name"] = "Brogzigar-BurningLegion",
-		}, -- [130]
+		}, -- [131]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"100:03:52 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Stortåå-Stormscale",
-		}, -- [131]
+		}, -- [132]
 		{
 			["class"] = "PRIEST",
 			["messages"] = {
@@ -5613,7 +5649,7 @@ WhisperPopDB = {
 				"123:41:15 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Chonchon-TarrenMill",
-		}, -- [132]
+		}, -- [133]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5626,14 +5662,14 @@ WhisperPopDB = {
 				"023:39:2030+ people in the queue whispering at the same time", -- [5]
 				"123:39:28kk np", -- [6]
 			},
-		}, -- [133]
+		}, -- [134]
 		{
 			["class"] = "HUNTER",
 			["messages"] = {
 				"123:39:19 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Bracomaniacu-Darksorrow",
-		}, -- [134]
+		}, -- [135]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5648,7 +5684,7 @@ WhisperPopDB = {
 				"023:32:46understood thanks ;p", -- [7]
 				"023:32:49just had this question x", -- [8]
 			},
-		}, -- [135]
+		}, -- [136]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5656,7 +5692,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:30:57what do you mean 50% of proc .. what proc? ;p[", -- [1]
 			},
-		}, -- [136]
+		}, -- [137]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5665,7 +5701,7 @@ WhisperPopDB = {
 				"022:18:25gz killa", -- [1]
 				"122:22:09dzieki", -- [2]
 			},
-		}, -- [137]
+		}, -- [138]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5673,7 +5709,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:13:33zrobisz mi ", -- [1]
 			},
-		}, -- [138]
+		}, -- [139]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5733,7 +5769,7 @@ WhisperPopDB = {
 				"117:08:55yhm..", -- [53]
 			},
 			["name"] = "Søsexi-BurningLegion",
-		}, -- [139]
+		}, -- [140]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5741,7 +5777,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:33:01elo zmien to TEN na EN jak kazdy", -- [1]
 			},
-		}, -- [140]
+		}, -- [141]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5754,7 +5790,7 @@ WhisperPopDB = {
 				"116:25:25wipeforged.com", -- [5]
 				"016:25:30thx", -- [6]
 			},
-		}, -- [141]
+		}, -- [142]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5782,7 +5818,7 @@ WhisperPopDB = {
 				"015:19:42a nie chce walic w chuja z poprzednia gildia bo gralismy ze soba pare lat", -- [20]
 				"015:19:57wiec jak gdzies przejde to magiem i zaczne wszystko od poczatku", -- [21]
 			},
-		}, -- [142]
+		}, -- [143]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5820,7 +5856,7 @@ WhisperPopDB = {
 				"013:19:23NA PYRKE ICH ", -- [30]
 				"113:19:45Pracujemy nad tym:D", -- [31]
 			},
-		}, -- [143]
+		}, -- [144]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5836,7 +5872,7 @@ WhisperPopDB = {
 				"121:55:14ale zobaczymy po przerwie ile os zostanie", -- [9]
 			},
 			["name"] = "Unadia-BurningLegion",
-		}, -- [144]
+		}, -- [145]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5878,7 +5914,7 @@ WhisperPopDB = {
 				"120:04:24to mozna je polaczyc", -- [34]
 				"120:04:30zeby mounty, tytuly itd.. przeszly", -- [35]
 			},
-		}, -- [145]
+		}, -- [146]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5894,7 +5930,7 @@ WhisperPopDB = {
 				"018:05:01dobra znikam , lece Mala ogarniac pozniej zawitam :D", -- [8]
 				"118:05:09No hej :)", -- [9]
 			},
-		}, -- [146]
+		}, -- [147]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -5904,7 +5940,7 @@ WhisperPopDB = {
 				"116:30:38tak :)", -- [2]
 				"016:31:02oki w takim razie do zobaczenia na raidzie. A teraz uciekam posiedziec z rodzinka.", -- [3]
 			},
-		}, -- [147]
+		}, -- [148]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -5912,7 +5948,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:30:31Hey hey. Fatygant z tej strony. Jest dzisiaj boost run wieczorem?", -- [1]
 			},
-		}, -- [148]
+		}, -- [149]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5926,7 +5962,7 @@ WhisperPopDB = {
 				"120:24:06Jak da rade wezcie na stronce form. wyslijcie wipeforged.com    - kazdego lykamy kto jest aktywnym graczem", -- [6]
 				"120:24:40Mamy kilka os ktore w kratke przychodza", -- [7]
 			},
-		}, -- [149]
+		}, -- [150]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5934,7 +5970,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:23:14yo", -- [1]
 			},
-		}, -- [150]
+		}, -- [151]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5962,7 +5998,7 @@ WhisperPopDB = {
 				"017:46:57ale stronka przekozak, naprawde", -- [20]
 				"117:47:37dzieki:)", -- [21]
 			},
-		}, -- [151]
+		}, -- [152]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5970,7 +6006,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:37:37hejka, potrzeba wam Rshammy i frost dk do skladu", -- [1]
 			},
-		}, -- [152]
+		}, -- [153]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5995,7 +6031,7 @@ WhisperPopDB = {
 				"117:33:55ok", -- [18]
 			},
 			["name"] = "Ogridan#21306",
-		}, -- [153]
+		}, -- [154]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6003,7 +6039,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:48:39?", -- [1]
 			},
-		}, -- [154]
+		}, -- [155]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -6013,7 +6049,7 @@ WhisperPopDB = {
 				"000:48:37oh ok :D", -- [2]
 				"100:48:38english pls :p", -- [3]
 			},
-		}, -- [155]
+		}, -- [156]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6028,7 +6064,7 @@ WhisperPopDB = {
 				"023:52:46potem napisze bo teraz insta robie", -- [8]
 			},
 			["name"] = "Rympek-BurningLegion",
-		}, -- [156]
+		}, -- [157]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6037,7 +6073,7 @@ WhisperPopDB = {
 				"020:36:05Szukacie?", -- [1]
 				"120:36:27rzuc okiem na stronke tam jest wsio, teraz nie bardzo mam jak odp :)", -- [2]
 			},
-		}, -- [157]
+		}, -- [158]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6045,7 +6081,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:36:04DH 881 bez doswiadczenia mythica w tym dodatku", -- [1]
 			},
-		}, -- [158]
+		}, -- [159]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6099,7 +6135,7 @@ WhisperPopDB = {
 				"020:20:27Przykro bo moi znajomy sa w gildii i fajnie prowadzicie raidy. Zycze powodzenia w dalszym progressie. Cya", -- [47]
 			},
 			["name"] = "Martiziusz-BurningLegion",
-		}, -- [159]
+		}, -- [160]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6119,7 +6155,7 @@ WhisperPopDB = {
 				"116:04:56flaski robilem :P", -- [13]
 			},
 			["name"] = "Deibe-BurningLegion",
-		}, -- [160]
+		}, -- [161]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6127,7 +6163,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:04:01siema ;d", -- [1]
 			},
-		}, -- [161]
+		}, -- [162]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6135,7 +6171,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:25:59no to jest tank", -- [1]
 			},
-		}, -- [162]
+		}, -- [163]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6144,7 +6180,7 @@ WhisperPopDB = {
 				"102:35:16reading them is like watching chinese matrix", -- [1]
 				"002:35:26haha ^^", -- [2]
 			},
-		}, -- [163]
+		}, -- [164]
 		{
 			["class"] = "DEATHKNIGHT",
 			["messages"] = {
@@ -6153,7 +6189,7 @@ WhisperPopDB = {
 				"101:10:39 |cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r", -- [3]
 			},
 			["name"] = "Комбобрэикер-Ревущийфьорд",
-		}, -- [164]
+		}, -- [165]
 		{
 			["class"] = "DEATHKNIGHT",
 			["messages"] = {
@@ -6162,7 +6198,7 @@ WhisperPopDB = {
 				"101:09:33 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Macraw-TarrenMill",
-		}, -- [165]
+		}, -- [166]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
@@ -6171,14 +6207,14 @@ WhisperPopDB = {
 				"101:02:43 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Teahaleeb-Kazzak",
-		}, -- [166]
+		}, -- [167]
 		{
 			["class"] = "WARRIOR",
 			["messages"] = {
 				"101:01:42 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Дженисисх-СвежевательДуш",
-		}, -- [167]
+		}, -- [168]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6204,14 +6240,14 @@ WhisperPopDB = {
 				"000:56:36cant with this tank", -- [18]
 				"000:56:40unless u wanna spend 10 hrs", -- [19]
 			},
-		}, -- [168]
+		}, -- [169]
 		{
 			["class"] = "WARLOCK",
 			["messages"] = {
 				"100:23:11 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Bavomet-Wrathbringer",
-		}, -- [169]
+		}, -- [170]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -6223,7 +6259,7 @@ WhisperPopDB = {
 				"119:07:47wiem wlasnie", -- [4]
 				"019:08:05zapytaj Vaaadoos", -- [5]
 			},
-		}, -- [170]
+		}, -- [171]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -6233,7 +6269,7 @@ WhisperPopDB = {
 				"001:37:02как к ним попасть?", -- [2]
 				"001:37:08oh sry", -- [3]
 			},
-		}, -- [171]
+		}, -- [172]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6242,7 +6278,7 @@ WhisperPopDB = {
 				"019:58:27red inv", -- [2]
 			},
 			["name"] = "Alastor-Burning Legion",
-		}, -- [172]
+		}, -- [173]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6266,7 +6302,7 @@ WhisperPopDB = {
 				"019:55:16jakbyscie mieli jakis brak w ekipie albo ktos musial wyjsc czy cos to wez mnie pod uwage", -- [16]
 				"119:55:30spoko", -- [17]
 			},
-		}, -- [173]
+		}, -- [174]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6274,7 +6310,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"021:22:40postram sie po raidzie kontaktowac z na TS i tu dam tez znac", -- [1]
 			},
-		}, -- [174]
+		}, -- [175]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6282,7 +6318,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:03:08jakiego dh ?", -- [1]
 			},
-		}, -- [175]
+		}, -- [176]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6290,7 +6326,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:02:32red inv", -- [1]
 			},
-		}, -- [176]
+		}, -- [177]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6298,7 +6334,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:59:49red inv", -- [1]
 			},
-		}, -- [177]
+		}, -- [178]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6307,7 +6343,7 @@ WhisperPopDB = {
 				"019:58:13osob", -- [1]
 				"119:58:32Wszystko jest na stronie", -- [2]
 			},
-		}, -- [178]
+		}, -- [179]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -6316,7 +6352,7 @@ WhisperPopDB = {
 				"019:58:09red inv", -- [2]
 			},
 			["name"] = "Khatharsis-Burning Legion",
-		}, -- [179]
+		}, -- [180]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6324,7 +6360,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:58:05ilue wam brakuje_", -- [1]
 			},
-		}, -- [180]
+		}, -- [181]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6332,7 +6368,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:55:31red inv", -- [1]
 			},
-		}, -- [181]
+		}, -- [182]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6340,7 +6376,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:55:15a jest jakas szansa zeby sie wkrecic jako dps na ren rajd czy raczej nie ?", -- [1]
 			},
-		}, -- [182]
+		}, -- [183]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6359,7 +6395,7 @@ WhisperPopDB = {
 				"019:54:51red inv", -- [12]
 			},
 			["name"] = "Pandothiel-BurningLegion",
-		}, -- [183]
+		}, -- [184]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6369,14 +6405,14 @@ WhisperPopDB = {
 				"119:14:39yes", -- [2]
 				"019:14:44ok ^^", -- [3]
 			},
-		}, -- [184]
+		}, -- [185]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
 				"119:12:13officer loot", -- [1]
 			},
 			["name"] = "Santix-BurningLegion",
-		}, -- [185]
+		}, -- [186]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6384,14 +6420,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:12:05jaki macie system lootu?", -- [1]
 			},
-		}, -- [186]
+		}, -- [187]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"119:01:43 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Choclairs-Drak'thul",
-		}, -- [187]
+		}, -- [188]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6399,7 +6435,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:55:48siema ja od Akcenta , prosil bym o inva do gildi", -- [1]
 			},
-		}, -- [188]
+		}, -- [189]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6430,7 +6466,7 @@ WhisperPopDB = {
 				"118:55:15niech napisze do mnie", -- [24]
 			},
 			["name"] = "Akcent-BurningLegion",
-		}, -- [189]
+		}, -- [190]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6438,7 +6474,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:02:03mam 12 level szybko expie dodasz mnie ?", -- [1]
 			},
-		}, -- [190]
+		}, -- [191]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6452,7 +6488,7 @@ WhisperPopDB = {
 				"015:46:57sorry za zwloke", -- [6]
 				"015:47:01studia przycisnely", -- [7]
 			},
-		}, -- [191]
+		}, -- [192]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6463,7 +6499,7 @@ WhisperPopDB = {
 				"018:53:25ale jak macie to nie przeszkadzam :) milego wieczoru zycze i powodzenia w progressie ^^", -- [3]
 				"118:53:50Powodzenia w poszukiwaniach, obys znalazl cos fajnego dla siebie :) Pozdr.", -- [4]
 			},
-		}, -- [192]
+		}, -- [193]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6471,7 +6507,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:48:51hej. szybkie pytanko. potrzebujecie tanka?", -- [1]
 			},
-		}, -- [193]
+		}, -- [194]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6484,7 +6520,7 @@ WhisperPopDB = {
 				"117:22:05W kazdym razie zycze powodzenia z gildia, jak byscie chcieli czasami cos podzialac wspolnie to jestesmy otwarci na takie dzialania (mythic+ itd.)", -- [5]
 				"017:22:41oki dzieki za info :) ", -- [6]
 			},
-		}, -- [194]
+		}, -- [195]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6495,7 +6531,7 @@ WhisperPopDB = {
 				"101:39:17or you're healer?", -- [3]
 				"001:39:24then refuse ", -- [4]
 			},
-		}, -- [195]
+		}, -- [196]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6515,7 +6551,7 @@ WhisperPopDB = {
 				"122:05:21ye", -- [12]
 				"022:06:56I going to smoke i give lead to my woman", -- [13]
 			},
-		}, -- [196]
+		}, -- [197]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6528,7 +6564,7 @@ WhisperPopDB = {
 				"017:28:47juz, dzieki :)", -- [5]
 				"117:28:49spk", -- [6]
 			},
-		}, -- [197]
+		}, -- [198]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6536,7 +6572,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:27:37ok pisze, alt kabajela :)", -- [1]
 			},
-		}, -- [198]
+		}, -- [199]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6547,7 +6583,7 @@ WhisperPopDB = {
 				"117:26:46napisz z niego ", -- [3]
 				"017:26:51to zaraz napisze do Ciebie ;)", -- [4]
 			},
-		}, -- [199]
+		}, -- [200]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6555,7 +6591,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"007:07:32suka bilyet", -- [1]
 			},
-		}, -- [200]
+		}, -- [201]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6564,7 +6600,7 @@ WhisperPopDB = {
 				"019:37:26transmutacje robisz?", -- [1]
 				"119:37:34nie", -- [2]
 			},
-		}, -- [201]
+		}, -- [202]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6594,7 +6630,7 @@ WhisperPopDB = {
 				"018:29:56bb", -- [22]
 				"118:30:05See u next time, have a nice day!", -- [23]
 			},
-		}, -- [202]
+		}, -- [203]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6604,7 +6640,7 @@ WhisperPopDB = {
 				"017:38:50hey u crafting?", -- [2]
 				"018:26:35hey can u craft me some whispered pact plz?", -- [3]
 			},
-		}, -- [203]
+		}, -- [204]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6642,7 +6678,7 @@ WhisperPopDB = {
 				"117:48:11Jezeli juz to po swietach", -- [31]
 			},
 			["name"] = "Starcar-BurningLegion",
-		}, -- [204]
+		}, -- [205]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6659,7 +6695,7 @@ WhisperPopDB = {
 				"016:38:27kk", -- [9]
 				"016:40:28jeszcze 5brakuje mi", -- [10]
 			},
-		}, -- [205]
+		}, -- [206]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6722,7 +6758,7 @@ WhisperPopDB = {
 				"116:24:00ok", -- [55]
 				"016:24:28narazie cwicze jak zrobic 400k bez surendera i chuja nie wychodzi", -- [56]
 			},
-		}, -- [206]
+		}, -- [207]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6730,7 +6766,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:21:42hello", -- [1]
 			},
-		}, -- [207]
+		}, -- [208]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6744,7 +6780,7 @@ WhisperPopDB = {
 				"015:55:50ty! :D", -- [6]
 				"115:55:54nps", -- [7]
 			},
-		}, -- [208]
+		}, -- [209]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
@@ -6752,7 +6788,7 @@ WhisperPopDB = {
 				"114:42:44or I was crafting those in dala until proc.. tbh not sure", -- [2]
 			},
 			["name"] = "Perher-BurningLegion",
-		}, -- [209]
+		}, -- [210]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6760,7 +6796,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:41:59hey how to get mana potion to rank 2?", -- [1]
 			},
-		}, -- [210]
+		}, -- [211]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6768,7 +6804,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:41:35 |cffffff00|Hachievement:11185:Player-3682-07B31466:1:11:6:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
-		}, -- [211]
+		}, -- [212]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6778,7 +6814,7 @@ WhisperPopDB = {
 				"114:40:29wanna go with us for  |cffa335ee|Hitem:138019::::::::110:63:8257536:::1571:10:7:1:9:1:::|h[Mythic Keystone]|h|r ?", -- [2]
 				"014:40:46kk", -- [3]
 			},
-		}, -- [212]
+		}, -- [213]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6794,7 +6830,7 @@ WhisperPopDB = {
 				"113:56:37sometimes if 1 of those mobs got it and die to fast, then its wasted ^^ Otherwise it will hit 400k to each one of them", -- [8]
 				"113:56:51and then sick dmg :D", -- [9]
 			},
-		}, -- [213]
+		}, -- [214]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6830,7 +6866,7 @@ WhisperPopDB = {
 				"113:25:41a my teraz progres oka wiec ciezko", -- [28]
 				"113:25:49trza nadrabiac takimi rzeczami :D", -- [29]
 			},
-		}, -- [214]
+		}, -- [215]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6840,7 +6876,7 @@ WhisperPopDB = {
 				"007:52:48ur ilvl?", -- [2]
 				"107:53:15880", -- [3]
 			},
-		}, -- [215]
+		}, -- [216]
 		{
 			["received"] = 1,
 			["class"] = "GM",
@@ -6863,7 +6899,7 @@ WhisperPopDB = {
 				"004:41:45Yeah, thanks, you have a great night too, take care. ^_^", -- [15]
 				"104:41:50cheers", -- [16]
 			},
-		}, -- [216]
+		}, -- [217]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6876,14 +6912,14 @@ WhisperPopDB = {
 				"100:39:58I will inv my guild healer", -- [5]
 				"100:40:26whats going on?:P", -- [6]
 			},
-		}, -- [217]
+		}, -- [218]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
 				"100:31:37Sorry we have like 30 mins..", -- [1]
 			},
 			["name"] = "Owaija-Kazzak",
-		}, -- [218]
+		}, -- [219]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6897,7 +6933,7 @@ WhisperPopDB = {
 				"000:26:29yes", -- [6]
 				"100:28:29ok we will try", -- [7]
 			},
-		}, -- [219]
+		}, -- [220]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
@@ -6905,7 +6941,7 @@ WhisperPopDB = {
 				"100:08:26u've got id or looking for one?:)", -- [2]
 			},
 			["name"] = "Aøkíji-Eredar",
-		}, -- [220]
+		}, -- [221]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6913,7 +6949,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:09:06hej, wypelnilem formularz rek. na waszej stronie, jak sie kontaktujecie pozniej?", -- [1]
 			},
-		}, -- [221]
+		}, -- [222]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6931,7 +6967,7 @@ WhisperPopDB = {
 				"020:05:01speaking*", -- [11]
 			},
 			["name"] = "Pandemic-BurningLegion",
-		}, -- [222]
+		}, -- [223]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6939,7 +6975,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:02:24hi i dont speak polish but do you accept english speaking people?", -- [1]
 			},
-		}, -- [223]
+		}, -- [224]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6948,7 +6984,7 @@ WhisperPopDB = {
 				"019:50:54red inv", -- [2]
 			},
 			["name"] = "Mitthi-BurningLegion",
-		}, -- [224]
+		}, -- [225]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6972,7 +7008,7 @@ WhisperPopDB = {
 				"115:29:06No w srody mamy farme tych 4 bossow", -- [16]
 				"015:29:28aaa kumam", -- [17]
 			},
-		}, -- [225]
+		}, -- [226]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6980,7 +7016,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:21:52siemanko, wyslalem aplikacje", -- [1]
 			},
-		}, -- [226]
+		}, -- [227]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7000,7 +7036,7 @@ WhisperPopDB = {
 				"123:55:23mhm.", -- [12]
 				"023:55:39Nie wiem, chyba ze sie dogadasz tam z nimi", -- [13]
 			},
-		}, -- [227]
+		}, -- [228]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7018,7 +7054,7 @@ WhisperPopDB = {
 				"020:47:57zgadza sie jak najbardziej powodzenia w bojach :)", -- [10]
 				"120:48:05Dzieki, pozdrawiam", -- [11]
 			},
-		}, -- [228]
+		}, -- [229]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7026,7 +7062,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:44:59czy puste butle tesz mam skolowac czy moze byc maly tip w zamian ? :)", -- [1]
 			},
-		}, -- [229]
+		}, -- [230]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7034,7 +7070,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:40:26red inv", -- [1]
 			},
-		}, -- [230]
+		}, -- [231]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7042,7 +7078,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:39:33Inv Rediva", -- [1]
 			},
-		}, -- [231]
+		}, -- [232]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7056,7 +7092,7 @@ WhisperPopDB = {
 				"018:00:40ok to jestem w poczekalni jak cos", -- [7]
 			},
 			["name"] = "Nubbz-BurningLegion",
-		}, -- [232]
+		}, -- [233]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7066,7 +7102,7 @@ WhisperPopDB = {
 				"018:15:36czesc", -- [2]
 				"017:59:56siema, mialem wejsc na tsa o 18 rozmawiac w sprawie rekrutacji na jaki kanal mam sie udac?", -- [3]
 			},
-		}, -- [233]
+		}, -- [234]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7076,7 +7112,7 @@ WhisperPopDB = {
 				"117:58:54just disenchanted 1 sec ago, sorry", -- [2]
 				"017:59:01:'(", -- [3]
 			},
-		}, -- [234]
+		}, -- [235]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7084,7 +7120,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:02:58a walicie sie w dupki?", -- [1]
 			},
-		}, -- [235]
+		}, -- [236]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7092,7 +7128,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"003:21:15inv", -- [1]
 			},
-		}, -- [236]
+		}, -- [237]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7113,7 +7149,7 @@ WhisperPopDB = {
 				"023:33:06Hey do you know whether lvl3 Infernal Alchemist Stone proccs sometimes? I've been told it doesn't work and im curious", -- [14]
 			},
 			["name"] = "Jassio-BurningLegion",
-		}, -- [237]
+		}, -- [238]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7121,7 +7157,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"021:27:32inv alta", -- [1]
 			},
-		}, -- [238]
+		}, -- [239]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7133,7 +7169,7 @@ WhisperPopDB = {
 				"121:00:30bede dostepny albo po raidzie (23:00) albo na gildia@wipeforged.com", -- [4]
 				"121:00:37spoko dzieki", -- [5]
 			},
-		}, -- [239]
+		}, -- [240]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7141,7 +7177,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:56:13 heja mam tylko jedno zapytanie jak to jest Chlopakiem i dziewczyna w gildi bo nie wiem co macie na mysli granie osobno ?? oraz czy przyjmujecie poczatkowych graczy ??", -- [1]
 			},
-		}, -- [240]
+		}, -- [241]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7159,7 +7195,7 @@ WhisperPopDB = {
 				"020:00:33moge inva bo taktyke ogladalem", -- [11]
 			},
 			["name"] = "Morfajzero-BurningLegion",
-		}, -- [241]
+		}, -- [242]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7167,7 +7203,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:58:02na co invite? Bo ja tak srednio czasowy w tej chwili", -- [1]
 			},
-		}, -- [242]
+		}, -- [243]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7201,7 +7237,7 @@ WhisperPopDB = {
 				"119:50:23odswiez", -- [27]
 			},
 			["name"] = "Aphrael-BurningLegion",
-		}, -- [243]
+		}, -- [244]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7210,7 +7246,7 @@ WhisperPopDB = {
 				"019:35:51Hey, how you doin? Let's make a deal, I have mats to craft 10x |cffffffff|Hitem:127847::::::::110:63::::::|h[Flask of the Whispered Pact]|h|r", -- [1]
 				"119:36:38sure", -- [2]
 			},
-		}, -- [244]
+		}, -- [245]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7223,7 +7259,7 @@ WhisperPopDB = {
 				"119:29:09to bedziesz sie wbijal jak bedziesz mial mozliwosc ", -- [5]
 				"019:29:22a oka", -- [6]
 			},
-		}, -- [245]
+		}, -- [246]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7232,7 +7268,7 @@ WhisperPopDB = {
 				"017:42:01a na druidzie nie wziolem jeszcze ani 1 itemku z mythica", -- [2]
 			},
 			["name"] = "Morfizer-Burning Legion",
-		}, -- [246]
+		}, -- [247]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7240,7 +7276,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:29:41hejka, to dzisiaj nie ma mythica tak?", -- [1]
 			},
-		}, -- [247]
+		}, -- [248]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7263,7 +7299,7 @@ WhisperPopDB = {
 				"120:26:07zaraz pogadamy na ts jesli wejdziesz", -- [15]
 				"020:26:14spoko robcie", -- [16]
 			},
-		}, -- [248]
+		}, -- [249]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7330,7 +7366,7 @@ WhisperPopDB = {
 				"120:01:49jestes na ts?", -- [59]
 				"020:02:04tak", -- [60]
 			},
-		}, -- [249]
+		}, -- [250]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7343,7 +7379,7 @@ WhisperPopDB = {
 				"118:59:05so fjarnskagle not this one", -- [5]
 				"118:59:11not foxflower", -- [6]
 			},
-		}, -- [250]
+		}, -- [251]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7352,7 +7388,7 @@ WhisperPopDB = {
 				"018:56:45or you have CHANCE to create 3 flasks?", -- [1]
 				"118:57:24chance to craft more than 1", -- [2]
 			},
-		}, -- [251]
+		}, -- [252]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7360,7 +7396,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:57:08I'd love some flasks :D", -- [1]
 			},
-		}, -- [252]
+		}, -- [253]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7368,7 +7404,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:56:38hi mate , you have 3 rank flasks ... thats mean that you will create 3x flask on thats mats?", -- [1]
 			},
-		}, -- [253]
+		}, -- [254]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7378,7 +7414,7 @@ WhisperPopDB = {
 				"117:50:21szczerze mowiac to nie wiem :P", -- [2]
 				"117:50:24sam uzywam na crita", -- [3]
 			},
-		}, -- [254]
+		}, -- [255]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7386,7 +7422,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:05:17hello", -- [1]
 			},
-		}, -- [255]
+		}, -- [256]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7431,7 +7467,7 @@ WhisperPopDB = {
 				"100:37:16mail", -- [37]
 				"000:37:21ok dzieki", -- [38]
 			},
-		}, -- [256]
+		}, -- [257]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7448,7 +7484,7 @@ WhisperPopDB = {
 				"000:28:28ehh gma sie zapytam:P", -- [9]
 				"000:28:49bo to tak wyglada jakby dalsze paragony byly zablokowane", -- [10]
 			},
-		}, -- [257]
+		}, -- [258]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7456,7 +7492,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:26:43czesc", -- [1]
 			},
-		}, -- [258]
+		}, -- [259]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7476,7 +7512,7 @@ WhisperPopDB = {
 				"000:19:48tylko w weekend", -- [12]
 				"000:20:17sprzet jeszcze musialem zmienic zeby wow jakos dzialal teraz to juz smiga", -- [13]
 			},
-		}, -- [259]
+		}, -- [260]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7484,7 +7520,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:02:07Witam w jakie dni raidujecie?", -- [1]
 			},
-		}, -- [260]
+		}, -- [261]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7494,7 +7530,7 @@ WhisperPopDB = {
 				"120:08:39hi", -- [2]
 				"120:08:41nope sorry", -- [3]
 			},
-		}, -- [261]
+		}, -- [262]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7508,7 +7544,7 @@ WhisperPopDB = {
 				"019:39:40nay i want 100% nontheless dude xc", -- [6]
 				"019:39:47can just wait for friend to come online", -- [7]
 			},
-		}, -- [262]
+		}, -- [263]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7516,7 +7552,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:38:25what do you say for 100% proc for me ;d", -- [1]
 			},
-		}, -- [263]
+		}, -- [264]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7528,7 +7564,7 @@ WhisperPopDB = {
 				"119:25:59 |cffffffff|Hitem:124105::::::::110:63::::::|h[Starlight Rose]|h|r |cffffffff|Hitem:124103::::::::110:63::::::|h[Foxflower]|h|r |cffffffff|Hitem:124104::::::::110:63::::::|h[Fjarnskaggl]|h|r", -- [4]
 				"119:26:07 |cffffd000|Henchant:188342|h[Alchemy: Flask of the Seventh Demon]|h|r", -- [5]
 			},
-		}, -- [264]
+		}, -- [265]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7540,7 +7576,7 @@ WhisperPopDB = {
 				"102:00:36choice* :-P", -- [4]
 				"002:00:51how the fuck u dont get bored from spamming like a retard", -- [5]
 			},
-		}, -- [265]
+		}, -- [266]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7548,7 +7584,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"002:00:03i ignored you on all alts", -- [1]
 			},
-		}, -- [266]
+		}, -- [267]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7580,7 +7616,7 @@ WhisperPopDB = {
 				"101:03:09Jasna sprawa :)", -- [25]
 			},
 			["name"] = "Tvvister-BurningLegion",
-		}, -- [267]
+		}, -- [268]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7588,7 +7624,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"022:44:48zrobilbys mi potki i flaski za jakies 20-30 min?", -- [1]
 			},
-		}, -- [268]
+		}, -- [269]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7615,7 +7651,7 @@ WhisperPopDB = {
 				"119:54:42nie no easy peasy xd", -- [19]
 				"019:55:23xD", -- [20]
 			},
-		}, -- [269]
+		}, -- [270]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7623,7 +7659,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:47:23siema", -- [1]
 			},
-		}, -- [270]
+		}, -- [271]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7632,7 +7668,7 @@ WhisperPopDB = {
 				"019:43:05 |cffffd000|Henchant:229218|h[Alchemy: Potion of Prolonged Power]|h|r", -- [1]
 				"119:43:14no bloods soz", -- [2]
 			},
-		}, -- [271]
+		}, -- [272]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -7646,7 +7682,7 @@ WhisperPopDB = {
 				"116:35:04zajmuje 2 min, a trafia do oficerki na maila", -- [6]
 				"016:36:24ok", -- [7]
 			},
-		}, -- [272]
+		}, -- [273]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -7654,7 +7690,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:33:15hej", -- [1]
 			},
-		}, -- [273]
+		}, -- [274]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7662,7 +7698,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"012:23:45Inv 4 wb", -- [1]
 			},
-		}, -- [274]
+		}, -- [275]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -7671,7 +7707,7 @@ WhisperPopDB = {
 				"022:27:03i masz full sklad :d", -- [1]
 				"122:27:24No moi memberzy to wiedza :D", -- [2]
 			},
-		}, -- [275]
+		}, -- [276]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -7679,7 +7715,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"022:26:58napisz ze dajesz wszystkie proce memberom", -- [1]
 			},
-		}, -- [276]
+		}, -- [277]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7687,7 +7723,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:43:07hey, do u sell flasks? or do u only craft them?", -- [1]
 			},
-		}, -- [277]
+		}, -- [278]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7723,7 +7759,7 @@ WhisperPopDB = {
 				"119:27:22Milego wieczoru :)", -- [28]
 				"019:27:28dzieki wzajemnie :)", -- [29]
 			},
-		}, -- [278]
+		}, -- [279]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7731,7 +7767,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:20:12hej witaj", -- [1]
 			},
-		}, -- [279]
+		}, -- [280]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7744,7 +7780,7 @@ WhisperPopDB = {
 				"018:32:51przyjmowales mnie 3 tyg temu moze 4 mialem 810 ivl mam juz 865 ", -- [5]
 				"018:33:06i nie bylem na ani 1 raidzie z guild z pugu aly zas latam", -- [6]
 			},
-		}, -- [280]
+		}, -- [281]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7760,7 +7796,7 @@ WhisperPopDB = {
 				"018:19:59o boze xD", -- [8]
 				"018:20:05nie ja po legionowe flaski", -- [9]
 			},
-		}, -- [281]
+		}, -- [282]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7768,7 +7804,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:18:59siema", -- [1]
 			},
-		}, -- [282]
+		}, -- [283]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7787,7 +7823,7 @@ WhisperPopDB = {
 				"018:16:28kek", -- [11]
 				"018:16:30my bad", -- [12]
 			},
-		}, -- [283]
+		}, -- [284]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7795,7 +7831,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:12:14u creating like 2x  |cffffd000|Henchant:188339|h[Alchemy: Flask of the Whispered Pact]|h|r", -- [1]
 			},
-		}, -- [284]
+		}, -- [285]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7805,7 +7841,7 @@ WhisperPopDB = {
 				"016:29:01sprubuj jeszcez raz", -- [2]
 				"016:57:39masz teraz chwilke?", -- [3]
 			},
-		}, -- [285]
+		}, -- [286]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7823,7 +7859,7 @@ WhisperPopDB = {
 				"016:45:54jeszcze jednego agenta zaprosisz?", -- [10]
 				"116:45:58Tak", -- [11]
 			},
-		}, -- [286]
+		}, -- [287]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7831,7 +7867,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:27:55siema mozna inv do gildi?", -- [1]
 			},
-		}, -- [287]
+		}, -- [288]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7842,7 +7878,7 @@ WhisperPopDB = {
 				"016:14:38ale na jakiej ", -- [3]
 				"116:14:44wipeforged.com :)", -- [4]
 			},
-		}, -- [288]
+		}, -- [289]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7850,7 +7886,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:13:04Czesc jestem chetny do dołaczenia do gildi ", -- [1]
 			},
-		}, -- [289]
+		}, -- [290]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7859,7 +7895,7 @@ WhisperPopDB = {
 				"015:50:29!note Bercikowsky", -- [1]
 				"115:50:29Note updated.", -- [2]
 			},
-		}, -- [290]
+		}, -- [291]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7867,7 +7903,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:49:53.", -- [1]
 			},
-		}, -- [291]
+		}, -- [292]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7880,7 +7916,7 @@ WhisperPopDB = {
 				"014:46:45if you will have it /w me. i will buy 20 flask for 5000g", -- [5]
 				"114:46:54kk I'll let u know", -- [6]
 			},
-		}, -- [292]
+		}, -- [293]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7895,7 +7931,7 @@ WhisperPopDB = {
 				"000:55:37ok fine", -- [7]
 				"000:55:44ty anyway", -- [8]
 			},
-		}, -- [293]
+		}, -- [294]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7903,7 +7939,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:45:33hey i could use some potion of prolonged power:) can u help?", -- [1]
 			},
-		}, -- [294]
+		}, -- [295]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7914,7 +7950,7 @@ WhisperPopDB = {
 				"123:32:45no fakt ^^", -- [4]
 			},
 			["name"] = "Wzburzonyork-BurningLegion",
-		}, -- [295]
+		}, -- [296]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7923,7 +7959,7 @@ WhisperPopDB = {
 				"023:08:14hej", -- [2]
 			},
 			["name"] = "Starcar-Burning Legion",
-		}, -- [296]
+		}, -- [297]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7939,7 +7975,7 @@ WhisperPopDB = {
 				"120:17:51awa Ice Block", -- [8]
 				"120:17:53awa Ice Block", -- [9]
 			},
-		}, -- [297]
+		}, -- [298]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7947,7 +7983,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:12:05Czesc", -- [1]
 			},
-		}, -- [298]
+		}, -- [299]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -7955,7 +7991,7 @@ WhisperPopDB = {
 				"119:46:51a co trzeba :D", -- [2]
 			},
 			["name"] = "Rarven-BurningLegion",
-		}, -- [299]
+		}, -- [300]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7963,7 +7999,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:46:03Dalej nic nie proclo ;d?", -- [1]
 			},
-		}, -- [300]
+		}, -- [301]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -7982,7 +8018,7 @@ WhisperPopDB = {
 				"019:31:56a ja latam po hearthstonach z woda :D", -- [11]
 				"019:33:03daj trade jak bedziesz gotowy bo z tego co widze robisz jeszcze komus", -- [12]
 			},
-		}, -- [301]
+		}, -- [302]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7995,7 +8031,7 @@ WhisperPopDB = {
 				"119:29:59tak za sek", -- [6]
 			},
 			["name"] = "Dobryzafryka-BurningLegion",
-		}, -- [302]
+		}, -- [303]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8004,7 +8040,7 @@ WhisperPopDB = {
 				"019:29:51siema, zrobisz pare flasek na int?", -- [2]
 			},
 			["name"] = "Dobryzafryka-Burning Legion",
-		}, -- [303]
+		}, -- [304]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8017,7 +8053,7 @@ WhisperPopDB = {
 				"118:26:52tylko nie widizalem sie jeszcze z RL", -- [5]
 				"018:27:02oki, w porzadku, bede czekal :)", -- [6]
 			},
-		}, -- [304]
+		}, -- [305]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8025,7 +8061,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:25:36Witam serdecznie, skladalem podanie do Waszej guildii (monk MW wraz z druga polowka)", -- [1]
 			},
-		}, -- [305]
+		}, -- [306]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8037,7 +8073,7 @@ WhisperPopDB = {
 				"118:05:18wpisz !note nick", -- [4]
 				"118:05:21nick to main", -- [5]
 			},
-		}, -- [306]
+		}, -- [307]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8045,7 +8081,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:03:19dodasz alta ?", -- [1]
 			},
-		}, -- [307]
+		}, -- [308]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -8053,7 +8089,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:34:59witam, pisze w sprawie dolaczenia do gildii", -- [1]
 			},
-		}, -- [308]
+		}, -- [309]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8061,7 +8097,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:17:23 |cffffffff|Hitem:142117::::::::110:102::::::|h[Potion of Prolonged Power]|h|r price", -- [1]
 			},
-		}, -- [309]
+		}, -- [310]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -8085,7 +8121,7 @@ WhisperPopDB = {
 				"017:21:27flaskow tez nie uzywam na hc ", -- [16]
 				"017:21:36jak nie ma takiej potrzeby", -- [17]
 			},
-		}, -- [310]
+		}, -- [311]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -8093,7 +8129,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:58:51siema, potrzebny wam holy pala ?", -- [1]
 			},
-		}, -- [311]
+		}, -- [312]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8101,7 +8137,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:30:58where i can buy recipes for |cffffffff|Hitem:127848::::::::110:260::::::|h[Flask of the Seventh Demon]|h|r", -- [1]
 			},
-		}, -- [312]
+		}, -- [313]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -8110,7 +8146,7 @@ WhisperPopDB = {
 				"120:22:34Hej :) Wszystko na wipeforged.com ladnie opisane :P", -- [1]
 				"020:22:41oke", -- [2]
 			},
-		}, -- [313]
+		}, -- [314]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -8118,14 +8154,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:22:20szczegolne wymagania? Staz? item level?", -- [1]
 			},
-		}, -- [314]
+		}, -- [315]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
 				"119:44:22jasne", -- [1]
 			},
 			["name"] = "Ognioodporny-BurningLegion",
-		}, -- [315]
+		}, -- [316]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8133,7 +8169,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:44:13 |cffffd000|Henchant:188339|h[Alchemy: Flask of the Whispered Pact]|h|r can you do it?", -- [1]
 			},
-		}, -- [316]
+		}, -- [317]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8145,14 +8181,14 @@ WhisperPopDB = {
 				"019:43:14dziekuje", -- [4]
 				"119:43:17spk", -- [5]
 			},
-		}, -- [317]
+		}, -- [318]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"119:41:19Czesc", -- [1]
 			},
 			["name"] = "Søsexi-Burning Legion",
-		}, -- [318]
+		}, -- [319]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8198,7 +8234,7 @@ WhisperPopDB = {
 				"018:35:12Ja jestem osoba ktora bedzie zawsze :D", -- [38]
 				"018:35:16dlatego robie heal :P", -- [39]
 			},
-		}, -- [319]
+		}, -- [320]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8206,7 +8242,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:29:51 |cffffd000|Henchant:229218|h[Alchemy: Potion of Prolonged Power]|h|r?", -- [1]
 			},
-		}, -- [320]
+		}, -- [321]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8214,7 +8250,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:25:27Witam", -- [1]
 			},
-		}, -- [321]
+		}, -- [322]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8234,7 +8270,7 @@ WhisperPopDB = {
 				"018:15:36no ok, zrobimy jak mowisz, podanie ", -- [12]
 				"118:16:16Super, bede wdzieczny bo ulatwi nam to robote :)", -- [13]
 			},
-		}, -- [322]
+		}, -- [323]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8260,7 +8296,7 @@ WhisperPopDB = {
 				"118:13:52zapraszam ponownie :D", -- [18]
 				"018:13:58napewnoe sie zglosze ;d", -- [19]
 			},
-		}, -- [323]
+		}, -- [324]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8268,7 +8304,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:12:48czesc, widzialem wasze ogloszenie rekrutacyjne na /trade i mam pytanie - czy jesteście w stanie przyjac tanka dk, paladyna dps, monka dps i w niedalekiej przyszłosci priesta heal ?? ", -- [1]
 			},
-		}, -- [324]
+		}, -- [325]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8276,7 +8312,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:05:12...", -- [1]
 			},
-		}, -- [325]
+		}, -- [326]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8288,7 +8324,7 @@ WhisperPopDB = {
 				"017:01:12ok", -- [4]
 				"117:03:27u can call me later or just mail me with mats, up to u", -- [5]
 			},
-		}, -- [326]
+		}, -- [327]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8296,7 +8332,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:00:31yo ", -- [1]
 			},
-		}, -- [327]
+		}, -- [328]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8304,7 +8340,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:04:40pisze", -- [1]
 			},
-		}, -- [328]
+		}, -- [329]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8313,7 +8349,7 @@ WhisperPopDB = {
 				"023:24:10!note Harkog", -- [1]
 				"123:24:10Note updated.", -- [2]
 			},
-		}, -- [329]
+		}, -- [330]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8321,7 +8357,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:23:19inv alt (Harkog)", -- [1]
 			},
-		}, -- [330]
+		}, -- [331]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8332,7 +8368,7 @@ WhisperPopDB = {
 				"122:11:52ja zmienilem na  |cff71d5ff|Htalent:22447|h[Incanter's Flow]|h|r na ta walke", -- [3]
 				"022:12:11spiacy jestem w chuj ja juz nie reaguje xd ", -- [4]
 			},
-		}, -- [331]
+		}, -- [332]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8349,7 +8385,7 @@ WhisperPopDB = {
 				"120:13:01na mailu", -- [9]
 				"020:13:17ok, poczytam o Waszych zasadach :)", -- [10]
 			},
-		}, -- [332]
+		}, -- [333]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8357,7 +8393,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:10:05hej, jakich klas potrzebujecie?", -- [1]
 			},
-		}, -- [333]
+		}, -- [334]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8369,7 +8405,7 @@ WhisperPopDB = {
 				"101:43:42use bl after she show up", -- [4]
 				"001:44:07you TWed on last boss :D", -- [5]
 			},
-		}, -- [334]
+		}, -- [335]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8380,7 +8416,7 @@ WhisperPopDB = {
 				"101:31:19coz I'm sharing 50% of proc", -- [3]
 				"101:31:27so another 50% of proc is going for me", -- [4]
 			},
-		}, -- [335]
+		}, -- [336]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8388,7 +8424,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:29:58how much for seventh?", -- [1]
 			},
-		}, -- [336]
+		}, -- [337]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8410,7 +8446,7 @@ WhisperPopDB = {
 				"000:05:35sure thanks man will contact you", -- [14]
 				"100:05:42k", -- [15]
 			},
-		}, -- [337]
+		}, -- [338]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8418,7 +8454,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:58:40i need flasks", -- [1]
 			},
-		}, -- [338]
+		}, -- [339]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8434,7 +8470,7 @@ WhisperPopDB = {
 				"118:59:14sometimes it happens.. ", -- [8]
 				"118:59:17cheers", -- [9]
 			},
-		}, -- [339]
+		}, -- [340]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8442,7 +8478,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:57:06Hi! can you make me 4x seventh demon flasks?", -- [1]
 			},
-		}, -- [340]
+		}, -- [341]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8450,7 +8486,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:10:17Czesc", -- [1]
 			},
-		}, -- [341]
+		}, -- [342]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -8467,7 +8503,7 @@ WhisperPopDB = {
 				"116:00:13:<", -- [9]
 				"016:00:17haha :D", -- [10]
 			},
-		}, -- [342]
+		}, -- [343]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -8475,7 +8511,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:49:07duzo flaszek zrobiles by miec inta lvl 3 ?", -- [1]
 			},
-		}, -- [343]
+		}, -- [344]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8488,7 +8524,7 @@ WhisperPopDB = {
 				"015:46:24!note azurewat", -- [5]
 				"115:46:25Note updated.", -- [6]
 			},
-		}, -- [344]
+		}, -- [345]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8496,7 +8532,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:44:28czesc azur:)", -- [1]
 			},
-		}, -- [345]
+		}, -- [346]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8504,7 +8540,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:18:55.", -- [1]
 			},
-		}, -- [346]
+		}, -- [347]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -8512,7 +8548,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:03:09just did a 11", -- [1]
 			},
-		}, -- [347]
+		}, -- [348]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8528,7 +8564,7 @@ WhisperPopDB = {
 				"100:57:18ale zawsze mozna podobne robic jak my na pocz.", -- [8]
 				"000:58:36no pewnie", -- [9]
 			},
-		}, -- [348]
+		}, -- [349]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -8543,7 +8579,7 @@ WhisperPopDB = {
 				"000:53:17wejde do gry to sie rozeznam", -- [7]
 				"100:53:55spoko, ok dzieki", -- [8]
 			},
-		}, -- [349]
+		}, -- [350]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8551,7 +8587,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:59:47siema. skladalem podanie do gildii i mialem pisac o przyjecie :)", -- [1]
 			},
-		}, -- [350]
+		}, -- [351]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8560,7 +8596,7 @@ WhisperPopDB = {
 				"118:34:48witaj", -- [1]
 				"018:35:18a rekrutujecie moge low lvl?", -- [2]
 			},
-		}, -- [351]
+		}, -- [352]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8568,7 +8604,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:33:41witam", -- [1]
 			},
-		}, -- [352]
+		}, -- [353]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8608,7 +8644,7 @@ WhisperPopDB = {
 				"017:58:27goblins ftw!", -- [32]
 				"117:58:34ye^^", -- [33]
 			},
-		}, -- [353]
+		}, -- [354]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8617,7 +8653,7 @@ WhisperPopDB = {
 				"117:11:50Nie chcialbys tankowac w drugiej grupie?", -- [1]
 				"017:54:32it 859 wuec moze heroica dalbym rade taktyki i wgl znam w", -- [2]
 			},
-		}, -- [354]
+		}, -- [355]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8625,7 +8661,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:47:22yoo", -- [1]
 			},
-		}, -- [355]
+		}, -- [356]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8643,7 +8679,7 @@ WhisperPopDB = {
 				"017:40:29a oki doki:D", -- [10]
 				"117:41:23to ty byles i zwiales? :P", -- [11]
 			},
-		}, -- [356]
+		}, -- [357]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8658,7 +8694,7 @@ WhisperPopDB = {
 				"016:13:26cieszko mi znalesc gildie bo mam czas na raidowanie tylko w sobote i niedziele", -- [7]
 				"116:13:43Tez dobre i to, napisz o tym prosze", -- [8]
 			},
-		}, -- [357]
+		}, -- [358]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -8666,7 +8702,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:31:48zeby prowadzic druga grupe", -- [1]
 			},
-		}, -- [358]
+		}, -- [359]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8674,7 +8710,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:02:52would it be possible to craft  |cffffffff|Hitem:142117::::::::110:269::::::|h[Potion of Prolonged Power]|h|r?", -- [1]
 			},
-		}, -- [359]
+		}, -- [360]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -8690,7 +8726,7 @@ WhisperPopDB = {
 				"014:49:44no tlate", -- [8]
 				"014:49:47late*", -- [9]
 			},
-		}, -- [360]
+		}, -- [361]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8700,7 +8736,7 @@ WhisperPopDB = {
 				"014:22:53hey", -- [2]
 				"114:23:04kk ", -- [3]
 			},
-		}, -- [361]
+		}, -- [362]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8733,7 +8769,7 @@ WhisperPopDB = {
 				"014:17:00will do", -- [25]
 				"114:17:06cheers", -- [26]
 			},
-		}, -- [362]
+		}, -- [363]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8742,7 +8778,7 @@ WhisperPopDB = {
 				"012:42:26you need that?", -- [1]
 				"112:42:53DE-ed already", -- [2]
 			},
-		}, -- [363]
+		}, -- [364]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -8753,12 +8789,12 @@ WhisperPopDB = {
 				"012:31:41no te ppl z wczoraj", -- [3]
 				"112:32:48De Integro", -- [4]
 			},
-		}, -- [364]
+		}, -- [365]
 	},
-	["listScale"] = 110,
+	["time"] = 1,
 	["sound"] = 1,
 	["version"] = 4.12,
 	["ignoreTags"] = 1,
 	["notifyButton"] = 1,
-	["time"] = 1,
+	["listScale"] = 110,
 }

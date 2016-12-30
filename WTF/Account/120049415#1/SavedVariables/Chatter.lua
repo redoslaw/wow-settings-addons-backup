@@ -785,9 +785,9 @@ ChatterDB = {
 							["g"] = 0.866666734218597,
 							["r"] = 1,
 						},
-						["AFK"] = {
-							["b"] = 1,
-							["g"] = 0.501960813999176,
+						["RAID_LEADER"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
 							["r"] = 1,
 						},
 						["ARENA_POINTS"] = {
@@ -815,9 +815,9 @@ ChatterDB = {
 							["g"] = 0.498039245605469,
 							["b"] = 0,
 						},
-						["RAID_LEADER"] = {
-							["b"] = 0.0352941192686558,
-							["g"] = 0.282352954149246,
+						["AFK"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
 							["r"] = 1,
 						},
 						["FILTERED"] = {
@@ -934,38 +934,38 @@ ChatterDB = {
 			["realm"] = {
 				["Burning Legion"] = {
 					["history"] = {
-						"/cw Azurewratmg-BurningLegion sprobuj to przesunac na kwadraciki wyzej", -- [1]
-						"/cw Azurewratmg-BurningLegion jak nie dziala to trudno :)", -- [2]
-						"/cw Azurewratmg-BurningLegion ale dzieki za fatyge ", -- [3]
-						"/cw Azurewratmg-BurningLegion no mowi sie trudno :P", -- [4]
-						"/cw Azurewratmg-BurningLegion ten ring i tak na fire by byl, a nie wiem ile jeszcze fire bede katal :)", -- [5]
-						"/cw Azurewratmg-BurningLegion Jak sie okaze w miare to moze zostane na nim", -- [6]
-						"/cw Azurewratmg-BurningLegion sie wybada", -- [7]
-						"/cw Azurewratmg-BurningLegion AP bedzie tak zapierdalac ze we wszystkie 3 spece bedzie szlo szybko wbic", -- [8]
-						"/cw Azurewratmg-BurningLegion o:)", -- [9]
-						"/cw Azurewratmg-BurningLegion hehe", -- [10]
-						"/cw Azurewratmg-BurningLegion no oni zatrudniaja paru gm z PL", -- [11]
-						"/cw Azurewratmg-BurningLegion u znajomych ;p", -- [12]
-						"/cw Azurewratmg-BurningLegion No w okolicach", -- [13]
-						"/cw Azurewratmg-BurningLegion 30km od Szcz.", -- [14]
-						"/cw Azurewratmg-BurningLegion nie;)", -- [15]
-						"/cw Werell hej", -- [16]
-						"/cw Werell Musialbys wypelnic krotki formularz na wipeforged.com", -- [17]
-						"/cw Werell napisac pare slow o sobie :) I mysle ze by nie bylo problemu - jesli chodzi o socjal", -- [18]
-						"/wa", -- [19]
-						"/cw Mishiima yo", -- [20]
-						"/cw Mishiima nie ma dkmeistera jeszcze", -- [21]
-						"/cw Mishiima a requs pisal ze za 20 min bedzie", -- [22]
-						"/cw Mishiima Ty jak cos do ktorej dostepny?", -- [23]
-						"/cw Mishiima ja mam dzis 1,5h mnw", -- [24]
-						"/cw Mishiima nom", -- [25]
-						"/cw Mishiima w miedzyczasie moze jakis m+ przyfarmimy?", -- [26]
-						"/cw Mishiima dla AP chociaz", -- [27]
-						"/cw Mishiima ;p spoko", -- [28]
-						"/g hym.. jakies cosie ktos robi? farma zwyklych mythicow albo jakies m+ ?", -- [29]
-						"/tsm", -- [30]
-						"/invite Mishiima ", -- [31]
-						"/invite Lolerz ", -- [32]
+						"/cw Azurewratmg-BurningLegion nie;)", -- [1]
+						"/cw Werell hej", -- [2]
+						"/cw Werell Musialbys wypelnic krotki formularz na wipeforged.com", -- [3]
+						"/cw Werell napisac pare slow o sobie :) I mysle ze by nie bylo problemu - jesli chodzi o socjal", -- [4]
+						"/wa", -- [5]
+						"/cw Mishiima yo", -- [6]
+						"/cw Mishiima nie ma dkmeistera jeszcze", -- [7]
+						"/cw Mishiima a requs pisal ze za 20 min bedzie", -- [8]
+						"/cw Mishiima Ty jak cos do ktorej dostepny?", -- [9]
+						"/cw Mishiima ja mam dzis 1,5h mnw", -- [10]
+						"/cw Mishiima nom", -- [11]
+						"/cw Mishiima w miedzyczasie moze jakis m+ przyfarmimy?", -- [12]
+						"/cw Mishiima dla AP chociaz", -- [13]
+						"/cw Mishiima ;p spoko", -- [14]
+						"/g hym.. jakies cosie ktos robi? farma zwyklych mythicow albo jakies m+ ?", -- [15]
+						"/tsm", -- [16]
+						"/invite Mishiima ", -- [17]
+						"/invite Lolerz ", -- [18]
+						"/cw Moadib xD", -- [19]
+						"/cw Moadib bez kitu", -- [20]
+						"/cw Yakushi ten nightbane", -- [21]
+						"/cw Yakushi to bedzie komedia", -- [22]
+						"/cw Yakushi Recus tez uwazza ze moze byc lipa z depsem tam ;)", -- [23]
+						"/cw Yakushi mi zostalo jakies 30-40 min z tego 1,5h :p", -- [24]
+						"/cw Recus-BurningLegion nie widze tego nb", -- [25]
+						"/cw Recus-BurningLegion mi zostalo 40 min :D", -- [26]
+						"/cw Recus-BurningLegion fajnych cycatych dziewczyn", -- [27]
+						"/cw Recus-BurningLegion obojetnie w jakim specu", -- [28]
+						"/cw Recus-BurningLegion liczy sie transmo", -- [29]
+						"/cw Moadib zdzwonilmy sie ;P", -- [30]
+						"/cw Recus-BurningLegion no na dzis juz koniec;p", -- [31]
+						"/cw Recus-BurningLegion ugadamy sie na to w pn pewnie", -- [32]
 					},
 				},
 			},

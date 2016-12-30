@@ -19,14 +19,14 @@ Bagnon_Sets = {
 		["Burning Legion"] = {
 			["Redus"] = {
 				["vault"] = {
+					["scale"] = 1,
+					["hiddenBags"] = {
+					},
 					["color"] = {
 					},
-					["borderColor"] = {
-					},
-					["scale"] = 1,
 					["itemScale"] = 1,
 					["alpha"] = 1,
-					["hiddenBags"] = {
+					["borderColor"] = {
 					},
 				},
 				["inventory"] = {
@@ -36,8 +36,8 @@ Bagnon_Sets = {
 					},
 					["scale"] = 1,
 					["alpha"] = 1,
-					["y"] = -275.489379882813,
-					["x"] = -193,
+					["y"] = 0,
+					["x"] = -85.999755859375,
 					["borderColor"] = {
 					},
 					["columns"] = 16,
@@ -69,9 +69,9 @@ Bagnon_Sets = {
 					},
 					["scale"] = 1,
 					["alpha"] = 1,
-					["point"] = "TOPLEFT",
-					["y"] = -22.9981689453125,
-					["x"] = 149.000076293945,
+					["point"] = "BOTTOMLEFT",
+					["bagBreak"] = false,
+					["x"] = 424.000152587891,
 					["itemScale"] = 1,
 					["showBags"] = true,
 					["color"] = {
@@ -79,7 +79,7 @@ Bagnon_Sets = {
 					["borderColor"] = {
 					},
 					["exclusiveReagent"] = false,
-					["bagBreak"] = false,
+					["y"] = 95.0016860961914,
 				},
 			},
 		},
@@ -116,15 +116,15 @@ Bagnon_Sets = {
 			["columns"] = 16,
 		},
 		["vault"] = {
-			["borderColor"] = {
-			},
 			["hiddenBags"] = {
 			},
-			["color"] = {
+			["borderColor"] = {
 			},
+			["scale"] = 1,
 			["alpha"] = 1,
 			["itemScale"] = 1,
-			["scale"] = 1,
+			["color"] = {
+			},
 		},
 		["guild"] = {
 			["point"] = "TOPLEFT",

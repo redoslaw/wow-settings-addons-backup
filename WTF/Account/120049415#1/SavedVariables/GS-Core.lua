@@ -19,9 +19,9 @@ GnomeOptions = {
 				"/cast [nochanneling] Living Bomb", -- [7]
 				["PostMacro"] = "/targetenemy [noharm][dead]\n",
 				["author"] = "Kytie",
-				["lang"] = "enUS",
-				["version"] = 1,
 				["icon"] = "Spell_Fire_FireBolt02",
+				["version"] = 1,
+				["lang"] = "enUS",
 				["helpTxt"] = "Talents - 2133111",
 				["specID"] = 63,
 				["PreMacro"] = "/targetenemy [noharm][dead]\n",
@@ -36,8 +36,8 @@ GnomeOptions = {
 				"/cast [nochanneling] Living Bomb", -- [6]
 				["source"] = "Local",
 				["author"] = "Redus@Burning Legion",
-				["PreMacro"] = "/targetenemy [noharm][dead]\n",
 				["icon"] = "INV_MISC_QUESTIONMARK",
+				["PreMacro"] = "/targetenemy [noharm][dead]\n",
 				["version"] = 2,
 				["StepFunction"] = "  limit = limit or 1\n  if step == limit then\n    limit = limit % #macros + 1\n    step = 1\n  else\n    step = step % #macros + 1\n  end\n",
 				["helpTxt"] = "Talents - 2133111",

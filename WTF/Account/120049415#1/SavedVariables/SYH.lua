@@ -29,13 +29,7 @@ SalvageYardHDB = {
 				},
 				["IsLocked"] = false,
 			},
-			["TransmogPanel"] = {
-				["IsLocked"] = false,
-				["position"] = {
-					["y"] = 0,
-					["x"] = 0,
-				},
-			},
+			["AutoRepair_UseGuildBank"] = true,
 			["SellListPanel"] = {
 				["IsLocked"] = false,
 				["position"] = {
@@ -43,7 +37,13 @@ SalvageYardHDB = {
 					["x"] = 0,
 				},
 			},
-			["AutoRepair_UseGuildBank"] = true,
+			["TransmogPanel"] = {
+				["IsLocked"] = false,
+				["position"] = {
+					["y"] = 0,
+					["x"] = 0,
+				},
+			},
 		},
 	},
 }

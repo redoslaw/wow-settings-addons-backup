@@ -71,6 +71,15 @@ AskMrRobotDb3 = {
 				},
 			},
 		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Pandaria",
+			},
+			["Talents"] = {
+				"2112111", -- [1]
+			},
+		},
 		["Redus - Burning Legion"] = {
 			["Talents"] = {
 				"1121121", -- [1]
@@ -118,22 +127,24 @@ AskMrRobotDb3 = {
 				"|cffffffff|Hitem:128304::::::::110:63::::::|h[Yseralline Seed]|h|r", -- [38]
 				"|cffffffff|Hitem:128304::::::::110:63::::::|h[Yseralline Seed]|h|r", -- [39]
 				"|cffffffff|Hitem:124105::::::::110:63::::::|h[Starlight Rose]|h|r", -- [40]
-				"|cffffffff|Hitem:124104::::::::110:63::::::|h[Fjarnskaggl]|h|r", -- [41]
+				"|cffffffff|Hitem:124102::::::::110:63::::::|h[Dreamleaf]|h|r", -- [41]
 				"|cffffffff|Hitem:124103::::::::110:63::::::|h[Foxflower]|h|r", -- [42]
-				"|cffffffff|Hitem:124102::::::::110:63::::::|h[Dreamleaf]|h|r", -- [43]
+				"|cffffffff|Hitem:124101::::::::110:63::::::|h[Aethril]|h|r", -- [43]
 				"|cffffffff|Hitem:124101::::::::110:63::::::|h[Aethril]|h|r", -- [44]
 				"|cffffffff|Hitem:124101::::::::110:63::::::|h[Aethril]|h|r", -- [45]
 				"|cffffffff|Hitem:124101::::::::110:63::::::|h[Aethril]|h|r", -- [46]
-				"|cffffffff|Hitem:124101::::::::110:63::::::|h[Aethril]|h|r", -- [47]
-				"|cffffffff|Hitem:124112::::::::110:63::::::|h[Black Barracuda]|h|r", -- [48]
+				"|cffffffff|Hitem:124112::::::::110:63::::::|h[Black Barracuda]|h|r", -- [47]
+				"|cffffffff|Hitem:124111::::::::110:63::::::|h[Runescale Koi]|h|r", -- [48]
 				"|cffffffff|Hitem:124111::::::::110:63::::::|h[Runescale Koi]|h|r", -- [49]
-				"|cffffffff|Hitem:124111::::::::110:63::::::|h[Runescale Koi]|h|r", -- [50]
-				"|cffffffff|Hitem:124110::::::::110:63::::::|h[Stormray]|h|r", -- [51]
-				"|cffffffff|Hitem:124109::::::::110:63::::::|h[Highmountain Salmon]|h|r", -- [52]
-				"|cffffffff|Hitem:124108::::::::110:63::::::|h[Mossgill Perch]|h|r", -- [53]
-				"|cffffffff|Hitem:124107::::::::110:63::::::|h[Cursed Queenfish]|h|r", -- [54]
-				"|cffffffff|Hitem:124120::::::::110:63::::::|h[Leyblood]|h|r", -- [55]
-				"|cffffffff|Hitem:124437::::::::110:63::::::|h[Shal'dorei Silk]|h|r", -- [56]
+				"|cffffffff|Hitem:124110::::::::110:63::::::|h[Stormray]|h|r", -- [50]
+				"|cffffffff|Hitem:124109::::::::110:63::::::|h[Highmountain Salmon]|h|r", -- [51]
+				"|cffffffff|Hitem:124108::::::::110:63::::::|h[Mossgill Perch]|h|r", -- [52]
+				"|cffffffff|Hitem:124107::::::::110:63::::::|h[Cursed Queenfish]|h|r", -- [53]
+				"|cffffffff|Hitem:124120::::::::110:63::::::|h[Leyblood]|h|r", -- [54]
+				"|cffffffff|Hitem:124437::::::::110:63::::::|h[Shal'dorei Silk]|h|r", -- [55]
+				"|cffffffff|Hitem:124103::::::::110:63::::::|h[Foxflower]|h|r", -- [56]
+				"|cffffffff|Hitem:124104::::::::110:63::::::|h[Fjarnskaggl]|h|r", -- [57]
+				"|cffffffff|Hitem:124104::::::::110:63::::::|h[Fjarnskaggl]|h|r", -- [58]
 			},
 			["BagItems"] = {
 				"|cffffffff|Hitem:6948::::::::110:63::::::|h[Hearthstone]|h|r", -- [1]
@@ -372,20 +383,20 @@ AskMrRobotDb3 = {
 				[133679] = 1,
 				[107950] = 1,
 				[140077] = 1,
-				[136569] = 5,
-				[142332] = 1,
 				[143554] = 1,
+				[139284] = 1,
+				[136569] = 5,
 				[142173] = 1,
 				[140030] = 1,
-				[139284] = 1,
+				[142332] = 1,
 				[133634] = 1,
 				[142119] = 1,
 				[137207] = 3,
 				[134395] = 1,
 				[139491] = 1,
-				[134427] = 1,
+				[142174] = 1,
 				[139269] = 1,
-				[142206] = 1,
+				[133570] = 7,
 				[137642] = 1,
 				[109223] = 13,
 				[136412] = 9,
@@ -416,31 +427,31 @@ AskMrRobotDb3 = {
 				[134526] = 1,
 				[142305] = 1,
 				[137352] = 1,
-				[139814] = 1,
+				[141338] = 1,
 				[133574] = 5,
 				[139813] = 10,
 				[139321] = 1,
-				[138131] = 1,
-				[141338] = 1,
+				[139909] = 1,
+				[139814] = 1,
 				[128553] = 2,
 				[134432] = 1,
-				[139909] = 1,
+				[138004] = 1,
 				[41367] = 4,
 				[133972] = 4,
 				[137490] = 1,
 				[138019] = 1,
-				[134528] = 1,
+				[127847] = 14,
 				[138227] = 2,
 				[142307] = 1,
-				[138815] = 1,
+				[134497] = 1,
 				[129276] = 1,
 				[141339] = 1,
-				[134497] = 1,
 				[142117] = 17,
-				[127847] = 14,
+				[138815] = 1,
+				[134528] = 1,
 				[141351] = 1,
 				[134434] = 1,
-				[138004] = 1,
+				[138131] = 1,
 				[139792] = 8,
 				[139816] = 5,
 				[110560] = 1,
@@ -453,8 +464,8 @@ AskMrRobotDb3 = {
 				[141341] = 2,
 				[141992] = 1,
 				[80914] = 1,
-				[133570] = 7,
-				[142174] = 1,
+				[142206] = 1,
+				[134427] = 1,
 				[137314] = 1,
 			},
 			["Logging"] = {
@@ -479,8 +490,8 @@ AskMrRobotDb3 = {
 						[79] = 3,
 						[83] = 3,
 						[72] = 3,
-						[1339] = 1,
 						[80] = 1,
+						[1339] = 1,
 						[84] = 3,
 						[1169] = 1,
 					},
@@ -577,18 +588,18 @@ AskMrRobotDb3 = {
 				[74250] = 3,
 				[120945] = 103,
 				[113263] = 54,
-				[124103] = 144,
+				[124103] = 359,
 				[124107] = 179,
 				[124111] = 209,
 				[45087] = 1,
 				[124438] = 39,
-				[124442] = 222,
+				[124442] = 224,
 				[52718] = 5,
 				[115504] = 7,
 				[52722] = 1,
 				[74247] = 34,
 				[6358] = 9,
-				[124104] = 165,
+				[124104] = 329,
 				[6359] = 9,
 				[124112] = 180,
 				[52555] = 11,
@@ -600,42 +611,33 @@ AskMrRobotDb3 = {
 				[127759] = 7,
 				[113588] = 1,
 				[114781] = 7,
-				[124440] = 5,
+				[124440] = 8,
 				[124120] = 2,
 				[124108] = 141,
 				[124109] = 91,
 				[109693] = 194,
 				[74249] = 71,
-				[124124] = 545,
-				[124105] = 25,
+				[124124] = 553,
+				[124105] = 1,
 				[128304] = 345,
-				[3371] = 136,
+				[3371] = 52,
 				[124102] = 194,
 				[124106] = 3,
 				[124110] = 69,
 				[89112] = 1,
 				[49908] = 2,
 				[124437] = 18,
-				[124441] = 149,
+				[124441] = 150,
 				[76061] = 8,
 				[71998] = 14,
-			},
-		},
-		["Ðeathshot - Steamwheedle Cartel"] = {
-			["Logging"] = {
-				["LastDiff"] = 0,
-				["LastZone"] = "Pandaria",
-			},
-			["Talents"] = {
-				"2112111", -- [1]
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
 		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Redus - Burning Legion"] = "Redus - Burning Legion",
 		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
 	},
 	["global"] = {
 		["Region"] = "EU",
@@ -645,13 +647,13 @@ AskMrRobotDb3 = {
 		},
 		["Ðeadshot - Burning Legion"] = {
 		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
 		["Redus - Burning Legion"] = {
 			["window"] = {
 				["top"] = 894.000061035156,
 				["left"] = 460.999908447266,
 			},
-		},
-		["Ðeathshot - Steamwheedle Cartel"] = {
 		},
 	},
 }

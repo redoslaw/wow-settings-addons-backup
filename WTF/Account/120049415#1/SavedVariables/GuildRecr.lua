@@ -3,8 +3,8 @@ GuildRecrDB = {
 	["profileKeys"] = {
 		["Kot - Chamber of Aspects"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Redus - Burning Legion"] = "Default",
 	},
 	["global"] = {
 		["announce_general"] = true,

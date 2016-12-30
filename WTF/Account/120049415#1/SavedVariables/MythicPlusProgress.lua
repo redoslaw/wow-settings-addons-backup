@@ -2,15 +2,15 @@
 MythicPlusProgressDB = {
 	["settings"] = {
 		["enableTooltip"] = true,
-		["inconclusiveDataThreshold"] = 100,
 		["maxTimeSinceKill"] = 600,
-		["enableNameplateText"] = true,
+		["inconclusiveDataThreshold"] = 100,
+		["nameplateTextColor"] = "FFFFFF",
 		["nameplateUpdateRate"] = 200,
 		["dbVersion"] = 6,
 		["version"] = "0.3e",
-		["enablePullEstimate"] = true,
+		["enableNameplateText"] = true,
 		["tooltipColor"] = "82E0FF",
-		["nameplateTextColor"] = "FFFFFF",
+		["enablePullEstimate"] = true,
 		["pullEstimateCombatOnly"] = false,
 		["enabled"] = true,
 	},
@@ -625,11 +625,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Stoneclaw Hunter",
 		},
-		[105915] = {
+		[96480] = {
 			["values"] = {
-				[4] = 16,
+				71, -- [1]
 			},
-			["name"] = "Nightborne Reclaimer",
+			["name"] = "Viletongue Belcher",
 		},
 		[98759] = {
 			["values"] = {
@@ -637,11 +637,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Vicious Manafang",
 		},
-		[96480] = {
+		[105915] = {
 			["values"] = {
-				71, -- [1]
+				[4] = 16,
 			},
-			["name"] = "Viletongue Belcher",
+			["name"] = "Nightborne Reclaimer",
 		},
 		[91783] = {
 			["values"] = {
@@ -680,11 +680,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Shadow Hunter",
 		},
-		[100529] = {
+		[105629] = {
 			["values"] = {
-				23, -- [1]
+				14, -- [1]
 			},
-			["name"] = "Hatespawn Slime",
+			["name"] = "Wyrmtongue Scavenger",
 		},
 		[90998] = {
 			["values"] = {
@@ -692,11 +692,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Blightshard Shaper",
 		},
-		[98919] = {
+		[106059] = {
 			["values"] = {
-				[4] = 23,
+				[4] = 21,
 			},
-			["name"] = "Seacursed Swiftblade",
+			["name"] = "Warp Shade",
 		},
 		[96640] = {
 			["values"] = {
@@ -704,11 +704,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Valarjar Marksman",
 		},
-		[105629] = {
+		[100529] = {
 			["values"] = {
-				14, -- [1]
+				23, -- [1]
 			},
-			["name"] = "Wyrmtongue Scavenger",
+			["name"] = "Hatespawn Slime",
 		},
 		[97182] = {
 			["values"] = {
@@ -806,11 +806,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Skrog Wavecrasher",
 		},
-		[97677] = {
+		[96657] = {
 			["values"] = {
-				49, -- [1]
+				[12] = 4,
 			},
-			["name"] = "Barbed Spiderling",
+			["name"] = "Blade Dancer Illianna",
 		},
 		[96587] = {
 			["values"] = {
@@ -898,11 +898,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Hatecoil Warrior",
 		},
-		[96657] = {
+		[97677] = {
 			["values"] = {
-				[12] = 4,
+				49, -- [1]
 			},
-			["name"] = "Blade Dancer Illianna",
+			["name"] = "Barbed Spiderling",
 		},
 		[113998] = {
 			["values"] = {
@@ -929,11 +929,11 @@ MythicPlusProgressDB = {
 			},
 			["name"] = "Bloodtainted Fury",
 		},
-		[106059] = {
+		[98919] = {
 			["values"] = {
-				[4] = 21,
+				[4] = 23,
 			},
-			["name"] = "Warp Shade",
+			["name"] = "Seacursed Swiftblade",
 		},
 		[99033] = {
 			["values"] = {

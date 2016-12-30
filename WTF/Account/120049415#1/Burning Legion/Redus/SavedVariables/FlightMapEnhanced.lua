@@ -114,9 +114,9 @@ FlightMapEnhanced_Config = {
 				["Felblaze Ingress"] = 30,
 				["Illidari Perch"] = 32,
 				["Eye of Azshara"] = 34,
-				["Wardens' Redoubt"] = 25,
-				["Watchers' Aerie"] = 31,
 				["Illidari Stand"] = 3,
+				["Watchers' Aerie"] = 31,
+				["Wardens' Redoubt"] = 25,
 			},
 			["Dalaran"] = {
 				["Dalaran"] = 22,

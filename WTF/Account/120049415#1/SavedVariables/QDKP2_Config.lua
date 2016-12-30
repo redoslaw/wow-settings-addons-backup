@@ -13,23 +13,23 @@ QDKP2_Config_DB = {
 				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
 			},
 		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+			["ActiveProfiles"] = {
+				["Default"] = "Default",
+			},
+		},
 		["Redus - Burning Legion"] = {
 			["ActiveProfiles"] = {
 				["Default"] = "Default",
 				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
 			},
 		},
-		["Ðeathshot - Steamwheedle Cartel"] = {
-			["ActiveProfiles"] = {
-				["Default"] = "Default",
-			},
-		},
 	},
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Burning Legion-Wipeforged",
 		["Ðeadshot - Burning Legion"] = "Burning Legion-Wipeforged",
-		["Redus - Burning Legion"] = "Burning Legion-Wipeforged",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Redus - Burning Legion"] = "Burning Legion-Wipeforged",
 	},
 	["profiles"] = {
 		["Default"] = {
