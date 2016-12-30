@@ -7,6 +7,12 @@ QDKP2_Config_DB = {
 				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
 			},
 		},
+		["Ðeadshot - Burning Legion"] = {
+			["ActiveProfiles"] = {
+				["Default"] = "Default",
+				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
+			},
+		},
 		["Redus - Burning Legion"] = {
 			["ActiveProfiles"] = {
 				["Default"] = "Default",
@@ -18,18 +24,12 @@ QDKP2_Config_DB = {
 				["Default"] = "Default",
 			},
 		},
-		["Ðeadshot - Burning Legion"] = {
-			["ActiveProfiles"] = {
-				["Default"] = "Default",
-				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
-			},
-		},
 	},
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Burning Legion-Wipeforged",
+		["Ðeadshot - Burning Legion"] = "Burning Legion-Wipeforged",
 		["Redus - Burning Legion"] = "Burning Legion-Wipeforged",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Burning Legion-Wipeforged",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -51,9 +51,9 @@ QDKP2_Config_DB = {
 			["MISC_UploadOn_Payment"] = false,
 			["BM_RoundValue"] = false,
 			["BM_GiveToWinner"] = false,
-			["BM_AckReject"] = false,
-			["MISC_UploadOn_Hourly"] = false,
 			["ODS_Enable"] = false,
+			["MISC_UploadOn_Hourly"] = false,
+			["BM_AckReject"] = false,
 			["FOR_CompactNote"] = true,
 			["BM_GetGroup"] = false,
 			["BM_CatchRolls"] = false,

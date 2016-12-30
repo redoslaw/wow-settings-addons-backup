@@ -2,1221 +2,12 @@
 WhisperPopDB = {
 	["listHeight"] = 360,
 	["listWidth"] = 240,
-	["listScale"] = 110,
+	["save"] = 1,
 	["buttonScale"] = 200,
 	["history"] = {
 		{
 			["received"] = 1,
-			["class"] = "PALADIN",
-			["name"] = "Klatanovic-BurningLegion",
-			["messages"] = {
-				"020:35:02Siemka nie bylo mnie troche w tym tygodniu pare spraw mialem do załatwienia,wiec teraz powinienem byc normalnie.", -- [1]
-				"120:35:11spk", -- [2]
-				"019:56:25wyjazd mi sie przedluzyl jestem bes sluchawek itp wiec ze mnie porzytku zadnego nie bedzie dzisiaj nawet sie nie zapisywalem", -- [3]
-				"016:45:09siemka masz chwilke?", -- [4]
-				"116:45:16ts", -- [5]
-				"121:01:17czemu na hc nie wpadles? :D", -- [6]
-				"021:02:00dopiero wrocilem w sumie i nawet nie patrzylem na kalendar", -- [7]
-				"012:26:53Yo w najbliższym czasie nie bede przedluzal abo dopiero chyba na nighthold wroce wiec odchodze z gildii było miło trzymaj się i powodzenia na progresach Elo", -- [8]
-				"112:27:20hej", -- [9]
-				"112:27:30Generalnie to nighthold za 2-3 tygodnie", -- [10]
-				"112:27:56Powodzenia, trzymaj sie", -- [11]
-			},
-		}, -- [1]
-		{
-			["received"] = 1,
-			["class"] = "DEATHKNIGHT",
-			["name"] = "Dkmeister-BurningLegion",
-			["messages"] = {
-				"023:29:46co sie stalo", -- [1]
-				"123:30:30?", -- [2]
-				"123:30:33z czym?", -- [3]
-				"023:30:39nie ma wydarzenia na jutro", -- [4]
-				"023:30:50i wylacz tego bota do odpisywania", -- [5]
-				"123:31:09raid.wipeforged.com", -- [6]
-				"123:31:13teraz tam kalendarz mamy", -- [7]
-				"023:33:25cos maila nie wysyła", -- [8]
-				"123:33:44juz zaakceptowalem", -- [9]
-				"123:33:46dodaj se chara", -- [10]
-				"023:35:56cos sie tak uparł na te strony itp :P ?", -- [11]
-				"123:36:06Wygodniejsze", -- [12]
-				"123:36:16mozna zostawiac komentarze, notki itd.. przy kazdym evencie", -- [13]
-				"123:36:25powiadomienia na maila jak sie ktos wypisze itd.", -- [14]
-				"123:36:38+ rejestruje kto sie kiedy wpisywal zeby pozniej oceniac obecnosc", -- [15]
-				"013:51:38ogolnie", -- [16]
-				"013:51:43to sry ze mnie w poniedzielk nie bylo", -- [17]
-				"013:51:52ale zasilacz mi wyjebalo", -- [18]
-				"113:52:06luz", -- [19]
-				"113:52:11ale next time daj znac na slacku :D", -- [20]
-				"013:52:24niestety apki nie mam ", -- [21]
-				"013:52:39ale dzisiaj wpadne", -- [22]
-				"113:52:50ok", -- [23]
-				"022:45:501", -- [24]
-				"122:45:51Your vote for \"Moge siedziec\" has been accounted. Thank you!", -- [25]
-				"115:04:27to mowisz ze w niedziele nie idziesz na hc? :P", -- [26]
-				"015:04:38ide", -- [27]
-				"015:04:48tyko paczylem czy mnie wezma za sam ilvl xD", -- [28]
-				"015:04:53bez linkowania gowan", -- [29]
-				"022:23:36sprawdz wiadomosc na tsie", -- [30]
-				"022:25:24sprawdz wiadomosc na tsie", -- [31]
-				"022:25:28i spadam", -- [32]
-				"022:25:33bo tylko to chcialem napisac", -- [33]
-				"021:08:07zaprosisz redu ?", -- [34]
-				"021:23:54jutro nadal farma czy odyn wjezdza ?", -- [35]
-				"121:24:05zalezy jak pojdzie", -- [36]
-				"116:09:38byles na kara?", -- [37]
-				"016:10:43nie", -- [38]
-				"116:10:51chcesz isc?", -- [39]
-				"116:10:55mamy ekipe 1 dps brakuje", -- [40]
-				"016:10:56nightbane ?", -- [41]
-				"116:10:59tez", -- [42]
-				"016:11:05no ok", -- [43]
-				"116:11:08dawaj na ts", -- [44]
-				"116:52:41bedziesz dzis na odynie?", -- [45]
-				"020:39:37nie zjebalem ani razu teraz", -- [46]
-				"020:39:41kochasz mnie za to ?", -- [47]
-				"123:44:38chcesz na tego kara?", -- [48]
-			},
-		}, -- [2]
-		{
-			["received"] = 1,
-			["class"] = "MONK",
-			["messages"] = {
-				"116:34:06hejo", -- [1]
-				"016:34:13hey", -- [2]
-				"016:34:19co tam?", -- [3]
-				"116:34:23Jak sie umawiamy, w razie \"gdybyscie sie zdecydowali\" to nie lockujecie sie od srody, co? :P", -- [4]
-				"116:34:41Zebysmy mogli juz na wspolny raid wszyscy isc", -- [5]
-				"016:34:46jesli beda ludzie to zlockujemy najpewniej", -- [6]
-				"016:34:49wiem", -- [7]
-				"016:35:03jesli beda ludzie  na srode to pojdziemy, moze pojdziemy na tov najpierw", -- [8]
-				"016:35:11wezme to pod uwage", -- [9]
-				"116:35:11no szkoda by bylo bo zaraz swieta itd.. ", -- [10]
-				"116:35:28ale spoko", -- [11]
-				"116:35:32W razie co dajcie znac wczesniej", -- [12]
-				"016:35:51wtorek/sroda  bede wiedzial", -- [13]
-				"016:36:02dam odrazu jak bede wiedzial 100%", -- [14]
-				"116:36:05oko", -- [15]
-				"016:37:00powiem ci ze sporo ludzi doszlo, ale jak graja to tylko raid powie", -- [16]
-				"016:37:16ale faktycznie na poczatek mozna pojsc na tov", -- [17]
-				"016:37:19dla bezpieczenstwa", -- [18]
-				"116:38:07Jak tych nowych weryfikujesz? :)", -- [19]
-				"116:38:32U nas ciagle od cholery podan ale 70% odrzucane", -- [20]
-				"116:39:01ludzie chca sie za darmo ubrac, a pozniej spierdolic do gildii z 7/7 :)", -- [21]
-				"116:39:12Jakbym nie znal takich historii ._", -- [22]
-				"116:39:28Takze trza byc ostroznym", -- [23]
-				"116:40:29My chcemy przed swietami sprobowac ubic xaviusa - o ile w tym resecie cenarek padnie", -- [24]
-				"116:41:17No i z Wami to bysmy wymienili bande slackerow i moznaby porezac :D Tak to \"niewiadomo\" co wyjdzie -_-", -- [25]
-				"116:41:40No ale jestesmy dobrej mysli", -- [26]
-				"016:48:46wtedy powinno byc okej :)", -- [27]
-				"016:48:47no ale", -- [28]
-				"016:48:49zobaczymy", -- [29]
-				"121:10:40No to teraz zostal nam xavius :P", -- [30]
-				"021:10:46gz :)", -- [31]
-				"121:10:48dz", -- [32]
-				"020:05:23inv", -- [33]
-				"020:05:25do gildii ", -- [34]
-				"020:05:26itp", -- [35]
-				"020:05:38recus redus requs ", -- [36]
-				"020:05:39hehe", -- [37]
-				"020:06:39inv na raid", -- [38]
-				"020:14:59wiecie ogolnie jak to robic?", -- [39]
-				"020:15:12bo nie wiem o co ogolnie pytales", -- [40]
-				"120:15:13bylismy tam wczoraj przez 20 min", -- [41]
-				"120:15:21wiec za wiele nie ", -- [42]
-				"020:15:24macki z przodu soeakuje raid", -- [43]
-				"120:15:25widziaelismy*", -- [44]
-				"020:15:26soakuje", -- [45]
-				"020:15:32macki z tylu  hunterzy na zolwiu", -- [46]
-				"020:28:19kto to mowi?", -- [47]
-				"120:28:27neleron", -- [48]
-				"020:28:27nick na wowie", -- [49]
-				"120:28:29Moadib", -- [50]
-				"020:28:44kk", -- [51]
-				"120:30:40mamy 2 os ktore czasami slackuja", -- [52]
-				"120:30:45wiec jak beda lamic", -- [53]
-				"120:30:55to ich kickniemy", -- [54]
-				"120:31:09z racji ze raid nieobowiazkowy to damy im szanse sie wykazac;p", -- [55]
-				"120:31:15Gehennus i Harkog", -- [56]
-				"020:31:28ok", -- [57]
-				"115:00:42yo, robiles karazhan w tym tyg? :P", -- [58]
-				"015:01:07czesc", -- [59]
-				"015:01:08nie", -- [60]
-				"115:01:18a wybierasz sie czy raczej nie?", -- [61]
-				"015:02:09a masz zamiar  nightbane robic?", -- [62]
-				"115:02:39Chetnie bym zrobil", -- [63]
-				"115:02:43bo zawsze lepszy loot", -- [64]
-				"115:02:47ale bez cisnienia ", -- [65]
-				"015:03:46no ok", -- [66]
-				"015:03:52ale nie teraz ok?", -- [67]
-				"115:03:56spoko", -- [68]
-				"015:04:05jak z ludzmi na dzisiaj w ogole?", -- [69]
-				"115:04:24tak jak w kalendarzu", -- [70]
-				"115:04:27bez szalu", -- [71]
-				"115:04:34jestes 1 healerem ktory sie wpisal", -- [72]
-				"115:04:433 melasow i 2 rangow", -- [73]
-				"115:04:44:p", -- [74]
-				"015:04:47...........", -- [75]
-				"015:05:00asymia kurwa wczoraj wyszedl...", -- [76]
-				"015:05:06nie ogarniam go", -- [77]
-				"115:05:06wiem", -- [78]
-				"115:05:09juz z nim gadalem ", -- [79]
-				"015:05:12why", -- [80]
-				"015:05:13?", -- [81]
-				"115:05:18wchodzi i wychodzi.. jak norek do krawczykow kurwa", -- [82]
-				"115:05:30\"a bo kolega mnie zagadal z ktorym kiedys gralem bal bla bla..\" - spoko", -- [83]
-				"115:05:37whatever >..", -- [84]
-				"115:05:45Jak 2x wyszedl bez slowa", -- [85]
-				"115:05:52to w sumie lepiej teraz niz w trakcie progresu", -- [86]
-				"015:05:58bez niczego wyszedl teraz?", -- [87]
-				"115:06:03nom", -- [88]
-				"115:06:07Ja go zagadalem po zajsciu", -- [89]
-				"015:06:14aha", -- [90]
-				"015:06:18lamus", -- [91]
-				"115:06:36No taka ujowa praktyka troche :]", -- [92]
-				"115:07:58na jutro juz niby 12 os wpisanych xD", -- [93]
-				"115:08:00jest nadzieja :P", -- [94]
-				"015:08:26na mnie jutro nie licz", -- [95]
-				"115:08:37Spoko, smieje sie", -- [96]
-				"115:08:47pewnie i tak nic nie bedzie, moze jakas farma hc ", -- [97]
-				"015:08:54szkoda", -- [98]
-				"115:08:58To bylo do przewidzenia - swieta", -- [99]
-				"115:09:02raid dla chetnych ;)_", -- [100]
-				"115:09:24\"rozpisz, rozpisz, plx!\" a jak co do czego 12 os. zapisanych ( z... 40? )", -- [101]
-				"015:09:52no ja tam na dzis sie zpaisalem ;p", -- [102]
-				"115:10:09No ja nic na to nie poradze ze ide do kina :c", -- [103]
-				"015:10:16aha...", -- [104]
-				"015:10:23a wiec kino jest wazniejsze od progresu....", -- [105]
-				"015:10:26spoko.......................", -- [106]
-				"115:10:30szczeg. ze sie dowiedzialem wczoraj ;p", -- [107]
-				"115:10:33xD", -- [108]
-				"115:10:36no ba", -- [109]
-				"015:10:41-dkp", -- [110]
-				"115:11:06na dkp to ja juz hipoteke mam xD", -- [111]
-				"015:11:13:P", -- [112]
-				"115:33:27Mishi mowi ze moze nam potankowac kara jak skonczy inste", -- [113]
-				"115:33:34Bedziesz sie pisal ?", -- [114]
-				"015:33:42o 21 ide na lyzwy w takim razie", -- [115]
-				"015:33:42moge", -- [116]
-				"115:33:44Vados mowi ze tez sie moze z nami kopnac", -- [117]
-				"115:34:03to jeszcze 1 kox deps", -- [118]
-				"021:08:45czemu prowadziszl live logow?", -- [119]
-				"121:08:53A sheinen nie robi?", -- [120]
-				"121:08:55zaraz odpale", -- [121]
-				"021:09:03no nie widze w kalendarzu nic", -- [122]
-				"121:09:11odpalam", -- [123]
-				"021:09:12a chcialem cos sprawdzic", -- [124]
-				"021:09:13mhm", -- [125]
-				"019:47:27sprzesz pare prolongow?", -- [126]
-				"019:47:36albo uj", -- [127]
-				"019:47:37nie wazne", -- [128]
-				"019:48:12jeslichodzi o odyna", -- [129]
-				"019:48:20to te runki duzo nam nie dadza", -- [130]
-				"019:48:29bo to od  mechanik padalismy", -- [131]
-				"119:48:35tez tak uwazam", -- [132]
-				"019:48:44co da versa na  brak wziecia shielda   z run", -- [133]
-				"019:54:54co z unadina?", -- [134]
-				"019:55:02on chyba srednio dawal rade?", -- [135]
-				"119:55:07wiem", -- [136]
-				"023:37:06co z tym kara?", -- [137]
-				"123:38:47zara sie dowiem", -- [138]
-			},
-			["name"] = "Requs-BurningLegion",
-		}, -- [3]
-		{
-			["received"] = 1,
-			["class"] = "SHAMAN",
-			["messages"] = {
-				"019:35:55pisze do Ciebie czesc", -- [1]
-				"000:41:37ja mam  9", -- [2]
-				"100:41:43o to lecim? :D", -- [3]
-				"000:41:50ale chce na 10 jebnac potem xD", -- [4]
-				"100:42:00no tak na to trza ogarnietych ludzi", -- [5]
-				"100:42:24to sami mozemy isc, ale nie z rympkiem :p", -- [6]
-				"000:42:30mozna kurwa wiecej kurwa mowic kurwa  ? xDDDD", -- [7]
-				"100:42:37liczymy? xd", -- [8]
-				"100:42:44to jest taki \"typowy seba\" jak to sie mowi ;p", -- [9]
-				"100:42:46dres z bloku", -- [10]
-				"100:43:04idziemy z nim na inste na jego klucz? :d", -- [11]
-				"000:43:40moze jak skoncze q", -- [12]
-				"000:44:066", -- [13]
-				"000:44:217", -- [14]
-				"100:44:368", -- [15]
-				"100:45:039", -- [16]
-				"100:45:0510", -- [17]
-				"000:45:0610 ", -- [18]
-				"000:45:07;D", -- [19]
-				"100:45:1111", -- [20]
-				"100:45:2112", -- [21]
-				"000:45:24XDDDD", -- [22]
-				"100:46:0614", -- [23]
-				"100:46:1415", -- [24]
-				"000:46:1415 chyba nawet", -- [25]
-				"100:46:2316", -- [26]
-				"000:46:5717", -- [27]
-				"100:46:59.. 20 ?", -- [28]
-				"000:47:02nie wiem xD", -- [29]
-				"100:54:05xd", -- [30]
-				"100:54:09co on chce nagrywac", -- [31]
-				"100:54:13jak lami", -- [32]
-				"000:54:13ale to mul jes xD", -- [33]
-				"100:54:16xD", -- [34]
-				"100:54:20no za mocny w chuj", -- [35]
-				"000:54:25ja mam takie mordy z osiedla swoje", -- [36]
-				"000:54:29ale kurwa on przy nich ", -- [37]
-				"000:54:31to serio xD", -- [38]
-				"100:54:33no", -- [39]
-				"100:54:35i co on robi w wowie", -- [40]
-				"100:54:37i to od tbc", -- [41]
-				"100:54:42i on tak jak gada tak gra", -- [42]
-				"021:09:15ej czy to jest jakis wewnetrzny zart z tym psem ? XD bo spialem sie z dupy glupim tekstem nie myslac xD", -- [43]
-				"121:09:25ja nie wiem skad on to wzial", -- [44]
-				"121:09:26jakas nowosc", -- [45]
-				"021:09:40nie lubie tekstu ze jestem psem to chyba sie nie obrazil xD", -- [46]
-				"121:18:09wiesz lej na szejnena", -- [47]
-				"121:18:14chuj mu w hunterowe cyce :P", -- [48]
-				"021:18:15niee", -- [49]
-				"021:18:22chodzi mi ze wyjebalem glupi teks", -- [50]
-				"021:18:27a potem pacze ze to RL xD", -- [51]
-				"121:18:34i chuj ;d", -- [52]
-				"021:18:42kurwa pieniadz nie gm xD", -- [53]
-				"121:18:45nie przejmuj sie on na luzie podchodzi", -- [54]
-				"023:05:56czy ja jestem najlepszy ? x( ", -- [55]
-				"023:12:05slonce mam pytanie :D", -- [56]
-				"023:12:11co to za dupejra w guildii xD", -- [57]
-				"014:54:32jakie sa wymogi na rajd, w sensie co mam miec oprocz zarcia i flaskow", -- [58]
-				"114:59:27yy", -- [59]
-				"114:59:37lapowke dla guid mastera zeby ew loot dostac", -- [60]
-				"014:59:37;/", -- [61]
-				"114:59:42i hmm..", -- [62]
-				"114:59:45moze jakies piwo", -- [63]
-				"014:59:49runy? vantusy ?", -- [64]
-				"114:59:55Mozesz miec w plecaku", -- [65]
-				"114:59:59tzn", -- [66]
-				"115:00:03nie koniecznie dzisiaj", -- [67]
-				"115:00:08bo mamy aktywne runy z ursoca jeszcze", -- [68]
-				"115:00:12wiec wiele to nie zmieni", -- [69]
-				"115:00:17run zwyklych nie trzeba", -- [70]
-				"115:00:32szybki kill pajaczka ma byc a potem smoczki progresujemy", -- [71]
-				"015:00:45to sobie golda pofarmie x)", -- [72]
-				"022:33:45siemka, jestes pysiu ?", -- [73]
-				"122:33:49no ba", -- [74]
-				"022:34:00bo jest taki maly sprawulon jesli chodzi o czwartek", -- [75]
-				"022:34:11bo koncze teoretycznie zajecia o 19, rzadko sie zdarzy ze wczesniej ", -- [76]
-				"022:34:22ale zima zaskakuje kierowcow i mozliwe ze sie spoznie ", -- [77]
-				"122:34:40to napisz to w notce przy evencie :P", -- [78]
-				"022:34:53nie bez powodu jestes gmem ", -- [79]
-				"122:34:56idziesz na +11 ?", -- [80]
-				"022:35:00namowiles", -- [81]
-				"122:35:00oldts.wipeforged.com", -- [82]
-				"022:35:08dziala juz nowy ", -- [83]
-				"122:35:17wlaz na ten", -- [84]
-				"020:05:12jak cos wylaczam gre, jestem pod rajdem poke na tsie plox", -- [85]
-				"019:47:54ogolnie zglaszam Ci ze jestem dzs zajebany jak skurwesyn po 12h labkow, wiec nei jestem pewien czy dam z siebei 100% ale sie postaram", -- [86]
-				"119:48:16nie zalamuj mnie", -- [87]
-				"019:48:23nie no ja chce isc", -- [88]
-				"019:48:25chce rozjebac", -- [89]
-				"019:48:34tylko zglaszam ze nie jestem w pelni sil :D", -- [90]
-				"120:25:04zamien sie w wilka", -- [91]
-				"120:25:09jak zjesz", -- [92]
-				"120:25:11na chwile xD", -- [93]
-				"020:25:16mam raptora XD", -- [94]
-				"017:30:33co to sie odpierdala XD", -- [95]
-				"117:32:43xD", -- [96]
-				"017:32:53cyka blyat", -- [97]
-				"117:32:56no", -- [98]
-				"117:32:59bialoryski", -- [99]
-				"017:33:05a to bialorusina szanuj ", -- [100]
-				"117:35:08A ty robiles kara?", -- [101]
-				"017:35:13nie a nie chce", -- [102]
-				"020:04:38moge Ci daz pozyczke x) ", -- [103]
-				"020:01:39nie podam Ci ", -- [104]
-				"018:25:17bo kolezka chce do guild wejsc, porajdowac by chcial rowniez", -- [105]
-				"018:25:19dps pally ", -- [106]
-				"017:52:06reduuu ", -- [107]
-				"117:52:11no?", -- [108]
-				"017:52:17jesli chcesz pobrac dzis nowych leczajkow ", -- [109]
-				"017:52:25to ja ogolnie tylko smoki ", -- [110]
-				"117:52:42obaczymy:)", -- [111]
-				"117:54:06spoko jak cos bede pamietal", -- [112]
-				"023:11:47masz rympka v2", -- [113]
-				"023:11:55robmy kabaret XD", -- [114]
-				"023:33:26czy to brat rympka ?", -- [115]
-				"123:33:32nie", -- [116]
-			},
-			["name"] = "Avanafil-BurningLegion",
-		}, -- [4]
-		{
-			["received"] = 1,
-			["class"] = "HUNTER",
-			["name"] = "Sheinen-BurningLegion",
-			["messages"] = {
-				"123:57:14robim jakies + ?", -- [1]
-				"023:58:56odpadam", -- [2]
-				"023:59:02jestem na laptopie u rodzimy", -- [3]
-				"023:59:05tyle co wq dam rade", -- [4]
-				"123:59:07aha spoko", -- [5]
-				"123:59:16btw czaj to  |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [6]
-				"123:59:19z lfra", -- [7]
-				"123:59:52Na walkach gdzie mozna dac bl na starcie potrafie wykorzystac 3 BL'e :D", -- [8]
-				"023:59:53to chyba gz ^.-", -- [9]
-				"000:00:09trzecia legendarka?", -- [10]
-				"100:00:12druga", -- [11]
-				"100:00:21  |cffff8000|Hitem:132452:5427:130219::::::110:63:::1:1811:::|h[Sephuz's Secret]|h|r mialem caly czas", -- [12]
-				"100:00:29to teraz nosze oba bo i tak lepszego ringa nie mam", -- [13]
-				"000:00:45teraz cokolwiek mi spadnie bedzie lepsze niz ten syfuz", -- [14]
-				"100:01:00ale ogolem ten shard byl podawany jako drugi bis dla maga z legendarek (a ta co jest jako 1sza ma miec niedlugo nerfa)", -- [15]
-				"000:01:07mam jeszcze ~20 skrzynek emmisary do otworzenia", -- [16]
-				"100:01:19szkoda ze na ursocu tego nie mialem -_-", -- [17]
-				"000:01:29mam nadieje ze 4ta mi wtedy poleci i bede mial wybor :D", -- [18]
-				"000:01:34bedziesz mial w srode", -- [19]
-				"000:01:42gadakes z tymi nowymi typkami ?", -- [20]
-				"000:01:49jak im sie podoba?", -- [21]
-				"100:01:52Z ktorymi i o czym?", -- [22]
-				"100:01:56Nie, nie bylo ich wczesniej", -- [23]
-				"100:02:05A teraz sam dopiero wrocilem", -- [24]
-				"000:02:10zobaczymy czy dotrwaja do next resetu", -- [25]
-				"100:02:17no..", -- [26]
-				"100:02:24ale widze ze huntera dodales", -- [27]
-				"100:02:29z podania", -- [28]
-				"000:02:34co ?", -- [29]
-				"100:02:34odpisalem im na wszystkie podania", -- [30]
-				"000:02:41nikogo nie dodalem ;s", -- [31]
-				"100:02:42no ten Akcent", -- [32]
-				"100:02:44aha", -- [33]
-				"100:02:46to moze dario", -- [34]
-				"000:02:46nope", -- [35]
-				"000:02:48not me", -- [36]
-				"100:02:52anyway", -- [37]
-				"100:02:55to byl jedyny typek", -- [38]
-				"100:03:02ktoremu napisalem ze zapraszamy na triala", -- [39]
-				"000:03:21reszte wyjebales ?", -- [40]
-				"000:03:28bo jeeli tak to good", -- [41]
-				"100:03:30Bo reszcie dalem info ze mamy ciasno z dpsami i ew. albo lawka, albo miejsce w drugiej grupie - o ile sie taka uformuje", -- [42]
-				"100:03:45I jak na razie zglosil sie tylko shaman", -- [43]
-				"100:03:51ten martiz", -- [44]
-				"100:03:57to mu dalem membera", -- [45]
-				"100:04:01i notke \"GR2\"", -- [46]
-				"000:04:32ja am mysle ze jak farma sie zacznie to bedzie mozna brac powoli po 2-3 osoby", -- [47]
-				"000:04:42anyway", -- [48]
-				"000:04:45napisz do nelerona", -- [49]
-				"000:04:52aby wbil troche traitow na heala", -- [50]
-				"000:05:06bo potrzebny 5ty heal na smokach i to heal ktory nie spierdoli", -- [51]
-				"000:07:27wiadomo czemu luck wyszedl z gildii tym dudu?", -- [52]
-				"100:07:35kto? oO", -- [53]
-				"100:08:02a", -- [54]
-				"100:08:04luk", -- [55]
-				"100:08:06chuj go wie", -- [56]
-				"000:09:01tak se mysle ze taki net to w sam raz na lfr", -- [57]
-				"000:09:16xd", -- [58]
-				"000:09:21postoje popatrze", -- [59]
-				"100:09:24hehe no", -- [60]
-				"000:09:24pojde na fajka", -- [61]
-				"100:09:27a legendary leca :D", -- [62]
-				"000:10:38ja to generalnie w niedziele bede", -- [63]
-				"100:10:39no i ogolem mysle nad ta gr2", -- [64]
-				"000:10:41tak po 14", -- [65]
-				"000:10:45zeby jakies m+", -- [66]
-				"100:10:49dla osob ktore nadaja sie na cos wiecej niz hc", -- [67]
-				"100:10:54ale nie lapia sie na core sklad", -- [68]
-				"000:10:57duzo takich ? :d", -- [69]
-				"100:11:06no troche sie znajdzie", -- [70]
-				"000:11:07sluchaj", -- [71]
-				"100:11:12+ podan w chuj", -- [72]
-				"000:11:16jak sie zacznie progress typu 5/7", -- [73]
-				"000:11:23wtedy mozna o tym myslec", -- [74]
-				"000:11:40chyba ze od razu ludziom mowisz co i jak", -- [75]
-				"100:11:42mysle za wczasu", -- [76]
-				"100:11:47nie startuja od razu przeciez", -- [77]
-				"100:11:50nie maja nawet RL :D", -- [78]
-				"000:12:03ze lawa / gr2", -- [79]
-				"100:12:05wiec to na razie rozciagajace sie w czasie :)", -- [80]
-				"100:12:06tak", -- [81]
-				"100:12:19nie dasz rady na ts wbic?", -- [82]
-				"000:13:02nope", -- [83]
-				"000:13:10ja koncze powoli afk postoje na lfrze", -- [84]
-				"100:13:15spk", -- [85]
-				"119:16:22dalej na ts nie da rady?", -- [86]
-				"119:16:40sciagnij se na komorke :P", -- [87]
-				"019:55:09inv", -- [88]
-				"021:46:57ja myslalem ze ty chcesz do gildii kurwa", -- [89]
-				"019:48:16mow kiedy mozna", -- [90]
-				"019:48:374x seventh , 7 x deadly", -- [91]
-				"019:51:107x deadly grace", -- [92]
-				"019:52:14dawaj deadly man", -- [93]
-				"015:42:36dzis jest troche do zrobienia :d", -- [94]
-				"015:42:41nightbane", -- [95]
-				"115:42:44ts", -- [96]
-				"114:49:51jestes na ts?", -- [97]
-				"014:51:42ta", -- [98]
-				"015:45:39będzie golemiada w huj xd", -- [99]
-				"115:45:44wiem xd", -- [100]
-				"116:49:02chcesz z vadosem na +11?", -- [101]
-				"116:49:05na brh :d", -- [102]
-				"116:49:17ja sie wybiore ", -- [103]
-				"016:49:23nie", -- [104]
-				"016:49:46nie chce mu kluca spierdolic", -- [105]
-				"022:28:13FlaskCheck: Please use BuffFood. (min +300)", -- [106]
-				"022:34:36FlaskCheck: Please use BuffFood. (min +300)", -- [107]
-				"019:54:47zara", -- [108]
-				"019:54:483 min", -- [109]
-				"019:56:44inv", -- [110]
-				"017:17:45kiciex od rana na tovie :d", -- [111]
-				"017:17:48jakis buh", -- [112]
-				"017:17:50bug", -- [113]
-				"123:35:12Jak poszlo? Wsio padlo widze? :)", -- [114]
-				"023:35:26ts", -- [115]
-				"022:13:42red inv", -- [116]
-				"117:04:21o, coina mam z misji :P", -- [117]
-				"017:04:30^^", -- [118]
-				"017:05:59Ja dostalem skrzynke na mythica za zabicie il'ygnotha", -- [119]
-				"017:06:03zobacze co to bedzie", -- [120]
-				"116:52:11chcesz dk", -- [121]
-				"116:52:13isc", -- [122]
-				"116:52:20na wardensy +9  3 skrzynki?", -- [123]
-				"016:52:48robie 2 insty hunterem aby 36 wbic", -- [124]
-				"016:53:04do tego czasu na bank kogos znajdziecie", -- [125]
-				"116:53:33no ale to i tak da 0.5% ;p", -- [126]
-				"016:53:41ale 20k hp :D", -- [127]
-				"016:53:50chce to zrobic bo tak ;p", -- [128]
-				"117:32:33robisz m+ dalej?", -- [129]
-				"117:32:37ja z vadosem farmimy ap", -- [130]
-				"017:32:42ostatni", -- [131]
-				"017:32:47i ide kimnac chwile", -- [132]
-				"117:32:59to juz 36 wjebales?", -- [133]
-				"117:33:04caly dzien nakurwiales chyba :D", -- [134]
-				"017:33:061 m+ i bedzie", -- [135]
-				"017:34:04nie", -- [136]
-				"017:34:12dzis moze 4 zrobilem ?", -- [137]
-				"017:34:13ten 5", -- [138]
-				"117:34:211m+ i bedzie 36 czy 37?", -- [139]
-				"017:34:2736", -- [140]
-				"017:34:38pozniej mniejszy skok jest", -- [141]
-				"117:34:41wiem", -- [142]
-				"017:34:43i dzis bede mial kolejny ak :D", -- [143]
-				"117:34:460.5% pewnie", -- [144]
-				"117:34:48no wlasnie", -- [145]
-				"117:35:00to juz nie ma co rushowac tylko pasywnie wpadnie", -- [146]
-				"017:36:08no jakos tak", -- [147]
-				"017:36:21ile vadoosowi do 35?", -- [148]
-				"117:36:402m", -- [149]
-				"120:06:27.", -- [150]
-				"120:06:30 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r :D", -- [151]
-				"020:06:49ustaw sobie master looter", -- [152]
-				"020:06:50gz", -- [153]
-				"021:46:15red inv", -- [154]
-				"019:58:55red inv", -- [155]
-				"022:18:14FlaskCheck: Please use BuffFood. (min +300)", -- [156]
-				"022:19:49FlaskCheck: Please use BuffFood. (min +300)", -- [157]
-				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [158]
-				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [159]
-				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [160]
-				"114:35:40Bedziesz nightbane robic jakims charem jeszcze?", -- [161]
-				"014:36:16nom", -- [162]
-				"014:36:23chetnie sheinenem pojde jeszcze raz", -- [163]
-				"014:36:27mam juz locka jak cos", -- [164]
-				"014:37:54chcesz teraz?", -- [165]
-				"114:38:12raz ze trza by reszte skladu miec", -- [166]
-				"114:38:32a dwa ze jak masz locka to moze mount nie wypasc, nie? :D", -- [167]
-				"114:38:50chociaz to akurat uj tam", -- [168]
-				"114:48:42z kim bysmy na to szli?", -- [169]
-				"014:48:56hgw", -- [170]
-				"022:08:44co tam sie kurwa dzieje", -- [171]
-				"122:09:30tank umiera:D", -- [172]
-				"101:46:45cho na ts", -- [173]
-				"119:46:35addon zbiera ludzi ja bede za 10 min", -- [174]
-				"020:11:04red inv", -- [175]
-				"114:05:39Ty", -- [176]
-				"114:05:44ten dudu healer", -- [177]
-				"114:05:46co przylazl do nas", -- [178]
-				"114:05:50widziales jego profil ?", -- [179]
-				"014:05:56coi z nim", -- [180]
-				"114:06:027/7 mythic mial juz miesiac temu", -- [181]
-				"114:06:143 razy w sumie zabil xavka", -- [182]
-				"114:06:24helene ma 3/3 hc tez od dawna", -- [183]
-				"114:06:46885 equiped... az sie zastanawiam co z nim ze nie mial gildii :D", -- [184]
-				"114:54:41cho na ts", -- [185]
-				"116:49:32Jakies kara z nightbane'em ?", -- [186]
-				"016:50:14chce isc z mailowcami", -- [187]
-				"116:50:25-_-", -- [188]
-				"016:50:28moze chcesz skoczyc na famre m+0?", -- [189]
-				"016:50:314x dips", -- [190]
-				"016:50:33ja potankuje", -- [191]
-				"116:51:03Nie wiem czy sie nie zdrzemne przed raidem", -- [192]
-				"116:51:08btw po co to farmic?", -- [193]
-				"016:51:17ap, legendy i bloody", -- [194]
-				"018:24:24TO JEST +12 VOTW?", -- [195]
-				"018:24:27sry caps", -- [196]
-				"118:24:4512", -- [197]
-				"018:25:01kto oprocz valory dpsuje?", -- [198]
-				"118:25:10valory nie ma z nami :P", -- [199]
-				"118:25:21hampton", -- [200]
-				"118:25:26i bioblood", -- [201]
-				"118:25:31a kim oni sa to chgw", -- [202]
-				"118:25:40ja sie po prostu z requsem ustawialem wczesniej", -- [203]
-				"118:25:50ale nie mowil nic z kim idzie", -- [204]
-				"121:08:35Lolerz glownie na odynie nakurwia? troche bez sensu, ja tez bym wiecej zrobil jakbgym tylko na nim wisial, ale zmieniam targety", -- [205]
-				"122:58:31wbijaj", -- [206]
-				"122:59:56wbijasz?", -- [207]
-			},
-		}, -- [5]
-		{
-			["received"] = 1,
-			["class"] = "SHAMAN",
-			["name"] = "Dariogar-BurningLegion",
-			["messages"] = {
-				"019:58:51red inv ", -- [1]
-				"019:59:07red inv", -- [2]
-				"018:13:05red inv", -- [3]
-				"019:39:17red inv", -- [4]
-				"020:30:03kopsniesz potem pare prolongów ?", -- [5]
-				"120:30:09spk", -- [6]
-				"020:20:04daj monta na transmo pls :P", -- [7]
-				"121:27:49bl mi rzuc zaraz po tym jak sie moj skonczy", -- [8]
-				"021:27:56k", -- [9]
-				"121:28:06ale dopiero jak sie skonczy bo inaczej nie wejdzie", -- [10]
-				"021:28:36ok bedzie ostatnia sek twojego a ja juz bede trzymał palec na bl'u", -- [11]
-				"120:20:14pozycz [potki na hp :d", -- [12]
-				"120:20:16zapomnialem kurwa", -- [13]
-				"120:20:44dz", -- [14]
-				"120:26:05daj mi od razu bla jak sie skonczy moj, ok?", -- [15]
-				"020:26:14k", -- [16]
-				"120:26:31walka za krotka zeby czekac ;) potem sie moze zmieni", -- [17]
-				"020:26:39spoczko", -- [18]
-				"120:35:38pamietaj o blu ;p", -- [19]
-				"120:35:46bo bebenki palilem :P", -- [20]
-				"020:35:58k", -- [21]
-				"120:36:4719 os bez runy, ciekawe kto xD", -- [22]
-				"020:37:25nie mozliwe bo 5 osob ma aktywne je", -- [23]
-				"120:37:33no pomine vantusy", -- [24]
-				"120:37:53rune mam tylko ja i sexi:P", -- [25]
-				"121:59:18dario", -- [26]
-				"121:59:20powiedz mi", -- [27]
-				"121:59:24jak wyjsc z dreama xD", -- [28]
-				"121:59:27bo kurwa nie wiem", -- [29]
-				"021:59:34musisz paść ", -- [30]
-				"121:59:37buffa zadnego nie widzialem :c", -- [31]
-				"121:59:38aha ok", -- [32]
-				"021:59:52jak zginiesz to automatycznie cie cofa tam gdzie wlazles do drima", -- [33]
-				"122:00:02i korupcja znika", -- [34]
-				"122:00:04to po chuj ja nabijac;p", -- [35]
-				"022:00:05tak", -- [36]
-				"122:00:06ale ok", -- [37]
-				"122:00:08kk", -- [38]
-				"123:00:14test", -- [39]
-				"123:00:33|cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [40]
-				"123:00:33|cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r|cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r", -- [41]
-				"123:00:33|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [42]
-				"123:00:40dziala", -- [43]
-				"023:00:43co sie tu odpierdala :Pw", -- [44]
-				"123:00:48testowalem amcro", -- [45]
-				"020:02:16Red inv", -- [46]
-				"120:40:58a z orbem gdzie biec?", -- [47]
-				"120:41:01bo nie sluchalem go", -- [48]
-				"020:41:13ja też nie słuchałem :P", -- [49]
-				"120:41:15xd", -- [50]
-				"120:07:47tu pewnie zadnego aoe nie ma, nie ?", -- [51]
-				"120:07:51czemu to nie walka dla fire maga?:P", -- [52]
-				"020:08:04nie wiem :P", -- [53]
-				"020:08:41aoe jest tylko przy ostatnich addach jak sie wyrobimy to wtedy zbijemy je razem ", -- [54]
-				"123:59:23daj bl na startt chuj tam;d", -- [55]
-				"100:18:08Jakiego huntera na curve?", -- [56]
-				"100:18:11wg. jakich ustalen?", -- [57]
-				"000:18:35neleron chciał sie jakims huntem przejsc ", -- [58]
-				"100:18:45ale placi za to czy w chuja.. ?", -- [59]
-				"000:19:05nie pytałem", -- [60]
-				"100:19:29\"wg ustalen\"", -- [61]
-				"100:19:37to z kims te ustalenia byly", -- [62]
-				"000:19:50ze mna ze pójdzie tym huntem", -- [63]
-				"000:20:48powiedział ze chciałby przejsc sie huntem i czy moglby", -- [64]
-				"000:20:57ja powiedziałem ze ok nie ma sprawy", -- [65]
-				"100:21:008-)", -- [66]
-				"100:21:11ktory bedzie stal i sie nie ruszal?", -- [67]
-				"000:29:41no i widzisz jaka niespodzianka ? :P", -- [68]
-				"000:29:5250 zł na flaszke :P", -- [69]
-				"022:20:42nie będe tykał BL'a ty tylko wolaj o drugi ", -- [70]
-				"122:20:47ok", -- [71]
-			},
-		}, -- [6]
-		{
-			["received"] = 1,
-			["class"] = "PALADIN",
-			["name"] = "Vallora-BurningLegion",
-			["messages"] = {
-				"020:13:34hi inv ", -- [1]
-				"019:43:05inv", -- [2]
-				"020:54:39ty dajesz logi ?", -- [3]
-				"020:56:46? ", -- [4]
-				"120:56:55?", -- [5]
-				"020:56:59ty dajesz logi ? ", -- [6]
-				"120:57:03nom", -- [7]
-				"120:57:05:d", -- [8]
-				"020:57:05hmm ", -- [9]
-				"020:57:13twoje logi pokazuja ze mam 458k na ursocu", -- [10]
-				"020:57:17u mnie pokazuje 501 ", -- [11]
-				"120:57:23moze miales boma", -- [12]
-				"020:57:24i u innych :D", -- [13]
-				"120:57:27czy cos", -- [14]
-				"120:57:28nie wiem", -- [15]
-				"120:57:29:d", -- [16]
-				"120:57:47vat kurwa :P", -- [17]
-				"122:09:03robiles odyna?", -- [18]
-				"122:09:05mozesz wejsc?", -- [19]
-			},
-		}, -- [7]
-		{
-			["received"] = 1,
-			["class"] = "WARLOCK",
-			["name"] = "Lolerz-BurningLegion",
-			["messages"] = {
-				"019:01:40spytaj na ts", -- [1]
-				"019:01:48kiedy bedzie ten paladyn co tak srednio dps robi", -- [2]
-				"019:01:53zobaczysz cos fajnego :P", -- [3]
-				"019:07:59jestes?", -- [4]
-				"019:08:06cos ci na ts wysle tylko cii", -- [5]
-				"019:08:07nie mow", -- [6]
-				"019:08:20nie moge ci poke dac", -- [7]
-				"119:08:25to na whisp", -- [8]
-				"019:08:28http://imgur.com/a/Bbcg1", -- [9]
-				"019:15:50jak chcesz", -- [10]
-				"019:15:52sie posmiac", -- [11]
-				"019:15:55to spytaj na ts", -- [12]
-				"019:16:04czy ten paladyn co sredni dps robi", -- [13]
-				"019:16:07tez przechodzi :D", -- [14]
-				"019:16:09czy juz jest :P", -- [15]
-				"019:43:10wez inva do gildi daj abunasan", -- [16]
-				"019:49:49idziesz na tego mythica z nami ?", -- [17]
-				"119:50:01zaraz sie okaze", -- [18]
-				"020:02:08inv", -- [19]
-				"020:02:38inv", -- [20]
-				"020:10:56grimriper", -- [21]
-				"020:10:58inv do gildi", -- [22]
-				"020:11:00dobry dk", -- [23]
-				"020:12:44vallora", -- [24]
-				"020:12:47dodaj do gildi", -- [25]
-				"120:12:54niech pisza do mnie na whispa", -- [26]
-				"120:13:50jego tez na trial raidera?", -- [27]
-				"020:38:16jaki neleron ma nick ?", -- [28]
-				"120:38:21Moadib", -- [29]
-				"020:45:03ide z corka do toalety zw 2 min jestem", -- [30]
-				"120:45:07spk", -- [31]
-				"020:51:27nie jest winien zawsze ten ktory biegnie z orbem", -- [32]
-				"020:51:35tylko kto nie ucieknie  tez jest winien", -- [33]
-				"020:51:43i nie wszyscy bija slimy chyba :)", -- [34]
-				"120:51:44nom", -- [35]
-				"020:59:28i jak ludzi oceniasz ?", -- [36]
-				"120:59:38Dobrze jest:)", -- [37]
-				"020:59:48ciesze sie :)", -- [38]
-				"120:59:49Wiele wspolnie osiagniemy", -- [39]
-				"120:59:58O ile ktos ninja quita nie zrobi bo achivie :D", -- [40]
-				"021:00:31pare osob malo z nami gralo", -- [41]
-				"121:00:32Abun jest socjal czy trial raider?", -- [42]
-				"021:00:34ale za tych co sa teraz", -- [43]
-				"021:00:39rongil tak o", -- [44]
-				"021:00:46ale za reszta daje sobie reke uciac", -- [45]
-				"121:00:53gehenus jest jako socjalo-raider taki", -- [46]
-				"121:01:00i harkog tez sredniak", -- [47]
-				"121:01:14dlatego dzis maja szanse sie wykazac ale w razie slacku zejda", -- [48]
-				"121:01:22btw", -- [49]
-				"021:01:22ten lock wasz nie taki zly tylko on nie wie co ma robic :D", -- [50]
-				"121:01:25jak z Abunem ?", -- [51]
-				"021:01:36on doszedl do nas leczy ok nawet ale srtednio go znamy", -- [52]
-				"121:01:41mhm", -- [53]
-				"021:01:43potem na ts jeszcze ci powiem co i jak albo jutro ", -- [54]
-				"021:01:49bedziesz mial lepsze rozeznanie", -- [55]
-				"121:01:56ale tu mozna go brac w razie co, czy nie za slaby?", -- [56]
-				"021:02:03nie da rade", -- [57]
-				"021:02:09ale z healem lepiej requs zna spreawe", -- [58]
-				"021:03:19ja zajmowalem sie dpsem", -- [59]
-				"021:03:21requs healem", -- [60]
-				"014:57:24siema", -- [61]
-				"014:59:42jestes?", -- [62]
-				"115:00:12tak ", -- [63]
-				"115:00:14nawet na tsie :P", -- [64]
-				"015:01:04zaraz invniesz hunta jeszcze od nas", -- [65]
-				"015:01:13oban", -- [66]
-				"015:01:16to jego alt jest", -- [67]
-				"115:01:18ok ;p", -- [68]
-				"015:01:38w notke mozesz odrazu wpisac speyside", -- [69]
-				"015:03:42ja zaraz wbije na ts to pogadamy :)", -- [70]
-				"115:03:56kk", -- [71]
-				"115:05:32on ma mnie na ignore xD", -- [72]
-				"015:05:40kim ?", -- [73]
-				"115:05:46na Speyside", -- [74]
-				"015:05:49lol", -- [75]
-				"015:05:50sec", -- [76]
-				"015:06:49spamowales jakies macro na chacie ?", -- [77]
-				"015:06:56invaj go", -- [78]
-				"015:07:05addon mu ignoruje spam z chatu", -- [79]
-				"015:07:16jak na raidzie bylismy spamowales macro z gildi albo jak cos sprzedawales i moze przez to", -- [80]
-				"015:07:28spej raider jak cos", -- [81]
-				"115:07:44pewnie tak", -- [82]
-				"015:08:17dobra ja zw i zaraz na ts wejde pogadamy", -- [83]
-				"015:31:57obanowi alta daj", -- [84]
-				"015:52:04to sa ci nowi na ts ?", -- [85]
-				"015:52:15w sensie nowsi od nas :D ?", -- [86]
-				"115:52:38nie nie", -- [87]
-				"115:52:47sznif to ten slacker co mieszkanie zmienial", -- [88]
-				"115:52:54i teraz spota nie ma, ale w skladzie sie wyswietla :)", -- [89]
-				"016:01:51kurde", -- [90]
-				"016:01:52chwila", -- [91]
-				"016:01:54znowu :D", -- [92]
-				"016:01:55zw ", -- [93]
-				"019:13:48jestes?", -- [94]
-				"119:21:16tak", -- [95]
-				"019:25:19planujesz kogos brac od nas do skladu dzisiaj ?", -- [96]
-				"119:25:58jestes na ts?", -- [97]
-				"119:26:02bo ja gadam i gadam :D", -- [98]
-				"019:49:38wez asymie na kanal", -- [99]
-				"019:49:40i jak mozesz", -- [100]
-				"019:49:46mu na szybkosci powiedziec co i jak", -- [101]
-				"019:50:29jest stronka", -- [102]
-				"019:50:33gdzie mozesz wotowanie robic", -- [103]
-				"019:50:43i wpisujesz dane ludzie klikaja i masz szybko statystyki", -- [104]
-				"019:50:56i asynia ma goscia na ts", -- [105]
-				"019:52:22i nie moze mowic", -- [106]
-				"019:54:47jestes?", -- [107]
-				"119:54:50tak tak", -- [108]
-				"019:54:54mowilem wczoraj :D", -- [109]
-				"019:55:04ze ludzie maja takie podejscie typu ze moze isc do karnej grupy :)", -- [110]
-				"019:57:14moge ci dac cos na poke na ts ?", -- [111]
-				"019:57:51mozna glosowanie zrobic", -- [112]
-				"020:00:39sorki ze cie spamuje", -- [113]
-				"120:00:44luzik", -- [114]
-				"020:00:46ale czytasz wogole co pisze :DP ?", -- [115]
-				"020:01:01bo taka luzna sugestia", -- [116]
-				"020:01:14mozecie 15 osob zebrac top sklad", -- [117]
-				"020:01:22i dobierac co bosa 5 osob slabszych", -- [118]
-				"020:06:17ja tez", -- [119]
-				"020:06:20moge pasnac", -- [120]
-				"020:24:32jestes?", -- [121]
-				"020:26:24od nas ekipa", -- [122]
-				"020:26:31wezmiecie spoko nie tez spoko", -- [123]
-				"020:26:35u nas ludzie chca progresu :D", -- [124]
-				"020:31:32jestes?", -- [125]
-				"120:31:58nom", -- [126]
-				"020:32:02mozesz na chwilke wejsc na inny kana l?", -- [127]
-				"020:33:38Recount - Damage Done for Nythendra 20:17:40-20:22:34", -- [128]
-				"020:33:381. Simas  129,876,139 (456667.2, 9.7%)", -- [129]
-				"020:33:382. Vallora  123,722,787 (463815.5, 9.2%)", -- [130]
-				"020:33:383. Grimriper  111,414,639 (398464.4, 8.3%)", -- [131]
-				"020:33:384. Elpotato  103,830,362 (364112.6, 7.7%)", -- [132]
-				"020:33:385. Lolerz  102,486,624 (357432.5, 7.6%)", -- [133]
-				"020:33:386. Moadib  98,439,083 (340749.4, 7.3%)", -- [134]
-				"020:33:387. Roñgil  98,012,991 (357281.3, 7.3%)", -- [135]
-				"020:33:388. Dkmeister  95,340,251 (347703.3, 7.1%)", -- [136]
-				"020:33:389. Morfizer  87,817,746 (318561.1, 6.5%)", -- [137]
-				"020:33:3810. Speyside  79,921,650 (291684.9, 5.9%)", -- [138]
-				"021:08:22moge wbic ale nie musze", -- [139]
-				"021:08:28chyba ze mnie chcecie", -- [140]
-				"021:08:30to wbijam", -- [141]
-				"021:08:43ale generalnie mi zalezy na cenariusie i dalej", -- [142]
-				"021:17:22asynie testowaliscie juz ?", -- [143]
-				"021:29:58znasz sie na addonach ?", -- [144]
-				"121:30:10zalezy ktorych", -- [145]
-				"021:30:15tidy plates", -- [146]
-				"121:30:23nie uzywam to na tym sie nie znam:P", -- [147]
-				"020:04:42inv", -- [148]
-				"120:04:48do sheinena :D", -- [149]
-				"020:09:09trzeba wiecej ludzi do gildii ?", -- [150]
-				"020:09:24moge cos popspamowac apre osob jak trzeba", -- [151]
-				"120:09:36ts", -- [152]
-				"020:09:51jestem", -- [153]
-				"120:11:00cho na inny kanal", -- [154]
-				"120:11:04nie chce mi sie przekrzykiwac :D", -- [155]
-				"022:03:16ej", -- [156]
-				"122:06:14?", -- [157]
-				"022:06:24moze jutro zrobimy en koncowke", -- [158]
-				"122:06:40trza i tak calosc czyscic", -- [159]
-				"022:06:41nie ukrywam ze bysmy sie cieszyli", -- [160]
-				"122:06:49plan byl taki zeby odyna ujebac i isc na EN", -- [161]
-				"022:06:55save mozna przedluzyc", -- [162]
-				"122:07:04wiec w razie co mozna nawet w PN isc", -- [163]
-				"122:07:12trza po raidzie zostac i pogadac", -- [164]
-				"122:07:16mi obojetnie", -- [165]
-				"020:00:29inv do gildii raczman", -- [166]
-				"020:00:32i na social", -- [167]
-				"020:00:43i pytanko dlaczego grimriper nie idzie jak top dps tu robil ?", -- [168]
-				"120:00:46niech napisze do mni", -- [169]
-				"120:00:53co do skladu sheinena pytaj :P", -- [170]
-				"020:01:09np taki vaadoos duzo mniej robil", -- [171]
-				"020:01:15wez do gildii dodaj", -- [172]
-				"020:01:16raczman", -- [173]
-				"020:01:37i sociala daj", -- [174]
-				"120:01:43ma standardowo", -- [175]
-				"020:25:13boma", -- [176]
-				"020:25:28na fantrise bez sensu", -- [177]
-				"020:25:33dkmaister lepiej wyjdzie na tym duzo wiecej robi", -- [178]
-				"120:25:47napisz simasowi :P", -- [179]
-				"020:38:49mozesz hamptona z ts wyjebac ", -- [180]
-				"020:38:56albo przynajmniej z kanalu naszego", -- [181]
-				"020:39:13dzieki :)", -- [182]
-				"020:39:22odrazu mi lepiej", -- [183]
-				"021:26:30moze teraz przerwe 10 min ?", -- [184]
-				"021:59:52kurwa powaznie ?", -- [185]
-				"021:59:542 mechaniki", -- [186]
-				"021:59:56do unikania", -- [187]
-				"022:00:02i ktos wypierdala sie", -- [188]
-				"122:00:03:)", -- [189]
-				"022:00:05bo gada ktos na ts :D ?", -- [190]
-				"122:00:07no..", -- [191]
-				"022:00:29i jeszcze obwiniac kogos o swoj blad ?", -- [192]
-				"022:00:35sheeeit :D", -- [193]
-				"022:06:26ty", -- [194]
-				"022:06:28zjebal", -- [195]
-				"022:06:34obrazil sie i poszedl :D", -- [196]
-				"122:07:16:)", -- [197]
-				"022:08:25moze sultanow motywacji mu wyslesz :D ", -- [198]
-				"022:08:27tak btw :D", -- [199]
-			},
-		}, -- [8]
-		{
-			["received"] = 1,
-			["class"] = "WARRIOR",
-			["messages"] = {
-				"019:53:53jestes?", -- [1]
-				"019:56:43masz chwile czasu zeby pogadac?", -- [2]
-				"120:01:03siema", -- [3]
-				"120:01:06po raidzie (23)", -- [4]
-				"120:01:10bede mial :p", -- [5]
-				"020:01:11spoko", -- [6]
-				"120:01:13a co tam?", -- [7]
-				"020:01:21mam dla ciebie powazna propozycje", -- [8]
-				"120:02:03Walnij to zaczne myslec w trakcie raidu :D", -- [9]
-				"120:02:07i pogadamy po jezeli bedziesz", -- [10]
-				"020:02:22szukasz ludzi?", -- [11]
-				"120:03:12no tak, cchemy paru slackerow powymieniac", -- [12]
-				"120:03:21bo przychodzenie w krate nie sprzyja progresom;)", -- [13]
-				"120:03:32ilu masz ludkow ?", -- [14]
-				"020:03:36to pogadamy o 23", -- [15]
-				"120:03:39ok", -- [16]
-				"120:05:32ok", -- [17]
-				"120:05:38w razie co nawet w przerwie mozemy pogadac", -- [18]
-				"120:05:41jak cos ts: wipeforged.com", -- [19]
-				"021:15:08gz:D", -- [20]
-				"018:53:16inv:)", -- [21]
-				"115:27:58siemka", -- [22]
-				"115:28:02robiles moze kara w tym tyg?", -- [23]
-				"115:28:04i nightbane'a", -- [24]
-				"015:28:14niet", -- [25]
-				"015:28:18mozemy wieczorkiem zrobic", -- [26]
-				"115:28:19a nie chcialbys skoczyc?", -- [27]
-				"115:28:27no wieczorkiem wlasnie do kina lece;p", -- [28]
-				"015:28:39to chyba ze po inscie sie uda", -- [29]
-				"115:28:48nb nam pewnie z 30 min zejdzie moze do godzinki", -- [30]
-				"115:29:07jak cos daj znac", -- [31]
-				"015:29:15k", -- [32]
-				"115:54:44Jak tam? :)", -- [33]
-				"015:57:34a masz reszte?", -- [34]
-				"115:57:471 dpsa tylko nam brak", -- [35]
-				"015:57:57no to inv i wbijac na ts", -- [36]
-				"115:58:07jeszcze 5 min bo staremu film odpalam :P", -- [37]
-				"015:58:18spoko ", -- [38]
-				"015:58:29to ide do pieca podrzucic:D", -- [39]
-				"100:31:22idziesz na boost na NB po raidzie?", -- [40]
-				"100:31:2660 zl na glowe ", -- [41]
-				"100:32:07jestes? :P", -- [42]
-				"100:32:17zostan po raidzie sprawa bedzie", -- [43]
-				"020:56:27co tam wczoraj chciales bo niet mi sie tak juz jebal ze poszedlem", -- [44]
-				"120:56:54w sumie juz nic", -- [45]
-				"120:56:59na nightbane grupy szukalem", -- [46]
-				"020:57:12a wlasnie robiles juz w tym tygodniu?", -- [47]
-				"120:57:20jeszcze nie", -- [48]
-				"020:57:29moze po raidzie jebiemy?", -- [49]
-				"120:57:32mozliwe ze dzis po raidzie", -- [50]
-				"020:57:40spox", -- [51]
-				"120:57:40ale mamy boosta ogolem", -- [52]
-				"120:57:50po raidzie podam szczeg.", -- [53]
-				"020:57:54mlodego bysmy wzieli bo tez nie zrobil jeszcze", -- [54]
-			},
-			["name"] = "Mishiima-BurningLegion",
-		}, -- [9]
-		{
-			["received"] = 1,
-			["class"] = "HUNTER",
-			["name"] = "Hampton-BurningLegion",
-			["messages"] = {
-				"020:54:53bo nie chcialem mu dupska lizac", -- [1]
-				"120:55:06chodzi tylko o raid progresowy na ogol ja nie widze problemu", -- [2]
-				"120:55:33Jak napisali mi takie prosby to nie bede nawet tematu zaczynal co jak i czemu", -- [3]
-				"120:55:52Przypakiem polecialo z serwera, a mialo byc z kanalu", -- [4]
-			},
-		}, -- [10]
-		{
-			["received"] = 1,
-			["class"] = "HUNTER",
-			["name"] = "Hampton-Burning Legion",
-			["messages"] = {
-				"020:54:46no spoko, mowicie ze moge siedziec jak nic nie robie a z powodu 2 pajacow kicka dostaje teraz", -- [1]
-			},
-		}, -- [11]
-		{
-			["received"] = 1,
-			["class"] = "DEMONHUNTER",
-			["messages"] = {
-				"002:02:58wtf", -- [1]
-				"002:03:00nie tu", -- [2]
-				"020:39:54dzieki za kicka", -- [3]
-				"120:47:04yy", -- [4]
-				"120:47:24sorry, ktos mnie poprosil o kick z kanalu bo czul sie nie komfortowo w trakcie progresu", -- [5]
-				"020:47:29xD", -- [6]
-			},
-			["name"] = "Voidflame-BurningLegion",
-		}, -- [12]
-		{
-			["received"] = 1,
-			["class"] = "BN",
-			["messages"] = {
-				"018:12:53red inv", -- [1]
-				"101:33:14xd", -- [2]
-				"101:33:17drugi bis z lfra", -- [3]
-				"001:33:32ale legenda czy co ? :P", -- [4]
-				"101:33:44no ", -- [5]
-				"101:33:48 |Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h", -- [6]
-				"001:34:45no to zajebiście ", -- [7]
-				"001:34:54gratuluję :P", -- [8]
-				"101:34:57dzieki", -- [9]
-				"123:00:08test", -- [10]
-				"020:21:49Zaspałem ale jak coś już jestem", -- [11]
-			},
-			["name"] = "Dario#22533",
-		}, -- [13]
-		{
-			["received"] = 1,
-			["class"] = "DRUID",
-			["messages"] = {
-				"020:35:44misiu kto dostal ten trink pod heal?", -- [1]
-				"020:35:50aa ok nvm :p", -- [2]
-				"120:36:06na razie on, chyba ze sie ugadacie", -- [3]
-				"020:36:23spoko pracuje nad ty mxD", -- [4]
-				"021:13:48daj inva do raidu xzD", -- [5]
-				"018:34:04jaki przyjebany typ xD", -- [6]
-				"121:26:51masz nasionka albo hp potki na zbyciu?;p", -- [7]
-				"021:27:04cos znajde", -- [8]
-				"121:27:20nasiona?", -- [9]
-				"121:27:30moge bank odpalic jbc", -- [10]
-				"121:27:45potem oddam dzieki", -- [11]
-				"021:27:50spoko nie musisz", -- [12]
-				"021:56:54inv", -- [13]
-				"021:56:56inv", -- [14]
-				"021:56:56inv", -- [15]
-				"021:56:57inv", -- [16]
-				"021:57:36redus daj inva na tego kara", -- [17]
-				"121:58:35mamy full", -- [18]
-				"021:58:41no co ty pierdolisz", -- [19]
-				"021:58:45mowilem nonstop ze chce isc", -- [20]
-				"021:58:49japeirdole", -- [21]
-				"021:58:49...", -- [22]
-				"121:59:00no kurwa my bylismy umowieni na to rpzed raidem", -- [23]
-				"121:59:38mamy 2 bossy do dokonczenia", -- [24]
-				"022:00:13umowieni  byliscie luzik", -- [25]
-				"015:10:23ej redus jak wyglada sprawa z slotai na raidy itp", -- [26]
-				"115:11:19yy", -- [27]
-				"115:11:22Cho na ts", -- [28]
-				"115:11:28nie chce mi sie pisac :D", -- [29]
-				"015:11:41nie za brdzo na komorce jestem", -- [30]
-				"115:11:46aaa", -- [31]
-				"115:11:48yhm", -- [32]
-				"015:11:52w sensie z internetu w komorce korzystam", -- [33]
-				"115:11:52No to tak", -- [34]
-				"115:11:55zalezy kiedy ", -- [35]
-				"115:11:59i na co", -- [36]
-				"115:12:04Po swietach ogolem", -- [37]
-				"115:12:10resetujemy wszystkie rangi core ", -- [38]
-				"115:12:29i kazdy bedzie mial \"rowne szanse\" xD", -- [39]
-				"015:12:41ooo", -- [40]
-				"115:12:43I w zaleznosci od frekwencji / umiejetnosci / ogaru", -- [41]
-				"115:12:52bedziemy dobierac ekipe na nightholda", -- [42]
-				"115:12:59Na pocz. bedzie i tak mozna w 30 os latac na HC", -- [43]
-				"115:13:08ale chcemy jebnac to jak najszybciej sie uda", -- [44]
-				"115:13:27Wiec licze na to ze te 25-30 os. sie wybierze do core", -- [45]
-				"115:14:35takze mysle ze bedzie spoko", -- [46]
-				"115:14:38fair dla wszystkich", -- [47]
-				"015:14:43no to luzik ;)", -- [48]
-				"015:14:52ja zobacze jak to z mojaj praca inzynierska bedzie", -- [49]
-				"020:02:46redus ja na stan by jestem rozumiem?", -- [50]
-				"120:03:36chyba tak", -- [51]
-				"120:03:42ale czekaj bo jak ktorys spierdoli to podmieniamy", -- [52]
-				"020:04:07dobra to lece na bg warkiem", -- [53]
-			},
-			["name"] = "Szniff-BurningLegion",
-		}, -- [14]
-		{
-			["received"] = 1,
-			["class"] = "DRUID",
-			["name"] = "Szniff-Burning Legion",
-			["messages"] = {
-				"022:00:09no wiem mana devouer i oko te akurat potrzebuje ale jak macie full to spoko", -- [1]
-				"015:13:39mhm", -- [2]
-				"020:01:13ej sorka nie bylo mnie chwile ja na stand by?", -- [3]
-			},
-		}, -- [15]
-		{
-			["received"] = 1,
-			["class"] = "WARLOCK",
-			["name"] = "Lolerz-Burning Legion",
-			["messages"] = {
-				"020:01:13ale to whatever", -- [1]
-			},
-		}, -- [16]
-		{
-			["received"] = 1,
-			["class"] = "PALADIN",
-			["name"] = "Flant-BurningLegion",
-			["messages"] = {
-				"020:04:01Dzisiaj rozumiem HC robicie?", -- [1]
-				"120:04:11idziemy wlasnie na", -- [2]
-				"120:04:16helene na tov", -- [3]
-				"120:04:19wpadaj na ts", -- [4]
-				"120:04:21wipeforged.com", -- [5]
-				"020:04:41wiem ale umówiłem sie dzis z ekipa na m+ :( nie wiedziałęm ze dzisiaj do Was dolacze", -- [6]
-				"120:05:03spoko to nieobowiazkowy raid dla chetnych", -- [7]
-				"020:05:09a no to super", -- [8]
-				"114:22:41po trashu sum pojdzie", -- [9]
-				"014:22:48spoko spoko", -- [10]
-				"014:49:13Powiedz mi w ogóle jaka jest realna szansa na dostanie sie na raid mythickowy u Was w gildii jako healer?", -- [11]
-				"014:49:25bo domyslam sie ze macie jakis stały skład", -- [12]
-				"114:49:40nie ma czegos takiego jak staly sklad :P", -- [13]
-				"114:49:51progres = najlepszy mozliwy z wysoka frekwencja", -- [14]
-				"114:49:56farma = rotacja :P", -- [15]
-				"014:50:04no spoko rozumiem", -- [16]
-				"114:50:16wpsujesz sie w klandarzu na stronie", -- [17]
-				"114:50:25i ew. w komentarzach piszesz na ktorych bossach Ci najbardziej zalezy", -- [18]
-				"014:50:30k", -- [19]
-				"114:50:40a ze akurat kwestia healerow u nas wygladala tak", -- [20]
-				"114:50:45ze 1-2 stale przychodzilo", -- [21]
-				"114:50:48reszta w krate", -- [22]
-				"114:51:06to ew. slot progresowy bylby nadal do obsadzenia ", -- [23]
-				"014:51:06e to nie tak zle, myslalem ze bedzie 3 palków w 1 miejsce czy cos", -- [24]
-				"114:51:15jest 1 palek healer", -- [25]
-				"114:51:24no i ew. Requs teraz jeszcze :D", -- [26]
-				"014:51:34przekonam go zeby sie skupił na monku", -- [27]
-				"116:54:53formularza nie trzeba", -- [28]
-				"116:55:01jezeli sie tam rejestrowales to musze ci konto aktywowac", -- [29]
-				"116:55:04wtedy tworzysz postac", -- [30]
-				"116:55:09zeby moc sie dopisywac do eventow", -- [31]
-				"016:55:26ok, dzieki za info :)", -- [32]
-				"116:55:27zaraz ci aktywuje", -- [33]
-				"016:55:37super, dzieki", -- [34]
-				"123:14:46idziesz na en:hc ?", -- [35]
-				"023:16:35moge sie przejsc w sumie", -- [36]
-				"023:16:45juz idziecie?", -- [37]
-				"123:16:48tak", -- [38]
-				"123:16:58to dawaj na ts", -- [39]
-				"023:18:12Jestem", -- [40]
-				"019:53:01Na co idziemy? :P bo byłem wyciszony przez dluzsza chwile", -- [41]
-				"119:53:15na razie addon zainvowal wszystkich ktorzy przyszli i maja range :P", -- [42]
-				"019:53:26Nie no wiem wiem", -- [43]
-				"119:53:29a zaraz pewnie sheinen okresli sklad na odyna mythic", -- [44]
-				"019:53:39a czyli nie bedzie EN Mythic :(", -- [45]
-				"119:53:52po uwaleniu odyna bedzie wyprawa na koncowke EN", -- [46]
-				"019:53:54ty mnie nie pamietasz nie? xD", -- [47]
-				"119:54:01zeby acziwki powpadaly", -- [48]
-				"119:54:04no raczej;)", -- [49]
-				"119:54:10ja bylem deadshotem ", -- [50]
-				"019:54:18no wiem wczoraj zajarzyłem xD", -- [51]
-				"119:54:26Po glosie?", -- [52]
-				"019:54:30ta", -- [53]
-				"019:54:38tak sie zastanawiałem skad ja znam te głosy", -- [54]
-				"019:56:51Jaki addon po loota uzywacie?", -- [55]
-				"119:57:12ten sam co w encore", -- [56]
-				"119:57:15rc_loot_council", -- [57]
-			},
-		}, -- [17]
-		{
-			["received"] = 1,
-			["class"] = "DRUID",
-			["name"] = "Dzoan-BurningLegion",
-			["messages"] = {
-				"119:44:14Czesc", -- [1]
-				"119:44:22czemu skipowalas spota wczoraj? ", -- [2]
-				"019:44:35a czemu nie", -- [3]
-				"119:45:03Tak pytam czy jakis powod byl ^^ ", -- [4]
-				"119:45:17Bo mialem byc na lawce a wzieli mnie bo zrezygnowalas", -- [5]
-			},
-		}, -- [18]
-		{
-			["received"] = 1,
-			["class"] = "DEMONHUNTER",
-			["name"] = "Elpotato-BurningLegion",
-			["messages"] = {
-				"116:15:00zaczeliscie tego nla?", -- [1]
-				"016:15:22nie", -- [2]
-			},
-		}, -- [19]
-		{
-			["received"] = 1,
-			["class"] = "MAGE",
-			["name"] = "Whiterun-BurningLegion",
-			["messages"] = {
-				"016:16:08no hej", -- [1]
-				"016:17:36jak bedziesz mial czas to szepnij, sprawe mam :P", -- [2]
-				"116:17:42spk", -- [3]
-				"116:17:47chwilowo mnie na tsie mecza :D", -- [4]
-				"016:17:53oki ; p", -- [5]
-				"016:23:50bo tam tylok chcialem cb prosic o potwierdzenie mojego konta na stronie ; p", -- [6]
-				"016:23:58chcialem zobaczyc czy jakies raidy sa czy cos ; p", -- [7]
-				"116:24:03zaraz sie tym zajme :D", -- [8]
-				"016:24:12luzik blusik", -- [9]
-				"116:24:31done", -- [10]
-				"016:24:58superancko dzieki", -- [11]
-				"016:28:43mozesz jakos sprawdzic czy dobrze sie zapisalem ? jak masz czas oczywiscie :P", -- [12]
-				"016:29:28a jestem, widze sie", -- [13]
-				"016:29:31super", -- [14]
-				"019:57:05dostane inva czy sie nie zalapie ? ; p", -- [15]
-				"017:49:29no  hej", -- [16]
-				"017:49:37kiedy sa jakies farmy dla sociali? ;P", -- [17]
-				"017:49:54bo tez chcialbym sobie poraidowac a nie moge :(", -- [18]
-				"117:50:54Hejo", -- [19]
-				"117:50:59Widzisz trafiles akurat na okres ", -- [20]
-				"117:51:03kiedy sie konczy content :p", -- [21]
-				"117:51:09+ swieta", -- [22]
-				"117:51:25zwykle we wtorki / niedziele sa farmy takich rzeczy]", -- [23]
-				"017:51:59a jakie trzeba cyfry robic na jakies mythici ?", -- [24]
-				"117:52:43no tankowie robia po 300k mnw teraz", -- [25]
-				"017:52:53czyli ponad to", -- [26]
-				"017:52:54xD", -- [27]
-				"017:53:28jak wejdzie nowy patch to juz mozesz mnie na mythic dodawac :P", -- [28]
-				"117:54:03ok", -- [29]
-				"117:54:08albo wbij na ts to pogadamy", -- [30]
-				"015:39:32siema, i jak. Beda jakies farmy ?", -- [31]
-				"015:39:38czy na ten moment nic", -- [32]
-				"115:39:58wczoraj po raidzie ", -- [33]
-				"115:40:05byl spontan heroic", -- [34]
-				"115:40:16mozliwe ze jeszcze drugi bedzie", -- [35]
-				"115:40:26musisz wiecej na tsa wbijac", -- [36]
-				"015:40:31a jak bedzie to dzis czy jutro ? :P", -- [37]
-				"115:40:59dzis raczej nie bo progres", -- [38]
-				"115:41:06albo w niedziele", -- [39]
-				"115:41:10albo we wtorek", -- [40]
-				"015:41:16oks ", -- [41]
-				"015:41:20dziek iza info", -- [42]
-				"115:41:31pamietaj", -- [43]
-				"115:41:35o tsie", -- [44]
-				"115:41:41tam sie wiekszosc rzeczy ustala :D", -- [45]
-				"015:41:47no tak :P", -- [46]
-			},
-		}, -- [20]
-		{
-			["received"] = 1,
-			["class"] = "HUNTER",
-			["name"] = "Treatstiles-Draenor",
-			["messages"] = {
-				"002:09:52WHY say yes to kick me wtf", -- [1]
-				"102:10:08what?", -- [2]
-				"102:10:13I dont even read those votes", -- [3]
-				"002:11:14well don't hit yes next time -.-", -- [4]
-				"002:11:14well don't hit yes next time -.-", -- [5]
-				"002:11:15well don't hit yes next time -.-", -- [6]
-				"002:11:23well don't hit yes next time -.-", -- [7]
-				"102:11:24next time do something", -- [8]
-				"102:11:32instead of giving them a reason to kicu u :D", -- [9]
-				"002:11:33was lagging badly", -- [10]
-				"002:11:54shut up u meanward if u don't know the reason", -- [11]
-			},
-		}, -- [21]
-		{
-			["received"] = 1,
+			["name"] = "Recus-BurningLegion",
 			["class"] = "PALADIN",
 			["messages"] = {
 				"000:26:14jeszcze jedno", -- [1]
@@ -1499,11 +290,279 @@ WhisperPopDB = {
 				"000:43:30co z tym kara?", -- [278]
 				"100:43:34wlasnie ustalamy", -- [279]
 				"100:43:37zaraz chyba idziem", -- [280]
+				"018:42:39inv", -- [281]
+				"018:42:41>.>", -- [282]
 			},
-			["name"] = "Recus-BurningLegion",
-		}, -- [22]
+		}, -- [1]
 		{
 			["received"] = 1,
+			["name"] = "Yakushi-Burning Legion",
+			["class"] = "HUNTER",
+			["messages"] = {
+				"018:42:05inv", -- [1]
+			},
+		}, -- [2]
+		{
+			["received"] = 1,
+			["name"] = "Queth#2417",
+			["class"] = "BN",
+			["messages"] = {
+				"023:11:33masz logi z dzis?", -- [1]
+				"123:11:41nie robilem live", -- [2]
+				"123:11:47ale sprobuje wgrac", -- [3]
+				"023:11:52oki oki", -- [4]
+				"019:10:03hej ", -- [5]
+				"019:10:09zrobisz mi kilka flaszek i potow?", -- [6]
+				"119:10:15tak", -- [7]
+				"119:10:29w ogole odp cos na slacku", -- [8]
+				"119:10:33na tego ziomka tam", -- [9]
+				"119:10:37co mu wysylamy w odp", -- [10]
+				"019:10:46moment", -- [11]
+				"019:10:514x seventh najpierw", -- [12]
+				"019:11:43i 20 deadly", -- [13]
+				"019:13:37potrzebuje all 27", -- [14]
+				"019:13:54thx", -- [15]
+				"019:14:05czemu te deadly tak slabo procuja Panie", -- [16]
+				"119:14:09nie wiem", -- [17]
+				"119:14:14jak wsyzstko", -- [18]
+				"119:14:17rng -_-", -- [19]
+				"019:14:17zrobiliscie +11?", -- [20]
+				"119:14:20nie", -- [21]
+				"119:14:23tank z puga wylazl", -- [22]
+				"019:14:27lol", -- [23]
+				"019:15:12taka golemiada byla ze gosc sie wkurw?", -- [24]
+				"119:15:34kurwa na +11 to golemiade masz zawsze", -- [25]
+				"119:15:40padl 2gi boss", -- [26]
+				"119:15:44i typ wylazl na trashu", -- [27]
+				"119:15:54ale ogolem byl retardem", -- [28]
+				"019:16:01a jak z czasem bylo?", -- [29]
+				"119:16:02bo golemiade to odwalal on wlasnie", -- [30]
+				"119:16:07wlaz na ts bo mi sie pisac nie chce", -- [31]
+				"019:16:44to mnie wciagnij", -- [32]
+				"023:13:30kurwa mac", -- [33]
+				"123:13:42co? z gildii wychodza? :d", -- [34]
+				"023:13:49jeszcze nie wiem", -- [35]
+				"123:15:46wbic do was?", -- [36]
+				"123:15:52czy imtymnie?", -- [37]
+				"023:29:22sa logi ?", -- [38]
+				"123:30:13sprobuje wrzucic", -- [39]
+				"023:35:33kiciex generalnie wkurwiony ze relica nie dostal", -- [40]
+				"023:35:41on bedzie chcial loot tylko pod ferala brac teraz", -- [41]
+				"123:35:43oO", -- [42]
+				"023:35:50i tak bedzie bisy ustawial dla siebie", -- [43]
+				"023:36:19mowi ze na guardiana sie ubierze na m+", -- [44]
+				"023:36:23ale loot chce pod ferala", -- [45]
+				"023:36:51i tez mial problem z tym ze nowi ludzie dostaja itemy", -- [46]
+				"000:08:02wgrywasz te logi ?", -- [47]
+				"022:35:35 |Hitem:142157::::::::110:254::23:2:3453:1472:::|h[Aran's Relaxing Ruby]|h", -- [48]
+				"019:09:47zrobisz mi kilka flaszek na szybkosci?", -- [49]
+				"019:15:15jestes?", -- [50]
+				"119:17:10jeszcze chwile tak, a co tam?", -- [51]
+				"019:17:30flaski potrzebuje :d", -- [52]
+				"019:17:33gdzie jestes?", -- [53]
+				"119:17:43skocze do dala", -- [54]
+				"019:18:2510 demonow", -- [55]
+				"019:19:15akceptuj i lecimy z koksem", -- [56]
+				"019:21:16dzieki bardzo", -- [57]
+				"119:21:20spk", -- [58]
+				"019:58:39we cant res him", -- [59]
+				"123:20:14wiesz ze mamy pusty guild bank, nie ?", -- [60]
+				"023:20:28jak pusty", -- [61]
+				"023:32:58te", -- [62]
+				"023:33:01wyjebales raid", -- [63]
+				"123:33:10No przeciez nowy kalendarz jest", -- [64]
+				"023:33:17gdzie", -- [65]
+				"123:33:37raid.wipeforged.com", -- [66]
+				"120:14:11Zrob screenshota skladu ktory jest w grupie", -- [67]
+				"120:14:16i po raidzie mi wyslesz", -- [68]
+				"000:43:08600k dipsa na nightbane :D", -- [69]
+				"100:43:25nice", -- [70]
+				"100:43:41 |Hitem:134526:5427:::::::110:63::23:3:1727:1492:1813:::|h[Gnawed Thumb Ring]|h z questa dostalem, tez cos da :P", -- [71]
+				"100:43:49jak sie skombinuje z tym traitem 35 to bedzie nice", -- [72]
+				"000:44:04;pp", -- [73]
+				"000:44:06brb", -- [74]
+				"000:47:13ja musze tego chesta z nb", -- [75]
+				"000:47:20nie dosc ze bisowe staty ", -- [76]
+				"000:47:30to jeszcze pompuje trinket :D", -- [77]
+				"100:47:50no", -- [78]
+				"100:47:56a ja z kolei ten tirnket wlasnie z mediva musze ;c", -- [79]
+				"000:48:30musisz", -- [80]
+				"000:48:34zanim go znerfia do gleby", -- [81]
+				"000:48:45z gowna fire mage robi sie topowy na dungach :d", -- [82]
+				"100:49:44no i na raidzie tez to dziala niezle", -- [83]
+				"015:10:53dzis zrobilem 2x mythic z harkogiem", -- [84]
+				"015:10:59i juz 868 na tanku i klucz eoa +11", -- [85]
+				"015:11:02ale to harkog ma", -- [86]
+				"015:11:05okej lece", -- [87]
+				"022:28:28bedziesz chcial arcway +8 ?", -- [88]
+				"022:28:31kiciex robi bg", -- [89]
+				"122:28:34moge", -- [90]
+				"016:10:37Hej", -- [91]
+				"016:10:43Zrobilbys mi kilka flaszek?", -- [92]
+				"116:10:56nom", -- [93]
+				"016:11:37podlecialbys do dala?", -- [94]
+				"116:12:07tak", -- [95]
+				"016:13:10jestem teraz w jakims party ogarniemy to szybko i bedzie oks", -- [96]
+				"016:13:3310x siodmy demon", -- [97]
+				"116:14:01oj chyba cie skroje :D", -- [98]
+				"016:14:07co proclo ;d", -- [99]
+				"116:14:24biore 1 za fatyge :D", -- [100]
+				"016:14:27ok", -- [101]
+				"016:14:40thx", -- [102]
+				"116:14:43dzieki", -- [103]
+				"021:46:03red inv", -- [104]
+				"019:58:34red inv", -- [105]
+				"019:58:47red inv", -- [106]
+				"016:19:11ju there?", -- [107]
+				"016:25:43Plebie :d", -- [108]
+				"017:24:24areny klepiemy ", -- [109]
+				"017:24:31moze przed raidem z 15 min sie odezwe?", -- [110]
+				"117:32:16jakis nightbane przed-raidowy ?", -- [111]
+				"017:32:48zastanawiam sie wlasnie", -- [112]
+				"017:32:54ale kurde chce isc mailowcami", -- [113]
+				"017:33:02btw", -- [114]
+				"017:33:07zrobisz mi kilka flaszek?", -- [115]
+				"117:33:09a ja chce mounta :<", -- [116]
+				"117:33:16no", -- [117]
+				"017:36:5910x demon xd", -- [118]
+				"017:37:54i 10 x deadly", -- [119]
+				"117:38:25lol", -- [120]
+				"017:38:38dzieki", -- [121]
+				"117:38:42to sie nazywa rng-fck", -- [122]
+				"017:38:47ano xd", -- [123]
+				"000:57:47w sumie jest nauczka na przyszlosc", -- [124]
+				"116:14:57bylem wczoraj na lfr :D", -- [125]
+				"016:15:34no i ?", -- [126]
+				"116:15:45 |Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h", -- [127]
+				"016:16:11gz", -- [128]
+				"116:17:14dz", -- [129]
+				"116:18:262 bisy z lfra ^^", -- [130]
+				"115:37:36cho na tsa", -- [131]
+				"016:04:09hej", -- [132]
+				"016:04:12ile do konca?", -- [133]
+				"116:04:2210 sek", -- [134]
+				"016:04:24zrobilbysz mi kilka flasek?", -- [135]
+				"116:04:35cho na ts", -- [136]
+				"119:58:39dobra", -- [137]
+				"119:58:41jebac boosta", -- [138]
+				"119:58:43idziemy na heilie", -- [139]
+				"119:58:47helene*", -- [140]
+				"020:44:03rob logi jak mozesz", -- [141]
+				"020:44:06pozniej podpatrze", -- [142]
+				"120:44:22ja spadam niedlugo", -- [143]
+				"120:44:24wiec nie porobie", -- [144]
+				"020:44:31jak to wyglada?", -- [145]
+				"120:44:36ale obiecujaco jesli chodzi o liczby", -- [146]
+				"020:44:36orby caly czas?", -- [147]
+				"120:44:38a taktyke..", -- [148]
+				"120:44:40to heh", -- [149]
+				"120:44:43nelerona sie ciezko slucha ;d", -- [150]
+				"120:44:50tak", -- [151]
+				"020:51:14daj inva", -- [152]
+				"017:25:05machniesz mi potki?", -- [153]
+				"117:25:19jak skoncze wq", -- [154]
+				"017:28:05odezwe sie pozniej jak cos", -- [155]
+				"017:28:07wyskoczyl mi eoa", -- [156]
+				"117:28:20ok", -- [157]
+				"018:25:04pykniesz mi teraz flaszki?", -- [158]
+				"018:25:07czy lfr", -- [159]
+				"016:51:59idziesz?", -- [160]
+				"116:52:04no mozesz dac inva", -- [161]
+				"019:49:34zakladaj grupe mysle", -- [162]
+				"119:49:46ty zaloz bo ja nie wiem do ktorej bede", -- [163]
+				"119:49:54zeby ML byl na tobie itd", -- [164]
+				"018:35:15bede kolo 20 wtedy na m+0 mozna", -- [165]
+			},
+		}, -- [3]
+		{
+			["received"] = 1,
+			["name"] = "Mishiima-BurningLegion",
+			["class"] = "WARRIOR",
+			["messages"] = {
+				"019:53:53jestes?", -- [1]
+				"019:56:43masz chwile czasu zeby pogadac?", -- [2]
+				"120:01:03siema", -- [3]
+				"120:01:06po raidzie (23)", -- [4]
+				"120:01:10bede mial :p", -- [5]
+				"020:01:11spoko", -- [6]
+				"120:01:13a co tam?", -- [7]
+				"020:01:21mam dla ciebie powazna propozycje", -- [8]
+				"120:02:03Walnij to zaczne myslec w trakcie raidu :D", -- [9]
+				"120:02:07i pogadamy po jezeli bedziesz", -- [10]
+				"020:02:22szukasz ludzi?", -- [11]
+				"120:03:12no tak, cchemy paru slackerow powymieniac", -- [12]
+				"120:03:21bo przychodzenie w krate nie sprzyja progresom;)", -- [13]
+				"120:03:32ilu masz ludkow ?", -- [14]
+				"020:03:36to pogadamy o 23", -- [15]
+				"120:03:39ok", -- [16]
+				"120:05:32ok", -- [17]
+				"120:05:38w razie co nawet w przerwie mozemy pogadac", -- [18]
+				"120:05:41jak cos ts: wipeforged.com", -- [19]
+				"021:15:08gz:D", -- [20]
+				"018:53:16inv:)", -- [21]
+				"115:27:58siemka", -- [22]
+				"115:28:02robiles moze kara w tym tyg?", -- [23]
+				"115:28:04i nightbane'a", -- [24]
+				"015:28:14niet", -- [25]
+				"015:28:18mozemy wieczorkiem zrobic", -- [26]
+				"115:28:19a nie chcialbys skoczyc?", -- [27]
+				"115:28:27no wieczorkiem wlasnie do kina lece;p", -- [28]
+				"015:28:39to chyba ze po inscie sie uda", -- [29]
+				"115:28:48nb nam pewnie z 30 min zejdzie moze do godzinki", -- [30]
+				"115:29:07jak cos daj znac", -- [31]
+				"015:29:15k", -- [32]
+				"115:54:44Jak tam? :)", -- [33]
+				"015:57:34a masz reszte?", -- [34]
+				"115:57:471 dpsa tylko nam brak", -- [35]
+				"015:57:57no to inv i wbijac na ts", -- [36]
+				"115:58:07jeszcze 5 min bo staremu film odpalam :P", -- [37]
+				"015:58:18spoko ", -- [38]
+				"015:58:29to ide do pieca podrzucic:D", -- [39]
+				"100:31:22idziesz na boost na NB po raidzie?", -- [40]
+				"100:31:2660 zl na glowe ", -- [41]
+				"100:32:07jestes? :P", -- [42]
+				"100:32:17zostan po raidzie sprawa bedzie", -- [43]
+				"020:56:27co tam wczoraj chciales bo niet mi sie tak juz jebal ze poszedlem", -- [44]
+				"120:56:54w sumie juz nic", -- [45]
+				"120:56:59na nightbane grupy szukalem", -- [46]
+				"020:57:12a wlasnie robiles juz w tym tygodniu?", -- [47]
+				"120:57:20jeszcze nie", -- [48]
+				"020:57:29moze po raidzie jebiemy?", -- [49]
+				"120:57:32mozliwe ze dzis po raidzie", -- [50]
+				"020:57:40spox", -- [51]
+				"120:57:40ale mamy boosta ogolem", -- [52]
+				"120:57:50po raidzie podam szczeg.", -- [53]
+				"020:57:54mlodego bysmy wzieli bo tez nie zrobil jeszcze", -- [54]
+				"118:18:54yo", -- [55]
+				"118:18:58nie ma dkmeistera jeszcze", -- [56]
+				"118:19:04a requs pisal ze za 20 min bedzie", -- [57]
+				"018:19:10spoko", -- [58]
+				"118:19:10Ty jak cos do ktorej dostepny?", -- [59]
+				"018:19:25na chwile obecna caly czs", -- [60]
+				"018:19:31chyba ze cos drastycznie sie zmieni", -- [61]
+				"118:20:04ja mam dzis 1,5h mnw", -- [62]
+				"018:20:46no to jak sie tak beda spieszyc to ciezko sie bedzie wyrobic w tym czasie:D", -- [63]
+				"118:20:58nom", -- [64]
+				"118:21:16w miedzyczasie moze jakis m+ przyfarmimy?", -- [65]
+				"118:21:30dla AP chociaz", -- [66]
+				"018:21:40narazie musze q porobic bo dopiero sie zalogowalem:D", -- [67]
+				"118:21:58;p spoko", -- [68]
+			},
+		}, -- [4]
+		{
+			["received"] = 1,
+			["name"] = "Werell-BurningLegion",
+			["class"] = "ROGUE",
+			["messages"] = {
+				"118:04:17hej", -- [1]
+				"018:04:27Czy z 57 lvl Rouge assasination mogę dolonczyc do waszej grupy?", -- [2]
+				"118:05:18Musialbys wypelnic krotki formularz na wipeforged.com", -- [3]
+				"118:05:38napisac pare slow o sobie :) I mysle ze by nie bylo problemu - jesli chodzi o socjal", -- [4]
+			},
+		}, -- [5]
+		{
+			["received"] = 1,
+			["name"] = "Azurewratmg-BurningLegion",
 			["class"] = "MAGE",
 			["messages"] = {
 				"017:00:12czesc", -- [1]
@@ -1725,9 +784,1242 @@ WhisperPopDB = {
 				"000:39:38a tobie helm", -- [217]
 				"100:39:40teraz bym se jeszcze na fire wzial", -- [218]
 				"100:39:48ktory helm?", -- [219]
+				"117:39:55yo i co ten ring juz sie zboundowal? :P", -- [220]
+				"017:42:47jak tam byku", -- [221]
+				"117:44:04z czym :P", -- [222]
+				"117:44:09rhcek", -- [223]
+				"017:44:10z zyciem :)", -- [224]
+				"017:44:19co ciekawego", -- [225]
+				"117:44:29nic, sylwester :D", -- [226]
+				"117:44:35poki co nic", -- [227]
+				"017:44:38a gdzie smigazsz??", -- [228]
+				"117:44:44ten ring co wczoraj nie potrzebowales to bounded juz jest?", -- [229]
+				"117:44:51na domowke lece", -- [230]
+				"017:45:07znaczy mi sie przyda bo mam ten sam ale jest socket na prismatic :)", -- [231]
+				"117:45:15a spk", -- [232]
+				"017:47:34po 35 lvl jakos szybciej apka leci ", -- [233]
+				"117:47:54y?", -- [234]
+				"017:47:57noo", -- [235]
+				"117:48:04co?", -- [236]
+				"017:48:04w 1 dzien mozna zrobic poltora poziomu", -- [237]
+				"117:48:19ale nie kumam :p", -- [238]
+				"017:48:34no ze po wbiciu 35 traitu szybciej jakos apka leci", -- [239]
+				"017:48:35):", -- [240]
+				"017:48:37:)", -- [241]
+				"117:48:39aa", -- [242]
+				"117:48:40no ", -- [243]
+				"117:48:5341 mam i 30 na arcane", -- [244]
+				"117:49:12a teraz ten knowlage", -- [245]
+				"017:49:18nooo", -- [246]
+				"117:49:19zaraz bedzie 25000%", -- [247]
+				"117:49:27za pare dni", -- [248]
+				"017:49:31w sumie moge dac i ten ring pewnie niedlugo bedzie lepszy loot :)", -- [249]
+				"117:49:47bez cisnenia ", -- [250]
+				"017:49:51za ile w dalarenie", -- [251]
+				"117:50:02zaraz rhc skoncze", -- [252]
+				"117:50:10violet hold", -- [253]
+				"117:50:187-8 min", -- [254]
+				"117:53:36za min koniec", -- [255]
+				"017:53:54ok", -- [256]
+				"117:54:42ew", -- [257]
+				"117:54:44w", -- [258]
+				"117:54:48order hallu :d", -- [259]
+				"117:55:59jak cos bede kolo stolika z questami", -- [260]
+				"017:57:23cos nie moge", -- [261]
+				"117:57:29gema wlozyles? :P", -- [262]
+				"117:57:31moze minal czas", -- [263]
+				"017:57:34nie", -- [264]
+				"117:57:37bo tam niby 2h byly ", -- [265]
+				"117:57:47musisz recznie przeciagnac ", -- [266]
+				"117:57:52na te gorne sloty", -- [267]
+				"117:58:14sprobuj to przesunac na kwadraciki wyzej", -- [268]
+				"017:58:37nie da rady", -- [269]
+				"117:58:40jak nie dziala to trudno :)", -- [270]
+				"117:58:45ale dzieki za fatyge ", -- [271]
+				"017:58:52zes wtedy uciekl na oficerk e:)", -- [272]
+				"117:59:09no mowi sie trudno :P", -- [273]
+				"017:59:29jeszcze beda okazje", -- [274]
+				"117:59:58ten ring i tak na fire by byl, a nie wiem ile jeszcze fire bede katal :)", -- [275]
+				"118:00:06Jak sie okaze w miare to moze zostane na nim", -- [276]
+				"118:00:12sie wybada", -- [277]
+				"118:00:33AP bedzie tak zapierdalac ze we wszystkie 3 spece bedzie szlo szybko wbic", -- [278]
+				"018:00:48taa", -- [279]
+				"018:01:47chlopaki poratowli goldem ale zapomnialem kupic dzis do gm napisalem o pare minut i token jest", -- [280]
+				"018:01:58dzwonil do mnie koles z blizzarda zfrancji", -- [281]
+				"118:02:03o:)", -- [282]
+				"018:02:18mysle kurwa znow towar nie doszedl bo my wyyslyamy ciuchy i buty do franchi", -- [283]
+				"018:02:24pewnie cos zle ", -- [284]
+				"118:02:26hehe", -- [285]
+				"018:02:37a tu niespodzianka", -- [286]
+				"018:02:52numer francuski a tu polak :)", -- [287]
+				"118:03:09no oni zatrudniaja paru gm z PL", -- [288]
+				"018:03:17nom", -- [289]
+				"018:03:21a gdzie masz ta domowjke??", -- [290]
+				"118:03:33u znajomych ;p", -- [291]
+				"018:03:39tez w szczecinie?/", -- [292]
+				"118:03:56No w okolicach", -- [293]
+				"118:04:0130km od Szcz.", -- [294]
+				"018:04:05z zona idziesz??", -- [295]
+				"118:04:14nie;)", -- [296]
 			},
-			["name"] = "Azurewratmg-BurningLegion",
+		}, -- [6]
+		{
+			["received"] = 1,
+			["name"] = "Werell-Burning Legion",
+			["class"] = "ROGUE",
+			["messages"] = {
+				"018:04:07Hej", -- [1]
+			},
+		}, -- [7]
+		{
+			["received"] = 1,
+			["class"] = "PALADIN",
+			["name"] = "Klatanovic-BurningLegion",
+			["messages"] = {
+				"020:35:02Siemka nie bylo mnie troche w tym tygodniu pare spraw mialem do załatwienia,wiec teraz powinienem byc normalnie.", -- [1]
+				"120:35:11spk", -- [2]
+				"019:56:25wyjazd mi sie przedluzyl jestem bes sluchawek itp wiec ze mnie porzytku zadnego nie bedzie dzisiaj nawet sie nie zapisywalem", -- [3]
+				"016:45:09siemka masz chwilke?", -- [4]
+				"116:45:16ts", -- [5]
+				"121:01:17czemu na hc nie wpadles? :D", -- [6]
+				"021:02:00dopiero wrocilem w sumie i nawet nie patrzylem na kalendar", -- [7]
+				"012:26:53Yo w najbliższym czasie nie bede przedluzal abo dopiero chyba na nighthold wroce wiec odchodze z gildii było miło trzymaj się i powodzenia na progresach Elo", -- [8]
+				"112:27:20hej", -- [9]
+				"112:27:30Generalnie to nighthold za 2-3 tygodnie", -- [10]
+				"112:27:56Powodzenia, trzymaj sie", -- [11]
+			},
+		}, -- [8]
+		{
+			["received"] = 1,
+			["class"] = "DEATHKNIGHT",
+			["name"] = "Dkmeister-BurningLegion",
+			["messages"] = {
+				"023:29:46co sie stalo", -- [1]
+				"123:30:30?", -- [2]
+				"123:30:33z czym?", -- [3]
+				"023:30:39nie ma wydarzenia na jutro", -- [4]
+				"023:30:50i wylacz tego bota do odpisywania", -- [5]
+				"123:31:09raid.wipeforged.com", -- [6]
+				"123:31:13teraz tam kalendarz mamy", -- [7]
+				"023:33:25cos maila nie wysyła", -- [8]
+				"123:33:44juz zaakceptowalem", -- [9]
+				"123:33:46dodaj se chara", -- [10]
+				"023:35:56cos sie tak uparł na te strony itp :P ?", -- [11]
+				"123:36:06Wygodniejsze", -- [12]
+				"123:36:16mozna zostawiac komentarze, notki itd.. przy kazdym evencie", -- [13]
+				"123:36:25powiadomienia na maila jak sie ktos wypisze itd.", -- [14]
+				"123:36:38+ rejestruje kto sie kiedy wpisywal zeby pozniej oceniac obecnosc", -- [15]
+				"013:51:38ogolnie", -- [16]
+				"013:51:43to sry ze mnie w poniedzielk nie bylo", -- [17]
+				"013:51:52ale zasilacz mi wyjebalo", -- [18]
+				"113:52:06luz", -- [19]
+				"113:52:11ale next time daj znac na slacku :D", -- [20]
+				"013:52:24niestety apki nie mam ", -- [21]
+				"013:52:39ale dzisiaj wpadne", -- [22]
+				"113:52:50ok", -- [23]
+				"022:45:501", -- [24]
+				"122:45:51Your vote for \"Moge siedziec\" has been accounted. Thank you!", -- [25]
+				"115:04:27to mowisz ze w niedziele nie idziesz na hc? :P", -- [26]
+				"015:04:38ide", -- [27]
+				"015:04:48tyko paczylem czy mnie wezma za sam ilvl xD", -- [28]
+				"015:04:53bez linkowania gowan", -- [29]
+				"022:23:36sprawdz wiadomosc na tsie", -- [30]
+				"022:25:24sprawdz wiadomosc na tsie", -- [31]
+				"022:25:28i spadam", -- [32]
+				"022:25:33bo tylko to chcialem napisac", -- [33]
+				"021:08:07zaprosisz redu ?", -- [34]
+				"021:23:54jutro nadal farma czy odyn wjezdza ?", -- [35]
+				"121:24:05zalezy jak pojdzie", -- [36]
+				"116:09:38byles na kara?", -- [37]
+				"016:10:43nie", -- [38]
+				"116:10:51chcesz isc?", -- [39]
+				"116:10:55mamy ekipe 1 dps brakuje", -- [40]
+				"016:10:56nightbane ?", -- [41]
+				"116:10:59tez", -- [42]
+				"016:11:05no ok", -- [43]
+				"116:11:08dawaj na ts", -- [44]
+				"116:52:41bedziesz dzis na odynie?", -- [45]
+				"020:39:37nie zjebalem ani razu teraz", -- [46]
+				"020:39:41kochasz mnie za to ?", -- [47]
+				"123:44:38chcesz na tego kara?", -- [48]
+			},
+		}, -- [9]
+		{
+			["received"] = 1,
+			["class"] = "MONK",
+			["messages"] = {
+				"116:34:06hejo", -- [1]
+				"016:34:13hey", -- [2]
+				"016:34:19co tam?", -- [3]
+				"116:34:23Jak sie umawiamy, w razie \"gdybyscie sie zdecydowali\" to nie lockujecie sie od srody, co? :P", -- [4]
+				"116:34:41Zebysmy mogli juz na wspolny raid wszyscy isc", -- [5]
+				"016:34:46jesli beda ludzie to zlockujemy najpewniej", -- [6]
+				"016:34:49wiem", -- [7]
+				"016:35:03jesli beda ludzie  na srode to pojdziemy, moze pojdziemy na tov najpierw", -- [8]
+				"016:35:11wezme to pod uwage", -- [9]
+				"116:35:11no szkoda by bylo bo zaraz swieta itd.. ", -- [10]
+				"116:35:28ale spoko", -- [11]
+				"116:35:32W razie co dajcie znac wczesniej", -- [12]
+				"016:35:51wtorek/sroda  bede wiedzial", -- [13]
+				"016:36:02dam odrazu jak bede wiedzial 100%", -- [14]
+				"116:36:05oko", -- [15]
+				"016:37:00powiem ci ze sporo ludzi doszlo, ale jak graja to tylko raid powie", -- [16]
+				"016:37:16ale faktycznie na poczatek mozna pojsc na tov", -- [17]
+				"016:37:19dla bezpieczenstwa", -- [18]
+				"116:38:07Jak tych nowych weryfikujesz? :)", -- [19]
+				"116:38:32U nas ciagle od cholery podan ale 70% odrzucane", -- [20]
+				"116:39:01ludzie chca sie za darmo ubrac, a pozniej spierdolic do gildii z 7/7 :)", -- [21]
+				"116:39:12Jakbym nie znal takich historii ._", -- [22]
+				"116:39:28Takze trza byc ostroznym", -- [23]
+				"116:40:29My chcemy przed swietami sprobowac ubic xaviusa - o ile w tym resecie cenarek padnie", -- [24]
+				"116:41:17No i z Wami to bysmy wymienili bande slackerow i moznaby porezac :D Tak to \"niewiadomo\" co wyjdzie -_-", -- [25]
+				"116:41:40No ale jestesmy dobrej mysli", -- [26]
+				"016:48:46wtedy powinno byc okej :)", -- [27]
+				"016:48:47no ale", -- [28]
+				"016:48:49zobaczymy", -- [29]
+				"121:10:40No to teraz zostal nam xavius :P", -- [30]
+				"021:10:46gz :)", -- [31]
+				"121:10:48dz", -- [32]
+				"020:05:23inv", -- [33]
+				"020:05:25do gildii ", -- [34]
+				"020:05:26itp", -- [35]
+				"020:05:38recus redus requs ", -- [36]
+				"020:05:39hehe", -- [37]
+				"020:06:39inv na raid", -- [38]
+				"020:14:59wiecie ogolnie jak to robic?", -- [39]
+				"020:15:12bo nie wiem o co ogolnie pytales", -- [40]
+				"120:15:13bylismy tam wczoraj przez 20 min", -- [41]
+				"120:15:21wiec za wiele nie ", -- [42]
+				"020:15:24macki z przodu soeakuje raid", -- [43]
+				"120:15:25widziaelismy*", -- [44]
+				"020:15:26soakuje", -- [45]
+				"020:15:32macki z tylu  hunterzy na zolwiu", -- [46]
+				"020:28:19kto to mowi?", -- [47]
+				"120:28:27neleron", -- [48]
+				"020:28:27nick na wowie", -- [49]
+				"120:28:29Moadib", -- [50]
+				"020:28:44kk", -- [51]
+				"120:30:40mamy 2 os ktore czasami slackuja", -- [52]
+				"120:30:45wiec jak beda lamic", -- [53]
+				"120:30:55to ich kickniemy", -- [54]
+				"120:31:09z racji ze raid nieobowiazkowy to damy im szanse sie wykazac;p", -- [55]
+				"120:31:15Gehennus i Harkog", -- [56]
+				"020:31:28ok", -- [57]
+				"115:00:42yo, robiles karazhan w tym tyg? :P", -- [58]
+				"015:01:07czesc", -- [59]
+				"015:01:08nie", -- [60]
+				"115:01:18a wybierasz sie czy raczej nie?", -- [61]
+				"015:02:09a masz zamiar  nightbane robic?", -- [62]
+				"115:02:39Chetnie bym zrobil", -- [63]
+				"115:02:43bo zawsze lepszy loot", -- [64]
+				"115:02:47ale bez cisnienia ", -- [65]
+				"015:03:46no ok", -- [66]
+				"015:03:52ale nie teraz ok?", -- [67]
+				"115:03:56spoko", -- [68]
+				"015:04:05jak z ludzmi na dzisiaj w ogole?", -- [69]
+				"115:04:24tak jak w kalendarzu", -- [70]
+				"115:04:27bez szalu", -- [71]
+				"115:04:34jestes 1 healerem ktory sie wpisal", -- [72]
+				"115:04:433 melasow i 2 rangow", -- [73]
+				"115:04:44:p", -- [74]
+				"015:04:47...........", -- [75]
+				"015:05:00asymia kurwa wczoraj wyszedl...", -- [76]
+				"015:05:06nie ogarniam go", -- [77]
+				"115:05:06wiem", -- [78]
+				"115:05:09juz z nim gadalem ", -- [79]
+				"015:05:12why", -- [80]
+				"015:05:13?", -- [81]
+				"115:05:18wchodzi i wychodzi.. jak norek do krawczykow kurwa", -- [82]
+				"115:05:30\"a bo kolega mnie zagadal z ktorym kiedys gralem bal bla bla..\" - spoko", -- [83]
+				"115:05:37whatever >..", -- [84]
+				"115:05:45Jak 2x wyszedl bez slowa", -- [85]
+				"115:05:52to w sumie lepiej teraz niz w trakcie progresu", -- [86]
+				"015:05:58bez niczego wyszedl teraz?", -- [87]
+				"115:06:03nom", -- [88]
+				"115:06:07Ja go zagadalem po zajsciu", -- [89]
+				"015:06:14aha", -- [90]
+				"015:06:18lamus", -- [91]
+				"115:06:36No taka ujowa praktyka troche :]", -- [92]
+				"115:07:58na jutro juz niby 12 os wpisanych xD", -- [93]
+				"115:08:00jest nadzieja :P", -- [94]
+				"015:08:26na mnie jutro nie licz", -- [95]
+				"115:08:37Spoko, smieje sie", -- [96]
+				"115:08:47pewnie i tak nic nie bedzie, moze jakas farma hc ", -- [97]
+				"015:08:54szkoda", -- [98]
+				"115:08:58To bylo do przewidzenia - swieta", -- [99]
+				"115:09:02raid dla chetnych ;)_", -- [100]
+				"115:09:24\"rozpisz, rozpisz, plx!\" a jak co do czego 12 os. zapisanych ( z... 40? )", -- [101]
+				"015:09:52no ja tam na dzis sie zpaisalem ;p", -- [102]
+				"115:10:09No ja nic na to nie poradze ze ide do kina :c", -- [103]
+				"015:10:16aha...", -- [104]
+				"015:10:23a wiec kino jest wazniejsze od progresu....", -- [105]
+				"015:10:26spoko.......................", -- [106]
+				"115:10:30szczeg. ze sie dowiedzialem wczoraj ;p", -- [107]
+				"115:10:33xD", -- [108]
+				"115:10:36no ba", -- [109]
+				"015:10:41-dkp", -- [110]
+				"115:11:06na dkp to ja juz hipoteke mam xD", -- [111]
+				"015:11:13:P", -- [112]
+				"115:33:27Mishi mowi ze moze nam potankowac kara jak skonczy inste", -- [113]
+				"115:33:34Bedziesz sie pisal ?", -- [114]
+				"015:33:42o 21 ide na lyzwy w takim razie", -- [115]
+				"015:33:42moge", -- [116]
+				"115:33:44Vados mowi ze tez sie moze z nami kopnac", -- [117]
+				"115:34:03to jeszcze 1 kox deps", -- [118]
+				"021:08:45czemu prowadziszl live logow?", -- [119]
+				"121:08:53A sheinen nie robi?", -- [120]
+				"121:08:55zaraz odpale", -- [121]
+				"021:09:03no nie widze w kalendarzu nic", -- [122]
+				"121:09:11odpalam", -- [123]
+				"021:09:12a chcialem cos sprawdzic", -- [124]
+				"021:09:13mhm", -- [125]
+				"019:47:27sprzesz pare prolongow?", -- [126]
+				"019:47:36albo uj", -- [127]
+				"019:47:37nie wazne", -- [128]
+				"019:48:12jeslichodzi o odyna", -- [129]
+				"019:48:20to te runki duzo nam nie dadza", -- [130]
+				"019:48:29bo to od  mechanik padalismy", -- [131]
+				"119:48:35tez tak uwazam", -- [132]
+				"019:48:44co da versa na  brak wziecia shielda   z run", -- [133]
+				"019:54:54co z unadina?", -- [134]
+				"019:55:02on chyba srednio dawal rade?", -- [135]
+				"119:55:07wiem", -- [136]
+				"023:37:06co z tym kara?", -- [137]
+				"123:38:47zara sie dowiem", -- [138]
+			},
+			["name"] = "Requs-BurningLegion",
+		}, -- [10]
+		{
+			["received"] = 1,
+			["class"] = "SHAMAN",
+			["messages"] = {
+				"019:35:55pisze do Ciebie czesc", -- [1]
+				"000:41:37ja mam  9", -- [2]
+				"100:41:43o to lecim? :D", -- [3]
+				"000:41:50ale chce na 10 jebnac potem xD", -- [4]
+				"100:42:00no tak na to trza ogarnietych ludzi", -- [5]
+				"100:42:24to sami mozemy isc, ale nie z rympkiem :p", -- [6]
+				"000:42:30mozna kurwa wiecej kurwa mowic kurwa  ? xDDDD", -- [7]
+				"100:42:37liczymy? xd", -- [8]
+				"100:42:44to jest taki \"typowy seba\" jak to sie mowi ;p", -- [9]
+				"100:42:46dres z bloku", -- [10]
+				"100:43:04idziemy z nim na inste na jego klucz? :d", -- [11]
+				"000:43:40moze jak skoncze q", -- [12]
+				"000:44:066", -- [13]
+				"000:44:217", -- [14]
+				"100:44:368", -- [15]
+				"100:45:039", -- [16]
+				"100:45:0510", -- [17]
+				"000:45:0610 ", -- [18]
+				"000:45:07;D", -- [19]
+				"100:45:1111", -- [20]
+				"100:45:2112", -- [21]
+				"000:45:24XDDDD", -- [22]
+				"100:46:0614", -- [23]
+				"100:46:1415", -- [24]
+				"000:46:1415 chyba nawet", -- [25]
+				"100:46:2316", -- [26]
+				"000:46:5717", -- [27]
+				"100:46:59.. 20 ?", -- [28]
+				"000:47:02nie wiem xD", -- [29]
+				"100:54:05xd", -- [30]
+				"100:54:09co on chce nagrywac", -- [31]
+				"100:54:13jak lami", -- [32]
+				"000:54:13ale to mul jes xD", -- [33]
+				"100:54:16xD", -- [34]
+				"100:54:20no za mocny w chuj", -- [35]
+				"000:54:25ja mam takie mordy z osiedla swoje", -- [36]
+				"000:54:29ale kurwa on przy nich ", -- [37]
+				"000:54:31to serio xD", -- [38]
+				"100:54:33no", -- [39]
+				"100:54:35i co on robi w wowie", -- [40]
+				"100:54:37i to od tbc", -- [41]
+				"100:54:42i on tak jak gada tak gra", -- [42]
+				"021:09:15ej czy to jest jakis wewnetrzny zart z tym psem ? XD bo spialem sie z dupy glupim tekstem nie myslac xD", -- [43]
+				"121:09:25ja nie wiem skad on to wzial", -- [44]
+				"121:09:26jakas nowosc", -- [45]
+				"021:09:40nie lubie tekstu ze jestem psem to chyba sie nie obrazil xD", -- [46]
+				"121:18:09wiesz lej na szejnena", -- [47]
+				"121:18:14chuj mu w hunterowe cyce :P", -- [48]
+				"021:18:15niee", -- [49]
+				"021:18:22chodzi mi ze wyjebalem glupi teks", -- [50]
+				"021:18:27a potem pacze ze to RL xD", -- [51]
+				"121:18:34i chuj ;d", -- [52]
+				"021:18:42kurwa pieniadz nie gm xD", -- [53]
+				"121:18:45nie przejmuj sie on na luzie podchodzi", -- [54]
+				"023:05:56czy ja jestem najlepszy ? x( ", -- [55]
+				"023:12:05slonce mam pytanie :D", -- [56]
+				"023:12:11co to za dupejra w guildii xD", -- [57]
+				"014:54:32jakie sa wymogi na rajd, w sensie co mam miec oprocz zarcia i flaskow", -- [58]
+				"114:59:27yy", -- [59]
+				"114:59:37lapowke dla guid mastera zeby ew loot dostac", -- [60]
+				"014:59:37;/", -- [61]
+				"114:59:42i hmm..", -- [62]
+				"114:59:45moze jakies piwo", -- [63]
+				"014:59:49runy? vantusy ?", -- [64]
+				"114:59:55Mozesz miec w plecaku", -- [65]
+				"114:59:59tzn", -- [66]
+				"115:00:03nie koniecznie dzisiaj", -- [67]
+				"115:00:08bo mamy aktywne runy z ursoca jeszcze", -- [68]
+				"115:00:12wiec wiele to nie zmieni", -- [69]
+				"115:00:17run zwyklych nie trzeba", -- [70]
+				"115:00:32szybki kill pajaczka ma byc a potem smoczki progresujemy", -- [71]
+				"015:00:45to sobie golda pofarmie x)", -- [72]
+				"022:33:45siemka, jestes pysiu ?", -- [73]
+				"122:33:49no ba", -- [74]
+				"022:34:00bo jest taki maly sprawulon jesli chodzi o czwartek", -- [75]
+				"022:34:11bo koncze teoretycznie zajecia o 19, rzadko sie zdarzy ze wczesniej ", -- [76]
+				"022:34:22ale zima zaskakuje kierowcow i mozliwe ze sie spoznie ", -- [77]
+				"122:34:40to napisz to w notce przy evencie :P", -- [78]
+				"022:34:53nie bez powodu jestes gmem ", -- [79]
+				"122:34:56idziesz na +11 ?", -- [80]
+				"022:35:00namowiles", -- [81]
+				"122:35:00oldts.wipeforged.com", -- [82]
+				"022:35:08dziala juz nowy ", -- [83]
+				"122:35:17wlaz na ten", -- [84]
+				"020:05:12jak cos wylaczam gre, jestem pod rajdem poke na tsie plox", -- [85]
+				"019:47:54ogolnie zglaszam Ci ze jestem dzs zajebany jak skurwesyn po 12h labkow, wiec nei jestem pewien czy dam z siebei 100% ale sie postaram", -- [86]
+				"119:48:16nie zalamuj mnie", -- [87]
+				"019:48:23nie no ja chce isc", -- [88]
+				"019:48:25chce rozjebac", -- [89]
+				"019:48:34tylko zglaszam ze nie jestem w pelni sil :D", -- [90]
+				"120:25:04zamien sie w wilka", -- [91]
+				"120:25:09jak zjesz", -- [92]
+				"120:25:11na chwile xD", -- [93]
+				"020:25:16mam raptora XD", -- [94]
+				"017:30:33co to sie odpierdala XD", -- [95]
+				"117:32:43xD", -- [96]
+				"017:32:53cyka blyat", -- [97]
+				"117:32:56no", -- [98]
+				"117:32:59bialoryski", -- [99]
+				"017:33:05a to bialorusina szanuj ", -- [100]
+				"117:35:08A ty robiles kara?", -- [101]
+				"017:35:13nie a nie chce", -- [102]
+				"020:04:38moge Ci daz pozyczke x) ", -- [103]
+				"020:01:39nie podam Ci ", -- [104]
+				"018:25:17bo kolezka chce do guild wejsc, porajdowac by chcial rowniez", -- [105]
+				"018:25:19dps pally ", -- [106]
+				"017:52:06reduuu ", -- [107]
+				"117:52:11no?", -- [108]
+				"017:52:17jesli chcesz pobrac dzis nowych leczajkow ", -- [109]
+				"017:52:25to ja ogolnie tylko smoki ", -- [110]
+				"117:52:42obaczymy:)", -- [111]
+				"117:54:06spoko jak cos bede pamietal", -- [112]
+				"023:11:47masz rympka v2", -- [113]
+				"023:11:55robmy kabaret XD", -- [114]
+				"023:33:26czy to brat rympka ?", -- [115]
+				"123:33:32nie", -- [116]
+			},
+			["name"] = "Avanafil-BurningLegion",
+		}, -- [11]
+		{
+			["received"] = 1,
+			["class"] = "HUNTER",
+			["name"] = "Sheinen-BurningLegion",
+			["messages"] = {
+				"123:57:14robim jakies + ?", -- [1]
+				"023:58:56odpadam", -- [2]
+				"023:59:02jestem na laptopie u rodzimy", -- [3]
+				"023:59:05tyle co wq dam rade", -- [4]
+				"123:59:07aha spoko", -- [5]
+				"123:59:16btw czaj to  |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [6]
+				"123:59:19z lfra", -- [7]
+				"123:59:52Na walkach gdzie mozna dac bl na starcie potrafie wykorzystac 3 BL'e :D", -- [8]
+				"023:59:53to chyba gz ^.-", -- [9]
+				"000:00:09trzecia legendarka?", -- [10]
+				"100:00:12druga", -- [11]
+				"100:00:21  |cffff8000|Hitem:132452:5427:130219::::::110:63:::1:1811:::|h[Sephuz's Secret]|h|r mialem caly czas", -- [12]
+				"100:00:29to teraz nosze oba bo i tak lepszego ringa nie mam", -- [13]
+				"000:00:45teraz cokolwiek mi spadnie bedzie lepsze niz ten syfuz", -- [14]
+				"100:01:00ale ogolem ten shard byl podawany jako drugi bis dla maga z legendarek (a ta co jest jako 1sza ma miec niedlugo nerfa)", -- [15]
+				"000:01:07mam jeszcze ~20 skrzynek emmisary do otworzenia", -- [16]
+				"100:01:19szkoda ze na ursocu tego nie mialem -_-", -- [17]
+				"000:01:29mam nadieje ze 4ta mi wtedy poleci i bede mial wybor :D", -- [18]
+				"000:01:34bedziesz mial w srode", -- [19]
+				"000:01:42gadakes z tymi nowymi typkami ?", -- [20]
+				"000:01:49jak im sie podoba?", -- [21]
+				"100:01:52Z ktorymi i o czym?", -- [22]
+				"100:01:56Nie, nie bylo ich wczesniej", -- [23]
+				"100:02:05A teraz sam dopiero wrocilem", -- [24]
+				"000:02:10zobaczymy czy dotrwaja do next resetu", -- [25]
+				"100:02:17no..", -- [26]
+				"100:02:24ale widze ze huntera dodales", -- [27]
+				"100:02:29z podania", -- [28]
+				"000:02:34co ?", -- [29]
+				"100:02:34odpisalem im na wszystkie podania", -- [30]
+				"000:02:41nikogo nie dodalem ;s", -- [31]
+				"100:02:42no ten Akcent", -- [32]
+				"100:02:44aha", -- [33]
+				"100:02:46to moze dario", -- [34]
+				"000:02:46nope", -- [35]
+				"000:02:48not me", -- [36]
+				"100:02:52anyway", -- [37]
+				"100:02:55to byl jedyny typek", -- [38]
+				"100:03:02ktoremu napisalem ze zapraszamy na triala", -- [39]
+				"000:03:21reszte wyjebales ?", -- [40]
+				"000:03:28bo jeeli tak to good", -- [41]
+				"100:03:30Bo reszcie dalem info ze mamy ciasno z dpsami i ew. albo lawka, albo miejsce w drugiej grupie - o ile sie taka uformuje", -- [42]
+				"100:03:45I jak na razie zglosil sie tylko shaman", -- [43]
+				"100:03:51ten martiz", -- [44]
+				"100:03:57to mu dalem membera", -- [45]
+				"100:04:01i notke \"GR2\"", -- [46]
+				"000:04:32ja am mysle ze jak farma sie zacznie to bedzie mozna brac powoli po 2-3 osoby", -- [47]
+				"000:04:42anyway", -- [48]
+				"000:04:45napisz do nelerona", -- [49]
+				"000:04:52aby wbil troche traitow na heala", -- [50]
+				"000:05:06bo potrzebny 5ty heal na smokach i to heal ktory nie spierdoli", -- [51]
+				"000:07:27wiadomo czemu luck wyszedl z gildii tym dudu?", -- [52]
+				"100:07:35kto? oO", -- [53]
+				"100:08:02a", -- [54]
+				"100:08:04luk", -- [55]
+				"100:08:06chuj go wie", -- [56]
+				"000:09:01tak se mysle ze taki net to w sam raz na lfr", -- [57]
+				"000:09:16xd", -- [58]
+				"000:09:21postoje popatrze", -- [59]
+				"100:09:24hehe no", -- [60]
+				"000:09:24pojde na fajka", -- [61]
+				"100:09:27a legendary leca :D", -- [62]
+				"000:10:38ja to generalnie w niedziele bede", -- [63]
+				"100:10:39no i ogolem mysle nad ta gr2", -- [64]
+				"000:10:41tak po 14", -- [65]
+				"000:10:45zeby jakies m+", -- [66]
+				"100:10:49dla osob ktore nadaja sie na cos wiecej niz hc", -- [67]
+				"100:10:54ale nie lapia sie na core sklad", -- [68]
+				"000:10:57duzo takich ? :d", -- [69]
+				"100:11:06no troche sie znajdzie", -- [70]
+				"000:11:07sluchaj", -- [71]
+				"100:11:12+ podan w chuj", -- [72]
+				"000:11:16jak sie zacznie progress typu 5/7", -- [73]
+				"000:11:23wtedy mozna o tym myslec", -- [74]
+				"000:11:40chyba ze od razu ludziom mowisz co i jak", -- [75]
+				"100:11:42mysle za wczasu", -- [76]
+				"100:11:47nie startuja od razu przeciez", -- [77]
+				"100:11:50nie maja nawet RL :D", -- [78]
+				"000:12:03ze lawa / gr2", -- [79]
+				"100:12:05wiec to na razie rozciagajace sie w czasie :)", -- [80]
+				"100:12:06tak", -- [81]
+				"100:12:19nie dasz rady na ts wbic?", -- [82]
+				"000:13:02nope", -- [83]
+				"000:13:10ja koncze powoli afk postoje na lfrze", -- [84]
+				"100:13:15spk", -- [85]
+				"119:16:22dalej na ts nie da rady?", -- [86]
+				"119:16:40sciagnij se na komorke :P", -- [87]
+				"019:55:09inv", -- [88]
+				"021:46:57ja myslalem ze ty chcesz do gildii kurwa", -- [89]
+				"019:48:16mow kiedy mozna", -- [90]
+				"019:48:374x seventh , 7 x deadly", -- [91]
+				"019:51:107x deadly grace", -- [92]
+				"019:52:14dawaj deadly man", -- [93]
+				"015:42:36dzis jest troche do zrobienia :d", -- [94]
+				"015:42:41nightbane", -- [95]
+				"115:42:44ts", -- [96]
+				"114:49:51jestes na ts?", -- [97]
+				"014:51:42ta", -- [98]
+				"015:45:39będzie golemiada w huj xd", -- [99]
+				"115:45:44wiem xd", -- [100]
+				"116:49:02chcesz z vadosem na +11?", -- [101]
+				"116:49:05na brh :d", -- [102]
+				"116:49:17ja sie wybiore ", -- [103]
+				"016:49:23nie", -- [104]
+				"016:49:46nie chce mu kluca spierdolic", -- [105]
+				"022:28:13FlaskCheck: Please use BuffFood. (min +300)", -- [106]
+				"022:34:36FlaskCheck: Please use BuffFood. (min +300)", -- [107]
+				"019:54:47zara", -- [108]
+				"019:54:483 min", -- [109]
+				"019:56:44inv", -- [110]
+				"017:17:45kiciex od rana na tovie :d", -- [111]
+				"017:17:48jakis buh", -- [112]
+				"017:17:50bug", -- [113]
+				"123:35:12Jak poszlo? Wsio padlo widze? :)", -- [114]
+				"023:35:26ts", -- [115]
+				"022:13:42red inv", -- [116]
+				"117:04:21o, coina mam z misji :P", -- [117]
+				"017:04:30^^", -- [118]
+				"017:05:59Ja dostalem skrzynke na mythica za zabicie il'ygnotha", -- [119]
+				"017:06:03zobacze co to bedzie", -- [120]
+				"116:52:11chcesz dk", -- [121]
+				"116:52:13isc", -- [122]
+				"116:52:20na wardensy +9  3 skrzynki?", -- [123]
+				"016:52:48robie 2 insty hunterem aby 36 wbic", -- [124]
+				"016:53:04do tego czasu na bank kogos znajdziecie", -- [125]
+				"116:53:33no ale to i tak da 0.5% ;p", -- [126]
+				"016:53:41ale 20k hp :D", -- [127]
+				"016:53:50chce to zrobic bo tak ;p", -- [128]
+				"117:32:33robisz m+ dalej?", -- [129]
+				"117:32:37ja z vadosem farmimy ap", -- [130]
+				"017:32:42ostatni", -- [131]
+				"017:32:47i ide kimnac chwile", -- [132]
+				"117:32:59to juz 36 wjebales?", -- [133]
+				"117:33:04caly dzien nakurwiales chyba :D", -- [134]
+				"017:33:061 m+ i bedzie", -- [135]
+				"017:34:04nie", -- [136]
+				"017:34:12dzis moze 4 zrobilem ?", -- [137]
+				"017:34:13ten 5", -- [138]
+				"117:34:211m+ i bedzie 36 czy 37?", -- [139]
+				"017:34:2736", -- [140]
+				"017:34:38pozniej mniejszy skok jest", -- [141]
+				"117:34:41wiem", -- [142]
+				"017:34:43i dzis bede mial kolejny ak :D", -- [143]
+				"117:34:460.5% pewnie", -- [144]
+				"117:34:48no wlasnie", -- [145]
+				"117:35:00to juz nie ma co rushowac tylko pasywnie wpadnie", -- [146]
+				"017:36:08no jakos tak", -- [147]
+				"017:36:21ile vadoosowi do 35?", -- [148]
+				"117:36:402m", -- [149]
+				"120:06:27.", -- [150]
+				"120:06:30 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r :D", -- [151]
+				"020:06:49ustaw sobie master looter", -- [152]
+				"020:06:50gz", -- [153]
+				"021:46:15red inv", -- [154]
+				"019:58:55red inv", -- [155]
+				"022:18:14FlaskCheck: Please use BuffFood. (min +300)", -- [156]
+				"022:19:49FlaskCheck: Please use BuffFood. (min +300)", -- [157]
+				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [158]
+				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [159]
+				"022:27:49FlaskCheck: Please use a Flask. (min +1300)", -- [160]
+				"114:35:40Bedziesz nightbane robic jakims charem jeszcze?", -- [161]
+				"014:36:16nom", -- [162]
+				"014:36:23chetnie sheinenem pojde jeszcze raz", -- [163]
+				"014:36:27mam juz locka jak cos", -- [164]
+				"014:37:54chcesz teraz?", -- [165]
+				"114:38:12raz ze trza by reszte skladu miec", -- [166]
+				"114:38:32a dwa ze jak masz locka to moze mount nie wypasc, nie? :D", -- [167]
+				"114:38:50chociaz to akurat uj tam", -- [168]
+				"114:48:42z kim bysmy na to szli?", -- [169]
+				"014:48:56hgw", -- [170]
+				"022:08:44co tam sie kurwa dzieje", -- [171]
+				"122:09:30tank umiera:D", -- [172]
+				"101:46:45cho na ts", -- [173]
+				"119:46:35addon zbiera ludzi ja bede za 10 min", -- [174]
+				"020:11:04red inv", -- [175]
+				"114:05:39Ty", -- [176]
+				"114:05:44ten dudu healer", -- [177]
+				"114:05:46co przylazl do nas", -- [178]
+				"114:05:50widziales jego profil ?", -- [179]
+				"014:05:56coi z nim", -- [180]
+				"114:06:027/7 mythic mial juz miesiac temu", -- [181]
+				"114:06:143 razy w sumie zabil xavka", -- [182]
+				"114:06:24helene ma 3/3 hc tez od dawna", -- [183]
+				"114:06:46885 equiped... az sie zastanawiam co z nim ze nie mial gildii :D", -- [184]
+				"114:54:41cho na ts", -- [185]
+				"116:49:32Jakies kara z nightbane'em ?", -- [186]
+				"016:50:14chce isc z mailowcami", -- [187]
+				"116:50:25-_-", -- [188]
+				"016:50:28moze chcesz skoczyc na famre m+0?", -- [189]
+				"016:50:314x dips", -- [190]
+				"016:50:33ja potankuje", -- [191]
+				"116:51:03Nie wiem czy sie nie zdrzemne przed raidem", -- [192]
+				"116:51:08btw po co to farmic?", -- [193]
+				"016:51:17ap, legendy i bloody", -- [194]
+				"018:24:24TO JEST +12 VOTW?", -- [195]
+				"018:24:27sry caps", -- [196]
+				"118:24:4512", -- [197]
+				"018:25:01kto oprocz valory dpsuje?", -- [198]
+				"118:25:10valory nie ma z nami :P", -- [199]
+				"118:25:21hampton", -- [200]
+				"118:25:26i bioblood", -- [201]
+				"118:25:31a kim oni sa to chgw", -- [202]
+				"118:25:40ja sie po prostu z requsem ustawialem wczesniej", -- [203]
+				"118:25:50ale nie mowil nic z kim idzie", -- [204]
+				"121:08:35Lolerz glownie na odynie nakurwia? troche bez sensu, ja tez bym wiecej zrobil jakbgym tylko na nim wisial, ale zmieniam targety", -- [205]
+				"122:58:31wbijaj", -- [206]
+				"122:59:56wbijasz?", -- [207]
+			},
+		}, -- [12]
+		{
+			["received"] = 1,
+			["class"] = "SHAMAN",
+			["name"] = "Dariogar-BurningLegion",
+			["messages"] = {
+				"019:58:51red inv ", -- [1]
+				"019:59:07red inv", -- [2]
+				"018:13:05red inv", -- [3]
+				"019:39:17red inv", -- [4]
+				"020:30:03kopsniesz potem pare prolongów ?", -- [5]
+				"120:30:09spk", -- [6]
+				"020:20:04daj monta na transmo pls :P", -- [7]
+				"121:27:49bl mi rzuc zaraz po tym jak sie moj skonczy", -- [8]
+				"021:27:56k", -- [9]
+				"121:28:06ale dopiero jak sie skonczy bo inaczej nie wejdzie", -- [10]
+				"021:28:36ok bedzie ostatnia sek twojego a ja juz bede trzymał palec na bl'u", -- [11]
+				"120:20:14pozycz [potki na hp :d", -- [12]
+				"120:20:16zapomnialem kurwa", -- [13]
+				"120:20:44dz", -- [14]
+				"120:26:05daj mi od razu bla jak sie skonczy moj, ok?", -- [15]
+				"020:26:14k", -- [16]
+				"120:26:31walka za krotka zeby czekac ;) potem sie moze zmieni", -- [17]
+				"020:26:39spoczko", -- [18]
+				"120:35:38pamietaj o blu ;p", -- [19]
+				"120:35:46bo bebenki palilem :P", -- [20]
+				"020:35:58k", -- [21]
+				"120:36:4719 os bez runy, ciekawe kto xD", -- [22]
+				"020:37:25nie mozliwe bo 5 osob ma aktywne je", -- [23]
+				"120:37:33no pomine vantusy", -- [24]
+				"120:37:53rune mam tylko ja i sexi:P", -- [25]
+				"121:59:18dario", -- [26]
+				"121:59:20powiedz mi", -- [27]
+				"121:59:24jak wyjsc z dreama xD", -- [28]
+				"121:59:27bo kurwa nie wiem", -- [29]
+				"021:59:34musisz paść ", -- [30]
+				"121:59:37buffa zadnego nie widzialem :c", -- [31]
+				"121:59:38aha ok", -- [32]
+				"021:59:52jak zginiesz to automatycznie cie cofa tam gdzie wlazles do drima", -- [33]
+				"122:00:02i korupcja znika", -- [34]
+				"122:00:04to po chuj ja nabijac;p", -- [35]
+				"022:00:05tak", -- [36]
+				"122:00:06ale ok", -- [37]
+				"122:00:08kk", -- [38]
+				"123:00:14test", -- [39]
+				"123:00:33|cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [40]
+				"123:00:33|cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r|cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r", -- [41]
+				"123:00:33|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [42]
+				"123:00:40dziala", -- [43]
+				"023:00:43co sie tu odpierdala :Pw", -- [44]
+				"123:00:48testowalem amcro", -- [45]
+				"020:02:16Red inv", -- [46]
+				"120:40:58a z orbem gdzie biec?", -- [47]
+				"120:41:01bo nie sluchalem go", -- [48]
+				"020:41:13ja też nie słuchałem :P", -- [49]
+				"120:41:15xd", -- [50]
+				"120:07:47tu pewnie zadnego aoe nie ma, nie ?", -- [51]
+				"120:07:51czemu to nie walka dla fire maga?:P", -- [52]
+				"020:08:04nie wiem :P", -- [53]
+				"020:08:41aoe jest tylko przy ostatnich addach jak sie wyrobimy to wtedy zbijemy je razem ", -- [54]
+				"123:59:23daj bl na startt chuj tam;d", -- [55]
+				"100:18:08Jakiego huntera na curve?", -- [56]
+				"100:18:11wg. jakich ustalen?", -- [57]
+				"000:18:35neleron chciał sie jakims huntem przejsc ", -- [58]
+				"100:18:45ale placi za to czy w chuja.. ?", -- [59]
+				"000:19:05nie pytałem", -- [60]
+				"100:19:29\"wg ustalen\"", -- [61]
+				"100:19:37to z kims te ustalenia byly", -- [62]
+				"000:19:50ze mna ze pójdzie tym huntem", -- [63]
+				"000:20:48powiedział ze chciałby przejsc sie huntem i czy moglby", -- [64]
+				"000:20:57ja powiedziałem ze ok nie ma sprawy", -- [65]
+				"100:21:008-)", -- [66]
+				"100:21:11ktory bedzie stal i sie nie ruszal?", -- [67]
+				"000:29:41no i widzisz jaka niespodzianka ? :P", -- [68]
+				"000:29:5250 zł na flaszke :P", -- [69]
+				"022:20:42nie będe tykał BL'a ty tylko wolaj o drugi ", -- [70]
+				"122:20:47ok", -- [71]
+			},
+		}, -- [13]
+		{
+			["received"] = 1,
+			["class"] = "PALADIN",
+			["name"] = "Vallora-BurningLegion",
+			["messages"] = {
+				"020:13:34hi inv ", -- [1]
+				"019:43:05inv", -- [2]
+				"020:54:39ty dajesz logi ?", -- [3]
+				"020:56:46? ", -- [4]
+				"120:56:55?", -- [5]
+				"020:56:59ty dajesz logi ? ", -- [6]
+				"120:57:03nom", -- [7]
+				"120:57:05:d", -- [8]
+				"020:57:05hmm ", -- [9]
+				"020:57:13twoje logi pokazuja ze mam 458k na ursocu", -- [10]
+				"020:57:17u mnie pokazuje 501 ", -- [11]
+				"120:57:23moze miales boma", -- [12]
+				"020:57:24i u innych :D", -- [13]
+				"120:57:27czy cos", -- [14]
+				"120:57:28nie wiem", -- [15]
+				"120:57:29:d", -- [16]
+				"120:57:47vat kurwa :P", -- [17]
+				"122:09:03robiles odyna?", -- [18]
+				"122:09:05mozesz wejsc?", -- [19]
+			},
+		}, -- [14]
+		{
+			["received"] = 1,
+			["class"] = "WARLOCK",
+			["name"] = "Lolerz-BurningLegion",
+			["messages"] = {
+				"019:01:40spytaj na ts", -- [1]
+				"019:01:48kiedy bedzie ten paladyn co tak srednio dps robi", -- [2]
+				"019:01:53zobaczysz cos fajnego :P", -- [3]
+				"019:07:59jestes?", -- [4]
+				"019:08:06cos ci na ts wysle tylko cii", -- [5]
+				"019:08:07nie mow", -- [6]
+				"019:08:20nie moge ci poke dac", -- [7]
+				"119:08:25to na whisp", -- [8]
+				"019:08:28http://imgur.com/a/Bbcg1", -- [9]
+				"019:15:50jak chcesz", -- [10]
+				"019:15:52sie posmiac", -- [11]
+				"019:15:55to spytaj na ts", -- [12]
+				"019:16:04czy ten paladyn co sredni dps robi", -- [13]
+				"019:16:07tez przechodzi :D", -- [14]
+				"019:16:09czy juz jest :P", -- [15]
+				"019:43:10wez inva do gildi daj abunasan", -- [16]
+				"019:49:49idziesz na tego mythica z nami ?", -- [17]
+				"119:50:01zaraz sie okaze", -- [18]
+				"020:02:08inv", -- [19]
+				"020:02:38inv", -- [20]
+				"020:10:56grimriper", -- [21]
+				"020:10:58inv do gildi", -- [22]
+				"020:11:00dobry dk", -- [23]
+				"020:12:44vallora", -- [24]
+				"020:12:47dodaj do gildi", -- [25]
+				"120:12:54niech pisza do mnie na whispa", -- [26]
+				"120:13:50jego tez na trial raidera?", -- [27]
+				"020:38:16jaki neleron ma nick ?", -- [28]
+				"120:38:21Moadib", -- [29]
+				"020:45:03ide z corka do toalety zw 2 min jestem", -- [30]
+				"120:45:07spk", -- [31]
+				"020:51:27nie jest winien zawsze ten ktory biegnie z orbem", -- [32]
+				"020:51:35tylko kto nie ucieknie  tez jest winien", -- [33]
+				"020:51:43i nie wszyscy bija slimy chyba :)", -- [34]
+				"120:51:44nom", -- [35]
+				"020:59:28i jak ludzi oceniasz ?", -- [36]
+				"120:59:38Dobrze jest:)", -- [37]
+				"020:59:48ciesze sie :)", -- [38]
+				"120:59:49Wiele wspolnie osiagniemy", -- [39]
+				"120:59:58O ile ktos ninja quita nie zrobi bo achivie :D", -- [40]
+				"021:00:31pare osob malo z nami gralo", -- [41]
+				"121:00:32Abun jest socjal czy trial raider?", -- [42]
+				"021:00:34ale za tych co sa teraz", -- [43]
+				"021:00:39rongil tak o", -- [44]
+				"021:00:46ale za reszta daje sobie reke uciac", -- [45]
+				"121:00:53gehenus jest jako socjalo-raider taki", -- [46]
+				"121:01:00i harkog tez sredniak", -- [47]
+				"121:01:14dlatego dzis maja szanse sie wykazac ale w razie slacku zejda", -- [48]
+				"121:01:22btw", -- [49]
+				"021:01:22ten lock wasz nie taki zly tylko on nie wie co ma robic :D", -- [50]
+				"121:01:25jak z Abunem ?", -- [51]
+				"021:01:36on doszedl do nas leczy ok nawet ale srtednio go znamy", -- [52]
+				"121:01:41mhm", -- [53]
+				"021:01:43potem na ts jeszcze ci powiem co i jak albo jutro ", -- [54]
+				"021:01:49bedziesz mial lepsze rozeznanie", -- [55]
+				"121:01:56ale tu mozna go brac w razie co, czy nie za slaby?", -- [56]
+				"021:02:03nie da rade", -- [57]
+				"021:02:09ale z healem lepiej requs zna spreawe", -- [58]
+				"021:03:19ja zajmowalem sie dpsem", -- [59]
+				"021:03:21requs healem", -- [60]
+				"014:57:24siema", -- [61]
+				"014:59:42jestes?", -- [62]
+				"115:00:12tak ", -- [63]
+				"115:00:14nawet na tsie :P", -- [64]
+				"015:01:04zaraz invniesz hunta jeszcze od nas", -- [65]
+				"015:01:13oban", -- [66]
+				"015:01:16to jego alt jest", -- [67]
+				"115:01:18ok ;p", -- [68]
+				"015:01:38w notke mozesz odrazu wpisac speyside", -- [69]
+				"015:03:42ja zaraz wbije na ts to pogadamy :)", -- [70]
+				"115:03:56kk", -- [71]
+				"115:05:32on ma mnie na ignore xD", -- [72]
+				"015:05:40kim ?", -- [73]
+				"115:05:46na Speyside", -- [74]
+				"015:05:49lol", -- [75]
+				"015:05:50sec", -- [76]
+				"015:06:49spamowales jakies macro na chacie ?", -- [77]
+				"015:06:56invaj go", -- [78]
+				"015:07:05addon mu ignoruje spam z chatu", -- [79]
+				"015:07:16jak na raidzie bylismy spamowales macro z gildi albo jak cos sprzedawales i moze przez to", -- [80]
+				"015:07:28spej raider jak cos", -- [81]
+				"115:07:44pewnie tak", -- [82]
+				"015:08:17dobra ja zw i zaraz na ts wejde pogadamy", -- [83]
+				"015:31:57obanowi alta daj", -- [84]
+				"015:52:04to sa ci nowi na ts ?", -- [85]
+				"015:52:15w sensie nowsi od nas :D ?", -- [86]
+				"115:52:38nie nie", -- [87]
+				"115:52:47sznif to ten slacker co mieszkanie zmienial", -- [88]
+				"115:52:54i teraz spota nie ma, ale w skladzie sie wyswietla :)", -- [89]
+				"016:01:51kurde", -- [90]
+				"016:01:52chwila", -- [91]
+				"016:01:54znowu :D", -- [92]
+				"016:01:55zw ", -- [93]
+				"019:13:48jestes?", -- [94]
+				"119:21:16tak", -- [95]
+				"019:25:19planujesz kogos brac od nas do skladu dzisiaj ?", -- [96]
+				"119:25:58jestes na ts?", -- [97]
+				"119:26:02bo ja gadam i gadam :D", -- [98]
+				"019:49:38wez asymie na kanal", -- [99]
+				"019:49:40i jak mozesz", -- [100]
+				"019:49:46mu na szybkosci powiedziec co i jak", -- [101]
+				"019:50:29jest stronka", -- [102]
+				"019:50:33gdzie mozesz wotowanie robic", -- [103]
+				"019:50:43i wpisujesz dane ludzie klikaja i masz szybko statystyki", -- [104]
+				"019:50:56i asynia ma goscia na ts", -- [105]
+				"019:52:22i nie moze mowic", -- [106]
+				"019:54:47jestes?", -- [107]
+				"119:54:50tak tak", -- [108]
+				"019:54:54mowilem wczoraj :D", -- [109]
+				"019:55:04ze ludzie maja takie podejscie typu ze moze isc do karnej grupy :)", -- [110]
+				"019:57:14moge ci dac cos na poke na ts ?", -- [111]
+				"019:57:51mozna glosowanie zrobic", -- [112]
+				"020:00:39sorki ze cie spamuje", -- [113]
+				"120:00:44luzik", -- [114]
+				"020:00:46ale czytasz wogole co pisze :DP ?", -- [115]
+				"020:01:01bo taka luzna sugestia", -- [116]
+				"020:01:14mozecie 15 osob zebrac top sklad", -- [117]
+				"020:01:22i dobierac co bosa 5 osob slabszych", -- [118]
+				"020:06:17ja tez", -- [119]
+				"020:06:20moge pasnac", -- [120]
+				"020:24:32jestes?", -- [121]
+				"020:26:24od nas ekipa", -- [122]
+				"020:26:31wezmiecie spoko nie tez spoko", -- [123]
+				"020:26:35u nas ludzie chca progresu :D", -- [124]
+				"020:31:32jestes?", -- [125]
+				"120:31:58nom", -- [126]
+				"020:32:02mozesz na chwilke wejsc na inny kana l?", -- [127]
+				"020:33:38Recount - Damage Done for Nythendra 20:17:40-20:22:34", -- [128]
+				"020:33:381. Simas  129,876,139 (456667.2, 9.7%)", -- [129]
+				"020:33:382. Vallora  123,722,787 (463815.5, 9.2%)", -- [130]
+				"020:33:383. Grimriper  111,414,639 (398464.4, 8.3%)", -- [131]
+				"020:33:384. Elpotato  103,830,362 (364112.6, 7.7%)", -- [132]
+				"020:33:385. Lolerz  102,486,624 (357432.5, 7.6%)", -- [133]
+				"020:33:386. Moadib  98,439,083 (340749.4, 7.3%)", -- [134]
+				"020:33:387. Roñgil  98,012,991 (357281.3, 7.3%)", -- [135]
+				"020:33:388. Dkmeister  95,340,251 (347703.3, 7.1%)", -- [136]
+				"020:33:389. Morfizer  87,817,746 (318561.1, 6.5%)", -- [137]
+				"020:33:3810. Speyside  79,921,650 (291684.9, 5.9%)", -- [138]
+				"021:08:22moge wbic ale nie musze", -- [139]
+				"021:08:28chyba ze mnie chcecie", -- [140]
+				"021:08:30to wbijam", -- [141]
+				"021:08:43ale generalnie mi zalezy na cenariusie i dalej", -- [142]
+				"021:17:22asynie testowaliscie juz ?", -- [143]
+				"021:29:58znasz sie na addonach ?", -- [144]
+				"121:30:10zalezy ktorych", -- [145]
+				"021:30:15tidy plates", -- [146]
+				"121:30:23nie uzywam to na tym sie nie znam:P", -- [147]
+				"020:04:42inv", -- [148]
+				"120:04:48do sheinena :D", -- [149]
+				"020:09:09trzeba wiecej ludzi do gildii ?", -- [150]
+				"020:09:24moge cos popspamowac apre osob jak trzeba", -- [151]
+				"120:09:36ts", -- [152]
+				"020:09:51jestem", -- [153]
+				"120:11:00cho na inny kanal", -- [154]
+				"120:11:04nie chce mi sie przekrzykiwac :D", -- [155]
+				"022:03:16ej", -- [156]
+				"122:06:14?", -- [157]
+				"022:06:24moze jutro zrobimy en koncowke", -- [158]
+				"122:06:40trza i tak calosc czyscic", -- [159]
+				"022:06:41nie ukrywam ze bysmy sie cieszyli", -- [160]
+				"122:06:49plan byl taki zeby odyna ujebac i isc na EN", -- [161]
+				"022:06:55save mozna przedluzyc", -- [162]
+				"122:07:04wiec w razie co mozna nawet w PN isc", -- [163]
+				"122:07:12trza po raidzie zostac i pogadac", -- [164]
+				"122:07:16mi obojetnie", -- [165]
+				"020:00:29inv do gildii raczman", -- [166]
+				"020:00:32i na social", -- [167]
+				"020:00:43i pytanko dlaczego grimriper nie idzie jak top dps tu robil ?", -- [168]
+				"120:00:46niech napisze do mni", -- [169]
+				"120:00:53co do skladu sheinena pytaj :P", -- [170]
+				"020:01:09np taki vaadoos duzo mniej robil", -- [171]
+				"020:01:15wez do gildii dodaj", -- [172]
+				"020:01:16raczman", -- [173]
+				"020:01:37i sociala daj", -- [174]
+				"120:01:43ma standardowo", -- [175]
+				"020:25:13boma", -- [176]
+				"020:25:28na fantrise bez sensu", -- [177]
+				"020:25:33dkmaister lepiej wyjdzie na tym duzo wiecej robi", -- [178]
+				"120:25:47napisz simasowi :P", -- [179]
+				"020:38:49mozesz hamptona z ts wyjebac ", -- [180]
+				"020:38:56albo przynajmniej z kanalu naszego", -- [181]
+				"020:39:13dzieki :)", -- [182]
+				"020:39:22odrazu mi lepiej", -- [183]
+				"021:26:30moze teraz przerwe 10 min ?", -- [184]
+				"021:59:52kurwa powaznie ?", -- [185]
+				"021:59:542 mechaniki", -- [186]
+				"021:59:56do unikania", -- [187]
+				"022:00:02i ktos wypierdala sie", -- [188]
+				"122:00:03:)", -- [189]
+				"022:00:05bo gada ktos na ts :D ?", -- [190]
+				"122:00:07no..", -- [191]
+				"022:00:29i jeszcze obwiniac kogos o swoj blad ?", -- [192]
+				"022:00:35sheeeit :D", -- [193]
+				"022:06:26ty", -- [194]
+				"022:06:28zjebal", -- [195]
+				"022:06:34obrazil sie i poszedl :D", -- [196]
+				"122:07:16:)", -- [197]
+				"022:08:25moze sultanow motywacji mu wyslesz :D ", -- [198]
+				"022:08:27tak btw :D", -- [199]
+			},
+		}, -- [15]
+		{
+			["received"] = 1,
+			["class"] = "HUNTER",
+			["name"] = "Hampton-BurningLegion",
+			["messages"] = {
+				"020:54:53bo nie chcialem mu dupska lizac", -- [1]
+				"120:55:06chodzi tylko o raid progresowy na ogol ja nie widze problemu", -- [2]
+				"120:55:33Jak napisali mi takie prosby to nie bede nawet tematu zaczynal co jak i czemu", -- [3]
+				"120:55:52Przypakiem polecialo z serwera, a mialo byc z kanalu", -- [4]
+			},
+		}, -- [16]
+		{
+			["received"] = 1,
+			["class"] = "HUNTER",
+			["name"] = "Hampton-Burning Legion",
+			["messages"] = {
+				"020:54:46no spoko, mowicie ze moge siedziec jak nic nie robie a z powodu 2 pajacow kicka dostaje teraz", -- [1]
+			},
+		}, -- [17]
+		{
+			["received"] = 1,
+			["class"] = "DEMONHUNTER",
+			["messages"] = {
+				"002:02:58wtf", -- [1]
+				"002:03:00nie tu", -- [2]
+				"020:39:54dzieki za kicka", -- [3]
+				"120:47:04yy", -- [4]
+				"120:47:24sorry, ktos mnie poprosil o kick z kanalu bo czul sie nie komfortowo w trakcie progresu", -- [5]
+				"020:47:29xD", -- [6]
+			},
+			["name"] = "Voidflame-BurningLegion",
+		}, -- [18]
+		{
+			["received"] = 1,
+			["class"] = "BN",
+			["messages"] = {
+				"018:12:53red inv", -- [1]
+				"101:33:14xd", -- [2]
+				"101:33:17drugi bis z lfra", -- [3]
+				"001:33:32ale legenda czy co ? :P", -- [4]
+				"101:33:44no ", -- [5]
+				"101:33:48 |Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h", -- [6]
+				"001:34:45no to zajebiście ", -- [7]
+				"001:34:54gratuluję :P", -- [8]
+				"101:34:57dzieki", -- [9]
+				"123:00:08test", -- [10]
+				"020:21:49Zaspałem ale jak coś już jestem", -- [11]
+			},
+			["name"] = "Dario#22533",
+		}, -- [19]
+		{
+			["received"] = 1,
+			["class"] = "DRUID",
+			["messages"] = {
+				"020:35:44misiu kto dostal ten trink pod heal?", -- [1]
+				"020:35:50aa ok nvm :p", -- [2]
+				"120:36:06na razie on, chyba ze sie ugadacie", -- [3]
+				"020:36:23spoko pracuje nad ty mxD", -- [4]
+				"021:13:48daj inva do raidu xzD", -- [5]
+				"018:34:04jaki przyjebany typ xD", -- [6]
+				"121:26:51masz nasionka albo hp potki na zbyciu?;p", -- [7]
+				"021:27:04cos znajde", -- [8]
+				"121:27:20nasiona?", -- [9]
+				"121:27:30moge bank odpalic jbc", -- [10]
+				"121:27:45potem oddam dzieki", -- [11]
+				"021:27:50spoko nie musisz", -- [12]
+				"021:56:54inv", -- [13]
+				"021:56:56inv", -- [14]
+				"021:56:56inv", -- [15]
+				"021:56:57inv", -- [16]
+				"021:57:36redus daj inva na tego kara", -- [17]
+				"121:58:35mamy full", -- [18]
+				"021:58:41no co ty pierdolisz", -- [19]
+				"021:58:45mowilem nonstop ze chce isc", -- [20]
+				"021:58:49japeirdole", -- [21]
+				"021:58:49...", -- [22]
+				"121:59:00no kurwa my bylismy umowieni na to rpzed raidem", -- [23]
+				"121:59:38mamy 2 bossy do dokonczenia", -- [24]
+				"022:00:13umowieni  byliscie luzik", -- [25]
+				"015:10:23ej redus jak wyglada sprawa z slotai na raidy itp", -- [26]
+				"115:11:19yy", -- [27]
+				"115:11:22Cho na ts", -- [28]
+				"115:11:28nie chce mi sie pisac :D", -- [29]
+				"015:11:41nie za brdzo na komorce jestem", -- [30]
+				"115:11:46aaa", -- [31]
+				"115:11:48yhm", -- [32]
+				"015:11:52w sensie z internetu w komorce korzystam", -- [33]
+				"115:11:52No to tak", -- [34]
+				"115:11:55zalezy kiedy ", -- [35]
+				"115:11:59i na co", -- [36]
+				"115:12:04Po swietach ogolem", -- [37]
+				"115:12:10resetujemy wszystkie rangi core ", -- [38]
+				"115:12:29i kazdy bedzie mial \"rowne szanse\" xD", -- [39]
+				"015:12:41ooo", -- [40]
+				"115:12:43I w zaleznosci od frekwencji / umiejetnosci / ogaru", -- [41]
+				"115:12:52bedziemy dobierac ekipe na nightholda", -- [42]
+				"115:12:59Na pocz. bedzie i tak mozna w 30 os latac na HC", -- [43]
+				"115:13:08ale chcemy jebnac to jak najszybciej sie uda", -- [44]
+				"115:13:27Wiec licze na to ze te 25-30 os. sie wybierze do core", -- [45]
+				"115:14:35takze mysle ze bedzie spoko", -- [46]
+				"115:14:38fair dla wszystkich", -- [47]
+				"015:14:43no to luzik ;)", -- [48]
+				"015:14:52ja zobacze jak to z mojaj praca inzynierska bedzie", -- [49]
+				"020:02:46redus ja na stan by jestem rozumiem?", -- [50]
+				"120:03:36chyba tak", -- [51]
+				"120:03:42ale czekaj bo jak ktorys spierdoli to podmieniamy", -- [52]
+				"020:04:07dobra to lece na bg warkiem", -- [53]
+			},
+			["name"] = "Szniff-BurningLegion",
+		}, -- [20]
+		{
+			["received"] = 1,
+			["class"] = "DRUID",
+			["name"] = "Szniff-Burning Legion",
+			["messages"] = {
+				"022:00:09no wiem mana devouer i oko te akurat potrzebuje ale jak macie full to spoko", -- [1]
+				"015:13:39mhm", -- [2]
+				"020:01:13ej sorka nie bylo mnie chwile ja na stand by?", -- [3]
+			},
+		}, -- [21]
+		{
+			["received"] = 1,
+			["class"] = "WARLOCK",
+			["name"] = "Lolerz-Burning Legion",
+			["messages"] = {
+				"020:01:13ale to whatever", -- [1]
+			},
+		}, -- [22]
+		{
+			["received"] = 1,
+			["class"] = "PALADIN",
+			["name"] = "Flant-BurningLegion",
+			["messages"] = {
+				"020:04:01Dzisiaj rozumiem HC robicie?", -- [1]
+				"120:04:11idziemy wlasnie na", -- [2]
+				"120:04:16helene na tov", -- [3]
+				"120:04:19wpadaj na ts", -- [4]
+				"120:04:21wipeforged.com", -- [5]
+				"020:04:41wiem ale umówiłem sie dzis z ekipa na m+ :( nie wiedziałęm ze dzisiaj do Was dolacze", -- [6]
+				"120:05:03spoko to nieobowiazkowy raid dla chetnych", -- [7]
+				"020:05:09a no to super", -- [8]
+				"114:22:41po trashu sum pojdzie", -- [9]
+				"014:22:48spoko spoko", -- [10]
+				"014:49:13Powiedz mi w ogóle jaka jest realna szansa na dostanie sie na raid mythickowy u Was w gildii jako healer?", -- [11]
+				"014:49:25bo domyslam sie ze macie jakis stały skład", -- [12]
+				"114:49:40nie ma czegos takiego jak staly sklad :P", -- [13]
+				"114:49:51progres = najlepszy mozliwy z wysoka frekwencja", -- [14]
+				"114:49:56farma = rotacja :P", -- [15]
+				"014:50:04no spoko rozumiem", -- [16]
+				"114:50:16wpsujesz sie w klandarzu na stronie", -- [17]
+				"114:50:25i ew. w komentarzach piszesz na ktorych bossach Ci najbardziej zalezy", -- [18]
+				"014:50:30k", -- [19]
+				"114:50:40a ze akurat kwestia healerow u nas wygladala tak", -- [20]
+				"114:50:45ze 1-2 stale przychodzilo", -- [21]
+				"114:50:48reszta w krate", -- [22]
+				"114:51:06to ew. slot progresowy bylby nadal do obsadzenia ", -- [23]
+				"014:51:06e to nie tak zle, myslalem ze bedzie 3 palków w 1 miejsce czy cos", -- [24]
+				"114:51:15jest 1 palek healer", -- [25]
+				"114:51:24no i ew. Requs teraz jeszcze :D", -- [26]
+				"014:51:34przekonam go zeby sie skupił na monku", -- [27]
+				"116:54:53formularza nie trzeba", -- [28]
+				"116:55:01jezeli sie tam rejestrowales to musze ci konto aktywowac", -- [29]
+				"116:55:04wtedy tworzysz postac", -- [30]
+				"116:55:09zeby moc sie dopisywac do eventow", -- [31]
+				"016:55:26ok, dzieki za info :)", -- [32]
+				"116:55:27zaraz ci aktywuje", -- [33]
+				"016:55:37super, dzieki", -- [34]
+				"123:14:46idziesz na en:hc ?", -- [35]
+				"023:16:35moge sie przejsc w sumie", -- [36]
+				"023:16:45juz idziecie?", -- [37]
+				"123:16:48tak", -- [38]
+				"123:16:58to dawaj na ts", -- [39]
+				"023:18:12Jestem", -- [40]
+				"019:53:01Na co idziemy? :P bo byłem wyciszony przez dluzsza chwile", -- [41]
+				"119:53:15na razie addon zainvowal wszystkich ktorzy przyszli i maja range :P", -- [42]
+				"019:53:26Nie no wiem wiem", -- [43]
+				"119:53:29a zaraz pewnie sheinen okresli sklad na odyna mythic", -- [44]
+				"019:53:39a czyli nie bedzie EN Mythic :(", -- [45]
+				"119:53:52po uwaleniu odyna bedzie wyprawa na koncowke EN", -- [46]
+				"019:53:54ty mnie nie pamietasz nie? xD", -- [47]
+				"119:54:01zeby acziwki powpadaly", -- [48]
+				"119:54:04no raczej;)", -- [49]
+				"119:54:10ja bylem deadshotem ", -- [50]
+				"019:54:18no wiem wczoraj zajarzyłem xD", -- [51]
+				"119:54:26Po glosie?", -- [52]
+				"019:54:30ta", -- [53]
+				"019:54:38tak sie zastanawiałem skad ja znam te głosy", -- [54]
+				"019:56:51Jaki addon po loota uzywacie?", -- [55]
+				"119:57:12ten sam co w encore", -- [56]
+				"119:57:15rc_loot_council", -- [57]
+			},
 		}, -- [23]
+		{
+			["received"] = 1,
+			["class"] = "DRUID",
+			["name"] = "Dzoan-BurningLegion",
+			["messages"] = {
+				"119:44:14Czesc", -- [1]
+				"119:44:22czemu skipowalas spota wczoraj? ", -- [2]
+				"019:44:35a czemu nie", -- [3]
+				"119:45:03Tak pytam czy jakis powod byl ^^ ", -- [4]
+				"119:45:17Bo mialem byc na lawce a wzieli mnie bo zrezygnowalas", -- [5]
+			},
+		}, -- [24]
+		{
+			["received"] = 1,
+			["class"] = "DEMONHUNTER",
+			["name"] = "Elpotato-BurningLegion",
+			["messages"] = {
+				"116:15:00zaczeliscie tego nla?", -- [1]
+				"016:15:22nie", -- [2]
+			},
+		}, -- [25]
+		{
+			["received"] = 1,
+			["class"] = "MAGE",
+			["name"] = "Whiterun-BurningLegion",
+			["messages"] = {
+				"016:16:08no hej", -- [1]
+				"016:17:36jak bedziesz mial czas to szepnij, sprawe mam :P", -- [2]
+				"116:17:42spk", -- [3]
+				"116:17:47chwilowo mnie na tsie mecza :D", -- [4]
+				"016:17:53oki ; p", -- [5]
+				"016:23:50bo tam tylok chcialem cb prosic o potwierdzenie mojego konta na stronie ; p", -- [6]
+				"016:23:58chcialem zobaczyc czy jakies raidy sa czy cos ; p", -- [7]
+				"116:24:03zaraz sie tym zajme :D", -- [8]
+				"016:24:12luzik blusik", -- [9]
+				"116:24:31done", -- [10]
+				"016:24:58superancko dzieki", -- [11]
+				"016:28:43mozesz jakos sprawdzic czy dobrze sie zapisalem ? jak masz czas oczywiscie :P", -- [12]
+				"016:29:28a jestem, widze sie", -- [13]
+				"016:29:31super", -- [14]
+				"019:57:05dostane inva czy sie nie zalapie ? ; p", -- [15]
+				"017:49:29no  hej", -- [16]
+				"017:49:37kiedy sa jakies farmy dla sociali? ;P", -- [17]
+				"017:49:54bo tez chcialbym sobie poraidowac a nie moge :(", -- [18]
+				"117:50:54Hejo", -- [19]
+				"117:50:59Widzisz trafiles akurat na okres ", -- [20]
+				"117:51:03kiedy sie konczy content :p", -- [21]
+				"117:51:09+ swieta", -- [22]
+				"117:51:25zwykle we wtorki / niedziele sa farmy takich rzeczy]", -- [23]
+				"017:51:59a jakie trzeba cyfry robic na jakies mythici ?", -- [24]
+				"117:52:43no tankowie robia po 300k mnw teraz", -- [25]
+				"017:52:53czyli ponad to", -- [26]
+				"017:52:54xD", -- [27]
+				"017:53:28jak wejdzie nowy patch to juz mozesz mnie na mythic dodawac :P", -- [28]
+				"117:54:03ok", -- [29]
+				"117:54:08albo wbij na ts to pogadamy", -- [30]
+				"015:39:32siema, i jak. Beda jakies farmy ?", -- [31]
+				"015:39:38czy na ten moment nic", -- [32]
+				"115:39:58wczoraj po raidzie ", -- [33]
+				"115:40:05byl spontan heroic", -- [34]
+				"115:40:16mozliwe ze jeszcze drugi bedzie", -- [35]
+				"115:40:26musisz wiecej na tsa wbijac", -- [36]
+				"015:40:31a jak bedzie to dzis czy jutro ? :P", -- [37]
+				"115:40:59dzis raczej nie bo progres", -- [38]
+				"115:41:06albo w niedziele", -- [39]
+				"115:41:10albo we wtorek", -- [40]
+				"015:41:16oks ", -- [41]
+				"015:41:20dziek iza info", -- [42]
+				"115:41:31pamietaj", -- [43]
+				"115:41:35o tsie", -- [44]
+				"115:41:41tam sie wiekszosc rzeczy ustala :D", -- [45]
+				"015:41:47no tak :P", -- [46]
+			},
+		}, -- [26]
+		{
+			["received"] = 1,
+			["class"] = "HUNTER",
+			["name"] = "Treatstiles-Draenor",
+			["messages"] = {
+				"002:09:52WHY say yes to kick me wtf", -- [1]
+				"102:10:08what?", -- [2]
+				"102:10:13I dont even read those votes", -- [3]
+				"002:11:14well don't hit yes next time -.-", -- [4]
+				"002:11:14well don't hit yes next time -.-", -- [5]
+				"002:11:15well don't hit yes next time -.-", -- [6]
+				"002:11:23well don't hit yes next time -.-", -- [7]
+				"102:11:24next time do something", -- [8]
+				"102:11:32instead of giving them a reason to kicu u :D", -- [9]
+				"002:11:33was lagging badly", -- [10]
+				"002:11:54shut up u meanward if u don't know the reason", -- [11]
+			},
+		}, -- [27]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -1786,7 +2078,7 @@ WhisperPopDB = {
 				"100:30:48i ja", -- [51]
 				"100:31:03wiec we 2 musimy nadrabiac za tego hunta wtedy", -- [52]
 			},
-		}, -- [24]
+		}, -- [28]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -1824,7 +2116,7 @@ WhisperPopDB = {
 				"023:24:30nie moge wejsc na ts, kobita sie wkurwia a nie mam sluchawek", -- [31]
 			},
 			["name"] = "Abunasan-BurningLegion",
-		}, -- [25]
+		}, -- [29]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -1922,7 +2214,7 @@ WhisperPopDB = {
 				"016:57:20ok", -- [90]
 				"023:24:29wa ogarniete", -- [91]
 			},
-		}, -- [26]
+		}, -- [30]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -1956,7 +2248,7 @@ WhisperPopDB = {
 				"117:29:37lol", -- [27]
 			},
 			["name"] = "Regiss#2765",
-		}, -- [27]
+		}, -- [31]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2020,7 +2312,7 @@ WhisperPopDB = {
 				"017:23:40bedzie ^^", -- [57]
 			},
 			["name"] = "Qaddafi-BurningLegion",
-		}, -- [28]
+		}, -- [32]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2028,7 +2320,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:19:42so orgri?", -- [1]
 			},
-		}, -- [29]
+		}, -- [33]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -2036,178 +2328,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:54:22Hej, mam pytanie. Zeby zapisac sie na raidy musze zarejestrowac sie raid.wipeforged.com czy musze jeszcze wypełnic formularz na stronie głównej?", -- [1]
 			},
-		}, -- [30]
-		{
-			["received"] = 1,
-			["class"] = "BN",
-			["messages"] = {
-				"023:11:33masz logi z dzis?", -- [1]
-				"123:11:41nie robilem live", -- [2]
-				"123:11:47ale sprobuje wgrac", -- [3]
-				"023:11:52oki oki", -- [4]
-				"019:10:03hej ", -- [5]
-				"019:10:09zrobisz mi kilka flaszek i potow?", -- [6]
-				"119:10:15tak", -- [7]
-				"119:10:29w ogole odp cos na slacku", -- [8]
-				"119:10:33na tego ziomka tam", -- [9]
-				"119:10:37co mu wysylamy w odp", -- [10]
-				"019:10:46moment", -- [11]
-				"019:10:514x seventh najpierw", -- [12]
-				"019:11:43i 20 deadly", -- [13]
-				"019:13:37potrzebuje all 27", -- [14]
-				"019:13:54thx", -- [15]
-				"019:14:05czemu te deadly tak slabo procuja Panie", -- [16]
-				"119:14:09nie wiem", -- [17]
-				"119:14:14jak wsyzstko", -- [18]
-				"119:14:17rng -_-", -- [19]
-				"019:14:17zrobiliscie +11?", -- [20]
-				"119:14:20nie", -- [21]
-				"119:14:23tank z puga wylazl", -- [22]
-				"019:14:27lol", -- [23]
-				"019:15:12taka golemiada byla ze gosc sie wkurw?", -- [24]
-				"119:15:34kurwa na +11 to golemiade masz zawsze", -- [25]
-				"119:15:40padl 2gi boss", -- [26]
-				"119:15:44i typ wylazl na trashu", -- [27]
-				"119:15:54ale ogolem byl retardem", -- [28]
-				"019:16:01a jak z czasem bylo?", -- [29]
-				"119:16:02bo golemiade to odwalal on wlasnie", -- [30]
-				"119:16:07wlaz na ts bo mi sie pisac nie chce", -- [31]
-				"019:16:44to mnie wciagnij", -- [32]
-				"023:13:30kurwa mac", -- [33]
-				"123:13:42co? z gildii wychodza? :d", -- [34]
-				"023:13:49jeszcze nie wiem", -- [35]
-				"123:15:46wbic do was?", -- [36]
-				"123:15:52czy imtymnie?", -- [37]
-				"023:29:22sa logi ?", -- [38]
-				"123:30:13sprobuje wrzucic", -- [39]
-				"023:35:33kiciex generalnie wkurwiony ze relica nie dostal", -- [40]
-				"023:35:41on bedzie chcial loot tylko pod ferala brac teraz", -- [41]
-				"123:35:43oO", -- [42]
-				"023:35:50i tak bedzie bisy ustawial dla siebie", -- [43]
-				"023:36:19mowi ze na guardiana sie ubierze na m+", -- [44]
-				"023:36:23ale loot chce pod ferala", -- [45]
-				"023:36:51i tez mial problem z tym ze nowi ludzie dostaja itemy", -- [46]
-				"000:08:02wgrywasz te logi ?", -- [47]
-				"022:35:35 |Hitem:142157::::::::110:254::23:2:3453:1472:::|h[Aran's Relaxing Ruby]|h", -- [48]
-				"019:09:47zrobisz mi kilka flaszek na szybkosci?", -- [49]
-				"019:15:15jestes?", -- [50]
-				"119:17:10jeszcze chwile tak, a co tam?", -- [51]
-				"019:17:30flaski potrzebuje :d", -- [52]
-				"019:17:33gdzie jestes?", -- [53]
-				"119:17:43skocze do dala", -- [54]
-				"019:18:2510 demonow", -- [55]
-				"019:19:15akceptuj i lecimy z koksem", -- [56]
-				"019:21:16dzieki bardzo", -- [57]
-				"119:21:20spk", -- [58]
-				"019:58:39we cant res him", -- [59]
-				"123:20:14wiesz ze mamy pusty guild bank, nie ?", -- [60]
-				"023:20:28jak pusty", -- [61]
-				"023:32:58te", -- [62]
-				"023:33:01wyjebales raid", -- [63]
-				"123:33:10No przeciez nowy kalendarz jest", -- [64]
-				"023:33:17gdzie", -- [65]
-				"123:33:37raid.wipeforged.com", -- [66]
-				"120:14:11Zrob screenshota skladu ktory jest w grupie", -- [67]
-				"120:14:16i po raidzie mi wyslesz", -- [68]
-				"000:43:08600k dipsa na nightbane :D", -- [69]
-				"100:43:25nice", -- [70]
-				"100:43:41 |Hitem:134526:5427:::::::110:63::23:3:1727:1492:1813:::|h[Gnawed Thumb Ring]|h z questa dostalem, tez cos da :P", -- [71]
-				"100:43:49jak sie skombinuje z tym traitem 35 to bedzie nice", -- [72]
-				"000:44:04;pp", -- [73]
-				"000:44:06brb", -- [74]
-				"000:47:13ja musze tego chesta z nb", -- [75]
-				"000:47:20nie dosc ze bisowe staty ", -- [76]
-				"000:47:30to jeszcze pompuje trinket :D", -- [77]
-				"100:47:50no", -- [78]
-				"100:47:56a ja z kolei ten tirnket wlasnie z mediva musze ;c", -- [79]
-				"000:48:30musisz", -- [80]
-				"000:48:34zanim go znerfia do gleby", -- [81]
-				"000:48:45z gowna fire mage robi sie topowy na dungach :d", -- [82]
-				"100:49:44no i na raidzie tez to dziala niezle", -- [83]
-				"015:10:53dzis zrobilem 2x mythic z harkogiem", -- [84]
-				"015:10:59i juz 868 na tanku i klucz eoa +11", -- [85]
-				"015:11:02ale to harkog ma", -- [86]
-				"015:11:05okej lece", -- [87]
-				"022:28:28bedziesz chcial arcway +8 ?", -- [88]
-				"022:28:31kiciex robi bg", -- [89]
-				"122:28:34moge", -- [90]
-				"016:10:37Hej", -- [91]
-				"016:10:43Zrobilbys mi kilka flaszek?", -- [92]
-				"116:10:56nom", -- [93]
-				"016:11:37podlecialbys do dala?", -- [94]
-				"116:12:07tak", -- [95]
-				"016:13:10jestem teraz w jakims party ogarniemy to szybko i bedzie oks", -- [96]
-				"016:13:3310x siodmy demon", -- [97]
-				"116:14:01oj chyba cie skroje :D", -- [98]
-				"016:14:07co proclo ;d", -- [99]
-				"116:14:24biore 1 za fatyge :D", -- [100]
-				"016:14:27ok", -- [101]
-				"016:14:40thx", -- [102]
-				"116:14:43dzieki", -- [103]
-				"021:46:03red inv", -- [104]
-				"019:58:34red inv", -- [105]
-				"019:58:47red inv", -- [106]
-				"016:19:11ju there?", -- [107]
-				"016:25:43Plebie :d", -- [108]
-				"017:24:24areny klepiemy ", -- [109]
-				"017:24:31moze przed raidem z 15 min sie odezwe?", -- [110]
-				"117:32:16jakis nightbane przed-raidowy ?", -- [111]
-				"017:32:48zastanawiam sie wlasnie", -- [112]
-				"017:32:54ale kurde chce isc mailowcami", -- [113]
-				"017:33:02btw", -- [114]
-				"017:33:07zrobisz mi kilka flaszek?", -- [115]
-				"117:33:09a ja chce mounta :<", -- [116]
-				"117:33:16no", -- [117]
-				"017:36:5910x demon xd", -- [118]
-				"017:37:54i 10 x deadly", -- [119]
-				"117:38:25lol", -- [120]
-				"017:38:38dzieki", -- [121]
-				"117:38:42to sie nazywa rng-fck", -- [122]
-				"017:38:47ano xd", -- [123]
-				"000:57:47w sumie jest nauczka na przyszlosc", -- [124]
-				"116:14:57bylem wczoraj na lfr :D", -- [125]
-				"016:15:34no i ?", -- [126]
-				"116:15:45 |Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h", -- [127]
-				"016:16:11gz", -- [128]
-				"116:17:14dz", -- [129]
-				"116:18:262 bisy z lfra ^^", -- [130]
-				"115:37:36cho na tsa", -- [131]
-				"016:04:09hej", -- [132]
-				"016:04:12ile do konca?", -- [133]
-				"116:04:2210 sek", -- [134]
-				"016:04:24zrobilbysz mi kilka flasek?", -- [135]
-				"116:04:35cho na ts", -- [136]
-				"119:58:39dobra", -- [137]
-				"119:58:41jebac boosta", -- [138]
-				"119:58:43idziemy na heilie", -- [139]
-				"119:58:47helene*", -- [140]
-				"020:44:03rob logi jak mozesz", -- [141]
-				"020:44:06pozniej podpatrze", -- [142]
-				"120:44:22ja spadam niedlugo", -- [143]
-				"120:44:24wiec nie porobie", -- [144]
-				"020:44:31jak to wyglada?", -- [145]
-				"120:44:36ale obiecujaco jesli chodzi o liczby", -- [146]
-				"020:44:36orby caly czas?", -- [147]
-				"120:44:38a taktyke..", -- [148]
-				"120:44:40to heh", -- [149]
-				"120:44:43nelerona sie ciezko slucha ;d", -- [150]
-				"120:44:50tak", -- [151]
-				"020:51:14daj inva", -- [152]
-				"017:25:05machniesz mi potki?", -- [153]
-				"117:25:19jak skoncze wq", -- [154]
-				"017:28:05odezwe sie pozniej jak cos", -- [155]
-				"017:28:07wyskoczyl mi eoa", -- [156]
-				"117:28:20ok", -- [157]
-				"018:25:04pykniesz mi teraz flaszki?", -- [158]
-				"018:25:07czy lfr", -- [159]
-				"016:51:59idziesz?", -- [160]
-				"116:52:04no mozesz dac inva", -- [161]
-				"019:49:34zakladaj grupe mysle", -- [162]
-				"119:49:46ty zaloz bo ja nie wiem do ktorej bede", -- [163]
-				"119:49:54zeby ML byl na tobie itd", -- [164]
-			},
-			["name"] = "Queth#2417",
-		}, -- [31]
+		}, -- [34]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -2233,7 +2354,7 @@ WhisperPopDB = {
 				"016:52:19ta", -- [18]
 				"116:52:31to wpisz sie", -- [19]
 			},
-		}, -- [32]
+		}, -- [35]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -2242,7 +2363,7 @@ WhisperPopDB = {
 				"117:45:59|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
 			},
 			["name"] = "Sahlburger-Stormscale",
-		}, -- [33]
+		}, -- [36]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2725,7 +2846,7 @@ WhisperPopDB = {
 				"116:08:00wbijam na ts", -- [475]
 				"016:08:04jestes na ts xd", -- [476]
 			},
-		}, -- [34]
+		}, -- [37]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -2734,7 +2855,7 @@ WhisperPopDB = {
 				"115:30:51how much?", -- [1]
 				"015:31:00hey, 500k", -- [2]
 			},
-		}, -- [35]
+		}, -- [38]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -2786,7 +2907,7 @@ WhisperPopDB = {
 				"113:34:57No nic, powodzenia Ci zycze - obys znalaz to czego szukasz. Szkoda ze nie zdazylismy pograc.", -- [44]
 				"013:36:11Okazalo sie, ze mam kumpla innej gildii z ktorym kiedys dlugo gralem no i zaproponowal, a raczej meczyl mnie 3 dni bym doszedl do nich", -- [45]
 			},
-		}, -- [36]
+		}, -- [39]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -2884,7 +3005,7 @@ WhisperPopDB = {
 				"019:00:28co to za kicki:D", -- [90]
 				"018:02:25jak tam swieta? wesolych tak wogole ;p", -- [91]
 			},
-		}, -- [37]
+		}, -- [40]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -2893,14 +3014,14 @@ WhisperPopDB = {
 				"002:18:51invniesz mi alta do gildii? (Harkog)", -- [1]
 				"002:19:15dzieki", -- [2]
 			},
-		}, -- [38]
+		}, -- [41]
 		{
 			["class"] = "PRIEST",
 			["messages"] = {
 				"100:31:18wipeforged.com", -- [1]
 			},
 			["name"] = "Kime-BurningLegion",
-		}, -- [39]
+		}, -- [42]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2917,7 +3038,7 @@ WhisperPopDB = {
 				"023:25:02inv", -- [10]
 			},
 			["name"] = "Speyside-BurningLegion",
-		}, -- [40]
+		}, -- [43]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -2930,7 +3051,7 @@ WhisperPopDB = {
 				"115:33:01take care", -- [5]
 				"015:33:33u2", -- [6]
 			},
-		}, -- [41]
+		}, -- [44]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2943,7 +3064,7 @@ WhisperPopDB = {
 				"011:39:31can you link a mats ? :d", -- [5]
 				"111:40:06 |cffffd000|Henchant:188342|h[Alchemy: Flask of the Seventh Demon]|h|r", -- [6]
 			},
-		}, -- [42]
+		}, -- [45]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -2951,7 +3072,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"011:38:33sup", -- [1]
 			},
-		}, -- [43]
+		}, -- [46]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -3048,7 +3169,7 @@ WhisperPopDB = {
 				"121:09:00sheinen ma lida", -- [89]
 				"021:15:18inv", -- [90]
 			},
-		}, -- [44]
+		}, -- [47]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3057,7 +3178,7 @@ WhisperPopDB = {
 				"020:46:43duzo macie magow ?", -- [1]
 				"120:58:472", -- [2]
 			},
-		}, -- [45]
+		}, -- [48]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -3159,7 +3280,7 @@ WhisperPopDB = {
 				"020:25:25Speyside?", -- [94]
 				"020:44:47jest slot na pajaka?", -- [95]
 			},
-		}, -- [46]
+		}, -- [49]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3210,7 +3331,7 @@ WhisperPopDB = {
 				"020:07:27bedzie miejsce dla mnie na mythic czy jest juz full ?", -- [44]
 			},
 			["name"] = "Sneakypand-BurningLegion",
-		}, -- [47]
+		}, -- [50]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -3218,7 +3339,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:41:11inv", -- [1]
 			},
-		}, -- [48]
+		}, -- [51]
 		{
 			["received"] = 1,
 			["protected"] = 1,
@@ -3311,7 +3432,7 @@ WhisperPopDB = {
 				"118:34:04wipeforged.com", -- [84]
 				"019:10:38daj cos mimarudzasec :P", -- [85]
 			},
-		}, -- [49]
+		}, -- [52]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3327,7 +3448,7 @@ WhisperPopDB = {
 				"119:10:26tak", -- [8]
 				"019:10:28ty", -- [9]
 			},
-		}, -- [50]
+		}, -- [53]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3336,7 +3457,7 @@ WhisperPopDB = {
 				"018:00:07hej", -- [2]
 			},
 			["name"] = "Vizzü-Burning Legion",
-		}, -- [51]
+		}, -- [54]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3355,7 +3476,7 @@ WhisperPopDB = {
 				"017:10:25co musz?", -- [11]
 				"017:10:29musza?", -- [12]
 			},
-		}, -- [52]
+		}, -- [55]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3364,7 +3485,7 @@ WhisperPopDB = {
 				"015:40:55!note Heal", -- [1]
 				"115:40:55Note updated.", -- [2]
 			},
-		}, -- [53]
+		}, -- [56]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3372,7 +3493,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:49siemka ", -- [1]
 			},
-		}, -- [54]
+		}, -- [57]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3380,7 +3501,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:22To ja z porośba i inva .", -- [1]
 			},
-		}, -- [55]
+		}, -- [58]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3388,7 +3509,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:39:08yo", -- [1]
 			},
-		}, -- [56]
+		}, -- [59]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3421,7 +3542,7 @@ WhisperPopDB = {
 				"015:28:41luz", -- [26]
 			},
 			["name"] = "Simas-BurningLegion",
-		}, -- [57]
+		}, -- [60]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3517,7 +3638,7 @@ WhisperPopDB = {
 				"015:07:01ok jakby co mimo iz jestem tam na dzis zapisany to nie moge poprostu zmienic i mnie nie bedzie dzis :/", -- [89]
 			},
 			["name"] = "Alastor-BurningLegion",
-		}, -- [58]
+		}, -- [61]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -3525,7 +3646,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:04:49main tutaj ", -- [1]
 			},
-		}, -- [59]
+		}, -- [62]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -3533,7 +3654,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:03:21daj inva prosze od Lolerza jestem", -- [1]
 			},
-		}, -- [60]
+		}, -- [63]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3541,7 +3662,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:15:13suggest him after boss", -- [1]
 			},
-		}, -- [61]
+		}, -- [64]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3571,7 +3692,7 @@ WhisperPopDB = {
 				"100:24:47bb :)", -- [23]
 			},
 			["name"] = "Clÿdê-Thrall",
-		}, -- [62]
+		}, -- [65]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -3612,7 +3733,7 @@ WhisperPopDB = {
 				"120:35:57dz", -- [34]
 			},
 			["name"] = "Zaiy-BurningLegion",
-		}, -- [63]
+		}, -- [66]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -3623,7 +3744,7 @@ WhisperPopDB = {
 				"120:30:03progres dla chetnych:)", -- [3]
 				"020:30:04jasne", -- [4]
 			},
-		}, -- [64]
+		}, -- [67]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -3643,7 +3764,7 @@ WhisperPopDB = {
 				"020:27:33moge", -- [13]
 			},
 			["name"] = "Harkog-BurningLegion",
-		}, -- [65]
+		}, -- [68]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3688,7 +3809,7 @@ WhisperPopDB = {
 				"120:10:49ja sam do 21 jestem", -- [37]
 				"020:11:24ok to ja spadam do jutra", -- [38]
 			},
-		}, -- [66]
+		}, -- [69]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -3702,7 +3823,7 @@ WhisperPopDB = {
 				"100:04:04oki", -- [6]
 				"020:02:08.", -- [7]
 			},
-		}, -- [67]
+		}, -- [70]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3815,7 +3936,7 @@ WhisperPopDB = {
 				"119:17:32no zawsze potencjalna opcja :D", -- [106]
 			},
 			["name"] = "Stamperia-BurningLegion",
-		}, -- [68]
+		}, -- [71]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -3912,14 +4033,14 @@ WhisperPopDB = {
 				"017:05:43 |Hitem:137578::::::::110:72::11::::|h[Snowfeather Hunter]|h", -- [89]
 				"019:16:51good point", -- [90]
 			},
-		}, -- [69]
+		}, -- [72]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
 				"119:12:57napisz do mnie z tego", -- [1]
 			},
 			["name"] = "Cygán-BurningLegion",
-		}, -- [70]
+		}, -- [73]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -3927,7 +4048,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:12:45inv alt Rachark", -- [1]
 			},
-		}, -- [71]
+		}, -- [74]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -3938,7 +4059,7 @@ WhisperPopDB = {
 				"117:51:45OK dzisiaj obadamy i damy znac :)", -- [3]
 				"017:52:00super dzieki", -- [4]
 			},
-		}, -- [72]
+		}, -- [75]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -3946,7 +4067,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:04:05ale gadales z  mischima juz chyba?", -- [1]
 			},
-		}, -- [73]
+		}, -- [76]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -3995,7 +4116,7 @@ WhisperPopDB = {
 				"016:59:27z 2 godziny temu", -- [42]
 			},
 			["name"] = "Morfizer-BurningLegion",
-		}, -- [74]
+		}, -- [77]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4007,7 +4128,7 @@ WhisperPopDB = {
 				"001:06:49nie wazne :0 thx", -- [4]
 				"101:07:00Ja wzialem Redus bo Red bylo zajete :c", -- [5]
 			},
-		}, -- [75]
+		}, -- [78]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4015,7 +4136,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:06:20grales kiedys na molotenie ?", -- [1]
 			},
-		}, -- [76]
+		}, -- [79]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -4024,7 +4145,7 @@ WhisperPopDB = {
 				"023:41:19hi can you craft 2x  |cffffffff|Hitem:76084::::::::110:267::::::|h[Flask of Spring Blossoms]|h|r? :)", -- [1]
 				"123:41:39hi, sorry starting m+ right now", -- [2]
 			},
-		}, -- [77]
+		}, -- [80]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4047,7 +4168,7 @@ WhisperPopDB = {
 				"022:51:42sorry wrong chat mate", -- [16]
 			},
 			["name"] = "pusher#2463",
-		}, -- [78]
+		}, -- [81]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4137,7 +4258,7 @@ WhisperPopDB = {
 				"121:55:55chodzi o item czy po prostu.. ?", -- [82]
 				"021:56:18po prostu", -- [83]
 			},
-		}, -- [79]
+		}, -- [82]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4145,14 +4266,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:24:52zaprosisz do gildi mam w gildi dh \"Burnny\" ", -- [1]
 			},
-		}, -- [80]
+		}, -- [83]
 		{
 			["class"] = "WARLOCK",
 			["messages"] = {
 				"117:00:44 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Navalon-LosErrantes",
-		}, -- [81]
+		}, -- [84]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
@@ -4161,7 +4282,7 @@ WhisperPopDB = {
 				"116:59:41 |cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r |cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
 			},
 			["name"] = "Icyy-Ragnaros",
-		}, -- [82]
+		}, -- [85]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -4170,7 +4291,7 @@ WhisperPopDB = {
 				"116:56:53 |cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Teeksyy-TarrenMill",
-		}, -- [83]
+		}, -- [86]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4197,7 +4318,7 @@ WhisperPopDB = {
 				"116:38:18seams promissing :D", -- [20]
 			},
 			["name"] = "Keepitup#2898",
-		}, -- [84]
+		}, -- [87]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4217,7 +4338,7 @@ WhisperPopDB = {
 				"121:00:41nvm :p", -- [12]
 				"000:50:00 |Henchant:188330|h[Alchemie: Trank des Alten Krieges]|h", -- [13]
 			},
-		}, -- [85]
+		}, -- [88]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4293,7 +4414,7 @@ WhisperPopDB = {
 				"000:31:00gl man and cya", -- [68]
 				"100:31:07cheers, gn", -- [69]
 			},
-		}, -- [86]
+		}, -- [89]
 		{
 			["class"] = "MONK",
 			["messages"] = {
@@ -4303,7 +4424,7 @@ WhisperPopDB = {
 				"123:07:55 |cffa335ee|Hitem:139326::::::::110:63::6:2:1806:1502:::|h[Wriggling Sinew]|h|r", -- [4]
 			},
 			["name"] = "Wanðerer-Nemesis",
-		}, -- [87]
+		}, -- [90]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4332,7 +4453,7 @@ WhisperPopDB = {
 				"121:14:57progresu", -- [21]
 				"121:14:59brb", -- [22]
 			},
-		}, -- [88]
+		}, -- [91]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4340,7 +4461,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:19:40hey, fajna macie strone gildii! ;d ogladalem ostatnio z ciekawosci.", -- [1]
 			},
-		}, -- [89]
+		}, -- [92]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -4351,7 +4472,7 @@ WhisperPopDB = {
 				"015:36:38mhm", -- [3]
 				"015:47:24lm", -- [4]
 			},
-		}, -- [90]
+		}, -- [93]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -4411,7 +4532,7 @@ WhisperPopDB = {
 				"117:11:47Oni dadza znac we wtorek / srode", -- [52]
 				"117:11:53dali sobie ost szanse", -- [53]
 			},
-		}, -- [91]
+		}, -- [94]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4427,7 +4548,7 @@ WhisperPopDB = {
 				"016:32:18kurwa", -- [9]
 			},
 			["name"] = "Neleron#2114",
-		}, -- [92]
+		}, -- [95]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4540,7 +4661,7 @@ WhisperPopDB = {
 				"116:06:22i powiesz \"jestem caly twoj\"", -- [105]
 				"016:06:32mhm, a ty zagadasz Piotrka :D", -- [106]
 			},
-		}, -- [93]
+		}, -- [96]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -4549,7 +4670,7 @@ WhisperPopDB = {
 				"104:11:26u've got mos key?", -- [1]
 				"004:11:41no", -- [2]
 			},
-		}, -- [94]
+		}, -- [97]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -4557,7 +4678,7 @@ WhisperPopDB = {
 				"103:09:05 |cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [2]
 			},
 			["name"] = "Vîolent-Frostwolf",
-		}, -- [95]
+		}, -- [98]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -4568,7 +4689,7 @@ WhisperPopDB = {
 				"102:06:36sorry", -- [3]
 				"002:07:01np", -- [4]
 			},
-		}, -- [96]
+		}, -- [99]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -4585,7 +4706,7 @@ WhisperPopDB = {
 				"001:37:51Oh", -- [9]
 				"001:37:52sorry", -- [10]
 			},
-		}, -- [97]
+		}, -- [100]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -4602,7 +4723,7 @@ WhisperPopDB = {
 				"001:36:05ja juz jestem tak wkurwion na rogala bo pierdolone legendarki mnie ograniczaja", -- [9]
 				"001:37:05i nie wiem czy skonczyc expic drugiego rogala i ilczyc ze tam je dorwe czy expic huntarda", -- [10]
 			},
-		}, -- [98]
+		}, -- [101]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -4610,7 +4731,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:34:58na jakim poziomie robisz tego EN (tutaj fantrise)", -- [1]
 			},
-		}, -- [99]
+		}, -- [102]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4683,7 +4804,7 @@ WhisperPopDB = {
 				"101:01:16paranoja", -- [65]
 				"001:01:27tez nas to irytuje", -- [66]
 			},
-		}, -- [100]
+		}, -- [103]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4701,7 +4822,7 @@ WhisperPopDB = {
 				"118:24:14oko", -- [11]
 			},
 			["name"] = "Cålippox-BurningLegion",
-		}, -- [101]
+		}, -- [104]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -4709,7 +4830,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:23:53hej zrobisz mi flaski?;)", -- [1]
 			},
-		}, -- [102]
+		}, -- [105]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -4717,7 +4838,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:25:04Witam, macie moze miejsce dla socjla w gildi?", -- [1]
 			},
-		}, -- [103]
+		}, -- [106]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -4741,7 +4862,7 @@ WhisperPopDB = {
 				"116:24:29spk", -- [17]
 			},
 			["name"] = "Voodooprst-BurningLegion",
-		}, -- [104]
+		}, -- [107]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -4755,7 +4876,7 @@ WhisperPopDB = {
 				"023:52:38cześć", -- [6]
 				"023:52:43oki jak co to wpadne :)", -- [7]
 			},
-		}, -- [105]
+		}, -- [108]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -4764,7 +4885,7 @@ WhisperPopDB = {
 				"122:12:15Siemka, jak tam? :)", -- [1]
 				"022:13:02pomalu do przodu :P", -- [2]
 			},
-		}, -- [106]
+		}, -- [109]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -5111,14 +5232,14 @@ WhisperPopDB = {
 				"021:48:36nie ide jutro na raid, zapislem w kalendarzu", -- [339]
 				"121:50:01ok", -- [340]
 			},
-		}, -- [107]
+		}, -- [110]
 		{
 			["class"] = "SHAMAN",
 			["messages"] = {
 				"120:12:39szkoda ze nie w resto :p", -- [1]
 			},
 			["name"] = "Chromemaster-BurningLegion",
-		}, -- [108]
+		}, -- [111]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5133,7 +5254,7 @@ WhisperPopDB = {
 				"120:03:35anyway mam raid do 23 ;p", -- [7]
 				"020:04:31no jest napisane 30 dni sub do WoWa :D ", -- [8]
 			},
-		}, -- [109]
+		}, -- [112]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5180,7 +5301,7 @@ WhisperPopDB = {
 				"020:04:14gl", -- [40]
 			},
 			["name"] = "Zawrat-BurningLegion",
-		}, -- [110]
+		}, -- [113]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5188,7 +5309,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:03:58hey, dzieki za wytlumaczenie sytulacji ale skozystalem z oferty innej gildi", -- [1]
 			},
-		}, -- [111]
+		}, -- [114]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -5217,7 +5338,7 @@ WhisperPopDB = {
 				"019:58:50na stand by raczej :D ", -- [21]
 				"119:58:51mamy obecnie 22 os w grupie", -- [22]
 			},
-		}, -- [112]
+		}, -- [115]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -5256,7 +5377,7 @@ WhisperPopDB = {
 				"019:56:14ale mysle ze ok", -- [31]
 				"019:56:22jak na ity", -- [32]
 			},
-		}, -- [113]
+		}, -- [116]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5264,7 +5385,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:46:31Hello I am Dh Havoc 828 iLvl are U looking for some dps to your guild ?", -- [1]
 			},
-		}, -- [114]
+		}, -- [117]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5273,7 +5394,7 @@ WhisperPopDB = {
 				"101:41:15no", -- [1]
 				"001:41:40to ja nubilon przyjmiesz mojego holy palka do gildi ?:P", -- [2]
 			},
-		}, -- [115]
+		}, -- [118]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5281,7 +5402,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:40:56jestes?", -- [1]
 			},
-		}, -- [116]
+		}, -- [119]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5294,7 +5415,7 @@ WhisperPopDB = {
 				"100:17:24sprawe mamy", -- [6]
 			},
 			["name"] = "Rempejdz-BurningLegion",
-		}, -- [117]
+		}, -- [120]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -5316,7 +5437,7 @@ WhisperPopDB = {
 				"123:07:59I will inv u one more time", -- [14]
 				"123:08:02we're swiching tank", -- [15]
 			},
-		}, -- [118]
+		}, -- [121]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5369,7 +5490,7 @@ WhisperPopDB = {
 				"123:04:05Zawsze mount moze wpasc no i fajne itemki leca 875+", -- [45]
 				"023:04:19na nic czasu w tym tyg  nie mialem", -- [46]
 			},
-		}, -- [119]
+		}, -- [122]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5380,7 +5501,7 @@ WhisperPopDB = {
 				"023:03:15!note Gehennus", -- [3]
 				"123:03:16Note updated.", -- [4]
 			},
-		}, -- [120]
+		}, -- [123]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -5388,7 +5509,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:03:07 |cffffff00|Hachievement:11430:Player-579-034D121A:1:11:16:16:4294967295:4294967295:4294967295:4294967295|h[Eine Nacht in Karazhan]|h|r", -- [1]
 			},
-		}, -- [121]
+		}, -- [124]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5396,7 +5517,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:02:41dodasz mnie do gildii? Gehennus", -- [1]
 			},
-		}, -- [122]
+		}, -- [125]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5414,7 +5535,7 @@ WhisperPopDB = {
 				"017:16:51ts", -- [11]
 			},
 			["name"] = "Voodoopal-BurningLegion",
-		}, -- [123]
+		}, -- [126]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5433,14 +5554,14 @@ WhisperPopDB = {
 				"023:09:02siemka", -- [11]
 				"017:08:04kup mi abomment xD", -- [12]
 			},
-		}, -- [124]
+		}, -- [127]
 		{
 			["class"] = "BN",
 			["messages"] = {
 				"116:29:02jak tam? dalej gracie? :D", -- [1]
 			},
 			["name"] = "jaeenia#2228",
-		}, -- [125]
+		}, -- [128]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5453,7 +5574,7 @@ WhisperPopDB = {
 				"100:26:48No nic w takim razie powodzenia, pozdrow ekipe :)", -- [5]
 				"000:27:04dzieki i rowniez powodzenia w daleszej grze :)", -- [6]
 			},
-		}, -- [126]
+		}, -- [129]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5476,14 +5597,14 @@ WhisperPopDB = {
 				"000:23:14ill buy it 220g each", -- [16]
 			},
 			["name"] = "Brogzigar-BurningLegion",
-		}, -- [127]
+		}, -- [130]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"100:03:52 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Stortåå-Stormscale",
-		}, -- [128]
+		}, -- [131]
 		{
 			["class"] = "PRIEST",
 			["messages"] = {
@@ -5492,7 +5613,7 @@ WhisperPopDB = {
 				"123:41:15 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Chonchon-TarrenMill",
-		}, -- [129]
+		}, -- [132]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5505,14 +5626,14 @@ WhisperPopDB = {
 				"023:39:2030+ people in the queue whispering at the same time", -- [5]
 				"123:39:28kk np", -- [6]
 			},
-		}, -- [130]
+		}, -- [133]
 		{
 			["class"] = "HUNTER",
 			["messages"] = {
 				"123:39:19 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Bracomaniacu-Darksorrow",
-		}, -- [131]
+		}, -- [134]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5527,7 +5648,7 @@ WhisperPopDB = {
 				"023:32:46understood thanks ;p", -- [7]
 				"023:32:49just had this question x", -- [8]
 			},
-		}, -- [132]
+		}, -- [135]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5535,7 +5656,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:30:57what do you mean 50% of proc .. what proc? ;p[", -- [1]
 			},
-		}, -- [133]
+		}, -- [136]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5544,7 +5665,7 @@ WhisperPopDB = {
 				"022:18:25gz killa", -- [1]
 				"122:22:09dzieki", -- [2]
 			},
-		}, -- [134]
+		}, -- [137]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5552,7 +5673,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:13:33zrobisz mi ", -- [1]
 			},
-		}, -- [135]
+		}, -- [138]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -5612,7 +5733,7 @@ WhisperPopDB = {
 				"117:08:55yhm..", -- [53]
 			},
 			["name"] = "Søsexi-BurningLegion",
-		}, -- [136]
+		}, -- [139]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5620,7 +5741,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:33:01elo zmien to TEN na EN jak kazdy", -- [1]
 			},
-		}, -- [137]
+		}, -- [140]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5633,7 +5754,7 @@ WhisperPopDB = {
 				"116:25:25wipeforged.com", -- [5]
 				"016:25:30thx", -- [6]
 			},
-		}, -- [138]
+		}, -- [141]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5661,7 +5782,7 @@ WhisperPopDB = {
 				"015:19:42a nie chce walic w chuja z poprzednia gildia bo gralismy ze soba pare lat", -- [20]
 				"015:19:57wiec jak gdzies przejde to magiem i zaczne wszystko od poczatku", -- [21]
 			},
-		}, -- [139]
+		}, -- [142]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -5699,7 +5820,7 @@ WhisperPopDB = {
 				"013:19:23NA PYRKE ICH ", -- [30]
 				"113:19:45Pracujemy nad tym:D", -- [31]
 			},
-		}, -- [140]
+		}, -- [143]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5715,7 +5836,7 @@ WhisperPopDB = {
 				"121:55:14ale zobaczymy po przerwie ile os zostanie", -- [9]
 			},
 			["name"] = "Unadia-BurningLegion",
-		}, -- [141]
+		}, -- [144]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5757,7 +5878,7 @@ WhisperPopDB = {
 				"120:04:24to mozna je polaczyc", -- [34]
 				"120:04:30zeby mounty, tytuly itd.. przeszly", -- [35]
 			},
-		}, -- [142]
+		}, -- [145]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -5773,7 +5894,7 @@ WhisperPopDB = {
 				"018:05:01dobra znikam , lece Mala ogarniac pozniej zawitam :D", -- [8]
 				"118:05:09No hej :)", -- [9]
 			},
-		}, -- [143]
+		}, -- [146]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -5783,7 +5904,7 @@ WhisperPopDB = {
 				"116:30:38tak :)", -- [2]
 				"016:31:02oki w takim razie do zobaczenia na raidzie. A teraz uciekam posiedziec z rodzinka.", -- [3]
 			},
-		}, -- [144]
+		}, -- [147]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -5791,7 +5912,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:30:31Hey hey. Fatygant z tej strony. Jest dzisiaj boost run wieczorem?", -- [1]
 			},
-		}, -- [145]
+		}, -- [148]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5805,7 +5926,7 @@ WhisperPopDB = {
 				"120:24:06Jak da rade wezcie na stronce form. wyslijcie wipeforged.com    - kazdego lykamy kto jest aktywnym graczem", -- [6]
 				"120:24:40Mamy kilka os ktore w kratke przychodza", -- [7]
 			},
-		}, -- [146]
+		}, -- [149]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5813,7 +5934,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:23:14yo", -- [1]
 			},
-		}, -- [147]
+		}, -- [150]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5841,7 +5962,7 @@ WhisperPopDB = {
 				"017:46:57ale stronka przekozak, naprawde", -- [20]
 				"117:47:37dzieki:)", -- [21]
 			},
-		}, -- [148]
+		}, -- [151]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5849,7 +5970,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:37:37hejka, potrzeba wam Rshammy i frost dk do skladu", -- [1]
 			},
-		}, -- [149]
+		}, -- [152]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -5874,7 +5995,7 @@ WhisperPopDB = {
 				"117:33:55ok", -- [18]
 			},
 			["name"] = "Ogridan#21306",
-		}, -- [150]
+		}, -- [153]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -5882,7 +6003,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:48:39?", -- [1]
 			},
-		}, -- [151]
+		}, -- [154]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -5892,7 +6013,7 @@ WhisperPopDB = {
 				"000:48:37oh ok :D", -- [2]
 				"100:48:38english pls :p", -- [3]
 			},
-		}, -- [152]
+		}, -- [155]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -5907,7 +6028,7 @@ WhisperPopDB = {
 				"023:52:46potem napisze bo teraz insta robie", -- [8]
 			},
 			["name"] = "Rympek-BurningLegion",
-		}, -- [153]
+		}, -- [156]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5916,7 +6037,7 @@ WhisperPopDB = {
 				"020:36:05Szukacie?", -- [1]
 				"120:36:27rzuc okiem na stronke tam jest wsio, teraz nie bardzo mam jak odp :)", -- [2]
 			},
-		}, -- [154]
+		}, -- [157]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -5924,7 +6045,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:36:04DH 881 bez doswiadczenia mythica w tym dodatku", -- [1]
 			},
-		}, -- [155]
+		}, -- [158]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -5978,7 +6099,7 @@ WhisperPopDB = {
 				"020:20:27Przykro bo moi znajomy sa w gildii i fajnie prowadzicie raidy. Zycze powodzenia w dalszym progressie. Cya", -- [47]
 			},
 			["name"] = "Martiziusz-BurningLegion",
-		}, -- [156]
+		}, -- [159]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -5998,7 +6119,7 @@ WhisperPopDB = {
 				"116:04:56flaski robilem :P", -- [13]
 			},
 			["name"] = "Deibe-BurningLegion",
-		}, -- [157]
+		}, -- [160]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6006,7 +6127,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:04:01siema ;d", -- [1]
 			},
-		}, -- [158]
+		}, -- [161]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6014,7 +6135,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:25:59no to jest tank", -- [1]
 			},
-		}, -- [159]
+		}, -- [162]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6023,7 +6144,7 @@ WhisperPopDB = {
 				"102:35:16reading them is like watching chinese matrix", -- [1]
 				"002:35:26haha ^^", -- [2]
 			},
-		}, -- [160]
+		}, -- [163]
 		{
 			["class"] = "DEATHKNIGHT",
 			["messages"] = {
@@ -6032,7 +6153,7 @@ WhisperPopDB = {
 				"101:10:39 |cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r", -- [3]
 			},
 			["name"] = "Комбобрэикер-Ревущийфьорд",
-		}, -- [161]
+		}, -- [164]
 		{
 			["class"] = "DEATHKNIGHT",
 			["messages"] = {
@@ -6041,7 +6162,7 @@ WhisperPopDB = {
 				"101:09:33 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Macraw-TarrenMill",
-		}, -- [162]
+		}, -- [165]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
@@ -6050,14 +6171,14 @@ WhisperPopDB = {
 				"101:02:43 |cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r", -- [3]
 			},
 			["name"] = "Teahaleeb-Kazzak",
-		}, -- [163]
+		}, -- [166]
 		{
 			["class"] = "WARRIOR",
 			["messages"] = {
 				"101:01:42 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Дженисисх-СвежевательДуш",
-		}, -- [164]
+		}, -- [167]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6083,14 +6204,14 @@ WhisperPopDB = {
 				"000:56:36cant with this tank", -- [18]
 				"000:56:40unless u wanna spend 10 hrs", -- [19]
 			},
-		}, -- [165]
+		}, -- [168]
 		{
 			["class"] = "WARLOCK",
 			["messages"] = {
 				"100:23:11 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Bavomet-Wrathbringer",
-		}, -- [166]
+		}, -- [169]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -6102,7 +6223,7 @@ WhisperPopDB = {
 				"119:07:47wiem wlasnie", -- [4]
 				"019:08:05zapytaj Vaaadoos", -- [5]
 			},
-		}, -- [167]
+		}, -- [170]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -6112,7 +6233,7 @@ WhisperPopDB = {
 				"001:37:02как к ним попасть?", -- [2]
 				"001:37:08oh sry", -- [3]
 			},
-		}, -- [168]
+		}, -- [171]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6121,7 +6242,7 @@ WhisperPopDB = {
 				"019:58:27red inv", -- [2]
 			},
 			["name"] = "Alastor-Burning Legion",
-		}, -- [169]
+		}, -- [172]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6145,7 +6266,7 @@ WhisperPopDB = {
 				"019:55:16jakbyscie mieli jakis brak w ekipie albo ktos musial wyjsc czy cos to wez mnie pod uwage", -- [16]
 				"119:55:30spoko", -- [17]
 			},
-		}, -- [170]
+		}, -- [173]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6153,7 +6274,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"021:22:40postram sie po raidzie kontaktowac z na TS i tu dam tez znac", -- [1]
 			},
-		}, -- [171]
+		}, -- [174]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6161,7 +6282,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:03:08jakiego dh ?", -- [1]
 			},
-		}, -- [172]
+		}, -- [175]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6169,7 +6290,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:02:32red inv", -- [1]
 			},
-		}, -- [173]
+		}, -- [176]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6177,7 +6298,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:59:49red inv", -- [1]
 			},
-		}, -- [174]
+		}, -- [177]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6186,7 +6307,7 @@ WhisperPopDB = {
 				"019:58:13osob", -- [1]
 				"119:58:32Wszystko jest na stronie", -- [2]
 			},
-		}, -- [175]
+		}, -- [178]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -6195,7 +6316,7 @@ WhisperPopDB = {
 				"019:58:09red inv", -- [2]
 			},
 			["name"] = "Khatharsis-Burning Legion",
-		}, -- [176]
+		}, -- [179]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6203,7 +6324,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:58:05ilue wam brakuje_", -- [1]
 			},
-		}, -- [177]
+		}, -- [180]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6211,7 +6332,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:55:31red inv", -- [1]
 			},
-		}, -- [178]
+		}, -- [181]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6219,7 +6340,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:55:15a jest jakas szansa zeby sie wkrecic jako dps na ren rajd czy raczej nie ?", -- [1]
 			},
-		}, -- [179]
+		}, -- [182]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6238,7 +6359,7 @@ WhisperPopDB = {
 				"019:54:51red inv", -- [12]
 			},
 			["name"] = "Pandothiel-BurningLegion",
-		}, -- [180]
+		}, -- [183]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6248,14 +6369,14 @@ WhisperPopDB = {
 				"119:14:39yes", -- [2]
 				"019:14:44ok ^^", -- [3]
 			},
-		}, -- [181]
+		}, -- [184]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
 				"119:12:13officer loot", -- [1]
 			},
 			["name"] = "Santix-BurningLegion",
-		}, -- [182]
+		}, -- [185]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6263,14 +6384,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:12:05jaki macie system lootu?", -- [1]
 			},
-		}, -- [183]
+		}, -- [186]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"119:01:43 |cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
 			["name"] = "Choclairs-Drak'thul",
-		}, -- [184]
+		}, -- [187]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6278,7 +6399,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:55:48siema ja od Akcenta , prosil bym o inva do gildi", -- [1]
 			},
-		}, -- [185]
+		}, -- [188]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6309,7 +6430,7 @@ WhisperPopDB = {
 				"118:55:15niech napisze do mnie", -- [24]
 			},
 			["name"] = "Akcent-BurningLegion",
-		}, -- [186]
+		}, -- [189]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6317,7 +6438,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:02:03mam 12 level szybko expie dodasz mnie ?", -- [1]
 			},
-		}, -- [187]
+		}, -- [190]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6331,7 +6452,7 @@ WhisperPopDB = {
 				"015:46:57sorry za zwloke", -- [6]
 				"015:47:01studia przycisnely", -- [7]
 			},
-		}, -- [188]
+		}, -- [191]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6342,7 +6463,7 @@ WhisperPopDB = {
 				"018:53:25ale jak macie to nie przeszkadzam :) milego wieczoru zycze i powodzenia w progressie ^^", -- [3]
 				"118:53:50Powodzenia w poszukiwaniach, obys znalazl cos fajnego dla siebie :) Pozdr.", -- [4]
 			},
-		}, -- [189]
+		}, -- [192]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6350,7 +6471,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:48:51hej. szybkie pytanko. potrzebujecie tanka?", -- [1]
 			},
-		}, -- [190]
+		}, -- [193]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6363,7 +6484,7 @@ WhisperPopDB = {
 				"117:22:05W kazdym razie zycze powodzenia z gildia, jak byscie chcieli czasami cos podzialac wspolnie to jestesmy otwarci na takie dzialania (mythic+ itd.)", -- [5]
 				"017:22:41oki dzieki za info :) ", -- [6]
 			},
-		}, -- [191]
+		}, -- [194]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6374,7 +6495,7 @@ WhisperPopDB = {
 				"101:39:17or you're healer?", -- [3]
 				"001:39:24then refuse ", -- [4]
 			},
-		}, -- [192]
+		}, -- [195]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6394,7 +6515,7 @@ WhisperPopDB = {
 				"122:05:21ye", -- [12]
 				"022:06:56I going to smoke i give lead to my woman", -- [13]
 			},
-		}, -- [193]
+		}, -- [196]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6407,7 +6528,7 @@ WhisperPopDB = {
 				"017:28:47juz, dzieki :)", -- [5]
 				"117:28:49spk", -- [6]
 			},
-		}, -- [194]
+		}, -- [197]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6415,7 +6536,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:27:37ok pisze, alt kabajela :)", -- [1]
 			},
-		}, -- [195]
+		}, -- [198]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6426,7 +6547,7 @@ WhisperPopDB = {
 				"117:26:46napisz z niego ", -- [3]
 				"017:26:51to zaraz napisze do Ciebie ;)", -- [4]
 			},
-		}, -- [196]
+		}, -- [199]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6434,7 +6555,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"007:07:32suka bilyet", -- [1]
 			},
-		}, -- [197]
+		}, -- [200]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6443,7 +6564,7 @@ WhisperPopDB = {
 				"019:37:26transmutacje robisz?", -- [1]
 				"119:37:34nie", -- [2]
 			},
-		}, -- [198]
+		}, -- [201]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6473,7 +6594,7 @@ WhisperPopDB = {
 				"018:29:56bb", -- [22]
 				"118:30:05See u next time, have a nice day!", -- [23]
 			},
-		}, -- [199]
+		}, -- [202]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6483,7 +6604,7 @@ WhisperPopDB = {
 				"017:38:50hey u crafting?", -- [2]
 				"018:26:35hey can u craft me some whispered pact plz?", -- [3]
 			},
-		}, -- [200]
+		}, -- [203]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6521,7 +6642,7 @@ WhisperPopDB = {
 				"117:48:11Jezeli juz to po swietach", -- [31]
 			},
 			["name"] = "Starcar-BurningLegion",
-		}, -- [201]
+		}, -- [204]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6538,7 +6659,7 @@ WhisperPopDB = {
 				"016:38:27kk", -- [9]
 				"016:40:28jeszcze 5brakuje mi", -- [10]
 			},
-		}, -- [202]
+		}, -- [205]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6601,7 +6722,7 @@ WhisperPopDB = {
 				"116:24:00ok", -- [55]
 				"016:24:28narazie cwicze jak zrobic 400k bez surendera i chuja nie wychodzi", -- [56]
 			},
-		}, -- [203]
+		}, -- [206]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6609,7 +6730,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:21:42hello", -- [1]
 			},
-		}, -- [204]
+		}, -- [207]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6623,7 +6744,7 @@ WhisperPopDB = {
 				"015:55:50ty! :D", -- [6]
 				"115:55:54nps", -- [7]
 			},
-		}, -- [205]
+		}, -- [208]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
@@ -6631,7 +6752,7 @@ WhisperPopDB = {
 				"114:42:44or I was crafting those in dala until proc.. tbh not sure", -- [2]
 			},
 			["name"] = "Perher-BurningLegion",
-		}, -- [206]
+		}, -- [209]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6639,7 +6760,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:41:59hey how to get mana potion to rank 2?", -- [1]
 			},
-		}, -- [207]
+		}, -- [210]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6647,7 +6768,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:41:35 |cffffff00|Hachievement:11185:Player-3682-07B31466:1:11:6:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
 			},
-		}, -- [208]
+		}, -- [211]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6657,7 +6778,7 @@ WhisperPopDB = {
 				"114:40:29wanna go with us for  |cffa335ee|Hitem:138019::::::::110:63:8257536:::1571:10:7:1:9:1:::|h[Mythic Keystone]|h|r ?", -- [2]
 				"014:40:46kk", -- [3]
 			},
-		}, -- [209]
+		}, -- [212]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6673,7 +6794,7 @@ WhisperPopDB = {
 				"113:56:37sometimes if 1 of those mobs got it and die to fast, then its wasted ^^ Otherwise it will hit 400k to each one of them", -- [8]
 				"113:56:51and then sick dmg :D", -- [9]
 			},
-		}, -- [210]
+		}, -- [213]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6709,7 +6830,7 @@ WhisperPopDB = {
 				"113:25:41a my teraz progres oka wiec ciezko", -- [28]
 				"113:25:49trza nadrabiac takimi rzeczami :D", -- [29]
 			},
-		}, -- [211]
+		}, -- [214]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -6719,7 +6840,7 @@ WhisperPopDB = {
 				"007:52:48ur ilvl?", -- [2]
 				"107:53:15880", -- [3]
 			},
-		}, -- [212]
+		}, -- [215]
 		{
 			["received"] = 1,
 			["class"] = "GM",
@@ -6742,7 +6863,7 @@ WhisperPopDB = {
 				"004:41:45Yeah, thanks, you have a great night too, take care. ^_^", -- [15]
 				"104:41:50cheers", -- [16]
 			},
-		}, -- [213]
+		}, -- [216]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6755,14 +6876,14 @@ WhisperPopDB = {
 				"100:39:58I will inv my guild healer", -- [5]
 				"100:40:26whats going on?:P", -- [6]
 			},
-		}, -- [214]
+		}, -- [217]
 		{
 			["class"] = "DEMONHUNTER",
 			["messages"] = {
 				"100:31:37Sorry we have like 30 mins..", -- [1]
 			},
 			["name"] = "Owaija-Kazzak",
-		}, -- [215]
+		}, -- [218]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6776,7 +6897,7 @@ WhisperPopDB = {
 				"000:26:29yes", -- [6]
 				"100:28:29ok we will try", -- [7]
 			},
-		}, -- [216]
+		}, -- [219]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
@@ -6784,7 +6905,7 @@ WhisperPopDB = {
 				"100:08:26u've got id or looking for one?:)", -- [2]
 			},
 			["name"] = "Aøkíji-Eredar",
-		}, -- [217]
+		}, -- [220]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6792,7 +6913,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:09:06hej, wypelnilem formularz rek. na waszej stronie, jak sie kontaktujecie pozniej?", -- [1]
 			},
-		}, -- [218]
+		}, -- [221]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6810,7 +6931,7 @@ WhisperPopDB = {
 				"020:05:01speaking*", -- [11]
 			},
 			["name"] = "Pandemic-BurningLegion",
-		}, -- [219]
+		}, -- [222]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -6818,7 +6939,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:02:24hi i dont speak polish but do you accept english speaking people?", -- [1]
 			},
-		}, -- [220]
+		}, -- [223]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6827,7 +6948,7 @@ WhisperPopDB = {
 				"019:50:54red inv", -- [2]
 			},
 			["name"] = "Mitthi-BurningLegion",
-		}, -- [221]
+		}, -- [224]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6851,7 +6972,7 @@ WhisperPopDB = {
 				"115:29:06No w srody mamy farme tych 4 bossow", -- [16]
 				"015:29:28aaa kumam", -- [17]
 			},
-		}, -- [222]
+		}, -- [225]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6859,7 +6980,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:21:52siemanko, wyslalem aplikacje", -- [1]
 			},
-		}, -- [223]
+		}, -- [226]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -6879,7 +7000,7 @@ WhisperPopDB = {
 				"123:55:23mhm.", -- [12]
 				"023:55:39Nie wiem, chyba ze sie dogadasz tam z nimi", -- [13]
 			},
-		}, -- [224]
+		}, -- [227]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -6897,7 +7018,7 @@ WhisperPopDB = {
 				"020:47:57zgadza sie jak najbardziej powodzenia w bojach :)", -- [10]
 				"120:48:05Dzieki, pozdrawiam", -- [11]
 			},
-		}, -- [225]
+		}, -- [228]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -6905,7 +7026,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:44:59czy puste butle tesz mam skolowac czy moze byc maly tip w zamian ? :)", -- [1]
 			},
-		}, -- [226]
+		}, -- [229]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6913,7 +7034,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:40:26red inv", -- [1]
 			},
-		}, -- [227]
+		}, -- [230]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -6921,7 +7042,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:39:33Inv Rediva", -- [1]
 			},
-		}, -- [228]
+		}, -- [231]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6935,7 +7056,7 @@ WhisperPopDB = {
 				"018:00:40ok to jestem w poczekalni jak cos", -- [7]
 			},
 			["name"] = "Nubbz-BurningLegion",
-		}, -- [229]
+		}, -- [232]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -6945,7 +7066,7 @@ WhisperPopDB = {
 				"018:15:36czesc", -- [2]
 				"017:59:56siema, mialem wejsc na tsa o 18 rozmawiac w sprawie rekrutacji na jaki kanal mam sie udac?", -- [3]
 			},
-		}, -- [230]
+		}, -- [233]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -6955,7 +7076,7 @@ WhisperPopDB = {
 				"117:58:54just disenchanted 1 sec ago, sorry", -- [2]
 				"017:59:01:'(", -- [3]
 			},
-		}, -- [231]
+		}, -- [234]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -6963,7 +7084,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:02:58a walicie sie w dupki?", -- [1]
 			},
-		}, -- [232]
+		}, -- [235]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -6971,7 +7092,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"003:21:15inv", -- [1]
 			},
-		}, -- [233]
+		}, -- [236]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -6992,7 +7113,7 @@ WhisperPopDB = {
 				"023:33:06Hey do you know whether lvl3 Infernal Alchemist Stone proccs sometimes? I've been told it doesn't work and im curious", -- [14]
 			},
 			["name"] = "Jassio-BurningLegion",
-		}, -- [234]
+		}, -- [237]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7000,7 +7121,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"021:27:32inv alta", -- [1]
 			},
-		}, -- [235]
+		}, -- [238]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7012,7 +7133,7 @@ WhisperPopDB = {
 				"121:00:30bede dostepny albo po raidzie (23:00) albo na gildia@wipeforged.com", -- [4]
 				"121:00:37spoko dzieki", -- [5]
 			},
-		}, -- [236]
+		}, -- [239]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7020,7 +7141,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:56:13 heja mam tylko jedno zapytanie jak to jest Chlopakiem i dziewczyna w gildi bo nie wiem co macie na mysli granie osobno ?? oraz czy przyjmujecie poczatkowych graczy ??", -- [1]
 			},
-		}, -- [237]
+		}, -- [240]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7038,7 +7159,7 @@ WhisperPopDB = {
 				"020:00:33moge inva bo taktyke ogladalem", -- [11]
 			},
 			["name"] = "Morfajzero-BurningLegion",
-		}, -- [238]
+		}, -- [241]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7046,7 +7167,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:58:02na co invite? Bo ja tak srednio czasowy w tej chwili", -- [1]
 			},
-		}, -- [239]
+		}, -- [242]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7080,7 +7201,7 @@ WhisperPopDB = {
 				"119:50:23odswiez", -- [27]
 			},
 			["name"] = "Aphrael-BurningLegion",
-		}, -- [240]
+		}, -- [243]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7089,7 +7210,7 @@ WhisperPopDB = {
 				"019:35:51Hey, how you doin? Let's make a deal, I have mats to craft 10x |cffffffff|Hitem:127847::::::::110:63::::::|h[Flask of the Whispered Pact]|h|r", -- [1]
 				"119:36:38sure", -- [2]
 			},
-		}, -- [241]
+		}, -- [244]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7102,7 +7223,7 @@ WhisperPopDB = {
 				"119:29:09to bedziesz sie wbijal jak bedziesz mial mozliwosc ", -- [5]
 				"019:29:22a oka", -- [6]
 			},
-		}, -- [242]
+		}, -- [245]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7111,7 +7232,7 @@ WhisperPopDB = {
 				"017:42:01a na druidzie nie wziolem jeszcze ani 1 itemku z mythica", -- [2]
 			},
 			["name"] = "Morfizer-Burning Legion",
-		}, -- [243]
+		}, -- [246]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7119,7 +7240,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:29:41hejka, to dzisiaj nie ma mythica tak?", -- [1]
 			},
-		}, -- [244]
+		}, -- [247]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7142,7 +7263,7 @@ WhisperPopDB = {
 				"120:26:07zaraz pogadamy na ts jesli wejdziesz", -- [15]
 				"020:26:14spoko robcie", -- [16]
 			},
-		}, -- [245]
+		}, -- [248]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7209,7 +7330,7 @@ WhisperPopDB = {
 				"120:01:49jestes na ts?", -- [59]
 				"020:02:04tak", -- [60]
 			},
-		}, -- [246]
+		}, -- [249]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7222,7 +7343,7 @@ WhisperPopDB = {
 				"118:59:05so fjarnskagle not this one", -- [5]
 				"118:59:11not foxflower", -- [6]
 			},
-		}, -- [247]
+		}, -- [250]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7231,7 +7352,7 @@ WhisperPopDB = {
 				"018:56:45or you have CHANCE to create 3 flasks?", -- [1]
 				"118:57:24chance to craft more than 1", -- [2]
 			},
-		}, -- [248]
+		}, -- [251]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7239,7 +7360,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:57:08I'd love some flasks :D", -- [1]
 			},
-		}, -- [249]
+		}, -- [252]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7247,7 +7368,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:56:38hi mate , you have 3 rank flasks ... thats mean that you will create 3x flask on thats mats?", -- [1]
 			},
-		}, -- [250]
+		}, -- [253]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7257,7 +7378,7 @@ WhisperPopDB = {
 				"117:50:21szczerze mowiac to nie wiem :P", -- [2]
 				"117:50:24sam uzywam na crita", -- [3]
 			},
-		}, -- [251]
+		}, -- [254]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7265,7 +7386,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:05:17hello", -- [1]
 			},
-		}, -- [252]
+		}, -- [255]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7310,7 +7431,7 @@ WhisperPopDB = {
 				"100:37:16mail", -- [37]
 				"000:37:21ok dzieki", -- [38]
 			},
-		}, -- [253]
+		}, -- [256]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7327,7 +7448,7 @@ WhisperPopDB = {
 				"000:28:28ehh gma sie zapytam:P", -- [9]
 				"000:28:49bo to tak wyglada jakby dalsze paragony byly zablokowane", -- [10]
 			},
-		}, -- [254]
+		}, -- [257]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7335,7 +7456,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:26:43czesc", -- [1]
 			},
-		}, -- [255]
+		}, -- [258]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7355,7 +7476,7 @@ WhisperPopDB = {
 				"000:19:48tylko w weekend", -- [12]
 				"000:20:17sprzet jeszcze musialem zmienic zeby wow jakos dzialal teraz to juz smiga", -- [13]
 			},
-		}, -- [256]
+		}, -- [259]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7363,7 +7484,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:02:07Witam w jakie dni raidujecie?", -- [1]
 			},
-		}, -- [257]
+		}, -- [260]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -7373,7 +7494,7 @@ WhisperPopDB = {
 				"120:08:39hi", -- [2]
 				"120:08:41nope sorry", -- [3]
 			},
-		}, -- [258]
+		}, -- [261]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7387,7 +7508,7 @@ WhisperPopDB = {
 				"019:39:40nay i want 100% nontheless dude xc", -- [6]
 				"019:39:47can just wait for friend to come online", -- [7]
 			},
-		}, -- [259]
+		}, -- [262]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -7395,7 +7516,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:38:25what do you say for 100% proc for me ;d", -- [1]
 			},
-		}, -- [260]
+		}, -- [263]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7407,7 +7528,7 @@ WhisperPopDB = {
 				"119:25:59 |cffffffff|Hitem:124105::::::::110:63::::::|h[Starlight Rose]|h|r |cffffffff|Hitem:124103::::::::110:63::::::|h[Foxflower]|h|r |cffffffff|Hitem:124104::::::::110:63::::::|h[Fjarnskaggl]|h|r", -- [4]
 				"119:26:07 |cffffd000|Henchant:188342|h[Alchemy: Flask of the Seventh Demon]|h|r", -- [5]
 			},
-		}, -- [261]
+		}, -- [264]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7419,7 +7540,7 @@ WhisperPopDB = {
 				"102:00:36choice* :-P", -- [4]
 				"002:00:51how the fuck u dont get bored from spamming like a retard", -- [5]
 			},
-		}, -- [262]
+		}, -- [265]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7427,7 +7548,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"002:00:03i ignored you on all alts", -- [1]
 			},
-		}, -- [263]
+		}, -- [266]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7459,7 +7580,7 @@ WhisperPopDB = {
 				"101:03:09Jasna sprawa :)", -- [25]
 			},
 			["name"] = "Tvvister-BurningLegion",
-		}, -- [264]
+		}, -- [267]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7467,7 +7588,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"022:44:48zrobilbys mi potki i flaski za jakies 20-30 min?", -- [1]
 			},
-		}, -- [265]
+		}, -- [268]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7494,7 +7615,7 @@ WhisperPopDB = {
 				"119:54:42nie no easy peasy xd", -- [19]
 				"019:55:23xD", -- [20]
 			},
-		}, -- [266]
+		}, -- [269]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7502,7 +7623,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:47:23siema", -- [1]
 			},
-		}, -- [267]
+		}, -- [270]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7511,7 +7632,7 @@ WhisperPopDB = {
 				"019:43:05 |cffffd000|Henchant:229218|h[Alchemy: Potion of Prolonged Power]|h|r", -- [1]
 				"119:43:14no bloods soz", -- [2]
 			},
-		}, -- [268]
+		}, -- [271]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -7525,7 +7646,7 @@ WhisperPopDB = {
 				"116:35:04zajmuje 2 min, a trafia do oficerki na maila", -- [6]
 				"016:36:24ok", -- [7]
 			},
-		}, -- [269]
+		}, -- [272]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -7533,7 +7654,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:33:15hej", -- [1]
 			},
-		}, -- [270]
+		}, -- [273]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7541,7 +7662,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"012:23:45Inv 4 wb", -- [1]
 			},
-		}, -- [271]
+		}, -- [274]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -7550,7 +7671,7 @@ WhisperPopDB = {
 				"022:27:03i masz full sklad :d", -- [1]
 				"122:27:24No moi memberzy to wiedza :D", -- [2]
 			},
-		}, -- [272]
+		}, -- [275]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -7558,7 +7679,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"022:26:58napisz ze dajesz wszystkie proce memberom", -- [1]
 			},
-		}, -- [273]
+		}, -- [276]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7566,7 +7687,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:43:07hey, do u sell flasks? or do u only craft them?", -- [1]
 			},
-		}, -- [274]
+		}, -- [277]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7602,7 +7723,7 @@ WhisperPopDB = {
 				"119:27:22Milego wieczoru :)", -- [28]
 				"019:27:28dzieki wzajemnie :)", -- [29]
 			},
-		}, -- [275]
+		}, -- [278]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7610,7 +7731,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:20:12hej witaj", -- [1]
 			},
-		}, -- [276]
+		}, -- [279]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7623,7 +7744,7 @@ WhisperPopDB = {
 				"018:32:51przyjmowales mnie 3 tyg temu moze 4 mialem 810 ivl mam juz 865 ", -- [5]
 				"018:33:06i nie bylem na ani 1 raidzie z guild z pugu aly zas latam", -- [6]
 			},
-		}, -- [277]
+		}, -- [280]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7639,7 +7760,7 @@ WhisperPopDB = {
 				"018:19:59o boze xD", -- [8]
 				"018:20:05nie ja po legionowe flaski", -- [9]
 			},
-		}, -- [278]
+		}, -- [281]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7647,7 +7768,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:18:59siema", -- [1]
 			},
-		}, -- [279]
+		}, -- [282]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7666,7 +7787,7 @@ WhisperPopDB = {
 				"018:16:28kek", -- [11]
 				"018:16:30my bad", -- [12]
 			},
-		}, -- [280]
+		}, -- [283]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7674,7 +7795,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:12:14u creating like 2x  |cffffd000|Henchant:188339|h[Alchemy: Flask of the Whispered Pact]|h|r", -- [1]
 			},
-		}, -- [281]
+		}, -- [284]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7684,7 +7805,7 @@ WhisperPopDB = {
 				"016:29:01sprubuj jeszcez raz", -- [2]
 				"016:57:39masz teraz chwilke?", -- [3]
 			},
-		}, -- [282]
+		}, -- [285]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -7702,7 +7823,7 @@ WhisperPopDB = {
 				"016:45:54jeszcze jednego agenta zaprosisz?", -- [10]
 				"116:45:58Tak", -- [11]
 			},
-		}, -- [283]
+		}, -- [286]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7710,7 +7831,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:27:55siema mozna inv do gildi?", -- [1]
 			},
-		}, -- [284]
+		}, -- [287]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7721,7 +7842,7 @@ WhisperPopDB = {
 				"016:14:38ale na jakiej ", -- [3]
 				"116:14:44wipeforged.com :)", -- [4]
 			},
-		}, -- [285]
+		}, -- [288]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7729,7 +7850,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:13:04Czesc jestem chetny do dołaczenia do gildi ", -- [1]
 			},
-		}, -- [286]
+		}, -- [289]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7738,7 +7859,7 @@ WhisperPopDB = {
 				"015:50:29!note Bercikowsky", -- [1]
 				"115:50:29Note updated.", -- [2]
 			},
-		}, -- [287]
+		}, -- [290]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -7746,7 +7867,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:49:53.", -- [1]
 			},
-		}, -- [288]
+		}, -- [291]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7759,7 +7880,7 @@ WhisperPopDB = {
 				"014:46:45if you will have it /w me. i will buy 20 flask for 5000g", -- [5]
 				"114:46:54kk I'll let u know", -- [6]
 			},
-		}, -- [289]
+		}, -- [292]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7774,7 +7895,7 @@ WhisperPopDB = {
 				"000:55:37ok fine", -- [7]
 				"000:55:44ty anyway", -- [8]
 			},
-		}, -- [290]
+		}, -- [293]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7782,7 +7903,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"000:45:33hey i could use some potion of prolonged power:) can u help?", -- [1]
 			},
-		}, -- [291]
+		}, -- [294]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7793,7 +7914,7 @@ WhisperPopDB = {
 				"123:32:45no fakt ^^", -- [4]
 			},
 			["name"] = "Wzburzonyork-BurningLegion",
-		}, -- [292]
+		}, -- [295]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -7802,7 +7923,7 @@ WhisperPopDB = {
 				"023:08:14hej", -- [2]
 			},
 			["name"] = "Starcar-Burning Legion",
-		}, -- [293]
+		}, -- [296]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7818,7 +7939,7 @@ WhisperPopDB = {
 				"120:17:51awa Ice Block", -- [8]
 				"120:17:53awa Ice Block", -- [9]
 			},
-		}, -- [294]
+		}, -- [297]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7826,7 +7947,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:12:05Czesc", -- [1]
 			},
-		}, -- [295]
+		}, -- [298]
 		{
 			["class"] = "DRUID",
 			["messages"] = {
@@ -7834,7 +7955,7 @@ WhisperPopDB = {
 				"119:46:51a co trzeba :D", -- [2]
 			},
 			["name"] = "Rarven-BurningLegion",
-		}, -- [296]
+		}, -- [299]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7842,7 +7963,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:46:03Dalej nic nie proclo ;d?", -- [1]
 			},
-		}, -- [297]
+		}, -- [300]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -7861,7 +7982,7 @@ WhisperPopDB = {
 				"019:31:56a ja latam po hearthstonach z woda :D", -- [11]
 				"019:33:03daj trade jak bedziesz gotowy bo z tego co widze robisz jeszcze komus", -- [12]
 			},
-		}, -- [298]
+		}, -- [301]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7874,7 +7995,7 @@ WhisperPopDB = {
 				"119:29:59tak za sek", -- [6]
 			},
 			["name"] = "Dobryzafryka-BurningLegion",
-		}, -- [299]
+		}, -- [302]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7883,7 +8004,7 @@ WhisperPopDB = {
 				"019:29:51siema, zrobisz pare flasek na int?", -- [2]
 			},
 			["name"] = "Dobryzafryka-Burning Legion",
-		}, -- [300]
+		}, -- [303]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7896,7 +8017,7 @@ WhisperPopDB = {
 				"118:26:52tylko nie widizalem sie jeszcze z RL", -- [5]
 				"018:27:02oki, w porzadku, bede czekal :)", -- [6]
 			},
-		}, -- [301]
+		}, -- [304]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -7904,7 +8025,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:25:36Witam serdecznie, skladalem podanie do Waszej guildii (monk MW wraz z druga polowka)", -- [1]
 			},
-		}, -- [302]
+		}, -- [305]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7916,7 +8037,7 @@ WhisperPopDB = {
 				"118:05:18wpisz !note nick", -- [4]
 				"118:05:21nick to main", -- [5]
 			},
-		}, -- [303]
+		}, -- [306]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -7924,7 +8045,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:03:19dodasz alta ?", -- [1]
 			},
-		}, -- [304]
+		}, -- [307]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -7932,7 +8053,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:34:59witam, pisze w sprawie dolaczenia do gildii", -- [1]
 			},
-		}, -- [305]
+		}, -- [308]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -7940,7 +8061,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:17:23 |cffffffff|Hitem:142117::::::::110:102::::::|h[Potion of Prolonged Power]|h|r price", -- [1]
 			},
-		}, -- [306]
+		}, -- [309]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7964,7 +8085,7 @@ WhisperPopDB = {
 				"017:21:27flaskow tez nie uzywam na hc ", -- [16]
 				"017:21:36jak nie ma takiej potrzeby", -- [17]
 			},
-		}, -- [307]
+		}, -- [310]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -7972,7 +8093,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"016:58:51siema, potrzebny wam holy pala ?", -- [1]
 			},
-		}, -- [308]
+		}, -- [311]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -7980,7 +8101,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:30:58where i can buy recipes for |cffffffff|Hitem:127848::::::::110:260::::::|h[Flask of the Seventh Demon]|h|r", -- [1]
 			},
-		}, -- [309]
+		}, -- [312]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7989,7 +8110,7 @@ WhisperPopDB = {
 				"120:22:34Hej :) Wszystko na wipeforged.com ladnie opisane :P", -- [1]
 				"020:22:41oke", -- [2]
 			},
-		}, -- [310]
+		}, -- [313]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -7997,14 +8118,14 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:22:20szczegolne wymagania? Staz? item level?", -- [1]
 			},
-		}, -- [311]
+		}, -- [314]
 		{
 			["class"] = "MAGE",
 			["messages"] = {
 				"119:44:22jasne", -- [1]
 			},
 			["name"] = "Ognioodporny-BurningLegion",
-		}, -- [312]
+		}, -- [315]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8012,7 +8133,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"019:44:13 |cffffd000|Henchant:188339|h[Alchemy: Flask of the Whispered Pact]|h|r can you do it?", -- [1]
 			},
-		}, -- [313]
+		}, -- [316]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8024,14 +8145,14 @@ WhisperPopDB = {
 				"019:43:14dziekuje", -- [4]
 				"119:43:17spk", -- [5]
 			},
-		}, -- [314]
+		}, -- [317]
 		{
 			["class"] = "PALADIN",
 			["messages"] = {
 				"119:41:19Czesc", -- [1]
 			},
 			["name"] = "Søsexi-Burning Legion",
-		}, -- [315]
+		}, -- [318]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8077,7 +8198,7 @@ WhisperPopDB = {
 				"018:35:12Ja jestem osoba ktora bedzie zawsze :D", -- [38]
 				"018:35:16dlatego robie heal :P", -- [39]
 			},
-		}, -- [316]
+		}, -- [319]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8085,7 +8206,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:29:51 |cffffd000|Henchant:229218|h[Alchemy: Potion of Prolonged Power]|h|r?", -- [1]
 			},
-		}, -- [317]
+		}, -- [320]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8093,7 +8214,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:25:27Witam", -- [1]
 			},
-		}, -- [318]
+		}, -- [321]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8113,7 +8234,7 @@ WhisperPopDB = {
 				"018:15:36no ok, zrobimy jak mowisz, podanie ", -- [12]
 				"118:16:16Super, bede wdzieczny bo ulatwi nam to robote :)", -- [13]
 			},
-		}, -- [319]
+		}, -- [322]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8139,7 +8260,7 @@ WhisperPopDB = {
 				"118:13:52zapraszam ponownie :D", -- [18]
 				"018:13:58napewnoe sie zglosze ;d", -- [19]
 			},
-		}, -- [320]
+		}, -- [323]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8147,7 +8268,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:12:48czesc, widzialem wasze ogloszenie rekrutacyjne na /trade i mam pytanie - czy jesteście w stanie przyjac tanka dk, paladyna dps, monka dps i w niedalekiej przyszłosci priesta heal ?? ", -- [1]
 			},
-		}, -- [321]
+		}, -- [324]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8155,7 +8276,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:05:12...", -- [1]
 			},
-		}, -- [322]
+		}, -- [325]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8167,7 +8288,7 @@ WhisperPopDB = {
 				"017:01:12ok", -- [4]
 				"117:03:27u can call me later or just mail me with mats, up to u", -- [5]
 			},
-		}, -- [323]
+		}, -- [326]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8175,7 +8296,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:00:31yo ", -- [1]
 			},
-		}, -- [324]
+		}, -- [327]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8183,7 +8304,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"014:04:40pisze", -- [1]
 			},
-		}, -- [325]
+		}, -- [328]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8192,7 +8313,7 @@ WhisperPopDB = {
 				"023:24:10!note Harkog", -- [1]
 				"123:24:10Note updated.", -- [2]
 			},
-		}, -- [326]
+		}, -- [329]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8200,7 +8321,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:23:19inv alt (Harkog)", -- [1]
 			},
-		}, -- [327]
+		}, -- [330]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8211,7 +8332,7 @@ WhisperPopDB = {
 				"122:11:52ja zmienilem na  |cff71d5ff|Htalent:22447|h[Incanter's Flow]|h|r na ta walke", -- [3]
 				"022:12:11spiacy jestem w chuj ja juz nie reaguje xd ", -- [4]
 			},
-		}, -- [328]
+		}, -- [331]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8228,7 +8349,7 @@ WhisperPopDB = {
 				"120:13:01na mailu", -- [9]
 				"020:13:17ok, poczytam o Waszych zasadach :)", -- [10]
 			},
-		}, -- [329]
+		}, -- [332]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8236,7 +8357,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"020:10:05hej, jakich klas potrzebujecie?", -- [1]
 			},
-		}, -- [330]
+		}, -- [333]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8248,7 +8369,7 @@ WhisperPopDB = {
 				"101:43:42use bl after she show up", -- [4]
 				"001:44:07you TWed on last boss :D", -- [5]
 			},
-		}, -- [331]
+		}, -- [334]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8259,7 +8380,7 @@ WhisperPopDB = {
 				"101:31:19coz I'm sharing 50% of proc", -- [3]
 				"101:31:27so another 50% of proc is going for me", -- [4]
 			},
-		}, -- [332]
+		}, -- [335]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8267,7 +8388,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:29:58how much for seventh?", -- [1]
 			},
-		}, -- [333]
+		}, -- [336]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8289,7 +8410,7 @@ WhisperPopDB = {
 				"000:05:35sure thanks man will contact you", -- [14]
 				"100:05:42k", -- [15]
 			},
-		}, -- [334]
+		}, -- [337]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8297,7 +8418,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"023:58:40i need flasks", -- [1]
 			},
-		}, -- [335]
+		}, -- [338]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8313,7 +8434,7 @@ WhisperPopDB = {
 				"118:59:14sometimes it happens.. ", -- [8]
 				"118:59:17cheers", -- [9]
 			},
-		}, -- [336]
+		}, -- [339]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8321,7 +8442,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:57:06Hi! can you make me 4x seventh demon flasks?", -- [1]
 			},
-		}, -- [337]
+		}, -- [340]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8329,7 +8450,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:10:17Czesc", -- [1]
 			},
-		}, -- [338]
+		}, -- [341]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -8346,7 +8467,7 @@ WhisperPopDB = {
 				"116:00:13:<", -- [9]
 				"016:00:17haha :D", -- [10]
 			},
-		}, -- [339]
+		}, -- [342]
 		{
 			["received"] = 1,
 			["class"] = "HUNTER",
@@ -8354,7 +8475,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:49:07duzo flaszek zrobiles by miec inta lvl 3 ?", -- [1]
 			},
-		}, -- [340]
+		}, -- [343]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8367,7 +8488,7 @@ WhisperPopDB = {
 				"015:46:24!note azurewat", -- [5]
 				"115:46:25Note updated.", -- [6]
 			},
-		}, -- [341]
+		}, -- [344]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8375,7 +8496,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:44:28czesc azur:)", -- [1]
 			},
-		}, -- [342]
+		}, -- [345]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8383,7 +8504,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:18:55.", -- [1]
 			},
-		}, -- [343]
+		}, -- [346]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -8391,7 +8512,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"001:03:09just did a 11", -- [1]
 			},
-		}, -- [344]
+		}, -- [347]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8407,7 +8528,7 @@ WhisperPopDB = {
 				"100:57:18ale zawsze mozna podobne robic jak my na pocz.", -- [8]
 				"000:58:36no pewnie", -- [9]
 			},
-		}, -- [345]
+		}, -- [348]
 		{
 			["received"] = 1,
 			["class"] = "BN",
@@ -8422,7 +8543,7 @@ WhisperPopDB = {
 				"000:53:17wejde do gry to sie rozeznam", -- [7]
 				"100:53:55spoko, ok dzieki", -- [8]
 			},
-		}, -- [346]
+		}, -- [349]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8430,7 +8551,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:59:47siema. skladalem podanie do gildii i mialem pisac o przyjecie :)", -- [1]
 			},
-		}, -- [347]
+		}, -- [350]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8439,7 +8560,7 @@ WhisperPopDB = {
 				"118:34:48witaj", -- [1]
 				"018:35:18a rekrutujecie moge low lvl?", -- [2]
 			},
-		}, -- [348]
+		}, -- [351]
 		{
 			["received"] = 1,
 			["class"] = "PRIEST",
@@ -8447,7 +8568,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"018:33:41witam", -- [1]
 			},
-		}, -- [349]
+		}, -- [352]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8487,7 +8608,7 @@ WhisperPopDB = {
 				"017:58:27goblins ftw!", -- [32]
 				"117:58:34ye^^", -- [33]
 			},
-		}, -- [350]
+		}, -- [353]
 		{
 			["received"] = 1,
 			["class"] = "DEATHKNIGHT",
@@ -8496,7 +8617,7 @@ WhisperPopDB = {
 				"117:11:50Nie chcialbys tankowac w drugiej grupie?", -- [1]
 				"017:54:32it 859 wuec moze heroica dalbym rade taktyki i wgl znam w", -- [2]
 			},
-		}, -- [351]
+		}, -- [354]
 		{
 			["received"] = 1,
 			["class"] = "ROGUE",
@@ -8504,7 +8625,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"017:47:22yoo", -- [1]
 			},
-		}, -- [352]
+		}, -- [355]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8522,7 +8643,7 @@ WhisperPopDB = {
 				"017:40:29a oki doki:D", -- [10]
 				"117:41:23to ty byles i zwiales? :P", -- [11]
 			},
-		}, -- [353]
+		}, -- [356]
 		{
 			["received"] = 1,
 			["class"] = "SHAMAN",
@@ -8537,7 +8658,7 @@ WhisperPopDB = {
 				"016:13:26cieszko mi znalesc gildie bo mam czas na raidowanie tylko w sobote i niedziele", -- [7]
 				"116:13:43Tez dobre i to, napisz o tym prosze", -- [8]
 			},
-		}, -- [354]
+		}, -- [357]
 		{
 			["received"] = 1,
 			["class"] = "PALADIN",
@@ -8545,7 +8666,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:31:48zeby prowadzic druga grupe", -- [1]
 			},
-		}, -- [355]
+		}, -- [358]
 		{
 			["received"] = 1,
 			["class"] = "MONK",
@@ -8553,7 +8674,7 @@ WhisperPopDB = {
 			["messages"] = {
 				"015:02:52would it be possible to craft  |cffffffff|Hitem:142117::::::::110:269::::::|h[Potion of Prolonged Power]|h|r?", -- [1]
 			},
-		}, -- [356]
+		}, -- [359]
 		{
 			["received"] = 1,
 			["class"] = "WARRIOR",
@@ -8569,7 +8690,7 @@ WhisperPopDB = {
 				"014:49:44no tlate", -- [8]
 				"014:49:47late*", -- [9]
 			},
-		}, -- [357]
+		}, -- [360]
 		{
 			["received"] = 1,
 			["class"] = "DRUID",
@@ -8579,7 +8700,7 @@ WhisperPopDB = {
 				"014:22:53hey", -- [2]
 				"114:23:04kk ", -- [3]
 			},
-		}, -- [358]
+		}, -- [361]
 		{
 			["received"] = 1,
 			["class"] = "MAGE",
@@ -8612,7 +8733,7 @@ WhisperPopDB = {
 				"014:17:00will do", -- [25]
 				"114:17:06cheers", -- [26]
 			},
-		}, -- [359]
+		}, -- [362]
 		{
 			["received"] = 1,
 			["class"] = "WARLOCK",
@@ -8621,7 +8742,7 @@ WhisperPopDB = {
 				"012:42:26you need that?", -- [1]
 				"112:42:53DE-ed already", -- [2]
 			},
-		}, -- [360]
+		}, -- [363]
 		{
 			["received"] = 1,
 			["class"] = "DEMONHUNTER",
@@ -8632,12 +8753,12 @@ WhisperPopDB = {
 				"012:31:41no te ppl z wczoraj", -- [3]
 				"112:32:48De Integro", -- [4]
 			},
-		}, -- [361]
+		}, -- [364]
 	},
-	["time"] = 1,
-	["notifyButton"] = 1,
-	["ignoreTags"] = 1,
-	["version"] = 4.12,
+	["listScale"] = 110,
 	["sound"] = 1,
-	["save"] = 1,
+	["version"] = 4.12,
+	["ignoreTags"] = 1,
+	["notifyButton"] = 1,
+	["time"] = 1,
 }

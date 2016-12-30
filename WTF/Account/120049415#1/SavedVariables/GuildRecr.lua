@@ -1,5 +1,11 @@
 
 GuildRecrDB = {
+	["profileKeys"] = {
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
 	["global"] = {
 		["announce_general"] = true,
 		["announce_lfg"] = false,
@@ -7,12 +13,6 @@ GuildRecrDB = {
 		["message"] = "Wipeforged (EN: 7/7 Mythic ToV: 3/3 HC)  poszukuje sumiennych i aktywnych graczy do wzmocnienia grupy progresowej! Gramy w SR,CZW,PN 20-23 - Po szczegolowe informacje zapraszamy na wipeforged.com!\n",
 		["min_lines"] = 10,
 		["announce_trade"] = true,
-	},
-	["profileKeys"] = {
-		["Kot - Chamber of Aspects"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Redbullek - Burning Legion"] = "Default",
 	},
 	["realm"] = {
 		["Burning Legion"] = {

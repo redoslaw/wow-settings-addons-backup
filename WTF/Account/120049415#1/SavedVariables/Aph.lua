@@ -17,26 +17,26 @@ APHDB = {
 		},
 		["Redus - Burning Legion"] = {
 			["Minimized"] = true,
-			["MainPosY"] = 697.999694824219,
+			["MainPosY"] = 922.999618530274,
 			["ArtifactWeapons"] = {
 				[0] = {
 					0, -- [1]
 					0, -- [2]
 					100, -- [3]
 				},
-				[128820] = {
-					41, -- [1]
-					1717787, -- [2]
-					2560000, -- [3]
-				},
 				[127857] = {
 					29, -- [1]
 					73280, -- [2]
 					417560, -- [3]
 				},
+				[128820] = {
+					41, -- [1]
+					1831987, -- [2]
+					2560000, -- [3]
+				},
 			},
 			["autoMinimize"] = true,
-			["MainPosX"] = 1232.00134277344,
+			["MainPosX"] = 1384.00158691406,
 		},
 		["Redbullek - Burning Legion"] = {
 			["MainPosY"] = 815.000045776367,
@@ -45,9 +45,9 @@ APHDB = {
 	},
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Redbullek - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

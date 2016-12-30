@@ -1,38 +1,40 @@
 
 VWQL = {
-	["Ðeathshot-SteamwheedleCartel"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["EnableEnigma"] = true,
 	["Sort"] = 1,
-	["VERSION"] = 21,
-	["Ðeadshot-BurningLegion"] = {
-		["FilterType"] = {
-		},
+	["EnableEnigma"] = true,
+	["Ðeathshot-SteamwheedleCartel"] = {
+		["Filter"] = 63,
 		["Quests"] = {
 		},
+		["FilterType"] = {
+		},
+	},
+	["VERSION"] = 21,
+	["Redbullek-BurningLegion"] = {
 		["Filter"] = 63,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
 	},
 	["Kot-ChamberofAspects"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
-	["Redbullek-BurningLegion"] = {
-		["FilterType"] = {
-		},
+	["Ðeadshot-BurningLegion"] = {
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["Redus-BurningLegion"] = {
-		["Filter"] = 63,
+		["FilterType"] = {
+			["pet"] = true,
+		},
 		["Quests"] = {
 			[44815] = true,
 			[44817] = true,
@@ -43,36 +45,38 @@ VWQL = {
 			[43963] = true,
 			[41697] = true,
 			[41699] = true,
+			[42018] = true,
 			[42209] = true,
-			[41896] = true,
 			[42784] = true,
 			[43802] = true,
 			[45068] = true,
 			[41416] = true,
 			[43434] = true,
+			[41013] = true,
 			[42178] = true,
-			[42182] = true,
+			[43438] = true,
 			[43759] = true,
+			[41308] = true,
+			[44015] = true,
 			[41938] = true,
-			[43767] = true,
+			[43753] = true,
 			[42070] = true,
 			[43332] = true,
+			[42174] = true,
 			[43714] = true,
+			[41597] = true,
+			[42004] = true,
 			[42712] = true,
 			[42021] = true,
-			[44923] = true,
-			[43600] = true,
-			[42880] = true,
-			[42111] = true,
-			[45072] = true,
-			[41926] = true,
-			[41611] = true,
-			[44017] = true,
-			[42151] = true,
 			[44816] = true,
+			[44923] = true,
+			[42151] = true,
+			[41926] = true,
+			[45072] = true,
+			[42111] = true,
+			[42880] = true,
+			[43600] = true,
 		},
-		["FilterType"] = {
-			["pet"] = true,
-		},
+		["Filter"] = 63,
 	},
 }
