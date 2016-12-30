@@ -1,0 +1,10 @@
+tag b6cff2b90f5b83d79c095b5f1e2c2e033e93106b 7.1.0.1
+Author:	James D. Callahan III <jcallahan@curse.com>
+Date:	Sat Nov 19 20:57:39 2016 -0600
+
+commit 448a06cbb3cdd15e1238e6a17c42ae2ce84ee331
+Author: James D. Callahan III <jcallahan@curse.com>
+Date:   Sat Nov 19 20:57:23 2016 -0600
+
+    Fixes.
+
