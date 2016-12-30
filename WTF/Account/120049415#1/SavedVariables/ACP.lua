@@ -341,9 +341,9 @@ ACP_Data = {
 		}, -- [3]
 	},
 	["collapsed"] = {
-		["WoWPro"] = true,
-		["Blizzard Addons"] = true,
 		["HandyNotes"] = true,
+		["Blizzard Addons"] = true,
+		["WoWPro"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

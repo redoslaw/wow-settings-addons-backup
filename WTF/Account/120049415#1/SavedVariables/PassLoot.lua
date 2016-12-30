@@ -1,5 +1,13 @@
 
 PassLootDB = {
+	["profileKeys"] = {
+		["Redbullek - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+	},
+	["DBVersion"] = 12,
 	["global"] = {
 		["Modules"] = {
 			["Inventory"] = {
@@ -41,8 +49,8 @@ PassLootDB = {
 			["Guild Group"] = {
 				["Version"] = 2,
 			},
-			["Type / SubType"] = {
-				["Version"] = 4,
+			["Class Spec"] = {
+				["Version"] = 2,
 			},
 			["Equipable"] = {
 				["Version"] = 2,
@@ -59,8 +67,8 @@ PassLootDB = {
 			["Group / Raid"] = {
 				["Version"] = 4,
 			},
-			["Class Spec"] = {
-				["Version"] = 2,
+			["Type / SubType"] = {
+				["Version"] = 4,
 			},
 			["Usable"] = {
 				["Version"] = 2,
@@ -72,14 +80,6 @@ PassLootDB = {
 				["Version"] = 2,
 			},
 		},
-	},
-	["DBVersion"] = 12,
-	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Kot - Chamber of Aspects"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -123,7 +123,7 @@ PassLootDB = {
 				["Guild Group"] = {
 					["Status"] = true,
 				},
-				["Type / SubType"] = {
+				["Class Spec"] = {
 					["Status"] = true,
 				},
 				["Equipable"] = {
@@ -141,7 +141,7 @@ PassLootDB = {
 				["Group / Raid"] = {
 					["Status"] = true,
 				},
-				["Class Spec"] = {
+				["Type / SubType"] = {
 					["Status"] = true,
 				},
 				["Usable"] = {

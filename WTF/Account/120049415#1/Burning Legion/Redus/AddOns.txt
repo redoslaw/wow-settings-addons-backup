@@ -29,7 +29,7 @@ autoloot: disabled
 myBigIgnite: disabled
 AutoBar: disabled
 BulkOrder: disabled
-_Cursor: disabled
+_Cursor: enabled
 Gatherer: disabled
 GathererDB_Wowhead: disabled
 Gatherer_HUD: disabled
@@ -251,7 +251,7 @@ SYH: enabled
 AutoFlood: enabled
 AutoLootPlus: enabled
 AutoRepair: enabled
-CurrencyTracking: enabled
+CurrencyTracking: disabled
 DeleteGoodItemConfirmHelper: enabled
 EasyCopy: enabled
 EnhancedMenu: enabled

@@ -10,6 +10,67 @@ AskMrRobotDb3 = {
 				[2] = "0000000",
 			},
 		},
+		["Ðeadshot - Burning Legion"] = {
+			["Logging"] = {
+				["LastDiff"] = 0,
+				["LastZone"] = "Broken Isles",
+			},
+			["Talents"] = {
+				"2112111", -- [1]
+				"1113321", -- [2]
+			},
+			["Equipped"] = {
+				{
+					"|cffa335ee|Hitem:124296::::::::100:253:4:6:1:567:531:::|h[Hood of the Savage Hunt]|h|r", -- [1]
+					"|cffa335ee|Hitem:124210:5317:::::::100:253:4:6:1:567:531:::|h[Choker of the Great Betrayer]|h|r", -- [2]
+					"|cffa335ee|Hitem:124307::::::::100:253:4:5:1:566:531:::|h[Pauldrons of the Savage Hunt]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:124284::::::::100:253:4:5:2:561:566:531:::|h[Hauberk of the Savage Hunt]|h|r", -- [5]
+					"|cffa335ee|Hitem:124309::::::::100:253:4:6:1:567:531:::|h[Torch-Brazed Waistguard]|h|r", -- [6]
+					"|cffa335ee|Hitem:124301::::::::100:253:4:5:2:561:566:531:::|h[Leggings of the Savage Hunt]|h|r", -- [7]
+					"|cffa335ee|Hitem:124287::::::::100:253:4:5:1:566:531:::|h[Spiked Throatcrusher Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:124314::::::::100:253:4:6:1:567:531:::|h[Bracers of Fel Empowerment]|h|r", -- [9]
+					"|cffa335ee|Hitem:124291::::::::100:253:4:6:2:1799:1502:531:::|h[Eredar Fel-Chain Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:124189:5324:::::::100:253:4:6:1:567:531:::|h[Portal Key Signet]|h|r", -- [11]
+					"|cffff8000|Hitem:124636:5324:::::::100:253::11:2:649:641:::|h[Maalus, the Blood Drinker]|h|r", -- [12]
+					"|cff00ccff|Hitem:133597::::::::100:253::::::|h[Infallible Tracking Charm]|h|r", -- [13]
+					"|cffa335ee|Hitem:124224::::::::100:253:4:6:2:562:567:531:::|h[Mirror of the Blademaster]|h|r", -- [14]
+					"|cffa335ee|Hitem:124134:5310:::::::100:253:4:5:1:566:531:::|h[Cloak of Desperate Temerity]|h|r", -- [15]
+					"|cffe6cc80|Hitem:128826::::::::100:253:256:9::114:::|h[Thas'dorah, Legacy of the Windrunners]|h|r", -- [16]
+				}, -- [1]
+				{
+					"|cffa335ee|Hitem:124296::::::::100:254:4:6:1:567:531:::|h[Hood of the Savage Hunt]|h|r", -- [1]
+					"|cffa335ee|Hitem:124210:5317:::::::100:254:4:6:1:567:531:::|h[Choker of the Great Betrayer]|h|r", -- [2]
+					"|cffa335ee|Hitem:124307::::::::100:254:4:5:1:566:531:::|h[Pauldrons of the Savage Hunt]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:124284::::::::100:254:4:5:2:561:566:531:::|h[Hauberk of the Savage Hunt]|h|r", -- [5]
+					"|cffa335ee|Hitem:124309::::::::100:254:4:6:1:567:531:::|h[Torch-Brazed Waistguard]|h|r", -- [6]
+					"|cffa335ee|Hitem:124301::::::::100:254:4:5:2:561:566:531:::|h[Leggings of the Savage Hunt]|h|r", -- [7]
+					"|cffa335ee|Hitem:124287::::::::100:254:4:5:1:566:531:::|h[Spiked Throatcrusher Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:124314::::::::100:254:4:6:1:567:531:::|h[Bracers of Fel Empowerment]|h|r", -- [9]
+					"|cffa335ee|Hitem:124291::::::::100:254:4:6:2:1799:1502:531:::|h[Eredar Fel-Chain Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:124189:5324:::::::100:254:4:6:1:567:531:::|h[Portal Key Signet]|h|r", -- [11]
+					"|cffff8000|Hitem:124636:5324:::::::100:254::11:2:649:641:::|h[Maalus, the Blood Drinker]|h|r", -- [12]
+					"|cff00ccff|Hitem:133597::::::::100:254::::::|h[Infallible Tracking Charm]|h|r", -- [13]
+					"|cffa335ee|Hitem:124224::::::::100:254:4:6:2:562:567:531:::|h[Mirror of the Blademaster]|h|r", -- [14]
+					"|cffa335ee|Hitem:124134:5310:::::::100:254:4:5:1:566:531:::|h[Cloak of Desperate Temerity]|h|r", -- [15]
+					"|cffe6cc80|Hitem:128826::::::::100:254:256:9::114:::|h[Thas'dorah, Legacy of the Windrunners]|h|r", -- [16]
+				}, -- [2]
+			},
+			["Artifacts"] = {
+				[2] = {
+					["Relics"] = {
+						"", -- [1]
+						"", -- [2]
+						"", -- [3]
+					},
+					["Powers"] = {
+						[307] = 1,
+						[1337] = 1,
+					},
+				},
+			},
+		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
 			["Logging"] = {
 				["LastDiff"] = 0,
@@ -318,92 +379,92 @@ AskMrRobotDb3 = {
 				[127843] = 1,
 				[142172] = 1,
 				[133679] = 1,
-				[137314] = 1,
+				[107950] = 1,
 				[140077] = 1,
-				[142174] = 1,
-				[133570] = 7,
+				[143554] = 1,
+				[139284] = 1,
 				[136569] = 5,
 				[142173] = 1,
 				[140030] = 1,
 				[142332] = 1,
-				[134396] = 2,
-				[141992] = 1,
-				[141652] = 1,
+				[133634] = 1,
+				[142119] = 1,
+				[137207] = 3,
 				[134395] = 1,
 				[139491] = 1,
-				[134427] = 1,
+				[142174] = 1,
 				[139269] = 1,
-				[142206] = 1,
-				[142468] = 1,
+				[133570] = 7,
+				[137642] = 1,
 				[109223] = 13,
 				[136412] = 9,
-				[133634] = 1,
+				[134396] = 2,
 				[6948] = 1,
-				[142176] = 1,
+				[138874] = 19,
 				[138127] = 1,
 				[142207] = 1,
 				[140572] = 8,
 				[137413] = 1,
-				[141446] = 19,
-				[116415] = 20,
-				[137207] = 3,
-				[138874] = 19,
-				[134191] = 1,
 				[139795] = 7,
+				[116415] = 20,
+				[141652] = 1,
+				[142176] = 1,
+				[134191] = 1,
+				[141446] = 19,
 				[140192] = 1,
 				[141605] = 1,
 				[139843] = 5,
 				[141192] = 1,
 				[138224] = 1,
-				[134530] = 1,
+				[127848] = 3,
 				[130219] = 1,
 				[138272] = 1,
-				[134424] = 1,
+				[140587] = 18,
 				[133768] = 1,
 				[139336] = 1,
 				[134526] = 1,
-				[137352] = 1,
 				[142305] = 1,
-				[139792] = 8,
+				[137352] = 1,
+				[141338] = 1,
 				[133574] = 5,
 				[139813] = 10,
 				[139321] = 1,
-				[138131] = 1,
-				[133972] = 4,
+				[138004] = 1,
+				[139814] = 1,
 				[128553] = 2,
 				[134432] = 1,
-				[139909] = 1,
+				[138131] = 1,
 				[41367] = 4,
-				[139814] = 1,
-				[141351] = 1,
+				[133972] = 4,
+				[137490] = 1,
+				[138019] = 1,
 				[127847] = 14,
-				[134528] = 1,
 				[138227] = 2,
 				[142307] = 1,
-				[138815] = 1,
+				[142117] = 17,
 				[129276] = 1,
 				[141339] = 1,
+				[138815] = 1,
 				[134497] = 1,
-				[142117] = 17,
-				[138019] = 1,
-				[137490] = 1,
+				[134528] = 1,
+				[141351] = 1,
 				[134434] = 1,
-				[138004] = 1,
-				[141338] = 1,
+				[139909] = 1,
+				[139792] = 8,
 				[139816] = 5,
 				[110560] = 1,
-				[140587] = 18,
-				[127848] = 3,
+				[134424] = 1,
+				[134530] = 1,
 				[142166] = 1,
 				[134435] = 1,
 				[109076] = 62,
-				[137642] = 1,
+				[142468] = 1,
 				[141341] = 2,
-				[142119] = 1,
+				[141992] = 1,
 				[80914] = 1,
-				[139284] = 1,
-				[143554] = 1,
-				[107950] = 1,
+				[142206] = 1,
+				[134427] = 1,
+				[137314] = 1,
 			},
 			["Logging"] = {
 				["LastDiff"] = 0,
@@ -427,10 +488,10 @@ AskMrRobotDb3 = {
 						[79] = 3,
 						[83] = 3,
 						[72] = 3,
-						[1169] = 1,
+						[80] = 1,
 						[1339] = 1,
 						[84] = 3,
-						[80] = 1,
+						[1169] = 1,
 					},
 				}, -- [1]
 				{
@@ -569,79 +630,20 @@ AskMrRobotDb3 = {
 				[71998] = 14,
 			},
 		},
-		["Ðeadshot - Burning Legion"] = {
-			["Logging"] = {
-				["LastDiff"] = 0,
-				["LastZone"] = "Broken Isles",
-			},
-			["Talents"] = {
-				"2112111", -- [1]
-				"1113321", -- [2]
-			},
-			["Equipped"] = {
-				{
-					"|cffa335ee|Hitem:124296::::::::100:253:4:6:1:567:531:::|h[Hood of the Savage Hunt]|h|r", -- [1]
-					"|cffa335ee|Hitem:124210:5317:::::::100:253:4:6:1:567:531:::|h[Choker of the Great Betrayer]|h|r", -- [2]
-					"|cffa335ee|Hitem:124307::::::::100:253:4:5:1:566:531:::|h[Pauldrons of the Savage Hunt]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:124284::::::::100:253:4:5:2:561:566:531:::|h[Hauberk of the Savage Hunt]|h|r", -- [5]
-					"|cffa335ee|Hitem:124309::::::::100:253:4:6:1:567:531:::|h[Torch-Brazed Waistguard]|h|r", -- [6]
-					"|cffa335ee|Hitem:124301::::::::100:253:4:5:2:561:566:531:::|h[Leggings of the Savage Hunt]|h|r", -- [7]
-					"|cffa335ee|Hitem:124287::::::::100:253:4:5:1:566:531:::|h[Spiked Throatcrusher Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:124314::::::::100:253:4:6:1:567:531:::|h[Bracers of Fel Empowerment]|h|r", -- [9]
-					"|cffa335ee|Hitem:124291::::::::100:253:4:6:2:1799:1502:531:::|h[Eredar Fel-Chain Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:124189:5324:::::::100:253:4:6:1:567:531:::|h[Portal Key Signet]|h|r", -- [11]
-					"|cffff8000|Hitem:124636:5324:::::::100:253::11:2:649:641:::|h[Maalus, the Blood Drinker]|h|r", -- [12]
-					"|cff00ccff|Hitem:133597::::::::100:253::::::|h[Infallible Tracking Charm]|h|r", -- [13]
-					"|cffa335ee|Hitem:124224::::::::100:253:4:6:2:562:567:531:::|h[Mirror of the Blademaster]|h|r", -- [14]
-					"|cffa335ee|Hitem:124134:5310:::::::100:253:4:5:1:566:531:::|h[Cloak of Desperate Temerity]|h|r", -- [15]
-					"|cffe6cc80|Hitem:128826::::::::100:253:256:9::114:::|h[Thas'dorah, Legacy of the Windrunners]|h|r", -- [16]
-				}, -- [1]
-				{
-					"|cffa335ee|Hitem:124296::::::::100:254:4:6:1:567:531:::|h[Hood of the Savage Hunt]|h|r", -- [1]
-					"|cffa335ee|Hitem:124210:5317:::::::100:254:4:6:1:567:531:::|h[Choker of the Great Betrayer]|h|r", -- [2]
-					"|cffa335ee|Hitem:124307::::::::100:254:4:5:1:566:531:::|h[Pauldrons of the Savage Hunt]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:124284::::::::100:254:4:5:2:561:566:531:::|h[Hauberk of the Savage Hunt]|h|r", -- [5]
-					"|cffa335ee|Hitem:124309::::::::100:254:4:6:1:567:531:::|h[Torch-Brazed Waistguard]|h|r", -- [6]
-					"|cffa335ee|Hitem:124301::::::::100:254:4:5:2:561:566:531:::|h[Leggings of the Savage Hunt]|h|r", -- [7]
-					"|cffa335ee|Hitem:124287::::::::100:254:4:5:1:566:531:::|h[Spiked Throatcrusher Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:124314::::::::100:254:4:6:1:567:531:::|h[Bracers of Fel Empowerment]|h|r", -- [9]
-					"|cffa335ee|Hitem:124291::::::::100:254:4:6:2:1799:1502:531:::|h[Eredar Fel-Chain Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:124189:5324:::::::100:254:4:6:1:567:531:::|h[Portal Key Signet]|h|r", -- [11]
-					"|cffff8000|Hitem:124636:5324:::::::100:254::11:2:649:641:::|h[Maalus, the Blood Drinker]|h|r", -- [12]
-					"|cff00ccff|Hitem:133597::::::::100:254::::::|h[Infallible Tracking Charm]|h|r", -- [13]
-					"|cffa335ee|Hitem:124224::::::::100:254:4:6:2:562:567:531:::|h[Mirror of the Blademaster]|h|r", -- [14]
-					"|cffa335ee|Hitem:124134:5310:::::::100:254:4:5:1:566:531:::|h[Cloak of Desperate Temerity]|h|r", -- [15]
-					"|cffe6cc80|Hitem:128826::::::::100:254:256:9::114:::|h[Thas'dorah, Legacy of the Windrunners]|h|r", -- [16]
-				}, -- [2]
-			},
-			["Artifacts"] = {
-				[2] = {
-					["Relics"] = {
-						"", -- [1]
-						"", -- [2]
-						"", -- [3]
-					},
-					["Powers"] = {
-						[307] = 1,
-						[1337] = 1,
-					},
-				},
-			},
-		},
+	},
+	["profileKeys"] = {
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
 	},
 	["global"] = {
 		["Region"] = "EU",
 	},
-	["profileKeys"] = {
-		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
-		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
-		["Redus - Burning Legion"] = "Redus - Burning Legion",
-		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-	},
 	["profiles"] = {
 		["Kot - Chamber of Aspects"] = {
+		},
+		["Ðeadshot - Burning Legion"] = {
 		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
 		},
@@ -650,8 +652,6 @@ AskMrRobotDb3 = {
 				["top"] = 894.000061035156,
 				["left"] = 460.999908447266,
 			},
-		},
-		["Ðeadshot - Burning Legion"] = {
 		},
 	},
 }

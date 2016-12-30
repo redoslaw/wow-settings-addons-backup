@@ -19,13 +19,13 @@ GnomeOptions = {
 				"/cast [nochanneling] Living Bomb", -- [7]
 				["PostMacro"] = "/targetenemy [noharm][dead]\n",
 				["author"] = "Kytie",
-				["source"] = "Local",
+				["icon"] = "Spell_Fire_FireBolt02",
 				["version"] = 1,
-				["PreMacro"] = "/targetenemy [noharm][dead]\n",
+				["lang"] = "enUS",
 				["helpTxt"] = "Talents - 2133111",
 				["specID"] = 63,
-				["lang"] = "enUS",
-				["icon"] = "Spell_Fire_FireBolt02",
+				["PreMacro"] = "/targetenemy [noharm][dead]\n",
+				["source"] = "Local",
 			}, -- [1]
 			{
 				"/cast !Ice Barrier", -- [1]
@@ -36,14 +36,14 @@ GnomeOptions = {
 				"/cast [nochanneling] Living Bomb", -- [6]
 				["source"] = "Local",
 				["author"] = "Redus@Burning Legion",
-				["PostMacro"] = "/targetenemy [noharm][dead]\n",
-				["lang"] = "enUS",
+				["icon"] = "INV_MISC_QUESTIONMARK",
+				["PreMacro"] = "/targetenemy [noharm][dead]\n",
 				["version"] = 2,
 				["StepFunction"] = "  limit = limit or 1\n  if step == limit then\n    limit = limit % #macros + 1\n    step = 1\n  else\n    step = step % #macros + 1\n  end\n",
 				["helpTxt"] = "Talents - 2133111",
 				["specID"] = 63,
-				["PreMacro"] = "/targetenemy [noharm][dead]\n",
-				["icon"] = "INV_MISC_QUESTIONMARK",
+				["lang"] = "enUS",
+				["PostMacro"] = "/targetenemy [noharm][dead]\n",
 			}, -- [2]
 		},
 	},
@@ -62,14 +62,14 @@ GnomeOptions = {
 	["initialised"] = true,
 	["filterList"] = {
 		["Spec"] = true,
-		["Class"] = true,
 		["All"] = false,
+		["Class"] = true,
 	},
 	["DebugModules"] = {
 		["GS-SequenceTranslator"] = false,
-		["GS-Core"] = true,
-		["GS-SequenceEditor"] = false,
 		["Transmission"] = false,
+		["GS-SequenceEditor"] = false,
+		["GS-Core"] = true,
 	},
 	["INDENT"] = "|cffccaa88",
 	["DisabledSequences"] = {
