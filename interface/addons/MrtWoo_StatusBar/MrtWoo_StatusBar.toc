@@ -1,0 +1,25 @@
+## Interface: 60100
+## X-Compatible-With: 60100
+## Version: 0.3.14.60100-release2
+## Title: MrtWoo StatusBar Module
+## Notes: MrtWoo StatusBar Module
+## Author: MrTime
+## Dependencies: MrtWoo
+## X-Part-Of: MrtWoo
+## X-Curse-Packaged-Version: 0.3.14.60100-release2
+## X-Curse-Project-Name: MrtWoo: Anti Spam
+## X-Curse-Project-ID: mrtwoo
+## X-Curse-Repository-ID: wow/mrtwoo/mainline
+
+Locale\enUS.lua
+Locale\zhTW.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\ptBR.lua
+Locale\frFR.lua
+Locale\esMX.lua
+Locale\esES.lua
+Locale\deDE.lua
+Locale\ruRU.lua
+
+MrtWoo_StatusBar.lua

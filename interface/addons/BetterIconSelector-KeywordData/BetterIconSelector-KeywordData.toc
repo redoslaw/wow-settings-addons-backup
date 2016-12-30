@@ -1,0 +1,24 @@
+## Title: BetterIconSelector |cff68ccf0[Keyword Data]|r
+## Notes: Keyword data for the Better Icon Selector (not loaded until needed)
+## Version: 1.0.7
+## Author: Ignifazius (Original by Darthyl of Bronzebeard-US)
+## Interface: 70000
+## OptionalDeps: Ace3
+## X-Curse-Packaged-Version: 1.0.7
+## X-Curse-Project-Name: BetterIconSelector
+## X-Curse-Project-ID: bettericonselector
+
+## X-Part-Of: BetterIconSelector
+## X-Category: Miscellaneous
+## X-License: MIT
+
+### Embedded libraries
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+#@end-no-lib-strip@
+
+## X-Revision: 12
+## LoadOnDemand: 1
+
+### Main file
+BetterIconSelector-KeywordData.lua

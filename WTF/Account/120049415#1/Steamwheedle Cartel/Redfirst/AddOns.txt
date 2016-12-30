@@ -1,0 +1,6 @@
+Hansgar_And_Franzok_Assist: disabled
+GatherMate2_Data: disabled
+GatherMate2: disabled
+MonkeyClock: disabled
+SuppressRightClick: disabled
+TanaanJungleStalker: disabled

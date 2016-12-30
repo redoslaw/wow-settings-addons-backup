@@ -1,0 +1,13 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Steamwheedle Cartel"] = {
+			["PLAYER"] = {
+				["Redone"] = {
+					["MODULE"] = {
+					},
+				},
+			},
+		},
+	},
+}

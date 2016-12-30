@@ -1,0 +1,10 @@
+
+FlyPitchDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

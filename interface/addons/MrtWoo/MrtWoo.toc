@@ -1,0 +1,30 @@
+## Interface: 60100
+## X-Compatible-With: 60100
+## SavedVariables: MrtWooDB
+## Version: 0.3.14.60100-release2
+## Title: MrtWoo Core
+## Notes: MrtWoo Core
+## Author: MrTime
+## OptionalDeps: LibStub, AceComm-3.0, AceAddon-3.0, AceConfig-3.0, AceConsole-3.0, AceDB-3.0, AceEvent-3.0, AceGUI-3.0, AceLocale-3.0, CallbackHandler-1.0, AceDBOptions-3.0, LibWho-2.0, LibChatHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0
+## X-Embeds: LibStub, AceComm-3.0, AceAddon-3.0, AceConfig-3.0, AceConsole-3.0, AceDB-3.0, AceEvent-3.0, AceGUI-3.0, AceLocale-3.0, CallbackHandler-1.0, AceDBOptions-3.0, LibWho-2.0, LibChatHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0
+## X-Curse-Packaged-Version: 0.3.14.60100-release2
+## X-Curse-Project-Name: MrtWoo: Anti Spam
+## X-Curse-Project-ID: mrtwoo
+## X-Curse-Repository-ID: wow/mrtwoo/mainline
+
+#@no-lib-strip@
+MrtWoo.xml
+#@end-no-lib-strip@
+
+Locale\enUS.lua
+Locale\zhTW.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\ptBR.lua
+Locale\frFR.lua
+Locale\esMX.lua
+Locale\esES.lua
+Locale\deDE.lua
+Locale\ruRU.lua
+
+MrtWoo.lua

@@ -1,0 +1,75 @@
+
+WhisperInviteCoreDB = {
+	["char"] = {
+		["Chúck - Burning Legion"] = {
+			["info"] = {
+				["setup"] = 2,
+			},
+		},
+	},
+	["namespaces"] = {
+		["WhisperInviteAdvancedDB"] = {
+		},
+		["WhisperInviteBasicDB"] = {
+			["profiles"] = {
+				["Chúck - Burning Legion"] = {
+					["keywords"] = {
+						"grupa", -- [1]
+					},
+					["keywordsCaseCache"] = {
+						["grupa"] = "grupa",
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["queueProtection"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+				}, -- [3]
+				{
+				}, -- [4]
+				{
+				}, -- [5]
+			},
+			["selectedModuleName"] = "Advanced",
+		},
+		["Chúck - Burning Legion"] = {
+			["queueProtection"] = {
+				{
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				}, -- [1]
+				{
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				}, -- [2]
+				{
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				}, -- [3]
+				{
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				}, -- [4]
+				{
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				}, -- [5]
+				["PVP"] = {
+					["sendMessage"] = true,
+					["returnMessage"] = "Nie moge Cie oddac do grupy bo jestem zakolejkowany do group findera.",
+				},
+			},
+			["selectedModuleName"] = "Basic",
+		},
+	},
+}

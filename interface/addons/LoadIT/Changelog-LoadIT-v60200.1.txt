@@ -1,0 +1,12 @@
+tag v60200.1
+29823eb55a7a7c22735d18706e556f6e92d2d5bc
+Peter Kjellerstedt <peter.kjellerstedt@gmail.com>
+2016-05-01 00:35:50 +0200
+
+Tag as v60200.1
+
+
+--------------------
+
+Peter Kjellerstedt:
+	- Update the .toc to match 6.2

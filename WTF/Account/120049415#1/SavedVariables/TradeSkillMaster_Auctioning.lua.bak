@@ -1,0 +1,37 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["f@Horde - Burning Legion@player"] = {
+		["Redus"] = true,
+	},
+	["g@ @roundNormalPrice"] = false,
+	["g@ @disableInvalidMsg"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Redus - Burning Legion", -- [1]
+		},
+		["realm"] = {
+			"Burning Legion", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Burning Legion", -- [1]
+		},
+	},
+	["g@ @priceColumn"] = 1,
+	["g@ @helpPlatesShown"] = {
+		["selection"] = true,
+	},
+	["f@Horde - Burning Legion@whitelist"] = {
+	},
+	["_hash"] = 5870975,
+	["g@ @matchWhitelist"] = true,
+	["g@ @confirmCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @cancelWithBid"] = false,
+	["_version"] = 1,
+	["_currentProfile"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+}

@@ -1,0 +1,29 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+	<Script file="TitanCurrTrack.lua"/>
+	<Frame parent="UIParent">
+		<Frames>
+			<Button name="TitanPanelCurrencyTrackerButton" inherits="TitanPanelComboTemplate" frameStrata="FULLSCREEN" toplevel="true">
+				<Layers>
+					<Layer level="OVERLAY">
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnLoad>
+						TitanPanelCurrencyTrackerButton_OnLoad(self);
+						TitanPanelButton_OnLoad(self);
+					</OnLoad>
+					<OnEvent>
+						TitanPanelCurrencyTrackerButton_OnEvent(self, event, ...);
+					</OnEvent>
+					<OnClick>
+						TitanPanelCurrencyTrackerButton_OnClick(self, button);
+						TitanPanelButton_OnClick(self, button);
+					</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>

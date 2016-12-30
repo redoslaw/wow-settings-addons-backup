@@ -1,0 +1,611 @@
+
+ActionBarProfilesDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["global"] = {
+		["profiles"] = {
+			["HunterBM-FOLLOWE"] = {
+				["name"] = "HunterBM-FOLLOWE",
+				["class"] = "HUNTER",
+				["petActions"] = {
+					{
+						"PET_ACTION_ATTACK", -- [1]
+						nil, -- [2]
+						"PET_ATTACK_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [1]
+					{
+						"PET_ACTION_FOLLOW", -- [1]
+						nil, -- [2]
+						"PET_FOLLOW_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [2]
+					{
+						"PET_ACTION_MOVE_TO", -- [1]
+						nil, -- [2]
+						"PET_MOVE_TO_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [3]
+					{
+						"Growl", -- [1]
+						"Basic Ability", -- [2]
+						"Interface\\Icons\\Ability_Physical_Taunt", -- [3]
+					}, -- [4]
+					{
+						"Charge", -- [1]
+						"Tenacity Ability", -- [2]
+						"Interface\\Icons\\Ability_Hunter_Pet_Bear", -- [3]
+					}, -- [5]
+					{
+						"Last Stand", -- [1]
+						"Tenacity Ability", -- [2]
+						"Interface\\Icons\\Spell_Nature_ShamanRage", -- [3]
+					}, -- [6]
+					{
+						"Bite", -- [1]
+						"Basic Attack", -- [2]
+						"Interface\\Icons\\Ability_Druid_FerociousBite", -- [3]
+					}, -- [7]
+					{
+						"PET_MODE_ASSIST", -- [1]
+						nil, -- [2]
+						"PET_ASSIST_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [8]
+					{
+						"PET_MODE_DEFENSIVE", -- [1]
+						nil, -- [2]
+						"PET_DEFENSIVE_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [9]
+					{
+						"PET_MODE_PASSIVE", -- [1]
+						nil, -- [2]
+						"PET_PASSIVE_TEXTURE", -- [3]
+						1, -- [4]
+					}, -- [10]
+				},
+				["owner"] = "Bezmyslny-Chamber of Aspects",
+				["actions"] = {
+					{
+						"macro", -- [1]
+						5, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Dire", -- [5]
+						"Interface\\Icons\\INV_MISC_QUESTIONMARK", -- [6]
+					}, -- [1]
+					{
+						"macro", -- [1]
+						2, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Arcane", -- [5]
+						"Interface\\Icons\\Ability_ImpalingBolt", -- [6]
+					}, -- [2]
+					{
+						"spell", -- [1]
+						136, -- [2]
+						"spell", -- [3]
+					}, -- [3]
+					{
+						"macro", -- [1]
+						4, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Deterence", -- [5]
+						"Interface\\Icons\\INV_MISC_QUESTIONMARK", -- [6]
+					}, -- [4]
+					{
+						"spell", -- [1]
+						1462, -- [2]
+						"spell", -- [3]
+					}, -- [5]
+					{
+						"flyout", -- [1]
+						9, -- [2]
+					}, -- [6]
+					{
+						"spell", -- [1]
+						83242, -- [2]
+						"spell", -- [3]
+					}, -- [7]
+					{
+						"spell", -- [1]
+						6991, -- [2]
+						"spell", -- [3]
+					}, -- [8]
+					{
+						"spell", -- [1]
+						20572, -- [2]
+						"spell", -- [3]
+					}, -- [9]
+					{
+						"spell", -- [1]
+						883, -- [2]
+						"spell", -- [3]
+					}, -- [10]
+					{
+						"spell", -- [1]
+						2641, -- [2]
+						"spell", -- [3]
+					}, -- [11]
+					{
+						"summonmount", -- [1]
+						678, -- [2]
+					}, -- [12]
+					[64] = {
+						"macro", -- [1]
+						10, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Steady", -- [5]
+						"Interface\\Icons\\Ability_Hunter_SteadyShot", -- [6]
+					},
+					[68] = {
+						"macro", -- [1]
+						6, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Interrupt", -- [5]
+						"Interface\\Icons\\inv_ammo_arrow_03", -- [6]
+					},
+					[61] = {
+						"macro", -- [1]
+						8, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Killshot", -- [5]
+						"Interface\\Icons\\Ability_Hunter_Assassinate2", -- [6]
+					},
+					[62] = {
+						"macro", -- [1]
+						7, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Kill cmd", -- [5]
+						"Interface\\Icons\\Ability_Hunter_KillCommand", -- [6]
+					},
+					[63] = {
+						"macro", -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Concussive Shot", -- [5]
+						"Interface\\Icons\\Spell_Frost_Stun", -- [6]
+					},
+					[67] = {
+						"macro", -- [1]
+						9, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						"Move", -- [5]
+						"Interface\\Icons\\Ability_Rogue_Feint", -- [6]
+					},
+				},
+				["keyBindings"] = {
+					["TARGETPET"] = {
+						"SHIFT-F1", -- [1]
+					},
+					["ACTIONPAGE4"] = {
+						"SHIFT-4", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON6"] = {
+						"NUMPAD6", -- [1]
+					},
+					["TOGGLEACHIEVEMENT"] = {
+						"Y", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON12"] = {
+						"NUMPADMINUS", -- [1]
+					},
+					["TOGGLESOUND"] = {
+						"CTRL-S", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON7"] = {
+						"NUMPAD7", -- [1]
+					},
+					["ACTIONPAGE3"] = {
+						"SHIFT-3", -- [1]
+					},
+					["SHAPESHIFTBUTTON4"] = {
+						"CTRL-F4", -- [1]
+					},
+					["TARGETPREVIOUSFRIEND"] = {
+						"CTRL-SHIFT-TAB", -- [1]
+					},
+					["TOGGLEFPS"] = {
+						"CTRL-R", -- [1]
+					},
+					["SHAPESHIFTBUTTON7"] = {
+						"CTRL-F7", -- [1]
+					},
+					["OPENALLBAGS"] = {
+						"B", -- [1]
+					},
+					["TOGGLEGROUPFINDER"] = {
+						"I", -- [1]
+					},
+					["MOVEANDSTEER"] = {
+						"BUTTON3", -- [1]
+					},
+					["TOGGLECOLLECTIONS"] = {
+						"SHIFT-P", -- [1]
+					},
+					["SHAPESHIFTBUTTON1"] = {
+						"CTRL-F1", -- [1]
+					},
+					["CHATPAGEUP"] = {
+						"PAGEUP", -- [1]
+					},
+					["TOGGLEBAG4"] = {
+						"F11", -- [1]
+					},
+					["TOGGLEGAMEMENU"] = {
+						"ESCAPE", -- [1]
+					},
+					["TOGGLEBATTLEFIELDMINIMAP"] = {
+						"SHIFT-M", -- [1]
+					},
+					["TARGETNEARESTFRIEND"] = {
+						"CTRL-TAB", -- [1]
+					},
+					["MASTERVOLUMEUP"] = {
+						"CTRL-=", -- [1]
+					},
+					["TOGGLEWORLDMAP"] = {
+						"M", -- [1]
+					},
+					["CAMERAZOOMOUT"] = {
+						"MOUSEWHEELDOWN", -- [1]
+					},
+					["TOGGLETALENTS"] = {
+						"N", -- [1]
+					},
+					["TOGGLEGUILDTAB"] = {
+						"J", -- [1]
+					},
+					["REPLY2"] = {
+						"SHIFT-R", -- [1]
+					},
+					["TOGGLEBAG1"] = {
+						"F8", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON5"] = {
+						"NUMPAD5", -- [1]
+					},
+					["NEXTACTIONPAGE"] = {
+						"SHIFT-DOWN", -- [1]
+						"SHIFT-MOUSEWHEELDOWN", -- [2]
+					},
+					["ACTIONPAGE2"] = {
+						"SHIFT-2", -- [1]
+					},
+					["TOGGLEPETBOOK"] = {
+						"SHIFT-I", -- [1]
+					},
+					["TOGGLESPELLBOOK"] = {
+						"P", -- [1]
+					},
+					["TARGETSELF"] = {
+						"F1", -- [1]
+					},
+					["ACTIONPAGE5"] = {
+						"SHIFT-5", -- [1]
+					},
+					["SHAPESHIFTBUTTON10"] = {
+						"CTRL-F10", -- [1]
+					},
+					["BONUSACTIONBUTTON9"] = {
+						"CTRL-9", -- [1]
+					},
+					["ASSISTTARGET"] = {
+						"F", -- [1]
+					},
+					["TOGGLERUN"] = {
+						"NUMPADDIVIDE", -- [1]
+					},
+					["TOGGLEMUSIC"] = {
+						"CTRL-M", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON4"] = {
+						"NUMPAD4", -- [1]
+					},
+					["REPLY"] = {
+						"R", -- [1]
+					},
+					["PREVIOUSACTIONPAGE"] = {
+						"SHIFT-UP", -- [1]
+						"SHIFT-MOUSEWHEELUP", -- [2]
+					},
+					["TARGETPARTYPET1"] = {
+						"SHIFT-F2", -- [1]
+					},
+					["SHAPESHIFTBUTTON8"] = {
+						"CTRL-F8", -- [1]
+					},
+					["SHAPESHIFTBUTTON3"] = {
+						"CTRL-F3", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON3"] = {
+						"NUMPAD3", -- [1]
+					},
+					["VEHICLEAIMINCREMENT"] = {
+						"CTRL-MOUSEWHEELUP", -- [1]
+					},
+					["SCREENSHOT"] = {
+						"PRINTSCREEN", -- [1]
+					},
+					["SHAPESHIFTBUTTON9"] = {
+						"CTRL-F9", -- [1]
+					},
+					["BONUSACTIONBUTTON10"] = {
+						"CTRL-0", -- [1]
+					},
+					["TOGGLEBACKPACK"] = {
+						"SHIFT-B", -- [1]
+						"F12", -- [2]
+					},
+					["TARGETPARTYMEMBER2"] = {
+						"F3", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON8"] = {
+						"NUMPAD8", -- [1]
+					},
+					["SHAPESHIFTBUTTON2"] = {
+						"CTRL-F2", -- [1]
+					},
+					["COMBATLOGPAGEUP"] = {
+						"CTRL-PAGEUP", -- [1]
+					},
+					["TARGETPARTYPET3"] = {
+						"SHIFT-F4", -- [1]
+					},
+					["ACTIONBUTTON3"] = {
+						"3", -- [1]
+					},
+					["BONUSACTIONBUTTON5"] = {
+						"CTRL-5", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON11"] = {
+						"NUMPADPLUS", -- [1]
+					},
+					["VEHICLEAIMDECREMENT"] = {
+						"CTRL-MOUSEWHEELDOWN", -- [1]
+					},
+					["PITCHDOWN"] = {
+						"DELETE", -- [1]
+					},
+					["CHATBOTTOM"] = {
+						"SHIFT-PAGEDOWN", -- [1]
+					},
+					["TURNRIGHT"] = {
+						"D", -- [1]
+						"RIGHT", -- [2]
+					},
+					["ACTIONBUTTON10"] = {
+						"0", -- [1]
+					},
+					["COMBATLOGBOTTOM"] = {
+						"CTRL-SHIFT-PAGEDOWN", -- [1]
+					},
+					["TARGETNEARESTENEMY"] = {
+						"TAB", -- [1]
+					},
+					["ACTIONBUTTON4"] = {
+						"4", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON10"] = {
+						"NUMPAD0", -- [1]
+					},
+					["TARGETPARTYMEMBER1"] = {
+						"F2", -- [1]
+					},
+					["ALLNAMEPLATES"] = {
+						"CTRL-V", -- [1]
+					},
+					["CHATPAGEDOWN"] = {
+						"PAGEDOWN", -- [1]
+					},
+					["TOGGLEBAG2"] = {
+						"F9", -- [1]
+					},
+					["PREVVIEW"] = {
+						"HOME", -- [1]
+					},
+					["STRAFELEFT"] = {
+						"Q", -- [1]
+					},
+					["NEXTVIEW"] = {
+						"END", -- [1]
+					},
+					["NAMEPLATES"] = {
+						"V", -- [1]
+					},
+					["ACTIONPAGE6"] = {
+						"SHIFT-6", -- [1]
+					},
+					["ACTIONBUTTON7"] = {
+						"7", -- [1]
+					},
+					["BONUSACTIONBUTTON8"] = {
+						"CTRL-8", -- [1]
+					},
+					["ACTIONBUTTON5"] = {
+						"5", -- [1]
+					},
+					["TOGGLESOCIAL"] = {
+						"O", -- [1]
+					},
+					["TARGETPARTYMEMBER3"] = {
+						"F4", -- [1]
+					},
+					["ACTIONBUTTON8"] = {
+						"8", -- [1]
+					},
+					["TOGGLECHARACTER4"] = {
+						"H", -- [1]
+					},
+					["ACTIONBUTTON2"] = {
+						"2", -- [1]
+					},
+					["OPENCHAT"] = {
+						"ENTER", -- [1]
+					},
+					["CAMERAZOOMIN"] = {
+						"MOUSEWHEELUP", -- [1]
+					},
+					["ACTIONBUTTON1"] = {
+						"1", -- [1]
+					},
+					["ITEMCOMPARISONCYCLING"] = {
+						"SHIFT-C", -- [1]
+					},
+					["SITORSTAND"] = {
+						"X", -- [1]
+					},
+					["TOGGLEUI"] = {
+						"ALT-Z", -- [1]
+					},
+					["MASTERVOLUMEDOWN"] = {
+						"CTRL--", -- [1]
+					},
+					["TARGETPREVIOUSENEMY"] = {
+						"SHIFT-TAB", -- [1]
+					},
+					["OPENCHATSLASH"] = {
+						"/", -- [1]
+					},
+					["FRIENDNAMEPLATES"] = {
+						"SHIFT-V", -- [1]
+					},
+					["PITCHUP"] = {
+						"INSERT", -- [1]
+					},
+					["MOVEFORWARD"] = {
+						"W", -- [1]
+						"UP", -- [2]
+					},
+					["BONUSACTIONBUTTON7"] = {
+						"CTRL-7", -- [1]
+					},
+					["MOVEBACKWARD"] = {
+						"S", -- [1]
+						"DOWN", -- [2]
+					},
+					["ACTIONBUTTON12"] = {
+						"=", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON9"] = {
+						"NUMPAD9", -- [1]
+					},
+					["TOGGLEBAG3"] = {
+						"F10", -- [1]
+					},
+					["COMBATLOGPAGEDOWN"] = {
+						"CTRL-PAGEDOWN", -- [1]
+					},
+					["TOGGLEENCOUNTERJOURNAL"] = {
+						"SHIFT-J", -- [1]
+					},
+					["BONUSACTIONBUTTON1"] = {
+						"CTRL-1", -- [1]
+					},
+					["TOGGLEDUNGEONSANDRAIDS"] = {
+						"CTRL-I", -- [1]
+					},
+					["TOGGLEAUTORUN"] = {
+						"NUMLOCK", -- [1]
+						"BUTTON4", -- [2]
+					},
+					["SHAPESHIFTBUTTON6"] = {
+						"CTRL-F6", -- [1]
+					},
+					["SHAPESHIFTBUTTON5"] = {
+						"CTRL-F5", -- [1]
+					},
+					["BONUSACTIONBUTTON4"] = {
+						"CTRL-4", -- [1]
+					},
+					["TOGGLECHANNELPULLOUT"] = {
+						"SHIFT-O", -- [1]
+					},
+					["ACTIONPAGE1"] = {
+						"SHIFT-1", -- [1]
+					},
+					["JUMP"] = {
+						"SPACE", -- [1]
+					},
+					["STRAFERIGHT"] = {
+						"E", -- [1]
+					},
+					["BONUSACTIONBUTTON2"] = {
+						"CTRL-2", -- [1]
+					},
+					["TOGGLEQUESTLOG"] = {
+						"L", -- [1]
+					},
+					["BONUSACTIONBUTTON3"] = {
+						"CTRL-3", -- [1]
+					},
+					["TOGGLESTATISTICS"] = {
+						"SHIFT-Y", -- [1]
+					},
+					["TARGETLASTHOSTILE"] = {
+						"G", -- [1]
+					},
+					["TOGGLEPROFESSIONBOOK"] = {
+						"K", -- [1]
+					},
+					["TOGGLECHARACTER2"] = {
+						"U", -- [1]
+					},
+					["TOGGLECHARACTER0"] = {
+						"C", -- [1]
+					},
+					["TURNLEFT"] = {
+						"A", -- [1]
+						"LEFT", -- [2]
+					},
+					["TARGETPARTYPET2"] = {
+						"SHIFT-F3", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON2"] = {
+						"NUMPAD2", -- [1]
+					},
+					["TARGETPARTYPET4"] = {
+						"SHIFT-F5", -- [1]
+					},
+					["PETATTACK"] = {
+						"SHIFT-T", -- [1]
+					},
+					["TOGGLESHEATH"] = {
+						"Z", -- [1]
+					},
+					["BONUSACTIONBUTTON6"] = {
+						"CTRL-6", -- [1]
+					},
+					["ACTIONBUTTON6"] = {
+						"6", -- [1]
+					},
+					["TARGETPARTYMEMBER4"] = {
+						"F5", -- [1]
+					},
+					["ACTIONBUTTON9"] = {
+						"9", -- [1]
+					},
+					["TOGGLEWORLDSTATESCORES"] = {
+						"SHIFT-SPACE", -- [1]
+					},
+					["ACTIONBUTTON11"] = {
+						"-", -- [1]
+					},
+					["MULTIACTIONBAR1BUTTON1"] = {
+						"NUMPAD1", -- [1]
+					},
+				},
+			},
+		},
+	},
+}

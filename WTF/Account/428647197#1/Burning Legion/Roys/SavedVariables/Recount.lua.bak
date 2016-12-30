@@ -1,0 +1,6961 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Redus"] = {
+			["GUID"] = "Player-3713-071CB8A4",
+			["LastEventHealth"] = {
+				"318540 (100%)", -- [1]
+				"318540 (100%)", -- [2]
+				"318540 (100%)", -- [3]
+				"318540 (100%)", -- [4]
+				"318540 (100%)", -- [5]
+				"318540 (100%)", -- [6]
+				"318540 (100%)", -- [7]
+				"318540 (100%)", -- [8]
+				"318540 (100%)", -- [9]
+				"318540 (100%)", -- [10]
+				"318540 (100%)", -- [11]
+				"318540 (100%)", -- [12]
+				"318540 (100%)", -- [13]
+				"318540 (100%)", -- [14]
+				"318540 (100%)", -- [15]
+				"318540 (100%)", -- [16]
+				"318540 (100%)", -- [17]
+				"318540 (100%)", -- [18]
+				"318540 (100%)", -- [19]
+				"318540 (100%)", -- [20]
+				"318540 (100%)", -- [21]
+				"318540 (100%)", -- [22]
+				"318540 (100%)", -- [23]
+				"318540 (100%)", -- [24]
+				"318540 (100%)", -- [25]
+				"318540 (100%)", -- [26]
+				"318540 (100%)", -- [27]
+				"318540 (100%)", -- [28]
+				"318540 (100%)", -- [29]
+				"318540 (100%)", -- [30]
+				"318540 (100%)", -- [31]
+				"318540 (100%)", -- [32]
+				"318540 (100%)", -- [33]
+				"318540 (100%)", -- [34]
+				"318540 (100%)", -- [35]
+				"318540 (100%)", -- [36]
+				"318540 (100%)", -- [37]
+				"318540 (100%)", -- [38]
+				"318540 (100%)", -- [39]
+				"318540 (100%)", -- [40]
+				"318540 (100%)", -- [41]
+				"318540 (100%)", -- [42]
+				"318540 (100%)", -- [43]
+				"318540 (100%)", -- [44]
+				"318540 (100%)", -- [45]
+				"318540 (100%)", -- [46]
+				"318540 (100%)", -- [47]
+				"318540 (100%)", -- [48]
+				"318540 (100%)", -- [49]
+				"318540 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Blisterpaw Hyena",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"HEAL", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"HEAL", -- [8]
+				"DAMAGE", -- [9]
+				"HEAL", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"HEAL", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"HEAL", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"DAMAGE", -- [38]
+				"HEAL", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"HEAL", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"HEAL", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0.25, -- [1]
+				},
+				["Healing"] = {
+					2, -- [1]
+				},
+				["DamageTaken"] = {
+					2, -- [1]
+				},
+				["HealingTaken"] = {
+					2, -- [1]
+				},
+				["Overhealing"] = {
+					305882, -- [1]
+				},
+				["ActiveTime"] = {
+					267.45, -- [1]
+				},
+				["TimeDamage"] = {
+					267.2, -- [1]
+				},
+				["DOT_Time"] = {
+					294, -- [1]
+				},
+				["Damage"] = {
+					12745201, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = true,
+			["level"] = 100,
+			["LastDamageAbility"] = "Leaping Bite",
+			["LastFightIn"] = 32,
+			["LastEventNum"] = {
+				0.751867897281346, -- [1]
+				[15] = 0.781377535003453,
+				[30] = 0.781063602687261,
+				[4] = 0.350976329503359,
+				[8] = 0.676838073711308,
+				[45] = 3.16318201795693,
+				[33] = 0.809003578828405,
+				[35] = 0.809317511144597,
+				[10] = 0.376090914798769,
+				[39] = 0.836943554969549,
+				[21] = 0.39053180134363,
+				[23] = 0.376718779431155,
+				[12] = 0.338419036855654,
+				[48] = 0.338419036855654,
+				[25] = 0.338732969171847,
+				[28] = 0.363533622151064,
+				[37] = 0.809317511144597,
+				[18] = 0.836943554969549,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 2,
+			["TimeLast"] = {
+				["TimeHeal"] = 45688.398,
+				["OVERALL"] = 46412.433,
+				["DamageTaken"] = 45688.398,
+				["HealingTaken"] = 45688.398,
+				["Overhealing"] = 46412.433,
+				["TimeDamage"] = 46412.433,
+				["Healing"] = 45688.398,
+				["ActiveTime"] = 46412.433,
+				["DOT_Time"] = 46412.433,
+				["Damage"] = 46412.433,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 46413.172,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Redus Leech Redus Hit +2395 (2395 overheal)", -- [1]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [2]
+				"Redus Living Bomb (DoT) Sandfury Zombie Tick -46585 (Fire)", -- [3]
+				"Redus Leech Redus Hit +1118 (1118 overheal)", -- [4]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [5]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [6]
+				"Redus Living Bomb (DoT) Sandfury Zombie Crit -89841 (Fire)", -- [7]
+				"Redus Leech Redus Hit +2156 (2156 overheal)", -- [8]
+				"Redus Living Bomb (DoT) Sandfury Zombie Tick -49912 (Fire)", -- [9]
+				"Redus Leech Redus Hit +1198 (1198 overheal)", -- [10]
+				"Redus Living Bomb (DoT) Sandfury Firecaller Tick -44921 (Fire)", -- [11]
+				"Redus Leech Redus Hit +1078 (1078 overheal)", -- [12]
+				"Sandfury Axe Thrower Throw Redus Miss (Physical)", -- [13]
+				"Redus Living Bomb (DoT) Sandfury Axe Thrower Crit -103695 (Fire)", -- [14]
+				"Redus Leech Redus Hit +2489 (2489 overheal)", -- [15]
+				"Sandfury Firecaller Melee Redus Miss (1)", -- [16]
+				"Redus Living Bomb (DoT) Sandfury Firecaller Crit -111102 (Fire)", -- [17]
+				"Redus Leech Redus Hit +2666 (2666 overheal)", -- [18]
+				"Sandfury Firecaller Melee Redus Miss (1)", -- [19]
+				"Redus Living Bomb (DoT) Sandfury Firecaller Tick -51848 (Fire)", -- [20]
+				"Redus Leech Redus Hit +1244 (1244 overheal)", -- [21]
+				"Redus Living Bomb (DoT) Sandfury Hideskinner Tick -49995 (Fire)", -- [22]
+				"Redus Leech Redus Hit +1200 (1200 overheal)", -- [23]
+				"Redus Living Bomb (DoT) Sandfury Firecaller Tick -44921 (Fire)", -- [24]
+				"Redus Leech Redus Hit +1079 (1079 overheal)", -- [25]
+				"Sandfury Axe Thrower Throw Redus Miss (Physical)", -- [26]
+				"Redus Living Bomb (DoT) Sandfury Axe Thrower Tick -48248 (Fire)", -- [27]
+				"Redus Leech Redus Hit +1158 (1158 overheal)", -- [28]
+				"Redus Living Bomb (DoT) Gusting Vortex Crit -103694 (Fire)", -- [29]
+				"Redus Leech Redus Hit +2488 (2488 overheal)", -- [30]
+				"Gusting Vortex Melee Redus Miss (1)", -- [31]
+				"Redus Living Bomb (DoT) Gusting Vortex Crit -107399 (Fire)", -- [32]
+				"Redus Leech Redus Hit +2577 (2577 overheal)", -- [33]
+				"Redus Living Bomb (DoT) Zakkaru Crit -107398 (Fire)", -- [34]
+				"Redus Leech Redus Hit +2578 (2578 overheal)", -- [35]
+				"Redus Living Bomb (DoT) Sandfury Zombie Crit -107398 (Fire)", -- [36]
+				"Redus Leech Redus Hit +2578 (2578 overheal)", -- [37]
+				"Redus Living Bomb (DoT) Sandfury Zombie Crit -111102 (Fire)", -- [38]
+				"Redus Leech Redus Hit +2666 (2666 overheal)", -- [39]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [40]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [41]
+				"Redus Living Bomb (DoT) Sandfury Zombie Crit -99991 (Fire)", -- [42]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [43]
+				"Redus Living Bomb Sandfury Zombie Crit -319850 (Fire)", -- [44]
+				"Redus Leech Redus Hit +10076 (10076 overheal)", -- [45]
+				"Redus Living Bomb (DoT) Sandfury Zombie Tick -44921 (Fire)", -- [46]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [47]
+				"Redus Leech Redus Hit +1078 (1078 overheal)", -- [48]
+				"Sandfury Zombie Melee Redus Miss (1)", -- [49]
+				"Redus Living Bomb (DoT) Sandfury Zombie Crit -99824 (Fire)", -- [50]
+			},
+			["Name"] = "Redus",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				46381.876, -- [1]
+				46382.64, -- [2]
+				46383.623, -- [3]
+				46383.823, -- [4]
+				46393.974, -- [5]
+				46396.069, -- [6]
+				46396.192, -- [7]
+				46396.376, -- [8]
+				46413.172, -- [9]
+				46413.419, -- [10]
+				45841.554, -- [11]
+				45841.854, -- [12]
+				45863.291, -- [13]
+				45864.332, -- [14]
+				45864.578, -- [15]
+				45864.886, -- [16]
+				45865.629, -- [17]
+				45865.753, -- [18]
+				45867.426, -- [19]
+				45868.587, -- [20]
+				45868.987, -- [21]
+				45870.187, -- [22]
+				45870.587, -- [23]
+				45884.371, -- [24]
+				45884.771, -- [25]
+				45885.404, -- [26]
+				45885.754, -- [27]
+				45885.987, -- [28]
+				46142.505, -- [29]
+				46142.639, -- [30]
+				46185.619, -- [31]
+				46186.239, -- [32]
+				46186.301, -- [33]
+				46191.439, -- [34]
+				46191.639, -- [35]
+				46354.833, -- [36]
+				46355.141, -- [37]
+				46357.421, -- [38]
+				46357.544, -- [39]
+				46358.711, -- [40]
+				46361.22, -- [41]
+				46361.953, -- [42]
+				46361.953, -- [43]
+				46361.953, -- [44]
+				46361.953, -- [45]
+				46378.202, -- [46]
+				46378.507, -- [47]
+				46378.507, -- [48]
+				46380.592, -- [49]
+				46381.509, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Cursed Ooze"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 6,
+								},
+								["Deadwood Warrior"] = {
+									["count"] = 0,
+								},
+								["Gargantapid"] = {
+									["count"] = 0,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 0,
+								},
+								["Sandfury Hideskinner"] = {
+									["count"] = 0,
+								},
+								["Felpaw Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 6,
+					["Damage"] = 218500,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 218500,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 218500,
+								},
+							},
+							["amount"] = 218500,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2666,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 5244,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 5244,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 5244,
+					["TimeSpent"] = {
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 6.09,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 6.09,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 111102,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 218500,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 218500,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6.09,
+					["TimeDamaging"] = {
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 6.09,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Sandfury Firecaller"] = {
+									["count"] = 0,
+								},
+								["Deadwood Gardener"] = {
+									["count"] = 0,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 0,
+								},
+								["Jadefire Felsworn"] = {
+									["count"] = 0,
+								},
+								["Sandfury Hideskinner"] = {
+									["count"] = 0,
+								},
+								["Jadefire Satyr"] = {
+									["count"] = 0,
+								},
+								["Deadwood Warrior"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 3,
+								},
+								["Basking Cobra"] = {
+									["count"] = 0,
+								},
+								["Felpaw Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 89841,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 89841,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 89841,
+								},
+							},
+							["amount"] = 89841,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2156,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2156,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2156,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 2156,
+					["TimeSpent"] = {
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 89841,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 89841,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 89841,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Cursed Ooze"] = {
+									["count"] = 0,
+								},
+								["Gusting Vortex"] = {
+									["count"] = 0,
+								},
+								["Blisterpaw Hyena"] = {
+									["count"] = 0,
+								},
+								["Duneclaw Lasher"] = {
+									["count"] = 0,
+								},
+								["Zakkaru"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Leaping Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Leaping Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Leaping Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2395,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 4591,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 4591,
+						},
+					},
+					["Overhealing"] = 4591,
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Sandfury Firecaller"] = {
+									["count"] = 0,
+								},
+								["Deadwood Gardener"] = {
+									["count"] = 0,
+								},
+								["Jadefire Felsworn"] = {
+									["count"] = 0,
+								},
+								["Sandfury Hideskinner"] = {
+									["count"] = 0,
+								},
+								["Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Jadefire Satyr"] = {
+									["count"] = 0,
+								},
+								["Deadwood Warrior"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 9,
+								},
+								["Duneclaw Lasher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 191330,
+								},
+							},
+							["amount"] = 191330,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 8.92,
+								},
+							},
+							["amount"] = 8.92,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 191330,
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 99824,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 99824,
+								},
+								["Tick"] = {
+									["max"] = 46585,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 91506,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 191330,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 8.92,
+					["TimeDamaging"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 8.92,
+								},
+							},
+							["amount"] = 8.92,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 8.92,
+					["DOT_Time"] = 9,
+					["Damage"] = 191330,
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Duneclaw Lasher"] = {
+									["count"] = 0,
+								},
+								["Deadwood Gardener"] = {
+									["count"] = 0,
+								},
+								["Angerclaw Bear"] = {
+									["count"] = 0,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 0,
+								},
+								["Cursed Ooze"] = {
+									["count"] = 0,
+								},
+								["Deadwood Pathfinder"] = {
+									["count"] = 0,
+								},
+								["Deadwood Warrior"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 3,
+								},
+								["Sandfury Hideskinner"] = {
+									["count"] = 0,
+								},
+								["Sandfury Firecaller"] = {
+									["count"] = 0,
+								},
+								["Felpaw Wolf"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 419841,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 419841,
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 99991,
+								},
+								["Living Bomb"] = {
+									["count"] = 319850,
+								},
+							},
+							["amount"] = 419841,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10076,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 10076,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10076,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 10076,
+					["TimeSpent"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 99991,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 99991,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 99991,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 319850,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 319850,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 319850,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Sandfury Firecaller"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 3,
+								},
+								["Duneclaw Lasher"] = {
+									["count"] = 0,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 0,
+								},
+								["Impsy"] = {
+									["count"] = 0,
+								},
+								["Duneclaw Matriarch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 49912,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 49912,
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 49912,
+								},
+							},
+							["amount"] = 49912,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1198,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1198,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1198,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 1198,
+					["TimeSpent"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 49912,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 49912,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 49912,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Sandfury Firecaller"] = {
+									["count"] = 0,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 3,
+								},
+								["Duneclaw Lasher"] = {
+									["count"] = 0,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 0,
+								},
+								["Impsy"] = {
+									["count"] = 0,
+								},
+								["Duneclaw Matriarch"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 3,
+					["Damage"] = 49912,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 49912,
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 49912,
+								},
+							},
+							["amount"] = 49912,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1198,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 1198,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1198,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 1198,
+					["TimeSpent"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 49912,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 49912,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 49912,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+					},
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Duneclaw Lasher"] = {
+									["count"] = 36,
+								},
+								["Gusting Vortex"] = {
+									["count"] = 6,
+								},
+								["Duneclaw Matriarch"] = {
+									["count"] = 3,
+								},
+								["Sandfury Hideskinner"] = {
+									["count"] = 12,
+								},
+								["Jadefire Satyr"] = {
+									["count"] = 18,
+								},
+								["Deadwood Warrior"] = {
+									["count"] = 30,
+								},
+								["Impsy"] = {
+									["count"] = 15,
+								},
+								["Deadwood Gardener"] = {
+									["count"] = 15,
+								},
+								["Angerclaw Bear"] = {
+									["count"] = 9,
+								},
+								["Blisterpaw Hyena"] = {
+									["count"] = 3,
+								},
+								["Gargantapid"] = {
+									["count"] = 3,
+								},
+								["Sandfury Axe Thrower"] = {
+									["count"] = 12,
+								},
+								["Jadefire Felsworn"] = {
+									["count"] = 18,
+								},
+								["Cursed Ooze"] = {
+									["count"] = 24,
+								},
+								["Deadwood Pathfinder"] = {
+									["count"] = 9,
+								},
+								["Sandfury Zombie"] = {
+									["count"] = 24,
+								},
+								["Zakkaru"] = {
+									["count"] = 3,
+								},
+								["Sandfury Firecaller"] = {
+									["count"] = 15,
+								},
+								["Mottled Boar"] = {
+									["count"] = 15,
+								},
+								["Basking Cobra"] = {
+									["count"] = 3,
+								},
+								["Felpaw Wolf"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 294,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 2,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 34,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Leaping Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Leaping Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 267.45,
+					["ElementTaken"] = {
+						["Physical"] = 2,
+					},
+					["DOT_Time"] = 294,
+					["Damage"] = 12745201,
+					["Overhealing"] = 305882,
+					["TimeHeal"] = 0.25,
+					["WhoHealed"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["HealedWho"] = {
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2,
+						},
+					},
+					["Healing"] = 2,
+					["WhoDamaged"] = {
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Leaping Bite"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26370,
+									["min"] = 1038,
+									["count"] = 97,
+									["amount"] = 305882,
+								},
+							},
+							["count"] = 97,
+							["amount"] = 305882,
+						},
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 15888,
+									["min"] = 15888,
+									["count"] = 1,
+									["amount"] = 15888,
+								},
+								["Crit"] = {
+									["max"] = 122212,
+									["min"] = 83187,
+									["count"] = 45,
+									["amount"] = 4553248,
+								},
+								["Tick"] = {
+									["max"] = 55551,
+									["min"] = 43257,
+									["count"] = 52,
+									["amount"] = 2552689,
+								},
+							},
+							["count"] = 98,
+							["amount"] = 7121825,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 331697,
+									["min"] = 308005,
+									["count"] = 12,
+									["amount"] = 3861352,
+								},
+								["Hit"] = {
+									["max"] = 188949,
+									["min"] = 143685,
+									["count"] = 11,
+									["amount"] = 1762024,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 5623376,
+						},
+					},
+					["HealingTaken"] = 2,
+					["DamagedWho"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 920302,
+								},
+							},
+							["amount"] = 920302,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 616010,
+								},
+							},
+							["amount"] = 616010,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 1422538,
+								},
+							},
+							["amount"] = 1422538,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 159651,
+								},
+							},
+							["amount"] = 159651,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 48144,
+								},
+							},
+							["amount"] = 48144,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 281253,
+								},
+							},
+							["amount"] = 281253,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 538985,
+								},
+								["Living Bomb"] = {
+									["count"] = 188949,
+								},
+							},
+							["amount"] = 727934,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 684776,
+								},
+								["Living Bomb"] = {
+									["count"] = 171771,
+								},
+							},
+							["amount"] = 856547,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 154329,
+								},
+							},
+							["amount"] = 154329,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 460567,
+								},
+							},
+							["amount"] = 460567,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 649574,
+								},
+								["Living Bomb"] = {
+									["count"] = 319850,
+								},
+							},
+							["amount"] = 969424,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 107398,
+								},
+							},
+							["amount"] = 107398,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 1634792,
+								},
+							},
+							["amount"] = 1634792,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 219612,
+								},
+							},
+							["amount"] = 219612,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 44920,
+								},
+							},
+							["amount"] = 44920,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 48248,
+								},
+							},
+							["amount"] = 48248,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 298351,
+								},
+							},
+							["amount"] = 298351,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 412317,
+								},
+							},
+							["amount"] = 412317,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 211093,
+								},
+							},
+							["amount"] = 211093,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 554156,
+								},
+							},
+							["amount"] = 554156,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 151859,
+								},
+							},
+							["amount"] = 151859,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 342634,
+								},
+							},
+							["amount"] = 342634,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 143686,
+								},
+							},
+							["amount"] = 143686,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 302223,
+								},
+							},
+							["amount"] = 302223,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 346391,
+								},
+								["Living Bomb"] = {
+									["count"] = 811800,
+								},
+							},
+							["amount"] = 1158191,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 96496,
+								},
+							},
+							["amount"] = 96496,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 402526,
+								},
+							},
+							["amount"] = 402526,
+						},
+					},
+					["TimeDamage"] = 267.2,
+					["TimeDamaging"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 33.79,
+								},
+							},
+							["amount"] = 33.79,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 10.02,
+								},
+							},
+							["amount"] = 10.02,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 15.29,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.29,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 28.61,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 28.61,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.06,
+								},
+							},
+							["amount"] = 0.06,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 25.51,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 25.51,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 9.13,
+								},
+							},
+							["amount"] = 9.13,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 13.15,
+								},
+							},
+							["amount"] = 13.15,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19.65,
+								},
+							},
+							["amount"] = 19.65,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 6.09,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 14.08,
+								},
+							},
+							["amount"] = 14.08,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 13.48,
+								},
+							},
+							["amount"] = 13.48,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 11.48,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 11.48,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 20.86,
+								},
+							},
+							["amount"] = 20.86,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 52,
+								},
+								["Multistrike"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 57,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 121,
+						},
+					},
+					["TimeSpent"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 33.79,
+								},
+							},
+							["amount"] = 33.79,
+						},
+						["Duneclaw Broodling"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tainted Rat"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Redus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+						["Tainted Moth"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duneclaw Matriarch"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Hideskinner"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 10.02,
+								},
+							},
+							["amount"] = 10.02,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 15.29,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.29,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 28.61,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 28.61,
+						},
+						["Stripe-Tailed Scorpid"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.06,
+								},
+							},
+							["amount"] = 0.06,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 25.51,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 25.51,
+						},
+						["Zakkaru"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Tainted Cockroach"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Angerclaw Bear"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 10.5,
+						},
+						["Blisterpaw Hyena"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Gargantapid"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sandfury Axe Thrower"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 9.13,
+								},
+							},
+							["amount"] = 9.13,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 13.15,
+								},
+							},
+							["amount"] = 13.15,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Cursed Ooze"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19.65,
+								},
+							},
+							["amount"] = 19.65,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 6.09,
+						},
+						["Sandfury Firecaller"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 14.08,
+								},
+							},
+							["amount"] = 14.08,
+						},
+						["Rattlesnake"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deadwood Gardener"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 13.48,
+								},
+							},
+							["amount"] = 13.48,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 11.48,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 11.48,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 20.86,
+								},
+							},
+							["amount"] = 20.86,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 12745201,
+					},
+				},
+			},
+			["UnitLockout"] = 45585.377,
+			["LastActive"] = 46412.433,
+		},
+		["Roys"] = {
+			["GUID"] = "Player-3713-0821CF58",
+			["LastEventHealth"] = {
+				"6583 (100%)", -- [1]
+				"6362 (96%)", -- [2]
+				"6362 (96%)", -- [3]
+				"6183 (93%)", -- [4]
+				"6184 (93%)", -- [5]
+				"6184 (93%)", -- [6]
+				"6184 (93%)", -- [7]
+				"6448 (97%)", -- [8]
+				"6583 (100%)", -- [9]
+				"6256 (91%)", -- [10]
+				"6670 (97%)", -- [11]
+				"6870 (100%)", -- [12]
+				"6870 (100%)", -- [13]
+				"6870 (100%)", -- [14]
+				"6870 (100%)", -- [15]
+				"6870 (100%)", -- [16]
+				"6810 (100%)", -- [17]
+				"6810 (100%)", -- [18]
+				"6810 (100%)", -- [19]
+				"6810 (100%)", -- [20]
+				"6810 (100%)", -- [21]
+				"6810 (100%)", -- [22]
+				"6575 (96%)", -- [23]
+				"6644 (97%)", -- [24]
+				"6810 (100%)", -- [25]
+				"6593 (96%)", -- [26]
+				"6649 (97%)", -- [27]
+				"6810 (100%)", -- [28]
+				"6810 (100%)", -- [29]
+				"6647 (97%)", -- [30]
+				"6700 (98%)", -- [31]
+				"6700 (98%)", -- [32]
+				"6810 (100%)", -- [33]
+				"7020 (100%)", -- [34]
+				"7290 (100%)", -- [35]
+				"7320 (100%)", -- [36]
+				"7320 (100%)", -- [37]
+				"7320 (100%)", -- [38]
+				"7320 (100%)", -- [39]
+				"6583 (100%)", -- [40]
+				"6583 (100%)", -- [41]
+				"6583 (100%)", -- [42]
+				"6528 (99%)", -- [43]
+				"6267 (95%)", -- [44]
+				"6583 (100%)", -- [45]
+				"6583 (100%)", -- [46]
+				"6583 (100%)", -- [47]
+				"6583 (100%)", -- [48]
+				"6583 (100%)", -- [49]
+				"6583 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Sandfury Zombie",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"DAMAGE", -- [18]
+				"HEAL", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"DAMAGE", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					5249, -- [1]
+				},
+				["TimeHeal"] = {
+					86.7, -- [1]
+				},
+				["Overhealing"] = {
+					648, -- [1]
+				},
+				["ActiveTime"] = {
+					95.32, -- [1]
+				},
+				["TimeDamage"] = {
+					8.62, -- [1]
+				},
+				["Healing"] = {
+					5249, -- [1]
+				},
+				["DamageTaken"] = {
+					13635, -- [1]
+				},
+				["Damage"] = {
+					741, -- [1]
+				},
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Roys",
+			["level"] = 44,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 32,
+			["LastEventNum"] = {
+				3.35713200668388, -- [1]
+				nil, -- [2]
+				2.7191250189883, -- [3]
+				3.99513899437946, -- [4]
+				4.01032963694364, -- [5]
+				nil, -- [6]
+				nil, -- [7]
+				4.01032963694364, -- [8]
+				3.99513899437946, -- [9]
+				8.93740902474527, -- [10]
+				4.00291120815138, -- [11]
+				4.00291120815138, -- [12]
+				3.26055312954876, -- [13]
+				3.98835516739447, -- [14]
+				3.20232896652111, -- [15]
+				4.00291120815138, -- [16]
+				3.99412628487518, -- [17]
+				3.03964757709251, -- [18]
+				4.00881057268722, -- [19]
+				3.1424375917768, -- [20]
+				4.00881057268722, -- [21]
+				3.45080763582966, -- [22]
+				2.98091042584435, -- [23]
+				3.99412628487518, -- [24]
+				3.18649045521292, -- [25]
+				3.17180616740088, -- [26]
+				3.99412628487518, -- [27]
+				3.99412628487518, -- [28]
+				2.3935389133627, -- [29]
+				3.23054331864905, -- [30]
+				4.00881057268722, -- [31]
+				2.95154185022026, -- [32]
+				3.99412628487518, -- [33]
+				4.002849002849, -- [34]
+				4.00548696844993, -- [35]
+				4.00273224043716, -- [36]
+				4.00273224043716, -- [37]
+				[43] = 4.01032963694364,
+				[44] = 4.01032963694364,
+				[45] = 4.01032963694364,
+				[49] = 3.28117879386298,
+				[50] = 4.01032963694364,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 46411.632,
+			["LastDamageTaken"] = 201,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["TimeHeal"] = 46411.385,
+				["Healing"] = 46411.385,
+				["DamageTaken"] = 46411.385,
+				["HealingTaken"] = 46411.385,
+				["Overhealing"] = 46381.387,
+				["ActiveTime"] = 46411.385,
+				["OVERALL"] = 46411.385,
+				["TimeDamage"] = 44575.515,
+				["Damage"] = 44575.515,
+			},
+			["NextEventNum"] = 40,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				96.6428679933161, -- [2]
+				96.6428679933161, -- [3]
+				93.9237429743278, -- [4]
+				93.938933616892, -- [5]
+				93.938933616892, -- [6]
+				93.938933616892, -- [7]
+				97.9492632538356, -- [8]
+				100, -- [9]
+				91.0625909752547, -- [10]
+				97.0887918486172, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				96.5491923641704, -- [23]
+				97.5624082232012, -- [24]
+				100, -- [25]
+				96.8135095447871, -- [26]
+				97.6358296622614, -- [27]
+				100, -- [28]
+				100, -- [29]
+				97.6064610866373, -- [30]
+				98.3847283406755, -- [31]
+				98.3847283406755, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				99.1645146589701, -- [43]
+				95.199756949719, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Impsy Melee Roys Hit -221 (Physical)", -- [1]
+				"Roys Melee Impsy Hit -151 (Physical)", -- [2]
+				"Impsy Melee Roys Hit -179 (Physical)", -- [3]
+				"Impsy Melee Roys Hit -263 (Physical)", -- [4]
+				"Roys Ysera's Gift Roys Hit +264", -- [5]
+				"Roys Melee Impsy Hit -146 (Physical)", -- [6]
+				"Roys Melee Impsy Hit -151 (Physical)", -- [7]
+				"Roys Ysera's Gift Roys Hit +264", -- [8]
+				"Roys Ysera's Gift Roys Hit +263 (194 overheal)", -- [9]
+				"Environment Falling Roys Hit -614 (Physical)", -- [10]
+				"Roys Ysera's Gift Roys Hit +275", -- [11]
+				"Roys Ysera's Gift Roys Hit +275 (214 overheal)", -- [12]
+				"Duneclaw Lasher Melee Roys Hit -224 (Physical)", -- [13]
+				"Roys Ysera's Gift Roys Hit +274 (50 overheal)", -- [14]
+				"Basking Cobra Melee Roys Hit -220 (Physical)", -- [15]
+				"Roys Ysera's Gift Roys Hit +275 (55 overheal)", -- [16]
+				"Roys Ysera's Gift Roys Hit +272 (62 overheal)", -- [17]
+				"Gusting Vortex Melee Roys Hit -207 (Physical)", -- [18]
+				"Roys Ysera's Gift Roys Hit +273 (66 overheal)", -- [19]
+				"Sandfury Zombie Melee Roys Hit -214 (Physical)", -- [20]
+				"Roys Ysera's Gift Roys Hit +273 (59 overheal)", -- [21]
+				"Sandfury Zombie Melee Roys Hit -235 (Physical)", -- [22]
+				"Sandfury Zombie Melee Roys Hit -203 (Physical)", -- [23]
+				"Roys Ysera's Gift Roys Hit +272", -- [24]
+				"Sandfury Zombie Melee Roys Hit -217 (Physical)", -- [25]
+				"Sandfury Zombie Melee Roys Hit -216 (Physical)", -- [26]
+				"Roys Ysera's Gift Roys Hit +272", -- [27]
+				"Roys Ysera's Gift Roys Hit +272 (249 overheal)", -- [28]
+				"Sandfury Zombie Melee Roys Hit -163 (Physical)", -- [29]
+				"Sandfury Zombie Melee Roys Hit -220 (Physical)", -- [30]
+				"Roys Ysera's Gift Roys Hit +273", -- [31]
+				"Sandfury Zombie Melee Roys Hit -201 (Physical)", -- [32]
+				"Roys Ysera's Gift Roys Hit +272 (30 overheal)", -- [33]
+				"Roys Ysera's Gift Roys Hit +281 (71 overheal)", -- [34]
+				"Roys Ysera's Gift Roys Hit +292 (169 overheal)", -- [35]
+				"Roys Ysera's Gift Roys Hit +293 (53 overheal)", -- [36]
+				"Roys Ysera's Gift Roys Hit +293 (217 overheal)", -- [37]
+				"Roys Ysera's Gift Bufko-TarrenMill Hit +293 (155 overheal)", -- [38]
+				"Roys Ysera's Gift Bufko-TarrenMill Hit +292 (106 overheal)", -- [39]
+				"Roys Ysera's Gift Sardrim Hit +263", -- [40]
+				"Roys Ysera's Gift Cutthegrace-Xavius Hit +263", -- [41]
+				"Roys Ysera's Gift Gamata-Xavius Hit +263 (68 overheal)", -- [42]
+				"Roys Ysera's Gift Roys Hit +264", -- [43]
+				"Roys Ysera's Gift Roys Hit +264", -- [44]
+				"Roys Ysera's Gift Roys Hit +264 (81 overheal)", -- [45]
+				"Roys Ysera's Gift Femus Hit +263 (3 overheal)", -- [46]
+				"Roys Ysera's Gift Femus Hit +263 (30 overheal)", -- [47]
+				"Roys Melee Impsy Crit -293 (Physical)", -- [48]
+				"Impsy Melee Roys Hit -216 (Physical)", -- [49]
+				"Roys Ysera's Gift Roys Hit +264 (48 overheal)", -- [50]
+			},
+			["Name"] = "Roys",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				44568.049, -- [1]
+				44569.239, -- [2]
+				44570.044, -- [3]
+				44572.079, -- [4]
+				44572.448, -- [5]
+				44572.448, -- [6]
+				44575.782, -- [7]
+				44577.399, -- [8]
+				44582.465, -- [9]
+				44821.483, -- [10]
+				44824.783, -- [11]
+				44829.783, -- [12]
+				45584.819, -- [13]
+				45586.616, -- [14]
+				45629.258, -- [15]
+				45631.604, -- [16]
+				45776.604, -- [17]
+				46141.207, -- [18]
+				46141.622, -- [19]
+				46349.94, -- [20]
+				46351.63, -- [21]
+				46352.002, -- [22]
+				46353.973, -- [23]
+				46356.621, -- [24]
+				46373.74, -- [25]
+				46375.746, -- [26]
+				46376.546, -- [27]
+				46381.632, -- [28]
+				46407.723, -- [29]
+				46409.781, -- [30]
+				46411.632, -- [31]
+				46411.755, -- [32]
+				46416.615, -- [33]
+				46566.607, -- [34]
+				46581.624, -- [35]
+				46596.607, -- [36]
+				46611.557, -- [37]
+				46726.624, -- [38]
+				46741.608, -- [39]
+				43927.449, -- [40]
+				43967.446, -- [41]
+				43972.413, -- [42]
+				43982.446, -- [43]
+				43987.413, -- [44]
+				43992.398, -- [45]
+				44217.381, -- [46]
+				44222.431, -- [47]
+				44566.082, -- [48]
+				44566.082, -- [49]
+				44567.449, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 652,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 652,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 7,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 652,
+								},
+							},
+							["amount"] = 652,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["OverHeals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 59,
+									["min"] = 59,
+									["count"] = 1,
+									["amount"] = 59,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 59,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 486,
+								},
+							},
+							["amount"] = 486,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 59,
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 272,
+									["min"] = 214,
+									["count"] = 2,
+									["amount"] = 486,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 486,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 486,
+								},
+							},
+							["amount"] = 486,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7,
+					["Healing"] = 486,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 486,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 433,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 433,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 7,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 433,
+								},
+							},
+							["amount"] = 433,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["OverHeals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 249,
+									["min"] = 249,
+									["count"] = 1,
+									["amount"] = 249,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 249,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 249,
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 272,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 295,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 295,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7,
+					["Healing"] = 295,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 295,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 584,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 584,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 584,
+								},
+							},
+							["amount"] = 584,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 273,
+								},
+							},
+							["amount"] = 273,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 273,
+									["min"] = 273,
+									["count"] = 1,
+									["amount"] = 273,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 273,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 273,
+								},
+							},
+							["amount"] = 273,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 273,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 273,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 584,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 584,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 3.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 584,
+								},
+							},
+							["amount"] = 584,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 273,
+								},
+							},
+							["amount"] = 273,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 273,
+									["min"] = 273,
+									["count"] = 1,
+									["amount"] = 273,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 273,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 273,
+								},
+							},
+							["amount"] = 273,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 273,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 273,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 86.7,
+								},
+							},
+							["amount"] = 86.7,
+						},
+					},
+					["OverHeals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 249,
+									["min"] = 48,
+									["count"] = 7,
+									["amount"] = 648,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 648,
+						},
+					},
+					["TimeSpent"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 86.7,
+								},
+							},
+							["amount"] = 86.7,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.62,
+								},
+							},
+							["amount"] = 8.62,
+						},
+					},
+					["DamageTaken"] = 13635,
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 34,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Bees! BEES! (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 59,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 59,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bees! BEES! (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 59,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 59,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 95.32,
+					["ElementTaken"] = {
+						["Shadow"] = 1056,
+						["Physical"] = 5368,
+						["Melee"] = 7190,
+						["Fire"] = 21,
+					},
+					["Damage"] = 741,
+					["Heals"] = {
+						["Ysera's Gift"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 273,
+									["min"] = 23,
+									["count"] = 26,
+									["amount"] = 5249,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 5249,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["Overhealing"] = 648,
+					["ElementDone"] = {
+						["Melee"] = 741,
+					},
+					["Healing"] = 5249,
+					["TimeHeal"] = 86.7,
+					["TimeDamaging"] = {
+						["Impsy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.62,
+								},
+							},
+							["amount"] = 8.62,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 293,
+									["min"] = 293,
+									["count"] = 1,
+									["amount"] = 293,
+								},
+								["Hit"] = {
+									["max"] = 151,
+									["min"] = 146,
+									["count"] = 3,
+									["amount"] = 448,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 741,
+						},
+					},
+					["HealingTaken"] = 5249,
+					["DamagedWho"] = {
+						["Impsy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 741,
+								},
+							},
+							["amount"] = 741,
+						},
+					},
+					["TimeDamage"] = 8.62,
+					["WhoDamaged"] = {
+						["Duneclaw Lasher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 224,
+								},
+							},
+							["amount"] = 224,
+						},
+						["Gusting Vortex"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 207,
+								},
+							},
+							["amount"] = 207,
+						},
+						["Jadefire Felsworn"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 1056,
+								},
+							},
+							["amount"] = 1056,
+						},
+						["Sandfury Zombie"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1669,
+								},
+							},
+							["amount"] = 1669,
+						},
+						["No One"] = {
+							["Details"] = {
+								["Bees! BEES! (DoT)"] = {
+									["count"] = 3708,
+								},
+							},
+							["amount"] = 3708,
+						},
+						["Deadwood Pathfinder"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 804,
+								},
+								["Melee"] = {
+									["count"] = 610,
+								},
+							},
+							["amount"] = 1414,
+						},
+						["Jadefire Satyr"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 248,
+								},
+							},
+							["amount"] = 248,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 614,
+								},
+								["Fire"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 635,
+						},
+						["Basking Cobra"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 220,
+								},
+							},
+							["amount"] = 220,
+						},
+						["Deadwood Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2956,
+								},
+								["Strike"] = {
+									["count"] = 242,
+								},
+							},
+							["amount"] = 3198,
+						},
+						["Impsy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 879,
+								},
+							},
+							["amount"] = 879,
+						},
+						["Felpaw Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 177,
+								},
+							},
+							["amount"] = 177,
+						},
+					},
+					["WhoHealed"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 5249,
+								},
+							},
+							["amount"] = 5249,
+						},
+					},
+					["HealedWho"] = {
+						["Roys"] = {
+							["Details"] = {
+								["Ysera's Gift"] = {
+									["count"] = 5249,
+								},
+							},
+							["amount"] = 5249,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 59,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 42487.102,
+			["LastActive"] = 46741.375,
+		},
+	},
+	["FightNum"] = 33,
+	["CombatTimes"] = {
+		{
+			42509.134, -- [1]
+			42522.141, -- [2]
+			"01:31:06", -- [3]
+			"01:31:18", -- [4]
+			"Mottled Boar", -- [5]
+		}, -- [1]
+		{
+			43062.088, -- [1]
+			43067.092, -- [2]
+			"01:40:18", -- [3]
+			"01:40:23", -- [4]
+			"Felpaw Wolf", -- [5]
+		}, -- [2]
+		{
+			43091.097, -- [1]
+			43096.109, -- [2]
+			"01:40:47", -- [3]
+			"01:40:52", -- [4]
+			"Felpaw Wolf", -- [5]
+		}, -- [3]
+		{
+			43138.101, -- [1]
+			43141.11, -- [2]
+			"01:41:35", -- [3]
+			"01:41:37", -- [4]
+			"Angerclaw Bear", -- [5]
+		}, -- [4]
+		{
+			43157.088, -- [1]
+			43160.09, -- [2]
+			"01:41:54", -- [3]
+			"01:41:56", -- [4]
+			"Felpaw Wolf", -- [5]
+		}, -- [5]
+		{
+			43256.114, -- [1]
+			43270.086, -- [2]
+			"01:43:33", -- [3]
+			"01:43:46", -- [4]
+			"Deadwood Warrior", -- [5]
+		}, -- [6]
+		{
+			43289.132, -- [1]
+			43294.127, -- [2]
+			"01:44:05", -- [3]
+			"01:44:10", -- [4]
+			"Deadwood Warrior", -- [5]
+		}, -- [7]
+		{
+			43303.137, -- [1]
+			43314.126, -- [2]
+			"01:44:19", -- [3]
+			"01:44:30", -- [4]
+			"Deadwood Gardener", -- [5]
+		}, -- [8]
+		{
+			43362.123, -- [1]
+			43369.113, -- [2]
+			"01:45:18", -- [3]
+			"01:45:25", -- [4]
+			"Deadwood Pathfinder", -- [5]
+		}, -- [9]
+		{
+			43389.123, -- [1]
+			43394.118, -- [2]
+			"01:45:45", -- [3]
+			"01:45:50", -- [4]
+			"No One", -- [5]
+		}, -- [10]
+		{
+			43418.094, -- [1]
+			43430.094, -- [2]
+			"01:46:14", -- [3]
+			"01:46:26", -- [4]
+			"Deadwood Warrior", -- [5]
+		}, -- [11]
+		{
+			43475.111, -- [1]
+			43500.104, -- [2]
+			"01:47:11", -- [3]
+			"01:47:36", -- [4]
+			"No One", -- [5]
+		}, -- [12]
+		{
+			43691.14, -- [1]
+			43709.133, -- [2]
+			"01:50:47", -- [3]
+			"01:51:05", -- [4]
+			"Jadefire Satyr", -- [5]
+		}, -- [13]
+		{
+			43712.095, -- [1]
+			43726.113, -- [2]
+			"01:51:08", -- [3]
+			"01:51:22", -- [4]
+			"Jadefire Satyr", -- [5]
+		}, -- [14]
+		{
+			44565.515, -- [1]
+			44580.516, -- [2]
+			"02:05:22", -- [3]
+			"02:05:36", -- [4]
+			"Impsy", -- [5]
+		}, -- [15]
+		{
+			44627.523, -- [1]
+			44631.531, -- [2]
+			"02:06:24", -- [3]
+			"02:06:27", -- [4]
+			"Cursed Ooze", -- [5]
+		}, -- [16]
+		{
+			44649.536, -- [1]
+			44661.516, -- [2]
+			"02:06:46", -- [3]
+			"02:06:57", -- [4]
+			"Cursed Ooze", -- [5]
+		}, -- [17]
+		{
+			45584.387, -- [1]
+			45589.399, -- [2]
+			"02:22:20", -- [3]
+			"02:22:25", -- [4]
+			"Duneclaw Lasher", -- [5]
+		}, -- [18]
+		{
+			45611.378, -- [1]
+			45619.387, -- [2]
+			"02:22:48", -- [3]
+			"02:22:55", -- [4]
+			"Duneclaw Lasher", -- [5]
+		}, -- [19]
+		{
+			45628.391, -- [1]
+			45633.39, -- [2]
+			"02:23:05", -- [3]
+			"02:23:09", -- [4]
+			"Basking Cobra", -- [5]
+		}, -- [20]
+		{
+			45659.392, -- [1]
+			45664.386, -- [2]
+			"02:23:35", -- [3]
+			"02:23:40", -- [4]
+			"Duneclaw Matriarch", -- [5]
+		}, -- [21]
+		{
+			45686.418, -- [1]
+			45691.428, -- [2]
+			"02:24:03", -- [3]
+			"02:24:07", -- [4]
+			"Blisterpaw Hyena", -- [5]
+		}, -- [22]
+		{
+			45820.395, -- [1]
+			45824.431, -- [2]
+			"02:26:16", -- [3]
+			"02:26:20", -- [4]
+			"Sandfury Hideskinner", -- [5]
+		}, -- [23]
+		{
+			45826.415, -- [1]
+			45832.412, -- [2]
+			"02:26:23", -- [3]
+			"02:26:28", -- [4]
+			"Sandfury Firecaller", -- [5]
+		}, -- [24]
+		{
+			45838.432, -- [1]
+			45843.387, -- [2]
+			"02:26:34", -- [3]
+			"02:26:39", -- [4]
+			"Sandfury Hideskinner", -- [5]
+		}, -- [25]
+		{
+			45862.376, -- [1]
+			45872.387, -- [2]
+			"02:26:59", -- [3]
+			"02:27:08", -- [4]
+			"Sandfury Axe Thrower", -- [5]
+		}, -- [26]
+		{
+			45883.404, -- [1]
+			45887.387, -- [2]
+			"02:27:20", -- [3]
+			"02:27:23", -- [4]
+			"Sandfury Firecaller", -- [5]
+		}, -- [27]
+		{
+			46185.433, -- [1]
+			46193.389, -- [2]
+			"02:32:21", -- [3]
+			"02:32:29", -- [4]
+			"Gusting Vortex", -- [5]
+		}, -- [28]
+		{
+			46349.389, -- [1]
+			46358.403, -- [2]
+			"02:35:06", -- [3]
+			"02:35:14", -- [4]
+			"Sandfury Zombie", -- [5]
+		}, -- [29]
+		{
+			46358.403, -- [1]
+			46363.39, -- [2]
+			"02:35:14", -- [3]
+			"02:35:19", -- [4]
+			"Sandfury Zombie", -- [5]
+		}, -- [30]
+		{
+			46373.39, -- [1]
+			46385.39, -- [2]
+			"02:35:29", -- [3]
+			"02:35:41", -- [4]
+			"Sandfury Zombie", -- [5]
+		}, -- [31]
+		{
+			46393.42, -- [1]
+			46397.422, -- [2]
+			"02:35:50", -- [3]
+			"02:35:53", -- [4]
+			"Sandfury Zombie", -- [5]
+		}, -- [32]
+		{
+			46407.39, -- [1]
+			46414.404, -- [2]
+			"02:36:03", -- [3]
+			"02:36:10", -- [4]
+			"Sandfury Zombie", -- [5]
+		}, -- [33]
+	},
+	["FoughtWho"] = {
+		"Sandfury Zombie 02:36:03-02:36:10", -- [1]
+		"Sandfury Zombie 02:35:50-02:35:53", -- [2]
+		"Sandfury Zombie 02:35:29-02:35:41", -- [3]
+		"Sandfury Zombie 02:35:14-02:35:19", -- [4]
+		"Sandfury Zombie 02:35:06-02:35:14", -- [5]
+	},
+}

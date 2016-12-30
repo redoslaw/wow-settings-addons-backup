@@ -1,0 +1,10 @@
+
+TomTomPing_DB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

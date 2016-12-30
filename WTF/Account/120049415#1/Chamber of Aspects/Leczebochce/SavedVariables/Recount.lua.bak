@@ -1,0 +1,6133 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Harkog-BurningLegion"] = {
+			["GUID"] = "Player-3713-081C07A4",
+			["LastEventHealth"] = {
+				"195 (100%)", -- [1]
+				"195 (100%)", -- [2]
+				"195 (100%)", -- [3]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					34, -- [1]
+				},
+				["TimeDamage"] = {
+					10.5, -- [1]
+				},
+				["ActiveTime"] = {
+					10.5, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = true,
+			["level"] = 3,
+			["LastFightIn"] = 7,
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["Damage"] = 17294.131,
+				["OVERALL"] = 17294.131,
+				["TimeDamage"] = 17294.131,
+				["ActiveTime"] = 17294.131,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 17295.131,
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+			},
+			["LastEvents"] = {
+				"Harkog-BurningLegion Melee Dire Mottled Boar Hit -10 (Physical)", -- [1]
+				"Harkog-BurningLegion Melee Dire Mottled Boar Hit -11 (Physical)", -- [2]
+				"Harkog-BurningLegion Melee Hare Hit -13 (Physical)", -- [3]
+			},
+			["Name"] = "Harkog-BurningLegion",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+			},
+			["LastEventTimes"] = {
+				17220.364, -- [1]
+				17267.415, -- [2]
+				17295.131, -- [3]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Hare"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 34,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Hare"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["TimeDamage"] = 10.5,
+					["TimeDamaging"] = {
+						["Hare"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 10,
+									["count"] = 3,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 34,
+						},
+					},
+					["ActiveTime"] = 10.5,
+					["Damage"] = 34,
+				},
+			},
+			["UnitLockout"] = 17267.131,
+			["LastActive"] = 17294.131,
+		},
+		["Leczebochce"] = {
+			["GUID"] = "Player-1307-08405D3D",
+			["LastEventHealth"] = {
+				"1222 (94%)", -- [1]
+				"1254 (96%)", -- [2]
+				"1254 (96%)", -- [3]
+				"1254 (96%)", -- [4]
+				"1254 (96%)", -- [5]
+				"1231 (94%)", -- [6]
+				"1231 (94%)", -- [7]
+				"1206 (93%)", -- [8]
+				"1206 (93%)", -- [9]
+				"1206 (93%)", -- [10]
+				"1206 (93%)", -- [11]
+				"1206 (93%)", -- [12]
+				"1206 (93%)", -- [13]
+				"1182 (91%)", -- [14]
+				"1182 (91%)", -- [15]
+				"1182 (91%)", -- [16]
+				"1161 (89%)", -- [17]
+				"1161 (89%)", -- [18]
+				"1161 (89%)", -- [19]
+				"1161 (89%)", -- [20]
+				"1139 (87%)", -- [21]
+				"1139 (87%)", -- [22]
+				"1139 (87%)", -- [23]
+				"1139 (87%)", -- [24]
+				"1139 (87%)", -- [25]
+				"1139 (87%)", -- [26]
+				"1139 (87%)", -- [27]
+				"1127 (86%)", -- [28]
+				"1127 (86%)", -- [29]
+				"1127 (86%)", -- [30]
+				"1127 (86%)", -- [31]
+				"1296 (100%)", -- [32]
+				"1296 (100%)", -- [33]
+				"1286 (99%)", -- [34]
+				"1286 (99%)", -- [35]
+				"1275 (98%)", -- [36]
+				"1275 (98%)", -- [37]
+				"1275 (98%)", -- [38]
+				"1275 (98%)", -- [39]
+				"1275 (98%)", -- [40]
+				"1275 (98%)", -- [41]
+				"1275 (98%)", -- [42]
+				"1275 (98%)", -- [43]
+				"1275 (98%)", -- [44]
+				"1248 (96%)", -- [45]
+				"1222 (94%)", -- [46]
+				"1222 (94%)", -- [47]
+				"1222 (94%)", -- [48]
+				"1222 (94%)", -- [49]
+				"1222 (94%)", -- [50]
+			},
+			["LastAttackedBy"] = "Razormane Dustrunner",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					13.61, -- [1]
+				},
+				["DamageTaken"] = {
+					4745, -- [1]
+				},
+				["Absorbs"] = {
+					583, -- [1]
+				},
+				["HealingTaken"] = {
+					583, -- [1]
+				},
+				["TimeDamage"] = {
+					1326.62, -- [1]
+				},
+				["ActiveTime"] = {
+					1340.23, -- [1]
+				},
+				["ManaGain"] = {
+					10770, -- [1]
+				},
+				["DOT_Time"] = {
+					1728, -- [1]
+				},
+				["Damage"] = {
+					46149, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Leczebochce",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 75,
+			["LastEventNum"] = {
+				[13] = 1.85185185185185,
+				[35] = 0.848765432098766,
+				[16] = 1.62037037037037,
+				[32] = 0.771604938271605,
+				[25] = 0.925925925925926,
+				[50] = 1.92901234567901,
+				[20] = 1.69753086419753,
+				[3] = 1.77469135802469,
+				[6] = 1.92901234567901,
+				[44] = 2.00617283950617,
+				[45] = 2.08333333333333,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 12,
+			["TimeLast"] = {
+				["TimeHeal"] = 18177.134,
+				["OVERALL"] = 18754.136,
+				["DamageTaken"] = 18749.136,
+				["Absorbs"] = 18177.134,
+				["HealingTaken"] = 18177.134,
+				["ActiveTime"] = 18754.136,
+				["TimeDamage"] = 18754.136,
+				["ManaGain"] = 18754.136,
+				["DOT_Time"] = 18754.136,
+				["Damage"] = 18754.136,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 18754.803,
+			["NextEventNum"] = 32,
+			["LastEventHealthNum"] = {
+				94.2901234567901, -- [1]
+				96.7592592592593, -- [2]
+				96.7592592592593, -- [3]
+				96.7592592592593, -- [4]
+				96.7592592592593, -- [5]
+				94.9845679012346, -- [6]
+				94.9845679012346, -- [7]
+				93.0555555555556, -- [8]
+				93.0555555555556, -- [9]
+				93.0555555555556, -- [10]
+				93.0555555555556, -- [11]
+				93.0555555555556, -- [12]
+				93.0555555555556, -- [13]
+				91.2037037037037, -- [14]
+				91.2037037037037, -- [15]
+				91.2037037037037, -- [16]
+				89.5833333333333, -- [17]
+				89.5833333333333, -- [18]
+				89.5833333333333, -- [19]
+				89.5833333333333, -- [20]
+				87.8858024691358, -- [21]
+				87.8858024691358, -- [22]
+				87.8858024691358, -- [23]
+				87.8858024691358, -- [24]
+				87.8858024691358, -- [25]
+				87.8858024691358, -- [26]
+				87.8858024691358, -- [27]
+				86.9598765432099, -- [28]
+				86.9598765432099, -- [29]
+				86.9598765432099, -- [30]
+				86.9598765432099, -- [31]
+				100, -- [32]
+				100, -- [33]
+				99.2283950617284, -- [34]
+				99.2283950617284, -- [35]
+				98.3796296296296, -- [36]
+				98.3796296296296, -- [37]
+				98.3796296296296, -- [38]
+				98.3796296296296, -- [39]
+				98.3796296296296, -- [40]
+				98.3796296296296, -- [41]
+				98.3796296296296, -- [42]
+				98.3796296296296, -- [43]
+				98.3796296296296, -- [44]
+				96.2962962962963, -- [45]
+				94.2901234567901, -- [46]
+				94.2901234567901, -- [47]
+				94.2901234567901, -- [48]
+				94.2901234567901, -- [49]
+				94.2901234567901, -- [50]
+			},
+			["LastEvents"] = {
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -44 (Shadow)", -- [1]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -44 (Shadow)", -- [2]
+				"Razormane Battleguard Melee Leczebochce Hit -23 (Physical)", -- [3]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -44 (Shadow)", -- [4]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -43 (Shadow)", -- [5]
+				"Razormane Battleguard Melee Leczebochce Hit -25 (Physical)", -- [6]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -43 (Shadow)", -- [7]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -44 (Shadow)", -- [8]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Crit -86 (Shadow)", -- [9]
+				"Razormane Battleguard Melee Leczebochce Miss (1)", -- [10]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -44 (Shadow)", -- [11]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -43 (Shadow)", -- [12]
+				"Razormane Battleguard Melee Leczebochce Hit -24 (Physical)", -- [13]
+				"Leczebochce Shadow Word: Pain Razormane Dustrunner Crit -87 (Shadow)", -- [14]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Crit -86 (Shadow)", -- [15]
+				"Razormane Battleguard Melee Leczebochce Hit -21 (Physical)", -- [16]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -43 (Shadow)", -- [17]
+				"Leczebochce Shadow Word: Pain Razormane Dustrunner Hit -44 (Shadow)", -- [18]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [19]
+				"Razormane Battleguard Melee Leczebochce Hit -22 (Physical)", -- [20]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Crit -86 (Shadow)", -- [21]
+				"Leczebochce Shadow Word: Pain Razormane Dustrunner Hit -43 (Shadow)", -- [22]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [23]
+				"Leczebochce Shadow Word: Pain Razormane Dustrunner Crit -87 (Shadow)", -- [24]
+				"Razormane Dustrunner Melee Leczebochce Hit -12 (Physical)", -- [25]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [26]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -44 (Shadow)", -- [27]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -44 (Shadow)", -- [28]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -43 (Shadow)", -- [29]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [30]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Crit -87 (Shadow)", -- [31]
+				"Razormane Dustrunner Melee Leczebochce Hit -10 (Physical)", -- [32]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [33]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -44 (Shadow)", -- [34]
+				"Razormane Dustrunner Melee Leczebochce Hit -11 (Physical)", -- [35]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Crit -87 (Shadow)", -- [36]
+				"Leczebochce Shadow Word: Pain Razormane Dustrunner Crit -87 (Shadow)", -- [37]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Tick -43 (Shadow)", -- [38]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Dustrunner Crit -87 (Shadow)", -- [39]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Crit -87 (Shadow)", -- [40]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Hit -43 (Shadow)", -- [41]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -43 (Shadow)", -- [42]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Tick -43 (Shadow)", -- [43]
+				"Razormane Battleguard Melee Leczebochce Hit -26 (Physical)", -- [44]
+				"Razormane Battleguard Bloody Strike Leczebochce Hit -27 (Physical)", -- [45]
+				"Leczebochce Shadow Word: Pain (DoT) Razormane Battleguard Crit -87 (Shadow)", -- [46]
+				"Leczebochce Shadow Word: Pain Dreadmaw Toothgnasher Hit -44 (Shadow)", -- [47]
+				"Leczebochce Shadow Word: Pain Razormane Battleguard Crit -87 (Shadow)", -- [48]
+				"Leczebochce Shadow Word: Pain (DoT) Dreadmaw Toothgnasher Crit -86 (Shadow)", -- [49]
+				"Razormane Battleguard Melee Leczebochce Hit -25 (Physical)", -- [50]
+			},
+			["Name"] = "Leczebochce",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				18728.015, -- [1]
+				18732.335, -- [2]
+				18734.986, -- [3]
+				18735.119, -- [4]
+				18735.119, -- [5]
+				18737.502, -- [6]
+				18737.719, -- [7]
+				18737.719, -- [8]
+				18737.819, -- [9]
+				18739.852, -- [10]
+				18740.402, -- [11]
+				18741.252, -- [12]
+				18741.869, -- [13]
+				18742.569, -- [14]
+				18743.086, -- [15]
+				18743.502, -- [16]
+				18743.902, -- [17]
+				18744.402, -- [18]
+				18745.286, -- [19]
+				18745.286, -- [20]
+				18746.569, -- [21]
+				18746.936, -- [22]
+				18747.102, -- [23]
+				18748.852, -- [24]
+				18749.552, -- [25]
+				18749.552, -- [26]
+				18749.769, -- [27]
+				18751.519, -- [28]
+				18752.102, -- [29]
+				18752.219, -- [30]
+				18754.803, -- [31]
+				18709.585, -- [32]
+				18709.702, -- [33]
+				18710.969, -- [34]
+				18711.919, -- [35]
+				18712.319, -- [36]
+				18712.452, -- [37]
+				18713.569, -- [38]
+				18715.152, -- [39]
+				18715.702, -- [40]
+				18718.002, -- [41]
+				18718.386, -- [42]
+				18720.769, -- [43]
+				18721.602, -- [44]
+				18721.602, -- [45]
+				18723.436, -- [46]
+				18723.719, -- [47]
+				18725.286, -- [48]
+				18726.402, -- [49]
+				18727.736, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 33,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Dreadmaw Toothgnasher"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 199,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 27,
+						["Melee"] = 172,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 48,
+					["Damage"] = 1475,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1475,
+					},
+					["PartialAbsorb"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 435,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 607,
+								},
+							},
+							["amount"] = 1042,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 173,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 216,
+								},
+							},
+							["amount"] = 389,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 141,
+								},
+								["Bloody Strike"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 168,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 31,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 31,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 440,
+								},
+							},
+							["amount"] = 440,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 440,
+								},
+							},
+							["amount"] = 440,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 8.39,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.86,
+								},
+							},
+							["amount"] = 19.25,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 0.78,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.97,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.01,
+								},
+							},
+							["amount"] = 8.98,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 29.01,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 348,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 304,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 652,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 261,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 562,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 823,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 29.01,
+					["TimeDamaging"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 8.39,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.86,
+								},
+							},
+							["amount"] = 19.25,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 0.78,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.97,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.01,
+								},
+							},
+							["amount"] = 8.98,
+						},
+					},
+					["ManaGain"] = 440,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Dreadmaw Toothgnasher"] = {
+									["count"] = 3,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Razormane Battleguard"] = {
+									["count"] = 12,
+								},
+								["Clattering Scorpid"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 99,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 27,
+						["Melee"] = 72,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 30,
+					["Damage"] = 1042,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1042,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 44,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 130,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 217,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 217,
+								},
+							},
+							["amount"] = 434,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 174,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 304,
+								},
+							},
+							["amount"] = 478,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+								["Bloody Strike"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.28,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 1.4,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 4.42,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.04,
+								},
+							},
+							["amount"] = 11.46,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 4.9,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.7,
+								},
+							},
+							["amount"] = 11.6,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 24.46,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 261,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 174,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 435,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 347,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 260,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 607,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 24.46,
+					["TimeDamaging"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.28,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 1.4,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 4.42,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.04,
+								},
+							},
+							["amount"] = 11.46,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 4.9,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 6.7,
+								},
+							},
+							["amount"] = 11.6,
+						},
+					},
+					["ManaGain"] = 308,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 0,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Razormane Scout"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Bloody Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Throw Axe"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 6,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Clattering Scorpid"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 43,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 43,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 478,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 478,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 44,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 130,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 87,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 218,
+								},
+							},
+							["amount"] = 305,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 23,
+								},
+								["Bloody Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.77,
+								},
+							},
+							["amount"] = 5.27,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 2.2,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.85,
+								},
+							},
+							["amount"] = 8.05,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.65,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 174,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 174,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 86,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 86,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 218,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 304,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 13.65,
+					["TimeDamaging"] = {
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1.77,
+								},
+							},
+							["amount"] = 5.27,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 2.2,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.85,
+								},
+							},
+							["amount"] = 8.05,
+						},
+					},
+					["ManaGain"] = 132,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 6,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Razormane Scout"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.28,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.03,
+								},
+							},
+							["amount"] = 3.31,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 1.8,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.08,
+								},
+							},
+							["amount"] = 6.88,
+						},
+					},
+					["DamageTaken"] = 53,
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.19,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Evade"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 29,
+						["Melee"] = 24,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 258,
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 0,
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 43,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 86,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 86,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 43,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 172,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 172,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Absorbs"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+								["Bloody Strike"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 53,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Throw Axe"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 258,
+						["Holy"] = 0,
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 43,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 129,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 43,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 86,
+								},
+							},
+							["amount"] = 129,
+						},
+					},
+					["TimeDamage"] = 10.19,
+					["TimeDamaging"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.28,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.03,
+								},
+							},
+							["amount"] = 3.31,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 1.8,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.08,
+								},
+							},
+							["amount"] = 6.88,
+						},
+					},
+					["ManaGain"] = 88,
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+					},
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 24,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Clattering Scorpid"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 127,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 127,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 42,
+					["Damage"] = 1257,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1257,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 216,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 520,
+								},
+							},
+							["amount"] = 736,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 261,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 260,
+								},
+							},
+							["amount"] = 521,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 115,
+								},
+								["Bloody Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 115,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.53,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.66,
+								},
+							},
+							["amount"] = 18.19,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.84,
+								},
+							},
+							["amount"] = 7.78,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 25.97,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 174,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 303,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 477,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 345,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 435,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 780,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 25.97,
+					["TimeDamaging"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.53,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.66,
+								},
+							},
+							["amount"] = 18.19,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.84,
+								},
+							},
+							["amount"] = 7.78,
+						},
+					},
+					["ManaGain"] = 396,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Razormane Battleguard"] = {
+									["count"] = 24,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 0,
+								},
+								["Clattering Scorpid"] = {
+									["count"] = 0,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 127,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 0,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 10,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 0,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 127,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 42,
+					["Damage"] = 1257,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1257,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 216,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 520,
+								},
+							},
+							["amount"] = 736,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 261,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 260,
+								},
+							},
+							["amount"] = 521,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 115,
+								},
+								["Bloody Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 115,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 7,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 396,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.53,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.66,
+								},
+							},
+							["amount"] = 18.19,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.84,
+								},
+							},
+							["amount"] = 7.78,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 25.97,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 174,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 303,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 477,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 345,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 435,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 780,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 25.97,
+					["TimeDamaging"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.53,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 10.66,
+								},
+							},
+							["amount"] = 18.19,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.94,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.84,
+								},
+							},
+							["amount"] = 7.78,
+						},
+					},
+					["ManaGain"] = 396,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 13.61,
+								},
+							},
+							["amount"] = 13.61,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Dreadmaw Toothgnasher"] = {
+									["count"] = 12,
+								},
+								["Razormane Scout"] = {
+									["count"] = 30,
+								},
+								["Razormane Battleguard"] = {
+									["count"] = 711,
+								},
+								["Clattering Scorpid"] = {
+									["count"] = 12,
+								},
+								["Dire Mottled Boar"] = {
+									["count"] = 165,
+								},
+								["Razormane Dustrunner"] = {
+									["count"] = 798,
+								},
+							},
+							["amount"] = 1728,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 101,
+						["Melee"] = 457,
+						["Nature"] = 25,
+					},
+					["TimeSpent"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.51,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.08,
+								},
+							},
+							["amount"] = 7.59,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 8.77,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 8.94,
+								},
+							},
+							["amount"] = 17.71,
+						},
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 13.61,
+								},
+							},
+							["amount"] = 13.61,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.29,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.25,
+								},
+								["Smite"] = {
+									["count"] = 3.99,
+								},
+							},
+							["amount"] = 12.53,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 18.77,
+								},
+							},
+							["amount"] = 18.77,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 202.2,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 310,
+								},
+							},
+							["amount"] = 512.2,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 0.78,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 58.77,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 102.58,
+								},
+								["Smite"] = {
+									["count"] = 31.48,
+								},
+							},
+							["amount"] = 192.83,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 236.8,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 327.08,
+								},
+							},
+							["amount"] = 563.88,
+						},
+					},
+					["DamageTaken"] = 4745,
+					["WhoHealed"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 583,
+								},
+							},
+							["amount"] = 583,
+						},
+					},
+					["PartialResist"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 15,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 23,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 240,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 240,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["count"] = 10770,
+								},
+							},
+							["amount"] = 10770,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 13,
+									["min"] = 12,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 25,
+						},
+						["Bloody Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 20,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 29,
+									["min"] = 23,
+									["count"] = 3,
+									["amount"] = 81,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 81,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 214,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 30,
+									["min"] = 8,
+									["count"] = 26,
+									["amount"] = 457,
+								},
+							},
+							["count"] = 240,
+							["amount"] = 457,
+						},
+						["Throw Axe"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 20,
+						},
+					},
+					["ActiveTime"] = 1340.23,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 210,
+								},
+								["Tick"] = {
+									["count"] = 362,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 351,
+								},
+								["Evade"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 927,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 623,
+						["Melee"] = 3936,
+						["Nature"] = 186,
+					},
+					["DOT_Time"] = 1728,
+					["Damage"] = 46149,
+					["HealedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 583,
+								},
+							},
+							["amount"] = 583,
+						},
+					},
+					["TimeHeal"] = 13.61,
+					["ShieldedWho"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 30,
+									["min"] = 8,
+									["count"] = 33,
+									["amount"] = 583,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 583,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 49,
+									["count"] = 137,
+									["amount"] = 9890,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 24,
+									["count"] = 210,
+									["amount"] = 7609,
+								},
+							},
+							["count"] = 351,
+							["amount"] = 17499,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 87,
+									["min"] = 49,
+									["count"] = 214,
+									["amount"] = 14922,
+								},
+								["Tick"] = {
+									["max"] = 44,
+									["min"] = 24,
+									["count"] = 362,
+									["amount"] = 12732,
+								},
+							},
+							["count"] = 576,
+							["amount"] = 27654,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 91,
+									["min"] = 88,
+									["count"] = 4,
+									["amount"] = 360,
+								},
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 44,
+									["count"] = 14,
+									["amount"] = 636,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 996,
+						},
+					},
+					["Absorbs"] = 583,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 8,
+								},
+								["Absorb"] = {
+									["count"] = 26,
+								},
+								["Miss"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 195,
+								},
+							},
+							["amount"] = 240,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32,
+								},
+								["Throw Axe"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2735,
+								},
+								["Bloody Strike"] = {
+									["count"] = 569,
+								},
+							},
+							["amount"] = 3304,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 334,
+								},
+							},
+							["amount"] = 334,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 797,
+								},
+								["Wrath"] = {
+									["count"] = 186,
+								},
+							},
+							["amount"] = 983,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 45153,
+						["Holy"] = 996,
+					},
+					["HealingTaken"] = 583,
+					["DamagedWho"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 160,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 446,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 156,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 364,
+								},
+							},
+							["amount"] = 520,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 125,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 150,
+								},
+								["Smite"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 369,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 447,
+								},
+							},
+							["amount"] = 447,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7483,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 11484,
+								},
+							},
+							["amount"] = 18967,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 1067,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1908,
+								},
+								["Smite"] = {
+									["count"] = 455,
+								},
+							},
+							["amount"] = 3430,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 8421,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 13462,
+								},
+							},
+							["amount"] = 21883,
+						},
+					},
+					["TimeDamage"] = 1326.62,
+					["TimeDamaging"] = {
+						["Dreadmaw Toothgnasher"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.51,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.08,
+								},
+							},
+							["amount"] = 7.59,
+						},
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 8.77,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 8.94,
+								},
+							},
+							["amount"] = 17.71,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.29,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.25,
+								},
+								["Smite"] = {
+									["count"] = 3.99,
+								},
+							},
+							["amount"] = 12.53,
+						},
+						["Toad"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 18.77,
+								},
+							},
+							["amount"] = 18.77,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 202.2,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 310,
+								},
+							},
+							["amount"] = 512.2,
+						},
+						["Water Snake"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.78,
+								},
+							},
+							["amount"] = 0.78,
+						},
+						["Dire Mottled Boar"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 58.77,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 102.58,
+								},
+								["Smite"] = {
+									["count"] = 31.48,
+								},
+							},
+							["amount"] = 192.83,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 236.8,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 327.08,
+								},
+							},
+							["amount"] = 563.88,
+						},
+					},
+					["ManaGain"] = 10770,
+					["ManaGainedFrom"] = {
+						["Leczebochce"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 10770,
+								},
+							},
+							["amount"] = 10770,
+						},
+					},
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Leczebochce"] = {
+									["max"] = 30,
+									["min"] = 8,
+									["count"] = 33,
+									["amount"] = 583,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 583,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 17110.131,
+			["LastActive"] = 18754.136,
+		},
+	},
+	["FightNum"] = 76,
+	["CombatTimes"] = {
+		{
+			17129.131, -- [1]
+			17133.131, -- [2]
+			"14:50:03", -- [3]
+			"14:50:07", -- [4]
+			"Scorpid Worker", -- [5]
+		}, -- [1]
+		{
+			17172.131, -- [1]
+			17178.131, -- [2]
+			"14:50:47", -- [3]
+			"14:50:52", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [2]
+		{
+			17187.131, -- [1]
+			17199.131, -- [2]
+			"14:51:02", -- [3]
+			"14:51:13", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [3]
+		{
+			17217.131, -- [1]
+			17222.131, -- [2]
+			"14:51:32", -- [3]
+			"14:51:36", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [4]
+		{
+			17222.131, -- [1]
+			17226.131, -- [2]
+			"14:51:37", -- [3]
+			"14:51:40", -- [4]
+			"Clattering Scorpid", -- [5]
+		}, -- [5]
+		{
+			17262.131, -- [1]
+			17269.131, -- [2]
+			"14:52:17", -- [3]
+			"14:52:23", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [6]
+		{
+			17275.131, -- [1]
+			17291.131, -- [2]
+			"14:52:29", -- [3]
+			"14:52:45", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [7]
+		{
+			17295.131, -- [1]
+			17333.131, -- [2]
+			"14:52:50", -- [3]
+			"14:53:27", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [8]
+		{
+			17335.131, -- [1]
+			17352.132, -- [2]
+			"14:53:30", -- [3]
+			"14:53:46", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [9]
+		{
+			17357.131, -- [1]
+			17367.131, -- [2]
+			"14:53:52", -- [3]
+			"14:54:01", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [10]
+		{
+			17369.131, -- [1]
+			17406.132, -- [2]
+			"14:54:03", -- [3]
+			"14:54:40", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [11]
+		{
+			17407.132, -- [1]
+			17414.132, -- [2]
+			"14:54:42", -- [3]
+			"14:54:48", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [12]
+		{
+			17423.132, -- [1]
+			17448.132, -- [2]
+			"14:54:58", -- [3]
+			"14:55:22", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [13]
+		{
+			17455.132, -- [1]
+			17462.132, -- [2]
+			"14:55:30", -- [3]
+			"14:55:36", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [14]
+		{
+			17463.132, -- [1]
+			17476.132, -- [2]
+			"14:55:38", -- [3]
+			"14:55:50", -- [4]
+			"Dire Mottled Boar", -- [5]
+		}, -- [15]
+		{
+			17483.132, -- [1]
+			17510.132, -- [2]
+			"14:55:57", -- [3]
+			"14:56:24", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [16]
+		{
+			17513.132, -- [1]
+			17520.132, -- [2]
+			"14:56:27", -- [3]
+			"14:56:34", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [17]
+		{
+			17532.132, -- [1]
+			17547.132, -- [2]
+			"14:56:47", -- [3]
+			"14:57:01", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [18]
+		{
+			17547.132, -- [1]
+			17568.132, -- [2]
+			"14:57:02", -- [3]
+			"14:57:22", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [19]
+		{
+			17568.132, -- [1]
+			17576.132, -- [2]
+			"14:57:23", -- [3]
+			"14:57:30", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [20]
+		{
+			17579.132, -- [1]
+			17592.132, -- [2]
+			"14:57:34", -- [3]
+			"14:57:46", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [21]
+		{
+			17592.132, -- [1]
+			17596.132, -- [2]
+			"14:57:46", -- [3]
+			"14:57:50", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [22]
+		{
+			17596.132, -- [1]
+			17669.132, -- [2]
+			"14:57:51", -- [3]
+			"14:59:03", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [23]
+		{
+			17669.132, -- [1]
+			17684.133, -- [2]
+			"14:59:03", -- [3]
+			"14:59:18", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [24]
+		{
+			17685.133, -- [1]
+			17695.132, -- [2]
+			"14:59:20", -- [3]
+			"14:59:29", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [25]
+		{
+			17695.132, -- [1]
+			17704.133, -- [2]
+			"14:59:30", -- [3]
+			"14:59:38", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [26]
+		{
+			17711.133, -- [1]
+			17768.133, -- [2]
+			"14:59:45", -- [3]
+			"15:00:42", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [27]
+		{
+			17772.133, -- [1]
+			17794.133, -- [2]
+			"15:00:47", -- [3]
+			"15:01:08", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [28]
+		{
+			17794.133, -- [1]
+			17805.133, -- [2]
+			"15:01:08", -- [3]
+			"15:01:19", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [29]
+		{
+			17813.133, -- [1]
+			17850.133, -- [2]
+			"15:01:28", -- [3]
+			"15:02:04", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [30]
+		{
+			17853.133, -- [1]
+			17903.133, -- [2]
+			"15:02:08", -- [3]
+			"15:02:57", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [31]
+		{
+			17903.133, -- [1]
+			17912.133, -- [2]
+			"15:02:58", -- [3]
+			"15:03:06", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [32]
+		{
+			17923.133, -- [1]
+			17933.133, -- [2]
+			"15:03:18", -- [3]
+			"15:03:27", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [33]
+		{
+			17936.133, -- [1]
+			17943.133, -- [2]
+			"15:03:31", -- [3]
+			"15:03:37", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [34]
+		{
+			17944.133, -- [1]
+			17950.133, -- [2]
+			"15:03:38", -- [3]
+			"15:03:44", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [35]
+		{
+			17950.133, -- [1]
+			17959.133, -- [2]
+			"15:03:45", -- [3]
+			"15:03:53", -- [4]
+			"Dreadmaw Toothgnasher", -- [5]
+		}, -- [36]
+		{
+			17962.133, -- [1]
+			17976.133, -- [2]
+			"15:03:57", -- [3]
+			"15:04:10", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [37]
+		{
+			17977.133, -- [1]
+			17984.134, -- [2]
+			"15:04:11", -- [3]
+			"15:04:18", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [38]
+		{
+			17985.133, -- [1]
+			17990.133, -- [2]
+			"15:04:19", -- [3]
+			"15:04:24", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [39]
+		{
+			17990.133, -- [1]
+			17997.133, -- [2]
+			"15:04:25", -- [3]
+			"15:04:31", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [40]
+		{
+			17998.134, -- [1]
+			18005.133, -- [2]
+			"15:04:33", -- [3]
+			"15:04:39", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [41]
+		{
+			18007.134, -- [1]
+			18026.133, -- [2]
+			"15:04:42", -- [3]
+			"15:05:00", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [42]
+		{
+			18034.134, -- [1]
+			18045.134, -- [2]
+			"15:05:08", -- [3]
+			"15:05:19", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [43]
+		{
+			18055.134, -- [1]
+			18061.134, -- [2]
+			"15:05:30", -- [3]
+			"15:05:35", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [44]
+		{
+			18065.134, -- [1]
+			18086.134, -- [2]
+			"15:05:40", -- [3]
+			"15:06:00", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [45]
+		{
+			18087.134, -- [1]
+			18112.134, -- [2]
+			"15:06:02", -- [3]
+			"15:06:26", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [46]
+		{
+			18113.134, -- [1]
+			18117.134, -- [2]
+			"15:06:28", -- [3]
+			"15:06:31", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [47]
+		{
+			18118.134, -- [1]
+			18146.134, -- [2]
+			"15:06:33", -- [3]
+			"15:07:00", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [48]
+		{
+			18147.134, -- [1]
+			18174.134, -- [2]
+			"15:07:02", -- [3]
+			"15:07:28", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [49]
+		{
+			18174.134, -- [1]
+			18180.134, -- [2]
+			"15:07:28", -- [3]
+			"15:07:34", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [50]
+		{
+			18202.134, -- [1]
+			18207.134, -- [2]
+			"15:07:57", -- [3]
+			"15:08:01", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [51]
+		{
+			18207.134, -- [1]
+			18240.134, -- [2]
+			"15:08:02", -- [3]
+			"15:08:34", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [52]
+		{
+			18241.134, -- [1]
+			18246.134, -- [2]
+			"15:08:36", -- [3]
+			"15:08:40", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [53]
+		{
+			18247.134, -- [1]
+			18277.134, -- [2]
+			"15:08:42", -- [3]
+			"15:09:11", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [54]
+		{
+			18281.134, -- [1]
+			18286.134, -- [2]
+			"15:09:16", -- [3]
+			"15:09:20", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [55]
+		{
+			18289.134, -- [1]
+			18304.137, -- [2]
+			"15:09:24", -- [3]
+			"15:09:38", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [56]
+		{
+			18330.134, -- [1]
+			18354.134, -- [2]
+			"15:10:05", -- [3]
+			"15:10:28", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [57]
+		{
+			18354.134, -- [1]
+			18359.134, -- [2]
+			"15:10:29", -- [3]
+			"15:10:33", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [58]
+		{
+			18363.134, -- [1]
+			18400.135, -- [2]
+			"15:10:37", -- [3]
+			"15:11:14", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [59]
+		{
+			18409.135, -- [1]
+			18414.135, -- [2]
+			"15:11:24", -- [3]
+			"15:11:28", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [60]
+		{
+			18415.135, -- [1]
+			18464.135, -- [2]
+			"15:11:30", -- [3]
+			"15:12:18", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [61]
+		{
+			18475.135, -- [1]
+			18496.135, -- [2]
+			"15:12:29", -- [3]
+			"15:12:50", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [62]
+		{
+			18499.135, -- [1]
+			18511.135, -- [2]
+			"15:12:54", -- [3]
+			"15:13:05", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [63]
+		{
+			18511.135, -- [1]
+			18517.135, -- [2]
+			"15:13:06", -- [3]
+			"15:13:11", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [64]
+		{
+			18518.135, -- [1]
+			18524.135, -- [2]
+			"15:13:13", -- [3]
+			"15:13:18", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [65]
+		{
+			18527.135, -- [1]
+			18534.135, -- [2]
+			"15:13:21", -- [3]
+			"15:13:28", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [66]
+		{
+			18534.135, -- [1]
+			18562.135, -- [2]
+			"15:13:28", -- [3]
+			"15:13:56", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [67]
+		{
+			18562.135, -- [1]
+			18576.135, -- [2]
+			"15:13:57", -- [3]
+			"15:14:10", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [68]
+		{
+			18581.135, -- [1]
+			18599.135, -- [2]
+			"15:14:16", -- [3]
+			"15:14:33", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [69]
+		{
+			18615.135, -- [1]
+			18622.135, -- [2]
+			"15:14:49", -- [3]
+			"15:14:56", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [70]
+		{
+			18622.135, -- [1]
+			18626.135, -- [2]
+			"15:14:57", -- [3]
+			"15:15:00", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [71]
+		{
+			18626.135, -- [1]
+			18654.135, -- [2]
+			"15:15:01", -- [3]
+			"15:15:28", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [72]
+		{
+			18654.135, -- [1]
+			18665.135, -- [2]
+			"15:15:29", -- [3]
+			"15:15:39", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [73]
+		{
+			18678.135, -- [1]
+			18690.135, -- [2]
+			"15:15:53", -- [3]
+			"15:16:04", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [74]
+		{
+			18706.135, -- [1]
+			18730.144, -- [2]
+			"15:16:21", -- [3]
+			"15:16:44", -- [4]
+			"Razormane Dustrunner", -- [5]
+		}, -- [75]
+		{
+			18732.136, -- [1]
+			18756.136, -- [2]
+			"15:16:46", -- [3]
+			"15:17:10", -- [4]
+			"Razormane Battleguard", -- [5]
+		}, -- [76]
+	},
+	["FoughtWho"] = {
+		"Razormane Battleguard 15:16:46-15:17:10", -- [1]
+		"Razormane Dustrunner 15:16:21-15:16:44", -- [2]
+		"Razormane Battleguard 15:15:53-15:16:04", -- [3]
+		"Razormane Dustrunner 15:15:29-15:15:39", -- [4]
+		"Razormane Dustrunner 15:15:01-15:15:28", -- [5]
+	},
+}

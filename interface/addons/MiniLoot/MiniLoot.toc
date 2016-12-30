@@ -1,0 +1,17 @@
+## Interface: 70100
+## Title: MiniLoot
+## Notes: Reduces chat related spam by a whole deal!
+## Author: Vladinator
+## Version: 7.1.0.161026
+## SavedVariables: MiniLootDB
+## X-Curse-Packaged-Version: v7.1.0.161026
+## X-Curse-Project-Name: MiniLoot
+## X-Curse-Project-ID: miniloot
+## X-Curse-Repository-ID: wow/miniloot/mainline
+locale.lua
+config.lua
+events.lua
+tooltip.lua
+options.lua
+util.lua
+core.lua

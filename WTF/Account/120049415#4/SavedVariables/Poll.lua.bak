@@ -1,0 +1,9 @@
+
+PollConfig = {
+	["Chamber of Aspects-Bezmyslny"] = {
+		["locale"] = "enUS",
+		["idChannel"] = 0,
+		["system"] = "SAY",
+		["channel"] = "s",
+	},
+}

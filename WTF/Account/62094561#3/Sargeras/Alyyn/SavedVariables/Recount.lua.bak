@@ -1,0 +1,178 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Alyyn"] = {
+			["GUID"] = "Player-76-09340690",
+			["LastEventHealth"] = {
+				"307718 (99%)", -- [1]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					2842, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Alyyn",
+			["level"] = 100,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				0.915121071612571, -- [1]
+			},
+			["type"] = "Self",
+			["LastDamageTaken"] = 2842,
+			["GuardianReverseGUIDs"] = {
+				["Prince Farondis"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3778-1220-14916-88869-00002A5383",
+					},
+				},
+			},
+			["TimeLast"] = {
+				["DamageTaken"] = 10282.783,
+				["OVERALL"] = 10282.783,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Prince Farondis <Alyyn>", -- [1]
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				99.0848789283874, -- [1]
+			},
+			["LastEvents"] = {
+				"Environment Falling Alyyn Hit -2842 (Physical)", -- [1]
+			},
+			["Name"] = "Alyyn",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				10283.132, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 2842,
+								},
+							},
+							["amount"] = 2842,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2842,
+					},
+					["DamageTaken"] = 2842,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 10282.783,
+			["LastActive"] = 10282.783,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

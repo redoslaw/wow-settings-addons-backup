@@ -1,0 +1,17 @@
+tag v60000.1
+8d7e9346d4a8003fe24d3d117964bd90c28404ce
+Peter Kjellerstedt <peter.kjellerstedt@gmail.com>
+2014-11-06 00:54:41 +0100
+
+Tag as v60000.1
+
+
+--------------------
+
+Peter Kjellerstedt:
+	- Use updated addon API
+	GetAddOnInfo() no longer returns the enabled state of an addon.
+	Instead GetAddOnEnableState() is used to determine whether an
+	addon is enabled or not.
+	- Modify the height of the game menu frame correctly
+	- Update the .toc to match 6.0

@@ -1,0 +1,22 @@
+
+AutoLog_DB = {
+	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+	},
+	["char"] = {
+		["Ðeadshot - Burning Legion"] = {
+			["normal"] = {
+				["63HFC"] = true,
+			},
+			["enable"] = true,
+			["hidecat"] = true,
+			["hidemop"] = true,
+			["mythic"] = {
+				["63HFC"] = true,
+			},
+			["heroic"] = {
+				["63HFC"] = true,
+			},
+		},
+	},
+}

@@ -1,0 +1,39 @@
+
+autoloot_job = nil
+autoloot_quality = nil
+blacklist_itemtable = {
+}
+history_job = nil
+minimap_pos = nil
+blacklist_job = nil
+lootlog_blacklist_job = nil
+lootlog_blacklist_items = {
+}
+loot_raid = nil
+whisper_msg_toc = nil
+whisper_trigger = nil
+loot_group = nil
+loot_display_toc = nil
+loot_display_location = {
+	"CENTER", -- [1]
+	{
+		[0] = nil --[[ skipped userdata ]],
+		["firstTimeLoaded"] = 1,
+	}, -- [2]
+	"CENTER", -- [3]
+	0, -- [4]
+	0, -- [5]
+}
+loot_display_fadein = nil
+loot_display_fadeout = nil
+loot_display_staytime = nil
+icon_size_toc = nil
+font_size_toc = nil
+loot_by_gold = nil
+loot_by_gold_job = nil
+autoroll_job = nil
+autoroll_quality_green = nil
+autoroll_quality_blue = nil
+invert_blacklist_toc = nil
+invert_blacklist_lootlog_toc = nil
+show_rolled_at_loot_display_toc = nil

@@ -1,0 +1,13 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Chamber of Aspects"] = {
+			["PLAYER"] = {
+				["Bezmyslny"] = {
+					["MODULE"] = {
+					},
+				},
+			},
+		},
+	},
+}

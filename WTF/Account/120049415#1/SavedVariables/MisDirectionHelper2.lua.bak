@@ -1,0 +1,16 @@
+
+MisDirectionHelperDB = {
+	["profileKeys"] = {
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+	},
+	["profiles"] = {
+		["Chúck - Burning Legion"] = {
+			["target2"] = "pet",
+			["petname"] = "Norris",
+			["minimap"] = {
+				["minimapPos"] = 197.414297600255,
+			},
+			["name2"] = "Norris",
+		},
+	},
+}

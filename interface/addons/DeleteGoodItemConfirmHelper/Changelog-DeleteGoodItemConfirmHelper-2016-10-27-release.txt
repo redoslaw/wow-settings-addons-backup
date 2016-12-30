@@ -1,0 +1,12 @@
+tag 2016-10-27-release
+9cc63507d678187109b29816adebdd900d6c03f0
+AlexFolland <lexlexlex@gmail.com>
+2016-10-27 01:41:31 -0700
+
+2016-10-27-release
+
+
+--------------------
+
+AlexFolland:
+	- TOC update

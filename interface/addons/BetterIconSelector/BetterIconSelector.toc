@@ -1,0 +1,38 @@
+## Title: BetterIconSelector
+## Notes: Adds search functionality to the icon selector dialogs
+## Version: 1.0.7
+## Author: Ignifazius (Original by Darthyl of Bronzebeard-US)
+## Interface: 70000
+## OptionalDeps: Ace3, LibAdvancedIconSelector-1.0
+
+### Embedded libraries
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\LibAdvancedIconSelector-1.0\LibAdvancedIconSelector-1.0.xml
+Libs\LibIconPath\Core.lua
+#@end-no-lib-strip@
+
+# If AddonLoader is installed, make sure the addon isn't loaded until one of the relevant panes is opened, or a chat command is entered.
+## LoadManagers: AddonLoader
+## X-LoadOn-Hooks: MacroFrame_LoadUI, CharacterFrame_Expand, GuildBankFrame_LoadUI
+## X-LoadOn-MacroFrame_LoadUI: LoadAddOn("BetterIconSelector"); BetterIconSelector.MacroPopup:ReplaceMacroPopup()
+## X-LoadOn-CharacterFrame_Expand: LoadAddOn("BetterIconSelector"); BetterIconSelector.EquipmentSetPopup:ReplaceEquipmentSetPopup()
+## X-LoadOn-GuildBankFrame_LoadUI: LoadAddOn("BetterIconSelector"); BetterIconSelector.GuildBankPopup:ReplaceGuildBankPopup()
+## X-LoadOn-Slash: /icons, /bis
+
+# Certain addons such as ArkInventory never load the guild bank UI.  Therefore, we must install special hooks.
+## X-LoadOn-Execute: local function f() if ArkInventory and ArkInventory.LISTEN_VAULT_ENTER then LoadAddOn("BetterIconSelector"); hooksecurefunc(ArkInventory, "LISTEN_VAULT_ENTER", BetterIconSelector_ReplaceGuildBankPopup) end end; f(); AIS_EventFrame = CreateFrame("Frame"); AIS_EventFrame:RegisterEvent("ADDON_LOADED"); AIS_EventFrame:SetScript("OnEvent", function(self,e,a) if a == "ArkInventory" then f() end end)
+
+### Localization
+Locales\enUS.lua
+
+### Main file
+BetterIconSelector.lua
+
+### Add-on code
+EquipmentSetPopup.lua
+MacroPopup.lua
+GuildBankPopup.lua

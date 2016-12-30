@@ -1,0 +1,30 @@
+
+APHDB = {
+	["char"] = {
+		["Redus - Burning Legion"] = {
+			["autoMinimize"] = true,
+			["ArtifactWeapons"] = {
+				[0] = {
+					0, -- [1]
+					0, -- [2]
+					100, -- [3]
+				},
+				[128820] = {
+					31, -- [1]
+					17557, -- [2]
+					718200, -- [3]
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Minimized"] = true,
+			["MainPosY"] = 717.999954223633,
+			["MainPosX"] = 1327.00036621094,
+		},
+	},
+}

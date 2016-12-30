@@ -1,0 +1,11 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["profiles"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+			["loaded"] = true,
+		},
+	},
+}

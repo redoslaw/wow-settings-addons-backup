@@ -1,0 +1,16 @@
+## Interface: 60100
+## Version: 60100.201503092107
+## Author: SlippyCheeze, Xemnosyst
+## Title: Bitten's SpellFlash Library
+## Notes: This addon does nothing on its own.  It is required to make all other Bitten's SpellFlash addons work.
+## URL: http://www.curse.com/addons/wow/bitten-common
+## Dependencies: SpellFlash
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+## X-Curse-Packaged-Version: 60100.201503092107
+## X-Curse-Project-Name: Bitten's SpellFlash Library
+## X-Curse-Project-ID: bitten-common
+## X-Curse-Repository-ID: wow/bitten-common/mainline
+
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibDBIcon-1.0, BittensUtils
+BittensSpellFlashLibrary.xml

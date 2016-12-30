@@ -1,0 +1,81 @@
+﻿$Id: Revision.txt 35 2016-12-26 08:27:50Z arith $
+
+Revision History:
+=================
+
+* v2.00 (Dec. 26, 2016)
+-----------------------
+- Added missing koKR localization file
+- Supports to track on whatever you would like to track. 
+  Tracking's configuration is now managed in addon's option panel. 
+  User will need to do a fresh config since this version.  
+
+* v1.12 (Oct. 27, 2016)
+-----------------------
+- Toc update to support WoW 7.1.0
+- Translation update:
+  - Korean (yuk6196)
+
+* v1.11 (Sep. 12, 2016)
+-----------------------
+- Fixed the slider error in option panel
+- Translation update:
+  - Korean (next96)
+
+* v1.10 (Aug. 21, 2016)
+-----------------------
+- Minor update to change the default frame coordinates
+
+* v1.09 (Jul. 21, 2016)
+-----------------------
+- Reduce the on-screen money frame's settext frequency
+
+* v1.08 (Jul. 19, 2016)
+-----------------------
+- Toc update to support WoW 7.0.3
+- Change the defaule floating frame's position
+
+* v1.07 (Jun. 28, 2016)
+-----------------------
+- Fixed the issue that GameTooltip scale was also applied to other item's GameTooltip
+- Translation update:
+  - German (pas06)
+
+* v1.06 (Jun. 17, 2016)
+-----------------------
+- TOC update
+- Fixed missing lib link
+
+* v1.05 (Jun. 15, 2016)
+-----------------------
+- TOC update
+
+* v1.04 (Jun. 15, 2016)
+-----------------------
+- Change LDB type to data source and revise the displaying text to be currencies
+- Bug fixed for better supporting LDB so now currency info will properly display
+- Disabling the floating currency frame now won't impact to LDB's currency update
+- Right-click on the floating currency frame now will open Character -> Currency frame
+
+* v1.03 (May 29, 2016)
+-----------------------
+- Hide tooltip while draging or in combat
+- Update LDB's button right-click function call, now it should lead to option panel
+- Update LDB button's GameToolTip to also support scale / alpha tuning
+
+* v1.02 (May 25, 2016)
+-----------------------
+- Added options to customize tooltip's scale and alpha
+- Added German translation, thanks fo pas06
+- Added dummy lcoalization files for all the other language, they will get 
+  loaded in the new release once translation is available on CurseForge
+
+* v1.01 (May 24, 2016)
+-----------------------
+- Enhanced to prevent the money frame to be draged when in combat
+
+* v1.00 (May 23, 2016)
+-----------------------
+- Initial version which support WoW 6.2.4
+- Shows tracked currencies on the screen
+- Shows all gained currencies when hover over

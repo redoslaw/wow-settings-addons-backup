@@ -1,0 +1,185 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Frame name="HoloFriendsFrame" parent="UIParent" inherits="HoloFriends_FrameTemplate">
+		<Frames>
+			<Frame name="HoloFriendsDropDown" inherits="UIDropDownMenuTemplate"/>
+			<Button name="HoloFriendsFrame_ScanExtrasButton" inherits="UIPanelButtonTemplate" text="HOLOFRIENDS_WINDOWMAINBUTTONSCAN">
+				<Size><AbsDimension x="93" y="20"/></Size>
+				<Anchors><Anchor point="BOTTOMLEFT" relativeTo="HoloFriendsFrameToggleTab2" relativePoint="BOTTOMRIGHT">
+					<Offset><AbsDimension x="0" y="1"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsScan_ClickScan()
+					</OnClick>
+				</Scripts>
+			</Button>
+			<CheckButton name="HoloFriendsFrame_ShowOfflineButton" virtual="true">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<Anchors><Anchor point="BOTTOMRIGHT" relativeTo="HoloFriendsFrame_ScanExtrasButton" relativePoint="TOPRIGHT">
+					<Offset><AbsDimension x="2" y="-3"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parentText" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_WINDOWMAINSHOWOFFLINE">
+						<Anchors><Anchor point="RIGHT" relativePoint="LEFT">
+							<Offset><AbsDimension x="-10" y="1"/></Offset>
+						</Anchor></Anchors>
+					</FontString>
+				</Layer></Layers>
+				<Scripts>
+					<OnLoad>
+						self:RegisterEvent("VARIABLES_LOADED");
+					</OnLoad>
+					<OnEvent>
+						if ( event == "VARIABLES_LOADED" ) then
+							self:UnregisterEvent("VARIABLES_LOADED");
+							if (HOLOFRIENDS_OPTIONS and HOLOFRIENDS_OPTIONS.ShowOffFriends) then
+								self:SetChecked(HOLOFRIENDS_OPTIONS.ShowOffFriends);
+							end
+						end
+					</OnEvent>
+					<OnClick>
+						if ( self:GetChecked() ) then
+							HOLOFRIENDS_OPTIONS.ShowOffFriends = true;
+							PlaySound("igMainMenuOptionCheckBoxOff");
+						else
+							HOLOFRIENDS_OPTIONS.ShowOffFriends = false;
+							PlaySound("igMainMenuOptionCheckBoxOn");
+						end
+						HoloFriends_chat("HoloFriends_List_Update from .xml HoloFriendsFrame_ShowOfflineButton", HF_DEBUG_OUTPUT);
+						HoloFriends_List_Update();
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\Buttons\UI-CheckBox-Up"/>
+				<PushedTexture file="Interface\Buttons\UI-CheckBox-Down"/>
+				<HighlightTexture file="Interface\Buttons\UI-CheckBox-Highlight" alphaMode="ADD"/>
+				<CheckedTexture file="Interface\Buttons\UI-CheckBox-Check"/>
+				<DisabledCheckedTexture file="Interface\Buttons\UI-CheckBox-Check-Disabled"/>
+			</CheckButton>
+			<Button name="HoloFriendsFrame_WhisperButton" inherits="UIPanelButtonTemplate" text="WHISPER" hidden="true">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="HoloFriendsFrameOnline" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-6" y="-2"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						local list = HoloFriends_GetList();
+						local index = HoloFriends_GetLastClickedIndex();
+						if ( HoloFriendsLists_IsRealID(list, index) ) then
+							local bname = HoloFriendsLists_GetBnetName(list, index);
+							ChatFrame_SendSmartTell(bname);
+						else
+							local name = HoloFriendsLists_GetName(list, index);
+							ChatFrame_SendTell(name);
+						end
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="HoloFriendsFrame_InviteButton" inherits="UIPanelButtonTemplate" text="INVITE" hidden="true">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="HoloFriendsFrameOnline" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-6" y="-2"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						local list = HoloFriends_GetList();
+						local index = HoloFriends_GetLastClickedIndex();
+						local name = HoloFriendsLists_GetName(list, index);
+						if ( HoloFriendsLists_IsPlayer(list, index) ) then
+							if ( HoloFriendsLists_IsRealID(list, index) ) then
+								local tname = HoloFriendsLists_GetToon(list, index);
+								if ( tname ) then InviteUnit(tname); end
+							else
+								InviteUnit(name);
+							end
+						elseif ( HoloFriendsLists_IsGroup(list, index) ) then
+							local nOnline = list[index].numonline;
+							if ( nOnline > 0 ) then
+								local group = list[index].group;
+								local dialog = StaticPopup_Show("HOLOFRIENDS_INVITEALLOFGROUP", tostring(nOnline), group);
+								if ( dialog ) then dialog.data = group; end
+							end
+						end
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="HoloFriendsFrame_AddFriendButton" inherits="UIPanelButtonTemplate" text="ADD_FRIEND">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="HoloFriendsFrameOnline" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-6" y="-2"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
+					</OnLoad>
+					<OnClick>
+						HoloFriends_AddFriend();
+					</OnClick>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self,ADD_FRIEND, 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_ADDFRIEND, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+			<Button name="HoloFriendsFrame_RemoveFriendButton" inherits="UIPanelButtonTemplate" text="REMOVE_FRIEND">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOP" relativeTo="HoloFriendsFrame_AddFriendButton" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="-5"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
+					</OnLoad>
+					<OnClick>
+						HoloFriends_RemoveFriend();
+					</OnClick>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self,REMOVE_FRIEND, 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_REMOVEFRIEND, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+			<Button name="HoloFriendsFrame_WhoButton" inherits="UIPanelButtonTemplate" text="HOLOFRIENDS_WINDOWMAINWHOREQUEST" hidden="true">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOP" relativeTo="HoloFriendsFrame_AddFriendButton" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="-5"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						local list = HoloFriends_GetList();
+						local index = HoloFriends_GetLastClickedIndex();
+						local name = HoloFriendsLists_GetName(list, index);
+						HoloFriendsFuncs_WhoCheckPlayer(name);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="HoloFriendsFrame_TurnInfoButton" inherits="UIPanelButtonTemplate">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="HoloFriendsFrameOnline" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="148" y="-2"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HOLOFRIENDS_TURNINFO = HOLOFRIENDS_TURNINFO + 1;
+						if ( HOLOFRIENDS_TURNINFO > 2 ) then HOLOFRIENDS_TURNINFO = 0; end
+						HoloFriends_chat("HoloFriends_List_Update from .xml HoloFriendsFrame_TurnInfoButton", HF_DEBUG_OUTPUT);
+						HoloFriends_List_Update();
+					</OnClick>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self, HOLOFRIENDS_TOOLTIPTURNINFOTITLE, 1.0, 1.0, 1.0, HOLOFRIENDS_TOOLTIPTURNINFOTEXT, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<NormalTexture name="$parentTexture" file="Interface\BUTTONS\UI-RotationRight-Button-Up.blp"/>
+				<HighlightTexture name="$parentHighlight" file="Interface\BUTTONS\ButtonHilight-Square.blp" alphaMode="ADD"/>
+				<PushedTexture name="$parentPushed" file="Interface\BUTTONS\UI-RotationRight-Button-Down.blp" alphaMode="ADD"/>
+				<DisabledTexture name="$parentDisabled" file="Interface\BUTTONS\UI-RotationRight-Button-Down.blp" alphaMode="ADD"/>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>

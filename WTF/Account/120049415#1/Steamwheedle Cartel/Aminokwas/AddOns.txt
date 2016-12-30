@@ -1,0 +1,3 @@
+TanaanJungleStalker: disabled
+BagBrother: enabled
++Wowhead_Looter: disabled

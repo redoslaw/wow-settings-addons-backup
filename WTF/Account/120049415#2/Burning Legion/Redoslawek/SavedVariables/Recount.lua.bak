@@ -1,0 +1,22 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Redbullek"] = {
+			["Fights"] = {
+			},
+			["type"] = "Grouped",
+			["Name"] = "Redbullek",
+			["UnitLockout"] = 44470.376,
+			["level"] = 100,
+			["Owner"] = false,
+			["enClass"] = "DRUID",
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

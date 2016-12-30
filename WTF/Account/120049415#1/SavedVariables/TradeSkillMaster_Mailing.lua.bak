@@ -1,0 +1,43 @@
+
+TradeSkillMaster_MailingDB = {
+	["g@ @sendDelay"] = 0.5,
+	["g@ @sendItemsIndividually"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Redus - Burning Legion", -- [1]
+		},
+		["realm"] = {
+			"Burning Legion", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Burning Legion", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["inbox"] = true,
+		["groups"] = true,
+	},
+	["_hash"] = 3711258,
+	["g@ @inboxMessages"] = true,
+	["g@ @defaultMailTab"] = true,
+	["_currentProfile"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["g@ @resendDelay"] = 1,
+	["g@ @sendMessages"] = true,
+	["f@Horde - Burning Legion@deMailTarget"] = "",
+	["g@ @defaultPage"] = 1,
+	["g@ @deleteEmptyNPCMail"] = false,
+	["g@ @openMailSound"] = "TSM_NO_SOUND",
+	["g@ @displayMoneyCollected"] = true,
+	["c@Redus - Burning Legion@goldKeepAmount"] = 1000000,
+	["c@Redus - Burning Legion@goldMailTarget"] = "",
+	["g@ @showReloadBtn"] = true,
+	["g@ @autoCheck"] = true,
+	["g@ @deMaxQuality"] = 2,
+	["_version"] = 1,
+	["g@ @keepMailSpace"] = 0,
+}

@@ -1,0 +1,12 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Frame name="HoloFriends_TimerFrame">
+		<Scripts>
+			<OnUpdate>
+				HoloFriends_Time = GetTime() * 1000.0;
+				HoloFriendsScan_OnUpdate();
+				HoloFriends_FriendsOnUpdate();
+				HoloIgnore_IgnoreOnUpdate();
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

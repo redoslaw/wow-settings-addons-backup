@@ -1,0 +1,18 @@
+## Interface: 60000
+## Title: ReadyCheckAnnouncer
+## Notes: Announces results of readychecks to the raid/party, installs "/rc" alias, shows rc timer bar
+## Author: Mikk
+## Version: 50
+## X-Curse-Packaged-Version: r50
+## X-Curse-Project-Name: ReadyCheckAnnouncer
+## X-Curse-Project-ID: ready-check-announcer
+## X-Curse-Repository-ID: wow/ready-check-announcer/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Events: READY_CHECK
+## X-LoadOn-READY_CHECK: AddonLoader:LoadAddOn("ReadyCheckAnnouncer"); ReadyCheckAnnouncer:READY_CHECK(...,select(4,...))
+## X-LoadOn-Slash: /rc
+## X-LoadOn-Execute: RegisterAddonMessagePrefix("READYCHECKANN")
+
+ReadyCheckAnnouncer.lua
+

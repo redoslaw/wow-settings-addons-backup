@@ -1,0 +1,51 @@
+
+EpsiIskarAssistDB = {
+	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rumcajs - Steamwheedle Cartel"] = "Rumcajs - Steamwheedle Cartel",
+		["Aminokwas - Steamwheedle Cartel"] = "Aminokwas - Steamwheedle Cartel",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Redsixth - Steamwheedle Cartel"] = "Redsixth - Steamwheedle Cartel",
+		["Redk - Steamwheedle Cartel"] = "Redk - Steamwheedle Cartel",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Zgred - Steamwheedle Cartel"] = "Zgred - Steamwheedle Cartel",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Redthird - Steamwheedle Cartel"] = "Redthird - Steamwheedle Cartel",
+		["Redsecond - Steamwheedle Cartel"] = "Redsecond - Steamwheedle Cartel",
+		["Redfirst - Steamwheedle Cartel"] = "Redfirst - Steamwheedle Cartel",
+		["Redfifth - Steamwheedle Cartel"] = "Redfifth - Steamwheedle Cartel",
+	},
+	["profiles"] = {
+		["Ðeadshot - Burning Legion"] = {
+			["xPos"] = 236.752014160156,
+			["yPos"] = 354.495666503906,
+		},
+		["Rumcajs - Steamwheedle Cartel"] = {
+		},
+		["Aminokwas - Steamwheedle Cartel"] = {
+		},
+		["Chúck - Burning Legion"] = {
+		},
+		["Redsixth - Steamwheedle Cartel"] = {
+		},
+		["Redk - Steamwheedle Cartel"] = {
+		},
+		["Redbullek - Burning Legion"] = {
+		},
+		["Zgred - Steamwheedle Cartel"] = {
+		},
+		["Redus - Burning Legion"] = {
+		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+		["Redthird - Steamwheedle Cartel"] = {
+		},
+		["Redsecond - Steamwheedle Cartel"] = {
+		},
+		["Redfirst - Steamwheedle Cartel"] = {
+		},
+		["Redfifth - Steamwheedle Cartel"] = {
+		},
+	},
+}

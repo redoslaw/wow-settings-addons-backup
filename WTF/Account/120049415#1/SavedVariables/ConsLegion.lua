@@ -1,0 +1,92 @@
+
+ConsLegionSavedVar = {
+	["Ðeathshot-SteamwheedleCartel"] = {
+		["Settings"] = {
+			["AutoPickup"] = 0,
+			["Textleft"] = 914.285714285714,
+			["Newstop"] = -359.999959309896,
+			["TextLock"] = 0,
+			["Scale"] = 0.711111128330231,
+			["XPalpha"] = 1,
+			["left"] = 384,
+			["XPHide"] = 0,
+			["Arrowx"] = 960,
+			["TextInvert"] = 0,
+			["XPleft"] = 320,
+			["Lock"] = 0,
+			["Newsalpha"] = 1,
+			["TextHide"] = 0,
+			["SkipCutScene"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["Texttop"] = -830.76913686899,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["XPtop"] = -719.999918619792,
+			["alpha"] = 1,
+			["Arrowy"] = -539.999938964844,
+			["top"] = -539.999938964844,
+			["XPInvert"] = 0,
+			["TextScale"] = 0.711111128330231,
+			["NewsScale"] = 0.711111128330231,
+			["NewsLock"] = 0,
+			["XPScale"] = 0.711111128330231,
+			["Newsleft"] = 1476.92307692308,
+			["NewsHide"] = 0,
+		},
+	},
+	["Redus-BurningLegion"] = {
+		["Settings"] = {
+			["Textleft"] = 978.285461425781,
+			["Scale"] = 0.71,
+			["TextScale"] = 1.2,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1107.92333984375,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -539.999938964844,
+			["XPScale"] = 0.711111128330231,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 0,
+			["Newstop"] = -297.000061035156,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.711111128330231,
+			["XPHide"] = 0,
+			["Arrowx"] = 960,
+			["XPleft"] = 332,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -714.769485473633,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -406.999969482422,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["XPtop"] = -580.999969482422,
+			["TextInvert"] = 0,
+			["left"] = 252.000045776367,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Ðeathshot-SteamwheedleCartel"] = {
+	},
+	["Redus-BurningLegion"] = {
+		[1080] = 186,
+	},
+}
+CL_NewsEpics = {
+	["Nr"] = 0,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+	["Redus-BurningLegion"] = {
+		[1080] = 1,
+	},
+}

@@ -1,0 +1,82 @@
+
+Bagnon_Sets = {
+	["tackleColor"] = {
+	},
+	["leatherColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["glowAlpha"] = 0.5,
+	["engineerColor"] = {
+	},
+	["refrigeColor"] = {
+	},
+	["mineColor"] = {
+	},
+	["inscribeColor"] = {
+	},
+	["frames"] = {
+		["vault"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["inventory"] = {
+			["color"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["borderColor"] = {
+			},
+		},
+		["guild"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["bank"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+	},
+	["herbColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["gemColor"] = {
+	},
+	["reagentColor"] = {
+	},
+	["players"] = {
+		["Burning Legion"] = {
+			["Redus"] = {
+				["vault"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["inventory"] = {
+					["y"] = 416.999877929687,
+					["x"] = -183.000244140625,
+					["point"] = "BOTTOMRIGHT",
+					["hiddenBags"] = {
+					},
+					["brokerObject"] = "BagnonLauncher",
+					["itemScale"] = 1,
+					["columns"] = 13,
+				},
+				["guild"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["bank"] = {
+					["hiddenBags"] = {
+					},
+				},
+			},
+		},
+	},
+}

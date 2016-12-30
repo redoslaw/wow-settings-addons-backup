@@ -1,0 +1,11 @@
+Grid: disabled
+Altoholic: disabled
+Altoholic_Achievements: disabled
+Altoholic_Agenda: disabled
+Altoholic_Characters: disabled
+Altoholic_Grids: disabled
+Altoholic_Guild: disabled
+Altoholic_Search: disabled
+Altoholic_Summary: disabled
+myBigIgnite: disabled
+WoWNotifier: disabled

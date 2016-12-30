@@ -1,0 +1,252 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="TitanMount.lua"/>
+	<Frame parent="UIParent">
+		<Frames>
+			<Button name="TitanPanelMountButton" inherits="TitanPanelComboTemplate" frameStrata="FULLSCREEN" toplevel="true">
+			    <Scripts>
+                    <OnLoad>
+					    TitanPanelMountButton_OnLoad(self);
+                        TitanPanelButton_OnLoad(self);
+                    </OnLoad>
+                    <OnDoubleClick>
+                        TitanPanelMountButton_OnDoubleClick(button);
+                    </OnDoubleClick>
+                    <OnUpdate>
+                        TitanPanelMountButton_OnUpdate(self);
+                    </OnUpdate>
+					<OnEvent>
+                        TitanPanelMountButton_OnEvent(self, event, ...);
+                    </OnEvent>
+                </Scripts>
+			</Button>
+		</Frames>
+	</Frame>	
+	
+	<Frame name="TitanMountFavoriteDialog" toplevel="true" parent="UIParent" frameStrata="DIALOG" hidden="true" enableMouse="true">
+		<Size><AbsDimension x="400" y="500"/></Size>
+		<Anchors><Anchor point="CENTER"/></Anchors>
+	
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11"/>
+			</BackgroundInsets>
+			
+			<TileSize><AbsValue val="32"/></TileSize>
+			<EdgeSize><AbsValue val="32"/></EdgeSize>
+		</Backdrop>
+		
+		<Scripts>
+			<OnLoad>
+				LoadFavoriteDropDowns(self);
+            </OnLoad>
+		</Scripts>
+		
+		<Frames>
+			<Frame name="TitanMountFavoriteDialogTitle" toplevel="true" parent="TitanMountFavoriteDialog" frameStrata="DIALOG" hidden="false" enableMouse="true">
+				<Size><AbsDimension x="200" y="50"/></Size>
+				<Anchors><Anchor point="CENTER"><Offset><AbsDimension x="0" y="245"/></Offset></Anchor></Anchors>
+					
+				<Backdrop bgFile="Interface\FrameGeneral\UI-Background-Rock" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+				<BackgroundInsets>
+					<AbsInset left="11" right="12" top="12" bottom="11"/>
+				</BackgroundInsets>
+							
+				<TileSize><AbsValue val="45"/></TileSize>
+				<EdgeSize><AbsValue val="32"/></EdgeSize>
+				</Backdrop>
+				
+				<Layers>
+					<Layer>
+						<FontString text = "Manage Favorite Mounts" font="GameFontNormal">
+						<Size x="160" y="50"/>
+						<Anchors>
+							<Anchor point="CENTER">
+							</Anchor>
+						</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+			
+			<Frame name="TitanMountSpacer1" toplevel="true" parent="TitanMountFavoriteDialog" frameStrata="DIALOG" hidden="false" enableMouse="true">
+				<Size><AbsDimension x="350" y="25"/></Size>
+				<Anchors><Anchor point="CENTER"><Offset><AbsDimension x="-10" y="135"/></Offset></Anchor></Anchors>
+					
+				<Backdrop bgFile="Interface\RaidFrame\Raid-HSeparator" tile="true">
+				<BackgroundInsets>
+					<AbsInset left="11" right="12" top="12" bottom="11"/>
+				</BackgroundInsets>
+							
+				<TileSize><AbsValue val="100"/></TileSize>
+				<EdgeSize><AbsValue val="100"/></EdgeSize>
+				</Backdrop>
+				
+				<Layers>
+					<Layer>
+						<FontString text = "Account Favorites" font="SystemFont_Med1">
+						<Size x="200" y="20"/>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="-30" y="7"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+			
+			<Frame name="TitanMountSpacer2" toplevel="true" parent="TitanMountFavoriteDialog" frameStrata="DIALOG" hidden="false" enableMouse="true">
+				<Size><AbsDimension x="350" y="25"/></Size>
+				<Anchors><Anchor point="CENTER"><Offset><AbsDimension x="-10" y="-65"/></Offset></Anchor></Anchors>
+					
+				<Backdrop bgFile="Interface\RaidFrame\Raid-HSeparator" tile="true">
+				<BackgroundInsets>
+					<AbsInset left="11" right="12" top="12" bottom="11"/>
+				</BackgroundInsets>
+							
+				<TileSize><AbsValue val="100"/></TileSize>
+				<EdgeSize><AbsValue val="100"/></EdgeSize>
+				</Backdrop>
+				
+				<Layers>
+					<Layer>
+						<FontString text = "Character Favorites:" font="SystemFont_Med1">
+						<Size x="200" y="20"/>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="-30" y="7"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+		
+		<Layers>
+			<Layer>
+				<FontString text = "You may select up to 2 account-wide favorite mounts. These mounts will be available to all characters using Titan [Mount] and will be displayed above all character-specific mounts." font="SystemFont_Small" justifyh="Left">
+				<Size x="300" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "Account Favorite #1:" font="SystemFont_Small">
+				<Color r="1.0" g="0.82" b="0"/>
+				<Size x="110" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-112"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "Account Favorite #2:" font="SystemFont_Small">
+				<Color r="1.0" g="0.82" b="0"/>
+				<Size x="110" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-152"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "You may select up to 3 character-specific favorite mounts. These mounts will be displayed above all general mounts within the right click menu." font="SystemFont_Small" justifyh="Left">
+				<Size x="300" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-240"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "Character Favorite #1:" font="SystemFont_Small">
+				<Color r="1.0" g="0.82" b="0"/>
+				<Size x="115" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-312"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "Character Favorite #2:" font="SystemFont_Small">
+				<Color r="1.0" g="0.82" b="0"/>
+				<Size x="115" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-352"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+			
+			<Layer>
+				<FontString text = "Character Favorite #3:" font="SystemFont_Small">
+				<Color r="1.0" g="0.82" b="0"/>
+				<Size x="115" y="50"/>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="25" y="-392"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		
+		<Frames>
+			<Button name="$parentButtonClose" inherits="OptionsButtonTemplate" text="Close">
+				<Anchors>
+					<Anchor point="BOTTOMRIGHT">
+					<Offset><AbsDimension x="-15" y="16"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick> TitanMountFavoriteDialog:Hide(); </OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentButtonSave" inherits="OptionsButtonTemplate" text="Save">
+				<Anchors>
+					<Anchor point="BOTTOMLEFT">
+					<Offset><AbsDimension x="15" y="16"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick> SaveFavoriteMounts(); TitanMountFavoriteDialog:Hide(); </OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>

@@ -1,0 +1,151 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<CheckButton name="HoloFriendsOptions_CheckButtonTemplate" virtual="true">
+		<Size><AbsDimension x="20" y="20"/></Size>
+		<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT"/></Anchors>
+		<Scripts>
+			<OnClick>
+				HoloFriendsOptions_Button_OnClick(self);
+			</OnClick>
+			<OnEnter>
+				HoloFriendsOptions_Button_OnEnter(self);
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+		<NormalTexture file="Interface\Buttons\UI-CheckBox-Up"/>
+		<PushedTexture file="Interface\Buttons\UI-CheckBox-Down"/>
+		<HighlightTexture file="Interface\Buttons\UI-CheckBox-Highlight" alphaMode="ADD"/>
+		<CheckedTexture file="Interface\Buttons\UI-CheckBox-Check"/>
+		<DisabledCheckedTexture file="Interface\Buttons\UI-CheckBox-Check-Disabled"/>
+	</CheckButton>
+	<FontString name="HoloFriendsOptions_ChapterStringTemplate" inherits="GameFontNormal" virtual="true">
+		<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPRIGHT">
+			<Offset><AbsDimension x="10" y="-10"/></Offset>
+		</Anchor></Anchors>
+	</FontString>
+	<FontString name="HoloFriendsOptions_CommentStringTemplate" inherits="GameFontNormalSmall" virtual="true">
+		<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPRIGHT">
+			<Offset><AbsDimension x="10" y="10"/></Offset>
+		</Anchor></Anchors>
+	</FontString>
+	<FontString name="HoloFriendsOptions_TextStringTemplate" inherits="GameFontHighlightSmall" justifyH="LEFT" virtual="true">
+		<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPRIGHT">
+			<Offset><AbsDimension x="20" y="-3"/></Offset>
+		</Anchor></Anchors>
+	</FontString>
+	<Frame name="HoloFriendsOptions_TextFrameTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Layers><Layer level="ARTWORK">
+			<FontString name="$parent_Chapter" inherits="HoloFriendsOptions_ChapterStringTemplate" text=""/>
+			<FontString name="$parent_Comment" inherits="HoloFriendsOptions_CommentStringTemplate" text=""/>
+			<FontString name="$parent_Text" inherits="HoloFriendsOptions_TextStringTemplate" text=""/>
+		</Layer></Layers>
+		<Frames><CheckButton name="$parent_Button" inherits="HoloFriendsOptions_CheckButtonTemplate"/></Frames>
+		<Scripts>
+			<OnLoad>
+				HoloFriendsOptions_Text_OnLoad(self);
+			</OnLoad>
+			<OnUpdate>
+				HoloFriendsOptions_Button_OnUpdate(self);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsFAQ_TextFrameTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Layers><Layer level="ARTWORK">
+			<FontString name="$parent_Text" inherits="GameFontHighlightSmall" justifyH="LEFT" justifyV="TOP" text=""/>
+		</Layer></Layers>
+		<Scripts>
+			<OnLoad>
+				HoloFriendsFAQ_Text_OnLoad(self);
+			</OnLoad>
+			<OnUpdate>
+				local text = getglobal(self:GetName().."_Text");
+				text:SetWidth(InterfaceOptionsFramePanelContainer:GetWidth()-45);
+				self:SetHeight(text:GetHeight()+10);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<ScrollFrame name="HoloFriends_ScrollTemplate" inherits="UIPanelScrollFrameTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Scripts>
+			<OnLoad>
+				ScrollFrame_OnLoad(self);
+			</OnLoad>
+			<OnUpdate>
+				self:SetWidth(InterfaceOptionsFramePanelContainer:GetWidth()-45);
+				self:SetHeight(InterfaceOptionsFramePanelContainer:GetHeight()-60);
+			</OnUpdate>
+			<OnScrollRangeChanged>
+				ScrollFrame_OnScrollRangeChanged(self);
+			</OnScrollRangeChanged>
+		</Scripts>
+	</ScrollFrame>
+	<Frame name="HoloFriends_OptionsFrame" hidden="true">
+		<Layers><Layer level="OVERLAY">
+			<FontString name="$parentTitel" inherits="GameFontNormalLarge" text="HOLOFRIENDS_OPTIONS0WINDOWTITLE">
+				<Size><AbsDimension x="300" y="40"/></Size>
+				<Anchors><Anchor point="TOP" relativePoint="TOP"/></Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames><ScrollFrame name="$parentScroll" inherits="HoloFriends_ScrollTemplate">
+			<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+				<Offset><AbsDimension x="10" y="-50"/></Offset>
+			</Anchor></Anchors>
+			<ScrollChild><Frame name="$parentChild">
+				<Size><AbsDimension x="1" y="1"/></Size>
+				<Scripts>
+					<!-- OnLoad create the text lines with the check buttons -->
+					<OnLoad>
+						local template = "HoloFriendsOptions_TextFrameTemplate";
+						local rframe = self:GetName();
+						local nOptions = HoloFriendsOptions_nOptionStrings;
+						HoloFriendsInit_CreateListButtons_OnLoad(self, "Frame", "_ID", template, rframe, 0, 0, nOptions);
+					</OnLoad>
+				</Scripts>
+			</Frame></ScrollChild>
+		</ScrollFrame></Frames>
+		<Scripts>
+			<!-- OnLoad add the options frame to the interface options panel of WoW -->
+			<OnLoad>
+				HoloFriendsOptions_OnLoad(self);
+			</OnLoad>
+			<!-- OnShow init the check buttons -->
+			<OnShow>
+				HoloFriendsOptions_OnShow(self);
+			</OnShow>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriends_FAQFrame" hidden="true">
+		<Layers><Layer level="OVERLAY">
+			<FontString name="$parentTitel" inherits="GameFontNormalLarge" text="HOLOFRIENDS_FAQ000TITLE">
+				<Size><AbsDimension x="300" y="40"/></Size>
+				<Anchors><Anchor point="TOP" relativePoint="TOP"/></Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames><ScrollFrame name="$parentScroll" inherits="HoloFriends_ScrollTemplate">
+			<Anchors><Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+				<Offset><AbsDimension x="10" y="-50"/></Offset>
+			</Anchor></Anchors>
+			<ScrollChild><Frame name="$parentChild">
+				<Size><AbsDimension x="1" y="1"/></Size>
+				<Scripts>
+					<!-- OnLoad create the blocks of the FAQ text -->
+					<OnLoad>
+						local template = "HoloFriendsFAQ_TextFrameTemplate";
+						local rframe = self:GetName();
+						local nOptions = HoloFriendsOptions_nFAQStrings;
+						HoloFriendsInit_CreateListButtons_OnLoad(self, "Frame", "_ID", template, rframe, 0, 0, nOptions);
+					</OnLoad>
+				</Scripts>
+			</Frame></ScrollChild>
+		</ScrollFrame></Frames>
+		<Scripts>
+			<!-- OnLoad add the FAQ frame to the interface options panel of WoW -->
+			<OnLoad>
+				HoloFriendsFAQ_OnLoad(self);
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>

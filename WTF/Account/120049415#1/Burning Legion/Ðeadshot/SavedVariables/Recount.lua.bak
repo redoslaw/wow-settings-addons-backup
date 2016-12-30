@@ -1,0 +1,4340 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Bowjoß"] = {
+			["GUID"] = "Player-3713-079A3668",
+			["LastEventHealth"] = {
+				"576 (100%)", -- [1]
+				"576 (100%)", -- [2]
+				"576 (100%)", -- [3]
+				"576 (100%)", -- [4]
+				"576 (100%)", -- [5]
+				"576 (100%)", -- [6]
+				"576 (100%)", -- [7]
+				"576 (100%)", -- [8]
+				"576 (100%)", -- [9]
+				"576 (100%)", -- [10]
+				"576 (100%)", -- [11]
+				"612 (100%)", -- [12]
+				"612 (100%)", -- [13]
+				"612 (100%)", -- [14]
+				"612 (100%)", -- [15]
+				"612 (100%)", -- [16]
+				"612 (100%)", -- [17]
+				"612 (100%)", -- [18]
+				"612 (100%)", -- [19]
+				"612 (100%)", -- [20]
+				"612 (100%)", -- [21]
+				"612 (100%)", -- [22]
+				"612 (100%)", -- [23]
+				"612 (100%)", -- [24]
+				"612 (100%)", -- [25]
+				"612 (100%)", -- [26]
+				"612 (100%)", -- [27]
+				"612 (100%)", -- [28]
+				"612 (100%)", -- [29]
+				"612 (100%)", -- [30]
+				"612 (100%)", -- [31]
+				"612 (100%)", -- [32]
+				"612 (100%)", -- [33]
+				"612 (100%)", -- [34]
+				"612 (100%)", -- [35]
+				"612 (100%)", -- [36]
+				"612 (100%)", -- [37]
+				"612 (100%)", -- [38]
+				"612 (100%)", -- [39]
+				"612 (100%)", -- [40]
+				"612 (100%)", -- [41]
+				"612 (100%)", -- [42]
+				"612 (100%)", -- [43]
+				"612 (100%)", -- [44]
+				"576 (100%)", -- [45]
+				"576 (100%)", -- [46]
+				"576 (100%)", -- [47]
+				"576 (100%)", -- [48]
+				"576 (100%)", -- [49]
+				"576 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Grellkin",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"DAMAGE", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"DAMAGE", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0, -- [1]
+				},
+				["Healing"] = {
+					2, -- [1]
+				},
+				["DamageTaken"] = {
+					2, -- [1]
+				},
+				["EnergyGain"] = {
+					224, -- [1]
+				},
+				["HealingTaken"] = {
+					2, -- [1]
+				},
+				["Overhealing"] = {
+					1575, -- [1]
+				},
+				["TimeDamage"] = {
+					159.35, -- [1]
+				},
+				["ActiveTime"] = {
+					159.35, -- [1]
+				},
+				["Damage"] = {
+					7390, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Bowjoß",
+			["LastDamageTaken"] = 2,
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 16,
+			["LastEventNum"] = {
+				nil, -- [1]
+				1.90972222222222, -- [2]
+				1.90972222222222, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				1.90972222222222, -- [6]
+				2.08333333333333, -- [7]
+				nil, -- [8]
+				nil, -- [9]
+				2.08333333333333, -- [10]
+				2.08333333333333, -- [11]
+				nil, -- [12]
+				1.96078431372549, -- [13]
+				2.12418300653595, -- [14]
+				nil, -- [15]
+				1.96078431372549, -- [16]
+				1.96078431372549, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				1.96078431372549, -- [20]
+				1.96078431372549, -- [21]
+				nil, -- [22]
+				nil, -- [23]
+				1.96078431372549, -- [24]
+				1.96078431372549, -- [25]
+				nil, -- [26]
+				nil, -- [27]
+				2.12418300653595, -- [28]
+				2.12418300653595, -- [29]
+				[45] = 2.08333333333333,
+				[46] = 1.90972222222222,
+				[48] = 2.08333333333333,
+				[49] = 2.08333333333333,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 4733.718,
+			["TimeLast"] = {
+				["TimeHeal"] = 4589.318,
+				["OVERALL"] = 4733.301,
+				["DamageTaken"] = 4589.318,
+				["EnergyGain"] = 4732.301,
+				["HealingTaken"] = 4589.318,
+				["Overhealing"] = 4649.301,
+				["ActiveTime"] = 4733.301,
+				["TimeDamage"] = 4733.301,
+				["Healing"] = 4589.318,
+				["Damage"] = 4733.301,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Cat <Bowjoß>", -- [1]
+			},
+			["NextEventNum"] = 45,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Bowjoß Arcane Shot Grellkin Crit -111 (Arcane)", -- [1]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +11 (11 overheal)", -- [2]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +11 (11 overheal)", -- [3]
+				"Bowjoß Auto Shot Grellkin Hit -47 (Physical)", -- [4]
+				"Bowjoß Arcane Shot Grellkin Crit -115 (Arcane)", -- [5]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +11 (11 overheal)", -- [6]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [7]
+				"Bowjoß Auto Shot Grellkin Hit -44 (Physical)", -- [8]
+				"Bowjoß Arcane Shot Grellkin Hit -65 (Arcane)", -- [9]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [10]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [11]
+				"Bowjoß Auto Shot Grellkin Crit -90 (Physical)", -- [12]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [13]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +13 (13 overheal)", -- [14]
+				"Bowjoß Arcane Shot Grellkin Crit -121 (Arcane)", -- [15]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [16]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [17]
+				"Bowjoß Steady Shot Grellkin Hit -38 (Physical)", -- [18]
+				"Bowjoß Auto Shot Grellkin Hit -42 (Physical)", -- [19]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [20]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [21]
+				"Bowjoß Auto Shot Grellkin Hit -50 (Physical)", -- [22]
+				"Bowjoß Steady Shot Grellkin Hit -37 (Physical)", -- [23]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [24]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [25]
+				"Bowjoß Auto Shot Grellkin Hit -47 (Physical)", -- [26]
+				"Bowjoß Steady Shot Grellkin Crit -74 (Physical)", -- [27]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +13 (13 overheal)", -- [28]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +13 (13 overheal)", -- [29]
+				"Bowjoß Steady Shot Training Dummy Crit -75 (Physical)", -- [30]
+				"Bowjoß Auto Shot Training Dummy Crit -91 (Physical)", -- [31]
+				"Bowjoß Steady Shot Training Dummy Crit -75 (Physical)", -- [32]
+				"Bowjoß Auto Shot Training Dummy Crit -98 (Physical)", -- [33]
+				"Bowjoß Steady Shot Training Dummy Crit -84 (Physical)", -- [34]
+				"Bowjoß Auto Shot Training Dummy Crit -100 (Physical)", -- [35]
+				"Bowjoß Steady Shot Training Dummy Crit -75 (Physical)", -- [36]
+				"Bowjoß Auto Shot Training Dummy Hit -43 (Physical)", -- [37]
+				"Bowjoß Steady Shot Training Dummy Crit -74 (Physical)", -- [38]
+				"Bowjoß Auto Shot Training Dummy Hit -49 (Physical)", -- [39]
+				"Bowjoß Steady Shot Training Dummy Crit -73 (Physical)", -- [40]
+				"Bowjoß Auto Shot Training Dummy Hit -47 (Physical)", -- [41]
+				"Bowjoß Auto Shot Training Dummy Hit -44 (Physical)", -- [42]
+				"Bowjoß Steady Shot Training Dummy Hit -42 (Physical)", -- [43]
+				"Bowjoß Auto Shot Training Dummy Crit -87 (Physical)", -- [44]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [45]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +11 (11 overheal)", -- [46]
+				"Bowjoß Auto Shot Grellkin Crit -85 (Physical)", -- [47]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [48]
+				"Bowjoß Swift Hand of Justice Bowjoß Hit +12 (12 overheal)", -- [49]
+				"Bowjoß Auto Shot Grellkin Hit -42 (Physical)", -- [50]
+			},
+			["Name"] = "Bowjoß",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				4628.618, -- [1]
+				4628.618, -- [2]
+				4628.618, -- [3]
+				4630.185, -- [4]
+				4630.301, -- [5]
+				4630.301, -- [6]
+				4630.301, -- [7]
+				4633.685, -- [8]
+				4633.685, -- [9]
+				4633.685, -- [10]
+				4633.685, -- [11]
+				4639.551, -- [12]
+				4639.551, -- [13]
+				4639.551, -- [14]
+				4640.868, -- [15]
+				4640.868, -- [16]
+				4640.868, -- [17]
+				4643.918, -- [18]
+				4643.918, -- [19]
+				4643.918, -- [20]
+				4643.918, -- [21]
+				4647.184, -- [22]
+				4647.184, -- [23]
+				4647.184, -- [24]
+				4647.184, -- [25]
+				4649.568, -- [26]
+				4649.684, -- [27]
+				4649.684, -- [28]
+				4649.684, -- [29]
+				4722.402, -- [30]
+				4722.518, -- [31]
+				4723.718, -- [32]
+				4724.151, -- [33]
+				4724.935, -- [34]
+				4725.617, -- [35]
+				4726.284, -- [36]
+				4727.584, -- [37]
+				4728.384, -- [38]
+				4728.968, -- [39]
+				4729.651, -- [40]
+				4730.484, -- [41]
+				4732.034, -- [42]
+				4733.301, -- [43]
+				4733.718, -- [44]
+				4608.985, -- [45]
+				4608.985, -- [46]
+				4626.435, -- [47]
+				4626.435, -- [48]
+				4626.435, -- [49]
+				4628.485, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["TimeHealing"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 69,
+						},
+					},
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 0.13,
+								},
+								["Auto Shot"] = {
+									["count"] = 6.33,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.46,
+						},
+					},
+					["DamageTaken"] = 2,
+					["EnergyGain"] = 14,
+					["Overhealing"] = 69,
+					["ActiveTime"] = 6.46,
+					["WhoHealed"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["WhoDamaged"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Damage"] = 292,
+					["HealedWho"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeHeal"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2,
+						},
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Healing"] = 2,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 63,
+						["Physical"] = 229,
+					},
+					["HealingTaken"] = 2,
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 35,
+								},
+								["Auto Shot"] = {
+									["count"] = 194,
+								},
+								["Arcane Shot"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 292,
+						},
+					},
+					["TimeDamage"] = 6.46,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 0.13,
+								},
+								["Auto Shot"] = {
+									["count"] = 6.33,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.46,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 98,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 98,
+								},
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 2,
+									["amount"] = 96,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 194,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 35,
+									["count"] = 1,
+									["amount"] = 35,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 35,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 63,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 208,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 208,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 97,
+								},
+								["Steady Shot"] = {
+									["count"] = 111,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 208,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 50,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 50,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 28,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 50,
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.65,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.12,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.77,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["ActiveTime"] = 5.77,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 97,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 74,
+									["min"] = 74,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 111,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.77,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.65,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.12,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.77,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Steady Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Steady Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Steady Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 400,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 226,
+						["Physical"] = 174,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 174,
+								},
+								["Arcane Shot"] = {
+									["count"] = 226,
+								},
+							},
+							["amount"] = 400,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 69,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 69,
+					["TimeSpent"] = {
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.12,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 7.37,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.37,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 85,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 85,
+								},
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 174,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 115,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 226,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 226,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.37,
+					["TimeDamaging"] = {
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.12,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 7.37,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 652,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 355,
+						["Physical"] = 297,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 225,
+								},
+								["Steady Shot"] = {
+									["count"] = 72,
+								},
+								["Arcane Shot"] = {
+									["count"] = 355,
+								},
+							},
+							["amount"] = 652,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 162,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 162,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 14,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 162,
+					["TimeSpent"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.18,
+								},
+								["Steady Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 4.89,
+								},
+							},
+							["amount"] = 12.57,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ActiveTime"] = 12.57,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 181,
+								},
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 225,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 72,
+									["min"] = 72,
+									["count"] = 1,
+									["amount"] = 72,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 72,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 124,
+									["min"] = 113,
+									["count"] = 2,
+									["amount"] = 237,
+								},
+								["Hit"] = {
+									["max"] = 60,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 118,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 355,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 12.57,
+					["TimeDamaging"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.18,
+								},
+								["Steady Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 4.89,
+								},
+							},
+							["amount"] = 12.57,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1057,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 1057,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 498,
+								},
+								["Auto Shot"] = {
+									["count"] = 559,
+								},
+							},
+							["amount"] = 1057,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 112,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["ActiveTime"] = 14.81,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 100,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 376,
+								},
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 183,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 559,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 84,
+									["min"] = 73,
+									["count"] = 6,
+									["amount"] = 456,
+								},
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 498,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 14.81,
+					["TimeDamaging"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1057,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 1057,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 498,
+								},
+								["Auto Shot"] = {
+									["count"] = 559,
+								},
+							},
+							["amount"] = 1057,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 112,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["ActiveTime"] = 14.81,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 100,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 376,
+								},
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 183,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 559,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 84,
+									["min"] = 73,
+									["count"] = 6,
+									["amount"] = 456,
+								},
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 498,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 14.81,
+					["TimeDamaging"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 9,
+									["count"] = 144,
+									["amount"] = 1575,
+								},
+							},
+							["count"] = 144,
+							["amount"] = 1575,
+						},
+					},
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.81,
+								},
+								["Arcane Shot"] = {
+									["count"] = 7.55,
+								},
+							},
+							["amount"] = 34.36,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.79,
+								},
+								["Arcane Shot"] = {
+									["count"] = 6.85,
+								},
+							},
+							["amount"] = 33.64,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 39.68,
+								},
+								["Steady Shot"] = {
+									["count"] = 12.98,
+								},
+								["Arcane Shot"] = {
+									["count"] = 10.21,
+								},
+							},
+							["amount"] = 62.87,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 5.25,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.24,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 8.42,
+						},
+					},
+					["DamageTaken"] = 2,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["Overhealing"] = 1575,
+					["ActiveTime"] = 159.35,
+					["WhoHealed"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Damage"] = 7390,
+					["HealedWho"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeHeal"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2,
+						},
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Bowjoß"] = {
+									["count"] = 224,
+								},
+							},
+							["amount"] = 224,
+						},
+					},
+					["WhoDamaged"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Healing"] = 2,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 224,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 100,
+									["min"] = 83,
+									["count"] = 30,
+									["amount"] = 2741,
+								},
+								["Hit"] = {
+									["max"] = 51,
+									["min"] = 40,
+									["count"] = 25,
+									["amount"] = 1136,
+								},
+							},
+							["count"] = 55,
+							["amount"] = 3877,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 84,
+									["min"] = 72,
+									["count"] = 11,
+									["amount"] = 849,
+								},
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 35,
+									["count"] = 4,
+									["amount"] = 152,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 1001,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 128,
+									["min"] = 108,
+									["count"] = 15,
+									["amount"] = 1741,
+								},
+								["Hit"] = {
+									["max"] = 65,
+									["min"] = 51,
+									["count"] = 13,
+									["amount"] = 771,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 2512,
+						},
+					},
+					["HealingTaken"] = 2,
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 924,
+								},
+								["Arcane Shot"] = {
+									["count"] = 290,
+								},
+							},
+							["amount"] = 1214,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 498,
+								},
+								["Auto Shot"] = {
+									["count"] = 559,
+								},
+							},
+							["amount"] = 1057,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 844,
+								},
+								["Arcane Shot"] = {
+									["count"] = 975,
+								},
+							},
+							["amount"] = 1819,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 1261,
+								},
+								["Steady Shot"] = {
+									["count"] = 503,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1125,
+								},
+							},
+							["amount"] = 2889,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 96,
+								},
+								["Arcane Shot"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 155,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 193,
+								},
+								["Arcane Shot"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 256,
+						},
+					},
+					["TimeDamage"] = 159.35,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.81,
+								},
+								["Arcane Shot"] = {
+									["count"] = 7.55,
+								},
+							},
+							["amount"] = 34.36,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 8.9,
+								},
+								["Auto Shot"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 14.81,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 26.79,
+								},
+								["Arcane Shot"] = {
+									["count"] = 6.85,
+								},
+							},
+							["amount"] = 33.64,
+						},
+						["Grellkin"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 39.68,
+								},
+								["Steady Shot"] = {
+									["count"] = 12.98,
+								},
+								["Arcane Shot"] = {
+									["count"] = 10.21,
+								},
+							},
+							["amount"] = 62.87,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.75,
+								},
+							},
+							["amount"] = 5.25,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.24,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.18,
+								},
+							},
+							["amount"] = 8.42,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Bowjoß"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 224,
+								},
+							},
+							["amount"] = 224,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 2512,
+						["Physical"] = 4878,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 41,
+								},
+								["Hit"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 4381.302,
+			["LastActive"] = 4733.301,
+		},
+		["Cat <Bowjoß>"] = {
+			["GUID"] = "Creature-0-1084-1-51-42718-00003AFEB8",
+			["LastEventHealth"] = {
+				"126 (34%)", -- [1]
+				"343 (93%)", -- [2]
+				"368 (100%)", -- [3]
+				"403 (100%)", -- [4]
+				"403 (100%)", -- [5]
+				"403 (100%)", -- [6]
+				"403 (100%)", -- [7]
+				"428 (100%)", -- [8]
+				"428 (100%)", -- [9]
+				"428 (100%)", -- [10]
+				"428 (100%)", -- [11]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					427, -- [1]
+				},
+				["TimeDamage"] = {
+					22.95, -- [1]
+				},
+				["ActiveTime"] = {
+					22.95, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Cat",
+			["level"] = 1,
+			["LastFightIn"] = 16,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["TimeLast"] = {
+				["Damage"] = 4735.301,
+				["OVERALL"] = 4735.301,
+				["TimeDamage"] = 4735.301,
+				["ActiveTime"] = 4735.301,
+			},
+			["LastAbility"] = 4735.368,
+			["NextEventNum"] = 12,
+			["LastEventHealthNum"] = {
+				34.2391304347826, -- [1]
+				93.2065217391305, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+			},
+			["LastEvents"] = {
+				"Cat <Bowjoß> Melee Grell Crit -40 (Physical)", -- [1]
+				"Cat <Bowjoß> Claw Grell Crit -79 (Physical)", -- [2]
+				"Cat <Bowjoß> Claw Grell Hit -39 (Physical)", -- [3]
+				"Cat <Bowjoß> Claw Grellkin Hit -47 (Physical)", -- [4]
+				"Cat <Bowjoß> Melee Grellkin Crit -42 (Physical)", -- [5]
+				"Grellkin Melee Cat <Bowjoß> Parry (1)", -- [6]
+				"Cat <Bowjoß> Claw Grellkin Crit -77 (Physical)", -- [7]
+				"Cat <Bowjoß> Melee Training Dummy Hit -21 (Physical)", -- [8]
+				"Cat <Bowjoß> Claw Training Dummy Hit -40 (Physical)", -- [9]
+				"Cat <Bowjoß> Melee Training Dummy Hit -21 (Physical)", -- [10]
+				"Cat <Bowjoß> Melee Training Dummy Hit -21 (Physical)", -- [11]
+			},
+			["Name"] = "Cat",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+			},
+			["LastEventTimes"] = {
+				4468.969, -- [1]
+				4473.968, -- [2]
+				4481.936, -- [3]
+				4592.951, -- [4]
+				4608.835, -- [5]
+				4608.835, -- [6]
+				4608.835, -- [7]
+				4733.418, -- [8]
+				4733.418, -- [9]
+				4734.368, -- [10]
+				4735.368, -- [11]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 47,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 47,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Claw"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 47,
+									["count"] = 1,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 47,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 103,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 63,
+						["Physical"] = 40,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 63,
+								},
+								["Claw"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.45,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 63,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 40,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.45,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 103,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 63,
+						["Physical"] = 40,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 63,
+								},
+								["Claw"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.45,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 63,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 40,
+									["count"] = 1,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 40,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.45,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Claw"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 145,
+						["Physical"] = 282,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DamagedWho"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 42,
+								},
+								["Claw"] = {
+									["count"] = 124,
+								},
+							},
+							["amount"] = 166,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 63,
+								},
+								["Claw"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 103,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40,
+								},
+								["Claw"] = {
+									["count"] = 118,
+								},
+							},
+							["amount"] = 158,
+						},
+					},
+					["TimeDamage"] = 22.95,
+					["TimeDamaging"] = {
+						["Grellkin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.45,
+								},
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.45,
+						},
+						["Grell"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Claw"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 42,
+									["min"] = 40,
+									["count"] = 2,
+									["amount"] = 82,
+								},
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 145,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 79,
+									["min"] = 77,
+									["count"] = 2,
+									["amount"] = 156,
+								},
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 39,
+									["count"] = 3,
+									["amount"] = 126,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 282,
+						},
+					},
+					["ActiveTime"] = 22.95,
+					["Damage"] = 427,
+				},
+			},
+			["UnitLockout"] = 4468.302,
+			["LastActive"] = 4735.301,
+		},
+	},
+	["FightNum"] = 17,
+	["CombatTimes"] = {
+		{
+			4381.302, -- [1]
+			4385.302, -- [2]
+			"04:42:57", -- [3]
+			"04:43:01", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [1]
+		{
+			4398.302, -- [1]
+			4403.303, -- [2]
+			"04:43:15", -- [3]
+			"04:43:19", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [2]
+		{
+			4447.302, -- [1]
+			4453.302, -- [2]
+			"04:44:03", -- [3]
+			"04:44:09", -- [4]
+			"Grell", -- [5]
+		}, -- [3]
+		{
+			4465.302, -- [1]
+			4470.302, -- [2]
+			"04:44:21", -- [3]
+			"04:44:26", -- [4]
+			"Grell", -- [5]
+		}, -- [4]
+		{
+			4472.302, -- [1]
+			4476.302, -- [2]
+			"04:44:28", -- [3]
+			"04:44:32", -- [4]
+			"Grell", -- [5]
+		}, -- [5]
+		{
+			4480.302, -- [1]
+			4490.302, -- [2]
+			"04:44:36", -- [3]
+			"04:44:46", -- [4]
+			"Grell", -- [5]
+		}, -- [6]
+		{
+			4493.302, -- [1]
+			4498.302, -- [2]
+			"04:44:50", -- [3]
+			"04:44:54", -- [4]
+			"Deer", -- [5]
+		}, -- [7]
+		{
+			4499.302, -- [1]
+			4505.302, -- [2]
+			"04:44:56", -- [3]
+			"04:45:01", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [8]
+		{
+			4525.302, -- [1]
+			4529.302, -- [2]
+			"04:45:21", -- [3]
+			"04:45:25", -- [4]
+			"Young Thistle Boar", -- [5]
+		}, -- [9]
+		{
+			4563.302, -- [1]
+			4567.301, -- [2]
+			"04:45:59", -- [3]
+			"04:46:03", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [10]
+		{
+			4567.301, -- [1]
+			4572.301, -- [2]
+			"04:46:04", -- [3]
+			"04:46:08", -- [4]
+			"Grellkin", -- [5]
+		}, -- [11]
+		{
+			4582.302, -- [1]
+			4585.318, -- [2]
+			"04:46:18", -- [3]
+			"04:46:21", -- [4]
+			"Grellkin", -- [5]
+		}, -- [12]
+		{
+			4585.318, -- [1]
+			4591.301, -- [2]
+			"04:46:22", -- [3]
+			"04:46:27", -- [4]
+			"Grellkin", -- [5]
+		}, -- [13]
+		{
+			4592.301, -- [1]
+			4603.302, -- [2]
+			"04:46:28", -- [3]
+			"04:46:39", -- [4]
+			"Grellkin", -- [5]
+		}, -- [14]
+		{
+			4626.301, -- [1]
+			4632.301, -- [2]
+			"04:47:02", -- [3]
+			"04:47:08", -- [4]
+			"Grellkin", -- [5]
+		}, -- [15]
+		{
+			4646.301, -- [1]
+			4651.301, -- [2]
+			"04:47:23", -- [3]
+			"04:47:27", -- [4]
+			"Grellkin", -- [5]
+		}, -- [16]
+		{
+			4722.301, -- [1]
+			4741.301, -- [2]
+			"04:48:38", -- [3]
+			"04:48:57", -- [4]
+			"Training Dummy", -- [5]
+		}, -- [17]
+	},
+	["FoughtWho"] = {
+		"Training Dummy 04:48:38-04:48:57", -- [1]
+		"Grellkin 04:47:23-04:47:27", -- [2]
+		"Grellkin 04:47:02-04:47:08", -- [3]
+		"Grellkin 04:46:28-04:46:39", -- [4]
+		"Grellkin 04:46:22-04:46:27", -- [5]
+	},
+}

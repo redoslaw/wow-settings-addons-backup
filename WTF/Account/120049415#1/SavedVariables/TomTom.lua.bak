@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["profiles"] = {
+		["Redus - Burning Legion"] = {
+		},
+	},
+}

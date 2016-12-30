@@ -1,0 +1,443 @@
+HoloFriends addon created by Holo, continued by Zappster, followed by Andymon
+
+Get the latest version at wow.curse.com
+
+This adds an enhanced friends list.
+You will love it ;)
+
+Andymon
+
+
+Change Log:
+0.492: (by Andymon)
+    * With LibWho-2.0 execute a new who request only if no other who request is active to limit who-spam
+      if an addon is not accounting for LibWho-2.0 events
+      (LibWho-2.0 is globaly disabling the regular in-game who event)
+    * Skip class scan with who for realID friends to have less who requests
+    * Ignore every who-request for realID friends if the client is not WoW
+    * Limit the number of silent who requests by scanning the online state with SendAddonMessage
+    * Hide system messages for silent requests now in all chat frames
+    * Added clear comment to the option which disables all who requests of HoloFriends
+0.491: (by Andymon)
+    * Another try to fix the who-spam related to LibWho-2.0 and a change of a in-game function in the past
+0.490: (by Andymon)
+    * Try to fix who-scans of bnet-friends at other bnet-game than WoW
+0.489: (by Andymon)
+    * removed the addon loaded message
+0.488: (by Andymon)
+    * identification of the realID friends by battleTag and bnetIDAccount
+      (old identification is lost, thus all realID and battleTag friends names have to be given again)
+      -> old realID friends list entries marked inactive (offline) can be deleted
+      (see the not checked check box in front of realID friends in the HoloFriends friends list)
+    * fixed the input dialog for the real name of realID and battleTag friends
+    * fixed drag and drop of friends and move to group right click menu in the friends list
+    * fixed the whisper entry in the right click menu for realID and battleTag friends
+    * fix to set unused entries in the right click menu inactive in the friends list
+    * fixed the creation and modify of notes for realID and battleTag friends
+    * includes more localization for zhCN by Aladdinn
+0.487: (by Andymon)
+    * fixes for WoW patch 6.2.4
+0.486: (by Andymon)
+    * fixes a problem with menus of the addon Mogit
+0.485: (by Andymon)
+    * max. number of online friends is now 200
+0.484: (by Andymon)
+    * included an option to disable the automatic /who-scan
+0.483: (by Andymon)
+    * changed event handling to reduce delays in window updates
+    * skip unnecessary list updates (at friends list show or hide)
+    * added a new milliseconds timer
+    * included continuation of the list update at an other time step in case of
+      run time > 60ms (because at 100ms run time it gives a time out error in combat)
+    * fix to ignore menus without a name
+    * added a few more debug messages
+0.482: (by Andymon)
+    * some optimisation to solve the time out problem with the addon oqueue (ticket 64)
+    * fix for the change of friends to/from the online/offline friends list, to mark
+      the change only if it was successful
+    * fix for the char (address) list of the letter box: own chars of both factions are
+      now listed on top and only once
+    * fix to the friends list in the share window, where the sharing of friends in
+      groups with names starting with A to S had problems
+    * the list of own chars in the friends share window is now sorted correctly
+    * it should now be possible to remove your Pandaren chars which have no faction
+    * tentative try of a localization for Brazilian Portuguese (ptBR) by Kasth
+0.481: (by Andymon)
+    * fix for invite of realID friends from other servers
+0.480: (by Andymon)
+    * fix for a bug which disabled the invite of realID friends from other servers in
+      the pull-down menu of the HoloFriends friends window
+0.479: (by Andymon)
+    * fixed a bug with the new version of the auto-complete of player names
+    * remove of the bug fix from the former version of HoloFriends (fixed by Blizzard)
+0.478: (by Andymon)
+    * try to fix two reported bugs (undefined values at VARIABLES_LOADED and PLAYER_LOGOUT)
+0.477: (by Andymon)
+    * fix for removed global variable holding the realm name
+    * temporary check button on top of the window to disable all functions which taint
+      the who-frame with patch 5.4.1 (options panel, menus, window switches)
+      I suggest the use of the addon !Swatter to suppress the annoying tainting window.
+      (!Swatter is part of the addon suite Auctioneer, but can be installed separately)
+0.476: (by Andymon)
+    * fix for the address list at the mail frame (own chars are now listed first)
+0.475: (by Andymon)
+    * fix to add friends from other realms
+    * fix for not updating lists after removal of friend/ignore (missing system message)
+0.474: (by Andymon)
+    * fixes a bug with the invite of RealID friends via eMail or battle tag
+0.473: (by Andymon)
+    * fixes a bug with the init of the options at the first time start of HoloFriends
+0.472: (by Andymon)
+    * fix for empty friends list (missing FRIENDLIST_UPDATE event for in-game
+      function ShowFriends() with online RealID friends)
+    * fix to ignore "Unknown" entries for not faction wide lists
+0.471: (by Andymon)
+    * fix to ignore "Unknown" entries in the in-game friends and ignore list,
+      which could crash the game (for faction wide lists, the related entries
+      are readded, which removes the "Unknown" entries)
+    * fix to remove the display of the flag in the first column of the ignore list
+0.470: (by Andymon)
+    * search the friends and ignore list for names and comments
+    * display the search results in a search group which allow mass invite
+    * use the # sign to hide keywords in front of the comments
+    * mark a friend to monitor its status and show a message window if he came online
+    * disabled rename and remove pulldown menu buttons for FRIENDS, IGNORE, SEARCH group
+    * fix for some edit boxes where the ENTER key was not working
+    * fix for not reacting friends list after removing the online status from a friend
+      (after removing a friend from the in-game friends list,
+       the server is not sending a confirmation anymore)
+0.464: (by Andymon)
+    * fix for continued who messages if a monk is in your friends list
+    * fix for the display of class colors or class icons for monk friends
+    * fix for the add friend button at the who window (now with hook to HoloFriends)
+0.463: (by Andymon)
+    * fix to allow the invite of RealID friends to a group and set the chars faction
+    * fix to allow the friend list invite of RealID friends with the battle tag
+    * fix to set and sync online note and comments for RealID friends
+    * fix to allow the remove of a RealID friend from the friends list
+0.462: (by Andymon)
+    * added comment line to option chapter headings (use like an option chapter heading,
+      but the string has to start with left parenthesis)
+    * update to the localization for zhTW (Thanks to skywalkertw)
+    * localisation files converted to UTF-8
+    * implemented optional window buttons (the order of activation in the options window
+      determines the display order of the buttons)
+    * new menu buttons: HoloFriends's ignore button in chat-pull-down menus removed
+      (use in-game provided menu button for ignore)
+    * fix to disable for groups the sub-menu, which move friends or ignore to other group
+    * fix to update the open ignore window after the change of options
+0.461 (beta): (by Andymon)
+    * fix to whisper to RealID friends (now existing two whisper functions - /w and /cw)
+0.460 (beta): (by Andymon)
+    -> not working jet: optional window buttons
+    -> known problems: new methode to add menu buttons is not setting server for ignores
+    * updated localization for zhTW (Thanks to skywalkertw)
+    * fix to the display of RealID friends
+    * friends and ignore list buttons (entries) are now created dynamically
+    * added all functions to the pulldown menu of the HoloFriends list buttons
+      + add friend or ignore adds to the group of the clicked list button
+      + sub-menu to move friend or ignore directly to a group
+      + menu entries are now referenced by name than index
+      + added group menu entry to invite all online friends of a group at once
+    * added optional display of the number of online friends for every group
+    * added toggle button to open and close all groups at once
+    * introduce a methode to add menu buttons without tainting -> optional
+      (HoloFriends_DropDownList1_OnShow, HFF_CreateMenuButton, HFF_AddMenuButtons)
+    * defined space and position of the HoloFriends windows like the friends window
+    * included time delay to allow switch from HoloFriends window to friends window
+    * fixed middle button clicks by registering the button
+    * removed the call of sub-routines of the FriendsWindow, because of tainting
+    * more easy handling of options
+      + added a function to create the text sections in the options and FAQ window
+        (HoloFriendsOptions_CreateButtons_OnLoad, HoloFriendsFAQ_CreateButtons_OnLoad)
+      + added arrays to assign the index to the names and strings
+    * fix of autocompletion for own chars, if together in guild
+    * added an option to switch the order of real name and char name for RealID
+      friends in the friends list
+    * the turn button at bottom center now switch the display of
+      area -> comment -> broadcast behind the friends name
+    * using only one modified button template for friends and ignore lists
+    * created a HoloFriends frame template for the friends and ignore list
+    * added missing elements to the HoloFriends frame template to make the
+      HoloFriends friends and ignore frame independent of the in-game FriendsFrame
+0.459: (by Andymon)
+    * fix of the list display of realID friends
+    * rearranged the friends and ignore list window
+      (scale change of the in-game top friends window with patch 4.3)
+0.458: (by Andymon)
+    * TOC change only
+0.457: (by Andymon)
+    * fix for dialog at load of a long time unused faction wide list
+    * fix to disable invalid menu entries in the HoloFriends menues
+      (the menu initialization and update changed a little with 4.0.1)
+0.456: (by Andymon)
+    * fix for keyed BNet names with 4.0.1 and unavailable identifier of friends
+    * request of clear type nameas identifier if moving of BNet friend is used
+0.455: (by Andymon)
+    * fix a bug with the displaced option to set the date format
+0.454: (by Andymon)
+    * fixes to delete char data correctly
+    * fixes to update display at delete of actual char
+    * fix for not enabled options after the separation of the actual char from
+      the faction wide friends list
+    * fix for unsorted friends list of the actual char at the share window
+    * fix to show SC2 string at tooltip of BNet friends
+    * fix to show question mark as level for BNet friends at SC2
+    * fix for the not showing BNet name if class colors are switched off
+    * Compatible with WoW 4.0.1 (Beta): replaced wide edit box with a sized edit box
+0.453: (by Andymon)
+    * Fixed a bug during addon load if HoloFriends access a realm the first time
+0.452: (by Andymon)
+    * Fixed a bug during the display of the tooltip by mouse over a BNet-friend
+0.451: (by Andymon)
+    * Added more parameter checks to the functions, to trap very slow or incomplete
+      server response (mainly with BNet)
+0.450: (by Andymon)
+    * Implementation of RealID friends (extended friends tooltip, friends list
+      check box not changeable, but show server status)
+    * Disabled the merge mode for friends list notes and comments in
+      faction wide friends list (feature not possible in faction wide list)
+    * During the add of a friend at the command line, one now can add a note
+      behind the friends name
+    * Optional show the char name behind the real name for BNet friends
+0.443: (by Andymon)
+    * Fixes for patch 3.3.5:
+      + CHAT_MSG_SYSTEM message become a table some time
+      + activation of chat frame edit box
+      + overlapping display of new friends window components
+    * Clicking the FrameToggleTab twice opens the in-game friends or ignore list
+0.442: (by Andymon)
+    * Fix of no remove of online ignore at single ignore list
+    * Fix of no update of ignore list display at window open
+    * Add of some more debug outputs
+    * French localizations
+0.441: (by Andymon)
+    * Fix of menu background error at pull down menus at windows without a name
+0.440: (by Andymon)
+    * Output anonymization for screenshots
+    * Fix to the pull-down menu background handling
+    * Added some FAQ-entries from the curse-board
+    * Middle mouse button unmark and set friend as offline
+      (for friends not at in-game friends list)
+    * Decreased the brightness of the area string for offline friends
+      (better separation from online friends)
+    * Added hook for the commands /friend, /removefriend, /ignore, and /unignore
+      (which is working with the faction wide friends list)
+    * Added tooltip for disabled menu entries
+    * Ignore all chat messages and invitations to group, guild, and duel for
+      offline ignores
+    * Ignore list has now the same functionality like the friends list
+      (which include an ignores share window, offline ignores, faction wide
+      ignore list, ...)
+    * Fix of AutoComplete by taking also guild list into account (prevent multiple
+      times the same entry in list)
+    * Option to change the date format used to show date of last seen in friends
+      list tooltip
+    * Optional sort all online friends at the top of the group list
+    * Save and set data for your own chars (if included in the friends list)
+    * Seperate option for all different type of the pull-down menu modifications
+      (target, party, raid, friend)
+    * Fix for the background displayed at the ignore list
+    * Included "FRIEND" pull-down menu to the option which disable all menu
+      modifications
+    * Disable "RAID_MAINTANK" list entry in the raid pull-down menu
+    * Fix to get realm name for the AddIgnore() call at the Pull-down menus
+    * Initially hide friend-buttons - setup at list creation (prevent show of
+      empty buttons)
+    * Reload friends list from server only once at list update
+    * Optional show list of online friends in the chat window at startup
+    * Optional show level of friends at the friends list after the name
+    * Show location of friend at the friends list tooltip
+    * Fixed who-scan of single friend, if clicked at its name in the friends list
+    * Moved friends online check to CheckWhoListResult (cleanup of the hooks)
+    * Fixed order of local and server list check for faction wide friends list
+      (there server list need to be cleaned first to get space for additions by
+      local list)
+    * The Friends list display is only updated, if visible
+    * Moved computation of the counters to the friends list display update function
+0.435: (by Andymon)
+    * oXid_FoX translated HoloFriends partly to french (frFR). Many thanks.
+0.434: (by Andymon)
+    * Bug fix, if first login at a realm with a faction, where a char at the
+      other faction already exist
+    * Fix for merging of HoloFriends comments with in-game notes
+0.433: (by Andymon)
+    * Bug fix, if in-game friends list has empty fields
+      (maybe updated during processing)
+    * small changes in zhTW localization
+0.432: (by Andymon)
+    * Bug fix, if someone login the first time at a realm with HoloFriends.
+0.431: (by Andymon)
+    * Bug fix, if the char is at the faction wide friends list and an other addon
+      is adding a friend to the in-game friends list.
+    * Bug fix a timing problem at load of options and friends list.
+    * Added a delay for the addition of friends by other addons to the HoloFriends
+      list (not for faction wide list).
+      If the friend vanish during this delay, it is also removed from the
+      HoloFriends list.
+    * Include comlete translation to Traditional Chinese (zhTW) by Aladdinn. Many thanks.
+0.430: (by Andymon)
+    * added homepage layout to localization to manage the translation with the
+      WEB-interface
+    * added feature list to help page and localization
+    * renamed all localization strings to order it by name
+    * rewrite of the option window layout and handling to easier add or change options
+    * added switch to change text displayed behind the friends to area/comment
+    * added dialog to load faction wide friends list if not used for a long time
+    * optional remove groups without online friends from the friends list
+    * new implementation of player name auto-complete after patch 3.2.0
+    * sharing of groups now optional mark (strike through) friends in the friends
+      list, if not existing at the sharing source
+    * changes in the friends window update now also the share window if open
+    * fix to friends list update function (now better event driven - run now only
+      once the time)
+    * added warning message about priority of HoloFriends during creation of
+      faction wide friends list
+    * added the possibility to delete chars at other realms than the actual one
+    * added a message, if one of your friends vanished from the online friends list
+    * added separation of chars from the faction wide friends list
+    * added dialog for group handling during merging with faction wide friends list
+    * merge the friends lists of some or all chars to one faction wide friends list
+    * make use of a faction wide friends list, if the char has no own friends list
+    * handling of merge-button to faction wide friends list with warning
+      message included
+    * share window modified to prepare the handling of a faction wide friends list
+    * options window now scalable in size and with scrollbar
+    * added FAQ-frame to interface options panel
+    * added Latin American Spanish (esMX) localization by marturo77 (Many thanks!)
+0.423: (by Andymon)
+    * disabled PlayerNameAutocomplete as temporary fix after patch
+0.422: (by Andymon)
+    * bug fix for the onstate of connected friends not monitored online
+0.421: (by Andymon)
+    * an other try to fix the bug with wrong friends class
+0.42: (by Andymon)
+    * fixed a bug if the friends class was an empty string (for any reason) and not nil
+    * added option for merging of shared HoloFriends comments
+    * added the feature to manually update friend data between your chars
+    * added sharing out of groups
+    * only use own chars of the same faction in the share list
+    * added check buttons for sharing of groups
+    * added a faction list for own chars
+    * expanded share interface (larger name list fields)
+0.411: (by Andymon)
+    * fixed ChatFrame_AddMessageEventFilter handler (new parameters with WoW 3.1)
+    * rearranged the share frame for a better fit in the options frame
+    * moved the share frame to the options menu at "Interface" -> "AddOns"
+    * fixed delete of a char from the command line
+    * fixed green color of the location text for friends in the same region
+      like oneself
+0.41: (by Andymon)
+    * added weekday to last seen
+    * fixed a bug which appeared by adding a player with a name starting with a
+      non ASCII letter
+    * added Chinese localization by zwlong9069 (Many thanks!)
+    * added option to disable pull down menu modifications to allow set focus to work
+    * the first 48 letters of the comments to friends are now also saved in the
+      in-game friends notes
+      + -> option to merge comments and notes
+      + -> option to overwrite the notes by the comments or vice versa
+    * separate localization files
+    * added optional display of friend names in its class colors
+    * class icon display is now optional
+    * code change of share-window list display function like in friends and ignore
+      list display
+    * the number of server monitored friends adjusted to 100
+    * rewrite of friends and ignore list display functions
+      + -> if no scrollbar is shown, the additional space is now used for text
+    * added an options menu to "Interface" -> "AddOns"
+    * removed French localization, because most text was changed and not localized
+    * defined some functions and additional variables as local
+    * added an optional black opaque background to the pull down menus
+    * replaced ChatFrame_MessageEventHandler hook by ChatFrame_AddMessageEventFilter
+0.40: (by Andymon)
+    * adapted the xml-code to the release 3.0.3 of WoW
+    * included actual scroll bars
+    * included the voice-ignore list (the button is at the ignore list)
+    * replaced all "this"-references by "self"
+    * improved the sort algorithm (should now sort all groups correctly)
+    * bug with player check box not working if group name = player name fixed
+    * the disable of add-friend and add-ignore entries in menus works now if the
+      player is already in one of the lists
+    * who-output and who-popup-window are now suppressed during list-scan and at
+      click to the friends-list
+      + -> the suppress of who-output is now language independet
+           (should now work for all clients) 
+    * implemented language independent class handling using server-class-strings
+      + -> this required to change the list-format
+           (the list is corrected during load)
+      + Because the old list included no server-class-entries, expect missing
+        class-icons during the first few times of using the friend list.
+        You need first to see an online friend of this class, to get its
+        server-class-string. 
+    * cleanup of the code with some minor bug fixes that I forget to note 
+0.3:
+	- new feature by Ithilyn: scan all not monitored friends via /who
+	- new feature by Ithilyn: last seen in comments
+	- minor bugfixes
+0.23:
+	- new feature: added share-friends-dialog
+	- minor bugfixes
+	- refactoring
+	- removed support for FriendNotes, HoloWar
+0.22:
+	- new friends will be added with notify by default
+          (if there are less than 50 friends on your notifylist)
+0.21:
+	- menu entries are back
+	- bugfix: scrollbar definition in .xml
+0.20:
+	- updated to LUA 5.1 and Wow 2.0, the menu entries were removed
+          (I'm still working on that issue)
+	- based on a HoloFriends version with enhancements from Veithflo
+0.11:
+	- bugfix: fixed nil error introduced with 0.10, I should stop for today;(
+0.10:
+	- bugfix: reenabled send message and invite button, sorry for this bug:(
+0.09:
+	- bugfix: add friend/ignore entry is no longer clickable if player is already
+                  in one of your lists
+	- bugfix: fixed nil bug when trying to move ignore group
+	- new feature: groups can now be renamed
+	- new feature: the number of online friends is now displayed in the lower
+                       left corner
+	- new feature: you can now have more than 50 friends in your list, the online
+                       state of 49 can be monitored
+	- new feature: added who request to following drop down menues:
+                       target, party, raid, who, guild, and chat
+	               (the entries in the guild and who menu are maybe useless, but
+                       who, guild and chat all use the same drop down)
+0.08:
+	- localisation: included french localisation done by Feu
+	- localisation: removed error messages on non english/german/french clients,
+                        an empty icon is displayed instead
+	- localisation: class icons do show up on french clients
+	- bugfix: fixed a bug when dragging groups
+	- bugfix: shift click works as intended now in the add ignore dialog
+	- new feature: added add friend and add ignore to following drop down menues:
+                       target, party, raid, who, guild, and chat
+	               (the entries in the guild menu are maybe useless, but who,
+                       guild and chat all use the same drop down)
+0.07:
+	- new feature: added ignore list support
+	- bugfix: removed a field error that could occur when removing the last group
+                  and it was empty
+	- bugfix: drop down menu items are disabled if not applicable
+0.06:
+	- bugfix: the list entry text is now truncated if it is too long
+0.05:
+	- feature request: does import FriendNotes
+	- feature request: new checkbox: toggles show/hide offline friends
+	- bugfix: another way to add wrong spelled friends eliminated
+0.04:
+	- bugfix: wrong spelled friends are no longer added
+	- changed: inserted more nil and index sanity checks
+0.03:
+	- bugfix: fixed bug with empty list and resulting nil error
+0.02:
+	- bugfix: drag and drop with long friendslists
+	- feature request: added FriendsFacts functionality
+	- feature request: friends are now added to the selected group
+	  (if none is selected, they are added to the default list)
+0.01:
+	- initial release

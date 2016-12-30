@@ -1,0 +1,17 @@
+Jamba: disabled
+Jamba-AdvancedLoot: disabled
+Jamba-Curr: disabled
+Jamba-DisplayTeam: disabled
+Jamba-Follow: disabled
+Jamba-FTL: disabled
+Jamba-ItemUse: disabled
+Jamba-Macro: disabled
+Jamba-Purchase: disabled
+Jamba-Quest: disabled
+Jamba-QuestWatcher: disabled
+Jamba-Sell: disabled
+Jamba-Talk: disabled
+Jamba-Target: disabled
+Jamba-Taxi: disabled
+Jamba-Toon: disabled
+Jamba-Trade: disabled

@@ -1,0 +1,343 @@
+changeset:   56:19cbe5ca07d5
+tag:         tip
+user:        Tercio
+date:        Thu Dec 08 14:16:33 2016 -0200
+summary:     - ticket #13: check if the vendor window is open before click on each item.
+
+
+changeset:   55:f5880fd670e4
+user:        Tercio
+date:        Tue Oct 25 16:31:10 2016 -0200
+summary:     - toc and framework update.
+
+
+changeset:   54:d9c15ebe36ef
+user:        Tercio
+date:        Sun Sep 25 00:48:09 2016 -0300
+summary:     - green slider now goes up to 811.
+
+
+changeset:   53:4cc8921c3943
+user:        Tercio
+date:        Sun Sep 04 11:58:07 2016 -0300
+summary:     - missing framework file.
+
+
+changeset:   52:a40c215679fa
+user:        Tercio
+date:        Thu Sep 01 22:49:43 2016 -0300
+summary:     - added missing file.
+
+
+changeset:   51:9256a43fc43d
+user:        Tercio
+date:        Thu Sep 01 14:35:54 2016 -0300
+summary:     - framework update from version v22 to v44.
+
+
+changeset:   50:308a5d8aed7c
+user:        Tercio
+date:        Tue Jul 19 12:56:11 2016 -0300
+summary:     - framework update.
+
+
+changeset:   49:f48d214cd9e3
+user:        Tercio
+date:        Tue Jul 12 17:59:06 2016 -0300
+summary:     - updating the framework.
+
+
+changeset:   48:4313ee5cb0cf
+user:        Tercio
+date:        Mon Jul 04 22:29:23 2016 -0300
+summary:     - Solved Ticket #2 (translations).
+
+
+changeset:   47:6bcb44d226bf
+user:        Tercio
+date:        Tue Jun 14 17:05:11 2016 -0300
+summary:     - ignored list revision.
+
+
+changeset:   46:98e116bdedd5
+user:        Tercio
+date:        Tue May 31 18:17:42 2016 -0300
+summary:     Addon name and desc update on ToC.
+
+
+changeset:   45:252394a40caa
+user:        Tercio
+date:        Mon May 16 09:49:38 2016 -0300
+summary:     - updated the mmo-c thread for the recent one.
+
+
+changeset:   44:e8e36618fe49
+user:        Tercio
+date:        Sun Apr 24 13:47:22 2016 -0300
+summary:     - added slash commands: /autoseller and /as.
+
+
+changeset:   43:0ae8b76b6e6a
+user:        Tercio
+date:        Mon Apr 04 12:10:55 2016 -0300
+summary:     - added option to enable or disable the use of guild money on repairs.
+
+
+changeset:   42:270bff49915b
+user:        Tercio
+date:        Mon Mar 14 11:52:28 2016 -0300
+summary:     - added auto repair feature.
+
+
+changeset:   41:539ee811d918
+user:        Tercioo
+date:        Sat Feb 27 03:52:06 2016 -0300
+summary:     - fixed the interface options panel.
+
+
+changeset:   40:2611c004b0a7
+user:        Tercioo
+date:        Thu Feb 25 10:55:14 2016 -0300
+summary:     - added Auto Sell list.
+
+
+changeset:   39:f033d8e2335b
+user:        Tercioo
+date:        Sun Feb 07 22:41:43 2016 -0200
+summary:     - added auction house price panel.
+
+
+changeset:   38:354e4d2738e2
+user:        Tercioo
+date:        Tue Jan 19 09:59:58 2016 -0200
+summary:     - framework update.
+
+
+changeset:   37:622d5afa2357
+user:        Tercioo
+date:        Sat Jan 02 13:41:20 2016 -0200
+summary:     - framework update from version v14 to v15.
+
+
+changeset:   36:99062e904862
+user:        Tercioo
+date:        Fri Dec 18 15:18:57 2015 -0200
+summary:     - framework update.
+
+
+changeset:   35:7278fd6fd468
+user:        Tercio
+date:        Sun Nov 15 12:34:14 2015 -0200
+summary:     - fixed A.S button position.
+
+
+changeset:   34:576b06a5a71e
+user:        Tercio
+date:        Sun Nov 15 12:11:46 2015 -0200
+summary:     - fixed A.S button position.
+
+
+changeset:   33:25a29fec2899
+user:        Tercio
+date:        Sat Nov 14 18:08:26 2015 -0200
+summary:     - fix on our framework.
+
+
+changeset:   32:4ef88971384e
+user:        Tercio
+date:        Fri Oct 16 14:43:53 2015 -0300
+summary:     - framework update.
+
+
+changeset:   31:a488d120e7c3
+user:        Tercio
+date:        Thu Oct 15 12:59:03 2015 -0300
+summary:     - framework update.
+
+
+changeset:   30:9a81f59026c2
+user:        Tercio
+date:        Thu Oct 08 11:54:28 2015 -0300
+summary:     - framework update.
+
+
+changeset:   29:10eab55ccacc
+user:        Tercio
+date:        Mon Sep 14 19:32:26 2015 -0300
+summary:     - library load order fix.
+
+
+changeset:   28:2dcb56f412b9
+user:        Tercio
+date:        Mon Sep 14 17:13:31 2015 -0300
+summary:     - framework update.
+
+
+changeset:   27:fd8cf1e6ff8c
+user:        Tercio
+date:        Sun Aug 23 23:06:44 2015 -0300
+summary:     - added transmog list.
+
+
+changeset:   26:3eb2d8a16e71
+user:        Tercio
+date:        Sun Aug 23 22:49:55 2015 -0300
+summary:     - added transmog list.
+
+
+changeset:   25:f5c736dae086
+user:        Tercio
+date:        Sun Aug 16 14:41:31 2015 -0300
+summary:     - stop selling timewarper items.
+
+
+changeset:   24:99aeff278126
+user:        Tercio
+date:        Tue Aug 11 12:41:56 2015 -0300
+summary:     - only show message on chat if we sold something.
+
+
+changeset:   23:85aeef2aa02e
+user:        Tercio
+date:        Tue Aug 11 12:40:55 2015 -0300
+summary:     - only show message on chat if we sold something.
+
+
+changeset:   22:ae5bdd2465b0
+user:        Tercio
+date:        Sat Jul 18 17:33:25 2015 -0300
+summary:     - library update.
+
+
+changeset:   21:1e8ad9eee88b
+user:        Tercio
+date:        Wed Jul 01 12:36:05 2015 -0300
+summary:     - Trying to fix a library problem.
+
+
+changeset:   20:47c41522b46e
+user:        Tercio
+date:        Tue Jun 30 20:46:44 2015 -0300
+summary:     - added advanced options to sell low level epic items and soulbound items.
+
+
+changeset:   19:194b4b74567e
+user:        Tercio
+date:        Mon Jun 29 18:01:23 2015 -0300
+summary:     - added a missing lirabry.
+
+
+changeset:   18:9fa1fdcd9b72
+user:        Tercio
+date:        Fri Jun 26 14:01:43 2015 -0300
+summary:     - framework update.
+
+
+changeset:   17:5aa4b93f4383
+user:        Tercio
+date:        Tue Jun 23 14:17:44 2015 -0300
+summary:     - ToC Update.
+
+
+changeset:   16:3dc960b2097f
+user:        Tercio
+date:        Thu Jun 18 15:55:39 2015 -0300
+summary:     - Added slash command /syh.
+
+
+changeset:   15:c69933547ebf
+user:        Tercio
+date:        Fri Jun 05 21:04:54 2015 -0300
+summary:     - minor bug fix.
+
+
+changeset:   14:92ee881fe228
+user:        Tercio
+date:        Tue Jun 02 13:22:22 2015 -0300
+summary:     - Bug fix with the auto sell gray feature.
+
+
+changeset:   13:05562c6788e8
+user:        Tercio
+date:        Sun May 31 19:16:06 2015 -0300
+summary:     - Added ignore list by keyword.
+
+
+changeset:   12:e4ffd220c684
+user:        Tercio
+date:        Sun May 31 19:04:04 2015 -0300
+summary:     - Added ignore list by keyword.
+
+
+changeset:   11:bad2af6e1cb9
+user:        Tercio
+date:        Wed Apr 29 13:00:08 2015 -0300
+summary:     - Fixed messagem spam after selling.
+
+
+changeset:   10:3d117ebbca4e
+user:        Tercio
+date:        Mon Apr 27 18:06:45 2015 -0300
+summary:     - Addon is now working with all languages.
+
+
+changeset:   9:5430baa8beed
+user:        Tercio
+date:        Sat Apr 25 14:12:07 2015 -0300
+summary:     - Lib Updates.
+
+
+changeset:   8:addf7ebae0a0
+user:        Tercio
+date:        Mon Apr 20 16:36:39 2015 -0300
+summary:     Library Update.
+
+
+changeset:   7:68bf708aafbc
+user:        Tercio
+date:        Mon Apr 20 16:28:34 2015 -0300
+summary:     Library Update.
+
+
+changeset:   6:3483dde08f14
+user:        Tercio
+date:        Thu Apr 16 15:46:25 2015 -0300
+summary:     a
+
+
+changeset:   5:a941aaf173d2
+user:        Tercio
+date:        Thu Apr 16 15:35:21 2015 -0300
+summary:     - Minor bug fixes.
+
+
+changeset:   4:a66c0c9794fa
+user:        Tercio
+date:        Mon Apr 13 15:56:04 2015 -0300
+summary:     - Added gold threshold slider for gold price on vendors.
+
+
+changeset:   3:d52276f16ae5
+user:        Tercio
+date:        Sat Apr 11 15:55:26 2015 -0300
+summary:     - Major bug fixes and new features implementation.
+
+
+changeset:   2:3c01c7e85511
+user:        Tercio
+date:        Thu Apr 09 20:41:16 2015 -0300
+summary:     - Added ally npc reference.
+
+
+changeset:   1:046a59835663
+user:        Tercio
+date:        Thu Apr 09 20:40:05 2015 -0300
+summary:     - Added ally npc reference.
+
+
+changeset:   0:78698bfca7f7
+user:        Tercio
+date:        Thu Apr 09 18:05:36 2015 -0300
+summary:     first commit
+
+

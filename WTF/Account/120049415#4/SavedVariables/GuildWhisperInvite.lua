@@ -1,0 +1,2 @@
+
+GuildWhisperInviteDB = nil

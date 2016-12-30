@@ -1,0 +1,8 @@
+## Interface: 70100
+## Title: DeleteGoodItemConfirmHelper
+## Notes: Replaces the inconvenient good item delete confirm popup with the convenient one
+## X-Curse-Packaged-Version: 2016-10-27-release
+## X-Curse-Project-Name: DeleteGoodItemConfirmHelper
+## X-Curse-Project-ID: deletegooditemconfirmhelper
+## X-Curse-Repository-ID: wow/deletegooditemconfirmhelper/mainline
+DeleteGoodItemConfirmHelper.lua

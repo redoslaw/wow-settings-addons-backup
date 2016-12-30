@@ -1,0 +1,28 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("MrtWoo_StatusBar", "zhTW", false)
+
+if not L then return end
+
+L["Bottom"] = "下"
+L["Custom"] = "自定義"
+L["Exalted"] = "崇拜"
+L["Experience in the short form (1k..)?"] = "縮寫式經驗值顯示(1k..)?"
+L["Freeze"] = "凍結"
+L["Friendly"] = "友好"
+L["Hated"] = "仇恨"
+L["Honored"] = "尊敬"
+L["Hostile"] = "敵對"
+L["Maximum gain experience"] = "最大獲取經驗值"
+L["Move"] = "移動"
+L["Nuetral"] = "中立"
+L["Position"] = "位置"
+L["Revered"] = "崇敬"
+L["Show experience?"] = "顯示經驗值"
+L["Show last updatet reputation?"] = "顯示最後更新的聲望?"
+L["Show me a reputation?"] = "顯示聲望?"
+L["Show me the emblems?"] = "顯示紋章(點數)?"
+L["Show statistics about the block spam / flood?"] = "顯示封鎖垃圾訊息/洗頻的統計?"
+L["Show status bar?"] = "顯示狀態列?"
+L["StatusBar"] = "狀態列"
+L["Top"] = "上"
+L["Unfriendly"] = "不友善"
+L["Unknown"] = "未知"

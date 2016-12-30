@@ -1,0 +1,328 @@
+
+PassLootDB = {
+	["global"] = {
+		["Modules"] = {
+			["Inventory"] = {
+				["Version"] = 2,
+			},
+			["Zone Name"] = {
+				["Version"] = 4,
+			},
+			["Player Name"] = {
+				["Version"] = 2,
+			},
+			["Learned Item"] = {
+				["Version"] = 3,
+			},
+			["Unique"] = {
+				["Version"] = 4,
+			},
+			["Item Name"] = {
+				["Version"] = 3,
+			},
+			["Quality"] = {
+				["Version"] = 4,
+			},
+			["Item Level"] = {
+				["Version"] = 3,
+			},
+			["Confirm DE"] = {
+				["Version"] = 1,
+			},
+			["Required Level"] = {
+				["Version"] = 3,
+			},
+			["Item Price"] = {
+				["Version"] = 3,
+			},
+			["Binds On"] = {
+				["Version"] = 4,
+			},
+			["Guild Group"] = {
+				["Version"] = 2,
+			},
+			["Type / SubType"] = {
+				["Version"] = 4,
+			},
+			["Equipable"] = {
+				["Version"] = 2,
+			},
+			["Zone Type"] = {
+				["Version"] = 4,
+			},
+			["Confirm BoP"] = {
+				["Version"] = 1,
+			},
+			["Equip Slot"] = {
+				["Version"] = 4,
+			},
+			["Group / Raid"] = {
+				["Version"] = 4,
+			},
+			["Class Spec"] = {
+				["Version"] = 2,
+			},
+			["Usable"] = {
+				["Version"] = 2,
+			},
+			["Loot Won"] = {
+				["Version"] = 4,
+			},
+			["Can I Roll"] = {
+				["Version"] = 2,
+			},
+		},
+	},
+	["DBVersion"] = 12,
+	["profileKeys"] = {
+		["Panidoktor - Chamber of Aspects"] = "Priest",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Modules"] = {
+				["Inventory"] = {
+					["Status"] = true,
+				},
+				["Zone Name"] = {
+					["Status"] = true,
+				},
+				["Player Name"] = {
+					["Status"] = true,
+				},
+				["Learned Item"] = {
+					["Status"] = true,
+				},
+				["Unique"] = {
+					["Status"] = true,
+				},
+				["Item Name"] = {
+					["Status"] = true,
+					["ProfileVars"] = {
+						["UseRegEx"] = true,
+					},
+				},
+				["Quality"] = {
+					["Status"] = true,
+				},
+				["Item Level"] = {
+					["Status"] = true,
+				},
+				["Confirm DE"] = {
+					["Status"] = true,
+				},
+				["Required Level"] = {
+					["Status"] = true,
+				},
+				["Item Price"] = {
+					["Status"] = true,
+				},
+				["Binds On"] = {
+					["Status"] = true,
+				},
+				["Guild Group"] = {
+					["Status"] = true,
+				},
+				["Type / SubType"] = {
+					["Status"] = true,
+				},
+				["Equipable"] = {
+					["Status"] = true,
+				},
+				["Zone Type"] = {
+					["Status"] = true,
+				},
+				["Confirm BoP"] = {
+					["Status"] = true,
+				},
+				["Equip Slot"] = {
+					["Status"] = true,
+				},
+				["Group / Raid"] = {
+					["Status"] = true,
+				},
+				["Class Spec"] = {
+					["Status"] = true,
+				},
+				["Usable"] = {
+					["Status"] = true,
+				},
+				["Loot Won"] = {
+					["Status"] = true,
+				},
+				["Can I Roll"] = {
+					["Status"] = true,
+				},
+			},
+			["Quiet"] = true,
+			["Rules"] = {
+				{
+					["TypeSubType"] = {
+						{
+							3, -- [1]
+							3, -- [2]
+							false, -- [3]
+						}, -- [1]
+					},
+					["Loot"] = {
+						"need", -- [1]
+					},
+					["Desc"] = "Cloth",
+				}, -- [1]
+				{
+					["TypeSubType"] = {
+						{
+							3, -- [1]
+							3, -- [2]
+							true, -- [3]
+						}, -- [1]
+						{
+							3, -- [1]
+							1, -- [2]
+							false, -- [3]
+						}, -- [2]
+					},
+					["Loot"] = {
+						"greed", -- [1]
+					},
+					["Desc"] = "Inne niz Cloth",
+				}, -- [2]
+				{
+					["Items"] = {
+						{
+							"Lockbox", -- [1]
+							"Partial", -- [2]
+							false, -- [3]
+						}, -- [1]
+					},
+					["Loot"] = {
+						"pass", -- [1]
+					},
+					["Desc"] = "Lockbox",
+				}, -- [3]
+			},
+		},
+		["Priest"] = {
+			["Modules"] = {
+				["Inventory"] = {
+					["Status"] = true,
+				},
+				["Zone Name"] = {
+					["Status"] = true,
+				},
+				["Player Name"] = {
+					["Status"] = true,
+				},
+				["Learned Item"] = {
+					["Status"] = true,
+				},
+				["Guild Group"] = {
+					["Status"] = true,
+				},
+				["Confirm DE"] = {
+					["Status"] = true,
+				},
+				["Quality"] = {
+					["Status"] = true,
+				},
+				["Item Level"] = {
+					["Status"] = true,
+				},
+				["Item Name"] = {
+					["Status"] = true,
+					["ProfileVars"] = {
+						["UseRegEx"] = true,
+					},
+				},
+				["Unique"] = {
+					["Status"] = true,
+				},
+				["Item Price"] = {
+					["Status"] = true,
+				},
+				["Binds On"] = {
+					["Status"] = true,
+				},
+				["Required Level"] = {
+					["Status"] = true,
+				},
+				["Class Spec"] = {
+					["Status"] = true,
+				},
+				["Equipable"] = {
+					["Status"] = true,
+				},
+				["Zone Type"] = {
+					["Status"] = true,
+				},
+				["Confirm BoP"] = {
+					["Status"] = true,
+				},
+				["Equip Slot"] = {
+					["Status"] = true,
+				},
+				["Group / Raid"] = {
+					["Status"] = true,
+				},
+				["Type / SubType"] = {
+					["Status"] = true,
+				},
+				["Usable"] = {
+					["Status"] = true,
+				},
+				["Loot Won"] = {
+					["Status"] = true,
+				},
+				["Can I Roll"] = {
+					["Status"] = true,
+				},
+			},
+			["Quiet"] = true,
+			["Rules"] = {
+				{
+					["TypeSubType"] = {
+						{
+							3, -- [1]
+							3, -- [2]
+							false, -- [3]
+						}, -- [1]
+					},
+					["Loot"] = {
+						"need", -- [1]
+					},
+					["Desc"] = "Cloth",
+				}, -- [1]
+				{
+					["TypeSubType"] = {
+						{
+							3, -- [1]
+							3, -- [2]
+							true, -- [3]
+						}, -- [1]
+						{
+							3, -- [1]
+							1, -- [2]
+							false, -- [3]
+						}, -- [2]
+					},
+					["Loot"] = {
+						"greed", -- [1]
+					},
+					["Desc"] = "Inne niz Cloth",
+				}, -- [2]
+				{
+					["Items"] = {
+						{
+							"Lockbox", -- [1]
+							"Partial", -- [2]
+							false, -- [3]
+						}, -- [1]
+					},
+					["Loot"] = {
+						"pass", -- [1]
+					},
+					["Desc"] = "Lockbox",
+				}, -- [3]
+			},
+		},
+	},
+}

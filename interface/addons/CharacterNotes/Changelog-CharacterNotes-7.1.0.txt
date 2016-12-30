@@ -1,0 +1,13 @@
+tag 7.1.0
+1699eed44354c07de3b73a5882234d34a9f30a02
+Talryn <git@talryn.sent.com>
+2016-10-25 12:03:50 -0400
+
+Tag as 7.1.0.
+
+
+--------------------
+
+Talryn:
+	- Update TOC for 7.1.
+	- Fix API change in 7.1.

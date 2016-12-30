@@ -1,0 +1,10 @@
+
+AF_config = {
+	["Burning Legion-Redus"] = {
+		["message"] = "Wszyscy ktorzy farmia mythic dungeony lub chcieliby zaczac, prosze sie zglaszac na curse na odpowiednim kanale. Chcemy na podstawie tych zgloszen uformowac grupy wew. gildyjne do wspolnego farmienia :)",
+		["channel"] = "guild",
+		["idChannel"] = "1",
+		["rate"] = 1800,
+		["system"] = "GUILD",
+	},
+}

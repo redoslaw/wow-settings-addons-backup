@@ -1,0 +1,36 @@
+## Interface: 70100
+## Title: HoloFriends
+## Notes: Enhanced friends / ignore list
+## Version: 0.492
+## SavedVariables: HOLOFRIENDS_LIST, HOLOIGNORE_LIST, HOLOFRIENDS_OPTIONS, HOLOFRIENDS_FACTIONS, HOLOFRIENDS_MYCHARS
+## X-Curse-Packaged-Version: v0.492-7.1.0
+## X-Curse-Project-Name: HoloFriends (continued)
+## X-Curse-Project-ID: holo-friends-continued
+## X-Curse-Repository-ID: wow/holo-friends-continued/mainline
+
+localisation.lua
+localisation_deDE.lua
+localisation_frFR.lua
+localisation_esMX.lua
+localisation_ptBR.lua
+localisation_zhCN.lua
+localisation_zhTW.lua
+
+HoloFriends_funcs.lua
+HoloFriends_hooks.lua
+HoloFriends_lists.lua
+HoloFriends_dialogs.lua
+HoloFriends_options.lua
+HoloFriends_popUpMenus.lua
+HoloFriends_scanExtraFriends.lua
+HoloFriends_share.lua
+HoloFriends_friends.lua
+HoloFriends_ignore.lua
+HoloFriends_init.lua
+
+HoloFriends_frame.xml
+HoloFriends_friends.xml
+HoloFriends_ignore.xml
+HoloFriends_options.xml
+HoloFriends_share.xml
+HoloFriends_timer.xml

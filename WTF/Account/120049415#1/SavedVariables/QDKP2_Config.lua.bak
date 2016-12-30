@@ -1,0 +1,44 @@
+
+QDKP2_Config_DB = {
+	["char"] = {
+		["Redus - Burning Legion"] = {
+			["ActiveProfiles"] = {
+				["Default"] = "Default",
+				["Burning Legion-Wipeforged"] = "Burning Legion-Wipeforged",
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Burning Legion-Wipeforged",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Burning Legion-Wipeforged"] = {
+			["BM_AllowMultiple"] = false,
+			["BM_AckBets"] = false,
+			["BM_LogBets"] = false,
+			["BM_AnnounceStart"] = false,
+			["BM_Countdown"] = false,
+			["BM_OutGuild"] = false,
+			["BM_ConfirmWinner"] = false,
+			["MISC_Inf_WentNeg"] = false,
+			["BM_GetGroup"] = false,
+			["BM_AutoRoll"] = false,
+			["BM_CatchRolls"] = false,
+			["BM_GetWhispers"] = false,
+			["MISC_UploadOn_Raid"] = false,
+			["BM_RoundValue"] = false,
+			["BM_GiveToWinner"] = false,
+			["ODS_Enable"] = false,
+			["MISC_UploadOn_Hourly"] = false,
+			["BM_AckReject"] = false,
+			["AN_AnAwards"] = false,
+			["BM_AnnounceWinner"] = false,
+			["MISC_UploadOn_ZS"] = false,
+			["AW_IM_PercReq"] = 100,
+			["MISC_UploadOn_Payment"] = false,
+			["BM_AnnounceCancel"] = false,
+		},
+	},
+}

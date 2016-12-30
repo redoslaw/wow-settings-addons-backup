@@ -1,0 +1,22 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Redfirst|Burning Legion|Horde|73|HUNTER", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Redus|Burning Legion|Horde", -- [1]
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Redus|Burning Legion|Horde|90|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["profiles"] = {
+		["Redus - Burning Legion"] = {
+		},
+	},
+}

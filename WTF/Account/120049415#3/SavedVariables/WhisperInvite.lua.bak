@@ -1,0 +1,29 @@
+
+WhisperInviteCoreDB = {
+	["char"] = {
+		["Redfirst - Burning Legion"] = {
+			["info"] = {
+				["setup"] = 1,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["queueProtection"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+				}, -- [3]
+				{
+				}, -- [4]
+				{
+				}, -- [5]
+			},
+		},
+	},
+}

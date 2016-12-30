@@ -1,0 +1,9 @@
+
+WorldQuestGroupFinderConfig = {
+	["notifyParty"] = true,
+	["askZoning"] = true,
+	["askZoningAuto"] = true,
+	["askToLeave"] = true,
+	["autoinvite"] = true,
+	["askZoningBusy"] = true,
+}

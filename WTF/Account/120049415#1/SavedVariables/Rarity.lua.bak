@@ -1,0 +1,150 @@
+
+RarityDB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["trackedGroup"] = "mounts",
+			["groups"] = {
+				["pets"] = {
+					["Red Helper Box"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Zandalari Anklerender"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Disgusting Oozeling"] = {
+						["known"] = true,
+					},
+					["Elementium Geode"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Phoenix Hatchling"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Scorched Stone"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Jewel of Maddening Whispers"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Jingling Bell"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Living Sandling"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Dark Whelpling"] = {
+						["known"] = true,
+					},
+					["Lil' Bling"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Green Helper Box"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+				},
+				["mounts"] = {
+					["Fossilized Raptor"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Reins of the Vitreous Stone Drake"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Tundra Icehoof"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Red Qiraji Resonating Crystal"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
+					},
+					["Flametalon of Alysrazor"] = {
+						["attempts"] = 6,
+					},
+					["Armored Razorback"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20150927] = {
+								["time"] = 1,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
+						["session"] = {
+							["time"] = 1,
+							["attempts"] = 2,
+						},
+					},
+					["Reins of the Drake of the South Wind"] = {
+						["attempts"] = 4,
+					},
+					["Life-Binder's Handmaiden"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Experiment 12-B"] = {
+						["attempts"] = 5,
+					},
+					["Warsong Direfang"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20150927] = {
+								["time"] = 1,
+								["attempts"] = 2,
+							},
+						},
+						["attempts"] = 2,
+						["session"] = {
+							["time"] = 1,
+							["attempts"] = 2,
+						},
+					},
+					["Reins of the Green Proto-Drake"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Reins of the Blazing Drake"] = {
+						["attempts"] = 5,
+					},
+					["Smoldering Egg of Millagazor"] = {
+						["known"] = true,
+						["found"] = true,
+						["enabled"] = false,
+					},
+				},
+			},
+			["trackedItem"] = 116780,
+			["lastRevision"] = 449,
+		},
+	},
+}

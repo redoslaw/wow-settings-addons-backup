@@ -1,0 +1,49 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("GuildSearch", "zhCN", false)
+
+if not L then return end
+
+L["Cancel"] = "取消" -- Needs review
+L["Clear"] = "清除" -- Needs review
+L["Close"] = "关闭" -- Needs review
+L["Details"] = "详情" -- Needs review
+L["Edit"] = "编辑" -- Needs review
+L["Enable Pattern Matching"] = "启用格式匹配" -- Needs review
+L["Enables pattern matching when searching the guild data."] = "当搜索公会数据时启用格式匹配。" -- Needs review
+L["Guild Member Details"] = "公会成员详情" -- Needs review
+L["GUILD_REMOVE_CONFIRMATION"] = "你是否真的想要从公会移除  %s ？" -- Needs review
+L["Guild Search"] = "公会搜索" -- Needs review
+L["Last Online"] = "最后在线" -- Needs review
+L["Left click"] = "左键点击" -- Needs review
+L["Level"] = "等级" -- Needs review
+L["Lock"] = "锁定" -- Needs review
+L["Lock_OptionDesc"] = "锁定窗体" -- Needs review
+L["Main Window"] = "主窗体" -- Needs review
+L["Minimap Button"] = "小地图按钮" -- Needs review
+L["Name"] = "名字" -- Needs review
+L["Note"] = "注释" -- Needs review
+L["Officer Note"] = "官员注释" -- Needs review
+L["Public Note"] = "公共注释" -- Needs review
+L["Rank"] = "等级" -- Needs review
+L["Remember Position"] = "记住位置" -- Needs review
+L["RememberPosition_OptionDesc"] = "保存窗体的位置。" -- Needs review
+L["Remove"] = "移除" -- Needs review
+L["Right click"] = "右键点击" -- Needs review
+L["Save"] = "保存" -- Needs review
+L["Search"] = "搜索" -- Needs review
+L["Search Class"] = "搜索职业" -- Needs review
+L["Search Names"] = "搜索名字" -- Needs review
+L["Search Notes"] = "搜索注释" -- Needs review
+L["Search Officer Notes"] = "搜索官员注释" -- Needs review
+L["Search Options"] = "搜索选项" -- Needs review
+L["Search Rank"] = "搜索等级" -- Needs review
+L["Toggles the display of informational messages"] = "开启信息消息的显示" -- Needs review
+L["Toggle the minimap button"] = "开启小地图图标" -- Needs review
+L["to open/close the configuration."] = "来打开/关闭配置。" -- Needs review
+L["to open/close the window"] = "来打开/关闭窗口" -- Needs review
+L["Verbose"] = "详细" -- Needs review
+L["When checked, searches include the character name."] = "当选中后, 搜索将包括角色名字。" -- Needs review
+L["When checked, searches include the character's class."] = "当选中后, 搜索将包括角色职业。" -- Needs review
+L["When checked, searches include the guild ranks."] = "当选中后, 搜索将包括公会等级。" -- Needs review
+L["When checked, searches include the notes."] = "当选中后, 搜索将包括注释。" -- Needs review
+L["When checked, searches include the officer notes."] = "当选中后, 搜索将包括官员注释。" -- Needs review
+

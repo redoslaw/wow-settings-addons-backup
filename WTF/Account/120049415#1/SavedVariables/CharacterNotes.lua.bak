@@ -1,0 +1,18 @@
+
+CharacterNotesDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["realm"] = {
+		["Burning Legion"] = {
+			["notes"] = {
+				["Rediva"] = "Paladyn tank",
+			},
+			["removedSpacesFromRealm"] = true,
+		},
+	},
+}

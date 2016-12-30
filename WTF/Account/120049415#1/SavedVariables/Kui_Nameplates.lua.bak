@@ -1,0 +1,43 @@
+
+KuiNameplatesGDB = {
+	["namespaces"] = {
+		["NemesisHelper"] = {
+		},
+		["Castbar"] = {
+		},
+		["NameOnly"] = {
+		},
+		["ClassColours"] = {
+		},
+		["LowHealthColours"] = {
+		},
+		["CastWarnings"] = {
+			["profiles"] = {
+				["Ðeadshot - Burning Legion"] = {
+					["warnings"] = true,
+					["useNames"] = true,
+				},
+			},
+		},
+		["Auras"] = {
+		},
+		["ComboPoints"] = {
+		},
+		["TankMode"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+	},
+	["profiles"] = {
+		["Ðeadshot - Burning Legion"] = {
+			["general"] = {
+				["highlight_target"] = true,
+				["raidicon_size"] = 34,
+				["thheight"] = 14,
+				["targetarrows"] = true,
+				["hheight"] = 16,
+			},
+		},
+	},
+}

@@ -1,0 +1,12 @@
+tag v0.9.12
+f5a528f191bba6005f2aef369db9e63820d37694
+Brizag <vvv444@gmail.com>
+2016-10-27 18:37:15 +0300
+
+Added another forgotten lib.
+
+
+--------------------
+
+Brizag:
+	- Yet another forgotten lib - CallbackHandler-1.0

@@ -1,0 +1,3226 @@
+
+QDKP2_Data = {
+	["Burning Legion-Wipeforged"] = {
+		["note"] = {
+			["Ledarr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ashteya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Megaakill-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garionas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Corbi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nevondes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pazdanbeast-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoopal-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Philipo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewrathpr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lysoolec-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Earthwaves-BurningLegion"] = {
+				9, -- [1]
+				2, -- [2]
+				0, -- [3]
+			},
+			["Swir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ironmouther-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionax-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Paralaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azzurar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wujekgarosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darina-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lazymike-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Opalkamarcin-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sznifferek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szoplifter-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sulpiryd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arquisari-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zaiy-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mishen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Deathmire-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wrongtargget-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Harkog-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rassam-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Neýna-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Prabel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikae-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankycowmuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pandothiel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Halsey-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Abbalon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Negoya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rabtym-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Keltazaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bloszeq-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angueme-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Banglao-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Oskimorderca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikea-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vinoopij-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Donloko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garkug-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Razerix-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eoanas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dominiko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zgnijtu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mitthi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Burnny-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batid-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kusmir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ilizon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mustav-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Klatanovic-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angryhorse-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pastuh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kickya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wakaii-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Morfajzero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Snifer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiciex-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomekk-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Runathes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vaadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankydps-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dalei-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Isloma-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Murloks-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maenlan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheinen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Krowikrol-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Alakazamer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Blaszany-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lokenia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Owcazabujca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rocknrooll-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fráiche-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ibrä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Länti-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mammalaga-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomur-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eavaxx-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rympek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darioran-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batiist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redbullek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dkmeister-BurningLegion"] = {
+				9, -- [1]
+				0, -- [2]
+				1, -- [3]
+			},
+			["Ðeadshot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardok-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ahdo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zozusek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lickitüng-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zavar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Senurtan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rediva-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aevise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Elpotato-BurningLegion"] = {
+				9, -- [1]
+				3, -- [2]
+				0, -- [3]
+			},
+			["Moadib-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Søsexi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheyrai-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Stamperia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aphrael-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Naghdar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Doubletap-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bercikowsky-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewratmg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Avanafil-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanorka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zdepkaxd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mutanus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Swoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tienki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanora-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Longoriá-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Grizzlyo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Virrkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zimnestopki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tequilä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qrient-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Cutè-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Menalufe-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shadô-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batistt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qergu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Martiziusz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hashp-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lorevalker-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shinero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Gehennus-BurningLegion"] = {
+				6, -- [1]
+				2, -- [2]
+				0, -- [3]
+			},
+			["Hathvel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hoaxer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zerkom-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kruggorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Demidowicz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Groodo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kabajel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szniff-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zajebarka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fálká-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Protlover-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rafáél-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tragoro-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Byyczysyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoohunt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Marmenth-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arawia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Datchop-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Triand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodooprst-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nubilon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Flejmer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Myiosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mezilkre-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Akcent-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Glowkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Erednash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lilmoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Johnkanaka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aenash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Viirg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maccolino-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Battist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shoobpupper-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sneakypand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Apsaras-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fantrise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardook-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aschau-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hajot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiljadyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+		},
+		["raidOffline"] = {
+		},
+		["SID"] = {
+			["INDEX"] = 1,
+			["DELETED"] = {
+			},
+		},
+		["FixedPrices"] = true,
+		["LAST_OPEN"] = 1479771122,
+		["stored"] = {
+			["Ledarr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ashteya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Megaakill-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garionas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Corbi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nevondes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pazdanbeast-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoopal-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Philipo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewrathpr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lysoolec-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Earthwaves-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Swir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ironmouther-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionax-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Paralaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azzurar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wujekgarosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darina-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lazymike-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Opalkamarcin-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sznifferek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szoplifter-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sulpiryd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arquisari-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zaiy-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mishen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Deathmire-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wrongtargget-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Harkog-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rassam-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Neýna-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Prabel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikae-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankycowmuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pandothiel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Halsey-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Abbalon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Negoya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rabtym-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Keltazaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bloszeq-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angueme-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Banglao-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Oskimorderca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikea-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vinoopij-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Donloko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garkug-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Razerix-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eoanas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dominiko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zgnijtu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mitthi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Burnny-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batid-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kusmir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ilizon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mustav-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Klatanovic-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angryhorse-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pastuh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kickya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wakaii-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Morfajzero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Snifer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiciex-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomekk-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Runathes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vaadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankydps-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dalei-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Isloma-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Murloks-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maenlan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheinen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Krowikrol-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Alakazamer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Blaszany-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lokenia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Owcazabujca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rocknrooll-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fráiche-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ibrä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Länti-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mammalaga-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomur-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eavaxx-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rympek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darioran-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batiist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redbullek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dkmeister-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ðeadshot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardok-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ahdo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zozusek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lickitüng-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zavar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Senurtan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rediva-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aevise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Elpotato-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Moadib-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Søsexi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheyrai-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Stamperia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aphrael-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Naghdar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Doubletap-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bercikowsky-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewratmg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Avanafil-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanorka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zdepkaxd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mutanus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Swoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tienki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanora-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Longoriá-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Grizzlyo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Virrkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zimnestopki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tequilä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qrient-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Cutè-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Menalufe-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shadô-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batistt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qergu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Martiziusz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hashp-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lorevalker-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shinero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Gehennus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hathvel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hoaxer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zerkom-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kruggorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Demidowicz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Groodo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kabajel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szniff-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zajebarka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fálká-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Protlover-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rafáél-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tragoro-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Byyczysyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoohunt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Marmenth-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arawia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Datchop-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Triand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodooprst-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nubilon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Flejmer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Myiosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mezilkre-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Akcent-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Glowkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Erednash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lilmoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Johnkanaka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aenash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Viirg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maccolino-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Battist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shoobpupper-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sneakypand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Apsaras-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fantrise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardook-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aschau-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hajot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiljadyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+		},
+		["raid"] = {
+		},
+		["externals"] = {
+		},
+		["standby"] = {
+		},
+		["AutoBossEarn"] = true,
+		["BidM"] = {
+		},
+		["Crypt"] = {
+		},
+		["GUI"] = {
+			["DKP_IM"] = 10,
+			["ShowOutGuild"] = true,
+			["DKP_QuickModify"] = 10,
+			["CustomPlayerRosterList"] = {
+				"Akcent-BurningLegion", -- [1]
+				"Arquisari-BurningLegion", -- [2]
+				"Avanafil-BurningLegion", -- [3]
+				"Azurewratmg-BurningLegion", -- [4]
+				"Bercikowsky-BurningLegion", -- [5]
+				"Dkmeister-BurningLegion", -- [6]
+				"Earthwaves-BurningLegion", -- [7]
+				"Elpotato-BurningLegion", -- [8]
+				"Fantrise-BurningLegion", -- [9]
+				"Gehennus-BurningLegion", -- [10]
+				"Harkog-BurningLegion", -- [11]
+				"Kiciex-BurningLegion", -- [12]
+				"Klatanovic-BurningLegion", -- [13]
+				"Lickitüng-BurningLegion", -- [14]
+				"Mitthi-BurningLegion", -- [15]
+				"Morfajzero-BurningLegion", -- [16]
+				"Nevondes-BurningLegion", -- [17]
+				"Pastuh-BurningLegion", -- [18]
+				"Rediva-BurningLegion", -- [19]
+				"Senurtan-BurningLegion", -- [20]
+				"Stamperia-BurningLegion", -- [21]
+				"Szniff-BurningLegion", -- [22]
+				"Szoplifter-BurningLegion", -- [23]
+				"Søsexi-BurningLegion", -- [24]
+				"Tankycowmuu-BurningLegion", -- [25]
+				"Vaadoos-BurningLegion", -- [26]
+				"Voodooprst-BurningLegion", -- [27]
+				"Zaiy-BurningLegion", -- [28]
+				"Zozusek-BurningLegion", -- [29]
+			},
+			["DKP_Timer"] = 10,
+			["DKP_RaidBonus"] = 10,
+		},
+		["ModifiedPlayers"] = {
+		},
+		["AltsRestore"] = {
+		},
+		["ironMan"] = {
+		},
+		["sync"] = {
+			["Ledarr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ashteya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Megaakill-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garionas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Corbi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nevondes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pazdanbeast-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoopal-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Philipo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewrathpr-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lysoolec-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogarus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Earthwaves-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Swir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ironmouther-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionax-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Paralaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azzurar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wujekgarosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darina-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lazymike-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Opalkamarcin-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sznifferek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szoplifter-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sulpiryd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arquisari-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zaiy-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mishen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Deathmire-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wrongtargget-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Harkog-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rassam-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Neýna-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Prabel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikae-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankycowmuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pandothiel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Halsey-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Abbalon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Negoya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rabtym-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Keltazaz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bloszeq-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angueme-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Banglao-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Oskimorderca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomuu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Merikea-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vinoopij-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Donloko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Garkug-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Razerix-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eoanas-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dominiko-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zgnijtu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mitthi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Burnny-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batid-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kusmir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ilizon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mustav-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Klatanovic-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Angryhorse-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Pastuh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kickya-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Wakaii-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Morfajzero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Snifer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiciex-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enomekk-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Runathes-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vaadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tankydps-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dalei-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Isloma-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Murloks-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maenlan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheinen-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Krowikrol-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Alakazamer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Blaszany-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lokenia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Owcazabujca-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rocknrooll-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fráiche-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ibrä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Länti-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mammalaga-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariomur-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Eavaxx-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rympek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darioran-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batiist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Redbullek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dkmeister-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ðeadshot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Darionir-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardok-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ahdo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zozusek-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lickitüng-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zavar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Senurtan-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rediva-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aevise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Elpotato-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Moadib-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Søsexi-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sheyrai-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Stamperia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aphrael-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Naghdar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Doubletap-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Bercikowsky-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Azurewratmg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Avanafil-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanorka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Vadoos-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zdepkaxd-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Dariogar-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mutanus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Swoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tienki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hanora-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Longoriá-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Grizzlyo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Virrkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zimnestopki-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tequilä-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qrient-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Cutè-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Menalufe-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shadô-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Batistt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Qergu-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Martiziusz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hashp-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Enorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lorevalker-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shinero-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Gehennus-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hathvel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hoaxer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zerkom-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kruggorath-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Demidowicz-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Groodo-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kabajel-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Szniff-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Zajebarka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fálká-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Protlover-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Rafáél-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Tragoro-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Byyczysyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodoohunt-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Marmenth-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Arawia-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Datchop-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Triand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Voodooprst-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Nubilon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Flejmer-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Myiosh-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Mezilkre-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Akcent-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Glowkaa-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Erednash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Lilmoon-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Johnkanaka-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aenash-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Viirg-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Maccolino-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Battist-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Shoobpupper-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Sneakypand-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Apsaras-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Fantrise-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Ardook-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Aschau-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Hajot-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+			["Kiljadyn-BurningLegion"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			},
+		},
+		["TimerBase"] = {
+		},
+		["Alts"] = {
+			["Tienki-BurningLegion"] = "Sheinen-BurningLegion",
+			["Razerix-BurningLegion"] = "Aenash-BurningLegion",
+		},
+		["logEntries"] = {
+			["Deleted"] = {
+			},
+			["BackMod"] = {
+				["Dkmeister-BurningLegion"] = {
+					["0|1479771940.43"] = {
+						nil, -- [1]
+						1479771940.43, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							8, -- [1]
+						}, -- [5]
+					},
+					["0|1479771623.26"] = {
+						nil, -- [1]
+						1479771623.26, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					},
+					["0|1479771661.32"] = {
+						nil, -- [1]
+						1479771661.32, -- [2]
+						"DKP reset (single)", -- [3]
+						0, -- [4]
+						{
+							-6, -- [1]
+							-10, -- [2]
+						}, -- [5]
+					},
+					["0|1479771633.29"] = {
+						nil, -- [1]
+						1479771633.29, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 5,
+						}, -- [5]
+					},
+					["0|1479771635.3"] = {
+						nil, -- [1]
+						1479771635.3, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 5,
+						}, -- [5]
+					},
+					["0|1479772203.65"] = {
+						nil, -- [1]
+						1479772203.65, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[3] = 1,
+						}, -- [5]
+					},
+					["0|1479772093.55"] = {
+						nil, -- [1]
+						1479772093.55, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					},
+					["0|1479771631.27"] = {
+						nil, -- [1]
+						1479771631.27, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							5, -- [1]
+						}, -- [5]
+					},
+				},
+				["Elpotato-BurningLegion"] = {
+					["0|1479772130.59"] = {
+						nil, -- [1]
+						1479772130.59, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 3,
+						}, -- [5]
+					},
+					["0|1479772126.58"] = {
+						nil, -- [1]
+						1479772126.58, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							9, -- [1]
+						}, -- [5]
+					},
+				},
+				["Gehennus-BurningLegion"] = {
+					["0|1479772165.62"] = {
+						nil, -- [1]
+						1479772165.62, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 2,
+						}, -- [5]
+					},
+					["0|1479772162.61"] = {
+						nil, -- [1]
+						1479772162.61, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							6, -- [1]
+						}, -- [5]
+					},
+				},
+				["Earthwaves-BurningLegion"] = {
+					["0|1479772063.52"] = {
+						nil, -- [1]
+						1479772063.52, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 1,
+						}, -- [5]
+					},
+					["0|1479772074.54"] = {
+						nil, -- [1]
+						1479772074.54, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 1,
+						}, -- [5]
+					},
+					["0|1479771966.45"] = {
+						nil, -- [1]
+						1479771966.45, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							7, -- [1]
+						}, -- [5]
+					},
+					["0|1479772097.56"] = {
+						nil, -- [1]
+						1479772097.56, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					},
+					["0|1479772061.51"] = {
+						nil, -- [1]
+						1479772061.51, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					},
+				},
+			},
+		},
+		["log"] = {
+			["0"] = {
+				["Dkmeister-BurningLegion"] = {
+					{
+						4, -- [1]
+						1479772203.65, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							1, -- [3]
+						}, -- [5]
+					}, -- [1]
+					{
+						4, -- [1]
+						1479772093.55, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					}, -- [2]
+					{
+						4, -- [1]
+						1479771940.43, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							8, -- [1]
+						}, -- [5]
+					}, -- [3]
+					{
+						4, -- [1]
+						1479771661.32, -- [2]
+						"DKP reset (single)", -- [3]
+						0, -- [4]
+						{
+							-6, -- [1]
+							-10, -- [2]
+						}, -- [5]
+					}, -- [4]
+					{
+						4, -- [1]
+						1479771635.3, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 5,
+						}, -- [5]
+					}, -- [5]
+					{
+						4, -- [1]
+						1479771633.29, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 5,
+						}, -- [5]
+					}, -- [6]
+					{
+						4, -- [1]
+						1479771631.27, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							5, -- [1]
+						}, -- [5]
+					}, -- [7]
+					{
+						4, -- [1]
+						1479771623.26, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					}, -- [8]
+				},
+				["Elpotato-BurningLegion"] = {
+					{
+						4, -- [1]
+						1479772130.59, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 3,
+						}, -- [5]
+					}, -- [1]
+					{
+						4, -- [1]
+						1479772126.58, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							9, -- [1]
+						}, -- [5]
+					}, -- [2]
+				},
+				["Gehennus-BurningLegion"] = {
+					{
+						4, -- [1]
+						1479772165.62, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 2,
+						}, -- [5]
+					}, -- [1]
+					{
+						4, -- [1]
+						1479772162.61, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							6, -- [1]
+						}, -- [5]
+					}, -- [2]
+				},
+				["Earthwaves-BurningLegion"] = {
+					{
+						4, -- [1]
+						1479772097.56, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					}, -- [1]
+					{
+						4, -- [1]
+						1479772074.54, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 1,
+						}, -- [5]
+					}, -- [2]
+					{
+						4, -- [1]
+						1479772063.52, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							[2] = 1,
+						}, -- [5]
+					}, -- [3]
+					{
+						4, -- [1]
+						1479772061.51, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							1, -- [1]
+						}, -- [5]
+					}, -- [4]
+					{
+						4, -- [1]
+						1479771966.45, -- [2]
+						nil, -- [3]
+						0, -- [4]
+						{
+							7, -- [1]
+						}, -- [5]
+					}, -- [5]
+				},
+			},
+		},
+		["raidRemoved"] = {
+		},
+	},
+	["StoreVers"] = 20551,
+}
+QDKP2_Debug_List = nil

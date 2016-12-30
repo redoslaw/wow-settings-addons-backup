@@ -1,0 +1,10 @@
+
+TomTomPing_DB = {
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

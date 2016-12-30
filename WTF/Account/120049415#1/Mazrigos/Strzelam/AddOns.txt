@@ -1,0 +1,7 @@
+PetSelector: disabled
+HunterPets: disabled
+HunterPets_Owned: disabled
+HunterPets_UI: disabled
+CalendarNotify: disabled
+IllusionPreview: disabled
+PetStance: disabled

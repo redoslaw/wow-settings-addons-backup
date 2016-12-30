@@ -1,0 +1,29 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Alyyn - Sargeras"] = "Alyyn - Sargeras",
+	},
+	["profiles"] = {
+		["Alyyn - Sargeras"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -278.000076293945,
+					["x"] = 589,
+					["w"] = 139.999969482422,
+					["h"] = 199.999923706055,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

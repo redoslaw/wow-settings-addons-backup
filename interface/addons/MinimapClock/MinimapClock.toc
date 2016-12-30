@@ -1,0 +1,7 @@
+## Interface: 70000
+## Title: MinimapClock
+## Notes: Replaces the titlebar of the minimap with the current time. Uses local time.
+## Version: 1.0k
+## Author: Sildor
+
+minimapclock.lua

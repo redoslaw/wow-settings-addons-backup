@@ -1,0 +1,37 @@
+## Interface: 70100
+#@non-debug@
+## Title: Currency Tracking
+## Title-deDE: Abzeichenverfolgung
+## Title-koKR: |cFF00FF00[가계부]|rCurrency Tracking
+## Title-zhCN: |cFF00FF00[信息]|r通货追踪
+## Title-zhTW: |cFF00FF00[資訊]|r通貨追蹤
+## Notes: Currency Tracking is an addon to help you track the currencies you gained, showing the selected currency even on top of the game screen.
+## Notes-deDE: Currency Tracking ist ein Addon, das dir dabei hilft, deine erhaltenen Abzeichen zu verfolgen, indem es die ausgewählten Abzeichen am oberen Bildschirmrand anzeigt.
+## Notes-koKR: |cff00CC33Currency Tracking은 획득한 화폐를 추적하고 화면 상단에 선택한 화폐를 표시해주는 애드온입니다.|r
+## Notes-zhCN: |cff00CC33追踪所有获取的通货，并显示在游戏画面上|r
+## Notes-zhTW: |cff00CC33追蹤所有獲取的通貨，並顯示在遊戲畫面上|r
+#@end-non-debug@
+#@debug@
+# ## Title: Currency Tracking
+# ## Title-zhTW: |cFF00FF00[資訊]|r通貨追蹤
+# ## Notes: Currency Tracking is an addon to help you track the currencies you gained, showing the selected currency even on top of the game screen.
+# ## Notes-zhTW: |cff00CC33追蹤所有獲取的通貨，並顯示在遊戲畫面上|r
+#@end-debug@
+## Author: arith
+## Version: 2.00
+## OptionalDeps: LibDataBroker-1.1, LibAboutPanel, CallbackHandler-1.0, LibStub, AceLocale-3.0
+## DefaultState: Enabled
+## SavedVariables: CurrencyTrackingDB
+## X-Date: 2016-12-26T8:27:50Z
+## X-Donate: https://pledgie.com/campaigns/31749
+## X-Website: http://mods.curse.com/addons/wow/currency-tracking
+## X-License: GPLv2
+## X-Category: Information
+## X-Localizations: enUS, zhTW, deDE, zhCN, koKR
+
+Embeds.xml
+Locale\Locales.xml
+CurrencyTracking.lua
+CurrencyTracking.xml
+CurrencyTracking_Options.xml
+

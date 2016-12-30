@@ -1,0 +1,5 @@
+LibDFramework-1.0: disabled
+LFGShout: disabled
+AuctionMaster: disabled
+AuctionLite: disabled
+Ace3: enabled

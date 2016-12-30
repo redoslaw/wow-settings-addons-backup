@@ -1,0 +1,18 @@
+------------------------------------------------------------------------
+r50 | mikk | 2014-10-15 16:28:28 +0000 (Wed, 15 Oct 2014) | 2 lines
+Changed paths:
+   M /trunk/ReadyCheckAnnouncer.lua
+   M /trunk/ReadyCheckAnnouncer.toc
+
+TOC 60000
+Also announce to "Instance Chat" when in such a group
+------------------------------------------------------------------------
+r49 | mikk | 2013-12-25 19:21:53 +0000 (Wed, 25 Dec 2013) | 3 lines
+Changed paths:
+   M /trunk/ReadyCheckAnnouncer.lua
+   M /trunk/ReadyCheckAnnouncer.toc
+
+TOC 50400
+Bugfix: Xrealm leaders are no longer always afk.
+Change: No assumptions about 10/25 group size in "instance" groups (noticeable in flex) and certain groups being on standby. Nor in raids larger than 25man (as reported by wow itself).
+------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+﻿local L = LibStub("AceLocale-3.0"):NewLocale("MrtWoo_StatusBar", "ruRU", false)
+
+if not L then return end
+
+L["Bottom"] = "Снизу"
+L["Custom"] = "Пользовательская"
+L["Exalted"] = "Превознесение"
+L["Experience in the short form (1k..)?"] = "Опыт в сокращенном виде (1k..)"
+L["Freeze"] = "Зафиксировать"
+L["Friendly"] = "Дружелюбие"
+L["Hated"] = "Ненависть"
+L["Honored"] = "Уважение"
+L["Hostile"] = "Враждебность"
+L["Maximum gain experience"] = "Максимальный уровень получения опыта"
+L["Move"] = "Передвинуть"
+L["Nuetral"] = "Равнодушие"
+L["Position"] = "Расположение"
+L["Revered"] = "Почтение"
+L["Show experience?"] = "Показывать опыт"
+L["Show last updatet reputation?"] = "Показывать фракцию, с которой изменилась репутация"
+L["Show me a reputation?"] = "Показывать репутацию"
+L["Show me the emblems?"] = "Показывать эмблемы"
+L["Show statistics about the block spam / flood?"] = "Показывать статистику заблокированного спама/флуда"
+L["Show status bar?"] = "Показывать СтатусБар?"
+L["StatusBar"] = "СтатусБар"
+L["Top"] = "Сверху"
+L["Unfriendly"] = "Неприязнь"
+L["Unknown"] = "Неизвестно"

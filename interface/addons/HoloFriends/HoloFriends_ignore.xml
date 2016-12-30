@@ -1,0 +1,59 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Frame name="HoloIgnoreFrame" parent="UIParent" inherits="HoloFriends_FrameTemplate">
+		<Frames>
+			<Frame name="HoloIgnoreDropDown" inherits="UIDropDownMenuTemplate"/>
+			<Button name="HoloIgnoreFrameToggleTab3" inherits="TabButtonTemplate" text="PENDING_INVITE" id="3">
+				<Anchors><Anchor point="LEFT" relativeTo="HoloIgnoreFrameToggleTab2" relativePoint="RIGHT"/></Anchors>
+				<Scripts>
+					<OnShow>
+						PanelTemplates_DeselectTab(self);
+					</OnShow>
+					<OnClick>
+						PanelTemplates_Tab_OnClick(self, FriendsTabHeader);
+						FriendsFrame_Update();
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="HoloIgnoreFrame_AddIgnoreButton" inherits="UIPanelButtonTemplate" text="IGNORE_PLAYER">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="HoloIgnoreFrameOnline" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-6" y="-2"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
+					</OnLoad>
+					<OnClick>
+						HoloIgnore_AddIgnore();
+					</OnClick>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self,IGNORE_PLAYER, 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_IGNOREPLAYER, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+			<Button name="HoloIgnoreFrame_RemoveIgnoreButton" inherits="UIPanelButtonTemplate" text="STOP_IGNORE">
+				<Size><AbsDimension x="131" y="22"/></Size>
+				<Anchors><Anchor point="TOP" relativeTo="HoloIgnoreFrame_AddIgnoreButton" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="-5"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
+					</OnLoad>
+					<OnClick>
+						HoloIgnore_RemoveIgnore();
+					</OnClick>
+					<OnEnter>
+						GameTooltip_AddNewbieTip(self,REMOVE_IGNORE, 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_REMOVEFRIEND, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>

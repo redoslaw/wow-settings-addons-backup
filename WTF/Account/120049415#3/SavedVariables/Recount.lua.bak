@@ -1,0 +1,28 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -32.8204345703125,
+					["x"] = 496.683959960938,
+					["w"] = 140.000045776367,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

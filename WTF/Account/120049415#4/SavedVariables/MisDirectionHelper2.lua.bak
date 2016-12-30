@@ -1,0 +1,12 @@
+
+MisDirectionHelperDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["profiles"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+			["petname"] = "Boar",
+			["name"] = "Boar",
+		},
+	},
+}

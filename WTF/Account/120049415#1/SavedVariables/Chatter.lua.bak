@@ -1,0 +1,362 @@
+
+ChatterDB = {
+	["namespaces"] = {
+		["PlayerNames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["saveFriends"] = false,
+				},
+			},
+			["realm"] = {
+				["Burning Legion"] = {
+					["names"] = {
+						["Thelev"] = {
+							["level"] = 110,
+							["class"] = "MAGE",
+						},
+						["Dariogar-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "SHAMAN",
+						},
+						["Ciugdor-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "SHAMAN",
+						},
+						["Redus"] = {
+							["level"] = 110,
+							["class"] = "MAGE",
+						},
+						["Kkomar-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DRUID",
+						},
+						["Swoon-BurningLegion"] = {
+							["level"] = 104,
+							["class"] = "PALADIN",
+						},
+						["Cutè-BurningLegion"] = {
+							["level"] = 102,
+							["class"] = "PALADIN",
+						},
+						["Redus-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "MAGE",
+						},
+						["Murloks-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "HUNTER",
+						},
+						["Oskimorderca-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DEMONHUNTER",
+						},
+						["Sheinen-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "HUNTER",
+						},
+						["Rocknrooll-BurningLegion"] = {
+							["level"] = 105,
+							["class"] = "MAGE",
+						},
+						["Earthwaves-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "SHAMAN",
+						},
+						["Groodo-BurningLegion"] = {
+							["level"] = 100,
+							["class"] = "SHAMAN",
+						},
+						["Razerix-BurningLegion"] = {
+							["level"] = 95,
+							["class"] = "DEATHKNIGHT",
+						},
+						["Doubletap-BurningLegion"] = {
+							["level"] = 100,
+							["class"] = "ROGUE",
+						},
+						["Dkmeister-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DEATHKNIGHT",
+						},
+						["Getheros-BurningLegion"] = {
+							["level"] = 108,
+							["class"] = "MONK",
+						},
+						["Kiljadyn-BurningLegion"] = {
+							["level"] = 101,
+							["class"] = "DRUID",
+						},
+						["Mammalaga-BurningLegion"] = {
+							["level"] = 100,
+							["class"] = "DEATHKNIGHT",
+						},
+						["Kharthesh-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DEMONHUNTER",
+						},
+						["Kaiaraqt-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DEMONHUNTER",
+						},
+						["Johnkanaka-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "DEATHKNIGHT",
+						},
+						["Bloemfontein-BurningLegion"] = {
+							["level"] = 100,
+							["class"] = "MONK",
+						},
+						["Virrkaa-BurningLegion"] = {
+							["level"] = 48,
+							["class"] = "PALADIN",
+						},
+						["Zozusek-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "MONK",
+						},
+						["Agu-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "HUNTER",
+						},
+						["Paralaz-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "ROGUE",
+						},
+						["Tequilä-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "PALADIN",
+						},
+						["Arawia-BurningLegion"] = {
+							["level"] = 100,
+							["class"] = "MAGE",
+						},
+						["Roggak-BurningLegion"] = {
+							["level"] = 110,
+							["class"] = "WARRIOR",
+						},
+						["Szczepanisko-BurningLegion"] = {
+							["level"] = 1,
+							["class"] = "WARRIOR",
+						},
+						["Hajot-BurningLegion"] = {
+							["level"] = 104,
+							["class"] = "DEMONHUNTER",
+						},
+						["Mishen-BurningLegion"] = {
+							["level"] = 42,
+							["class"] = "HUNTER",
+						},
+					},
+				},
+			},
+		},
+		["AltLinks"] = {
+			["realm"] = {
+				["Burning Legion"] = {
+					["Redus"] = "Redus",
+				},
+			},
+		},
+		["Scrollback"] = {
+			["profiles"] = {
+				["Default"] = {
+					["FRAME_1"] = 250,
+				},
+			},
+		},
+		["Invite Links"] = {
+			["profiles"] = {
+				["Default"] = {
+					["altClickToinvite"] = false,
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+			},
+		},
+		["ChannelColors"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["Party Leader"] = {
+							["b"] = 1,
+							["g"] = 0.784313797950745,
+							["r"] = 0.462745130062103,
+						},
+						["Instance Leader"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Instance"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["Raid Leader"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Yell"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["Real ID Whisper"] = {
+							["b"] = 0.964705944061279,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["Party"] = {
+							["b"] = 1,
+							["g"] = 0.666666686534882,
+							["r"] = 0.666666686534882,
+						},
+						["Whisper"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["Say"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Raid Warning"] = {
+							["b"] = 0,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["Guild"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["Officer"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["r"] = 0.250980406999588,
+						},
+					},
+				},
+			},
+		},
+		["StickyChannels"] = {
+		},
+		["RealIdPolish"] = {
+		},
+		["ChatFrameBorders"] = {
+			["profiles"] = {
+				["Default"] = {
+					["frames"] = {
+						["FRAME_1"] = {
+							["edgeSize"] = 39,
+							["tileSize"] = 24,
+							["inset"] = 9,
+						},
+					},
+				},
+			},
+		},
+		["Buttons"] = {
+		},
+		["Server Positioning"] = {
+		},
+		["JustifyText"] = {
+		},
+		["Timestamps"] = {
+			["profiles"] = {
+				["Default"] = {
+					["frames"] = {
+						["Frame10"] = true,
+					},
+					["colorByChannel"] = true,
+				},
+			},
+		},
+		["EditBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["edgeSize"] = 14,
+				},
+			},
+		},
+		["Highlight"] = {
+			["profiles"] = {
+				["Default"] = {
+					["customChannels"] = {
+						["BN_WHISPER"] = "Blizzard: Alarm Clock 3",
+						["WHISPER"] = "Blizzard: Alarm Clock 2",
+					},
+					["highlights"] = {
+						["BN_WHISPER"] = true,
+						["WHISPER"] = true,
+					},
+				},
+			},
+		},
+		["ChatTabs"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 36,
+					["chattabs"] = false,
+					["alpha"] = 1,
+				},
+			},
+		},
+		["ChannelNames"] = {
+		},
+		["CopyChat"] = {
+			["profiles"] = {
+				["Default"] = {
+					["copyIcon"] = true,
+				},
+			},
+		},
+		["UrlCopy"] = {
+		},
+		["Editbox History"] = {
+			["realm"] = {
+				["Burning Legion"] = {
+					["history"] = {
+						"/dance", -- [1]
+					},
+				},
+			},
+		},
+		["ChatFont"] = {
+			["profiles"] = {
+				["Default"] = {
+					["font"] = "FrancoisOne",
+					["fontsize"] = 14,
+				},
+			},
+		},
+		["Mousewheel Scroll"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Highlights"] = true,
+				["Scrollback"] = true,
+				["Automatic Whisper Windows"] = true,
+				["Borders/Background"] = false,
+				["ChatTabs"] = true,
+				["Disable Buttons"] = true,
+				["All Edge resizing"] = true,
+			},
+			["welcomeMessaged"] = true,
+		},
+	},
+}

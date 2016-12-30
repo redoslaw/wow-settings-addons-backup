@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Redoslawek|Burning Legion|Horde|1|WARRIOR", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Redoslawek - Burning Legion"] = "Redoslawek - Burning Legion",
+	},
+	["profiles"] = {
+		["Redoslawek - Burning Legion"] = {
+		},
+	},
+}

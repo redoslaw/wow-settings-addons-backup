@@ -1,0 +1,752 @@
+
+QDKP2backup = {
+	{
+		"Protlover-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [1]
+	{
+		"Aphrael-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [2]
+	{
+		"Pastuh-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [3]
+	{
+		"Voodooprst-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [4]
+	{
+		"Moadib-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [5]
+	{
+		"Redus-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [6]
+	{
+		"Vinoopij-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [7]
+	{
+		"Wakaii-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [8]
+	{
+		"Viirg-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [9]
+	{
+		"Zajebarka-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [10]
+	{
+		"Virrkaa-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [11]
+	{
+		"Mishen-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [12]
+	{
+		"Rabtym-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [13]
+	{
+		"Longoriá-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [14]
+	{
+		"Shinero-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [15]
+	{
+		"Eavaxx-BurningLegion", -- [1]
+		"Brat glowki", -- [2]
+	}, -- [16]
+	{
+		"Maenlan-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [17]
+	{
+		"Isloma-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [18]
+	{
+		"Nubilon-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [19]
+	{
+		"Negoya-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [20]
+	{
+		"Bloszeq-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [21]
+	{
+		"Fálká-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [22]
+	{
+		"Marmenth-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [23]
+	{
+		"Wrongtargget-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [24]
+	{
+		"Groodo-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [25]
+	{
+		"Blaszany-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [26]
+	{
+		"Kiljadyn-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [27]
+	{
+		"Zdepkaxd-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [28]
+	{
+		"Abbalon-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [29]
+	{
+		"Aenash-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [30]
+	{
+		"Ahdo-BurningLegion", -- [1]
+		"Dziewczyna Sulfuriasa", -- [2]
+	}, -- [31]
+	{
+		"Alakazamer-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [32]
+	{
+		"Angryhorse-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [33]
+	{
+		"Angueme-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [34]
+	{
+		"Apsaras-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [35]
+	{
+		"Aschau-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [36]
+	{
+		"Banglao-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [37]
+	{
+		"Burnny-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [38]
+	{
+		"Corbi-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [39]
+	{
+		"Cutè-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [40]
+	{
+		"Dalei-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [41]
+	{
+		"Datchop-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [42]
+	{
+		"Demidowicz-BurningLegion", -- [1]
+		"Gral w swtora", -- [2]
+	}, -- [43]
+	{
+		"Dominiko-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [44]
+	{
+		"Enorath-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [45]
+	{
+		"Eoanas-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [46]
+	{
+		"Erednash-BurningLegion", -- [1]
+		"Z gildii ogridana przylazl xD", -- [2]
+	}, -- [47]
+	{
+		"Flejmer-BurningLegion", -- [1]
+		"Od Klatana", -- [2]
+	}, -- [48]
+	{
+		"Hajot-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [49]
+	{
+		"Halsey-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [50]
+	{
+		"Hashp-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [51]
+	{
+		"Hoaxer-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [52]
+	{
+		"Ibrä-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [53]
+	{
+		"Ilizon-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [54]
+	{
+		"Johnkanaka-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [55]
+	{
+		"Kabajel-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [56]
+	{
+		"Kusmir-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [57]
+	{
+		"Lazymike-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [58]
+	{
+		"Ledarr-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [59]
+	{
+		"Lilmoon-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [60]
+	{
+		"Lysoolec-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [61]
+	{
+		"Merikae-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [62]
+	{
+		"Murloks-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [63]
+	{
+		"Myiosh-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [64]
+	{
+		"Naghdar-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [65]
+	{
+		"Opalkamarcin-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [66]
+	{
+		"Pazdanbeast-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [67]
+	{
+		"Philipo-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [68]
+	{
+		"Runathes-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [69]
+	{
+		"Rympek-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [70]
+	{
+		"Sheyrai-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [71]
+	{
+		"Sneakypand-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [72]
+	{
+		"Swir-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [73]
+	{
+		"Swoon-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [74]
+	{
+		"Tragoro-BurningLegion", -- [1]
+		"gosc od grizzlyego", -- [2]
+	}, -- [75]
+	{
+		"Triand-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [76]
+	{
+		"Zimnestopki-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [77]
+	{
+		"Azurewrathpr-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [78]
+	{
+		"Lokenia-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [79]
+	{
+		"Maccolino-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [80]
+	{
+		"Kickya-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [81]
+	{
+		"Wujekgarosh-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [82]
+	{
+		"Ironmouther-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [83]
+	{
+		"Menalufe-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [84]
+	{
+		"Enomekk-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [85]
+	{
+		"Arawia-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [86]
+	{
+		"Doubletap-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [87]
+	{
+		"Enomek-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [88]
+	{
+		"Keltazaz-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [89]
+	{
+		"Sulpiryd-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [90]
+	{
+		"Krowikrol-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [91]
+	{
+		"Neýna-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [92]
+	{
+		"Tienki-BurningLegion", -- [1]
+		"Sheinen", -- [2]
+	}, -- [93]
+	{
+		"Zerkom-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [94]
+	{
+		"Owcazabujca-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [95]
+	{
+		"Zavar-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [96]
+	{
+		"Batid-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [97]
+	{
+		"Byyczysyn-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [98]
+	{
+		"Shoobpupper-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [99]
+	{
+		"Zgnijtu-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [100]
+	{
+		"Garkug-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [101]
+	{
+		"Aevise-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [102]
+	{
+		"Ardook-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [103]
+	{
+		"Batiist-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [104]
+	{
+		"Batistt-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [105]
+	{
+		"Battist-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [106]
+	{
+		"Deathmire-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [107]
+	{
+		"Donloko-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [108]
+	{
+		"Fráiche-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [109]
+	{
+		"Hanorka-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [110]
+	{
+		"Megaakill-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [111]
+	{
+		"Merikea-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [112]
+	{
+		"Mezilkre-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [113]
+	{
+		"Shadô-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [114]
+	{
+		"Snifer-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [115]
+	{
+		"Sznifferek-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [116]
+	{
+		"Tankydps-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [117]
+	{
+		"Voodoohunt-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [118]
+	{
+		"Voodoopal-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [119]
+	{
+		"Batist-BurningLegion", -- [1]
+		"508985004", -- [2]
+	}, -- [120]
+	{
+		"Lorevalker-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [121]
+	{
+		"Paralaz-BurningLegion", -- [1]
+		"do 30.11.16", -- [2]
+	}, -- [122]
+	{
+		"Rafáél-BurningLegion", -- [1]
+		"Urlop do Grudnia", -- [2]
+	}, -- [123]
+	{
+		"Ardok-BurningLegion", -- [1]
+		"(GR2)", -- [2]
+	}, -- [124]
+	{
+		"Ashteya-BurningLegion", -- [1]
+		"Dziewczyna Eoanas", -- [2]
+	}, -- [125]
+	{
+		"Hathvel-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [126]
+	{
+		"Länti-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [127]
+	{
+		"Martiziusz-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [128]
+	{
+		"Mustav-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [129]
+	{
+		"Prabel-BurningLegion", -- [1]
+		"Na nic go nie bierzcie - Shei", -- [2]
+	}, -- [130]
+	{
+		"Qergu-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [131]
+	{
+		"Qrient-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [132]
+	{
+		"Rassam-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [133]
+	{
+		"Razerix-BurningLegion", -- [1]
+		"Aenash", -- [2]
+	}, -- [134]
+	{
+		"Tequilä-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [135]
+	{
+		"Azzurar-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [136]
+	{
+		"Glowkaa-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [137]
+	{
+		"Grizzlyo-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [138]
+	{
+		"Hanora-BurningLegion", -- [1]
+		"GR2(?)", -- [2]
+	}, -- [139]
+	{
+		"Kruggorath-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [140]
+	{
+		"Mutanus-BurningLegion", -- [1]
+		"(GR2)?", -- [2]
+	}, -- [141]
+	{
+		"Oskimorderca-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [142]
+	{
+		"Pandothiel-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [143]
+	{
+		"Rocknrooll-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [144]
+	{
+		"Vadoos-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [145]
+	{
+		"Akcent-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [146]
+	{
+		"Arquisari-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [147]
+	{
+		"Avanafil-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [148]
+	{
+		"Azurewratmg-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [149]
+	{
+		"Bercikowsky-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [150]
+	{
+		"Fantrise-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [151]
+	{
+		"Gehennus-BurningLegion", -- [1]
+		"(GR2)", -- [2]
+	}, -- [152]
+	{
+		"Lickitüng-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [153]
+	{
+		"Morfajzero-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [154]
+	{
+		"Nevondes-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [155]
+	{
+		"Søsexi-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [156]
+	{
+		"Tankycowmuu-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [157]
+	{
+		"Vaadoos-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [158]
+	{
+		"Dkmeister-BurningLegion", -- [1]
+		"dps", -- [2]
+	}, -- [159]
+	{
+		"Earthwaves-BurningLegion", -- [1]
+		"enh.", -- [2]
+	}, -- [160]
+	{
+		"Elpotato-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [161]
+	{
+		"Harkog-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [162]
+	{
+		"Kiciex-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [163]
+	{
+		"Klatanovic-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [164]
+	{
+		"Mitthi-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [165]
+	{
+		"Rediva-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [166]
+	{
+		"Senurtan-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [167]
+	{
+		"Stamperia-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [168]
+	{
+		"Szniff-BurningLegion", -- [1]
+		"785777851", -- [2]
+	}, -- [169]
+	{
+		"Szoplifter-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [170]
+	{
+		"Zaiy-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [171]
+	{
+		"Zozusek-BurningLegion", -- [1]
+		"Healer ", -- [2]
+	}, -- [172]
+	{
+		"Dariogarus-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [173]
+	{
+		"Dariomuu-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [174]
+	{
+		"Darionax-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [175]
+	{
+		"Darionir-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [176]
+	{
+		"Garionas-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [177]
+	{
+		"Ðeadshot-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [178]
+	{
+		"Dariogan-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [179]
+	{
+		"Redbullek-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [180]
+	{
+		"Darioran-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [181]
+	{
+		"Darionarus-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [182]
+	{
+		"Dariomur-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [183]
+	{
+		"Darina-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [184]
+	{
+		"Mammalaga-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [185]
+	{
+		"Dariogar-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [186]
+	{
+		"Sheinen-BurningLegion", -- [1]
+		"", -- [2]
+	}, -- [187]
+	["DATE"] = 1479772243,
+}

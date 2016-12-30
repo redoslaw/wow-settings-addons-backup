@@ -1,0 +1,12 @@
+
+TomTomPing_DB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Destination"] = "waypoint",
+			["ShowNoDest"] = true,
+		},
+	},
+}

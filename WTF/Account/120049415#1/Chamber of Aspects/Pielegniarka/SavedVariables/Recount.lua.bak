@@ -1,0 +1,5974 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Boar <Jertrazak-BurningLegion>"] = {
+			["GUID"] = "Pet-0-1092-1-59-42719-0202A9851A",
+			["LastEventHealth"] = {
+				"484 (100%)", -- [1]
+				"484 (100%)", -- [2]
+				"484 (100%)", -- [3]
+				"484 (100%)", -- [4]
+				"484 (100%)", -- [5]
+				"484 (100%)", -- [6]
+				"474 (97%)", -- [7]
+				"474 (97%)", -- [8]
+				"474 (97%)", -- [9]
+				"464 (95%)", -- [10]
+				"452 (93%)", -- [11]
+				"452 (93%)", -- [12]
+				"452 (93%)", -- [13]
+				"452 (93%)", -- [14]
+				"441 (91%)", -- [15]
+				"484 (100%)", -- [16]
+				"484 (100%)", -- [17]
+				"484 (100%)", -- [18]
+				"468 (96%)", -- [19]
+				"468 (96%)", -- [20]
+				"448 (92%)", -- [21]
+				"448 (92%)", -- [22]
+				"429 (88%)", -- [23]
+				"429 (88%)", -- [24]
+				"415 (85%)", -- [25]
+				"415 (85%)", -- [26]
+				"415 (85%)", -- [27]
+				"415 (85%)", -- [28]
+				"390 (80%)", -- [29]
+				"390 (80%)", -- [30]
+				"390 (80%)", -- [31]
+			},
+			["LastAttackedBy"] = "Barrens Giraffe",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					30.48, -- [1]
+				},
+				["Damage"] = {
+					383, -- [1]
+				},
+				["DamageTaken"] = {
+					167, -- [1]
+				},
+				["ActiveTime"] = {
+					30.48, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Boar",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 5,
+			["LastEventNum"] = {
+				[24] = 2.89256198347107,
+				[14] = 2.27272727272727,
+				[8] = 2.06611570247934,
+				[17] = 3.30578512396694,
+				[5] = 2.06611570247934,
+				[10] = 2.47933884297521,
+				[20] = 4.13223140495868,
+				[22] = 3.92561983471074,
+				[30] = 6.19834710743802,
+				[27] = 5.16528925619835,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["LastFlags"] = 4648,
+			["LastDamageTaken"] = 30,
+			["TimeLast"] = {
+				["ActiveTime"] = 48046.089,
+				["TimeDamage"] = 48046.089,
+				["OVERALL"] = 48046.089,
+				["DamageTaken"] = 48045.089,
+				["Damage"] = 48046.089,
+			},
+			["LastAbility"] = 48046.306,
+			["NextEventNum"] = 32,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				97.9338842975207, -- [7]
+				97.9338842975207, -- [8]
+				97.9338842975207, -- [9]
+				95.8677685950413, -- [10]
+				93.3884297520661, -- [11]
+				93.3884297520661, -- [12]
+				93.3884297520661, -- [13]
+				93.3884297520661, -- [14]
+				91.1157024793388, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				96.6942148760331, -- [19]
+				96.6942148760331, -- [20]
+				92.5619834710744, -- [21]
+				92.5619834710744, -- [22]
+				88.6363636363637, -- [23]
+				88.6363636363637, -- [24]
+				85.7438016528926, -- [25]
+				85.7438016528926, -- [26]
+				85.7438016528926, -- [27]
+				85.7438016528926, -- [28]
+				80.5785123966942, -- [29]
+				80.5785123966942, -- [30]
+				80.5785123966942, -- [31]
+			},
+			["LastEvents"] = {
+				"Boar <Jertrazak-BurningLegion> Melee Armored Scorpid Hit -9 (Physical)", -- [1]
+				"Boar <Jertrazak-BurningLegion> Bite Armored Scorpid Hit -20 (Physical)", -- [2]
+				"Boar <Jertrazak-BurningLegion> Kill Command Armored Scorpid Hit -42 (Physical)", -- [3]
+				"Boar <Jertrazak-BurningLegion> Kill Command Greater Plainstrider Hit -38 (Physical)", -- [4]
+				"Greater Plainstrider Melee Boar <Jertrazak-BurningLegion> Hit -10 (Physical)", -- [5]
+				"Boar <Jertrazak-BurningLegion> Melee Greater Plainstrider Hit -10 (Physical)", -- [6]
+				"Boar <Jertrazak-BurningLegion> Bite Greater Plainstrider Hit -16 (Physical)", -- [7]
+				"Greater Plainstrider Melee Boar <Jertrazak-BurningLegion> Hit -10 (Physical)", -- [8]
+				"Boar <Jertrazak-BurningLegion> Melee Greater Plainstrider Hit -8 (Physical)", -- [9]
+				"Greater Plainstrider Melee Boar <Jertrazak-BurningLegion> Hit -12 (Physical)", -- [10]
+				"Boar <Jertrazak-BurningLegion> Bite Greater Plainstrider Hit -17 (Physical)", -- [11]
+				"Boar <Jertrazak-BurningLegion> Melee Greater Plainstrider Hit -8 (Physical)", -- [12]
+				"Boar <Jertrazak-BurningLegion> Kill Command Greater Plainstrider Hit -38 (Physical)", -- [13]
+				"Greater Plainstrider Melee Boar <Jertrazak-BurningLegion> Hit -11 (Physical)", -- [14]
+				"Boar <Jertrazak-BurningLegion> Melee Greater Plainstrider Crit -16 (Physical)", -- [15]
+				"Boar <Jertrazak-BurningLegion> Kill Command Savannah Prowler Hit -35 (Physical)", -- [16]
+				"Savannah Prowler Melee Boar <Jertrazak-BurningLegion> Hit -16 (Physical)", -- [17]
+				"Boar <Jertrazak-BurningLegion> Melee Savannah Prowler Hit -10 (Physical)", -- [18]
+				"Boar <Jertrazak-BurningLegion> Bite Savannah Prowler Hit -13 (Physical)", -- [19]
+				"Savannah Prowler Melee Boar <Jertrazak-BurningLegion> Hit -20 (Physical)", -- [20]
+				"Boar <Jertrazak-BurningLegion> Melee Savannah Prowler Hit -8 (Physical)", -- [21]
+				"Savannah Prowler Melee Boar <Jertrazak-BurningLegion> Hit -19 (Physical)", -- [22]
+				"Boar <Jertrazak-BurningLegion> Melee Savannah Prowler Hit -7 (Physical)", -- [23]
+				"Savannah Prowler Melee Boar <Jertrazak-BurningLegion> Hit -14 (Physical)", -- [24]
+				"Boar <Jertrazak-BurningLegion> Bite Savannah Prowler Hit -12 (Physical)", -- [25]
+				"Boar <Jertrazak-BurningLegion> Kill Command Barrens Giraffe Hit -36 (Physical)", -- [26]
+				"Barrens Giraffe Melee Boar <Jertrazak-BurningLegion> Hit -25 (Physical)", -- [27]
+				"Boar <Jertrazak-BurningLegion> Melee Barrens Giraffe Hit -8 (Physical)", -- [28]
+				"Boar <Jertrazak-BurningLegion> Bite Barrens Giraffe Hit -16 (Physical)", -- [29]
+				"Barrens Giraffe Melee Boar <Jertrazak-BurningLegion> Hit -30 (Physical)", -- [30]
+				"Boar <Jertrazak-BurningLegion> Melee Barrens Giraffe Crit -16 (Physical)", -- [31]
+			},
+			["Name"] = "Boar",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+			},
+			["LastEventTimes"] = {
+				47902.989, -- [1]
+				47902.989, -- [2]
+				47903.622, -- [3]
+				47925.639, -- [4]
+				47926.439, -- [5]
+				47926.439, -- [6]
+				47927.255, -- [7]
+				47928.439, -- [8]
+				47928.439, -- [9]
+				47930.372, -- [10]
+				47930.488, -- [11]
+				47930.488, -- [12]
+				47931.805, -- [13]
+				47932.372, -- [14]
+				47932.489, -- [15]
+				48031.272, -- [16]
+				48031.989, -- [17]
+				48032.105, -- [18]
+				48033.272, -- [19]
+				48033.456, -- [20]
+				48034.139, -- [21]
+				48034.906, -- [22]
+				48036.189, -- [23]
+				48036.306, -- [24]
+				48036.472, -- [25]
+				48042.506, -- [26]
+				48044.006, -- [27]
+				48044.322, -- [28]
+				48044.606, -- [29]
+				48046.072, -- [30]
+				48046.306, -- [31]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["TimeSpent"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0.63,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.13,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 9,
+						["Physical"] = 62,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 20,
+								},
+								["Kill Command"] = {
+									["count"] = 42,
+								},
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 71,
+						},
+					},
+					["TimeDamage"] = 4.13,
+					["TimeDamaging"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0.63,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.13,
+						},
+					},
+					["Attacks"] = {
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 20,
+									["count"] = 1,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 20,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 42,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+					},
+					["ActiveTime"] = 4.13,
+					["Damage"] = 71,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 43,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 43,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 151,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 42,
+						["Physical"] = 109,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 33,
+								},
+								["Kill Command"] = {
+									["count"] = 76,
+								},
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 151,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 2.87,
+								},
+								["Kill Command"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+							},
+							["amount"] = 10.35,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 10.35,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 17,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 33,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 38,
+									["min"] = 38,
+									["count"] = 2,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 76,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 8,
+									["count"] = 3,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 42,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.35,
+					["TimeDamaging"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 2.87,
+								},
+								["Kill Command"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+							},
+							["amount"] = 10.35,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 124,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 124,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 161,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 49,
+						["Physical"] = 112,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 25,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+								["Melee"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 85,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 16,
+								},
+								["Kill Command"] = {
+									["count"] = 36,
+								},
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 76,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 16,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 12,
+									["count"] = 3,
+									["amount"] = 41,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 41,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 36,
+									["min"] = 35,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 71,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 7,
+									["count"] = 4,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 16,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 124,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 124,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 161,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 49,
+						["Physical"] = 112,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 25,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+								["Melee"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 85,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 16,
+								},
+								["Kill Command"] = {
+									["count"] = 36,
+								},
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 76,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 16,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 12,
+									["count"] = 3,
+									["amount"] = 41,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 41,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 36,
+									["min"] = 35,
+									["count"] = 2,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 71,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 7,
+									["count"] = 4,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 16,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+					},
+					["Attacks"] = {
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 12,
+									["count"] = 6,
+									["amount"] = 94,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 94,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 35,
+									["count"] = 5,
+									["amount"] = 189,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 189,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 7,
+									["count"] = 8,
+									["amount"] = 68,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 100,
+						},
+					},
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0.63,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.13,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 2.87,
+								},
+								["Kill Command"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+							},
+							["amount"] = 10.35,
+						},
+					},
+					["DamageTaken"] = 167,
+					["WhoDamaged"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 100,
+						["Physical"] = 283,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 25,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+								["Melee"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 85,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 16,
+								},
+								["Kill Command"] = {
+									["count"] = 36,
+								},
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 76,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 20,
+								},
+								["Kill Command"] = {
+									["count"] = 42,
+								},
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 71,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 33,
+								},
+								["Kill Command"] = {
+									["count"] = 76,
+								},
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 151,
+						},
+					},
+					["TimeDamage"] = 30.48,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 1.45,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.75,
+								},
+							},
+							["amount"] = 8.7,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0.28,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.52,
+								},
+							},
+							["amount"] = 7.3,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0.63,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.13,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 2.87,
+								},
+								["Kill Command"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.66,
+								},
+							},
+							["amount"] = 10.35,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 167,
+					},
+					["ActiveTime"] = 30.48,
+					["Damage"] = 383,
+				},
+			},
+			["UnitLockout"] = 47902.089,
+			["LastActive"] = 48046.089,
+		},
+		["Jertrazak-BurningLegion"] = {
+			["GUID"] = "Player-3713-081C4FB1",
+			["LastEventHealth"] = {
+				"432 (100%)", -- [1]
+				"432 (100%)", -- [2]
+				"432 (100%)", -- [3]
+				"423 (97%)", -- [4]
+				"432 (100%)", -- [5]
+				"432 (100%)", -- [6]
+				"432 (100%)", -- [7]
+				"432 (100%)", -- [8]
+				"432 (100%)", -- [9]
+				"432 (100%)", -- [10]
+				"432 (100%)", -- [11]
+				"432 (100%)", -- [12]
+				"432 (100%)", -- [13]
+				"432 (100%)", -- [14]
+				"432 (100%)", -- [15]
+				"432 (100%)", -- [16]
+				"432 (100%)", -- [17]
+				"432 (100%)", -- [18]
+				"432 (100%)", -- [19]
+				"432 (100%)", -- [20]
+				"432 (100%)", -- [21]
+				"432 (100%)", -- [22]
+				"432 (100%)", -- [23]
+				"432 (100%)", -- [24]
+				"432 (100%)", -- [25]
+				"432 (100%)", -- [26]
+				"432 (100%)", -- [27]
+				"432 (100%)", -- [28]
+				"432 (100%)", -- [29]
+				"432 (100%)", -- [30]
+				"432 (100%)", -- [31]
+				"432 (100%)", -- [32]
+				"432 (100%)", -- [33]
+				"432 (100%)", -- [34]
+				"432 (100%)", -- [35]
+				"432 (100%)", -- [36]
+				"432 (100%)", -- [37]
+				"432 (100%)", -- [38]
+			},
+			["LastAttackedBy"] = "Armored Scorpid",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+			},
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					70, -- [1]
+				},
+				["ActiveTime"] = {
+					58.45, -- [1]
+				},
+				["TimeDamage"] = {
+					58.45, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					9, -- [1]
+				},
+				["Damage"] = {
+					590, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Jertrazak-BurningLegion",
+			["LastDamageTaken"] = 9,
+			["LastAbility"] = 48056.139,
+			["level"] = 13,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 5,
+			["LastEventNum"] = {
+				[3] = 2.08333333333333,
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Boar"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Pet-0-1092-1-59-42719-0202A9851A",
+					},
+				},
+			},
+			["TimeLast"] = {
+				["EnergyGain"] = 48053.089,
+				["Healing"] = 47902.089,
+				["ActiveTime"] = 48056.089,
+				["TimeDamage"] = 48056.089,
+				["OVERALL"] = 48056.089,
+				["DamageTaken"] = 47902.089,
+				["Damage"] = 48056.089,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Boar <Jertrazak-BurningLegion>", -- [1]
+			},
+			["NextEventNum"] = 39,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				97.9166666666667, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+			},
+			["LastEvents"] = {
+				"Jertrazak-BurningLegion Auto Shot Armored Scorpid Hit -13 (Physical)", -- [1]
+				"Jertrazak-BurningLegion Arcane Shot Armored Scorpid Hit -23 (Arcane)", -- [2]
+				"Armored Scorpid Melee Jertrazak-BurningLegion Hit -9 (Physical)", -- [3]
+				"Jertrazak-BurningLegion Auto Shot Armored Scorpid Hit -11 (Physical)", -- [4]
+				"Jertrazak-BurningLegion Auto Shot Greater Plainstrider Hit -12 (Physical)", -- [5]
+				"Jertrazak-BurningLegion Arcane Shot Greater Plainstrider Hit -24 (Arcane)", -- [6]
+				"Jertrazak-BurningLegion Auto Shot Greater Plainstrider Hit -11 (Physical)", -- [7]
+				"Jertrazak-BurningLegion Steady Shot Greater Plainstrider Hit -11 (Physical)", -- [8]
+				"Jertrazak-BurningLegion Auto Shot Greater Plainstrider Hit -11 (Physical)", -- [9]
+				"Jertrazak-BurningLegion Arcane Shot Greater Plainstrider Hit -23 (Arcane)", -- [10]
+				"Jertrazak-BurningLegion Auto Shot Greater Plainstrider Crit -23 (Physical)", -- [11]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Crit -21 (Physical)", -- [12]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -22 (Arcane)", -- [13]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -23 (Arcane)", -- [14]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -23 (Arcane)", -- [15]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [16]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [17]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -11 (Physical)", -- [18]
+				"Jertrazak-BurningLegion Steady Shot Savannah Prowler Hit -11 (Physical)", -- [19]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -22 (Arcane)", -- [20]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -11 (Physical)", -- [21]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -23 (Arcane)", -- [22]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [23]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [24]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [25]
+				"Jertrazak-BurningLegion Steady Shot Savannah Prowler Hit -11 (Physical)", -- [26]
+				"Jertrazak-BurningLegion Auto Shot Barrens Giraffe Hit -11 (Physical)", -- [27]
+				"Jertrazak-BurningLegion Auto Shot Barrens Giraffe Crit -22 (Physical)", -- [28]
+				"Jertrazak-BurningLegion Steady Shot Barrens Giraffe Crit -21 (Physical)", -- [29]
+				"Jertrazak-BurningLegion Auto Shot Barrens Giraffe Hit -11 (Physical)", -- [30]
+				"Jertrazak-BurningLegion Auto Shot Barrens Giraffe Hit -10 (Physical)", -- [31]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Hit -23 (Arcane)", -- [32]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -11 (Physical)", -- [33]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -11 (Physical)", -- [34]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -11 (Physical)", -- [35]
+				"Jertrazak-BurningLegion Steady Shot Savannah Prowler Hit -11 (Physical)", -- [36]
+				"Jertrazak-BurningLegion Arcane Shot Savannah Prowler Crit -48 (Arcane)", -- [37]
+				"Jertrazak-BurningLegion Auto Shot Savannah Prowler Hit -10 (Physical)", -- [38]
+			},
+			["Name"] = "Jertrazak-BurningLegion",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+			},
+			["LastEventTimes"] = {
+				47901.322, -- [1]
+				47902.438, -- [2]
+				47902.588, -- [3]
+				47903.506, -- [4]
+				47925.055, -- [5]
+				47925.472, -- [6]
+				47926.939, -- [7]
+				47928.939, -- [8]
+				47929.205, -- [9]
+				47929.506, -- [10]
+				47931.672, -- [11]
+				48010.389, -- [12]
+				48010.389, -- [13]
+				48011.222, -- [14]
+				48012.155, -- [15]
+				48012.489, -- [16]
+				48015.322, -- [17]
+				48017.639, -- [18]
+				48017.906, -- [19]
+				48017.906, -- [20]
+				48028.022, -- [21]
+				48028.505, -- [22]
+				48030.023, -- [23]
+				48032.339, -- [24]
+				48034.789, -- [25]
+				48037.122, -- [26]
+				48040.056, -- [27]
+				48042.222, -- [28]
+				48042.906, -- [29]
+				48044.322, -- [30]
+				48046.439, -- [31]
+				48049.189, -- [32]
+				48049.322, -- [33]
+				48051.756, -- [34]
+				48053.906, -- [35]
+				48054.022, -- [36]
+				48054.672, -- [37]
+				48056.139, -- [38]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 153,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 90,
+						["Physical"] = 63,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 52,
+								},
+								["Steady Shot"] = {
+									["count"] = 11,
+								},
+								["Arcane Shot"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 153,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Jertrazak-BurningLegion"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 14,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.98,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.27,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.76,
+								},
+							},
+							["amount"] = 11.01,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Jertrazak-BurningLegion"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ActiveTime"] = 11.01,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 10,
+									["count"] = 3,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 52,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 11,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 22,
+									["count"] = 4,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 90,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 11.01,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.98,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.27,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.76,
+								},
+							},
+							["amount"] = 11.01,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["Healing"] = 0,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 24,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 24,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 23,
+						},
+					},
+					["TimeSpent"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.57,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 5.69,
+						},
+					},
+					["DamageTaken"] = 9,
+					["WhoDamaged"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 23,
+						["Physical"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["TimeDamage"] = 5.69,
+					["TimeDamaging"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.57,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 5.69,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 9,
+					},
+					["ActiveTime"] = 5.69,
+					["Damage"] = 47,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 115,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 47,
+						["Physical"] = 68,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 57,
+								},
+								["Steady Shot"] = {
+									["count"] = 11,
+								},
+								["Arcane Shot"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 115,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Jertrazak-BurningLegion"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 14,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.41,
+								},
+								["Steady Shot"] = {
+									["count"] = 2,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 10.13,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Jertrazak-BurningLegion"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ActiveTime"] = 10.13,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 11,
+									["count"] = 3,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 57,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 11,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 47,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.13,
+					["TimeDamaging"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.41,
+								},
+								["Steady Shot"] = {
+									["count"] = 2,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 10.13,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 275,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 94,
+						["Physical"] = 181,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 84,
+								},
+								["Steady Shot"] = {
+									["count"] = 22,
+								},
+								["Arcane Shot"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 200,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 54,
+								},
+								["Steady Shot"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Jertrazak-BurningLegion"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 42,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.97,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 3.88,
+								},
+							},
+							["amount"] = 22.3,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Jertrazak-BurningLegion"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ActiveTime"] = 31.62,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 10,
+									["count"] = 11,
+									["amount"] = 116,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 138,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 43,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 94,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 31.62,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.97,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 3.88,
+								},
+							},
+							["amount"] = 22.3,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 275,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 94,
+						["Physical"] = 181,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 84,
+								},
+								["Steady Shot"] = {
+									["count"] = 22,
+								},
+								["Arcane Shot"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 200,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 54,
+								},
+								["Steady Shot"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+						["Jertrazak-BurningLegion"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 42,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.97,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 3.88,
+								},
+							},
+							["amount"] = 22.3,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Jertrazak-BurningLegion"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ActiveTime"] = 31.62,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 10,
+									["count"] = 11,
+									["amount"] = 116,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 138,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 43,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 94,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 31.62,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.97,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 3.88,
+								},
+							},
+							["amount"] = 22.3,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24.95,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.72,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5.64,
+								},
+							},
+							["amount"] = 33.31,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.57,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 5.69,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.41,
+								},
+								["Steady Shot"] = {
+									["count"] = 2,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 10.13,
+						},
+					},
+					["DamageTaken"] = 9,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 58.45,
+					["ElementTaken"] = {
+						["Melee"] = 9,
+					},
+					["Damage"] = 590,
+					["EnergyGained"] = {
+						["Steady Shot"] = {
+							["Details"] = {
+								["Jertrazak-BurningLegion"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+					["Healing"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 23,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 66,
+								},
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 10,
+									["count"] = 19,
+									["amount"] = 205,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 271,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 4,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 65,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 22,
+									["count"] = 9,
+									["amount"] = 206,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 254,
+						},
+					},
+					["EnergyGain"] = 70,
+					["ElementDone"] = {
+						["Arcane"] = 254,
+						["Physical"] = 336,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 136,
+								},
+								["Steady Shot"] = {
+									["count"] = 33,
+								},
+								["Arcane Shot"] = {
+									["count"] = 184,
+								},
+							},
+							["amount"] = 353,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 54,
+								},
+								["Steady Shot"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 47,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 57,
+								},
+								["Steady Shot"] = {
+									["count"] = 11,
+								},
+								["Arcane Shot"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 115,
+						},
+					},
+					["TimeDamage"] = 58.45,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 24.95,
+								},
+								["Steady Shot"] = {
+									["count"] = 2.72,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5.64,
+								},
+							},
+							["amount"] = 33.31,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 8.64,
+								},
+								["Steady Shot"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 9.32,
+						},
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.57,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 5.69,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.41,
+								},
+								["Steady Shot"] = {
+									["count"] = 2,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.72,
+								},
+							},
+							["amount"] = 10.13,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Jertrazak-BurningLegion"] = {
+							["Details"] = {
+								["Steady Shot"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+					["WhoDamaged"] = {
+						["Armored Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 47901.089,
+			["LastActive"] = 48056.089,
+		},
+		["Pielegniarka"] = {
+			["GUID"] = "Player-1307-08410323",
+			["LastEventHealth"] = {
+				"1318 (89%)", -- [1]
+				"1318 (89%)", -- [2]
+				"1303 (88%)", -- [3]
+				"1303 (88%)", -- [4]
+				"1303 (88%)", -- [5]
+				"1284 (86%)", -- [6]
+				"1284 (86%)", -- [7]
+				"1264 (85%)", -- [8]
+				"1264 (85%)", -- [9]
+				"1264 (85%)", -- [10]
+				"1264 (85%)", -- [11]
+				"1227 (83%)", -- [12]
+				"1204 (81%)", -- [13]
+				"1204 (81%)", -- [14]
+				"1204 (81%)", -- [15]
+				"1161 (78%)", -- [16]
+				"1161 (78%)", -- [17]
+				"1161 (78%)", -- [18]
+				"1161 (78%)", -- [19]
+				"1161 (78%)", -- [20]
+				"1161 (78%)", -- [21]
+				"1442 (97%)", -- [22]
+				"1442 (97%)", -- [23]
+				"1442 (97%)", -- [24]
+				"1442 (97%)", -- [25]
+				"1442 (97%)", -- [26]
+				"1442 (97%)", -- [27]
+				"1442 (97%)", -- [28]
+				"1442 (97%)", -- [29]
+				"1442 (97%)", -- [30]
+				"1442 (97%)", -- [31]
+				"1442 (97%)", -- [32]
+				"1442 (97%)", -- [33]
+				"1476 (100%)", -- [34]
+				"1476 (100%)", -- [35]
+				"1476 (100%)", -- [36]
+				"1476 (100%)", -- [37]
+				"1476 (100%)", -- [38]
+				"1476 (100%)", -- [39]
+				"1476 (100%)", -- [40]
+				"1442 (97%)", -- [41]
+				"1442 (97%)", -- [42]
+				"1442 (97%)", -- [43]
+				"1404 (95%)", -- [44]
+				"1404 (95%)", -- [45]
+				"1387 (93%)", -- [46]
+				"1357 (91%)", -- [47]
+				"1357 (91%)", -- [48]
+				"1339 (90%)", -- [49]
+				"1339 (90%)", -- [50]
+			},
+			["LastAttackedBy"] = "Savannah Prowler",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					10.01, -- [1]
+				},
+				["DamageTaken"] = {
+					622, -- [1]
+				},
+				["Absorbs"] = {
+					254, -- [1]
+				},
+				["HealingTaken"] = {
+					254, -- [1]
+				},
+				["TimeDamage"] = {
+					62.23, -- [1]
+				},
+				["ActiveTime"] = {
+					72.24, -- [1]
+				},
+				["ManaGain"] = {
+					255, -- [1]
+				},
+				["DOT_Time"] = {
+					87, -- [1]
+				},
+				["Damage"] = {
+					2408, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Pielegniarka",
+			["level"] = 15,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 5,
+			["LastEventNum"] = {
+				nil, -- [1]
+				1.01626016260163, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				1.28726287262873, -- [5]
+				nil, -- [6]
+				1.3550135501355, -- [7]
+				nil, -- [8]
+				1.01626016260163, -- [9]
+				1.49051490514905, -- [10]
+				nil, -- [11]
+				1.55826558265583, -- [12]
+				nil, -- [13]
+				nil, -- [14]
+				2.91327913279133, -- [15]
+				1.28726287262873, -- [16]
+				nil, -- [17]
+				1.69376693766938, -- [18]
+				1.42276422764228, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				1.3550135501355, -- [23]
+				nil, -- [24]
+				2.37127371273713, -- [25]
+				nil, -- [26]
+				1.0840108401084, -- [27]
+				nil, -- [28]
+				1.28726287262873, -- [29]
+				nil, -- [30]
+				nil, -- [31]
+				1.42276422764228, -- [32]
+				[43] = 2.57452574525745,
+				[45] = 1.15176151761518,
+				[46] = 2.03252032520325,
+				[40] = 2.30352303523035,
+				[48] = 1.21951219512195,
+				[50] = 1.42276422764228,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 21,
+			["TimeLast"] = {
+				["TimeHeal"] = 48056.089,
+				["OVERALL"] = 48057.089,
+				["DamageTaken"] = 48056.089,
+				["Absorbs"] = 48056.089,
+				["HealingTaken"] = 48056.089,
+				["TimeDamage"] = 48057.089,
+				["ActiveTime"] = 48057.089,
+				["ManaGain"] = 48057.089,
+				["DOT_Time"] = 48057.089,
+				["Damage"] = 48057.089,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 48057.622,
+			["NextEventNum"] = 22,
+			["LastEventHealthNum"] = {
+				89.2953929539296, -- [1]
+				89.2953929539296, -- [2]
+				88.2791327913279, -- [3]
+				88.2791327913279, -- [4]
+				88.2791327913279, -- [5]
+				86.9918699186992, -- [6]
+				86.9918699186992, -- [7]
+				85.6368563685637, -- [8]
+				85.6368563685637, -- [9]
+				85.6368563685637, -- [10]
+				85.6368563685637, -- [11]
+				83.130081300813, -- [12]
+				81.5718157181572, -- [13]
+				81.5718157181572, -- [14]
+				81.5718157181572, -- [15]
+				78.6585365853659, -- [16]
+				78.6585365853659, -- [17]
+				78.6585365853659, -- [18]
+				78.6585365853659, -- [19]
+				78.6585365853659, -- [20]
+				78.6585365853659, -- [21]
+				97.6964769647697, -- [22]
+				97.6964769647697, -- [23]
+				97.6964769647697, -- [24]
+				97.6964769647697, -- [25]
+				97.6964769647697, -- [26]
+				97.6964769647697, -- [27]
+				97.6964769647697, -- [28]
+				97.6964769647697, -- [29]
+				97.6964769647697, -- [30]
+				97.6964769647697, -- [31]
+				97.6964769647697, -- [32]
+				97.6964769647697, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				97.6964769647697, -- [41]
+				97.6964769647697, -- [42]
+				97.6964769647697, -- [43]
+				95.1219512195122, -- [44]
+				95.1219512195122, -- [45]
+				93.970189701897, -- [46]
+				91.9376693766938, -- [47]
+				91.9376693766938, -- [48]
+				90.7181571815718, -- [49]
+				90.7181571815718, -- [50]
+			},
+			["LastEvents"] = {
+				"Pielegniarka Shadow Word: Pain (DoT) Barrens Giraffe Tick -48 (Shadow)", -- [1]
+				"Savannah Prowler Melee Pielegniarka Hit -15 (Physical)", -- [2]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Hit -48 (Shadow)", -- [3]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [4]
+				"Savannah Prowler Melee Pielegniarka Hit -19 (Physical)", -- [5]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Hit -48 (Shadow)", -- [6]
+				"Savannah Prowler Melee Pielegniarka Hit -20 (Physical)", -- [7]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [8]
+				"Savannah Prowler Melee Pielegniarka Hit -15 (Physical)", -- [9]
+				"Savannah Prowler Melee Pielegniarka Hit -22 (Physical)", -- [10]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [11]
+				"Savannah Prowler Melee Pielegniarka Hit -23 (Physical)", -- [12]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [13]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -47 (Shadow)", -- [14]
+				"Savannah Prowler Melee Pielegniarka Crit -43 (Physical)", -- [15]
+				"Savannah Prowler Melee Pielegniarka Absorb -19 (19 Absorbed) (1)", -- [16]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [17]
+				"Savannah Prowler Melee Pielegniarka Absorb -25 (25 Absorbed) (1)", -- [18]
+				"Savannah Prowler Melee Pielegniarka Absorb -21 (21 Absorbed) (1)", -- [19]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Hit -48 (Shadow)", -- [20]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Crit -95 (Shadow)", -- [21]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -46 (Shadow)", -- [22]
+				"Savannah Prowler Melee Pielegniarka Absorb -20 (20 Absorbed) (1)", -- [23]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Crit -93 (Shadow)", -- [24]
+				"Savannah Prowler Melee Pielegniarka Absorb -35 (35 Absorbed) (1)", -- [25]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -46 (Shadow)", -- [26]
+				"Savannah Prowler Melee Pielegniarka Absorb -16 (16 Absorbed) (1)", -- [27]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -46 (Shadow)", -- [28]
+				"Savannah Prowler Melee Pielegniarka Absorb -19 (19 Absorbed) (1)", -- [29]
+				"Pielegniarka Mind Flay (DoT) Savannah Prowler Tick -39 (Shadow)", -- [30]
+				"Pielegniarka Mind Flay (DoT) Savannah Prowler Crit -77 (Shadow)", -- [31]
+				"Savannah Prowler Melee Pielegniarka Absorb -21 (21 Absorbed) (1)", -- [32]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Crit -92 (Shadow)", -- [33]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Hit -47 (Shadow)", -- [34]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Crit -93 (Shadow)", -- [35]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -47 (Shadow)", -- [36]
+				"Pielegniarka Shadow Word: Pain Barrens Giraffe Hit -47 (Shadow)", -- [37]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -47 (Shadow)", -- [38]
+				"Pielegniarka Shadow Word: Pain (DoT) Barrens Giraffe Tick -47 (Shadow)", -- [39]
+				"Barrens Giraffe Melee Pielegniarka Hit -34 (Physical)", -- [40]
+				"Pielegniarka Shadow Word: Pain Savannah Prowler Hit -47 (Shadow)", -- [41]
+				"Pielegniarka Shadow Word: Pain (DoT) Barrens Giraffe Tick -47 (Shadow)", -- [42]
+				"Barrens Giraffe Melee Pielegniarka Hit -38 (Physical)", -- [43]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Crit -96 (Shadow)", -- [44]
+				"Savannah Prowler Melee Pielegniarka Hit -17 (Physical)", -- [45]
+				"Barrens Giraffe Melee Pielegniarka Hit -30 (Physical)", -- [46]
+				"Pielegniarka Shadow Word: Pain (DoT) Barrens Giraffe Crit -95 (Shadow)", -- [47]
+				"Savannah Prowler Melee Pielegniarka Hit -18 (Physical)", -- [48]
+				"Pielegniarka Shadow Word: Pain (DoT) Savannah Prowler Tick -48 (Shadow)", -- [49]
+				"Savannah Prowler Melee Pielegniarka Hit -21 (Physical)", -- [50]
+			},
+			["Name"] = "Pielegniarka",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				48044.322, -- [1]
+				48045.122, -- [2]
+				48045.372, -- [3]
+				48045.772, -- [4]
+				48046.539, -- [5]
+				48046.689, -- [6]
+				48047.956, -- [7]
+				48048.456, -- [8]
+				48049.322, -- [9]
+				48049.322, -- [10]
+				48049.456, -- [11]
+				48050.806, -- [12]
+				48051.189, -- [13]
+				48052.139, -- [14]
+				48052.139, -- [15]
+				48053.539, -- [16]
+				48054.872, -- [17]
+				48054.972, -- [18]
+				48056.389, -- [19]
+				48057.372, -- [20]
+				48057.622, -- [21]
+				48011.689, -- [22]
+				48012.389, -- [23]
+				48012.489, -- [24]
+				48013.706, -- [25]
+				48014.356, -- [26]
+				48014.755, -- [27]
+				48015.206, -- [28]
+				48016.172, -- [29]
+				48016.172, -- [30]
+				48017.106, -- [31]
+				48017.506, -- [32]
+				48017.906, -- [33]
+				48027.472, -- [34]
+				48030.189, -- [35]
+				48032.906, -- [36]
+				48033.456, -- [37]
+				48035.672, -- [38]
+				48036.189, -- [39]
+				48037.239, -- [40]
+				48037.589, -- [41]
+				48038.939, -- [42]
+				48039.322, -- [43]
+				48040.322, -- [44]
+				48040.872, -- [45]
+				48041.406, -- [46]
+				48041.722, -- [47]
+				48042.339, -- [48]
+				48043.006, -- [49]
+				48043.706, -- [50]
+			},
+			["Fights"] = {
+				["Fight3"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["max"] = 21,
+									["min"] = 17,
+									["count"] = 3,
+									["amount"] = 57,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 57,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Greater Plainstrider"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Greater Plainstrider"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ShieldedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 76,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 57,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 57,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 76,
+					},
+					["DOT_Time"] = 13,
+					["Damage"] = 399,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 1.37,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 399,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 21,
+									["min"] = 17,
+									["count"] = 3,
+									["amount"] = 57,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 57,
+						},
+					},
+					["DamagedWho"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 191,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 48,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 399,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 1.37,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 1.37,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.23,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.6,
+								},
+							},
+							["amount"] = 10.33,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 21,
+									["min"] = 17,
+									["count"] = 3,
+									["amount"] = 57,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 57,
+						},
+					},
+					["WhoHealed"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 11.7,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 95,
+									["min"] = 95,
+									["count"] = 1,
+									["amount"] = 95,
+								},
+								["Tick"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 2,
+									["amount"] = 96,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 191,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 48,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 40,
+									["min"] = 40,
+									["count"] = 4,
+									["amount"] = 160,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 160,
+						},
+					},
+					["HealingTaken"] = 57,
+					["RageGain"] = 0,
+					["TimeDamage"] = 10.33,
+					["TimeDamaging"] = {
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.23,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.6,
+								},
+							},
+							["amount"] = 10.33,
+						},
+					},
+					["ManaGain"] = 51,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Bloodtalon Scythemaw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+				},
+				["Fight2"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 6,
+									["amount"] = 132,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 132,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Savannah Prowler"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Savannah Prowler"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ShieldedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 166,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 132,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 132,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 166,
+					},
+					["DOT_Time"] = 20,
+					["Damage"] = 630,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 5.72,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 630,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 6,
+									["amount"] = 132,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 132,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 373,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 141,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 630,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 166,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 8,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 5.72,
+								},
+							},
+							["amount"] = 5.72,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.67,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.6,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0.93,
+								},
+							},
+							["amount"] = 12.2,
+						},
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 5.72,
+								},
+							},
+							["amount"] = 5.72,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 6,
+									["amount"] = 132,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 132,
+						},
+					},
+					["WhoHealed"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.92,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 92,
+									["count"] = 2,
+									["amount"] = 188,
+								},
+								["Tick"] = {
+									["max"] = 47,
+									["min"] = 46,
+									["count"] = 4,
+									["amount"] = 185,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 373,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 93,
+									["min"] = 93,
+									["count"] = 1,
+									["amount"] = 93,
+								},
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 48,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 141,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 77,
+									["min"] = 77,
+									["count"] = 1,
+									["amount"] = 77,
+								},
+								["Tick"] = {
+									["max"] = 39,
+									["min"] = 39,
+									["count"] = 1,
+									["amount"] = 39,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 116,
+						},
+					},
+					["HealingTaken"] = 132,
+					["RageGain"] = 0,
+					["TimeDamage"] = 12.2,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 7.67,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.6,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0.93,
+								},
+							},
+							["amount"] = 12.2,
+						},
+					},
+					["ManaGain"] = 102,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 65,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Savannah Prowler"] = {
+									["count"] = 36,
+								},
+								["Barrens Giraffe"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["ShieldedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 380,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 65,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 65,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 380,
+					},
+					["DOT_Time"] = 48,
+					["Damage"] = 1235,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 2.92,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1235,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 65,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 238,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 713,
+								},
+							},
+							["amount"] = 951,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 47,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 237,
+								},
+							},
+							["amount"] = 284,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 278,
+								},
+							},
+							["amount"] = 278,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 16,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 2.92,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.85,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.75,
+								},
+							},
+							["amount"] = 25.6,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 2.92,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 65,
+						},
+					},
+					["WhoHealed"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 33.66,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 47,
+									["count"] = 6,
+									["amount"] = 285,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 285,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 93,
+									["count"] = 4,
+									["amount"] = 379,
+								},
+								["Tick"] = {
+									["max"] = 48,
+									["min"] = 47,
+									["count"] = 12,
+									["amount"] = 571,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 950,
+						},
+					},
+					["HealingTaken"] = 65,
+					["RageGain"] = 0,
+					["TimeDamage"] = 30.74,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.85,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.75,
+								},
+							},
+							["amount"] = 25.6,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+					},
+					["ManaGain"] = 102,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 65,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Savannah Prowler"] = {
+									["count"] = 36,
+								},
+								["Barrens Giraffe"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["ShieldedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 380,
+					["RageGainedFrom"] = {
+					},
+					["Absorbs"] = 65,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 65,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 380,
+					},
+					["DOT_Time"] = 48,
+					["Damage"] = 1235,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 2.92,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 1235,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 65,
+						},
+					},
+					["DamagedWho"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 238,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 713,
+								},
+							},
+							["amount"] = 951,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 47,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 237,
+								},
+							},
+							["amount"] = 284,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 278,
+								},
+							},
+							["amount"] = 278,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 16,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 2.92,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.85,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.75,
+								},
+							},
+							["amount"] = 25.6,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 2.92,
+								},
+							},
+							["amount"] = 2.92,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 25,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 65,
+						},
+					},
+					["WhoHealed"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 33.66,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 47,
+									["count"] = 6,
+									["amount"] = 285,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 285,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 93,
+									["count"] = 4,
+									["amount"] = 379,
+								},
+								["Tick"] = {
+									["max"] = 48,
+									["min"] = 47,
+									["count"] = 12,
+									["amount"] = 571,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 950,
+						},
+					},
+					["HealingTaken"] = 65,
+					["RageGain"] = 0,
+					["TimeDamage"] = 30.74,
+					["TimeDamaging"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 7.85,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 17.75,
+								},
+							},
+							["amount"] = 25.6,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+					},
+					["ManaGain"] = 102,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 10.01,
+								},
+							},
+							["amount"] = 10.01,
+						},
+					},
+					["DOTs"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Bloodtalon Scythemaw"] = {
+									["count"] = 6,
+								},
+								["Savannah Prowler"] = {
+									["count"] = 54,
+								},
+								["Barrens Giraffe"] = {
+									["count"] = 12,
+								},
+								["Greater Plainstrider"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 81,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Savannah Prowler"] = {
+									["count"] = 2,
+								},
+								["Greater Plainstrider"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 255,
+								},
+							},
+							["amount"] = 255,
+						},
+					},
+					["TimeSpent"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 25.42,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 11.45,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0.93,
+								},
+							},
+							["amount"] = 37.8,
+						},
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 10.01,
+								},
+							},
+							["amount"] = 10.01,
+						},
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.46,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.23,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.6,
+								},
+							},
+							["amount"] = 10.33,
+						},
+					},
+					["DamageTaken"] = 622,
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 92,
+									["count"] = 7,
+									["amount"] = 662,
+								},
+								["Tick"] = {
+									["max"] = 48,
+									["min"] = 46,
+									["count"] = 20,
+									["amount"] = 948,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 1610,
+						},
+						["Shadow Word: Pain"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 93,
+									["min"] = 93,
+									["count"] = 1,
+									["amount"] = 93,
+								},
+								["Hit"] = {
+									["max"] = 48,
+									["min"] = 47,
+									["count"] = 9,
+									["amount"] = 429,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 522,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 77,
+									["min"] = 77,
+									["count"] = 1,
+									["amount"] = 77,
+								},
+								["Tick"] = {
+									["max"] = 40,
+									["min"] = 39,
+									["count"] = 5,
+									["amount"] = 199,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 276,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 28,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["count"] = 255,
+								},
+							},
+							["amount"] = 255,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 12,
+									["amount"] = 254,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 254,
+						},
+					},
+					["ActiveTime"] = 72.24,
+					["WhoHealed"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 254,
+								},
+							},
+							["amount"] = 254,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 622,
+					},
+					["DOT_Time"] = 87,
+					["Damage"] = 2408,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["TimeHeal"] = 10.01,
+					["ShieldedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["HealedWho"] = {
+						["Pielegniarka"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 254,
+								},
+							},
+							["amount"] = 254,
+						},
+					},
+					["Heals"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 12,
+									["amount"] = 254,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 254,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 25,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["Absorbs"] = 254,
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 254,
+					},
+					["ElementDone"] = {
+						["Shadow"] = 2408,
+					},
+					["HealingTaken"] = 254,
+					["DamagedWho"] = {
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 48,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 1086,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 379,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 1581,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 47,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 237,
+								},
+							},
+							["amount"] = 284,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 191,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 48,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 160,
+								},
+							},
+							["amount"] = 399,
+						},
+					},
+					["TimeDamage"] = 62.23,
+					["TimeDamaging"] = {
+						["Bloodtalon Scythemaw"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 5.46,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 25.42,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 11.45,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0.93,
+								},
+							},
+							["amount"] = 37.8,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Shadow Word: Pain"] = {
+									["count"] = 0.55,
+								},
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 4.59,
+								},
+							},
+							["amount"] = 5.14,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 3.23,
+								},
+								["Shadow Word: Pain"] = {
+									["count"] = 3.5,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.6,
+								},
+							},
+							["amount"] = 10.33,
+						},
+					},
+					["ManaGain"] = 255,
+					["WhoDamaged"] = {
+						["Savannah Prowler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 444,
+								},
+							},
+							["amount"] = 444,
+						},
+						["Barrens Giraffe"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 76,
+						},
+					},
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Pielegniarka"] = {
+									["max"] = 35,
+									["min"] = 16,
+									["count"] = 12,
+									["amount"] = 254,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 254,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 47874.088,
+			["LastActive"] = 48057.089,
+		},
+	},
+	["FightNum"] = 6,
+	["CombatTimes"] = {
+		{
+			47874.088, -- [1]
+			47881.089, -- [2]
+			"23:22:29", -- [3]
+			"23:22:35", -- [4]
+			"Bloodtalon Scythemaw", -- [5]
+		}, -- [1]
+		{
+			47901.089, -- [1]
+			47905.088, -- [2]
+			"23:22:56", -- [3]
+			"23:22:59", -- [4]
+			"Armored Scorpid", -- [5]
+		}, -- [2]
+		{
+			47924.089, -- [1]
+			47934.089, -- [2]
+			"23:23:19", -- [3]
+			"23:23:28", -- [4]
+			"Greater Plainstrider", -- [5]
+		}, -- [3]
+		{
+			47954.089, -- [1]
+			47964.089, -- [2]
+			"23:23:49", -- [3]
+			"23:23:58", -- [4]
+			"Greater Plainstrider", -- [5]
+		}, -- [4]
+		{
+			48003.089, -- [1]
+			48020.089, -- [2]
+			"23:24:38", -- [3]
+			"23:24:54", -- [4]
+			"Savannah Prowler", -- [5]
+		}, -- [5]
+		{
+			48027.089, -- [1]
+			48064.089, -- [2]
+			"23:25:02", -- [3]
+			"23:25:38", -- [4]
+			"Savannah Prowler", -- [5]
+		}, -- [6]
+	},
+	["FoughtWho"] = {
+		"Savannah Prowler 23:25:02-23:25:38", -- [1]
+		"Savannah Prowler 23:24:38-23:24:54", -- [2]
+		"Greater Plainstrider 23:23:49-23:23:58", -- [3]
+		"Greater Plainstrider 23:23:19-23:23:28", -- [4]
+		"Armored Scorpid 23:22:56-23:22:59", -- [5]
+	},
+}

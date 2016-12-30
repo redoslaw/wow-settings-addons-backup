@@ -1,0 +1,8 @@
+## Interface: 71000
+## Title: Make Tab Targeting Great Again
+## Author: Nohk#2229
+## Version: 1
+## Notes: Set tab targeting style to 7.0.3
+## SavedVariables: make-tab-targeting-great-again
+
+make-tab-targeting-great-again.lua

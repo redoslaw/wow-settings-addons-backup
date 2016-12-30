@@ -1,0 +1,22 @@
+
+BrotherBags = {
+	["Burning Legion"] = {
+		["Redoslawek"] = {
+			[0] = {
+				"6948", -- [1]
+				"25861", -- [2]
+			},
+			["race"] = "Troll",
+			["faction"] = false,
+			["equip"] = {
+				[7] = "139",
+				[8] = "140",
+				[16] = "12282",
+				[5] = "58245",
+			},
+			["class"] = "WARRIOR",
+			["money"] = 0,
+			["sex"] = 2,
+		},
+	},
+}

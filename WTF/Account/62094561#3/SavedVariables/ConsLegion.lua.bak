@@ -1,0 +1,54 @@
+
+ConsLegionSavedVar = {
+	["Alyyn-Sargeras"] = {
+		["Settings"] = {
+			["Textleft"] = 805.714285714286,
+			["Scale"] = 1.18,
+			["TextScale"] = 0.81,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1301.53846153846,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -475.999969482422,
+			["XPScale"] = 0.806722700595856,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 0,
+			["Newstop"] = -317.333312988281,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.806722700595856,
+			["XPHide"] = 0,
+			["Arrowx"] = 846,
+			["XPleft"] = 426.999786376953,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -732.307645357572,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -427.000244140625,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["left"] = 203.399871826172,
+			["TextInvert"] = 0,
+			["XPtop"] = -409.666687011719,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Alyyn-Sargeras"] = {
+		[1015] = 42,
+	},
+}
+CL_NewsEpics = {
+	["Nr"] = 0,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+	["Alyyn-Sargeras"] = {
+		[1015] = 1,
+	},
+}

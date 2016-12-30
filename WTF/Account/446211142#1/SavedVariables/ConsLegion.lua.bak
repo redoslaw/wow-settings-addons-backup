@@ -1,0 +1,54 @@
+
+ConsLegionSavedVar = {
+	["Morgrein-TwistingNether"] = {
+		["Settings"] = {
+			["Textleft"] = 914.285714285714,
+			["Scale"] = 1.02,
+			["TextScale"] = 0.711111128330231,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1476.92307692308,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 1,
+			["XPLock"] = 0,
+			["AutoHandin"] = 1,
+			["Textalpha"] = 1,
+			["Arrowy"] = -629.000030517578,
+			["XPScale"] = 0.711111128330231,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 1,
+			["Newstop"] = -359.999959309896,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.711111128330231,
+			["XPHide"] = 0,
+			["Arrowx"] = 1345.00036621094,
+			["XPleft"] = 320,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -830.76913686899,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -416.999572753906,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["left"] = 1400.00061035156,
+			["TextInvert"] = 0,
+			["XPtop"] = -719.999918619792,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Morgrein-TwistingNether"] = {
+		[1080] = 28,
+	},
+}
+CL_NewsEpics = {
+	["Nr"] = 0,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+	["Morgrein-TwistingNether"] = {
+		[1080] = 1,
+	},
+}

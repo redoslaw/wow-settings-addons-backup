@@ -1,0 +1,13 @@
+## Interface: 60000
+## Title: |cffaaaaaaFly|rPitch
+## Author: Fayntic
+## Notes: Display of current flight/swimming pitch
+## Version: 5.0.5
+## SavedVariables: FlyPitchDB
+## OptionalDeps: Ace3
+## X-Curse-Project-Name: FlyPitch
+## X-Curse-Project-ID: flypitch
+
+Embeds.xml
+Core.lua
+Config.lua

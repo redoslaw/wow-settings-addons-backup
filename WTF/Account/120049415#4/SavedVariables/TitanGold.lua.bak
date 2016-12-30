@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Bezmyslny_Chamber of Aspects::Horde"] = {
+		["show"] = true,
+		["name"] = "Bezmyslny",
+		["gold"] = 87575,
+	},
+}

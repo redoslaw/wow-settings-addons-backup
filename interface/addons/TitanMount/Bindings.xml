@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="TOGGLETITANMOUNT" header="TITANPANELMOUNT" category="ADDONS">
+		TitanPanelMountBindingToggle();
+	</Binding>
+</Bindings>

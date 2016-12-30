@@ -1,0 +1,23 @@
+
+MythicPlusTimerDB = {
+	["pos"] = {
+		["top"] = 190,
+		["left"] = -260,
+		["relativePoint"] = "RIGHT",
+	},
+	["config"] = {
+		["objectiveTime"] = true,
+		["deathCounter"] = false,
+	},
+	["bestTimes"] = {
+		[1477] = {
+			316, -- [1]
+			1721, -- [2]
+			1222, -- [3]
+			2100, -- [4]
+			[6] = 1460,
+		},
+	},
+	["currentRun"] = {
+	},
+}

@@ -1,0 +1,29 @@
+------------------------------------------------------------------------
+r316 | mrtime | 2015-03-02 10:20:54 +0000 (Mon, 02 Mar 2015) | 1 line
+Changed paths:
+   A /tags/0.3.14.60100-release2 (from /branches/0.3.14.60100:315)
+
+Tagging as 0.3.14.60100-release2
+------------------------------------------------------------------------
+r315 | mrtime | 2015-03-02 10:19:01 +0000 (Mon, 02 Mar 2015) | 1 line
+Changed paths:
+   A /branches/0.3.14.60100 (from /trunk:314)
+
+Tagging as 0.3.14.60100
+------------------------------------------------------------------------
+r314 | mrtime | 2015-03-02 10:14:32 +0000 (Mon, 02 Mar 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Modules/MrtWoo_AntiSpam/MrtWoo_AntiSpam.toc
+   M /trunk/Modules/MrtWoo_SendOOM/MrtWoo_SendOOM.toc
+   M /trunk/Modules/MrtWoo_StatusBar/MrtWoo_StatusBar.toc
+   M /trunk/MrtWoo.toc
+
+Update libs, bump TOC
+------------------------------------------------------------------------
+r310 | mrtime | 2015-02-03 16:03:43 +0000 (Tue, 03 Feb 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Update WhoLib 
+------------------------------------------------------------------------

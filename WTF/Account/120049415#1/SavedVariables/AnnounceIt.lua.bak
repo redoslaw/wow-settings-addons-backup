@@ -1,0 +1,38 @@
+
+aiDB = {
+	["global"] = {
+		["version"] = "3.2.7",
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastmessage"] = {
+				["message"] = "Curse i grupy",
+				["type"] = "regular",
+				["chan"] = "OFFICER",
+			},
+			["messages"] = {
+				["Curse i grupy"] = {
+					["text"] = {
+						"!!! UWAGA SPAM :D  !!!", -- [1]
+						"Jezeli szukasz grupy na mythic 5-man lub chcesz zameldowac gotowosc do raidowania, zapraszamy na nasz serwer glosowy na curse. Link na http://wipeforged.com", -- [2]
+						"W przypadku wspolnego raidowania obecnosc na voice jest obowiazkowa!", -- [3]
+						"Grupy C i D poszukuja tanka do farmienia mythic 5-man. Po szczegoly zapraszamy na odpowiednie kanaly.", -- [4]
+						"", -- [5]
+					},
+					["custom"] = {
+						"", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+					},
+					["chan"] = {
+						["OFFICER"] = true,
+					},
+				},
+			},
+		},
+	},
+}

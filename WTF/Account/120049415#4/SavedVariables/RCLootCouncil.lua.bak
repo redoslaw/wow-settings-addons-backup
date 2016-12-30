@@ -1,0 +1,13 @@
+
+RCLootCouncilDB = {
+	["global"] = {
+		["version"] = "1.7.8",
+	},
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

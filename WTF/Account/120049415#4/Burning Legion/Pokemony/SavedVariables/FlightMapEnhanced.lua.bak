@@ -1,0 +1,30 @@
+
+FlightMapEnhanced_Config = {
+	["notexpanded"] = {
+	},
+	["discovery"] = {
+	},
+	["vconf"] = {
+		["module"] = {
+			["ft"] = {
+			},
+			["wmc"] = {
+				["questfly"] = true,
+				["minimap"] = 1,
+				["MapMouseButton"] = "LeftButton",
+				["MapModifierKey"] = "Control",
+			},
+		},
+		["version"] = 14,
+		["modules"] = {
+			["mfm"] = 1,
+			["ft"] = 1,
+			["wmc"] = 1,
+		},
+		["LockFlightMap"] = 1,
+		["ShowMiniMapButton"] = 1,
+	},
+	["fps"] = {
+	},
+	["minimap"] = 45,
+}

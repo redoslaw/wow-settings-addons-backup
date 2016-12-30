@@ -1,0 +1,28 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("MrtWoo_StatusBar", "esMX", false)
+
+if not L then return end
+
+-- L["Bottom"] = ""
+-- L["Custom"] = ""
+-- L["Exalted"] = ""
+-- L["Experience in the short form (1k..)?"] = ""
+-- L["Freeze"] = ""
+-- L["Friendly"] = ""
+-- L["Hated"] = ""
+-- L["Honored"] = ""
+-- L["Hostile"] = ""
+-- L["Maximum gain experience"] = ""
+-- L["Move"] = ""
+-- L["Nuetral"] = ""
+-- L["Position"] = ""
+-- L["Revered"] = ""
+-- L["Show experience?"] = ""
+-- L["Show last updatet reputation?"] = ""
+-- L["Show me a reputation?"] = ""
+-- L["Show me the emblems?"] = ""
+-- L["Show statistics about the block spam / flood?"] = ""
+-- L["Show status bar?"] = ""
+-- L["StatusBar"] = ""
+-- L["Top"] = ""
+-- L["Unfriendly"] = ""
+-- L["Unknown"] = ""

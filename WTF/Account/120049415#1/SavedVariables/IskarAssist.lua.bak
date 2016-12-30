@@ -1,0 +1,44 @@
+
+IskarAssistDB = {
+	["profileKeys"] = {
+		["Rumcajs - Steamwheedle Cartel"] = "Default",
+		["Aminokwas - Steamwheedle Cartel"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Redk - Steamwheedle Cartel"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Zgred - Steamwheedle Cartel"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Wów - Mazrigos"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Blondyn - Mazrigos"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Redfifth - Steamwheedle Cartel"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Redsixth - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redthird - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redsecond - Steamwheedle Cartel"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Redfirst - Steamwheedle Cartel"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["group_sorting"] = 2,
+			["debuff_fel_chakram"] = true,
+			["barwidth_grid"] = 107,
+			["MainPanel"] = {
+				["position"] = {
+					["y"] = 189.71533203125,
+					["x"] = -682.635650634766,
+				},
+				["IsLocked"] = true,
+			},
+			["barwidth"] = 141,
+		},
+	},
+}

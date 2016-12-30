@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+		},
+	},
+}

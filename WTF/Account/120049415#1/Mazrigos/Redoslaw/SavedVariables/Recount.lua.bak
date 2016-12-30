@@ -1,0 +1,47 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Redoslaw"] = {
+			["GUID"] = "Player-1388-06CA75AC",
+			["LastEventHealth"] = {
+				"2016 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Redoslaw",
+			["level"] = 29,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				411.904761904762, -- [1]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Splyandemand Ysera's Gift Redoslaw Hit +8304 (7475 overheal)", -- [1]
+			},
+			["Name"] = "Redoslaw",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				30848.823, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 30848.619,
+			["LastActive"] = 30848.619,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

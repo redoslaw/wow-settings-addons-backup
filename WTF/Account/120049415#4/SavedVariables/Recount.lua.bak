@@ -1,0 +1,29 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["profiles"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -237.916870117188,
+					["x"] = 687.667358398438,
+					["w"] = 140.000045776367,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "Maraudon",
+		},
+	},
+}

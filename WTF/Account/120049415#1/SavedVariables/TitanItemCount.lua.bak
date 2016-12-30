@@ -1,0 +1,13 @@
+
+TitanItemCountDB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+	},
+	["char"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = {
+			["BellSound"] = "Cheer",
+			["Item"] = "Felblight",
+			["Goal"] = 50,
+		},
+	},
+}

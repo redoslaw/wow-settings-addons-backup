@@ -1,0 +1,2 @@
+_NPCScan: disabled
+TanaanJungleStalker: disabled

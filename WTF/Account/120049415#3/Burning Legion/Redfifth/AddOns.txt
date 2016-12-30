@@ -1,0 +1,13 @@
+HealBot: disabled
+HealBot_br: disabled
+HealBot_cn: disabled
+HealBot_fr: disabled
+HealBot_de: disabled
+HealBot_gr: disabled
+HealBot_hu: disabled
+HealBot_it: disabled
+HealBot_ru: enabled
+HealBot_es: disabled
+HealBot_tw: disabled
+HealBot_Tips: disabled
+HealBot_kr: disabled

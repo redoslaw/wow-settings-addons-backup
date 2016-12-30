@@ -1,0 +1,569 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Frame name="HoloFriendsShare_TextFrameTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Scripts>
+			<OnUpdate>
+				local text = getglobal(self:GetName().."_text");
+				text:SetWidth(InterfaceOptionsFramePanelContainer:GetWidth()-20);
+				self:SetHeight(text:GetHeight());
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsShare_FirstColumnTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Scripts>
+			<OnUpdate>
+				local text = getglobal(self:GetName().."_text");
+				self:SetHeight(text:GetHeight());
+				self:SetWidth(text:GetWidth());
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsShare_SecondColumnTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Scripts>
+			<OnUpdate>
+				local PDtext = getglobal(self:GetParent():GetName().."_Pulldown");
+				local Stext = getglobal(self:GetParent():GetName().."_Seperate1");
+				local PDSwidth = PDtext:GetWidth() + Stext:GetWidth();
+				local Fwidth = InterfaceOptionsFramePanelContainer:GetWidth() - 20
+				local maxwidth = Fwidth - PDSwidth;
+				local text = getglobal(self:GetName().."_text");
+				text:SetWidth(Fwidth);
+				local twidth = text:GetStringWidth();
+				if ( math.max(maxwidth,twidth) == twidth ) then twidth = maxwidth; end;
+				text:SetWidth(twidth);
+				self:SetWidth(text:GetWidth());
+				self:SetHeight(text:GetHeight());
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Button name = "HoloFriendsShare_ButtonTemplate" virtual="true">
+		<Size><AbsDimension x="150" y="16" /></Size>
+		<Layers>
+			<Layer level="BORDER">
+				<FontString name="$parentName" inherits="GameFontNormal" justifyH="LEFT">
+					<Size><AbsDimension x="130" y="14"/></Size>
+					<Anchors><Anchor point="TOPRIGHT"/></Anchors>
+				</FontString>
+				<Texture name="$parentShareIcon" file="Interface\Buttons\UI-CheckBox-Check">     
+					<Size><AbsDimension x="16" y="16"/></Size>
+					<Anchors><Anchor point="TOPRIGHT" relativeTo="$parentName" relativePoint="TOPLEFT">
+						<Offset><AbsDimension x="-4" y="0"/></Offset>
+					</Anchor></Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
+	</Button>
+	<Button name = "HoloFriendsShare_SourceButtonTemplate" inherits="HoloFriendsShare_ButtonTemplate" virtual="true">
+		<Frames>
+			<CheckButton name="$parentShareCheck">
+				<Size><AbsDimension x="16" y="16"/></Size>
+				<Anchors><Anchor point="TOPLEFT">
+					<Offset><AbsDimension x="20" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_Group_OnClick(self);
+					</OnClick>
+				</Scripts>
+				<NormalTexture file="Interface\Buttons\UI-CheckBox-Up"/>
+				<PushedTexture file="Interface\Buttons\UI-CheckBox-Down"/>
+				<HighlightTexture file="Interface\Buttons\UI-CheckBox-Highlight" alphaMode="ADD"/>
+				<CheckedTexture file="Interface\Buttons\UI-CheckBox-Check"/>
+				<DisabledCheckedTexture file="Interface\Buttons\UI-CheckBox-Check-Disabled"/>
+			</CheckButton>
+		</Frames>
+		<Scripts>
+			<OnClick>
+				HoloFriendsShare_Source_OnClick(self);
+			</OnClick>
+		</Scripts>
+		<NormalTexture file="Interface\Buttons\UI-MinusButton-UP">
+			<Size><AbsDimension x="16" y="16"/></Size>
+			<Anchors><Anchor point="LEFT"/></Anchors>
+		</NormalTexture>
+	</Button>
+	<Button name = "HoloFriendsShare_TargetButtonTemplate" inherits="HoloFriendsShare_ButtonTemplate" virtual="true">
+		<Scripts>
+			<OnClick>
+				HoloFriendsShare_Target_OnClick(self);
+			</OnClick>
+		</Scripts>
+	</Button>
+	<Frame name="HoloFriendsShare_CharDropDownTemplate" inherits="UIDropDownMenuTemplate" virtual="true">
+		<Size><AbsDimension x="160" y="40"/></Size>
+		<Scripts>
+			<OnLoad>
+				getglobal(self:GetName().."Text"):SetJustifyH("LEFT");
+			</OnLoad>
+			<OnShow>
+				HoloFriendsShare_CharDropDown_OnShow(self);
+			</OnShow>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsShare_SourceListTemplate" virtual="true">
+		<Size><AbsDimension x="170" y="160"/></Size>
+		<Frames>
+			<ScrollFrame name="$parentScrollFrame" inherits="FauxScrollFrameTemplate">
+				<Size><AbsDimension x="170" y="160"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativePoint="TOPLEFT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+						<Size><AbsDimension x="31" y="126"/></Size>
+						<Anchors><Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+							<Offset><AbsDimension x="-2" y="2"/></Offset>
+						</Anchor></Anchors>
+						<TexCoords left="0" right="0.484375" top="0" bottom="1.0"/>
+					</Texture>
+					<Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+						<Size><AbsDimension x="31" y="56"/></Size>
+						<Anchors><Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+							<Offset><AbsDimension x="-2" y="-2"/></Offset>
+						</Anchor></Anchors>
+						<TexCoords left="0.515625" right="1.0" top="0" bottom="0.4140625"/>
+					</Texture>
+				</Layer></Layers>
+				<Scripts>
+					<OnVerticalScroll>
+						FauxScrollFrame_OnVerticalScroll(self, offset, 16, HoloFriendsShare_SourceScrollFrame_Update);
+					</OnVerticalScroll>
+					<OnShow>
+						HoloFriendsShare_SourceScrollFrame_Update(self)
+					</OnShow>
+				</Scripts>
+			</ScrollFrame>
+			<Frame name="$parentScrollBg">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentScrollFrame"/>
+					<Anchor point="BOTTOMRIGHT" relativeTo="$parentScrollFrame"/>
+				</Anchors>
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" tile="false"/>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_Text" inherits="GameFontHighlightSmall" text="-">
+						<Anchors><Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+							<Offset><AbsDimension x="0" y="10"/></Offset>
+						</Anchor></Anchors>
+					</FontString>
+				</Layer></Layers>
+			</Frame>
+			<Button name="$parent1" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativePoint="TOPLEFT">
+					<Offset><AbsDimension x="8" y="0"/></Offset>
+				 </Anchor></Anchors>
+			</Button>
+			<Button name="$parent2" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent1" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent3" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent2" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent4" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent3" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent5" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent4" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent6" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent5" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent7" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent6" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent8" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent7" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent9" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent8" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent10" inherits="HoloFriendsShare_SourceButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent9" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="HoloFriendsShare_TargetListTemplate" virtual="true">
+		<Size><AbsDimension x="170" y="160"/></Size>
+		<Frames>
+			<ScrollFrame name="$parentScrollFrame" inherits="FauxScrollFrameTemplate">
+				<Size><AbsDimension x="170" y="160"/></Size>
+				<Anchors><Anchor point="TOPLEFT" relativePoint="TOPLEFT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+						<Size><AbsDimension x="31" y="126"/></Size>
+						<Anchors><Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+							<Offset><AbsDimension x="-2" y="2"/></Offset>
+						</Anchor></Anchors>
+						<TexCoords left="0" right="0.484375" top="0" bottom="1.0"/>
+					</Texture>
+					<Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+						<Size><AbsDimension x="31" y="56"/></Size>
+						<Anchors><Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+							<Offset><AbsDimension x="-2" y="-2"/></Offset>
+						</Anchor></Anchors>
+						<TexCoords left="0.515625" right="1.0" top="0" bottom="0.4140625"/>
+					</Texture>
+				</Layer></Layers>
+				<Scripts>
+					<OnVerticalScroll>
+						FauxScrollFrame_OnVerticalScroll(self, offset, 16, HoloFriendsShare_TargetScrollFrame_Update);
+					</OnVerticalScroll>
+					<OnShow>
+						HoloFriendsShare_TargetScrollFrame_Update(self)
+					</OnShow>
+				</Scripts>
+			</ScrollFrame>
+			<Frame name="$parentScrollBg">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentScrollFrame"/>
+					<Anchor point="BOTTOMRIGHT" relativeTo="$parentScrollFrame"/>
+				</Anchors>
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"/>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parentText" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWTARGET">
+						<Anchors><Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
+							<Offset><AbsDimension x="" y="10"/></Offset>
+						</Anchor></Anchors>
+					</FontString>
+				</Layer></Layers>
+			</Frame>
+			<Button name="$parent1" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parentScrollFrame" relativePoint="TOPLEFT">
+					<Offset><AbsDimension x="8" y="0"/></Offset>
+				</Anchor></Anchors>
+			</Button>
+			<Button name="$parent2" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent1" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent3" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent2" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent4" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent3" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent5" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent4" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent6" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent5" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent7" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent6" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent8" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent7" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent9" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent8" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+			<Button name="$parent10" inherits="HoloFriendsShare_TargetButtonTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent9" relativePoint="BOTTOMLEFT"/></Anchors>
+			</Button>
+		</Frames>
+	</Frame>
+	<Frame name="HoloFriendsShare_FactionNoteTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="1"/></Size>
+		<Frames>
+			<Frame name="$parent_Pulldown" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativePoint="TOPLEFT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWFACTIONNOTEPULLDOWN" justifyH="LEFT"/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_Seperate1" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_Pulldown" relativePoint="TOPRIGHT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text=" - "/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_Add" inherits="HoloFriendsShare_SecondColumnTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_Seperate1" relativePoint="TOPRIGHT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWFACTIONNOTEADD" justifyH="LEFT"/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_Seperate2" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="TOPRIGHT" relativeTo="$parent_Add" relativePoint="BOTTOMLEFT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text=" - "/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_Extract" inherits="HoloFriendsShare_SecondColumnTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_Seperate2" relativePoint="TOPRIGHT"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWFACTIONNOTESEPARATE" justifyH="LEFT"/>
+				</Layer></Layers>
+			</Frame>
+		</Frames>
+		<Scripts>
+			<OnUpdate>
+				local cwidth1 = getglobal(self:GetName().."_Add"):GetWidth();
+				local cwidth2 = getglobal(self:GetName().."_Extract"):GetWidth();
+				local fwidth = 0;
+				fwidth = fwidth + getglobal(self:GetName().."_Pulldown"):GetWidth();
+				fwidth = fwidth + getglobal(self:GetName().."_Seperate1"):GetWidth();
+				fwidth = fwidth + math.max(cwidth1,cwidth2);
+				self:SetWidth(fwidth);
+				local fheight = 0;
+				fheight = fheight + getglobal(self:GetName().."_Add"):GetHeight();
+				fheight = fheight + getglobal(self:GetName().."_Extract"):GetHeight();
+				self:SetHeight(fheight);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsShare_FactionButtonsTemplate" virtual="true">
+		<Size><AbsDimension x="1" y="30"/></Size>
+		<Frames>
+			<Frame name="$parent_Character1" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="LEFT" relativePoint="TOPLEFT">
+					<Offset><AbsDimension x="0" y="-15"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="-"/>
+				</Layer></Layers>
+			</Frame>
+			<Button name="$parent_ButtonFactionAdd" inherits="OptionsButtonTemplate" text="ADD">
+				<Anchors><Anchor point="LEFT" relativeTo="$parent_Character1" relativePoint="RIGHT">
+					<Offset><AbsDimension x="10" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_MergeCharDialog(self);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Frame name="$parent_Separate" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="LEFT" relativeTo="$parent_ButtonFactionAdd" relativePoint="RIGHT">
+					<Offset><AbsDimension x="10" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontNormalLarge" text="|"/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_Character2" inherits="HoloFriendsShare_FirstColumnTemplate">
+				<Anchors><Anchor point="LEFT" relativeTo="$parent_Separate" relativePoint="RIGHT">
+					<Offset><AbsDimension x="10" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="-"/>
+				</Layer></Layers>
+			</Frame>
+			<Button name="$parent_ButtonFactionExtract" inherits="OptionsButtonTemplate" text="HOLOFRIENDS_SHAREWINDOWBUTTONSEPARATE">
+				<Anchors><Anchor point="LEFT" relativeTo="$parent_Character2" relativePoint="RIGHT">
+					<Offset><AbsDimension x="10" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_SeparateChar(self);
+					</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnUpdate>
+				local fwidth = 0;
+				fwidth = fwidth + getglobal(self:GetName().."_Character1"):GetWidth();
+				fwidth = fwidth + getglobal(self:GetName().."_Separate"):GetWidth() + 10;
+				fwidth = fwidth + getglobal(self:GetName().."_Character2"):GetWidth() + 10;
+				fwidth = fwidth + 2 * 90 + 20;
+				self:SetWidth(fwidth);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriendsShare_MainFrameTemplate" virtual="true">
+		<Size><AbsDimension x="450" y="400"/></Size>
+		<Scripts>
+			<OnLoad>
+				HoloFriendsShare_OnLoad(self);
+			</OnLoad>
+			<OnShow>
+				HoloFriendsShare_OnShow(self);
+				local width = InterfaceOptionsFramePanelContainer:GetWidth();
+				if ( math.max(450,width) == 450 ) then
+					local misswidth = 450 - width;
+					width = InterfaceOptionsFrame:GetWidth() + misswidth;
+					InterfaceOptionsFrame:SetWidth(width);
+				end
+			</OnShow>
+			<OnHide>
+				HoloFriendsShare_OnHide(self);
+			</OnHide>
+		</Scripts>
+	</Frame>
+	<Frame name="HoloFriends_ShareFrame" inherits="HoloFriendsShare_MainFrameTemplate" hidden="true">
+		<Layers><Layer level="OVERLAY">
+			<FontString name="$parent_TitleText" inherits="GameFontNormalLarge" text="HOLOFRIENDS_SHAREFRIENDSWINDOWTITLE">
+				<Size><AbsDimension x="300" y="40"/></Size>
+				<Anchors><Anchor point="TOP" relativePoint="TOP"/></Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames>
+			<!-- frame title -->
+			<Frame name="$parent_TitleNote" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_TitleText" relativePoint="BOTTOM"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWNOTE"/>
+				</Layer></Layers>
+			</Frame>
+			<!-- notes on top -->
+			<Frame name="$parent_Notice" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_TitleNote" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="-5"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWDELETENOTE"/>
+				</Layer></Layers>
+			</Frame>
+			<!-- player selectbox -->
+			<Frame name="$parent_CharDropDown" inherits="HoloFriendsShare_CharDropDownTemplate" enableMouse="true">
+				<Anchors><Anchor point="TOPRIGHT" relativeTo="$parent_Notice" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="-10" y="-10"/></Offset>
+				</Anchor></Anchors>
+			</Frame>
+			<!-- source: friends -->
+			<Frame name="$parent_Source" inherits="HoloFriendsShare_SourceListTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_CharDropDown" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="20" y="-20"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						local text = getglobal(self:GetName().."ScrollBg_Text");
+						text:SetText(HOLOFRIENDS_SHAREWINDOWSOURCE);
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<!-- targetlist -->       
+			<Frame name="$parent_Target" inherits="HoloFriendsShare_TargetListTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_Source" relativePoint="TOPRIGHT">
+					<Offset><AbsDimension x="40" y="0"/></Offset>
+				</Anchor></Anchors>
+			</Frame>
+			<!-- share buttons -->
+			<Button name="$parent_ButtonShareAdd" inherits="OptionsButtonTemplate" text="ADD">
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parent_Target" relativePoint="BOTTOMRIGHT">
+						<Offset><AbsDimension x="10" y="-10"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_ShareAdd(self, true);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parent_ButtonShareSub" inherits="OptionsButtonTemplate" text="UPDATE">
+				<Anchors><Anchor point="TOPRIGHT" relativeTo="$parent_ButtonShareAdd" relativePoint="TOPLEFT">
+					<Offset><AbsDimension x="-5" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_ShareAdd(self, false);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<!-- subtitle, notes and buttons to handle faction wide friend list -->
+			<Frame name="$parent_FactionTitle" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_ButtonShareSub" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-5" y="-10"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontNormal" text="HOLOFRIENDS_SHAREWINDOWFACTIONTITLE"/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_FactionNote" inherits="HoloFriendsShare_FactionNoteTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_FactionTitle" relativePoint="BOTTOM"/></Anchors>
+			</Frame>
+			<Frame name="$parent_FactionButtons" inherits="HoloFriendsShare_FactionButtonsTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_FactionNote" relativePoint="BOTTOM"/></Anchors>
+			</Frame>
+		</Frames>
+	</Frame>
+	<Frame name="HoloIgnore_ShareFrame" inherits="HoloFriendsShare_MainFrameTemplate" hidden="true">
+		<Layers><Layer level="OVERLAY">
+			<FontString name="$parent_TitleText" inherits="GameFontNormalLarge" text="HOLOFRIENDS_SHAREIGNOREWINDOWTITLE">
+				<Size><AbsDimension x="300" y="40"/></Size>
+				<Anchors><Anchor point="TOP" relativePoint="TOP"/></Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames>
+			<!-- frame title -->
+			<Frame name="$parent_TitleNote" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_TitleText" relativePoint="BOTTOM"/></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWNOTE"/>
+				</Layer></Layers>
+			</Frame>
+			<!-- notes on top -->
+			<Frame name="$parent_Notice" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_TitleNote" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="-5"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontHighlightSmall" text="HOLOFRIENDS_SHAREWINDOWDELETENOTE"/>
+				</Layer></Layers>
+			</Frame>
+			<!-- player selectbox -->
+			<Frame name="$parent_CharDropDown" inherits="HoloFriendsShare_CharDropDownTemplate" enableMouse="true">
+				<Anchors><Anchor point="TOPRIGHT" relativeTo="$parent_Notice" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="-10" y="-10"/></Offset>
+				</Anchor></Anchors>
+			</Frame>
+			<!-- source: friends -->
+			<Frame name="$parent_Source" inherits="HoloFriendsShare_SourceListTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_CharDropDown" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="20" y="-20"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnLoad>
+						local text = getglobal(self:GetName().."ScrollBg_Text");
+						text:SetText(HOLOFRIENDS_SHAREWINDOWSOURCE);
+					</OnLoad>
+				</Scripts>
+			</Frame>
+			<!-- targetlist -->       
+			<Frame name="$parent_Target" inherits="HoloFriendsShare_TargetListTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_Source" relativePoint="TOPRIGHT">
+					<Offset><AbsDimension x="40" y="0"/></Offset>
+				</Anchor></Anchors>
+			</Frame>
+			<!-- share buttons -->
+			<Button name="$parent_ButtonShareAdd" inherits="OptionsButtonTemplate" text="ADD">
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parent_Target" relativePoint="BOTTOMRIGHT">
+						<Offset><AbsDimension x="10" y="-10"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_ShareAdd(self, true);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parent_ButtonShareSub" inherits="OptionsButtonTemplate" text="UPDATE">
+				<Anchors><Anchor point="TOPRIGHT" relativeTo="$parent_ButtonShareAdd" relativePoint="TOPLEFT">
+					<Offset><AbsDimension x="-5" y="0"/></Offset>
+				</Anchor></Anchors>
+				<Scripts>
+					<OnClick>
+						HoloFriendsShare_ShareAdd(self, false);
+					</OnClick>
+				</Scripts>
+			</Button>
+			<!-- subtitle, notes and buttons to handle faction wide friend list -->
+			<Frame name="$parent_FactionTitle" inherits="HoloFriendsShare_TextFrameTemplate">
+				<Anchors><Anchor point="TOPLEFT" relativeTo="$parent_ButtonShareSub" relativePoint="BOTTOMLEFT">
+					<Offset><AbsDimension x="-5" y="-10"/></Offset>
+				</Anchor></Anchors>
+				<Layers><Layer level="ARTWORK">
+					<FontString name="$parent_text" inherits="GameFontNormal" text="HOLOFRIENDS_SHAREWINDOWFACTIONTITLE"/>
+				</Layer></Layers>
+			</Frame>
+			<Frame name="$parent_FactionNote" inherits="HoloFriendsShare_FactionNoteTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_FactionTitle" relativePoint="BOTTOM"/></Anchors>
+			</Frame>
+			<Frame name="$parent_FactionButtons" inherits="HoloFriendsShare_FactionButtonsTemplate">
+				<Anchors><Anchor point="TOP" relativeTo="$parent_FactionNote" relativePoint="BOTTOM"/></Anchors>
+			</Frame>
+		</Frames>
+	</Frame>
+</Ui>

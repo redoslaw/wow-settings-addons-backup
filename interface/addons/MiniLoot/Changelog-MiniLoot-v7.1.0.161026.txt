@@ -1,0 +1,16 @@
+tag v7.1.0.161026
+078a06a2d8337226c3c2bdda9ded6556d4fb24c1
+Vladinator89 <vladix@gmail.com>
+2016-10-29 09:01:24 +0100
+
+v7.1.0.161026
+
+
+--------------------
+
+Vladinator89:
+	- - TOC bump.
+	- - Fixed chat detection since the changes in 7.1.
+	- - Added an option to print default messages during raid groups. This is for those that prefer the full loot printout during raids, as they are a bit easier to read and find as the boss dies.
+	- Added currency max count so it's printed as long the option to show items in bags is selected.
+	- Fixed an issue with printing 0 XP gained on followers that are maxed out.

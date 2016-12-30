@@ -1,0 +1,11 @@
+## Interface: 70000
+## Title: AutoFlood
+## Author: lenwe-saralonde
+## Version: v1.2.0.13
+## Notes: Sends a periodical message in a channel
+## SavedVariables: AF_config
+## X-Curse-Packaged-Version: v1.2.0.13
+## X-Curse-Project-Name: AutoFlood
+## X-Curse-Project-ID: autoflood
+## X-Curse-Repository-ID: wow/autoflood/mainline
+AutoFlood.xml

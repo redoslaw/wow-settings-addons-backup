@@ -1,0 +1,29 @@
+
+WhisperInviteCoreDB = {
+	["char"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+			["info"] = {
+				["setup"] = 1,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["queueProtection"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+				}, -- [3]
+				{
+				}, -- [4]
+				{
+				}, -- [5]
+			},
+		},
+	},
+}

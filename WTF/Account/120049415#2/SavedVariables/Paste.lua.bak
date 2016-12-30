@@ -1,0 +1,11 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Redoslawek - Burning Legion"] = "Redoslawek - Burning Legion",
+	},
+	["profiles"] = {
+		["Redoslawek - Burning Legion"] = {
+			["loaded"] = true,
+		},
+	},
+}

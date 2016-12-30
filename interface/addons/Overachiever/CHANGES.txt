@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r176 | Tuhljin | 2016-12-24 13:15:54 -0600 (Sat, 24 Dec 2016) | 1 line
+Changed paths:
+   M /trunk/GameTip.lua
+   M /trunk/Overachiever.lua
+   M /trunk/Overachiever.toc
+   M /trunk/Overachiever_Tabs/Overachiever_Tabs.toc
+   M /trunk/Overachiever_Trade/Overachiever_Trade.toc
+   M /trunk/readme.txt
+
+- Fix error on startup for characters Overachiever hasn't seen before.
+------------------------------------------------------------------------
+

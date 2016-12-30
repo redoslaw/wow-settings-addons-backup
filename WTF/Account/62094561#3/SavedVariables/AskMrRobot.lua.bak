@@ -1,0 +1,37 @@
+
+AskMrRobotDb3 = {
+	["char"] = {
+		["Alyyn - Sargeras"] = {
+			["Talents"] = {
+				[3] = "1212111",
+			},
+			["Artifacts"] = {
+				[3] = {
+					["Relics"] = {
+						"", -- [1]
+						"|cff1eff00|Hitem:132987::::::::100:70::11:3:767:1507:1809:::|h[Everburning Ruin Ember]|h|r", -- [2]
+						"", -- [3]
+					},
+					["Powers"] = {
+						[40] = 1,
+						[1275] = 1,
+					},
+				},
+			},
+			["Logging"] = {
+				["LastZone"] = "Broken Isles",
+				["LastDiff"] = 0,
+			},
+		},
+	},
+	["global"] = {
+		["Region"] = "EU",
+	},
+	["profileKeys"] = {
+		["Alyyn - Sargeras"] = "Alyyn - Sargeras",
+	},
+	["profiles"] = {
+		["Alyyn - Sargeras"] = {
+		},
+	},
+}

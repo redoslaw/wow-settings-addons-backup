@@ -1,0 +1,48 @@
+
+FlightMapEnhanced_Config = {
+	["notexpanded"] = {
+	},
+	["discovery"] = {
+	},
+	["vconf"] = {
+		["module"] = {
+			["ft"] = {
+			},
+			["wmc"] = {
+				["questfly"] = true,
+				["minimap"] = 1,
+				["MapMouseButton"] = "LeftButton",
+				["MapModifierKey"] = "Control",
+			},
+		},
+		["version"] = 14,
+		["modules"] = {
+			["mfm"] = 1,
+			["ft"] = 1,
+			["wmc"] = 1,
+		},
+		["LockFlightMap"] = 1,
+		["ShowMiniMapButton"] = 1,
+	},
+	["fps"] = {
+		{
+			["Durotar"] = {
+				["Razor Hill"] = 39,
+				["Sen'jin Village"] = 38,
+				["Orgrimmar"] = 2,
+			},
+			["Northern Barrens"] = {
+				["Nozzlepot's Outpost"] = 35,
+			},
+			["Mulgore"] = {
+				["Thunder Bluff"] = 1,
+				["Bloodhoof Village"] = 34,
+			},
+			["total"] = nil --[[ skipped inline function ]],
+			["Moonglade"] = {
+				["Moonglade"] = 14,
+			},
+		}, -- [1]
+	},
+	["minimap"] = 45,
+}

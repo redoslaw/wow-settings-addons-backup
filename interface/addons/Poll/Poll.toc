@@ -1,0 +1,17 @@
+## Interface: 70000
+## Title: Poll
+## Author: lenwe-saralonde, DOcean2
+## Version: v1.0.5.9
+## SavedVariables: PollConfig
+## X-Curse-Packaged-Version: v1.0.5.9
+## X-Curse-Project-Name: Poll
+## X-Curse-Project-ID: poll
+## X-Curse-Repository-ID: wow/poll/mainline
+
+localization.en.lua
+localization.fr.lua
+localization.de.lua
+
+Poll.lua
+
+Poll.xml

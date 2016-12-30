@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+	},
+	["profiles"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+	},
+	["profiles"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+	},
+}

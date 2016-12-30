@@ -1,0 +1,2 @@
+
+DBMBaradinHold_AllSavedVars = nil

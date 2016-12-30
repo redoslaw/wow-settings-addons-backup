@@ -1,0 +1,2 @@
+
+WhisperInviteBasicDB = nil

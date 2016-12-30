@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["profiles"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+		},
+	},
+}

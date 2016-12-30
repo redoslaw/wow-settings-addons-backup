@@ -1,0 +1,49 @@
+changeset:   7:88a7626ebb8b
+tag:         tip
+user:        Tercio
+date:        Thu Dec 08 13:16:35 2016 -0200
+summary:     - update all libs in the project.
+
+
+changeset:   6:32d85a9447f7
+user:        Tercio
+date:        Tue Oct 25 16:22:15 2016 -0200
+summary:     - toc update.
+
+
+changeset:   5:6522b045c61e
+user:        Tercio
+date:        Sat Sep 03 08:41:43 2016 -0300
+summary:     - added demon hunter color on html color sheet.
+
+
+changeset:   4:f25697a99d88
+user:        Tercio
+date:        Wed Aug 10 17:44:08 2016 -0300
+summary:     r35
+
+
+changeset:   3:6598eca04fa3
+user:        Tercio
+date:        Tue Jul 19 12:58:07 2016 -0300
+summary:     - major update.
+
+
+changeset:   2:632cabd7f2ed
+user:        Tercio
+date:        Mon Mar 14 14:02:47 2016 -0300
+summary:     - The stand alone version is now version authority and always load replacing embed libs.
+
+
+changeset:   1:59be5b4c0942
+user:        Tercioo
+date:        Sun Feb 07 22:30:32 2016 -0200
+summary:     - wakeup packpager.
+
+
+changeset:   0:41019ad9731e
+user:        Tercioo
+date:        Sun Feb 07 22:28:34 2016 -0200
+summary:     - first HG commit.
+
+

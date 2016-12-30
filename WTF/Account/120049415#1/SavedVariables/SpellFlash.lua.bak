@@ -1,0 +1,21 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Chamber of Aspects"] = {
+			["PLAYER"] = {
+				["Kot"] = {
+					["enable_blinking"] = true,
+					["selected_class_module"] = "BittensSpellFlash_Druid",
+					["MODULE"] = {
+						["BittensSpellFlash_Druid"] = {
+							["MinimapIcon"] = false,
+							["libdbicon"] = {
+								["hide"] = true,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}

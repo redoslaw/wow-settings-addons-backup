@@ -1,0 +1,22 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Redk"] = {
+			["Fights"] = {
+			},
+			["type"] = "Self",
+			["Name"] = "Redk",
+			["UnitLockout"] = 37763.781,
+			["level"] = 59,
+			["Owner"] = false,
+			["enClass"] = "DEATHKNIGHT",
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

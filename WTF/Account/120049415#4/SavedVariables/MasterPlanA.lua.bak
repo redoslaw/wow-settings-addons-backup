@@ -1,0 +1,9 @@
+
+MasterPlanAG = {
+	["Chamber of Aspects"] = {
+		["Bezmyslny"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Horde",
+		},
+	},
+}

@@ -1,0 +1,18 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
+	},
+	["profiles"] = {
+		["Kneewhoya - Burning Legion"] = {
+			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 12.3486134698798,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
+			},
+		},
+	},
+}

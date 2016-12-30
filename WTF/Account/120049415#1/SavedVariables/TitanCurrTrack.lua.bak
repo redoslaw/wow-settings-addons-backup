@@ -1,0 +1,4 @@
+
+TitanCurrTrackData = {
+	["Steamwheedle Cartel-Ðeathshot"] = " |TInterface\\Icons\\inv_apexis_draenor:SIZE|t5166  |TInterface\\Icons\\inv_garrison_resource:SIZE|t3000  |TInterface\\Icons\\garrison_oil:SIZE|t250  |TInterface\\Icons\\ability_animusorbs:SIZE|t2  |TInterface\\Icons\\inv_elemental_primal_shadow:SIZE|t5  |TInterface\\Icons\\spell_shadow_sealofkings:SIZE|t35  |TInterface\\Icons\\PVPCurrency-Honor-Alliance:SIZE|t487 ",
+}

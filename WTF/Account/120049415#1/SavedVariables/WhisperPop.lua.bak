@@ -1,0 +1,48 @@
+
+WhisperPopDB = {
+	["listHeight"] = 360,
+	["listWidth"] = 270,
+	["notifyButton"] = 1,
+	["time"] = 1,
+	["buttonScale"] = 190,
+	["history"] = {
+		{
+			["messages"] = {
+				"116:24:59cho na kanal, chyba mamy druida resto do teamu ;0", -- [1]
+			},
+			["class"] = "HUNTER",
+			["name"] = "Sheinen-BurningLegion",
+		}, -- [1]
+		{
+			["received"] = 1,
+			["name"] = "Dynamon-BurningLegion",
+			["class"] = "PRIEST",
+			["messages"] = {
+				"016:10:14w jakie dni raidy (godzina)", -- [1]
+				"116:10:21Czesc", -- [2]
+				"116:10:23sek", -- [3]
+				"116:10:33Dni raidowe dopiero ustalimy, aczkolwiek wybierzemy pewnie ze 3 dni sposrod pn,wt,sr,czw,niedz. Godziny wieczorne typu 19-23 ", -- [4]
+			},
+		}, -- [2]
+		{
+			["received"] = 1,
+			["name"] = "Dynamon-Burning Legion",
+			["class"] = "PRIEST",
+			["messages"] = {
+				"016:10:06Czesc", -- [1]
+			},
+		}, -- [3]
+		{
+			["messages"] = {
+				"116:10:03widac nas na curse na kanale wyzej?", -- [1]
+			},
+			["class"] = "BN",
+			["name"] = "Aenash#2965",
+		}, -- [4]
+	},
+	["listScale"] = 95,
+	["version"] = 4.12,
+	["foreignOnly"] = 1,
+	["sound"] = 1,
+	["save"] = 1,
+}

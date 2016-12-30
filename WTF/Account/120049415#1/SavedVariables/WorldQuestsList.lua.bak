@@ -1,0 +1,18 @@
+
+VWQL = {
+	["Redus-BurningLegion"] = {
+		["FilterType"] = {
+			["pet"] = true,
+		},
+		["Quests"] = {
+			[41551] = true,
+			[42070] = true,
+			[41617] = true,
+			[40282] = true,
+			[41860] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Sort"] = 5,
+	["VERSION"] = 19,
+}

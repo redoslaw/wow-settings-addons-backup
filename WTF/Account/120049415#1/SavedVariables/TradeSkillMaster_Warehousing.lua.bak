@@ -1,0 +1,25 @@
+
+TradeSkillMaster_WarehousingDB = {
+	["_hash"] = 185553,
+	["g@ @ShowLogData"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Redus - Burning Legion", -- [1]
+		},
+		["realm"] = {
+			"Burning Legion", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Burning Legion", -- [1]
+		},
+	},
+	["f@Horde - Burning Legion@BagState"] = {
+	},
+	["_version"] = 1,
+	["_currentProfile"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+}

@@ -1,0 +1,13 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Sargeras"] = {
+			["PLAYER"] = {
+				["Alyyn"] = {
+					["MODULE"] = {
+					},
+				},
+			},
+		},
+	},
+}

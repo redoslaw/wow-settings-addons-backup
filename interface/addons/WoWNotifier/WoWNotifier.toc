@@ -1,0 +1,11 @@
+## Interface: 60200
+## Title: WoWNotifier
+## Notes: Notifies you when your LFG/LFR pops to your phone.
+## Version: 1.5
+## Author: ClosedEyesSeeing
+## SavedVariablesPerCharacter: IsNotifying, IsBattlePetNotifying, IsPVPNotifying, IsgxRestarting, IsGroupNotifying, IsPremadeNotifying, IsMissionCompleteNotifying, IsReadyCheckNotifying, IsAFKChecking
+
+WoWNotifier.xml
+WoWNotifier.lua
+
+

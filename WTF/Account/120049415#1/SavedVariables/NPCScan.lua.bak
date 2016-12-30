@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

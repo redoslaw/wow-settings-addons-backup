@@ -1,0 +1,8 @@
+## Interface: 70000
+## Title: Salvage Crates 
+## Version: 1.7
+## Author: Nasapunk88
+## Notes: Display buttons to easily open salvage crates while inside your Salvage Yard.
+## SavedVariables: SalvageCratesDB
+localization.core.lua
+SalvageCrates.lua

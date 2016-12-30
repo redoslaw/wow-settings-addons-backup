@@ -1,0 +1,17 @@
+
+GuildNoteSetterDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["realm"] = {
+		["Burning Legion"] = {
+			["Wipeforged"] = {
+				["blackList"] = {
+					["updateTime"] = 0,
+					["list"] = {
+					},
+				},
+			},
+		},
+	},
+}

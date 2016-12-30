@@ -1,0 +1,32 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">	
+	<Script file="WoWNotifier.lua" />
+	<Frame name="WoWNotifier">
+		<Scripts>
+			<OnLoad>
+				self:RegisterEvent("LFG_PROPOSAL_SHOW");
+				self:RegisterEvent("PET_BATTLE_QUEUE_PROPOSE_MATCH");				
+				self:RegisterEvent("UPDATE_BATTLEFIELD_STATUS");
+				self:RegisterEvent("ADDON_LOADED");
+				self:RegisterEvent("UPDATE_LFG_LIST");
+				self:RegisterEvent("PARTY_INVITE_REQUEST");							
+				self:RegisterEvent("LFG_LIST_APPLICATION_STATUS_UPDATED");	
+				self:RegisterEvent("GARRISON_MISSION_FINISHED");				
+				self:RegisterEvent("GARRISON_MISSION_STARTED");		
+				self:RegisterEvent("READY_CHECK");		
+				self:RegisterEvent("PLAYER_FLAGS_CHANGED");
+				self:RegisterEvent("SCREENSHOT_SUCCEEDED");
+				self:RegisterEvent("BATTLEFIELD_MGR_ENTRY_INVITE");
+				self:RegisterEvent("SCREENSHOT_FAILED");
+				print("WoWNotifier has registered.");				
+				print("WoWNotifier: Use /wn help or /wownotifier help to get a list of commands!");	
+				self.TimeSinceLastUpdate = 0;
+				self.HasAFKNotified = false;
+				self.tempf = nil;
+				self.IsGXing = false;
+			</OnLoad>
+			<OnEvent function="WoWNotifier_OnEvent">				
+			</OnEvent>
+			<OnUpdate function="WoWNotifier_OnUpdate" /> 
+		</Scripts>
+	</Frame>
+</Ui>

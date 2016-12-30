@@ -1,0 +1,8 @@
+## Title: SuramarPortals
+## Version: 1.01
+## Author: Derabo
+## Interface: 70000
+## Notes: Suramar teleport helper
+## SavedVariables: SRP
+
+SuramarPortals.lua

@@ -1,0 +1,30 @@
+
+KuiNameplatesGDB = {
+	["namespaces"] = {
+		["NemesisHelper"] = {
+		},
+		["Castbar"] = {
+		},
+		["NameOnly"] = {
+		},
+		["ClassColours"] = {
+		},
+		["LowHealthColours"] = {
+		},
+		["CastWarnings"] = {
+		},
+		["Auras"] = {
+		},
+		["ComboPoints"] = {
+		},
+		["TankMode"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Bezmyslny - Chamber of Aspects"] = "Bezmyslny - Chamber of Aspects",
+	},
+	["profiles"] = {
+		["Bezmyslny - Chamber of Aspects"] = {
+		},
+	},
+}

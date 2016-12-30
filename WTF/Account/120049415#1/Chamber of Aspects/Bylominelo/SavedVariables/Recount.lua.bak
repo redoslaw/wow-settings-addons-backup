@@ -1,0 +1,82 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Bylominelo"] = {
+			["GUID"] = "Player-1307-0894B474",
+			["type"] = "Self",
+			["TimeLast"] = {
+				["OVERALL"] = 4373.23,
+				["Healing"] = 4373.23,
+				["Damage"] = 4373.23,
+			},
+			["Owner"] = false,
+			["enClass"] = "HUNTER",
+			["TimeWindows"] = {
+				["Healing"] = {
+					0, -- [1]
+				},
+				["Damage"] = {
+					0, -- [1]
+				},
+			},
+			["Name"] = "Bylominelo",
+			["Pet"] = {
+				"Boar <Bylominelo>", -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["Healing"] = 0,
+					["Damage"] = 0,
+				},
+			},
+			["level"] = 1,
+			["UnitLockout"] = 4373.23,
+			["LastFightIn"] = 0,
+		},
+		["Boar <Bylominelo>"] = {
+			["GUID"] = "Pet-0-3769-1-12396-42719-010239DC8A",
+			["LastEventHealth"] = {
+				"549 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "PET",
+			["unit"] = "Boar",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				44.08014571949, -- [1]
+			},
+			["type"] = "Pet",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Sebogreenp-BurningLegion Ysera's Gift Boar <Bylominelo> Hit +242 (216 overheal)", -- [1]
+			},
+			["Name"] = "Boar",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				4373.696, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 4373.23,
+			["LastActive"] = 4373.23,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

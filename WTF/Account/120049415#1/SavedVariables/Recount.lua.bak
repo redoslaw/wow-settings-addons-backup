@@ -1,0 +1,36 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["profiles"] = {
+		["Redus - Burning Legion"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -175.999633789063,
+					["x"] = 609.500122070313,
+					["w"] = 202.999938964844,
+					["h"] = 251.999954223633,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 202.999969482422,
+			["MainWindowHeight"] = 251.999954223633,
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

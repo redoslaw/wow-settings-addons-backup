@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Pokemony - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

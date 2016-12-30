@@ -1,0 +1,9 @@
+
+PollConfig = {
+	["Burning Legion-Redfirst"] = {
+		["locale"] = "enUS",
+		["idChannel"] = 0,
+		["system"] = "SAY",
+		["channel"] = "s",
+	},
+}

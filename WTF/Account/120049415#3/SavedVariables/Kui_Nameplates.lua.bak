@@ -1,0 +1,30 @@
+
+KuiNameplatesGDB = {
+	["namespaces"] = {
+		["NemesisHelper"] = {
+		},
+		["Castbar"] = {
+		},
+		["NameOnly"] = {
+		},
+		["ClassColours"] = {
+		},
+		["LowHealthColours"] = {
+		},
+		["CastWarnings"] = {
+		},
+		["Auras"] = {
+		},
+		["ComboPoints"] = {
+		},
+		["TankMode"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+		},
+	},
+}

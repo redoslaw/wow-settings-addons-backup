@@ -1,0 +1,8 @@
+
+GoldSave = {
+	["Redus_Burning Legion::Horde"] = {
+		["show"] = true,
+		["name"] = "Redus",
+		["gold"] = 1753635264,
+	},
+}

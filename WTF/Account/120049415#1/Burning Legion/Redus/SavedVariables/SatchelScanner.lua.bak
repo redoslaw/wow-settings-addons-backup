@@ -1,0 +1,11 @@
+
+SatchelScannerDB = {
+	["raidwarning"] = true,
+	["scanDps"] = true,
+	["showMainFrame"] = true,
+	["sounds"] = true,
+	["version"] = "2.3.0",
+	["scanHeal"] = true,
+	["updateint"] = 1,
+	["scanTank"] = true,
+}

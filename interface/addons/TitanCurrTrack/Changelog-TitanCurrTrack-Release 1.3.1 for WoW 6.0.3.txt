@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r53 | papsol | 2014-12-23 10:49:52 +0000 (Tue, 23 Dec 2014) | 8 lines
+Changed paths:
+   A /tags/Release 1.3.1 for WoW 6.0.3 (from /trunk:52)
+
+Tagging as Release 1.3.1 for WoW 6.0.3
+
+## Changelog: 1.3.1
+## Changelog: - Interface Compatibilty Update for WOW 6x
+## Changelog: - Reworked Currency Cap Code to detect individual curreny caps instead of a generic 4k cap
+## Changelog: - Reformatted Tool-Tip output to align left side (Makes it easier to read with large alt summaries)
+## Changelog: - Reformatted Tool-Tip to handle individual Curreny Caps
+## Changelog: - Code Clean Up : removed unecessary trailing end line semi-colons
+------------------------------------------------------------------------
+r52 | papsol | 2014-12-23 10:47:25 +0000 (Tue, 23 Dec 2014) | 6 lines
+Changed paths:
+   M /trunk/TitanCurrTrack.lua
+   M /trunk/TitanCurrTrack.toc
+
+## Changelog: 1.3.1
+## Changelog: - Interface Compatibilty Update for WOW 6x
+## Changelog: - Reworked Currency Cap Code to detect individual curreny caps instead of a generic 4k cap
+## Changelog: - Reformatted Tool-Tip output to align left side (Makes it easier to read with large alt summaries)
+## Changelog: - Reformatted Tool-Tip to handle individual Curreny Caps
+## Changelog: - Code Clean Up : removed unecessary trailing end line semi-colons
+------------------------------------------------------------------------

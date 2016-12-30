@@ -1,0 +1,22 @@
+## Interface: 50300
+##
+## Title: GathererDB: |cffce0a11Wowhead|r
+## Notes: Gatherer preloaded database, courtesy of |cffce0a11http://www.wowhead.com/|r
+## Version: 2.0.2013-06-15
+##
+## LoadOnDemand: 1
+## X-Gatherer-Plugin-Name: Database: |cffce0a11Wowhead|r
+## X-Gatherer-Plugin-Type: DATABASE
+## X-Gatherer-Plugin-DatabaseID: Wowhead 2013-06-15
+##
+## X-Website: http://www.gathereraddon.com/
+## X-Author: Norganna's AddOns - Nechckn, Project Administrator, MentalPower
+## X-CompatibleLocales: enUS, enGB, deDE, frFR, koKR, zhCN, zhTW, esES, itIT, ptBR, esMX
+## X-Category: Tradeskill
+## X-Date: 2013-06-15
+##
+## RequiredDeps: Gatherer
+
+DB_WowheadMain.lua
+DB_WowheadData.lua
+

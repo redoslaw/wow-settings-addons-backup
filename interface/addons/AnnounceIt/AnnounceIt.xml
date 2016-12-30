@@ -1,0 +1,485 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="AnnounceIt.lua"/>
+	<Frame name="AnnounceItSetMessage" hidden="true" parent="UIParent" movable="true" enableMouse="true">
+		<Size> 
+			<AbsDimension x="636" y="290" /> 
+		</Size> 
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<TileSize>
+				<AbsValue val="16"/>
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="16"/>
+			</EdgeSize>
+			<BackgroundInsets>
+				<AbsInset left="5" right="5" top="5" bottom="5"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<Frames>
+<!-- Begin Message Text -->
+			<EditBox name="$parent_Text1" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="600" y="20"/> 
+				</Size> 
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="18" y="-110"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEscapePressed>
+						ClearCursor()
+					</OnEscapePressed>
+					<OnMouseUp>
+						AnnounceIt:AddLink(1)
+					</OnMouseUp>
+					<OnLoad> </OnLoad>
+				</Scripts>
+
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_Text2" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="600" y="20"/> 
+				</Size> 
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="18" y="-140"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseUp>
+						AnnounceIt:AddLink(2)
+					</OnMouseUp>
+					<OnLoad> </OnLoad>
+				</Scripts>
+
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_Text3" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size>
+					<AbsDimension x="600" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="18" y="-170"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseUp>
+						AnnounceIt:AddLink(3)
+					</OnMouseUp>
+					<OnLoad> </OnLoad>
+				</Scripts>
+
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_Text4" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="600" y="20"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="18" y="-200"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseUp>
+						AnnounceIt:AddLink(4)
+					</OnMouseUp>
+					<OnLoad> </OnLoad>
+				</Scripts>
+
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_Text5" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size>
+					<AbsDimension x="600" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="18" y="-230"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseUp>
+						AnnounceIt:AddLink(5)
+					</OnMouseUp>
+					<OnLoad> </OnLoad>
+				</Scripts>
+
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+<!-- End Message Text -->
+<!-- Begin Custom Channel -->
+			<EditBox name="$parent_CustomChan1" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="120" y="20"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="500" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_CustomChan2" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="120" y="20"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="500" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_CustomChan3" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="120" y="20"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="500" y="-60"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+			<EditBox name="$parent_CustomChan4" inherits="InputBoxTemplate" letters="256" enableMouse="true" autoFocus="true">
+				<Size> 
+					<AbsDimension x="120" y="20"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="500" y="-80"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+<!-- End Custom Channel -->
+<!-- Window Label -->
+			<EditBox name="$parent_Label" inherits="InputBoxTemplate" letters="20" enableMouse="true" autoFocus="false">
+				<Size> 
+					<AbsDimension x="100" y="30"/> 
+				</Size> 
+				<Anchors> 
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="15" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<FontString inherits="GameFontNormal"/>
+			</EditBox>
+<!-- Apply Button -->
+			<Button name="$parentApply" inherits="UIPanelButtonTemplate">
+				<Size> 
+					<AbsDimension x="65" y="20" /> 
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="420" y="-260"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseDown>
+						AnnounceIt:Save();
+					</OnMouseDown>
+				</Scripts>
+			</Button>
+<!-- Reset Button -->
+			<Button name="$parentReset" inherits="UIPanelButtonTemplate">
+				<Size> 
+					<AbsDimension x="65" y="20" /> 
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="520" y="-260"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnMouseDown>
+						self:GetParent():Hide();
+					</OnMouseDown>
+				</Scripts>
+			</Button>
+<!-- Begin Channel Boxes -->
+<!-- TEST -->
+			<CheckButton name="$parent_ChanTEST" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="250" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- GUILD -->
+			<CheckButton name="$parent_ChanGUILD" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="320" y="-50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- GROUP -->
+			<CheckButton name="$parent_ChanGROUP" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="320" y="-30"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- SAY -->
+			<CheckButton name="$parent_ChanSAY" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="250" y="-50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- YELL -->
+			<CheckButton name="$parent_ChanYELL" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="250" y="-70"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- RECRUIT -->
+			<CheckButton name="$parent_ChanRECRUIT" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="320" y="-70"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- BATTLEGROUND -->
+			<CheckButton name="$parent_ChanBATTLEGROUND" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="320" y="-90"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- WHISPER -->
+			<CheckButton name="$parent_ChanWHISPER" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="250" y="-90"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- TRADE -->
+			<CheckButton name="$parent_ChanTRADE" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="250" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- LFG -->
+			<CheckButton name="$parent_ChanLFG" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="320" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- OFFICER -->
+			<CheckButton name="$parent_ChanOFFICER" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="180" y="-50"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- RAID WARNING -->
+			<CheckButton name="$parent_ChanRAID_WARNING" inherits="SendMailRadioButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension  x="180" y="-70"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetChecked(nil);
+					</OnLoad>
+				</Scripts>
+			</CheckButton>
+<!-- End Channel Boxes -->
+		</Frames>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="$parent_Header" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-90"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="0.85" b="0"/>
+				</FontString>
+				<FontString name="$parent_Header2" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-15"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="0.85" b="0"/>
+				</FontString>
+				<FontString name="$parent_Header3" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="180" y="-15"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="0.85" b="0"/>
+				</FontString>
+				<FontString name="$parent_Header5" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="420" y="-15"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="0.85" b="0"/>
+				</FontString>
+				<FontString name="$parent_Header6" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="420" y="-30"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="0.85" b="0"/>
+				</FontString>
+				<FontString name="$parent_Header4" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="30" y="-260"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="0" g="1" b="0"/>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnMouseDown>self:StartMoving();</OnMouseDown>
+			<OnMouseUp>self:StopMovingOrSizing();</OnMouseUp>
+			<OnDragStop>self:StopMovingOrSizing();</OnDragStop>
+		</Scripts> 
+	</Frame>
+</Ui>

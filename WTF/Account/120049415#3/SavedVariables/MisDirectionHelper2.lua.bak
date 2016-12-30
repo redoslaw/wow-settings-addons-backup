@@ -1,0 +1,12 @@
+
+MisDirectionHelperDB = {
+	["profileKeys"] = {
+		["Redfirst - Burning Legion"] = "Redfirst - Burning Legion",
+	},
+	["profiles"] = {
+		["Redfirst - Burning Legion"] = {
+			["petname"] = "Raptor",
+			["name"] = "Raptor",
+		},
+	},
+}

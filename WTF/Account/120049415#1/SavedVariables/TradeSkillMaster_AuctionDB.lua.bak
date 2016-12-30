@@ -1,0 +1,34 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["r@Burning Legion@lastPartialScan"] = 0,
+	["g@ @showAHTab"] = true,
+	["g@ @lastUpdateUS"] = 0,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Redus - Burning Legion", -- [1]
+		},
+		["realm"] = {
+			"Burning Legion", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Horde - Burning Legion", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+	},
+	["g@ @scanDataEU"] = "",
+	["r@Burning Legion@hasAppData"] = true,
+	["g@ @scanDataUS"] = "",
+	["_hash"] = 6312798,
+	["g@ @lastUpdateEU"] = 0,
+	["r@Burning Legion@lastSaveTime"] = 0,
+	["r@Burning Legion@lastCompleteScan"] = 0,
+	["r@Burning Legion@scanData"] = "",
+	["_version"] = 2,
+	["_currentProfile"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+}

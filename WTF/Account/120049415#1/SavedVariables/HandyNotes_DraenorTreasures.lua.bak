@@ -1,0 +1,10 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

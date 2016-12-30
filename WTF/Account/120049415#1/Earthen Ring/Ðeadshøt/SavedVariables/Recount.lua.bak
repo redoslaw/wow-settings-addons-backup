@@ -1,0 +1,3032 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Ðeadshøt"] = {
+			["GUID"] = "Player-1317-080E4AF8",
+			["LastEventHealth"] = {
+				"154 (100%)", -- [1]
+				"154 (100%)", -- [2]
+				"154 (100%)", -- [3]
+				"154 (100%)", -- [4]
+				"154 (100%)", -- [5]
+				"154 (100%)", -- [6]
+				"154 (100%)", -- [7]
+				"154 (100%)", -- [8]
+				"154 (100%)", -- [9]
+				"154 (100%)", -- [10]
+				"154 (100%)", -- [11]
+				"154 (100%)", -- [12]
+				"154 (100%)", -- [13]
+				"154 (100%)", -- [14]
+				"154 (100%)", -- [15]
+				"154 (100%)", -- [16]
+				"154 (100%)", -- [17]
+				"154 (100%)", -- [18]
+				"168 (100%)", -- [19]
+				"168 (100%)", -- [20]
+				"168 (100%)", -- [21]
+				"168 (100%)", -- [22]
+				"168 (100%)", -- [23]
+				"168 (100%)", -- [24]
+				"168 (100%)", -- [25]
+				"168 (100%)", -- [26]
+				"168 (100%)", -- [27]
+				"168 (100%)", -- [28]
+				"168 (100%)", -- [29]
+				"168 (100%)", -- [30]
+				"168 (100%)", -- [31]
+				"168 (100%)", -- [32]
+				"168 (100%)", -- [33]
+				"168 (100%)", -- [34]
+				"168 (100%)", -- [35]
+				"168 (100%)", -- [36]
+				"168 (100%)", -- [37]
+				"168 (100%)", -- [38]
+				"168 (100%)", -- [39]
+				"168 (100%)", -- [40]
+				"168 (100%)", -- [41]
+				"168 (100%)", -- [42]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					817, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["TimeDamage"] = {
+					85.74, -- [1]
+				},
+				["ActiveTime"] = {
+					85.74, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Ðeadshøt",
+			["level"] = 1,
+			["LastFightIn"] = 6,
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 4838.032,
+			["TimeLast"] = {
+				["ActiveTime"] = 4837.332,
+				["Healing"] = 4315.332,
+				["OVERALL"] = 4837.332,
+				["TimeDamage"] = 4837.332,
+				["Damage"] = 4837.332,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Cat <Ðeadshøt>", -- [1]
+			},
+			["NextEventNum"] = 43,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+			},
+			["LastEvents"] = {
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -14 (Physical)", -- [1]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -20 (Arcane)", -- [2]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -22 (Arcane)", -- [3]
+				"Ðeadshøt Auto Shot Young Nightsaber Crit -28 (Physical)", -- [4]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -20 (Arcane)", -- [5]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -14 (Physical)", -- [6]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -21 (Arcane)", -- [7]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -14 (Physical)", -- [8]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -21 (Arcane)", -- [9]
+				"Ðeadshøt Arcane Shot Young Nightsaber Crit -43 (Arcane)", -- [10]
+				"Ðeadshøt Auto Shot Young Nightsaber Crit -28 (Physical)", -- [11]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -16 (Physical)", -- [12]
+				"Ðeadshøt Auto Shot Deer Hit -15 (Physical)", -- [13]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -16 (Physical)", -- [14]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -21 (Arcane)", -- [15]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [16]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -14 (Physical)", -- [17]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -21 (Arcane)", -- [18]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [19]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -24 (Arcane)", -- [20]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -16 (Physical)", -- [21]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -23 (Arcane)", -- [22]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -25 (Arcane)", -- [23]
+				"Ðeadshøt Auto Shot Deer Hit -17 (Physical)", -- [24]
+				"Ðeadshøt Auto Shot Deer Hit -16 (Physical)", -- [25]
+				"Ðeadshøt Auto Shot Young Thistle Boar Hit -16 (Physical)", -- [26]
+				"Ðeadshøt Arcane Shot Young Thistle Boar Hit -23 (Arcane)", -- [27]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [28]
+				"Ðeadshøt Auto Shot Deer Hit -16 (Physical)", -- [29]
+				"Ðeadshøt Auto Shot Deer Hit -14 (Physical)", -- [30]
+				"Ðeadshøt Auto Shot Deer Hit -16 (Physical)", -- [31]
+				"Ðeadshøt Auto Shot Deer Hit -16 (Physical)", -- [32]
+				"Ðeadshøt Auto Shot Deer Hit -16 (Physical)", -- [33]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [34]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -24 (Arcane)", -- [35]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [36]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -24 (Arcane)", -- [37]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -15 (Physical)", -- [38]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -23 (Arcane)", -- [39]
+				"Ðeadshøt Auto Shot Young Nightsaber Crit -30 (Physical)", -- [40]
+				"Ðeadshøt Auto Shot Young Nightsaber Hit -16 (Physical)", -- [41]
+				"Ðeadshøt Arcane Shot Young Nightsaber Hit -24 (Arcane)", -- [42]
+			},
+			["Name"] = "Ðeadshøt",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+			},
+			["LastEventTimes"] = {
+				4289.232, -- [1]
+				4289.465, -- [2]
+				4290.182, -- [3]
+				4298.665, -- [4]
+				4298.865, -- [5]
+				4313.915, -- [6]
+				4314.115, -- [7]
+				4319.249, -- [8]
+				4319.448, -- [9]
+				4320.632, -- [10]
+				4324.815, -- [11]
+				4326.715, -- [12]
+				4346.798, -- [13]
+				4392.565, -- [14]
+				4392.715, -- [15]
+				4394.699, -- [16]
+				4397.749, -- [17]
+				4398.015, -- [18]
+				4750.948, -- [19]
+				4751.149, -- [20]
+				4754.499, -- [21]
+				4754.682, -- [22]
+				4755.432, -- [23]
+				4757.848, -- [24]
+				4760.332, -- [25]
+				4765.215, -- [26]
+				4765.415, -- [27]
+				4768.482, -- [28]
+				4772.915, -- [29]
+				4777.548, -- [30]
+				4785.849, -- [31]
+				4788.065, -- [32]
+				4790.732, -- [33]
+				4809.049, -- [34]
+				4809.165, -- [35]
+				4811.898, -- [36]
+				4812.015, -- [37]
+				4817.299, -- [38]
+				4817.548, -- [39]
+				4819.682, -- [40]
+				4837.765, -- [41]
+				4838.032, -- [42]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 44,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 44,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 44,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.4,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.4,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.4,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 44,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.4,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.4,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.4,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 54,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 23,
+						["Physical"] = 31,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 39,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.2,
+								},
+							},
+							["amount"] = 3.7,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 6.77,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 15,
+									["count"] = 2,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 23,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6.77,
+					["TimeDamaging"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.2,
+								},
+							},
+							["amount"] = 3.7,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.07,
+								},
+							},
+							["amount"] = 3.07,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 0,
+						["Physical"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Damage"] = 0,
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 33,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 33,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.9,
+								},
+							},
+							["amount"] = 4.9,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.9,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 17,
+									["min"] = 16,
+									["count"] = 2,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 33,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.9,
+					["TimeDamaging"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 4.9,
+								},
+							},
+							["amount"] = 4.9,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 103,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 72,
+						["Physical"] = 31,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 31,
+								},
+								["Arcane Shot"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.85,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 7.98,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.98,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 72,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 72,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.98,
+					["TimeDamaging"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.85,
+								},
+								["Arcane Shot"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 7.98,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 68,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 23,
+						["Physical"] = 45,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.63,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 5.88,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.88,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 45,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 23,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.88,
+					["TimeDamaging"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.63,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 5.88,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 68,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 23,
+						["Physical"] = 45,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 45,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.63,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 5.88,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.88,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 45,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 23,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.88,
+					["TimeDamaging"] = {
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 5.63,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 5.88,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 53.21,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5.04,
+								},
+							},
+							["amount"] = 58.25,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 23.79,
+								},
+							},
+							["amount"] = 23.79,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.2,
+								},
+							},
+							["amount"] = 3.7,
+						},
+					},
+					["Healing"] = 0,
+					["ElementDone"] = {
+						["Arcane"] = 379,
+						["Physical"] = 438,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 296,
+								},
+								["Arcane Shot"] = {
+									["count"] = 356,
+								},
+							},
+							["amount"] = 652,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 126,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+								["Arcane Shot"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+					["TimeDamage"] = 85.74,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 53.21,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5.04,
+								},
+							},
+							["amount"] = 58.25,
+						},
+						["Deer"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 23.79,
+								},
+							},
+							["amount"] = 23.79,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Arcane Shot"] = {
+									["count"] = 0.2,
+								},
+							},
+							["amount"] = 3.7,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 28,
+									["count"] = 3,
+									["amount"] = 86,
+								},
+								["Hit"] = {
+									["max"] = 17,
+									["min"] = 14,
+									["count"] = 23,
+									["amount"] = 352,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 438,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 43,
+									["min"] = 43,
+									["count"] = 1,
+									["amount"] = 43,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 20,
+									["count"] = 15,
+									["amount"] = 336,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 379,
+						},
+					},
+					["ActiveTime"] = 85.74,
+					["Damage"] = 817,
+				},
+			},
+			["UnitLockout"] = 4288.332,
+			["LastActive"] = 4837.332,
+		},
+		["Cat <Ðeadshøt>"] = {
+			["GUID"] = "Creature-0-3702-1-60-42718-0000220B5A",
+			["LastEventHealth"] = {
+				"108 (100%)", -- [1]
+				"108 (100%)", -- [2]
+				"108 (100%)", -- [3]
+				"108 (100%)", -- [4]
+				"118 (100%)", -- [5]
+				"118 (100%)", -- [6]
+				"118 (100%)", -- [7]
+				"118 (100%)", -- [8]
+				"118 (100%)", -- [9]
+				"118 (100%)", -- [10]
+			},
+			["LastAttackedBy"] = "Young Nightsaber",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					28.06, -- [1]
+				},
+				["Damage"] = {
+					248, -- [1]
+				},
+				["DamageTaken"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					28.06, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Cat",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 5,
+			["LastEventNum"] = {
+				[9] = 0.847457627118644,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 1,
+			["TimeLast"] = {
+				["ActiveTime"] = 4818.332,
+				["TimeDamage"] = 4818.332,
+				["OVERALL"] = 4818.332,
+				["DamageTaken"] = 4818.332,
+				["Damage"] = 4818.332,
+			},
+			["LastAbility"] = 4819.315,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+			},
+			["LastEvents"] = {
+				"Cat <Ðeadshøt> Claw Young Nightsaber Crit -36 (Physical)", -- [1]
+				"Cat <Ðeadshøt> Melee Young Nightsaber Crit -19 (Physical)", -- [2]
+				"Cat <Ðeadshøt> Claw Young Nightsaber Crit -38 (Physical)", -- [3]
+				"Cat <Ðeadshøt> Melee Young Nightsaber Crit -19 (Physical)", -- [4]
+				"Cat <Ðeadshøt> Claw Young Nightsaber Crit -46 (Physical)", -- [5]
+				"Cat <Ðeadshøt> Melee Young Thistle Boar Hit -11 (Physical)", -- [6]
+				"Cat <Ðeadshøt> Melee Young Nightsaber Crit -22 (Physical)", -- [7]
+				"Cat <Ðeadshøt> Melee Young Nightsaber Hit -11 (Physical)", -- [8]
+				"Young Nightsaber Melee Cat <Ðeadshøt> Hit -1 (Physical)", -- [9]
+				"Cat <Ðeadshøt> Claw Young Nightsaber Crit -46 (Physical)", -- [10]
+			},
+			["Name"] = "Cat",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+			},
+			["LastEventTimes"] = {
+				4315.615, -- [1]
+				4393.432, -- [2]
+				4394.565, -- [3]
+				4399.082, -- [4]
+				4752.082, -- [5]
+				4766.699, -- [6]
+				4810.399, -- [7]
+				4812.832, -- [8]
+				4819.315, -- [9]
+				4819.315, -- [10]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 11,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 11,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 11,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Claw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Damage"] = 0,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 46,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 46,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 46,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 1,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 46,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 46,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 46,
+									["count"] = 1,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 46,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 1,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 46,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 46,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 46,
+									["count"] = 1,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 46,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Claw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 19,
+									["count"] = 3,
+									["amount"] = 60,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 82,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 36,
+									["count"] = 4,
+									["amount"] = 166,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 166,
+						},
+					},
+					["TimeSpent"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.93,
+								},
+								["Claw"] = {
+									["count"] = 11.63,
+								},
+							},
+							["amount"] = 24.56,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 1,
+					["WhoDamaged"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 82,
+						["Physical"] = 166,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 71,
+								},
+								["Claw"] = {
+									["count"] = 166,
+								},
+							},
+							["amount"] = 237,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["TimeDamage"] = 28.06,
+					["TimeDamaging"] = {
+						["Young Nightsaber"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.93,
+								},
+								["Claw"] = {
+									["count"] = 11.63,
+								},
+							},
+							["amount"] = 24.56,
+						},
+						["Young Thistle Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 1,
+					},
+					["ActiveTime"] = 28.06,
+					["Damage"] = 248,
+				},
+			},
+			["UnitLockout"] = 4315.332,
+			["LastActive"] = 4818.332,
+		},
+	},
+	["FightNum"] = 6,
+	["CombatTimes"] = {
+		{
+			4288.332, -- [1]
+			4292.332, -- [2]
+			"15:25:54", -- [3]
+			"15:25:57", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [1]
+		{
+			4324.332, -- [1]
+			4328.332, -- [2]
+			"15:26:29", -- [3]
+			"15:26:33", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [2]
+		{
+			4750.332, -- [1]
+			4756.332, -- [2]
+			"15:33:36", -- [3]
+			"15:33:41", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [3]
+		{
+			4757.332, -- [1]
+			4762.332, -- [2]
+			"15:33:42", -- [3]
+			"15:33:47", -- [4]
+			"Deer", -- [5]
+		}, -- [4]
+		{
+			4764.332, -- [1]
+			4770.332, -- [2]
+			"15:33:50", -- [3]
+			"15:33:55", -- [4]
+			"Young Thistle Boar", -- [5]
+		}, -- [5]
+		{
+			4816.332, -- [1]
+			4821.332, -- [2]
+			"15:34:42", -- [3]
+			"15:34:46", -- [4]
+			"Young Nightsaber", -- [5]
+		}, -- [6]
+	},
+	["FoughtWho"] = {
+		"Young Nightsaber 15:34:42-15:34:46", -- [1]
+		"Young Thistle Boar 15:33:50-15:33:55", -- [2]
+		"Deer 15:33:42-15:33:47", -- [3]
+		"Young Nightsaber 15:33:36-15:33:41", -- [4]
+		"Young Nightsaber 15:26:29-15:26:33", -- [5]
+	},
+}

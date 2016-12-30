@@ -1,0 +1,633 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Dragonhawk <Ów>"] = {
+			["GUID"] = "Pet-0-1393-1-44-42710-010229655A",
+			["LastEventHealth"] = {
+				"630 (100%)", -- [1]
+				"630 (100%)", -- [2]
+				"630 (100%)", -- [3]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					92, -- [1]
+				},
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Dragonhawk",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["TimeLast"] = {
+				["Damage"] = 13763.203,
+				["OVERALL"] = 13763.203,
+				["TimeDamage"] = 13763.203,
+				["ActiveTime"] = 13763.203,
+			},
+			["LastAbility"] = 13763.57,
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+			},
+			["LastEvents"] = {
+				"Dragonhawk <Ów> Melee Clattering Scorpid Crit -45 (Physical)", -- [1]
+				"Dragonhawk <Ów> Melee Clattering Scorpid Multistrike -6 (Physical)", -- [2]
+				"Dragonhawk <Ów> Bite Clattering Scorpid Hit -41 (Physical)", -- [3]
+			},
+			["Name"] = "Dragonhawk",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+			},
+			["LastEventTimes"] = {
+				13763.57, -- [1]
+				13763.57, -- [2]
+				13763.57, -- [3]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 51,
+						["Physical"] = 41,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Multistrike"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+								["Bite"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 92,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Bite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 45,
+									["min"] = 45,
+									["count"] = 1,
+									["amount"] = 45,
+								},
+								["Multistrike"] = {
+									["max"] = 6,
+									["min"] = 6,
+									["count"] = 1,
+									["amount"] = 6,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 51,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 41,
+									["min"] = 41,
+									["count"] = 1,
+									["amount"] = 41,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 41,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 92,
+				},
+			},
+			["UnitLockout"] = 13763.203,
+			["LastActive"] = 13763.203,
+		},
+		["Ów"] = {
+			["LastEventHealth"] = {
+				"900 (100%)", -- [1]
+				"900 (100%)", -- [2]
+				"900 (100%)", -- [3]
+			},
+			["LastAttackedBy"] = "Clattering Scorpid",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					3.5, -- [1]
+				},
+				["Overhealing"] = {
+					29, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+				["HealingTaken"] = {
+					7, -- [1]
+				},
+				["Healing"] = {
+					7, -- [1]
+				},
+				["DamageTaken"] = {
+					7, -- [1]
+				},
+				["Damage"] = {
+					0, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Ów",
+			["level"] = 10,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				0.777777777777778, -- [1]
+				2, -- [2]
+				2, -- [3]
+			},
+			["type"] = "Self",
+			["LastAbility"] = 13763.57,
+			["TimeLast"] = {
+				["HealingTaken"] = 13763.203,
+				["TimeHeal"] = 13763.203,
+				["Overhealing"] = 13763.203,
+				["ActiveTime"] = 13763.203,
+				["Healing"] = 13763.203,
+				["OVERALL"] = 13763.203,
+				["DamageTaken"] = 13762.203,
+				["Damage"] = 13763.203,
+			},
+			["LastDamageTaken"] = 7,
+			["Owner"] = false,
+			["Pet"] = {
+				"Dragonhawk <Ów>", -- [1]
+			},
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+			},
+			["LastEvents"] = {
+				"Clattering Scorpid Melee Ów Hit -7 (Physical)", -- [1]
+				"Ów Swift Hand of Justice Ów Hit +18 (11 overheal)", -- [2]
+				"Ów Swift Hand of Justice Ów Hit +18 (18 overheal)", -- [3]
+			},
+			["Name"] = "Ów",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+			["LastEventTimes"] = {
+				13762.686, -- [1]
+				13763.57, -- [2]
+				13763.57, -- [3]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeHealing"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 0,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["Damage"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["HealingTaken"] = 0,
+					["WhoHealed"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Overhealing"] = 0,
+					["WhoDamaged"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 0,
+					["HealedWho"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 29,
+						},
+					},
+					["TimeSpent"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 7,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["ElementTaken"] = {
+						["Melee"] = 7,
+					},
+					["Damage"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7,
+						},
+					},
+					["Healing"] = 7,
+					["HealingTaken"] = 7,
+					["WhoHealed"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["Overhealing"] = 29,
+					["WhoDamaged"] = {
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["HealedWho"] = {
+						["Ów"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 13762.203,
+			["LastActive"] = 13763.203,
+		},
+		["Muladip"] = {
+			["GUID"] = "Player-3713-078CCAC9",
+			["type"] = "Grouped",
+			["Owner"] = false,
+			["enClass"] = "PRIEST",
+			["Name"] = "Muladip",
+			["lazysync"] = true,
+			["Fights"] = {
+			},
+			["level"] = 20,
+			["UnitLockout"] = 13762.203,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

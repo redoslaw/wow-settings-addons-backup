@@ -1,0 +1,367 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	   
+<Script file="other\checkboxes.lua, autoloot-lib.lua" />
+
+
+<Frame name="autoroll_frame" parent="UIParent" toplevel="true" enableMouse="true" movable="true" clampedToScreen = "true" hidden = "true">
+    <Size x="350" y="350"/>
+    <Anchors>
+        <Anchor point="CENTER"/>
+    </Anchors>
+	
+	<Scripts>
+	 <OnMouseDown>
+	  if button == "LeftButton" and not self.isMoving then
+	   self:StartMoving();
+	   self.isMoving = true;
+	  end
+	 </OnMouseDown>
+	 <OnMouseUp>
+	  if button == "LeftButton" and self.isMoving then
+	   self:StopMovingOrSizing();
+	   self.isMoving = false;
+	  end
+	 </OnMouseUp>
+	 <OnHide>
+	  if ( self.isMoving ) then
+	   self:StopMovingOrSizing();
+	   self.isMoving = false;
+	  end
+	 </OnHide>
+	</Scripts>
+	
+    <Backdrop bgFile="Interface\TutorialFrame\TutorialFrameBackground"
+       edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+	<EdgeSize val="16"/>
+	<TileSize val="32"/>
+ 	<BackgroundInsets left="5" right="5" top="5" bottom="5"/>
+    </Backdrop>
+	
+	<Layers>
+	 <Layer level = "ARTWORK">
+	 
+	 <FontString name="autoroll_title" font="fonts\ARIALN.ttf" text="Autoroll" justifyH="LEFT" justifyV="TOP" parent = "autoroll_frame">
+		<Color r="1" g="1" b="1" a="1"/>
+		<FontHeight val="28"/>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="autoroll_frame" x="0" y="190" />
+		</Anchors>
+		<Shadow>
+			<Offset x="1" y="1" />
+			<Color r="0" g="0" b="0"/>
+		</Shadow>
+	  </FontString>
+	  
+	  <FontString name="autoroll_job_text" font="fonts\ARIALN.ttf" text="BROKEN TEXT" justifyH="LEFT" justifyV="TOP" parent = "autoroll_frame">
+		<Color r="1" g="1" b="1" a="1"/>
+		<FontHeight val="14"/>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="autoroll_frame" x="-40" y="125" />
+		</Anchors>
+		<Shadow>
+			<Offset x="1" y="1" />
+			<Color r="0" g="0" b="0"/>
+		</Shadow>
+	  </FontString>
+	  
+	  <FontString name="autoroll_show_in_loot_display_text" font="fonts\ARIALN.ttf" text="BROKEN TEXT" justifyH="LEFT" justifyV="TOP" parent = "autoroll_frame">
+		<Color r="1" g="1" b="1" a="1"/>
+		<FontHeight val="14"/>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="autoroll_frame" x="-40" y="-40" />
+		</Anchors>
+		<Shadow>
+			<Offset x="1" y="1" />
+			<Color r="0" g="0" b="0"/>
+		</Shadow>
+	  </FontString>
+	  
+	   <FontString name="green_text" font="fonts\ARIALN.ttf" text="BROKEN TEXT" justifyH="LEFT" justifyV="TOP" parent = "autoroll_frame">
+		<Color r="1" g="1" b="1" a="1"/>
+		<FontHeight val="14"/>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="autoroll_frame" x="-100" y="50" />
+		</Anchors>
+		<Shadow>
+			<Offset x="1" y="1" />
+			<Color r="0" g="0" b="0"/>
+		</Shadow>
+	  </FontString>
+	  
+	   <FontString name="blue_text" font="fonts\ARIALN.ttf" text="BROKEN TEXT" justifyH="LEFT" justifyV="TOP" parent = "autoroll_frame">
+		<Color r="1" g="1" b="1" a="1"/>
+		<FontHeight val="14"/>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="autoroll_frame" x="-100" y="10" />
+		</Anchors>
+		<Shadow>
+			<Offset x="1" y="1" />
+			<Color r="0" g="0" b="0"/>
+		</Shadow>
+	  </FontString>
+	  
+	  </Layer>
+	 </Layers>
+	 
+	 <frames>
+	 
+	 <CheckButton name="autoroll_checkbox_job" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="25" y="125"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+			<OnLoad>
+			autoroll_checkbox_job:RegisterEvent("PLAYER_ENTERING_WORLD");
+			</OnLoad>
+			
+			<OnClick>
+			roll_job_func()
+			</OnClick>
+
+			<OnEvent> 
+			set_autoroll_green_cb()
+			set_autoroll_blue_cb()
+			roll_job_set()
+			</OnEvent>
+			
+		</Scripts>
+	</CheckButton>
+	
+	 <CheckButton name="autoroll_green_job" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="-140" y="50"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+			<OnClick>
+			set_autoroll_quality(-1, 1)
+			</OnClick>
+			
+		</Scripts>
+	</CheckButton>
+	
+	<CheckButton name="autoroll_blue_job" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="-140" y="10"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			
+			<OnClick>
+			set_autoroll_quality(-1, 2)
+			</OnClick>
+			
+		</Scripts>
+	</CheckButton>
+	 
+	 <CheckButton name="row_one_cb_one" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="-55" y="50"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+			<OnClick>
+				set_autoroll_quality(1, 1)
+			</OnClick>
+
+			
+		</Scripts>
+	</CheckButton>
+	
+	 <CheckButton name="row_one_cb_two" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="-55" y="10"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+		
+			
+			<OnClick>
+				set_autoroll_quality(1, 2)
+			</OnClick>
+
+		
+			
+		</Scripts>
+	</CheckButton>
+	
+		 <CheckButton name="row_two_cb_one" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="15" y="50"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+			<OnClick>
+				set_autoroll_quality(2, 1)
+			</OnClick>
+			
+		</Scripts>
+	</CheckButton>
+	
+	<CheckButton name="row_two_cb_two" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="15" y="10"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			
+			<OnClick>
+				set_autoroll_quality(2, 2)
+			</OnClick>
+			
+		</Scripts>
+	</CheckButton>
+	
+		<CheckButton name="row_three_cb_one" inherits="UICheckButtonTemplate" parent="autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="85" y="50"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+	
+			<OnClick>
+				set_autoroll_quality(3, 1)
+			</OnClick>
+			
+		</Scripts>
+	</CheckButton>
+	
+		<CheckButton name="row_three_cb_two" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="85" y="10"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnClick>
+				set_autoroll_quality(3, 2)
+			</OnClick>
+		</Scripts>
+	</CheckButton>
+	
+	<CheckButton name="show_roll_in_loot_display_cb" inherits="UICheckButtonTemplate" parent = "autoroll_frame" hidden = "false">
+		<Anchors>
+			<Anchor point="CENTER"  relativeTo="autoroll_frame">
+				<Offset>
+					<AbsDimension x="40" y="-40"></AbsDimension>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+		
+			<OnLoad>
+			show_roll_in_loot_display_cb:RegisterEvent("PLAYER_ENTERING_WORLD");
+			</OnLoad>
+			
+			<OnClick>
+			show_rolled_loot_display_job_func()
+			</OnClick>
+
+			<OnEvent> 
+			show_rolled_loot_display_job_set()
+			</OnEvent>
+			
+		</Scripts>
+	</CheckButton>
+	
+	 
+	 </frames>
+	 
+</Frame>
+
+
+<Button name="close_autoroll" frameStrata="HIGH" hidden="true" inherits = "ActionButtonTemplate" enableMouse="true">
+                     <Size x="16" y="16"/>
+                           <Anchors>
+                              <Anchor point="CENTER" relativeTo="autoroll_frame" relativePoint="CENTER">
+							<Offset x="120" y="122"/>
+                             </Anchor>
+                       </Anchors>
+
+<NormalTexture file="Interface\CHATFRAME\UI-ChatIcon-Minimize-Up"/>
+
+<Scripts>
+    <OnClick> 
+		autoroll_hide()
+	</OnClick>
+	
+  </Scripts>
+                           
+</Button>
+
+
+<Button name="greed_icon" frameStrata="HIGH" hidden="true" enableMouse="true">
+          <Size x="16" y="16"/>
+               <Anchors>
+                   <Anchor point="CENTER" relativeTo="autoroll_frame" relativePoint="CENTER">
+						<Offset x="-40" y="60"/>
+                   </Anchor>
+               </Anchors>
+					<NormalTexture file="Interface\BUTTONS\UI-GroupLoot-Coin-Up"/>                      
+</Button>
+
+<Button name="pass_icon" frameStrata="HIGH" hidden="true" enableMouse="true">
+          <Size x="16" y="16"/>
+               <Anchors>
+                   <Anchor point="CENTER" relativeTo="autoroll_frame" relativePoint="CENTER">
+						<Offset x="10" y="60"/>
+                   </Anchor>
+               </Anchors>
+					<NormalTexture file="Interface\BUTTONS\UI-GroupLoot-Pass-Up"/>                      
+</Button>
+
+<Button name="disentchant_icon" frameStrata="HIGH" hidden="true" enableMouse="true">
+          <Size x="16" y="16"/>
+               <Anchors>
+                   <Anchor point="CENTER" relativeTo="autoroll_frame" relativePoint="CENTER">
+						<Offset x="60" y="60"/>
+                   </Anchor>
+               </Anchors>
+					<NormalTexture file="Interface\BUTTONS\UI-GroupLoot-DE-Up"/>                      
+</Button>
+
+<Button name="disable_icon" frameStrata="HIGH" hidden="true" enableMouse="true">
+          <Size x="25" y="25"/>
+               <Anchors>
+                   <Anchor point="CENTER" relativeTo="autoroll_frame" relativePoint="CENTER">
+						<Offset x="-100" y="60"/>
+                   </Anchor>
+               </Anchors>
+					<NormalTexture file="Interface\BUTTONS\CancelButton-Up"/>                      
+</Button>
+
+   
+ </Ui>

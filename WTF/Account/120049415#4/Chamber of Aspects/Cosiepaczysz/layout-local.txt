@@ -1,0 +1,15 @@
+Version: 1
+Frame: DragFrame2
+FrameLevel: 1
+Anchor: CENTER
+X: -390
+Y: 94
+W: 256
+H: 150
+Frame: TomTomPing_MinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -148
+Y: -96
+W: 32
+H: 32

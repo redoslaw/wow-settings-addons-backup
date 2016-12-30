@@ -1,0 +1,42 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["gold"] = {
+		["Burning Legion"] = {
+			["Redus"] = 2216241391,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["global"] = {
+		["uiScale"] = "0.64999997615814",
+	},
+	["profiles"] = {
+		["Redus - Burning Legion"] = {
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["actionbar"] = {
+				["backdropSpacingConverted"] = true,
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+	},
+	["profiles"] = {
+		["Redus - Burning Legion"] = {
+			["install_complete"] = "10.20",
+		},
+	},
+}
