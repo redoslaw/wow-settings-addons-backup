@@ -3,9 +3,9 @@ SalvageYardHDB = {
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Kot - Chamber of Aspects"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["UserAutoSellList"] = {
 	},
@@ -16,34 +16,34 @@ SalvageYardHDB = {
 	["profiles"] = {
 		["Default"] = {
 			["PricePanel"] = {
-				["IsLocked"] = false,
 				["position"] = {
 					["y"] = 0,
 					["x"] = 0,
 				},
+				["IsLocked"] = false,
 			},
 			["MainPanel"] = {
+				["IsLocked"] = false,
 				["position"] = {
 					["y"] = 64.00048828125,
 					["x"] = -488.000305175781,
 				},
+			},
+			["TransmogPanel"] = {
+				["position"] = {
+					["y"] = 0,
+					["x"] = 0,
+				},
+				["IsLocked"] = false,
+			},
+			["SellListPanel"] = {
+				["position"] = {
+					["y"] = 0,
+					["x"] = 0,
+				},
 				["IsLocked"] = false,
 			},
 			["AutoRepair_UseGuildBank"] = true,
-			["SellListPanel"] = {
-				["IsLocked"] = false,
-				["position"] = {
-					["y"] = 0,
-					["x"] = 0,
-				},
-			},
-			["TransmogPanel"] = {
-				["IsLocked"] = false,
-				["position"] = {
-					["y"] = 0,
-					["x"] = 0,
-				},
-			},
 		},
 	},
 }

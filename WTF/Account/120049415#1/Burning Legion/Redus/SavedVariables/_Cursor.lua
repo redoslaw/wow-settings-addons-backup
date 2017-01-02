@@ -6,9 +6,9 @@ _CursorOptionsCharacter = {
 			["Strata"] = "TOOLTIP",
 			["Name"] = "Layer 1",
 			["Value"] = "Fire. blue",
-			["Type"] = "Breath",
-			["Scale"] = 0.659000039100647,
 			["X"] = -32,
+			["Scale"] = 0.659000039100647,
+			["Type"] = "Breath",
 		}, -- [1]
 		{
 			["Enabled"] = true,

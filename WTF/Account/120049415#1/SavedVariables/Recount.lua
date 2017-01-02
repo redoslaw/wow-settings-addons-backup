@@ -3,9 +3,9 @@ RecountDB = {
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
 		["Redus - Burning Legion"] = "Redus - Burning Legion",
-		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
 		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
 	},
 	["profiles"] = {
 		["Redbullek - Burning Legion"] = {
@@ -29,7 +29,7 @@ RecountDB = {
 		["Redus - Burning Legion"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -226.999237060547,
+					["y"] = -226.999176025391,
 					["x"] = 685.500244140625,
 					["w"] = 249.000015258789,
 					["h"] = 309,
@@ -53,12 +53,10 @@ RecountDB = {
 			["MainWindowWidth"] = 249.000152587891,
 			["MainWindowHeight"] = 309,
 		},
-		["Ðeadshot - Burning Legion"] = {
-			["MainWindowVis"] = false,
+		["Kot - Chamber of Aspects"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.000122070313,
-					["h"] = 199.999877929688,
+					["h"] = 199.999984741211,
 				},
 			},
 			["Colors"] = {
@@ -91,10 +89,12 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Kot - Chamber of Aspects"] = {
+		["Ðeadshot - Burning Legion"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 199.999984741211,
+					["w"] = 140.000122070313,
+					["h"] = 199.999877929688,
 				},
 			},
 			["Colors"] = {

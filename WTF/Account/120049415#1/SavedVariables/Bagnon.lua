@@ -12,21 +12,21 @@ Bagnon_Sets = {
 	},
 	["locked"] = false,
 	["players"] = {
-		["Chamber of Aspects"] = {
-		},
 		["Steamwheedle Cartel"] = {
+		},
+		["Chamber of Aspects"] = {
 		},
 		["Burning Legion"] = {
 			["Redus"] = {
 				["vault"] = {
-					["scale"] = 1,
+					["borderColor"] = {
+					},
 					["hiddenBags"] = {
 					},
-					["color"] = {
-					},
-					["itemScale"] = 1,
+					["scale"] = 1,
 					["alpha"] = 1,
-					["borderColor"] = {
+					["itemScale"] = 1,
+					["color"] = {
 					},
 				},
 				["inventory"] = {
@@ -40,11 +40,11 @@ Bagnon_Sets = {
 					["x"] = -85.999755859375,
 					["borderColor"] = {
 					},
-					["columns"] = 16,
-					["showBags"] = true,
-					["itemScale"] = 1.01,
 					["color"] = {
 					},
+					["itemScale"] = 1.01,
+					["showBags"] = true,
+					["columns"] = 16,
 				},
 				["guild"] = {
 					["brokerObject"] = "AutoLog",
@@ -57,9 +57,9 @@ Bagnon_Sets = {
 					["x"] = 253.000122070313,
 					["borderColor"] = {
 					},
-					["itemScale"] = 1,
 					["color"] = {
 					},
+					["itemScale"] = 1,
 				},
 				["bank"] = {
 					["enabled"] = true,
@@ -69,17 +69,17 @@ Bagnon_Sets = {
 					},
 					["scale"] = 1,
 					["alpha"] = 1,
-					["point"] = "BOTTOMLEFT",
+					["y"] = 95.0016860961914,
 					["bagBreak"] = false,
 					["x"] = 424.000152587891,
-					["itemScale"] = 1,
+					["exclusiveReagent"] = false,
 					["showBags"] = true,
-					["color"] = {
-					},
 					["borderColor"] = {
 					},
-					["exclusiveReagent"] = false,
-					["y"] = 95.0016860961914,
+					["color"] = {
+					},
+					["itemScale"] = 1,
+					["point"] = "BOTTOMLEFT",
 				},
 			},
 		},
@@ -91,11 +91,12 @@ Bagnon_Sets = {
 	["glowAlpha"] = 0.5,
 	["normalColor"] = {
 	},
-	["displayAuction"] = false,
+	["displayCraft"] = false,
 	["mineColor"] = {
 	},
-	["displayGuildbank"] = true,
-	["herbColor"] = {
+	["displayBlizzard"] = true,
+	["displayBank"] = true,
+	["reagentColor"] = {
 	},
 	["global"] = {
 		["inventory"] = {
@@ -109,21 +110,21 @@ Bagnon_Sets = {
 			["x"] = -288.000122070313,
 			["borderColor"] = {
 			},
+			["columns"] = 16,
+			["showBags"] = true,
+			["itemScale"] = 1.01,
 			["color"] = {
 			},
-			["itemScale"] = 1.01,
-			["showBags"] = true,
-			["columns"] = 16,
 		},
 		["vault"] = {
+			["color"] = {
+			},
 			["hiddenBags"] = {
 			},
-			["borderColor"] = {
-			},
 			["scale"] = 1,
-			["alpha"] = 1,
 			["itemScale"] = 1,
-			["color"] = {
+			["alpha"] = 1,
+			["borderColor"] = {
 			},
 		},
 		["guild"] = {
@@ -136,9 +137,9 @@ Bagnon_Sets = {
 			["x"] = 679,
 			["borderColor"] = {
 			},
+			["itemScale"] = 1,
 			["color"] = {
 			},
-			["itemScale"] = 1,
 		},
 		["bank"] = {
 			["enabled"] = false,
@@ -151,15 +152,14 @@ Bagnon_Sets = {
 			["x"] = 211.000015258789,
 			["borderColor"] = {
 			},
+			["point"] = "BOTTOMLEFT",
+			["itemScale"] = 1,
 			["color"] = {
 			},
-			["itemScale"] = 1,
-			["point"] = "BOTTOMLEFT",
 		},
 	},
-	["reagentColor"] = {
+	["herbColor"] = {
 	},
-	["displayBank"] = true,
-	["displayBlizzard"] = true,
-	["displayCraft"] = false,
+	["displayGuildbank"] = true,
+	["displayAuction"] = false,
 }

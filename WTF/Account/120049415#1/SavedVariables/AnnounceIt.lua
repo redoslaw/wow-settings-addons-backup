@@ -1,14 +1,14 @@
 
 aiDB = {
+	["global"] = {
+		["version"] = "3.2.7",
+	},
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Kot - Chamber of Aspects"] = "Default",
-	},
-	["global"] = {
-		["version"] = "3.2.7",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

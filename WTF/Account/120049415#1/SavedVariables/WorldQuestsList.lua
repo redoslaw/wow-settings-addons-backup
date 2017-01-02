@@ -1,40 +1,38 @@
 
 VWQL = {
-	["Sort"] = 1,
-	["EnableEnigma"] = true,
 	["Ðeathshot-SteamwheedleCartel"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
+	["EnableEnigma"] = true,
+	["Sort"] = 1,
 	["VERSION"] = 21,
-	["Redbullek-BurningLegion"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
+	["Ðeadshot-BurningLegion"] = {
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Kot-ChamberofAspects"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
-	["Ðeadshot-BurningLegion"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
+	["Redbullek-BurningLegion"] = {
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Redus-BurningLegion"] = {
-		["FilterType"] = {
-			["pet"] = true,
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 			[44815] = true,
 			[44817] = true,
@@ -56,27 +54,29 @@ VWQL = {
 			[43759] = true,
 			[44015] = true,
 			[41308] = true,
-			[43438] = true,
-			[41938] = true,
+			[42880] = true,
+			[42111] = true,
 			[42070] = true,
 			[43332] = true,
-			[43753] = true,
+			[45072] = true,
 			[43714] = true,
-			[42174] = true,
-			[41597] = true,
+			[41926] = true,
+			[42151] = true,
 			[42712] = true,
 			[41013] = true,
-			[42004] = true,
-			[43600] = true,
-			[42021] = true,
-			[44816] = true,
 			[44923] = true,
-			[42151] = true,
-			[41926] = true,
-			[45072] = true,
-			[42111] = true,
-			[42880] = true,
+			[43600] = true,
+			[44816] = true,
+			[42021] = true,
+			[42004] = true,
+			[41597] = true,
+			[42174] = true,
+			[43753] = true,
+			[41938] = true,
+			[43438] = true,
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+			["pet"] = true,
+		},
 	},
 }
