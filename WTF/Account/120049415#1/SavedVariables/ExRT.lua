@@ -6,158 +6,18 @@ VExRT = {
 	},
 	["ProfileKeys"] = {
 		["Ðeathshot-SteamwheedleCartel"] = "default",
-		["Ðeadshot-BurningLegion"] = "default",
-		["Kot-ChamberofAspects"] = "default",
 		["Redbullek-BurningLegion"] = "default",
+		["Kot-ChamberofAspects"] = "default",
+		["Ðeadshot-BurningLegion"] = "default",
 		["Redus-BurningLegion"] = "default",
 	},
 	["Arrow"] = {
-		["Point1"] = "TOPRIGHT",
-		["PointX"] = -442.999481201172,
-		["Point2"] = "TOPRIGHT",
-		["PointY"] = -255.000198364258,
+		["Point1"] = "RIGHT",
+		["PointX"] = -427.999359130859,
+		["Point2"] = "RIGHT",
+		["PointY"] = 11.9995317459106,
 	},
 	["Encounter"] = {
-		["names"] = {
-			[1868] = "Patrol Captain Gerdo",
-			[1805] = "Hymdall",
-			[1869] = "Talixae Flamewreath",
-			[1806] = "Hyrja",
-			[1870] = "Advisor Melandrus",
-			[1807] = "Fenryr",
-			[1935] = "Blood Guard Porung",
-			[1999] = "Forgemaster Garfrost",
-			[1808] = "God-King Skovald",
-			[1936] = "Grand Warlock Nethekurse",
-			[2000] = "Scourgelord Tyrannus",
-			[1809] = "Odyn",
-			[1873] = "Il'gynoth, The Heart of Corruption",
-			[1937] = "Warbringer O'mrogg",
-			[2001] = "Krick",
-			[1810] = "Warlord Parjesh",
-			[1938] = "Warchief Kargath Bladefist",
-			[1811] = "Lady Hatecoil",
-			[1939] = "Mennu the Betrayer",
-			[1812] = "King Deepbeard",
-			[1876] = "Elerethe Renferal",
-			[1940] = "Quagmirran",
-			[1048] = "Drahga Shadowburner",
-			[1877] = "Cenarius",
-			[1941] = "Rokmar the Crackler",
-			[1049] = "Erudax",
-			[1815] = "Tirathon Saltheril",
-			[1051] = "General Umbriss",
-			[2008] = "Helya",
-			[1817] = "Glazer",
-			[1881] = "Echo of Baine",
-			[2009] = "Anomalus",
-			[1818] = "Cordana Felsong",
-			[2010] = "Grand Magus Telestra",
-			[1883] = "Echo of Jaina",
-			[2011] = "Keristrasza",
-			[2012] = "Ormorok the Tree-Shaper",
-			[1056] = "Corborus",
-			[1822] = "Ymiron, the Fallen King",
-			[1185] = "Majordomo Staghelm",
-			[1823] = "Harbaron",
-			[1824] = "Helya",
-			[1825] = "Corstilax",
-			[2017] = "Viz'aduum the Watcher",
-			[1826] = "Nal'tira",
-			[1954] = "Maiden of Virtue",
-			[1827] = "Ivanyr",
-			[1828] = "General Xakal",
-			[1829] = "Advisor Vandros",
-			[1957] = "Opera Hall",
-			[1894] = "Kael'thas Sunstrider",
-			[1958] = "Odyn",
-			[1895] = "Priestess Delrissa",
-			[1959] = "Mana Devourer",
-			[1832] = "Amalgam of Souls",
-			[1960] = "Attumen the Huntsman",
-			[1833] = "Ilysanna Ravencrest",
-			[1897] = "Selin Fireheart",
-			[1961] = "Moroes",
-			[1834] = "Smashspite the Hateful",
-			[1898] = "Vexallus",
-			[1962] = "Guarm",
-			[1835] = "Lord Kur'talos Ravencrest",
-			[1899] = "Nexus-Prince Shaffar",
-			[1836] = "Archdruid Glaidalis",
-			[1900] = "Pandemonius",
-			[1964] = "The Curator",
-			[2028] = "King Ymiron",
-			[1837] = "Oakheart",
-			[1901] = "Tavarok",
-			[1200] = "Baleroc",
-			[2029] = "Skadi the Ruthless",
-			[1838] = "Dresaron",
-			[1966] = "Prince Taldaram",
-			[2030] = "Svala Sorrowgrave",
-			[1839] = "Shade of Xavius",
-			[2031] = "Nightbane",
-			[1203] = "Ragnaros",
-			[1777] = "Fel Lord Zakuun",
-			[1841] = "Ursoc",
-			[1204] = "Lord Rhyolith",
-			[1778] = "Hellfire Assault",
-			[1205] = "Shannox",
-			[1206] = "Alysrazor",
-			[1271] = "Murozond",
-			[1845] = "Shivermaw",
-			[1846] = "Mindflayer Kaahrj",
-			[1783] = "Gorefiend",
-			[1847] = "Millificent Manastorm",
-			[1784] = "Tyrant Velhari",
-			[1848] = "Festerface",
-			[1785] = "Iron Reaver",
-			[1913] = "Dalliah the Doomsayer",
-			[1786] = "Kilrogg Deadeye",
-			[1850] = "Inquisitor Tormentorum",
-			[1914] = "Harbinger Skyriss",
-			[1978] = "Slad'ran",
-			[1787] = "Kormrok",
-			[1851] = "Sael'orn",
-			[1915] = "Wrath-Scryer Soccothrates",
-			[1788] = "Shadow-Lord Iskar",
-			[1852] = "Anub'esset",
-			[1916] = "Zereketh the Unbound",
-			[1980] = "Moorabi",
-			[1853] = "Nythendra",
-			[1981] = "Gal'darah",
-			[1790] = "Rokmora",
-			[1854] = "Dragons of Nightmare",
-			[1791] = "Ularogg Cragshaper",
-			[1855] = "Blood-Princess Thal'ena",
-			[1919] = "Aeonus",
-			[1983] = "Drakkari Colossus",
-			[1792] = "Naraxas",
-			[1856] = "Fel Lord Betrug",
-			[1920] = "Chrono Lord Deja",
-			[1793] = "Dargrul the Underking",
-			[1921] = "Temporus",
-			[1794] = "Socrethar the Eternal",
-			[1795] = "Mannoroth",
-			[1969] = "Elder Nadox",
-			[1050] = "Forgemaster Throngus",
-			[1968] = "Herald Volazj",
-			[1813] = "Serpentrix",
-			[1058] = "Ozruk",
-			[1814] = "Wrath of Azshara",
-			[1197] = "Beth'tilac",
-			[1798] = "Hellfire High Council",
-			[1799] = "Archimonde",
-			[1043] = "Grand Vizier Ertan",
-			[1816] = "Ash'Golm",
-			[519] = "Frozen Commander",
-			[1965] = "Shade of Medivh",
-			[1041] = "Altairus",
-			[1057] = "High Priestess Azil",
-			[1800] = "Xhul'horac",
-			[1864] = "Xavius",
-			[1042] = "Asaad",
-			[1059] = "Slabhide",
-		},
 		["list"] = {
 			["Redbullek"] = {
 			},
@@ -2248,11 +2108,241 @@ VExRT = {
 				"^1848^23^1483122593^45^1^5^805.69^", -- [2082]
 				"^1846^23^1483123018^49^1^5^805.69^Yakushi", -- [2083]
 				"^1851^23^1483123323^43^1^5^805.69^", -- [2084]
+				"^1815^2^1483374734^17^1^5^878.34^", -- [2085]
+				"^1850^2^1483374841^78^1^5^878.34^", -- [2086]
+				"^1817^2^1483375066^23^1^5^878.34^", -- [2087]
+				"^1816^2^1483375130^49^1^5^878.34^", -- [2088]
+				"^1818^2^1483375414^55^1^5^878.34^", -- [2089]
+				"^1832^23^1483376413^33^1^5^871.73^", -- [2090]
+				"^1833^23^1483376838^41^1^5^871.73^", -- [2091]
+				"^1834^23^1483377158^59^1^5^871.73^", -- [2092]
+				"^1835^23^1483377326^93^1^5^871.73^", -- [2093]
+				"^1850^23^1483378731^99^1^5^871.98^", -- [2094]
+				"^1817^23^1483378907^68^1^5^871.98^", -- [2095]
+				"^1816^23^1483379024^47^1^5^871.98^", -- [2096]
+				"^1818^23^1483379355^113^1^5^871.98^Lolerz", -- [2097]
+				"^1958^16^1483385317^111^0^20^882.86^Fatygant", -- [2098]
+				"^1958^16^1483385589^407^0^20^882.89^Rediva", -- [2099]
+				"^1958^16^1483386146^517^0^20^882.89^Mishiima", -- [2100]
+				"^1958^16^1483386915^270^0^20^882.81^Dariogar", -- [2101]
+				"^1958^16^1483387325^477^0^20^882.81^Fantrise", -- [2102]
+				"^1958^16^1483388329^109^0^20^883.27^Rediva", -- [2103]
+				"^1958^16^1483388528^487^0^20^883.27^Abunasan", -- [2104]
+				"^1958^16^1483389322^104^0^20^883.27^Sheinen", -- [2105]
+				"^1958^16^1483389566^481^0^20^883.27^Avanafil", -- [2106]
+				"^1958^16^1483390157^42^0^20^883.27^Redus", -- [2107]
+				"^1958^16^1483390298^512^0^20^883.27^Fatygant", -- [2108]
+				"^1958^16^1483390920^534^0^20^883.31^Redus", -- [2109]
+				"^1958^16^1483391714^359^0^20^883.20^Abunasan", -- [2110]
+				"^1958^16^1483392174^512^0^20^883.20^Lolerz", -- [2111]
+				"^1958^16^1483393033^45^0^20^883.28^Mishiima", -- [2112]
+				"^1958^16^1483393171^545^0^20^883.28^Flant", -- [2113]
+				"^1958^16^1483393837^105^0^20^883.20^Leön", -- [2114]
+				"^1958^16^1483394057^303^0^20^883.20^Dariogar", -- [2115]
+				"^1958^16^1483394467^485^0^20^883.20^Rediva", -- [2116]
+				"^1836^2^1483488815^19^1^5^885.00^", -- [2117]
+				"^1837^2^1483488964^23^1^5^885.00^", -- [2118]
+				"^1838^2^1483489043^32^1^5^885.00^", -- [2119]
+				"^1839^2^1483489156^28^1^5^885.00^", -- [2120]
+				"^1832^8^1483495687^102^1^5^882.74^Cehennett-TwistingNether", -- [2121]
+				"^1832^8^1483497590^123^1^5^877.76^Orrczysyn", -- [2122]
+				"^1810^8^1483546054^96^1^5^884.49^", -- [2123]
+				"^1811^8^1483546341^131^1^5^884.49^", -- [2124]
+				"^1813^8^1483546639^139^1^5^884.55^", -- [2125]
+				"^1812^8^1483546973^124^1^5^884.55^", -- [2126]
+				"^1814^8^1483547218^120^1^5^884.55^", -- [2127]
+				"^1822^2^1483548445^31^1^5^780.99^", -- [2128]
+				"^1823^2^1483548615^22^1^5^881.51^", -- [2129]
+				"^1824^2^1483548736^78^1^5^881.51^", -- [2130]
+				"^1822^8^1483549897^78^1^5^882.42^Celardorei-TarrenMill", -- [2131]
+				"^1823^8^1483550154^69^1^5^882.42^", -- [2132]
+				"^1824^8^1483550355^178^1^5^882.42^Speyside", -- [2133]
+				"^1805^8^1483551437^98^1^5^881.79^Talpa", -- [2134]
+				"^1806^8^1483552088^246^1^5^881.79^Zaiy", -- [2135]
+				"^1807^8^1483552601^32^0^5^881.79^", -- [2136]
+				"^1807^8^1483552708^79^1^5^881.79^Redus", -- [2137]
+				"^1808^8^1483553129^89^1^5^881.79^", -- [2138]
+				"^1809^8^1483553267^92^1^5^881.79^", -- [2139]
+				"^1958^16^1483557673^156^0^20^852.44^Requs", -- [2140]
+				"^1958^16^1483557925^362^0^20^882.92^Flant", -- [2141]
+				"^1958^16^1483558404^139^0^20^883.11^Talpa", -- [2142]
+				"^1958^16^1483558712^314^0^20^882.97^Rediva", -- [2143]
+				"^1958^16^1483559148^515^0^20^882.97^Simas", -- [2144]
+				"^1958^16^1483559782^154^0^20^882.97^Vaadoos", -- [2145]
+				"^1958^16^1483560050^482^0^20^882.87^Dariogar", -- [2146]
+				"^1958^16^1483560836^537^0^20^882.84^Mishiima", -- [2147]
+				"^1958^16^1483561814^294^0^20^883.33^Redus", -- [2148]
+				"^1958^16^1483562204^542^1^20^883.33^Vaadoos", -- [2149]
+				"^1790^2^1483636216^27^1^5^873.00^", -- [2150]
+				"^1791^2^1483636375^75^1^5^873.00^", -- [2151]
+				"^1792^2^1483636519^28^1^5^873.00^", -- [2152]
+				"^1793^2^1483636632^42^1^5^873.00^", -- [2153]
+				"^1810^8^1483639319^73^1^5^880.61^", -- [2154]
+				"^1811^8^1483639542^217^1^5^880.61^Speyside", -- [2155]
+				"^1813^8^1483640018^81^1^5^880.61^", -- [2156]
+				"^1812^8^1483640315^80^1^5^880.61^", -- [2157]
+				"^1814^8^1483640559^61^1^5^880.61^", -- [2158]
+				"^1873^16^1483645863^26^0^20^853.17^Elpotato", -- [2159]
+				"^1873^16^1483645973^616^0^20^884.03^Flant", -- [2160]
+				"^1873^16^1483646698^447^0^20^883.94^Talpa", -- [2161]
+				"^1873^16^1483647249^216^0^20^884.13^Redus", -- [2162]
+				"^1873^16^1483647569^0^0^20^884.13^", -- [2163]
+				"^1873^16^1483648273^443^0^20^801.52^Dariogar", -- [2164]
+				"^1873^16^1483649087^532^1^20^877.98^Fatygant", -- [2165]
+				"^1877^16^1483650422^127^0^20^883.92^Sheinen", -- [2166]
+				"^1877^16^1483650746^287^0^20^883.99^Szoplifter", -- [2167]
+				"^1877^16^1483651186^163^0^20^884.07^Zozusek", -- [2168]
+				"^1877^16^1483651494^80^0^20^883.99^Talpa", -- [2169]
+				"^1877^16^1483651753^124^0^20^883.94^Sheinen", -- [2170]
+				"^1877^16^1483652006^180^0^20^883.94^Dariogar", -- [2171]
+				"^1877^16^1483652290^264^1^20^883.94^Talpa", -- [2172]
+				"^1864^16^1483653830^189^0^20^884.00^Redus", -- [2173]
+				"^1864^16^1483654207^272^0^20^883.94^Zozusek", -- [2174]
 			},
 			["Kot"] = {
 			},
 			["Ðeathshot"] = {
 			},
+		},
+		["names"] = {
+			[1868] = "Patrol Captain Gerdo",
+			[1805] = "Hymdall",
+			[1869] = "Talixae Flamewreath",
+			[1806] = "Hyrja",
+			[1870] = "Advisor Melandrus",
+			[1807] = "Fenryr",
+			[1935] = "Blood Guard Porung",
+			[1999] = "Forgemaster Garfrost",
+			[1808] = "God-King Skovald",
+			[1936] = "Grand Warlock Nethekurse",
+			[2000] = "Scourgelord Tyrannus",
+			[1809] = "Odyn",
+			[1873] = "Il'gynoth, The Heart of Corruption",
+			[1937] = "Warbringer O'mrogg",
+			[2001] = "Krick",
+			[1810] = "Warlord Parjesh",
+			[1938] = "Warchief Kargath Bladefist",
+			[1811] = "Lady Hatecoil",
+			[1939] = "Mennu the Betrayer",
+			[1812] = "King Deepbeard",
+			[1876] = "Elerethe Renferal",
+			[1940] = "Quagmirran",
+			[1048] = "Drahga Shadowburner",
+			[1877] = "Cenarius",
+			[1941] = "Rokmar the Crackler",
+			[1049] = "Erudax",
+			[1815] = "Tirathon Saltheril",
+			[1051] = "General Umbriss",
+			[2008] = "Helya",
+			[1817] = "Glazer",
+			[1881] = "Echo of Baine",
+			[2009] = "Anomalus",
+			[1818] = "Cordana Felsong",
+			[2010] = "Grand Magus Telestra",
+			[1883] = "Echo of Jaina",
+			[2011] = "Keristrasza",
+			[2012] = "Ormorok the Tree-Shaper",
+			[1056] = "Corborus",
+			[1822] = "Ymiron, the Fallen King",
+			[1185] = "Majordomo Staghelm",
+			[1823] = "Harbaron",
+			[1824] = "Helya",
+			[1825] = "Corstilax",
+			[2017] = "Viz'aduum the Watcher",
+			[1826] = "Nal'tira",
+			[1954] = "Maiden of Virtue",
+			[1827] = "Ivanyr",
+			[1828] = "General Xakal",
+			[1829] = "Advisor Vandros",
+			[1957] = "Opera Hall",
+			[1894] = "Kael'thas Sunstrider",
+			[1958] = "Odyn",
+			[1895] = "Priestess Delrissa",
+			[1959] = "Mana Devourer",
+			[1832] = "Amalgam of Souls",
+			[1960] = "Attumen the Huntsman",
+			[1833] = "Ilysanna Ravencrest",
+			[1897] = "Selin Fireheart",
+			[1961] = "Moroes",
+			[1834] = "Smashspite the Hateful",
+			[1898] = "Vexallus",
+			[1962] = "Guarm",
+			[1835] = "Lord Kur'talos Ravencrest",
+			[1899] = "Nexus-Prince Shaffar",
+			[1836] = "Archdruid Glaidalis",
+			[1900] = "Pandemonius",
+			[1964] = "The Curator",
+			[2028] = "King Ymiron",
+			[1837] = "Oakheart",
+			[1901] = "Tavarok",
+			[1200] = "Baleroc",
+			[2029] = "Skadi the Ruthless",
+			[1838] = "Dresaron",
+			[1966] = "Prince Taldaram",
+			[2030] = "Svala Sorrowgrave",
+			[1839] = "Shade of Xavius",
+			[2031] = "Nightbane",
+			[1203] = "Ragnaros",
+			[1777] = "Fel Lord Zakuun",
+			[1841] = "Ursoc",
+			[1204] = "Lord Rhyolith",
+			[1778] = "Hellfire Assault",
+			[1205] = "Shannox",
+			[1206] = "Alysrazor",
+			[1271] = "Murozond",
+			[1845] = "Shivermaw",
+			[1846] = "Mindflayer Kaahrj",
+			[1783] = "Gorefiend",
+			[1847] = "Millificent Manastorm",
+			[1784] = "Tyrant Velhari",
+			[1848] = "Festerface",
+			[1785] = "Iron Reaver",
+			[1913] = "Dalliah the Doomsayer",
+			[1786] = "Kilrogg Deadeye",
+			[1850] = "Inquisitor Tormentorum",
+			[1914] = "Harbinger Skyriss",
+			[1978] = "Slad'ran",
+			[1787] = "Kormrok",
+			[1851] = "Sael'orn",
+			[1915] = "Wrath-Scryer Soccothrates",
+			[1788] = "Shadow-Lord Iskar",
+			[1852] = "Anub'esset",
+			[1916] = "Zereketh the Unbound",
+			[1980] = "Moorabi",
+			[1853] = "Nythendra",
+			[1981] = "Gal'darah",
+			[1790] = "Rokmora",
+			[1854] = "Dragons of Nightmare",
+			[1791] = "Ularogg Cragshaper",
+			[1855] = "Blood-Princess Thal'ena",
+			[1919] = "Aeonus",
+			[1983] = "Drakkari Colossus",
+			[1792] = "Naraxas",
+			[1856] = "Fel Lord Betrug",
+			[1920] = "Chrono Lord Deja",
+			[1793] = "Dargrul the Underking",
+			[1921] = "Temporus",
+			[1794] = "Socrethar the Eternal",
+			[1795] = "Mannoroth",
+			[1059] = "Slabhide",
+			[1042] = "Asaad",
+			[1968] = "Herald Volazj",
+			[1813] = "Serpentrix",
+			[1057] = "High Priestess Azil",
+			[1041] = "Altairus",
+			[1965] = "Shade of Medivh",
+			[1798] = "Hellfire High Council",
+			[519] = "Frozen Commander",
+			[1816] = "Ash'Golm",
+			[1043] = "Grand Vizier Ertan",
+			[1799] = "Archimonde",
+			[1197] = "Beth'tilac",
+			[1814] = "Wrath of Azshara",
+			[1058] = "Ozruk",
+			[1800] = "Xhul'horac",
+			[1864] = "Xavius",
+			[1050] = "Forgemaster Throngus",
+			[1969] = "Elder Nadox",
 		},
 	},
 	["Marks"] = {
@@ -3321,105 +3411,381 @@ VExRT = {
 			"8227119Aurôrâ-Destromath1483025732", -- [1058]
 			"3227119Crào-Lordaeron1483025732", -- [1059]
 			"5227119Raet-Kazzak1483025736", -- [1060]
+			"7221041Zinnie-Turalyon1483501080", -- [1061]
+			"3221041Favorlang-Darkspear1483501081", -- [1062]
+			"4221041Heliøn-Pozzodell'Eternità1483501084", -- [1063]
+			"1221042Shaydan-Stormrage1483501450", -- [1064]
+			"2221042Nerfbait-Kazzak1483501453", -- [1065]
+			"4221044Heliøn-Pozzodell'Eternità1483501899", -- [1066]
+			"2232462Rediva1483562748", -- [1067]
+			"!2142425Rediva1483562748:2:3469:1507", -- [1068]
+			"7232462Avanafil1483562749", -- [1069]
+			"!7142422Avanafil1483562749:2:3469:1507", -- [1070]
+			"4232462Roñgil1483562750", -- [1071]
+			"B232462Moadib1483562751", -- [1072]
+			"5232462Voodooprst1483562751", -- [1073]
+			"!5142519Voodooprst1483562751:3:3469:1512:3336", -- [1074]
+			"6232462Grimriper1483562753", -- [1075]
+			"8232462Redus1483562756", -- [1076]
+			"9232462Lolerz1483562757", -- [1077]
+			"1232462Mishiima1483562758", -- [1078]
+			"!1142540Mishiima1483562758:3:3469:1512:3336", -- [1079]
+			"2232462Simas1483562760", -- [1080]
+			"B232462Szniff1483562767", -- [1081]
+			"3232462Vaadoos1483562828", -- [1082]
+			"!3142540Vaadoos1483562828:2:3469:1507", -- [1083]
+			"5221045Soultearer-Runetotem1483575079", -- [1084]
+			"1221041Worriorlord-Kazzak1483575627", -- [1085]
+			"5221037Bellas-ShatteredHand1483576759", -- [1086]
+			"5221039Omorfula-Jaedenar1483577376", -- [1087]
+			"2232462Evnomia-Ragnaros1483578324", -- [1088]
+			"2232463Pínti-Ragnaros1483578853", -- [1089]
+			"A232464Smeagsy-TarrenMill1483579310", -- [1090]
+			"4221039Roñgil1483649623", -- [1091]
+			"2221039Rediva1483649623", -- [1092]
+			"C221039Szoplifter1483649626", -- [1093]
+			"4221039Fantrise1483649627", -- [1094]
+			"C221039Elpotato1483649631", -- [1095]
+			"B221039Fatygant1483649640", -- [1096]
+			"8221039Redus1483649642", -- [1097]
+			"!8139326Redus1483649642:3:1806:1512:3336", -- [1098]
+			"2221039Flant1483649653", -- [1099]
+			"!2139227Flant1483649653:3:1806:41:1502", -- [1100]
+			"2221044Rediva1483652557", -- [1101]
+			"B221044Moadib1483652559", -- [1102]
+			"8221044Redus1483652559", -- [1103]
+			"2221044Flant1483652565", -- [1104]
+			"B221044Talpa1483652574", -- [1105]
+			"3221044Sheinen1483652578", -- [1106]
+			"A221044Zozusek1483652580", -- [1107]
+			"6221044Grimriper1483652581", -- [1108]
+			"!6139225Grimriper1483652581:2:1806:1502", -- [1109]
+			"A221044Requs1483652592", -- [1110]
+			"7221044Dariogar1483652665", -- [1111]
+			"!7139218Dariogar1483652665:3:1806:1507:3336", -- [1112]
 		},
 	},
 	["ExCD2"] = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
-			["Gaellyk-Hyjal"] = 258,
-			["Stekharn-Ragnaros"] = 260,
+			["Imteamklotz-Azshara"] = 256,
+			["Tordenliz-TarrenMill"] = 66,
 			["Talpa"] = 102,
-			["Avanafil"] = 264,
-			["Batto-Arathor"] = 260,
-			["Kyuosuke-Hyjal"] = 65,
-			["Vanignor-Blackhand"] = 104,
+			["Tidal-Terenas"] = 264,
+			["Sapojke-Draenor"] = 254,
+			["Demonflurry-Aggra(Português)"] = 577,
 			["Mattheuss"] = 70,
+			["Morbz-Kazzak"] = 254,
+			["Dimone-Aggra(Português)"] = 577,
+			["Nisbi-Stormreaver"] = 70,
+			["Setiallidan-ChamberofAspects"] = 577,
+			["Rezery-Draenor"] = 70,
+			["Éhínség-Ragnaros"] = 72,
+			["Eináin-Vashj"] = 102,
+			["Intheshadows-Arathor"] = 102,
+			["Recus"] = 65,
+			["Horndru-Kazzak"] = 104,
+			["Jaycie-TwistingNether"] = 66,
+			["Melonie-BurningSteppes"] = 256,
+			["Illidariargi-Kazzak"] = 577,
+			["Elanessë-TwistingNether"] = 63,
+			["Swizler-TarrenMill"] = 71,
+			["Aylii-TarrenMill"] = 70,
+			["Absolutions-TwistingNether"] = 66,
+			["ßattalion-TarrenMill"] = 73,
+			["Darknoz-Ragnaros"] = 62,
+			["Elpotato"] = 577,
+			["Kazuhide-Ragnaros"] = 270,
+			["Jaelin-Cho’gall"] = 70,
+			["Nastyä-Dalaran"] = 102,
+			["Voodooprst"] = 257,
+			["Smellycorpse-Kazzak"] = 257,
+			["Bambowiz-Pozzodell'Eternità"] = 270,
+			["Saadraks-Draenor"] = 264,
+			["Zintex-Draenor"] = 259,
+			["Mynock-Stormscale"] = 262,
+			["Dariogar"] = 262,
+			["Mammalaga"] = 250,
+			["Chromiaa"] = 253,
+			["Spriggan-Stormreaver"] = 251,
+			["Shaleena-Blackrock"] = 257,
+			["Bibelselger-DefiasBrotherhood"] = 262,
+			["Galadhwen-Stormscale"] = 63,
+			["Romainlig-ConfrérieduThorium"] = 103,
+			["Аликбер-Галакронд"] = 70,
+			["Lolerz"] = 267,
+			["Imawesome-Onyxia"] = 105,
+			["Kiciex"] = 103,
+			["Dartâron"] = 251,
+			["Roxsenx-Zenedar"] = 70,
+			["Stephek"] = 104,
+			["Trisky-Ragnaros"] = 63,
+			["Sheinen"] = 254,
+			["Pyropanda-TarrenMill"] = 63,
+			["Robinhoodtr-TwistingNether"] = 253,
+			["Shadymoses-Stormscale"] = 257,
+			["Michalic-Drak'thul"] = 105,
+			["Cehennett-TwistingNether"] = 257,
+			["Yamaue-Drak'thul"] = 254,
+			["Mekha-GrimBatol"] = 581,
+			["Daikokuten-TwistingNether"] = 264,
+			["Furyes-Ragnaros"] = 251,
+			["Nihiriel-TarrenMill"] = 263,
+			["Boongasm-Draenor"] = 102,
+			["Vassari-Stormreaver"] = 65,
+			["Palaska-Ghostlands"] = 70,
+			["Dkmeister"] = 251,
+			["Shaydan-Stormrage"] = 72,
+			["Annucia-Stormscale"] = 65,
+			["Zaiy"] = 264,
+			["Sinexi-Stormscale"] = 254,
+			["Celardorei-TarrenMill"] = 577,
+			["Fletchÿy-Aggra(Português)"] = 254,
+			["Oleras-Hellscream"] = 253,
+			["Vrykolax-Draenor"] = 577,
+			["Powderedging-Ragnaros"] = 264,
+			["Gulji-ArgentDawn"] = 253,
+			["Lessira-ShatteredHand"] = 105,
+			["Ybbinak-Onyxia"] = 577,
+			["Lastzhooi-Kazzak"] = 71,
+			["Elathrin-TwistingNether"] = 252,
+			["Killingjoy-TarrenMill"] = 260,
+			["Meurglys-TarrenMill"] = 251,
+			["Redus"] = 63,
+			["Dikvurur-TwistingNether"] = 251,
+			["Zorgosh-ChamberofAspects"] = 251,
+			["Statîk-TwistingNether"] = 63,
+			["Lauraz-Stormscale"] = 70,
+			["Escuralua-DieewigeWacht"] = 267,
+			["Ampére-Hyjal"] = 264,
+			["Naminy-ShatteredHand"] = 256,
+			["Kazragine-Draenor"] = 577,
+			["Mythôs-Nathrezim"] = 63,
+			["Mysticmantle-Terenas"] = 264,
+			["Qruza-DefiasBrotherhood"] = 63,
+			["Quimcarnes-Aggra(Português)"] = 104,
+			["Thriae-Hellscream"] = 263,
+			["Ârktøs-Sanguino"] = 251,
+			["Shial-Sanguino"] = 267,
+			["Pruds-TwistingNether"] = 262,
+			["Masdl-TwistingNether"] = 63,
+			["Zinnie-Turalyon"] = 263,
+			["Lorzoran-TarrenMill"] = 250,
+			["Vallora"] = 70,
+			["Bummonkey-Bloodfeather"] = 270,
+			["Talpadh"] = 577,
+			["Pøjken-TarrenMill"] = 265,
+			["Lorah-Drak'thul"] = 263,
+			["Arrexis-Vek'nilash"] = 63,
+			["Gaellyk-Hyjal"] = 258,
+			["Kezra-Kazzak"] = 577,
+			["Shishikyu-Kazzak"] = 70,
+			["Njamnjam-DefiasBrotherhood"] = 269,
+			["Orrczysyn"] = 254,
+			["Тушёный-Ясеневыйлес"] = 66,
+			["Entrodito-Kazzak"] = 265,
+			["Sentien"] = 581,
+			["Eldortok-Kazzak"] = 270,
+			["Morjay-Blackhand"] = 103,
+			["Arpegius-Magtheridon"] = 63,
 			["Simas"] = 70,
+			["Inuki-LesClairvoyants"] = 102,
 			["Shiryuuh-Eredar"] = 104,
 			["Zozusek"] = 270,
 			["Padregen-Kael'thas"] = 267,
-			["Xennami-Kazzak"] = 577,
-			["Dkmeister"] = 251,
-			["Intheshadows-Arathor"] = 102,
-			["Recus"] = 65,
+			["Azingo-DefiasBrotherhood"] = 262,
+			["Gerantin"] = 262,
 			["Mishiima"] = 72,
-			["Fatygant"] = 104,
-			["Oleras-Hellscream"] = 253,
-			["Melonie-BurningSteppes"] = 256,
-			["Lifllif-Magtheridon"] = 105,
-			["Rediva"] = 66,
-			["Dajlajka"] = 256,
-			["Aylii-TarrenMill"] = 70,
-			["Unadia"] = 254,
-			["Ybbinak-Onyxia"] = 577,
-			["Fantrise"] = 259,
-			["Requs"] = 270,
-			["Vordt-Shadowsong"] = 263,
-			["Braxxos-Nemesis"] = 264,
-			["Sakarja-TheSha'tar"] = 267,
-			["Elpotato"] = 577,
-			["Tsumenomai-Blackhand"] = 268,
-			["Canesh-Arygos"] = 73,
-			["Sniffity-ChamberofAspects"] = 72,
-			["Nograime-DasSyndikat"] = 251,
-			["Zorgosh-ChamberofAspects"] = 251,
-			["Statîk-TwistingNether"] = 63,
+			["Rikosz-Ragnaros"] = 63,
+			["Icenova-Drak'thul"] = 62,
+			["Arkitos-Ulduar"] = 253,
+			["Fedae-Stormreaver"] = 105,
+			["Janpi-Kazzak"] = 62,
+			["Nairra-Drak'thul"] = 262,
+			["Gima-Kilrogg"] = 72,
+			["Lumizi-Bladefist"] = 63,
+			["Dohhers-Magtheridon"] = 581,
+			["Stormhowl-DefiasBrotherhood"] = 262,
+			["Voidflame"] = 581,
+			["Bérinon"] = 103,
+			["Arlovski"] = 269,
+			["Dàimon-Nemesis"] = 577,
+			["Kubsoon"] = 72,
+			["Soultearer-Runetotem"] = 258,
 			["Holytramper-GrimBatol"] = 70,
 			["Xâvu-Blackrock"] = 105,
-			["Mogarr-BronzeDragonflight"] = 250,
-			["Nightcreep-Skullcrusher"] = 250,
-			["Szniff"] = 105,
-			["Lennox-Gorgonnash"] = 577,
-			["Moadib"] = 102,
-			["Ankpat-TarrenMill"] = 253,
-			["Mythôs-Nathrezim"] = 63,
-			["Absolutions-TwistingNether"] = 66,
-			["Dariogar"] = 262,
-			["Flant"] = 65,
-			["Mammalaga"] = 250,
-			["Chromiaa"] = 253,
+			["Hamudra-Stormscale"] = 71,
+			["Rosekey-TwistingNether"] = 264,
+			["Nephiris-EarthenRing"] = 64,
+			["Worriorlord-Kazzak"] = 73,
 			["Abunasan"] = 105,
-			["Arkitos-Ulduar"] = 253,
-			["Saintcow-DefiasBrotherhood"] = 70,
+			["Nyctø-TwistingNether"] = 258,
 			["Roñgil"] = 259,
 			["Mindflow"] = 258,
-			["Leön"] = 267,
-			["Horndru-Kazzak"] = 104,
-			["Bibelselger-DefiasBrotherhood"] = 262,
-			["Killdozer-Neptulon"] = 253,
-			["Kethgul-Dalaran"] = 251,
-			["Sweetpoisen-TheMaelstrom"] = 66,
-			["Vallora"] = 70,
-			["Kkarlsen-Stormscale"] = 251,
-			["Pruds-TwistingNether"] = 262,
+			["Jøuna-Ysondre"] = 251,
+			["Östry-AeriePeak"] = 253,
+			["Avanafil"] = 264,
+			["Klapjoww-Nordrassil"] = 251,
+			["Aizén-Magtheridon"] = 270,
+			["Ilesa-Stormreaver"] = 251,
+			["Evnomia-Ragnaros"] = 66,
+			["Endlessriver-Eitrigg"] = 63,
 			["Vaadoos"] = 254,
-			["Kubsoon"] = 72,
-			["Ampére-Hyjal"] = 264,
-			["Lolerz"] = 267,
-			["Kiciex"] = 103,
-			["Croway-DefiasBrotherhood"] = 254,
-			["Flumpster-Aggramar"] = 105,
-			["Dartâron"] = 251,
+			["Agilities-TheMaelstrom"] = 72,
+			["Drmassacer-TwistingNether"] = 66,
+			["Allánon-Stormscale"] = 63,
+			["Elewyr-Drak'thul"] = 257,
+			["Smeagsy-TarrenMill"] = 269,
+			["Creq-Ragnaros"] = 65,
+			["Darkopanda-Stormscale"] = 270,
 			["Kramkorl-Sanguino"] = 72,
-			["Voodooprst"] = 257,
-			["Shénanigans-TarrenMill"] = 264,
-			["Azurewratmg"] = 64,
+			["Kekefini-TwistingNether"] = 258,
+			["Wallahbre-Draenor"] = 255,
+			["Аньяра-Пиратскаябухта"] = 259,
 			["Abyat-Stormscale"] = 259,
-			["Eazzy-ChamberofAspects"] = 66,
+			["Gudaron-Drak'thul"] = 72,
+			["Delajhin-Draenor"] = 267,
+			["Roxxar-Hellfire"] = 577,
+			["Imakkiez-Stormreaver"] = 103,
+			["Kameda-Thrall"] = 581,
+			["Torepriest-Draenor"] = 258,
 			["Hagomagia-Sanguino"] = 63,
+			["Aeleane-ArgentDawn"] = 63,
+			["Wipszu"] = 72,
+			["Stekharn-Ragnaros"] = 260,
+			["Eazzy-ChamberofAspects"] = 66,
+			["Zoblar-Aszune"] = 252,
+			["Omorfula-Jaedenar"] = 257,
+			["Turkiskpeber-Outland"] = 263,
+			["Batto-Arathor"] = 260,
+			["Tzuren-Stormscale"] = 265,
+			["Kyuosuke-Hyjal"] = 65,
+			["Bellas-ShatteredHand"] = 258,
+			["Vanignor-Blackhand"] = 104,
+			["Qwertii-TwistingNether"] = 258,
+			["Creame-Ragnaros"] = 261,
+			["Jacawitz-Shadowsong"] = 267,
+			["Ferzoletta-TwistingNether"] = 103,
+			["Ghazkul-Silvermoon"] = 71,
+			["Frasfrallan-Outland"] = 65,
+			["Moorauder-Twilight'sHammer"] = 104,
+			["Darranus-Drak'thul"] = 70,
+			["Shénanigans-TarrenMill"] = 264,
+			["Levia-ConfrérieduThorium"] = 254,
+			["Favorlang-Darkspear"] = 255,
+			["Loana-Aggra(Português)"] = 72,
+			["Xennami-Kazzak"] = 577,
+			["Croway-DefiasBrotherhood"] = 254,
+			["Андреалфус-Гром"] = 266,
+			["Highlordz-Draenor"] = 252,
+			["Necronnis-TwistingNether"] = 250,
+			["Krippari-Kazzak"] = 104,
+			["Snaoz-Kazzak"] = 251,
+			["Scareinsider-DefiasBrotherhood"] = 251,
+			["Warsha-Hellfire"] = 263,
+			["Naseth-Arathi"] = 265,
+			["Killdozer-Neptulon"] = 253,
+			["Fatygant"] = 104,
+			["Szoplifter"] = 577,
+			["Rêmchan-Kazzak"] = 577,
+			["Lullãby-Draenor"] = 105,
+			["Morbitshadow-DarkmoonFaire"] = 577,
+			["Lifllif-Magtheridon"] = 105,
+			["Kheph-Illidan"] = 65,
+			["Rediva"] = 66,
+			["Panzzy-ChamberofAspects"] = 267,
+			["Dajlajka"] = 256,
+			["Requs"] = 270,
+			["Bekovski-Aggra(Português)"] = 251,
+			["Lennox-Gorgonnash"] = 577,
+			["Padrina-ChamberofAspects"] = 257,
+			["Liløunnette-Archimonde"] = 259,
+			["Antikero-Drak'thul"] = 254,
 			["Rainbowrose-Thrall"] = 258,
-			["Sheinen"] = 254,
-			["Redus"] = 63,
+			["Pindel-Terokkar"] = 64,
+			["Verci-Blackhand"] = 63,
+			["Flant"] = 65,
+			["Corinthia-Terenas"] = 70,
+			["Vordt-Shadowsong"] = 263,
+			["Hestía-TarrenMill"] = 255,
+			["Yamý-Alleria"] = 250,
+			["Nerfbait-Kazzak"] = 65,
+			["Trollomancer-TarrenMill"] = 251,
+			["Bowtorch-Hellscream"] = 270,
+			["Isgren-TarrenMill"] = 72,
+			["Wallzing-TarrenMill"] = 72,
+			["Nightcreep-Skullcrusher"] = 250,
+			["Tsumenomai-Blackhand"] = 268,
+			["Canesh-Arygos"] = 73,
+			["Cowmeet-BronzeDragonflight"] = 105,
+			["Sniffity-ChamberofAspects"] = 72,
+			["Nograime-DasSyndikat"] = 251,
+			["Stomqt-Terokkar"] = 63,
+			["Aráél-ShatteredHalls"] = 258,
+			["Jodlarvattin-Auchindoun"] = 270,
+			["Druidoodle-Stormscale"] = 105,
+			["Irishka-Ysondre"] = 262,
+			["Njmgh-Hellfire"] = 72,
+			["Váleera-Blackhand"] = 260,
+			["Izbijenzeko-Ragnaros"] = 102,
+			["Aatrrox-Draenor"] = 254,
+			["Sakarja-TheSha'tar"] = 267,
+			["Slevvin-Kazzak"] = 265,
+			["Xeg-TwistingNether"] = 253,
+			["Wilkevian-TheSha'tar"] = 70,
+			["Grayzon"] = 105,
+			["Glome-Draenor"] = 105,
+			["Fantrise"] = 259,
+			["Ankpat-TarrenMill"] = 253,
+			["Kusajishi-Blackmoore"] = 253,
+			["Kkarlsen-Stormscale"] = 251,
+			["Rastelle-Hyjal"] = 577,
+			["Liammozzie-Draenor"] = 270,
+			["Mogarr-BronzeDragonflight"] = 250,
+			["Scvgoodtogo-Zenedar"] = 262,
+			["Pínti-Ragnaros"] = 70,
+			["Akûnaø-Hyjal"] = 254,
+			["Ifeellucky-Kazzak"] = 62,
+			["Veptor-Stormscale"] = 70,
+			["Fubár-Daggerspine"] = 70,
+			["Saintcow-DefiasBrotherhood"] = 70,
+			["Kethgul-Dalaran"] = 251,
+			["Tortelini-Blackhand"] = 264,
+			["Sweetpoisen-TheMaelstrom"] = 66,
+			["Guðmundr-BronzeDragonflight"] = 251,
+			["Shóckzz-Kazzak"] = 264,
 			["Yakushi"] = 254,
-			["Arrexis-Vek'nilash"] = 63,
+			["Malphies-Hellscream"] = 577,
+			["Emrakrul-Draenor"] = 66,
+			["Zerdor-Ragnaros"] = 63,
+			["Bulldoozer-BurningBlade"] = 71,
+			["Grotherwar"] = 73,
+			["Cerax-Trollbane"] = 70,
+			["Dëmagus-Frostwhisper"] = 63,
+			["Braxxos-Nemesis"] = 264,
+			["Hadesthehero-Magtheridon"] = 266,
+			["Flumpster-Aggramar"] = 105,
+			["Grimriper"] = 251,
+			["Dovakiin-ShatteredHand"] = 255,
+			["Szniff"] = 105,
+			["Doctah-Dunemaul"] = 257,
+			["Datchouka-CultedelaRivenoire"] = 102,
+			["Azurewratmg"] = 64,
+			["Konstantini-Drak'thul"] = 581,
+			["Hoytt-Drak'thul"] = 254,
+			["Nznog-Blackmoore"] = 257,
+			["Nurge-TwistingNether"] = 105,
+			["Hurom-C'Thun"] = 104,
+			["Moadib"] = 102,
+			["Speyside"] = 254,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
 		},
 		["default_userCD"] = {
 		},
-		["Save"] = {
+		["userDB"] = {
 		},
 		["colSet"] = {
 			{
@@ -3429,13 +3795,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -3444,13 +3810,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -3459,13 +3825,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -3473,13 +3839,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -3487,13 +3853,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -3501,13 +3867,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -3515,13 +3881,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -3529,13 +3895,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -3543,13 +3909,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -3557,13 +3923,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [10]
 			{
 				["frameGeneral"] = true,
@@ -3571,20 +3937,20 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [11]
 		},
 		["Priority"] = {
 		},
 		["CDE"] = {
 		},
-		["userDB"] = {
+		["Save"] = {
 		},
 	},
 	["Attendance"] = {
@@ -3615,13 +3981,13 @@ VExRT = {
 				"AHarkog", -- [19]
 				"KMoadib", -- [20]
 				"BGrizzlyo", -- [21]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 15,
 				["eI"] = 1876,
+				["k"] = true,
 				["t"] = 1476127844,
-				["g"] = 21,
 				["eN"] = "Elerethe Renferal",
+				["d"] = 15,
+				["g"] = 21,
+				["c"] = "Redus-BurningLegion",
 			}, -- [1]
 			{
 				"GDariogar", -- [1]
@@ -3644,13 +4010,13 @@ VExRT = {
 				"BGrizzlyo", -- [18]
 				"KMoadib", -- [19]
 				"KBatist", -- [20]
-				["eI"] = 1853,
 				["k"] = true,
-				["t"] = 1476300553,
-				["eN"] = "Nythendra",
-				["d"] = 15,
-				["g"] = 20,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 15,
+				["eN"] = "Nythendra",
+				["t"] = 1476300553,
+				["g"] = 20,
+				["eI"] = 1853,
 			}, -- [2]
 			{
 				"GDariogar", -- [1]
@@ -3672,13 +4038,13 @@ VExRT = {
 				"LSzoplifter", -- [17]
 				"DAngryhorse", -- [18]
 				"KMoadib", -- [19]
-				["eI"] = 1876,
 				["k"] = true,
-				["t"] = 1476379612,
-				["eN"] = "Elerethe Renferal",
-				["d"] = 15,
-				["g"] = 19,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 15,
+				["eN"] = "Elerethe Renferal",
+				["t"] = 1476379612,
+				["g"] = 19,
+				["eI"] = 1876,
 			}, -- [3]
 			{
 				"GDariogar", -- [1]
@@ -3704,14 +4070,14 @@ VExRT = {
 				"KSzniff", -- [21]
 				"AHarkog", -- [22]
 				"GZaiy", -- [23]
-				["c"] = "Redus-BurningLegion",
-				["eN"] = "Nythendra",
-				["k"] = true,
-				[26] = "BGrizzlyo",
-				["eI"] = 1853,
 				["d"] = 14,
-				["g"] = 23,
+				["eI"] = 1853,
+				["k"] = true,
 				["t"] = 1476896810,
+				["eN"] = "Nythendra",
+				[26] = "BGrizzlyo",
+				["g"] = 23,
+				["c"] = "Redus-BurningLegion",
 			}, -- [4]
 			{
 				"GDariogar", -- [1]
@@ -3744,9 +4110,9 @@ VExRT = {
 				["g"] = 26,
 				["k"] = true,
 				["eI"] = 1873,
-				["t"] = 1476898704,
-				["eN"] = "Il'gynoth, The Heart of Corruption",
 				["c"] = "Redus-BurningLegion",
+				["eN"] = "Il'gynoth, The Heart of Corruption",
+				["t"] = 1476898704,
 			}, -- [5]
 			{
 				"FDkmeister", -- [1]
@@ -3777,8 +4143,8 @@ VExRT = {
 				["g"] = 23,
 				["k"] = true,
 				["eI"] = 1853,
-				["c"] = "Redus-BurningLegion",
 				["t"] = 1476904437,
+				["c"] = "Redus-BurningLegion",
 			}, -- [6]
 			{
 				"FDkmeister", -- [1]
@@ -3801,14 +4167,14 @@ VExRT = {
 				"IGehennus", -- [18]
 				"JZozusek", -- [19]
 				"CSheinen", -- [20]
-				["k"] = true,
-				["eN"] = "Dragons of Nightmare",
-				["c"] = "Redus-BurningLegion",
-				["t"] = 1476906104,
-				["eI"] = 1854,
 				["d"] = 15,
-				["g"] = 21,
+				["eI"] = 1854,
+				["c"] = "Redus-BurningLegion",
 				[26] = "GDariogar",
+				["eN"] = "Dragons of Nightmare",
+				["t"] = 1476906104,
+				["g"] = 21,
+				["k"] = true,
 			}, -- [7]
 			{
 				"HRedus", -- [1]
@@ -3830,13 +4196,13 @@ VExRT = {
 				"GEarthwaves", -- [17]
 				"LElpotato", -- [18]
 				"KMoadib", -- [19]
-				["eI"] = 1864,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1476986933,
-				["eN"] = "Xavius",
-				["d"] = 15,
-				["g"] = 19,
 				["k"] = true,
+				["d"] = 15,
+				["eN"] = "Xavius",
+				["t"] = 1476986933,
+				["g"] = 19,
+				["eI"] = 1864,
 			}, -- [8]
 			{
 				"BMerikae", -- [1]
@@ -3869,8 +4235,8 @@ VExRT = {
 				["g"] = 25,
 				["k"] = true,
 				["eI"] = 1853,
-				["c"] = "Redus-BurningLegion",
 				["t"] = 1477502351,
+				["c"] = "Redus-BurningLegion",
 			}, -- [9]
 			{
 				"BMerikae", -- [1]
@@ -3902,8 +4268,8 @@ VExRT = {
 				["g"] = 23,
 				["k"] = true,
 				["eI"] = 1853,
-				["t"] = 1477508633,
 				["c"] = "Redus-BurningLegion",
+				["t"] = 1477508633,
 			}, -- [10]
 			{
 				"BMerikae", -- [1]
@@ -3935,8 +4301,8 @@ VExRT = {
 				["g"] = 23,
 				["k"] = true,
 				["eI"] = 1854,
-				["c"] = "Redus-BurningLegion",
 				["t"] = 1477510213,
+				["c"] = "Redus-BurningLegion",
 			}, -- [11]
 			{
 				"HRedus", -- [1]
@@ -3968,8 +4334,8 @@ VExRT = {
 				["g"] = 24,
 				["k"] = true,
 				["eI"] = 1853,
-				["c"] = "Redus-BurningLegion",
 				["t"] = 1478110033,
+				["c"] = "Redus-BurningLegion",
 			}, -- [12]
 			{
 				"HRedus", -- [1]
@@ -3992,13 +4358,13 @@ VExRT = {
 				"FDkmeister", -- [18]
 				"HPytsonova", -- [19]
 				"JZozusek", -- [20]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 16,
 				["eN"] = "Nythendra",
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1478121463,
-				["g"] = 20,
 				["eI"] = 1853,
+				["d"] = 16,
+				["g"] = 20,
+				["k"] = true,
 			}, -- [13]
 			{
 				"HRedus", -- [1]
@@ -4022,13 +4388,13 @@ VExRT = {
 				"FDkmeister", -- [19]
 				"FKruggorath", -- [20]
 				"KMoadib", -- [21]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 15,
 				["eI"] = 1876,
+				["k"] = true,
 				["t"] = 1478197037,
-				["g"] = 21,
 				["eN"] = "Elerethe Renferal",
+				["d"] = 15,
+				["g"] = 21,
+				["c"] = "Redus-BurningLegion",
 			}, -- [14]
 			{
 				"HRedus", -- [1]
@@ -4051,13 +4417,13 @@ VExRT = {
 				"FBlackgrave", -- [18]
 				"CSheinen", -- [19]
 				"GMitthi", -- [20]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 16,
 				["eN"] = "Elerethe Renferal",
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1478551097,
-				["g"] = 20,
 				["eI"] = 1876,
+				["d"] = 16,
+				["g"] = 20,
+				["k"] = true,
 			}, -- [15]
 			{
 				"HRedus", -- [1]
@@ -4086,13 +4452,13 @@ VExRT = {
 				"FMammalaga", -- [24]
 				"ELickitüng", -- [25]
 				"FKruggorath", -- [26]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 14,
 				["eI"] = 1853,
+				["k"] = true,
 				["t"] = 1478632359,
-				["g"] = 26,
 				["eN"] = "Nythendra",
+				["d"] = 14,
+				["g"] = 26,
+				["c"] = "Redus-BurningLegion",
 			}, -- [16]
 			{
 				"FMammalaga", -- [1]
@@ -4123,13 +4489,13 @@ VExRT = {
 				"FKruggorath", -- [26]
 				"ESenurtan", -- [27]
 				"GFlejmer", -- [28]
-				["eI"] = 1864,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1478637914,
-				["eN"] = "Xavius",
-				["d"] = 14,
-				["g"] = 27,
 				["k"] = true,
+				["d"] = 14,
+				["eN"] = "Xavius",
+				["t"] = 1478637914,
+				["g"] = 27,
+				["eI"] = 1864,
 			}, -- [17]
 			{
 				"BRediva", -- [1]
@@ -4152,13 +4518,13 @@ VExRT = {
 				"KMoadib", -- [18]
 				"ESenurtan", -- [19]
 				"KBatist", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eN"] = "Ursoc",
+				["k"] = true,
 				["t"] = 1478817844,
-				["g"] = 20,
 				["eI"] = 1841,
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [18]
 			{
 				"GDariogar", -- [1]
@@ -4189,13 +4555,13 @@ VExRT = {
 				"HTerroge-Quel'Thalas", -- [26]
 				"KSzniff", -- [27]
 				"BStamperia", -- [28]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 15,
 				["eN"] = "Nythendra",
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1479064755,
-				["g"] = 25,
 				["eI"] = 1853,
+				["d"] = 15,
+				["g"] = 25,
+				["k"] = true,
 			}, -- [19]
 			{
 				"GDariogar", -- [1]
@@ -4227,13 +4593,13 @@ VExRT = {
 				"KSzniff", -- [27]
 				"BStamperia", -- [28]
 				"IGehennus", -- [29]
-				["eI"] = 1854,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1479066923,
-				["eN"] = "Dragons of Nightmare",
-				["d"] = 15,
-				["g"] = 28,
 				["k"] = true,
+				["d"] = 15,
+				["eN"] = "Dragons of Nightmare",
+				["t"] = 1479066923,
+				["g"] = 28,
+				["eI"] = 1854,
 			}, -- [20]
 			{
 				"CSheinen", -- [1]
@@ -4256,13 +4622,13 @@ VExRT = {
 				"AWipszu", -- [18]
 				"ARaxx", -- [19]
 				"GWesly", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eI"] = 1876,
+				["k"] = true,
 				["t"] = 1479154659,
-				["g"] = 20,
 				["eN"] = "Elerethe Renferal",
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [21]
 			{
 				"HRedus", -- [1]
@@ -4285,13 +4651,13 @@ VExRT = {
 				"BStamperia", -- [18]
 				"JZozusek", -- [19]
 				"GMitthi", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eI"] = 1853,
+				["k"] = true,
 				["t"] = 1479329807,
-				["g"] = 20,
 				["eN"] = "Nythendra",
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [22]
 			{
 				"KKiciex", -- [1]
@@ -4314,13 +4680,13 @@ VExRT = {
 				"LElpotato", -- [18]
 				"LSzoplifter", -- [19]
 				"BKlatanovic", -- [20]
-				["eI"] = 1841,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1479414840,
-				["eN"] = "Ursoc",
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["d"] = 16,
+				["eN"] = "Ursoc",
+				["t"] = 1479414840,
+				["g"] = 20,
+				["eI"] = 1841,
 			}, -- [23]
 			{
 				"HRedus", -- [1]
@@ -4343,13 +4709,13 @@ VExRT = {
 				"BStamperia", -- [18]
 				"GDariogar", -- [19]
 				"CSheinen", -- [20]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 16,
 				["eN"] = "Nythendra",
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1479929328,
-				["g"] = 20,
 				["eI"] = 1853,
+				["d"] = 16,
+				["g"] = 20,
+				["k"] = true,
 			}, -- [24]
 			{
 				"FDkmeister", -- [1]
@@ -4372,13 +4738,13 @@ VExRT = {
 				"HAzurewratmg", -- [18]
 				"GDariogar", -- [19]
 				"CSheinen", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eN"] = "Ursoc",
+				["k"] = true,
 				["t"] = 1479932350,
-				["g"] = 20,
 				["eI"] = 1841,
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [25]
 			{
 				"HRedus", -- [1]
@@ -4401,13 +4767,13 @@ VExRT = {
 				"LSzoplifter", -- [18]
 				"CUnadia", -- [19]
 				"KMoadib", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eI"] = 1854,
+				["k"] = true,
 				["t"] = 1480024578,
-				["g"] = 20,
 				["eN"] = "Dragons of Nightmare",
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [26]
 			{
 				"HRedus", -- [1]
@@ -4439,13 +4805,13 @@ VExRT = {
 				"HTerroge", -- [27]
 				"FMorgrein-TwistingNether", -- [28]
 				"GHathvel", -- [29]
-				["eN"] = "Nythendra",
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1480274010,
-				["eI"] = 1853,
-				["d"] = 15,
-				["g"] = 29,
 				["k"] = true,
+				["d"] = 15,
+				["eI"] = 1853,
+				["t"] = 1480274010,
+				["g"] = 29,
+				["eN"] = "Nythendra",
 			}, -- [27]
 			{
 				"HRedus", -- [1]
@@ -4481,13 +4847,13 @@ VExRT = {
 				"FMorgrein-TwistingNether", -- [31]
 				"HTerroge", -- [32]
 				"DKhatharsis", -- [33]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 15,
 				["eI"] = 1877,
+				["k"] = true,
 				["t"] = 1480278308,
-				["g"] = 30,
 				["eN"] = "Cenarius",
+				["d"] = 15,
+				["g"] = 30,
+				["c"] = "Redus-BurningLegion",
 			}, -- [28]
 			{
 				"JZozusek", -- [1]
@@ -4504,13 +4870,13 @@ VExRT = {
 				"CSheinen", -- [12]
 				"GAvanafil", -- [13]
 				"ESenurtan", -- [14]
-				["eN"] = "Guarm",
 				["k"] = true,
-				["t"] = 1480371836,
-				["eI"] = 1962,
-				["d"] = 15,
-				["g"] = 14,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 15,
+				["eI"] = 1962,
+				["t"] = 1480371836,
+				["g"] = 14,
+				["eN"] = "Guarm",
 			}, -- [29]
 			{
 				"HRedus", -- [1]
@@ -4525,13 +4891,13 @@ VExRT = {
 				"KLifebenderr", -- [10]
 				"KMoadib", -- [11]
 				"LSzoplifter", -- [12]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 14,
 				["eN"] = "Nythendra",
+				["k"] = true,
 				["t"] = 1480449580,
-				["g"] = 12,
 				["eI"] = 1853,
+				["d"] = 14,
+				["g"] = 12,
+				["c"] = "Redus-BurningLegion",
 			}, -- [30]
 			{
 				"HRedus", -- [1]
@@ -4546,13 +4912,13 @@ VExRT = {
 				"KLifebenderr", -- [10]
 				"KMoadib", -- [11]
 				"LSzoplifter", -- [12]
-				["eN"] = "Ursoc",
 				["k"] = true,
-				["t"] = 1480450446,
-				["eI"] = 1841,
-				["d"] = 14,
-				["g"] = 12,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 14,
+				["eI"] = 1841,
+				["t"] = 1480450446,
+				["g"] = 12,
+				["eN"] = "Ursoc",
 			}, -- [31]
 			{
 				"HRedus", -- [1]
@@ -4585,9 +4951,9 @@ VExRT = {
 				["g"] = 26,
 				["k"] = true,
 				["eI"] = 1853,
-				["t"] = 1480878778,
-				["eN"] = "Nythendra",
 				["c"] = "Redus-BurningLegion",
+				["eN"] = "Nythendra",
+				["t"] = 1480878778,
 			}, -- [32]
 			{
 				"HRedus", -- [1]
@@ -4623,13 +4989,13 @@ VExRT = {
 				"FMorgrein-TwistingNether", -- [31]
 				"HArrgonauto", -- [32]
 				"DKhatharsis", -- [33]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 15,
 				["eN"] = "Xavius",
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1480883440,
-				["g"] = 28,
 				["eI"] = 1864,
+				["d"] = 15,
+				["g"] = 28,
+				["k"] = true,
 			}, -- [33]
 			{
 				"LSzoplifter", -- [1]
@@ -4652,13 +5018,13 @@ VExRT = {
 				"JZozusek", -- [18]
 				"KKiciex", -- [19]
 				"KMoadib", -- [20]
-				["eI"] = 1958,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1480888282,
-				["eN"] = "Odyn",
-				["d"] = 15,
-				["g"] = 20,
 				["k"] = true,
+				["d"] = 15,
+				["eN"] = "Odyn",
+				["t"] = 1480888282,
+				["g"] = 20,
+				["eI"] = 1958,
 			}, -- [34]
 			{
 				"FMorfizer", -- [1]
@@ -4688,8 +5054,8 @@ VExRT = {
 				["g"] = 20,
 				["k"] = true,
 				["eI"] = 1853,
-				["d"] = 16,
 				[36] = "DFantrise",
+				["d"] = 16,
 			}, -- [35]
 			{
 				"HRedus", -- [1]
@@ -4713,9 +5079,9 @@ VExRT = {
 				["g"] = 17,
 				["k"] = true,
 				["eI"] = 1853,
-				["d"] = 15,
-				[26] = "FMorgrein-TwistingNether",
 				[28] = "IPsychoniwin",
+				[26] = "FMorgrein-TwistingNether",
+				["d"] = 15,
 			}, -- [36]
 			{
 				"BAlastor", -- [1]
@@ -4738,13 +5104,13 @@ VExRT = {
 				"GAvanafil", -- [18]
 				"CSheinen", -- [19]
 				"CVaadoos", -- [20]
-				["eI"] = 1873,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1481571350,
-				["eN"] = "Il'gynoth, The Heart of Corruption",
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["d"] = 16,
+				["eN"] = "Il'gynoth, The Heart of Corruption",
+				["t"] = 1481571350,
+				["g"] = 20,
+				["eI"] = 1873,
 			}, -- [37]
 			{
 				"KMoadib", -- [1]
@@ -4767,13 +5133,13 @@ VExRT = {
 				"GAvanafil", -- [18]
 				"CSheinen", -- [19]
 				"ESenurtan", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eN"] = "Dragons of Nightmare",
+				["k"] = true,
 				["t"] = 1481579992,
-				["g"] = 20,
 				["eI"] = 1854,
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [38]
 			{
 				"GDariogar", -- [1]
@@ -4791,13 +5157,13 @@ VExRT = {
 				"AMissthor-TwistingNether", -- [13]
 				"HEthnee-TwistingNether", -- [14]
 				"KMotez-Eredar", -- [15]
-				["eN"] = "Nythendra",
 				["k"] = true,
-				["t"] = 1481645766,
-				["eI"] = 1853,
-				["d"] = 14,
-				["g"] = 14,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 14,
+				["eI"] = 1853,
+				["t"] = 1481645766,
+				["g"] = 14,
+				["eN"] = "Nythendra",
 			}, -- [39]
 			{
 				"BStamperia", -- [1]
@@ -4820,13 +5186,13 @@ VExRT = {
 				"JZozusek", -- [18]
 				"CUnadia", -- [19]
 				"KMoadib", -- [20]
-				["eI"] = 1877,
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1482091582,
-				["eN"] = "Cenarius",
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["d"] = 16,
+				["eN"] = "Cenarius",
+				["t"] = 1482091582,
+				["g"] = 20,
+				["eI"] = 1877,
 			}, -- [40]
 			{
 				"JKlintbrosh-Kazzak", -- [1]
@@ -4843,13 +5209,13 @@ VExRT = {
 				"BMesá-Draenor", -- [12]
 				"LMarcowskí-Kazzak", -- [13]
 				"HRedus", -- [14]
-				["k"] = true,
-				["c"] = "Redus-BurningLegion",
-				["d"] = 14,
 				["eI"] = 1853,
+				["c"] = "Redus-BurningLegion",
 				["t"] = 1482104582,
-				["g"] = 14,
 				["eN"] = "Nythendra",
+				["d"] = 14,
+				["g"] = 14,
+				["k"] = true,
 			}, -- [41]
 			{
 				"HRedus", -- [1]
@@ -4872,13 +5238,13 @@ VExRT = {
 				"JZozusek", -- [18]
 				"DFantrise", -- [19]
 				"KFatygant", -- [20]
-				["eN"] = "Xavius",
 				["c"] = "Redus-BurningLegion",
-				["t"] = 1482180420,
-				["eI"] = 1864,
-				["d"] = 16,
-				["g"] = 20,
 				["k"] = true,
+				["d"] = 16,
+				["eI"] = 1864,
+				["t"] = 1482180420,
+				["g"] = 20,
+				["eN"] = "Xavius",
 			}, -- [42]
 			{
 				"BStamperia", -- [1]
@@ -4901,13 +5267,13 @@ VExRT = {
 				"JZozusek", -- [18]
 				"DFantrise", -- [19]
 				"KFatygant", -- [20]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 15,
 				["eN"] = "Odyn",
+				["k"] = true,
 				["t"] = 1482182494,
-				["g"] = 19,
 				["eI"] = 1958,
+				["d"] = 15,
+				["g"] = 19,
+				["c"] = "Redus-BurningLegion",
 			}, -- [43]
 			{
 				"BStamperia", -- [1]
@@ -4929,13 +5295,13 @@ VExRT = {
 				"KNyxeria-Eredar", -- [17]
 				"ILundefuglen-EmeraldDream", -- [18]
 				"LSkolth-Stormreaver", -- [19]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 15,
 				["eI"] = 1854,
+				["k"] = true,
 				["t"] = 1482274015,
-				["g"] = 19,
 				["eN"] = "Dragons of Nightmare",
+				["d"] = 15,
+				["g"] = 19,
+				["c"] = "Redus-BurningLegion",
 			}, -- [44]
 			{
 				"BDianamelison-TwistingNether", -- [1]
@@ -4961,13 +5327,13 @@ VExRT = {
 				"KJotte-Blackhand", -- [21]
 				"FMorfizer", -- [22]
 				"INidhogg-Stormreaver", -- [23]
-				["eI"] = 1853,
 				["k"] = true,
-				["t"] = 1482326218,
-				["eN"] = "Nythendra",
-				["d"] = 14,
-				["g"] = 23,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 14,
+				["eN"] = "Nythendra",
+				["t"] = 1482326218,
+				["g"] = 23,
+				["eI"] = 1853,
 			}, -- [45]
 			{
 				"FMorfizer", -- [1]
@@ -4990,13 +5356,13 @@ VExRT = {
 				"KFatygant", -- [18]
 				"CSpeyside", -- [19]
 				"KTalpa", -- [20]
-				["eN"] = "Ursoc",
 				["k"] = true,
-				["t"] = 1482349435,
-				["eI"] = 1841,
-				["d"] = 16,
-				["g"] = 20,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 16,
+				["eI"] = 1841,
+				["t"] = 1482349435,
+				["g"] = 20,
+				["eN"] = "Ursoc",
 			}, -- [46]
 			{
 				"FDkmeister", -- [1]
@@ -5019,13 +5385,13 @@ VExRT = {
 				"BSimas", -- [18]
 				"FGrimriper", -- [19]
 				"KTalpa", -- [20]
-				["eN"] = "Dragons of Nightmare",
 				["k"] = true,
-				["t"] = 1482352910,
-				["eI"] = 1854,
-				["d"] = 16,
-				["g"] = 20,
 				["c"] = "Redus-BurningLegion",
+				["d"] = 16,
+				["eI"] = 1854,
+				["t"] = 1482352910,
+				["g"] = 20,
+				["eN"] = "Dragons of Nightmare",
 			}, -- [47]
 			{
 				"JRaidheal-TwistingNether", -- [1]
@@ -5040,13 +5406,13 @@ VExRT = {
 				"GMordrek-KirinTor", -- [10]
 				"BBlacklìght-Pozzodell'Eternità", -- [11]
 				"GWindytornado-Kazzak", -- [12]
-				["c"] = "Redus-BurningLegion",
-				["k"] = true,
-				["d"] = 16,
 				["eN"] = "Hellfire Assault",
+				["k"] = true,
 				["t"] = 1482414558,
-				["g"] = 20,
 				["eI"] = 1778,
+				["d"] = 16,
+				["g"] = 20,
+				["c"] = "Redus-BurningLegion",
 			}, -- [48]
 			{
 				"GDariogar", -- [1]
@@ -5065,14 +5431,72 @@ VExRT = {
 				"HAzurewratmg", -- [14]
 				"BFlant", -- [15]
 				"GAvanafil", -- [16]
+				["eI"] = 1853,
+				["c"] = "Redus-BurningLegion",
+				["t"] = 1482964118,
+				["eN"] = "Nythendra",
+				["d"] = 15,
+				["g"] = 16,
+				["k"] = true,
+			}, -- [49]
+			{
+				"KMoadib", -- [1]
+				"KTalpa", -- [2]
+				"GDariogar", -- [3]
+				"CVaadoos", -- [4]
+				"HRedus", -- [5]
+				"AMishiima", -- [6]
+				"BRediva", -- [7]
+				"KFatygant", -- [8]
+				"DRoñgil", -- [9]
+				"DFantrise", -- [10]
+				"BVallora", -- [11]
+				"ILolerz", -- [12]
+				"FGrimriper", -- [13]
+				"BSimas", -- [14]
+				"LElpotato", -- [15]
+				"JRequs", -- [16]
+				"EVoodooprst", -- [17]
+				"GAvanafil", -- [18]
+				"BFlant", -- [19]
+				"KSzniff", -- [20]
+				["c"] = "Redus-BurningLegion",
+				["k"] = true,
+				["d"] = 16,
+				["eI"] = 1958,
+				["t"] = 1483562746,
+				["g"] = 20,
+				["eN"] = "Odyn",
+			}, -- [50]
+			{
+				"KFatygant", -- [1]
+				"CSheinen", -- [2]
+				"GDariogar", -- [3]
+				"HRedus", -- [4]
+				"BRediva", -- [5]
+				"JRequs", -- [6]
+				"LSzoplifter", -- [7]
+				"FGrimriper", -- [8]
+				"BVallora", -- [9]
+				"DRoñgil", -- [10]
+				"KMoadib", -- [11]
+				"BFlant", -- [12]
+				"GAvanafil", -- [13]
+				"CVaadoos", -- [14]
+				"KTalpa", -- [15]
+				"LElpotato", -- [16]
+				"CSpeyside", -- [17]
+				"DFantrise", -- [18]
+				"JZozusek", -- [19]
+				"BSimas", -- [20]
+				["d"] = 16,
 				["k"] = true,
 				["c"] = "Redus-BurningLegion",
-				["d"] = 15,
-				["eI"] = 1853,
-				["t"] = 1482964118,
-				["g"] = 16,
-				["eN"] = "Nythendra",
-			}, -- [49]
+				["eI"] = 1873,
+				["t"] = 1483649619,
+				["g"] = 20,
+				["eN"] = "Il'gynoth, The Heart of Corruption",
+			}, -- [51]
 		},
 		["OptionsSortPD"] = true,
 	},
@@ -5082,45 +5506,147 @@ VExRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["InviteTool"] = {
-		["Words"] = "inv",
-		["AutoPromote"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 2,
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "Redus Sheinen Dariogar",
-		["LootMethod"] = "master",
-		["PromoteNames"] = "Rediva Kiciex",
-		["AutoRaidDiff"] = true,
-		["Rank"] = 5,
+	["Timers"] = {
+		["specTimes"] = {
+			[62] = 10,
+			[63] = 10,
+			[250] = 10,
+			[251] = 10,
+			[64] = 10,
+			[253] = 10,
+			[65] = 10,
+			[255] = 10,
+			[66] = 10,
+			[257] = 10,
+			[258] = 10,
+			[259] = 10,
+			[260] = 10,
+			[261] = 25,
+			[262] = 16,
+			[263] = 10,
+			[264] = 10,
+			[265] = 22,
+			[266] = 10,
+			[267] = 10,
+			[268] = 10,
+			[269] = 10,
+			[270] = 10,
+			[70] = 10,
+			[102] = 10,
+			[71] = 10,
+			[103] = 10,
+			[72] = 10,
+			[104] = 10,
+			[73] = 10,
+			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
+		},
+		["Strata"] = "HIGH",
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
 		["Version"] = 3830,
 		["PreVersion"] = 3830,
 	},
-	["Note"] = {
-		["BlackNames"] = {
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
+		["autoSegments"] = {
+		},
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["fightsNum"] = 5,
+	},
+	["MarksBar"] = {
+		["Show"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			true, -- [4]
 		},
 		["Strata"] = "HIGH",
-		["LastUpdateName"] = "Recus-BurningLegion",
-		["AutoLoad"] = {
+		["enabled"] = true,
+		["DisableOutsideRaid"] = true,
+		["Scale"] = 200,
+		["Top"] = 403.5,
+		["Left"] = 727.49951171875,
+		["pulltimer"] = 10,
+	},
+	["Profiles"] = {
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["Bossmods"] = {
+		["Ilgynoth"] = {
+			"Søsexi", -- [1]
+			"Voodooprst", -- [2]
+			"Avanafil", -- [3]
+			"Zozusek", -- [4]
+			nil, -- [5]
+			"Senurtan", -- [6]
+			"Akcent", -- [7]
+			"Vaadoos", -- [8]
+			"Redus", -- [9]
+			"Sheinen", -- [10]
+			"Dariogar", -- [11]
+			"Mitthi", -- [12]
+			"Azurewratmg", -- [13]
+			"Nevondes", -- [14]
+			"Morfizer", -- [15]
+			"Alastor", -- [16]
+			"Rediva", -- [17]
+			"Fantrise", -- [18]
+			"Stamperia", -- [19]
+			"Kiciex", -- [20]
+			"Szoplifter", -- [21]
+			["name"] = "Redus-BurningLegion",
+			["sync"] = true,
+			["time"] = 1480969117,
 		},
-		["LastUpdateTime"] = 1482349147,
-		["Width"] = 199.999786376953,
-		["Black"] = {
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
+		["Kormrok"] = {
 		},
-		["Height"] = 99.9999542236328,
-		["DefName"] = "",
-		["Text1"] = "odpalasz sie na 6 szarzy \n",
-		["FontSize"] = 12,
+		["ArchimondeRadius"] = 40,
+		["Mannoroth"] = {
+		},
+		["Kromog"] = {
+		},
+		["IlgynothScale"] = 0.67,
+		["ModuleViewed3580"] = true,
+		["KormrokSetups"] = {
+		},
+		["IlgynothSetups"] = {
+			{
+			}, -- [1]
+			{
+			}, -- [2]
+			{
+			}, -- [3]
+			{
+			}, -- [4]
+			{
+			}, -- [5]
+		},
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["RunesCheck"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheck"] = true,
+		["disableLFR"] = true,
+		["SendSelf"] = true,
+	},
+	["Logging"] = {
+		["disableLFR"] = true,
 	},
 	["InspectArtifact"] = {
 		["players"] = {
@@ -5133,8 +5659,8 @@ VExRT = {
 				1479734513, -- [2]
 			},
 			["Tordenliz-TarrenMill"] = {
-				"31:16:40-1-1:353-1-1:54-1-1:49-0-1:1275-1-1:352-0-1:351-1-1:350-1-1:53-4-4:52-3-3:51-3-3:50-3-3:47-3-3:44-2-3:43-5-5:42-3-3:41-3-3:1118-0-20:120978", -- [1]
-				1480565554, -- [2]
+				"33:24:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-5-5:1125-3-3:1124-3-3:1123-4-4:1122-2-3:1121-3-3:1378-0-20:128866", -- [1]
+				1483576129, -- [2]
 			},
 			["Bigbadcowmdl-Kazzak"] = {
 				"13:2:965-1-1:966-0-1:964-0-1:963-1-1:1342-1-1:1186-1-3:977-3-3:976-0-3:975-1-4:974-3-3:973-0-1:972-3-3:971-0-3:970-1-4:969-0-3:968-1-1:967-0-1:1377-0-20:128823", -- [1]
@@ -5143,6 +5669,10 @@ VExRT = {
 			["Cyndilauper-Skullcrusher"] = {
 				"1:5:960-1-1:979-0-1:962-0-1:961-0-1:1334-1-1:959-0-1:958-0-1:957-0-1:956-1-4:955-0-3:954-0-3:953-0-3:952-1-4:951-0-3:950-0-3:949-0-3:948-0-3:1366-0-20:128821", -- [1]
 				1478954172, -- [2]
+			},
+			["Demonflurry-Aggra(Português)"] = {
+				"50:25:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-4-4:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-3-3:1001-3-3:1000-3-3:1362-16-20:127829", -- [1]
+				1483489159, -- [2]
 			},
 			["Bioblood-BurningLegion"] = {
 				"42:23:899-1-1:930-1-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-4-4:909-4-4:908-3-3:907-3-3:906-3-3:905-4-4:904-1-1:903-1-1:902-1-1:1388-8-20:128819", -- [1]
@@ -5165,8 +5695,8 @@ VExRT = {
 				1478966557, -- [2]
 			},
 			["Speyside-BurningLegion"] = {
-				"39:23:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-5-5:318-3-3:317-3-3:316-3-3:315-3-3:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-5-20:128826", -- [1]
-				1482970612, -- [2]
+				"44:25:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-5-5:318-3-3:317-3-3:316-3-3:315-4-4:314-3-3:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-10-20:128826", -- [1]
+				1483649090, -- [2]
 			},
 			["Mirageclaw-TheMaelstrom"] = {
 				"10:0:881-1-1:882-0-1:879-0-1:878-0-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-3-3:874-3-3:873-0-3:872-3-3:871-0-3:870-0-3:869-1-4:868-1-4:1368-0-20:128861", -- [1]
@@ -5196,13 +5726,21 @@ VExRT = {
 				"34:21:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-4-4:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
 				1482342445, -- [2]
 			},
+			["Illidariargi-Kazzak"] = {
+				"26:21:1010-1-1:1016-1-1:1015-1-1:1014-0-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-0-3:1007-0-3:1006-4-4:1005-3-3:1004-3-3:1003-4-4:1002-4-4:1001-3-3:1000-2-3:1362-0-20:127829", -- [1]
+				1483501592, -- [2]
+			},
 			["Szoplifter-BurningLegion"] = {
-				"35:20:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-3-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-3-3:1002-4-4:1001-4-4:1000-3-3:1362-1-20:127829", -- [1]
-				1482188881, -- [2]
+				"35:23:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-3-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-4-4:1001-3-3:1000-3-3:1362-1-20:127829", -- [1]
+				1483654210, -- [2]
 			},
 			["Demaries-ShatteredHand"] = {
 				"29:17:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-0-1:1012-0-1:1011-1-1:1008-0-3:1007-3-3:1006-4-4:1005-3-3:1004-3-3:1003-3-3:1002-5-5:1001-3-3:1000-3-3:1362-0-20:127829", -- [1]
 				1480562940, -- [2]
+			},
+			["Drmassacer-TwistingNether"] = {
+				"29:24:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-1-1:1129-3-3:1128-3-3:1127-4-4:1126-4-4:1125-3-3:1124-4-4:1123-3-3:1122-0-3:1121-3-3:1378-0-20:128866", -- [1]
+				1483497593, -- [2]
 			},
 			["Arquisari-BurningLegion"] = {
 				"33:19:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-4:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-3-3:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
@@ -5220,13 +5758,17 @@ VExRT = {
 				"22:14:91-1-1:94-0-1:93-1-1:92-1-1:1358-1-1:106-0-3:105-1-4:104-1-1:103-1-1:102-4-4:101-3-3:100-3-3:99-4-4:98-2-3:97-0-1:96-0-3:95-3-3:1395-0-20:128289", -- [1]
 				1481118718, -- [2]
 			},
+			["Gerantin-BurningLegion"] = {
+				"37:24:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-4-4:305-3-3:304-3-3:303-4-4:302-3-3:301-3-3:300-4-4:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-3-20:128935", -- [1]
+				1483375417, -- [2]
+			},
 			["Madjackmcmad-DefiasBrotherhood"] = {
 				"13:10:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-0-1:956-0-3:955-0-3:954-1-4:953-1-4:952-3-3:951-3-3:950-4-4:949-0-3:948-1-3:1366-0-20:128821", -- [1]
 				1480074409, -- [2]
 			},
 			["Rediva-BurningLegion"] = {
-				"35:23:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-4-4:1127-3-3:1126-3-3:1125-3-3:1124-3-3:1123-4-4:1122-4-4:1121-3-3:1378-1-20:128866", -- [1]
-				1483050867, -- [2]
+				"36:25:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-4-4:1127-3-3:1126-3-3:1125-3-3:1124-3-3:1123-4-4:1122-4-4:1121-3-3:1378-2-20:128866", -- [1]
+				1483654210, -- [2]
 			},
 			["Jotte-Blackhand"] = {
 				"37:21:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-4-4:134-4-4:133-3-3:132-3-3:131-3-3:130-4-4:129-1-1:1367-3-20:128306", -- [1]
@@ -5237,8 +5779,12 @@ VExRT = {
 				1483116817, -- [2]
 			},
 			["ßattalion-TarrenMill"] = {
-				"34:17:91-1-1:94-1-1:93-1-1:92-1-1:1358-1-1:106-3-3:105-3-3:104-1-1:103-1-1:102-3-3:101-3-3:100-4-4:99-3-3:98-3-3:97-1-1:96-3-3:95-5-5:1395-0-20:128289", -- [1]
-				1480565550, -- [2]
+				"36:24:91-1-1:94-1-1:93-1-1:92-1-1:1358-1-1:106-3-3:105-3-3:104-1-1:103-1-1:102-3-3:101-3-3:100-4-4:99-3-3:98-3-3:97-1-1:96-3-3:95-5-5:1395-2-20:128289", -- [1]
+				1483500921, -- [2]
+			},
+			["Darknoz-Ragnaros"] = {
+				"40:25:290-1-1:86-1-1:80-1-1:73-1-1:1339-1-1:1169-1-1:87-1-1:84-3-3:83-3-3:82-4-4:81-3-3:79-3-3:78-1-1:77-3-3:75-3-3:74-5-5:72-3-3:1371-6-20:127857", -- [1]
+				1483574843, -- [2]
 			},
 			["Viggs-TarrenMill"] = {
 				"32:20:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-4-4:305-1-3:304-3-3:303-3-3:302-3-3:301-3-3:300-5-5:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-0-20:128935", -- [1]
@@ -5247,6 +5793,10 @@ VExRT = {
 			["Tankermansè-TwistingNether"] = {
 				"19:11:91-1-1:94-0-1:93-1-1:92-1-1:1358-1-1:106-0-3:105-0-3:104-1-1:103-1-1:102-3-3:101-3-3:100-4-4:99-3-3:98-0-3:97-0-1:96-1-4:95-3-4:1395-0-20:128289", -- [1]
 				1478961260, -- [2]
+			},
+			["Kazuhide-Ragnaros"] = {
+				"22:9:931-1-1:934-0-1:933-0-1:932-1-1:1295-1-1:946-4-4:945-3-3:944-4-4:943-0-3:942-3-3:941-0-3:940-3-3:939-3-3:938-1-4:937-1-1:936-1-1:935-0-1:1375-0-20:128937", -- [1]
+				1483548739, -- [2]
 			},
 			["Nooii-Kazzak"] = {
 				"35:18:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-3-3:132-3-3:131-3-3:130-6-6:129-1-1:1367-1-20:128306", -- [1]
@@ -5316,6 +5866,10 @@ VExRT = {
 				"22:8:346-1-1:347-1-1:337-1-1:335-0-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-3-3:329-1-4:328-3-3:327-0-3:326-0-3:325-3-3:324-4-5:323-3-3:1384-0-20:128870", -- [1]
 				1476184665, -- [2]
 			},
+			["Spriggan-Stormreaver"] = {
+				"21:10:122-1-1:1092-0-1:124-1-1:123-1-1:1332-1-1:1091-0-1:1090-3-3:120-1-1:119-1-1:117-3-3:115-0-3:114-0-3:113-4-4:111-2-5:110-3-3:109-1-3:108-3-3:1360-0-20:128292", -- [1]
+				1483574843, -- [2]
+			},
 			["Nîghtmarè-BurningLegion"] = {
 				"25:11:1052-1-1:1055-0-1:1054-1-1:1053-0-1:1348-1-1:1067-0-3:1066-3-3:1065-3-3:1064-4-4:1063-3-3:1062-3-3:1061-5-5:1060-3-3:1059-0-3:1058-0-1:1057-1-1:1056-1-1:1385-0-20:128872", -- [1]
 				1477942325, -- [2]
@@ -5376,6 +5930,10 @@ VExRT = {
 				"33:21:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-3-3:1124-3-3:1123-3-3:1122-4-5:1121-4-4:1378-0-20:128866", -- [1]
 				1482762353, -- [2]
 			},
+			["Michalic-Drak'thul"] = {
+				"47:24:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-4-4:136-3-3:135-3-3:134-3-3:133-3-3:132-4-4:131-4-4:130-3-3:129-1-1:1367-13-20:128306", -- [1]
+				1483375417, -- [2]
+			},
 			["Kayleene-Kazzak"] = {
 				"26:17:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-0-1:1130-0-1:1129-4-4:1128-4-4:1127-3-3:1126-3-3:1125-0-3:1124-3-3:1123-0-3:1122-4-4:1121-3-3:1378-0-20:128866", -- [1]
 				1480597228, -- [2]
@@ -5388,9 +5946,13 @@ VExRT = {
 				"40:21:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-4-4:1040-3-3:1039-4-4:1038-3-3:1037-4-4:1036-3-3:1035-3-3:1034-3-3:1364-6-20:128858", -- [1]
 				1481985358, -- [2]
 			},
+			["Mekha-GrimBatol"] = {
+				"35:25:1096-1-1:1236-1-1:1235-1-1:1098-1-1:1434-1-1:1328-1-1:1234-3-3:1233-3-3:1232-3-3:1231-4-4:1230-4-4:1229-3-3:1228-1-1:1101-3-3:1100-4-4:1099-3-3:1097-1-1:1363-1-20:128832", -- [1]
+				1483489159, -- [2]
+			},
 			["Mishiima-BurningLegion"] = {
-				"35:24:91-1-1:94-1-1:93-1-1:92-1-1:1358-1-1:106-3-3:105-3-3:104-1-1:103-1-1:102-3-3:101-3-3:100-3-3:99-4-4:98-3-3:97-1-1:96-4-4:95-4-4:1395-1-20:128289", -- [1]
-				1483123326, -- [2]
+				"41:25:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-4-4:994-3-3:993-3-3:992-3-3:991-3-3:990-4-4:989-3-3:988-4-4:987-1-1:986-1-1:985-1-1:1394-7-20:128908", -- [1]
+				1483562207, -- [2]
 			},
 			["Polarina-Ragnaros"] = {
 				"39:18:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-5-5:318-3-3:317-3-3:316-3-3:315-3-3:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-5-20:128826", -- [1]
@@ -5423,6 +5985,10 @@ VExRT = {
 			["Pytsonova-BurningLegion"] = {
 				"31:14:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-0-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-4-4:750-4-4:749-3-3:1372-0-20:128820", -- [1]
 				1479158568, -- [2]
+			},
+			["Torepriest-Draenor"] = {
+				"21:12:764-1-1:770-1-1:769-0-1:768-0-1:1347-1-1:779-0-1:778-0-3:777-3-3:776-2-5:775-3-3:774-0-3:773-3-3:772-4-4:771-3-3:767-3-3:766-0-1:765-1-1:1381-0-20:128827", -- [1]
+				1483574843, -- [2]
 			},
 			["Isylia-TwistingNether"] = {
 				"21:13:125-1-1:128-1-1:127-0-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-0-1:137-3-3:136-0-3:135-0-3:134-2-3:133-4-4:132-3-3:131-1-4:130-4-4:129-1-1:1367-0-20:128306", -- [1]
@@ -5459,6 +6025,10 @@ VExRT = {
 			["Iola-BurningLegion"] = {
 				"26:13:965-1-1:966-1-1:964-0-1:963-1-1:1342-1-1:1186-3-3:977-5-5:976-3-3:975-4-4:974-3-3:973-1-1:972-3-3:971-0-3:970-2-3:969-0-3:968-1-1:967-1-1:1377-0-20:128823", -- [1]
 				1478730861, -- [2]
+			},
+			["Lessira-ShatteredHand"] = {
+				"38:25:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-3-3:132-3-3:131-3-3:130-6-6:129-1-1:1367-4-20:128306", -- [1]
+				1483489159, -- [2]
 			},
 			["Keruda-Mal'Ganis"] = {
 				"35:21:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-3-3:994-3-3:993-3-3:992-3-3:991-3-3:990-3-3:989-5-5:988-4-4:987-1-1:986-1-1:985-1-1:1394-1-20:128908", -- [1]
@@ -5577,8 +6147,8 @@ VExRT = {
 				1481554498, -- [2]
 			},
 			["Voodooprst-BurningLegion"] = {
-				"35:21:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-4-4:848-3-3:847-3-3:846-3-3:845-1-1:844-3-3:843-5-5:842-3-3:841-3-3:840-1-1:839-1-1:838-3-3:1380-1-20:128825", -- [1]
-				1483050867, -- [2]
+				"35:23:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-4-4:848-3-3:847-3-3:846-3-3:845-1-1:844-3-3:843-5-5:842-3-3:841-3-3:840-1-1:839-1-1:838-3-3:1380-1-20:128825", -- [1]
+				1483654210, -- [2]
 			},
 			["Rubian-Drak'thul"] = {
 				"23:6:1136-1-1:1139-1-1:1138-0-1:1137-1-1:1356-1-1:1151-3-3:1150-0-3:1149-5-5:1148-0-3:1147-3-3:1146-4-4:1145-0-3:1144-3-3:1143-3-3:1142-0-1:1141-1-1:1140-1-1:1393-0-20:128910", -- [1]
@@ -5587,6 +6157,10 @@ VExRT = {
 			["Spiciest-TheMaelstrom"] = {
 				"24:12:764-1-1:770-1-1:769-0-1:768-1-1:1347-1-1:779-0-1:778-0-3:777-4-4:776-1-3:775-3-3:774-1-4:773-3-3:772-3-3:771-3-3:767-4-4:766-1-1:765-1-1:1381-0-20:128827", -- [1]
 				1479432688, -- [2]
+			},
+			["Zinnie-Turalyon"] = {
+				"13:0:899-1-1:930-0-1:901-1-1:900-0-1:1351-1-1:913-1-4:912-3-3:911-3-3:910-3-3:909-0-3:908-0-3:907-1-4:906-0-3:905-0-3:904-1-1:903-1-1:902-0-1:1388-0-20:128819", -- [1]
+				1483501592, -- [2]
 			},
 			["Mocher-Draenor"] = {
 				"16:9:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-2-3:880-0-1:877-0-1:876-0-1:875-3-3:874-3-3:873-0-3:872-3-3:871-0-3:870-0-3:869-4-4:868-1-4:1368-0-20:128861", -- [1]
@@ -5625,8 +6199,8 @@ VExRT = {
 				1479470946, -- [2]
 			},
 			["Avanafil-BurningLegion"] = {
-				"39:23:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-4-4:1104-4-4:1103-3-3:1389-5-20:128911", -- [1]
-				1483050867, -- [2]
+				"42:25:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-4-4:1104-4-4:1103-3-3:1389-8-20:128911", -- [1]
+				1483654210, -- [2]
 			},
 			["Ethanban-Stormscale"] = {
 				"20:5:1120-1-1:1135-1-1:1134-0-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-0-1:1129-4-4:1128-3-3:1127-0-3:1126-4-4:1125-2-3:1124-3-3:1123-0-3:1122-0-3:1121-4-4:1378-0-20:128866", -- [1]
@@ -5639,6 +6213,14 @@ VExRT = {
 			["Beograd-TwistingNether"] = {
 				"25:21:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-4-4:317-0-3:316-0-3:315-3-3:314-3-5:313-3-3:312-3-3:310-1-1:309-0-1:308-1-1:1369-0-20:128826", -- [1]
 				1482340340, -- [2]
+			},
+			["Darranus-Drak'thul"] = {
+				"30:20:40-1-1:353-1-1:54-1-1:49-1-1:1275-1-1:352-0-1:351-1-1:350-1-1:53-4-4:52-1-4:51-3-3:50-3-3:47-4-4:44-3-3:43-3-3:42-3-3:41-3-3:1118-0-20:120978", -- [1]
+				1483577590, -- [2]
+			},
+			["Gudaron-Drak'thul"] = {
+				"37:22:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-5-5:994-3-3:993-3-3:992-3-3:991-4-4:990-3-3:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-3-20:128908", -- [1]
+				1483579044, -- [2]
 			},
 			["Voodoopal-BurningLegion"] = {
 				"19:8:965-1-1:966-0-1:964-0-1:963-1-1:1342-1-1:1186-5-5:977-3-3:976-0-3:975-1-4:974-3-3:973-1-1:972-3-3:971-0-3:970-3-3:969-0-3:968-1-1:967-0-1:1377-0-20:128823", -- [1]
@@ -5661,12 +6243,20 @@ VExRT = {
 				1480578487, -- [2]
 			},
 			["Redus-BurningLegion"] = {
-				"41:24:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-4-4:755-3-3:754-3-3:753-4-4:752-3-3:751-3-3:750-4-4:749-3-3:1372-7-20:128820", -- [1]
-				1483123326, -- [2]
+				"43:25:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-4-4:755-3-3:754-3-3:753-4-4:752-3-3:751-3-3:750-4-4:749-3-3:1372-9-20:128820", -- [1]
+				1483654210, -- [2]
 			},
 			["Kalipo-TwistingNether"] = {
 				"21:7:831-1-1:833-1-1:832-0-1:830-0-1:1341-1-1:1094-0-3:829-0-3:828-1-1:827-1-1:826-0-1:825-4-4:824-0-3:822-3-3:821-2-3:820-3-3:801-3-3:800-5-5:1376-0-20:128940", -- [1]
 				1476184988, -- [2]
+			},
+			["Kekefini-TwistingNether"] = {
+				"51:25:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-4-4:776-4-4:775-3-3:774-3-3:773-3-3:772-3-3:771-3-3:767-4-4:766-1-1:765-1-1:1381-17-20:128827", -- [1]
+				1483579044, -- [2]
+			},
+			["Moriphex-TwistingNether"] = {
+				"31:17:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-0-3:954-3-3:953-3-3:952-4-4:951-3-3:950-4-4:949-3-3:948-4-4:1366-0-20:128821", -- [1]
+				1480027329, -- [2]
 			},
 			["Deàdlysín-Kazzak"] = {
 				"33:17:999-1-1:929-1-1:928-1-1:927-1-1:1353-1-1:926-1-1:925-0-1:924-1-1:923-3-3:922-3-3:921-3-3:920-3-3:919-3-3:918-3-3:917-3-3:916-5-5:915-4-4:1390-0-20:128942", -- [1]
@@ -5680,13 +6270,45 @@ VExRT = {
 				"22:13:125-1-1:128-0-1:127-1-1:126-1-1:1335-1-1:140-5-5:139-0-1:138-1-1:137-2-3:136-3-3:135-0-3:134-3-3:133-4-4:132-3-3:131-0-3:130-0-3:129-1-1:1367-0-20:128306", -- [1]
 				1479475658, -- [2]
 			},
+			["Liløunnette-Archimonde"] = {
+				"35:25:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-6-6:329-3-3:328-3-3:327-3-3:326-3-3:325-3-3:324-3-3:323-3-3:1384-1-20:128870", -- [1]
+				1483576129, -- [2]
+			},
+			["Doommie-TwistingNether"] = {
+				"17:17:1136-1-1:1139-1-1:1138-0-1:1137-1-1:1356-1-1:1151-1-4:1150-4-4:1149-3-3:1148-3-3:1147-0-3:1146-2-4:1145-3-3:1144-0-3:1143-0-3:1142-1-1:1141-0-1:1140-0-1:1393-0-20:128910", -- [1]
+				1481935277, -- [2]
+			},
+			["Illeora-Stormscale"] = {
+				"27:12:1096-1-1:1236-1-1:1235-1-1:1098-0-1:1434-1-1:1328-1-1:1234-3-3:1233-3-3:1232-1-4:1231-3-3:1230-3-3:1229-3-3:1228-1-1:1101-1-4:1100-4-4:1099-3-3:1097-1-1:1363-0-20:128832", -- [1]
+				1479389635, -- [2]
+			},
+			["Qruza-DefiasBrotherhood"] = {
+				"37:25:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-6-6:754-3-3:753-3-3:752-3-3:751-3-3:750-3-3:749-3-3:1372-3-20:128820", -- [1]
+				1483577198, -- [2]
+			},
 			["Deadlychunky-BurningLegion"] = {
 				"29:18:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-4-4:329-3-3:328-3-3:327-3-4:326-0-3:325-3-3:324-4-4:323-3-3:1384-0-20:128870", -- [1]
 				1481378240, -- [2]
 			},
+			["Cízzar-BurningLegion"] = {
+				"37:22:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-3-3:750-4-4:749-4-4:1372-3-20:128820", -- [1]
+				1482328291, -- [2]
+			},
 			["Анжелис-СвежевательДуш"] = {
 				"30:16:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-3-3:1124-4-4:1123-4-4:1122-3-4:1121-2-3:1378-0-20:128866", -- [1]
 				1481075233, -- [2]
+			},
+			["Dikvurur-TwistingNether"] = {
+				"34:22:122-1-1:1092-1-1:124-1-1:123-1-1:1332-1-1:1091-1-1:1090-3-3:120-1-1:119-1-1:117-3-3:115-3-3:114-3-3:113-5-5:111-4-4:110-3-3:109-3-3:108-3-3:1360-0-20:128292", -- [1]
+				1483576129, -- [2]
+			},
+			["Wallzing-TarrenMill"] = {
+				"31:24:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-4-4:995-3-3:994-1-4:993-3-3:992-3-3:991-4-4:990-3-3:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-0-20:128908", -- [1]
+				1483577590, -- [2]
+			},
+			["Direknight-BurningLegion"] = {
+				"29:14:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-4-4:279-3-3:278-3-3:277-3-3:276-2-4:275-4-4:274-3-3:273-0-3:272-3-3:1359-0-20:128402", -- [1]
+				1478813137, -- [2]
 			},
 			["Zintoz-TarrenMill"] = {
 				"25:8:899-1-1:930-0-1:901-1-1:900-1-1:1351-1-1:913-0-3:912-4-4:911-3-3:910-5-5:909-3-3:908-1-3:907-3-3:906-0-3:905-3-3:904-1-1:903-1-1:902-1-1:1388-0-20:128819", -- [1]
@@ -5696,13 +6318,29 @@ VExRT = {
 				"33:18:783-1-1:798-1-1:797-1-1:796-1-1:1296-1-1:795-1-1:794-1-1:793-1-1:792-3-3:791-3-3:790-2-3:789-3-3:788-3-3:787-3-3:786-3-3:785-4-4:784-5-5:1373-0-20:128862", -- [1]
 				1480850797, -- [2]
 			},
+			["Icenova-Drak'thul"] = {
+				"54:25:290-1-1:86-1-1:80-1-1:73-1-1:1339-1-1:1169-1-1:87-1-1:84-3-3:83-3-3:82-3-3:81-5-5:79-4-4:78-1-1:77-3-3:75-3-3:74-3-3:72-3-3:1371-20-20:127857", -- [1]
+				1483579044, -- [2]
+			},
+			["Quimcarnes-Aggra(Português)"] = {
+				"18:19:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-4-4:955-0-3:954-1-4:953-0-3:952-3-3:951-3-3:950-3-3:949-0-3:948-3-4:1366-0-20:128821", -- [1]
+				1483574843, -- [2]
+			},
 			["Dashterin-Stormscale"] = {
 				"35:20:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-4-4:1176-4-4:1175-3-3:1174-3-3:1173-3-3:1172-3-3:1171-4-4:1391-1-20:128943", -- [1]
 				1481554498, -- [2]
 			},
+			["Rusev-BurningLegion"] = {
+				"42:22:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-4-4:953-3-3:952-3-3:951-3-3:950-3-3:949-5-5:948-3-3:1366-8-20:128821", -- [1]
+				1482509801, -- [2]
+			},
 			["Wixys-TwistingNether"] = {
 				"19:6:831-1-1:833-1-1:832-0-1:830-1-1:1341-1-1:1094-1-4:829-0-3:828-0-1:827-1-1:826-0-1:825-3-3:824-0-3:822-3-3:821-1-4:820-3-3:801-3-3:800-4-4:1376-0-20:128940", -- [1]
 				1481937615, -- [2]
+			},
+			["Kubsoon-BurningLegion"] = {
+				"49:23:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-5-5:994-3-3:993-3-3:992-3-3:991-3-3:990-4-4:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-15-20:128908", -- [1]
+				1483050867, -- [2]
 			},
 			["Vercy-BurningLegion"] = {
 				"17:5:91-1-1:94-0-1:93-1-1:92-1-1:1358-1-1:106-0-3:105-1-4:104-1-1:103-1-1:102-3-3:101-3-3:100-4-4:99-3-3:98-0-3:97-0-1:96-0-3:95-1-4:1395-0-20:128289", -- [1]
@@ -5712,9 +6350,33 @@ VExRT = {
 				"37:23:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-4-4:318-3-3:317-3-3:316-3-3:315-3-3:314-5-5:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-3-20:128826", -- [1]
 				1482967958, -- [2]
 			},
+			["Annucia-Stormscale"] = {
+				"25:25:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-4-4:976-3-3:975-3-3:974-0-3:973-1-1:972-4-4:971-0-3:970-3-3:969-1-4:968-1-1:967-1-1:1377-0-20:128823", -- [1]
+				1483501592, -- [2]
+			},
+			["Allánon-Stormscale"] = {
+				"52:25:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-6-6:754-3-3:753-3-3:752-3-3:751-3-3:750-3-3:749-3-3:1372-18-20:128820", -- [1]
+				1483579044, -- [2]
+			},
+			["Yamaue-Drak'thul"] = {
+				"40:25:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-4-4:318-3-3:317-3-3:316-3-3:315-3-3:314-5-5:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-6-20:128826", -- [1]
+				1483577590, -- [2]
+			},
+			["Pigot-Kazzak"] = {
+				"33:18:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-3-3:318-3-3:317-2-3:316-3-3:315-3-3:314-4-4:313-3-3:312-4-4:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
+				1481935738, -- [2]
+			},
 			["Zlinka-TwistingNether"] = {
 				"33:18:899-1-1:930-0-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-6-6:909-3-3:908-3-3:907-3-3:906-3-3:905-3-3:904-1-1:903-1-1:902-1-1:1388-0-20:128819", -- [1]
 				1480606795, -- [2]
+			},
+			["Lumizi-Bladefist"] = {
+				"33:24:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-2-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-3-3:750-5-5:749-3-3:1372-0-20:128820", -- [1]
+				1483501592, -- [2]
+			},
+			["Nelirith-BurningLegion"] = {
+				"30:13:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-0-3:756-4-4:755-4-4:754-3-3:753-3-3:752-3-3:751-4-4:750-3-3:749-3-3:1372-0-20:128820", -- [1]
+				1479000120, -- [2]
 			},
 			["Lavôk-Kazzak"] = {
 				"31:14:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-3-3:756-3-3:755-3-3:754-3-3:753-2-4:752-3-3:751-4-4:750-4-4:749-3-3:1372-0-20:128820", -- [1]
@@ -5732,9 +6394,9 @@ VExRT = {
 				"19:14:881-1-1:882-1-1:879-0-1:878-1-1:1336-1-1:1095-3-3:880-1-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-3-3:871-0-3:870-1-4:869-4-4:868-0-3:1368-0-20:128861", -- [1]
 				1481373885, -- [2]
 			},
-			["Nelirith-BurningLegion"] = {
-				"30:13:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-0-3:756-4-4:755-4-4:754-3-3:753-3-3:752-3-3:751-4-4:750-3-3:749-3-3:1372-0-20:128820", -- [1]
-				1479000120, -- [2]
+			["Dohhers-Magtheridon"] = {
+				"13:0:1096-1-1:1236-0-1:1235-0-1:1098-0-1:1434-0-1:1328-1-1:1234-0-3:1233-3-3:1232-3-3:1231-1-4:1230-0-3:1229-4-4:1228-1-1:1101-2-3:1100-0-3:1099-0-3:1097-0-1:1363-0-20:128832", -- [1]
+				1483577590, -- [2]
 			},
 			["Dreamragus-TwistingNether"] = {
 				"39:21:851-1-1:866-1-1:865-1-1:864-1-1:1349-1-1:863-1-1:862-1-1:861-1-1:860-3-3:859-3-3:858-5-5:857-3-3:856-3-3:855-3-3:854-4-4:853-3-3:852-3-3:1386-5-20:128476", -- [1]
@@ -5748,9 +6410,21 @@ VExRT = {
 				"31:12:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-1-1:1129-3-3:1128-3-3:1127-4-4:1126-3-3:1125-4-4:1124-3-3:1123-3-3:1122-2-3:1121-4-4:1378-0-20:128866", -- [1]
 				1478287175, -- [2]
 			},
+			["Cehennett-TwistingNether"] = {
+				"43:24:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-3-3:848-3-3:847-3-3:846-3-3:845-1-1:844-3-3:843-6-6:842-3-3:841-3-3:840-1-1:839-1-1:838-3-3:1380-9-20:128825", -- [1]
+				1483495691, -- [2]
+			},
 			["Davona-BurningLegion"] = {
 				"4:0:122-1-1:1092-0-1:124-0-1:123-0-1:1332-1-1:1091-0-1:1090-0-3:120-0-1:119-0-1:117-0-3:115-1-4:114-0-3:113-4-4:111-0-3:110-0-3:109-0-3:108-0-3:1360-0-20:128292", -- [1]
 				1476632130, -- [2]
+			},
+			["Xeqtioner-TarrenMill"] = {
+				"35:18:149-1-1:152-1-1:151-1-1:150-1-1:1333-1-1:1119-5-5:267-3-3:266-3-3:265-3-3:264-3-3:263-1-1:262-3-3:158-3-3:157-3-3:156-4-4:154-1-1:153-1-1:1361-1-20:128403", -- [1]
+				1480433829, -- [2]
+			},
+			["Trembull-TwistingNether"] = {
+				"29:16:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-1-3:1041-5-5:1040-3-3:1039-3-3:1038-3-3:1037-3-3:1036-4-4:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
+				1481554498, -- [2]
 			},
 			["Blindnessx-TarrenMill"] = {
 				"16:2:1096-1-1:1236-1-1:1235-0-1:1098-0-1:1434-1-1:1328-1-1:1234-3-3:1233-0-3:1232-0-3:1231-3-3:1230-1-4:1229-0-3:1228-0-1:1101-0-3:1100-4-4:1099-3-3:1097-1-1:1363-0-20:128832", -- [1]
@@ -5768,45 +6442,61 @@ VExRT = {
 				"18:4:834-1-1:837-1-1:836-0-1:835-0-1:1346-1-1:849-0-3:848-3-3:847-3-3:846-3-3:845-0-1:844-5-5:843-0-3:842-1-3:841-0-3:840-0-1:839-0-1:838-3-3:1380-0-20:128825", -- [1]
 				1478966557, -- [2]
 			},
+			["Keeptrolling-Magtheridon"] = {
+				"16:5:1068-1-1:1084-0-1:1083-0-1:1082-1-1:1338-1-1:1081-1-1:1080-0-1:1079-0-1:1078-0-3:1077-0-3:1076-4-4:1075-3-3:1074-0-3:1073-3-3:1072-1-4:1071-3-3:1070-2-4:1370-0-20:128808", -- [1]
+				1481935136, -- [2]
+			},
+			["Bérinon-BurningLegion"] = {
+				"51:25:1153-1-1:1156-1-1:1155-1-1:1154-1-1:1327-1-1:1168-3-3:1167-3-3:1166-3-3:1165-3-3:1164-3-3:1163-3-3:1162-4-4:1161-5-5:1160-3-3:1159-1-1:1158-1-1:1157-1-1:1365-17-20:128860", -- [1]
+				1483547221, -- [2]
+			},
 			["Mcnalds-Draenor"] = {
 				"31:16:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-0-3:954-3-3:953-4-4:952-3-3:951-5-5:950-3-3:949-3-3:948-3-3:1366-0-20:128821", -- [1]
 				1481378240, -- [2]
+			},
+			["Kyrza-Khadgar"] = {
+				"13:0:290-1-1:86-0-1:80-1-1:73-0-1:1339-1-1:1169-0-1:87-0-1:84-3-3:83-0-3:82-4-4:81-2-3:79-0-3:78-0-1:77-0-3:75-1-4:74-3-3:72-0-3:1371-0-20:127857", -- [1]
+				1481376674, -- [2]
 			},
 			["Ínvincibull-Magtheridon"] = {
 				"13:1:91-1-1:94-0-1:93-1-1:92-0-1:1358-1-1:106-0-3:105-0-3:104-1-1:103-1-1:102-3-3:101-3-3:100-4-4:99-0-3:98-0-3:97-0-1:96-0-3:95-2-5:1395-0-20:128289", -- [1]
 				1481377742, -- [2]
 			},
+			["Holymoli-BurningLegion"] = {
+				"19:23:834-1-1:837-1-1:836-0-1:835-1-1:1346-1-1:849-0-3:848-3-3:847-3-3:846-4-4:845-0-1:844-3-3:843-2-5:842-0-3:841-0-3:840-0-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
+				1482939991, -- [2]
+			},
 			["Hootersnblow-ArgentDawn"] = {
 				"22:8:1049-1-1:1048-0-1:1047-1-1:1046-1-1:1294-1-1:1045-0-1:1044-1-1:1043-0-1:1042-1-4:1041-4-4:1040-4-4:1039-3-3:1038-0-3:1037-3-3:1036-3-3:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
 				1476134402, -- [2]
 			},
-			["Kubsoon-BurningLegion"] = {
-				"49:23:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-5-5:994-3-3:993-3-3:992-3-3:991-3-3:990-4-4:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-15-20:128908", -- [1]
-				1483050867, -- [2]
+			["Imany-TarrenMill"] = {
+				"35:22:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-4-4:750-3-3:749-4-4:1372-1-20:128820", -- [1]
+				1482342445, -- [2]
+			},
+			["Tarrá-Executus"] = {
+				"15:6:1102-1-1:1117-0-1:1116-1-1:1115-0-1:1352-1-1:1114-0-1:1113-0-1:1112-0-1:1111-0-3:1110-0-3:1109-0-3:1108-4-4:1107-0-3:1106-4-4:1105-1-3:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
+				1482339246, -- [2]
+			},
+			["Nerfbait-Kazzak"] = {
+				"13:0:965-1-1:966-0-1:964-0-1:963-1-1:1342-1-1:1186-1-3:977-3-3:976-0-3:975-1-4:974-3-3:973-0-1:972-4-4:971-0-3:970-0-3:969-0-3:968-1-1:967-0-1:1377-0-20:128823", -- [1]
+				1483501592, -- [2]
 			},
 			["Weedlement-C'Thun"] = {
 				"34:22:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-4-4:305-3-3:304-3-3:303-4-4:302-3-3:301-4-4:300-3-3:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-0-20:128935", -- [1]
 				1482416717, -- [2]
 			},
-			["Holymoli-BurningLegion"] = {
-				"19:23:834-1-1:837-1-1:836-0-1:835-1-1:1346-1-1:849-0-3:848-3-3:847-3-3:846-4-4:845-0-1:844-3-3:843-2-5:842-0-3:841-0-3:840-0-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
-				1482939991, -- [2]
-			},
-			["Thrashranade-TwistingNether"] = {
-				"16:6:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-4-4:955-0-3:954-1-4:953-0-3:952-3-3:951-3-3:950-3-3:949-0-3:948-1-4:1366-0-20:128821", -- [1]
-				1478967766, -- [2]
-			},
-			["Fantrise-BurningLegion"] = {
-				"37:24:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-6-6:329-3-3:328-3-3:327-3-3:326-3-3:325-3-3:324-3-3:323-3-3:1384-3-20:128870", -- [1]
-				1483050867, -- [2]
+			["Kornshredder-Draenor"] = {
+				"16:11:960-1-1:979-1-1:962-0-1:961-0-1:1334-1-1:959-0-1:958-0-1:957-1-1:956-4-4:955-0-3:954-1-3:953-1-4:952-0-3:951-3-3:950-4-4:949-0-3:948-3-3:1366-0-20:128821", -- [1]
+				1478027475, -- [2]
 			},
 			["Proxmage-TwistingNether"] = {
 				"35:22:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-3-3:754-3-3:753-4-4:752-3-3:751-3-3:750-4-4:749-4-4:1372-1-20:128820", -- [1]
 				1482416717, -- [2]
 			},
-			["Haldiro-AzjolNerub"] = {
-				"28:17:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-5-5:995-3-3:994-2-3:993-3-3:992-1-3:991-4-4:990-3-3:989-0-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-0-20:128908", -- [1]
-				1480361859, -- [2]
+			["Hamudra-Stormscale"] = {
+				"6:0:1136-1-1:1139-0-1:1138-0-1:1137-0-1:1356-1-1:1151-0-3:1150-1-3:1149-0-3:1148-0-3:1147-0-3:1146-0-3:1145-3-3:1144-0-3:1143-0-3:1142-1-1:1141-0-1:1140-0-1:1393-0-20:128910", -- [1]
+				1483501592, -- [2]
 			},
 			["Synttia-Auchindoun"] = {
 				"35:21:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-4-4:776-4-4:775-3-3:774-3-3:773-3-3:772-4-4:771-3-3:767-3-3:766-1-1:765-1-1:1381-1-20:128827", -- [1]
@@ -5816,37 +6506,37 @@ VExRT = {
 				"27:12:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-3-3:329-0-3:328-6-6:327-3-3:326-0-3:325-3-3:324-3-3:323-3-3:1384-0-20:128870", -- [1]
 				1481373885, -- [2]
 			},
-			["Notkaylen-TarrenMill"] = {
-				"13:0:291-1-1:297-0-1:296-1-1:295-0-1:1350-1-1:306-0-3:305-0-3:304-1-4:303-3-3:302-3-3:301-4-4:300-0-3:299-0-3:298-0-3:294-1-1:293-0-1:292-1-1:1387-0-20:128935", -- [1]
-				1480567312, -- [2]
+			["Mutzul-Ahn'Qiraj"] = {
+				"35:21:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-4-4:318-3-3:317-3-3:316-3-3:315-4-4:314-3-3:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-1-20:128826", -- [1]
+				1482074641, -- [2]
 			},
 			["Sparside-BurningLegion"] = {
 				"20:19:965-1-1:966-0-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-3-3:976-2-5:975-0-3:974-3-3:973-1-1:972-4-4:971-0-3:970-3-3:969-0-3:968-1-1:967-0-1:1377-0-20:128823", -- [1]
 				1481554498, -- [2]
 			},
-			["Fulinu-Lightbringer"] = {
-				"31:20:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-3-3:317-2-3:316-1-3:315-5-5:314-3-3:313-4-4:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
-				1482074642, -- [2]
+			["Petrichor-Frostwolf"] = {
+				"34:22:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-4-4:132-4-4:131-3-3:130-4-4:129-1-1:1367-0-20:128306", -- [1]
+				1482328291, -- [2]
 			},
-			["Keeptrolling-Magtheridon"] = {
-				"16:5:1068-1-1:1084-0-1:1083-0-1:1082-1-1:1338-1-1:1081-1-1:1080-0-1:1079-0-1:1078-0-3:1077-0-3:1076-4-4:1075-3-3:1074-0-3:1073-3-3:1072-1-4:1071-3-3:1070-2-4:1370-0-20:128808", -- [1]
-				1481935136, -- [2]
+			["Elathrin-TwistingNether"] = {
+				"40:24:149-1-1:152-1-1:151-1-1:150-1-1:1333-1-1:1119-4-4:267-3-3:266-3-3:265-3-3:264-4-4:263-1-1:262-3-3:158-3-3:157-4-4:156-3-3:154-1-1:153-1-1:1361-6-20:128403", -- [1]
+				1483497593, -- [2]
 			},
-			["Yunei-Hyjal"] = {
-				"31:18:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-3-3:848-4-4:847-4-4:846-3-3:845-0-1:844-3-3:843-3-3:842-4-4:841-1-3:840-1-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
-				1480873414, -- [2]
+			["Speejson-BurningLegion"] = {
+				"29:13:1049-1-1:1048-0-1:1047-1-1:1046-1-1:1294-1-1:1045-0-1:1044-1-1:1043-1-1:1042-4-4:1041-5-5:1040-3-3:1039-3-3:1038-3-3:1037-3-3:1036-3-3:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
+				1478817541, -- [2]
 			},
-			["Mutzul-Ahn'Qiraj"] = {
-				"35:21:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-4-4:318-3-3:317-3-3:316-3-3:315-4-4:314-3-3:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-1-20:128826", -- [1]
-				1482074641, -- [2]
+			["Zlifer-Stormreaver"] = {
+				"13:1:122-1-1:1092-0-1:124-1-1:123-0-1:1332-1-1:1091-0-1:1090-4-4:120-0-1:119-1-1:117-3-3:115-0-3:114-0-3:113-5-5:111-0-3:110-0-3:109-0-3:108-1-3:1360-0-20:128292", -- [1]
+				1480562265, -- [2]
 			},
 			["Qe-Nemesis"] = {
 				"29:20:1102-1-1:1117-0-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-0-1:1111-3-3:1110-0-3:1109-3-3:1108-3-3:1107-3-3:1106-3-3:1105-4-4:1104-4-4:1103-4-4:1389-0-20:128911", -- [1]
 				1481377742, -- [2]
 			},
-			["Sanmaru-TwistingNether"] = {
-				"25:15:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-0-3:279-4-4:278-3-3:277-3-3:276-0-3:275-1-4:274-3-3:273-4-4:272-3-3:1359-0-20:128402", -- [1]
-				1479470490, -- [2]
+			["Lragethe-BurningLegion"] = {
+				"20:5:307-1-1:322-0-1:321-1-1:311-0-1:1337-1-1:320-2-4:319-1-4:318-0-3:317-0-3:316-4-4:315-3-3:314-3-3:313-3-3:312-3-3:310-0-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
+				1476098242, -- [2]
 			},
 			["Riäs-BurningLegion"] = {
 				"32:21:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-3-3:317-3-3:316-1-3:315-3-3:314-4-4:313-3-3:312-5-5:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
@@ -5864,9 +6554,9 @@ VExRT = {
 				"16:4:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-3-3:955-1-4:954-0-3:953-0-3:952-3-3:951-3-3:950-4-4:949-0-3:948-1-4:1366-0-20:128821", -- [1]
 				1479000120, -- [2]
 			},
-			["Petrichor-Frostwolf"] = {
-				"34:22:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-4-4:132-4-4:131-3-3:130-4-4:129-1-1:1367-0-20:128306", -- [1]
-				1482328291, -- [2]
+			["Worriorlord-Kazzak"] = {
+				"14:1:91-1-1:94-0-1:93-1-1:92-0-1:1358-1-1:106-0-3:105-0-3:104-1-1:103-1-1:102-3-3:101-3-3:100-3-3:99-1-3:98-1-4:97-0-1:96-1-4:95-0-3:1395-0-20:128289", -- [1]
+				1483576129, -- [2]
 			},
 			["Hannel-BurningLegion"] = {
 				"25:8:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-4-4:318-3-3:317-0-3:316-0-3:315-4-4:314-1-3:313-3-3:312-4-4:310-1-1:309-0-1:308-1-1:1369-0-20:128826", -- [1]
@@ -5876,129 +6566,129 @@ VExRT = {
 				"24:15:1096-1-1:1236-1-1:1235-1-1:1098-1-1:1434-1-1:1328-1-1:1234-3-3:1233-0-3:1232-1-4:1231-3-3:1230-4-4:1229-3-3:1228-1-1:1101-0-3:1100-4-4:1099-3-3:1097-0-1:1363-0-20:128832", -- [1]
 				1479475658, -- [2]
 			},
-			["Cízzar-BurningLegion"] = {
-				"37:22:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-3-3:750-4-4:749-4-4:1372-3-20:128820", -- [1]
-				1482328291, -- [2]
+			["Unadia-BurningLegion"] = {
+				"36:25:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-4-4:318-4-4:317-3-3:316-3-3:315-3-3:314-3-3:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-2-20:128826", -- [1]
+				1483560839, -- [2]
 			},
 			["Vadoos-BurningLegion"] = {
 				"29:17:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-6-6:329-0-3:328-3-3:327-3-3:326-1-3:325-3-3:324-3-3:323-3-3:1384-0-20:128870", -- [1]
 				1482770001, -- [2]
 			},
-			["Sickdruid-Aggra(Português)"] = {
-				"13:0:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-0-3:955-0-3:954-0-3:953-0-3:952-3-3:951-4-4:950-4-4:949-0-3:948-0-3:1366-0-20:128821", -- [1]
-				1480567312, -- [2]
-			},
 			["Morrowind-Nemesis"] = {
 				"20:22:91-1-1:94-0-1:93-1-1:92-1-1:1358-1-1:106-1-4:105-0-3:104-1-1:103-1-1:102-3-3:101-3-3:100-3-3:99-3-3:98-1-4:97-0-1:96-0-3:95-4-4:1395-0-20:128289", -- [1]
 				1482340340, -- [2]
 			},
-			["Requs-BurningLegion"] = {
-				"33:23:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-3-3:945-3-3:944-4-4:943-3-4:942-3-3:941-4-4:940-3-3:939-3-3:938-3-3:937-1-1:936-1-1:935-1-1:1375-0-20:128937", -- [1]
-				1483050867, -- [2]
+			["Piizzaguy-BurningLegion"] = {
+				"33:20:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-4-4:330-3-3:329-2-3:328-3-3:327-3-3:326-3-3:325-4-4:324-4-4:323-3-3:1384-0-20:128870", -- [1]
+				1481933929, -- [2]
+			},
+			["Gouki-Balnazzar"] = {
+				"28:20:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-4-4:1176-3-3:1175-0-3:1174-3-3:1173-3-3:1172-1-4:1171-4-4:1391-0-20:128943", -- [1]
+				1481648494, -- [2]
 			},
 			["Frankìe-Kazzak"] = {
 				"33:18:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-0-1:778-3-3:777-4-4:776-4-4:775-3-3:774-4-4:773-3-3:772-3-3:771-3-3:767-3-3:766-1-1:765-1-1:1381-0-20:128827", -- [1]
 				1480697078, -- [2]
 			},
+			["Dazow-Stormreaver"] = {
+				"32:18:899-1-1:930-0-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-4-4:909-3-3:908-4-4:907-3-3:906-3-4:905-3-3:904-1-1:903-1-1:902-1-1:1388-0-20:128819", -- [1]
+				1480696162, -- [2]
+			},
 			["Chillidann-TwistingNether"] = {
 				"14:0:1010-1-1:1016-0-1:1015-1-1:1014-0-1:1330-1-1:1013-1-1:1012-1-1:1011-0-1:1008-1-4:1007-0-3:1006-3-3:1005-3-3:1004-0-3:1003-4-4:1002-0-3:1001-1-3:1000-0-3:1362-0-20:127829", -- [1]
 				1481937615, -- [2]
-			},
-			["Lragethe-BurningLegion"] = {
-				"20:5:307-1-1:322-0-1:321-1-1:311-0-1:1337-1-1:320-2-4:319-1-4:318-0-3:317-0-3:316-4-4:315-3-3:314-3-3:313-3-3:312-3-3:310-0-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
-				1476098242, -- [2]
 			},
 			["Islagah-TarrenMill"] = {
 				"15:5:748-1-1:763-0-1:762-1-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-5-5:753-0-3:752-0-3:751-3-3:750-0-3:749-0-3:1372-0-20:128820", -- [1]
 				1476184988, -- [2]
 			},
-			["Raengo-Nethersturm"] = {
-				"35:22:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-3-3:305-3-3:304-3-3:303-4-4:302-3-3:301-4-4:300-4-4:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-1-20:128935", -- [1]
-				1482328291, -- [2]
+			["Dàrkki-Stormreaver"] = {
+				"16:2:291-1-1:297-0-1:296-1-1:295-0-1:1350-1-1:306-0-3:305-0-3:304-0-3:303-4-4:302-3-3:301-5-5:300-3-3:299-0-3:298-1-3:294-1-1:293-0-1:292-0-1:1387-0-20:128935", -- [1]
+				1480433420, -- [2]
 			},
 			["Berentu-BurningLegion"] = {
 				"13:1:1120-1-1:1135-0-1:1134-0-1:1133-0-1:1343-1-1:1132-0-1:1131-0-1:1130-0-1:1129-3-3:1128-0-3:1127-0-3:1126-4-4:1125-0-3:1124-3-3:1123-1-4:1122-0-3:1121-3-3:1378-0-20:128866", -- [1]
 				1478800982, -- [2]
 			},
-			["Kelándra-TwistingNether"] = {
-				"28:15:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-2-4:756-3-3:755-3-3:754-4-4:753-0-3:752-3-3:751-3-3:750-3-3:749-4-4:1372-0-20:128820", -- [1]
-				1479470490, -- [2]
+			["Endlessriver-Eitrigg"] = {
+				"43:24:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-4-4:756-3-3:755-3-3:754-3-3:753-3-3:752-3-3:751-4-4:750-3-3:749-4-4:1372-9-20:128820", -- [1]
+				1483495691, -- [2]
 			},
 			["Lunartusk-ShatteredHand"] = {
 				"35:21:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-4-4:1040-3-3:1039-4-4:1038-3-3:1037-4-4:1036-3-3:1035-3-3:1034-3-3:1364-1-20:128858", -- [1]
 				1482074641, -- [2]
 			},
-			["Exentia-Draenor"] = {
-				"27:19:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-0-1:778-0-3:777-3-3:776-5-5:775-3-3:774-0-3:773-4-4:772-3-3:771-3-3:767-3-3:766-1-1:765-1-1:1381-0-20:128827", -- [1]
-				1481985358, -- [2]
+			["Fuzzyvuzzy-Kazzak"] = {
+				"33:14:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-4-4:945-3-3:944-4-4:943-4-4:942-3-3:941-3-3:940-3-3:939-3-3:938-3-3:937-1-1:936-1-1:935-0-1:1375-0-20:128937", -- [1]
+				1478967383, -- [2]
 			},
 			["Injin-Stormrage"] = {
 				"28:14:1102-1-1:1117-1-1:1116-1-1:1115-0-1:1352-1-1:1114-1-1:1113-0-1:1112-1-1:1111-0-3:1110-3-3:1109-4-4:1108-4-4:1107-2-3:1106-3-3:1105-3-3:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
 				1478961260, -- [2]
 			},
-			["Thrandull-Lightbringer"] = {
-				"22:10:1120-1-1:1135-1-1:1134-0-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-0-1:1129-3-3:1128-4-4:1127-0-3:1126-3-3:1125-4-4:1124-4-4:1123-1-3:1122-0-3:1121-3-3:1378-0-20:128866", -- [1]
-				1480432079, -- [2]
+			["Vargash-Eredar"] = {
+				"35:21:899-1-1:930-1-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-6-6:909-3-3:908-3-3:907-3-3:906-3-3:905-3-3:904-1-1:903-1-1:902-1-1:1388-1-20:128819", -- [1]
+				1482106911, -- [2]
 			},
-			["Classwhole-Kazzak"] = {
-				"11:0:1096-1-1:1236-1-1:1235-0-1:1098-0-1:1434-1-1:1328-1-1:1234-4-4:1233-0-3:1232-0-3:1231-3-3:1230-0-3:1229-0-3:1228-0-1:1101-0-3:1100-1-4:1099-2-3:1097-0-1:1363-0-20:128832", -- [1]
-				1479000120, -- [2]
-			},
-			["Madjin-Khadgar"] = {
-				"29:11:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-1-1:1129-4-4:1128-3-3:1127-3-3:1126-3-3:1125-3-3:1124-3-3:1123-4-4:1122-1-4:1121-3-3:1378-0-20:128866", -- [1]
-				1477487636, -- [2]
-			},
-			["Darklactose-Ragnaros"] = {
-				"15:4:764-1-1:770-1-1:769-0-1:768-0-1:1347-1-1:779-0-1:778-0-3:777-1-3:776-0-3:775-4-4:774-3-3:773-0-3:772-3-3:771-3-3:767-2-5:766-0-1:765-0-1:1381-0-20:128827", -- [1]
-				1480563633, -- [2]
-			},
-			["Shewanna-Emeriss"] = {
-				"25:9:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-3-3:753-0-3:752-3-3:751-3-3:750-3-4:749-5-5:1372-0-20:128820", -- [1]
-				1476633882, -- [2]
-			},
-			["Celés-Kazzak"] = {
-				"10:4:960-1-1:979-0-1:962-0-1:961-0-1:1334-1-1:959-1-1:958-0-1:957-0-1:956-4-4:955-2-3:954-3-3:953-0-3:952-0-3:951-0-3:950-1-4:949-0-3:948-1-4:1366-0-20:128821", -- [1]
-				1477915883, -- [2]
-			},
-			["Unadia-BurningLegion"] = {
-				"34:22:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-4-4:318-3-3:317-3-3:316-3-3:315-3-3:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
-				1482264427, -- [2]
-			},
-			["Daink-Kazzak"] = {
-				"1:11:122-1-1:1092-0-1:124-0-1:123-0-1:1332-1-1:1091-0-1:1090-0-3:120-0-1:119-0-1:117-0-3:115-0-3:114-0-3:113-0-3:111-0-3:110-1-4:109-0-3:108-0-3:1360-0-20:128292", -- [1]
-				1480432079, -- [2]
+			["Elewyr-Drak'thul"] = {
+				"15:8:834-1-1:837-0-1:836-1-1:835-0-1:1346-1-1:849-3-3:848-2-5:847-1-4:846-0-3:845-1-1:844-0-3:843-3-3:842-3-3:841-3-3:840-0-1:839-0-1:838-0-3:1380-0-20:128825", -- [1]
+				1483577590, -- [2]
 			},
 			["Elistan-TwistingNether"] = {
 				"27:17:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-1-4:848-3-3:847-3-3:846-3-3:845-0-1:844-4-4:843-4-4:842-3-3:841-0-3:840-1-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
 				1480027329, -- [2]
 			},
-			["Robotnuny-BurningBlade"] = {
-				"6:0:931-1-1:934-0-1:933-0-1:932-0-1:1295-1-1:946-3-3:945-2-3:944-0-3:943-0-3:942-0-3:941-1-4:940-1-4:939-0-3:938-0-3:937-0-1:936-0-1:935-0-1:1375-0-20:128937", -- [1]
-				1481935738, -- [2]
+			["Darklactose-Ragnaros"] = {
+				"15:4:764-1-1:770-1-1:769-0-1:768-0-1:1347-1-1:779-0-1:778-0-3:777-1-3:776-0-3:775-4-4:774-3-3:773-0-3:772-3-3:771-3-3:767-2-5:766-0-1:765-0-1:1381-0-20:128827", -- [1]
+				1480563633, -- [2]
 			},
-			["Dazow-Stormreaver"] = {
-				"32:18:899-1-1:930-0-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-4-4:909-3-3:908-4-4:907-3-3:906-3-4:905-3-3:904-1-1:903-1-1:902-1-1:1388-0-20:128819", -- [1]
-				1480696162, -- [2]
+			["Garloch-Lightbringer"] = {
+				"18:8:1170-1-1:1185-1-1:1184-0-1:1183-1-1:1354-1-1:1182-1-1:1181-0-1:1180-1-1:1179-0-3:1178-3-3:1177-4-4:1176-3-3:1175-0-3:1174-1-4:1173-1-3:1172-0-3:1171-4-4:1391-0-20:128943", -- [1]
+				1481934731, -- [2]
 			},
-			["Ukkomies-Kilrogg"] = {
-				"22:15:1052-1-1:1055-0-1:1054-1-1:1053-0-1:1348-1-1:1067-0-3:1066-3-3:1065-4-4:1064-4-4:1063-3-3:1062-2-4:1061-3-3:1060-3-3:1059-0-3:1058-0-1:1057-0-1:1056-1-1:1385-0-20:128872", -- [1]
-				1480696162, -- [2]
+			["Celés-Kazzak"] = {
+				"10:4:960-1-1:979-0-1:962-0-1:961-0-1:1334-1-1:959-1-1:958-0-1:957-0-1:956-4-4:955-2-3:954-3-3:953-0-3:952-0-3:951-0-3:950-1-4:949-0-3:948-1-4:1366-0-20:128821", -- [1]
+				1477915883, -- [2]
+			},
+			["Navydream-BurningLegion"] = {
+				"26:21:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-1-4:829-0-3:828-1-1:827-1-1:826-0-1:825-3-3:824-2-3:822-3-3:821-4-4:820-4-4:801-3-3:800-3-3:1376-0-20:128940", -- [1]
+				1481933929, -- [2]
+			},
+			["Daink-Kazzak"] = {
+				"1:11:122-1-1:1092-0-1:124-0-1:123-0-1:1332-1-1:1091-0-1:1090-0-3:120-0-1:119-0-1:117-0-3:115-0-3:114-0-3:113-0-3:111-0-3:110-1-4:109-0-3:108-0-3:1360-0-20:128292", -- [1]
+				1480432079, -- [2]
+			},
+			["Barsol-Uldum"] = {
+				"28:11:965-1-1:966-1-1:964-1-1:963-0-1:1342-1-1:1186-4-4:977-2-3:976-3-3:975-4-4:974-0-3:973-1-1:972-3-3:971-4-4:970-3-3:969-3-3:968-0-1:967-1-1:1377-0-20:128823", -- [1]
+				1477589901, -- [2]
+			},
+			["Meliotas-Talnivarr"] = {
+				"16:8:1096-1-1:1236-0-1:1235-0-1:1098-1-1:1434-0-1:1328-1-1:1234-1-4:1233-3-3:1232-4-4:1231-0-3:1230-4-4:1229-3-3:1228-1-1:1101-1-3:1100-0-3:1099-0-3:1097-0-1:1363-0-20:128832", -- [1]
+				1476280083, -- [2]
+			},
+			["Арчдевил-Ревущийфьорд"] = {
+				"37:22:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-3-3:1040-4-4:1039-4-4:1038-3-3:1037-3-3:1036-3-3:1035-3-3:1034-4-4:1364-3-20:128858", -- [1]
+				1482328291, -- [2]
+			},
+			["Imakkiez-Stormreaver"] = {
+				"31:22:1153-1-1:1156-1-1:1155-1-1:1154-1-1:1327-1-1:1168-3-3:1167-3-3:1166-3-3:1165-3-3:1164-3-3:1163-3-3:1162-3-3:1161-6-6:1160-1-3:1159-0-1:1158-1-1:1157-1-1:1365-0-20:128860", -- [1]
+				1483501592, -- [2]
 			},
 			["Holypizzle-ChamberofAspects"] = {
 				"33:17:40-1-1:353-1-1:54-1-1:49-1-1:1275-1-1:352-0-1:351-1-1:350-1-1:53-3-3:52-3-3:51-4-4:50-3-3:47-3-3:44-3-3:43-5-5:42-3-3:41-3-3:1118-0-20:120978", -- [1]
 				1480027329, -- [2]
 			},
-			["Maadbas-TwistingNether"] = {
-				"29:17:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-4-4:329-0-3:328-3-3:327-4-4:326-2-3:325-3-3:324-4-4:323-3-3:1384-0-20:128870", -- [1]
-				1480562940, -- [2]
+			["Dëmagus-Frostwhisper"] = {
+				"24:22:748-1-1:763-1-1:762-1-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-3-3:753-1-4:752-3-3:751-4-4:750-2-3:749-4-4:1372-0-20:128820", -- [1]
+				1483501592, -- [2]
 			},
-			["Sheildmaster-Kazzak"] = {
-				"30:16:1136-1-1:1139-1-1:1138-1-1:1137-1-1:1356-1-1:1151-0-3:1150-3-3:1149-3-3:1148-4-4:1147-3-3:1146-3-3:1145-4-4:1144-3-4:1143-3-3:1142-1-1:1141-1-1:1140-1-1:1393-0-20:128910", -- [1]
-				1480434900, -- [2]
+			["Shewanna-Emeriss"] = {
+				"25:9:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-3-3:753-0-3:752-3-3:751-3-3:750-3-4:749-5-5:1372-0-20:128820", -- [1]
+				1476633882, -- [2]
 			},
-			["Sajin-TarrenMill"] = {
-				"14:1:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-4-4:871-0-3:870-0-3:869-3-3:868-0-3:1368-0-20:128861", -- [1]
-				1481378240, -- [2]
+			["Scarhoof-Ahn'Qiraj"] = {
+				"21:21:125-1-1:128-0-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-1-1:137-0-3:136-3-3:135-4-4:134-4-4:133-2-4:132-3-3:131-0-3:130-0-3:129-1-1:1367-0-20:128306", -- [1]
+				1481935136, -- [2]
 			},
 			["Lithelina-Kazzak"] = {
 				"15:1:40-1-1:353-0-1:54-0-1:49-0-1:1275-1-1:352-0-1:351-0-1:350-1-1:53-3-3:52-1-4:51-2-4:50-3-3:47-0-3:44-0-3:43-0-3:42-3-3:41-3-3:1118-0-20:120978", -- [1]
@@ -6008,17 +6698,17 @@ VExRT = {
 				"28:12:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-4-4:317-0-3:316-0-3:315-4-4:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
 				1477963596, -- [2]
 			},
-			["Tankermanse-TwistingNether"] = {
-				"29:14:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-3-3:829-3-3:828-1-1:827-1-1:826-1-1:825-6-6:824-3-3:822-1-3:821-3-3:820-3-3:801-0-3:800-3-3:1376-0-20:128940", -- [1]
-				1478967766, -- [2]
+			["Maxmanas-TarrenMill"] = {
+				"30:20:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-3-3:953-2-5:952-2-3:951-3-3:950-3-3:949-4-4:948-3-3:1366-0-20:128821", -- [1]
+				1481933929, -- [2]
 			},
 			["Weegy-Kazzak"] = {
 				"35:18:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-4-4:134-3-3:133-3-3:132-4-4:131-3-3:130-4-4:129-1-1:1367-1-20:128306", -- [1]
 				1480564831, -- [2]
 			},
-			["Maxmanas-TarrenMill"] = {
-				"30:20:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-3-3:953-2-5:952-2-3:951-3-3:950-3-3:949-4-4:948-3-3:1366-0-20:128821", -- [1]
-				1481933929, -- [2]
+			["Tankermanse-TwistingNether"] = {
+				"29:14:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-3-3:829-3-3:828-1-1:827-1-1:826-1-1:825-6-6:824-3-3:822-1-3:821-3-3:820-3-3:801-0-3:800-3-3:1376-0-20:128940", -- [1]
+				1478967766, -- [2]
 			},
 			["Hthcz-Draenor"] = {
 				"21:19:1102-1-1:1117-0-1:1116-1-1:1115-1-1:1352-1-1:1114-0-1:1113-0-1:1112-0-1:1111-0-3:1110-0-3:1109-0-3:1108-4-4:1107-3-3:1106-3-3:1105-4-4:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
@@ -6032,49 +6722,49 @@ VExRT = {
 				"22:15:883-1-1:897-1-1:887-1-1:886-0-1:1345-1-1:898-0-1:896-3-3:895-3-3:894-3-3:893-0-3:892-3-3:891-4-4:890-2-5:889-0-3:888-3-3:885-1-1:884-0-1:1379-0-20:128868", -- [1]
 				1479470490, -- [2]
 			},
-			["Charlietea-TarrenMill"] = {
-				"34:20:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-4-4:1107-4-4:1106-3-3:1105-4-4:1104-3-3:1103-3-3:1389-0-20:128911", -- [1]
-				1481648494, -- [2]
+			["Synerios-Kazzak"] = {
+				"31:15:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-3-3:945-3-3:944-4-4:943-0-3:942-4-4:941-3-3:940-4-4:939-3-3:938-3-3:937-1-1:936-1-1:935-1-1:1375-0-20:128937", -- [1]
+				1480564831, -- [2]
 			},
-			["Moriphex-TwistingNether"] = {
-				"31:17:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-0-3:954-3-3:953-3-3:952-4-4:951-3-3:950-4-4:949-3-3:948-4-4:1366-0-20:128821", -- [1]
-				1480027329, -- [2]
+			["Bromhilda-Khadgar"] = {
+				"33:17:881-1-1:882-1-1:879-1-1:878-1-1:1336-1-1:1095-3-3:880-1-1:877-1-1:876-1-1:875-3-3:874-4-4:873-3-3:872-3-3:871-2-3:870-3-3:869-5-5:868-3-3:1368-0-20:128861", -- [1]
+				1480564831, -- [2]
 			},
-			["Zlifer-Stormreaver"] = {
-				"13:1:122-1-1:1092-0-1:124-1-1:123-0-1:1332-1-1:1091-0-1:1090-4-4:120-0-1:119-1-1:117-3-3:115-0-3:114-0-3:113-5-5:111-0-3:110-0-3:109-0-3:108-1-3:1360-0-20:128292", -- [1]
-				1480562265, -- [2]
+			["Shóckzz-Kazzak"] = {
+				"14:2:1102-1-1:1117-0-1:1116-0-1:1115-0-1:1352-1-1:1114-0-1:1113-1-1:1112-1-1:1111-0-3:1110-3-3:1109-2-3:1108-0-3:1107-1-4:1106-0-3:1105-3-3:1104-0-3:1103-4-4:1389-0-20:128911", -- [1]
+				1483574843, -- [2]
 			},
 			["Vaadoos-BurningLegion"] = {
-				"35:24:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-3-3:317-3-3:316-3-3:315-3-3:314-5-5:313-3-3:312-4-4:310-1-1:309-1-1:308-1-1:1369-1-20:128826", -- [1]
-				1483050867, -- [2]
+				"35:25:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-3-3:317-3-3:316-3-3:315-3-3:314-5-5:313-3-3:312-4-4:310-1-1:309-1-1:308-1-1:1369-1-20:128826", -- [1]
+				1483654210, -- [2]
 			},
-			["Shadøwed-Nemesis"] = {
-				"35:18:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-3-3:329-3-3:328-5-5:327-3-3:326-3-3:325-3-3:324-3-3:323-4-4:1384-1-20:128870", -- [1]
-				1480564831, -- [2]
+			["Qwertii-TwistingNether"] = {
+				"53:25:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-5-5:776-3-3:775-3-3:774-3-3:773-4-4:772-3-3:771-3-3:767-3-3:766-1-1:765-1-1:1381-19-20:128827", -- [1]
+				1483576129, -- [2]
 			},
 			["Lackarur-TwistingNether"] = {
 				"13:0:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-3-3:874-3-3:873-0-3:872-3-3:871-0-3:870-1-4:869-3-4:868-0-3:1368-0-20:128861", -- [1]
 				1480439067, -- [2]
 			},
-			["Deminoheal-TarrenMill"] = {
-				"22:17:883-1-1:897-1-1:887-1-1:886-0-1:1345-1-1:898-0-1:896-3-3:895-3-3:894-4-4:893-1-3:892-4-4:891-3-3:890-1-4:889-0-3:888-3-3:885-0-1:884-0-1:1379-0-20:128868", -- [1]
-				1480074409, -- [2]
+			["Voidflame-BurningLegion"] = {
+				"36:21:1096-1-1:1236-1-1:1235-1-1:1098-1-1:1434-1-1:1328-1-1:1234-3-3:1233-3-3:1232-3-3:1231-5-5:1230-3-3:1229-4-4:1228-1-1:1101-3-3:1100-3-3:1099-3-3:1097-1-1:1363-2-20:128832", -- [1]
+				1483640562, -- [2]
 			},
 			["Deciexecute-Ragnaros"] = {
 				"25:13:1136-1-1:1139-1-1:1138-0-1:1137-1-1:1356-1-1:1151-0-3:1150-3-3:1149-4-4:1148-3-3:1147-4-5:1146-3-3:1145-3-3:1144-0-3:1143-3-3:1142-1-1:1141-1-1:1140-0-1:1393-0-20:128910", -- [1]
 				1482106911, -- [2]
 			},
-			["Wesly-BurningLegion"] = {
-				"29:14:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-0-1:1113-0-1:1112-1-1:1111-0-3:1110-3-3:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-4-4:1104-4-4:1103-3-3:1389-0-20:128911", -- [1]
-				1479158568, -- [2]
-			},
 			["Nøone-Nemesis"] = {
 				"27:9:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-3-3:329-0-3:328-5-5:327-3-3:326-0-3:325-3-3:324-4-4:323-3-3:1384-0-20:128870", -- [1]
 				1476835799, -- [2]
 			},
-			["Zephios-Cho’gall"] = {
-				"43:22:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-5-5:329-3-3:328-3-3:327-3-3:326-3-3:325-3-3:324-3-3:323-4-4:1384-9-20:128870", -- [1]
-				1482328291, -- [2]
+			["Deathofficer-Ragnaros"] = {
+				"35:18:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-3-3:1176-4-4:1175-5-5:1174-3-3:1173-3-3:1172-3-3:1171-3-3:1391-1-20:128943", -- [1]
+				1480565550, -- [2]
+			},
+			["Ukkomies-Kilrogg"] = {
+				"22:15:1052-1-1:1055-0-1:1054-1-1:1053-0-1:1348-1-1:1067-0-3:1066-3-3:1065-4-4:1064-4-4:1063-3-3:1062-2-4:1061-3-3:1060-3-3:1059-0-3:1058-0-1:1057-0-1:1056-1-1:1385-0-20:128872", -- [1]
+				1480696162, -- [2]
 			},
 			["Sqazany-BurningLegion"] = {
 				"34:21:91-1-1:94-1-1:93-1-1:92-1-1:1358-1-1:106-3-3:105-4-4:104-1-1:103-1-1:102-3-3:101-3-3:100-3-3:99-3-3:98-3-3:97-1-1:96-3-3:95-5-5:1395-0-20:128289", -- [1]
@@ -6088,21 +6778,21 @@ VExRT = {
 				"26:12:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-1-4:829-0-3:828-1-1:827-1-1:826-1-1:825-3-3:824-1-3:822-4-4:821-3-3:820-4-4:801-3-3:800-3-3:1376-0-20:128940", -- [1]
 				1478966557, -- [2]
 			},
-			["Kodobogan-TwistingNether"] = {
-				"34:17:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-4-4:134-4-4:133-4-4:132-3-3:131-3-3:130-3-3:129-1-1:1367-0-20:128306", -- [1]
-				1480663381, -- [2]
+			["Gag-Draenor"] = {
+				"33:18:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-2-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-4-4:1001-3-3:1000-3-3:1362-0-20:127829", -- [1]
+				1482106911, -- [2]
 			},
 			["Recus-BurningLegion"] = {
-				"29:15:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-4-4:977-4-4:976-3-3:975-4-4:974-3-3:973-1-1:972-3-3:971-1-3:970-3-3:969-0-3:968-1-1:967-1-1:1377-0-20:128823", -- [1]
-				1483123326, -- [2]
-			},
-			["Syllars-BurningLegion"] = {
-				"28:16:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-3-3:318-4-4:317-3-3:316-0-3:315-0-3:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
-				1481375560, -- [2]
+				"30:17:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-4-4:977-4-4:976-3-3:975-4-4:974-3-3:973-1-1:972-3-3:971-2-3:970-3-3:969-0-3:968-1-1:967-1-1:1377-0-20:128823", -- [1]
+				1483647573, -- [2]
 			},
 			["Wubbeh-Emeriss"] = {
 				"34:18:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-3-3:754-3-3:753-3-3:752-3-3:751-3-3:750-4-4:749-5-5:1372-0-20:128820", -- [1]
 				1480436022, -- [2]
+			},
+			["Nimarean-Draenor"] = {
+				"13:0:899-1-1:930-0-1:901-1-1:900-0-1:1351-1-1:913-0-3:912-3-3:911-3-3:910-4-4:909-2-3:908-0-3:907-0-3:906-1-4:905-0-3:904-0-1:903-0-1:902-0-1:1388-0-20:128819", -- [1]
+				1480564831, -- [2]
 			},
 			["Asboden-Draenor"] = {
 				"14:10:289-1-1:286-0-1:285-1-1:284-0-1:1331-1-1:283-0-1:282-0-1:281-1-1:280-3-3:279-0-3:278-3-3:277-3-3:276-0-3:275-0-3:274-2-3:273-1-4:272-2-5:1359-0-20:128402", -- [1]
@@ -6113,40 +6803,40 @@ VExRT = {
 				1478124079, -- [2]
 			},
 			["Talpadh-BurningLegion"] = {
-				"31:20:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-1-4:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-3-3:1002-3-3:1001-3-3:1000-4-4:1362-0-20:127829", -- [1]
-				1482427630, -- [2]
+				"36:23:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-4-4:1007-3-3:1006-3-3:1005-3-3:1004-5-5:1003-3-3:1002-3-3:1001-3-3:1000-3-3:1362-2-20:127829", -- [1]
+				1483640562, -- [2]
 			},
-			["Laha-BurningLegion"] = {
-				"29:14:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-0-3:1041-4-4:1040-3-3:1039-4-4:1038-1-3:1037-4-4:1036-3-3:1035-3-3:1034-3-3:1364-0-20:128858", -- [1]
-				1479158568, -- [2]
+			["Relíkt-BurningLegion"] = {
+				"33:18:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-3-3:279-2-3:278-4-4:277-3-3:276-3-3:275-3-3:274-3-3:273-4-4:272-4-4:1359-0-20:128402", -- [1]
+				1480850797, -- [2]
 			},
 			["Wajgelcz-Drak'thul"] = {
 				"30:15:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-3-3:976-3-3:975-0-3:974-3-3:973-1-1:972-5-5:971-3-4:970-3-3:969-3-3:968-1-1:967-1-1:1377-0-20:128823", -- [1]
 				1479470044, -- [2]
 			},
-			["Liti-Dragonblight"] = {
-				"27:12:831-1-1:833-1-1:832-1-1:830-0-1:1341-1-1:1094-3-3:829-3-3:828-1-1:827-1-1:826-1-1:825-3-3:824-4-4:822-0-3:821-3-3:820-5-5:801-0-3:800-3-3:1376-0-20:128940", -- [1]
-				1479048073, -- [2]
+			["Apheleia-Draenor"] = {
+				"32:21:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-4-4:994-1-3:993-3-3:992-4-4:991-3-3:990-4-4:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-0-20:128908", -- [1]
+				1481985358, -- [2]
 			},
-			["Himmelfisken-Al'Akir"] = {
-				"31:19:883-1-1:897-1-1:887-1-1:886-1-1:1345-1-1:898-1-1:896-3-3:895-3-3:894-3-3:893-3-3:892-4-4:891-5-5:890-3-3:889-1-3:888-3-3:885-1-1:884-0-1:1379-0-20:128868", -- [1]
-				1481373885, -- [2]
+			["Grimriper-BurningLegion"] = {
+				"41:25:122-1-1:1092-1-1:124-1-1:123-1-1:1332-1-1:1091-1-1:1090-3-3:120-1-1:119-1-1:117-3-3:115-3-3:114-3-3:113-4-4:111-3-3:110-4-4:109-4-4:108-3-3:1360-7-20:128292", -- [1]
+				1483654210, -- [2]
 			},
 			["Ynozmakuzs-BurningLegion"] = {
 				"29:14:291-1-1:297-0-1:296-1-1:295-1-1:1350-1-1:306-2-3:305-0-3:304-3-3:303-3-3:302-3-3:301-4-4:300-5-5:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-0-20:128935", -- [1]
 				1479158568, -- [2]
 			},
-			["Belfezar-Draenor"] = {
-				"29:15:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-0-1:1011-1-1:1008-1-3:1007-4-4:1006-1-3:1005-3-3:1004-3-3:1003-3-3:1002-3-3:1001-4-4:1000-4-4:1362-0-20:127829", -- [1]
-				1480562940, -- [2]
+			["Razjar-TheMaelstrom"] = {
+				"25:8:1102-1-1:1117-1-1:1116-1-1:1115-0-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-0-3:1109-3-3:1108-4-4:1107-0-3:1106-3-3:1105-1-3:1104-4-4:1103-4-4:1389-0-20", -- [1]
+				1476280083, -- [2]
 			},
-			["Meganfoxlol-Draenor"] = {
-				"19:4:881-1-1:882-1-1:879-0-1:878-1-1:1336-1-1:1095-3-3:880-1-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-3-3:871-0-3:870-1-4:869-3-3:868-1-4:1368-0-20:128861", -- [1]
-				1481935136, -- [2]
+			["Tinytanga-EmeraldDream"] = {
+				"34:17:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-5-5:1124-3-3:1123-4-4:1122-3-3:1121-3-3:1378-0-20:128866", -- [1]
+				1480564831, -- [2]
 			},
-			["Søsexi-BurningLegion"] = {
-				"37:22:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-4-4:976-3-3:975-3-3:974-3-3:973-1-1:972-5-5:971-3-3:970-3-3:969-3-3:968-1-1:967-1-1:1377-3-20:128823", -- [1]
-				1482264427, -- [2]
+			["Lolodina-BurningBlade"] = {
+				"33:17:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-5-5:1124-4-4:1123-3-3:1122-2-3:1121-3-3:1378-0-20:128866", -- [1]
+				1480439067, -- [2]
 			},
 			["Southwínd-TarrenMill"] = {
 				"29:14:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-0-3:756-3-3:755-4-4:754-3-3:753-2-3:752-3-3:751-4-4:750-3-3:749-4-4:1372-0-20:128820", -- [1]
@@ -6164,37 +6854,37 @@ VExRT = {
 				"32:14:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-3-3:279-3-5:278-3-3:277-4-4:276-3-3:275-3-3:274-3-3:273-3-3:272-3-3:1359-0-20:128402", -- [1]
 				1478909246, -- [2]
 			},
-			["Lolodina-BurningBlade"] = {
-				"33:17:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-5-5:1124-4-4:1123-3-3:1122-2-3:1121-3-3:1378-0-20:128866", -- [1]
-				1480439067, -- [2]
+			["Ibenas-Magtheridon"] = {
+				"16:6:748-1-1:763-1-1:762-0-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-0-3:754-4-4:753-0-3:752-1-3:751-5-5:750-0-3:749-3-3:1372-0-20:128820", -- [1]
+				1480697078, -- [2]
 			},
 			["Orienne-BurningLegion"] = {
 				"33:17:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-3-3:848-3-3:847-3-3:846-3-3:845-1-1:844-4-4:843-5-5:842-3-3:841-2-3:840-1-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
 				1480470441, -- [2]
 			},
-			["Powersdk-Draenor"] = {
-				"39:20:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-3-3:279-3-3:278-3-3:277-3-3:276-4-4:275-4-4:274-3-3:273-3-3:272-4-4:1359-5-20:128402", -- [1]
-				1481639249, -- [2]
+			["Søsexi-BurningLegion"] = {
+				"37:22:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-4-4:976-3-3:975-3-3:974-3-3:973-1-1:972-5-5:971-3-3:970-3-3:969-3-3:968-1-1:967-1-1:1377-3-20:128823", -- [1]
+				1482264427, -- [2]
 			},
 			["Blacklìght-Pozzodell'Eternità"] = {
 				"35:22:40-1-1:353-1-1:54-1-1:49-1-1:1275-1-1:352-1-1:351-1-1:350-1-1:53-4-4:52-3-3:51-5-5:50-3-3:47-3-3:44-3-3:43-3-3:42-3-3:41-3-3:1118-1-20:120978", -- [1]
 				1482415591, -- [2]
 			},
-			["Crotemplar-Stormscale"] = {
-				"1:16:965-1-1:966-0-1:964-0-1:963-0-1:1342-1-1:1186-0-3:977-0-3:976-1-4:975-0-3:974-0-3:973-0-1:972-2-5:971-0-3:970-0-3:969-0-3:968-0-1:967-0-1:1377-0-20:128823", -- [1]
-				1480433829, -- [2]
-			},
-			["Legkökukebab-Skullcrusher"] = {
-				"15:1:748-1-1:763-0-1:762-1-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-4-4:753-0-3:752-0-3:751-4-4:750-1-4:749-0-3:1372-0-20:128820", -- [1]
-				1480564277, -- [2]
+			["Megatroll-TwistingNether"] = {
+				"35:18:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-4-4:752-3-3:751-4-4:750-3-3:749-3-3:1372-1-20:128820", -- [1]
+				1480562940, -- [2]
 			},
 			["Harpos-TarrenMill"] = {
 				"35:22:965-1-1:966-1-1:964-1-1:963-1-1:1342-1-1:1186-3-3:977-3-3:976-3-3:975-3-3:974-3-3:973-1-1:972-5-5:971-3-3:970-4-4:969-3-3:968-1-1:967-1-1:1377-1-20:128823", -- [1]
 				1482340340, -- [2]
 			},
-			["Kime-BurningLegion"] = {
-				"37:22:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-5-5:776-3-3:775-3-3:774-3-3:773-3-3:772-4-4:771-3-3:767-3-3:766-1-1:765-1-1:1381-3-20:128827", -- [1]
-				1482451796, -- [2]
+			["Antikero-Drak'thul"] = {
+				"27:13:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-4-4:318-3-3:317-3-3:316-0-3:315-3-3:314-2-5:313-3-3:312-3-3:310-1-1:309-0-1:308-1-1:1369-0-20:128826", -- [1]
+				1483579044, -- [2]
+			},
+			["Paisti-Turalyon"] = {
+				"13:0:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-3-3:874-4-4:873-0-3:872-4-4:871-0-3:870-0-3:869-2-3:868-0-3:1368-0-20:128861", -- [1]
+				1479000120, -- [2]
 			},
 			["Forkorc-TarrenMill"] = {
 				"17:5:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-3-3:880-0-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-3-3:871-0-3:870-1-4:869-3-3:868-1-4:1368-0-20:128861", -- [1]
@@ -6204,17 +6894,17 @@ VExRT = {
 				"24:13:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-0-1:1044-1-1:1043-1-1:1042-0-3:1041-3-3:1040-4-4:1039-0-3:1038-4-4:1037-4-4:1036-3-3:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
 				1481377367, -- [2]
 			},
-			["Antikero-Drak'thul"] = {
-				"21:8:307-1-1:322-1-1:321-0-1:311-1-1:1337-1-1:320-3-3:319-4-4:318-3-3:317-0-3:316-0-3:315-3-3:314-1-4:313-1-3:312-3-3:310-1-1:309-0-1:308-1-1:1369-0-20:128826", -- [1]
-				1482340340, -- [2]
+			["Kime-BurningLegion"] = {
+				"37:22:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-5-5:776-3-3:775-3-3:774-3-3:773-3-3:772-4-4:771-3-3:767-3-3:766-1-1:765-1-1:1381-3-20:128827", -- [1]
+				1482451796, -- [2]
+			},
+			["Bigshanex-TheMaelstrom"] = {
+				"26:8:149-1-1:152-1-1:151-0-1:150-1-1:1333-1-1:1119-3-3:267-4-4:266-3-3:265-3-3:264-0-3:263-0-1:262-4-4:158-4-4:157-3-3:156-0-3:154-1-1:153-1-1:1361-0-20:128403", -- [1]
+				1476280083, -- [2]
 			},
 			["Uriane-BurningLegion"] = {
 				"24:13:883-1-1:897-1-1:887-1-1:886-0-1:1345-1-1:898-0-1:896-0-3:895-4-4:894-3-3:893-4-4:892-3-3:891-3-3:890-0-3:889-3-3:888-4-4:885-0-1:884-0-1:1379-0-20:128868", -- [1]
 				1478800982, -- [2]
-			},
-			["Paisti-Turalyon"] = {
-				"13:0:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-3-3:874-4-4:873-0-3:872-4-4:871-0-3:870-0-3:869-2-3:868-0-3:1368-0-20:128861", -- [1]
-				1479000120, -- [2]
 			},
 			["Prostyle-Kazzak"] = {
 				"20:10:1120-1-1:1135-0-1:1134-0-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-0-1:1129-3-3:1128-4-4:1127-0-3:1126-0-3:1125-3-3:1124-3-3:1123-0-3:1122-4-4:1121-4-4:1378-0-20:128866", -- [1]
@@ -6224,37 +6914,37 @@ VExRT = {
 				"35:21:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-3-3:829-3-3:828-1-1:827-1-1:826-1-1:825-4-4:824-3-3:822-3-3:821-3-3:820-4-4:801-3-3:800-4-4:1376-1-20:128940", -- [1]
 				1481940268, -- [2]
 			},
-			["Razjar-TheMaelstrom"] = {
-				"25:8:1102-1-1:1117-1-1:1116-1-1:1115-0-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-0-3:1109-3-3:1108-4-4:1107-0-3:1106-3-3:1105-1-3:1104-4-4:1103-4-4:1389-0-20", -- [1]
-				1476280083, -- [2]
+			["Legkökukebab-Skullcrusher"] = {
+				"15:1:748-1-1:763-0-1:762-1-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-3-3:754-4-4:753-0-3:752-0-3:751-4-4:750-1-4:749-0-3:1372-0-20:128820", -- [1]
+				1480564277, -- [2]
 			},
 			["Darzia-Nemesis"] = {
 				"34:22:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-3-3:132-3-3:131-5-5:130-4-4:129-1-1:1367-0-20:128306", -- [1]
 				1482340340, -- [2]
 			},
-			["Tinytanga-EmeraldDream"] = {
-				"34:17:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-3-3:1125-5-5:1124-3-3:1123-4-4:1122-3-3:1121-3-3:1378-0-20:128866", -- [1]
-				1480564831, -- [2]
+			["Markhos-Ragnaros"] = {
+				"23:9:881-1-1:882-1-1:879-0-1:878-1-1:1336-1-1:1095-4-4:880-1-1:877-0-1:876-0-1:875-3-3:874-3-3:873-1-4:872-3-3:871-0-3:870-4-4:869-3-3:868-1-3:1368-0-20:128861", -- [1]
+				1476744124, -- [2]
 			},
 			["Protolucy-ChamberofAspects"] = {
 				"30:15:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-0-3:1007-3-3:1006-3-3:1005-3-3:1004-3-3:1003-4-4:1002-4-4:1001-4-4:1000-2-3:1362-0-20:127829", -- [1]
 				1479470946, -- [2]
 			},
+			["Avenea-Stormrage"] = {
+				"33:18:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-2-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-4-4:1001-3-3:1000-3-3:1362-0-20:127829", -- [1]
+				1481378240, -- [2]
+			},
 			["Kuplapena-Stormreaver"] = {
 				"18:21:883-1-1:897-1-1:887-0-1:886-0-1:1345-1-1:898-0-1:896-3-3:895-0-3:894-4-4:893-0-3:892-3-3:891-4-4:890-0-3:889-0-3:888-4-4:885-1-1:884-0-1:1379-0-20:128868", -- [1]
 				1481935136, -- [2]
 			},
-			["Grimriper-BurningLegion"] = {
-				"38:23:122-1-1:1092-1-1:124-1-1:123-1-1:1332-1-1:1091-1-1:1090-3-3:120-1-1:119-1-1:117-3-3:115-3-3:114-3-3:113-4-4:111-3-3:110-4-4:109-4-4:108-3-3:1360-4-20:128292", -- [1]
-				1482958027, -- [2]
-			},
-			["Megatroll-TwistingNether"] = {
-				"35:18:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-4-4:752-3-3:751-4-4:750-3-3:749-3-3:1372-1-20:128820", -- [1]
-				1480562940, -- [2]
+			["Feha-Draenor"] = {
+				"32:18:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-1-1:137-3-3:136-3-3:135-4-4:134-4-4:133-3-3:132-3-3:131-2-3:130-4-4:129-1-1:1367-0-20:128306", -- [1]
+				1480434900, -- [2]
 			},
 			["Fatygant-BurningLegion"] = {
-				"35:21:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-3-3:953-4-4:952-4-4:951-3-3:950-3-3:949-4-4:948-3-3:1366-1-20:128821", -- [1]
-				1482349193, -- [2]
+				"40:24:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-3-3:953-5-5:952-4-4:951-3-3:950-3-3:949-3-3:948-3-3:1366-6-20:128821", -- [1]
+				1483654210, -- [2]
 			},
 			["Filx-Frostwhisper"] = {
 				"21:13:91-1-1:94-0-1:93-1-1:92-1-1:1358-1-1:106-0-3:105-0-3:104-1-1:103-1-1:102-4-4:101-3-3:100-4-4:99-3-3:98-1-3:97-0-1:96-0-3:95-4-4:1395-0-20:128289", -- [1]
@@ -6272,9 +6962,9 @@ VExRT = {
 				"39:23:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-5-5:1107-4-4:1106-3-3:1105-3-3:1104-3-3:1103-3-3:1389-5-20:128911", -- [1]
 				1482854884, -- [2]
 			},
-			["Avenea-Stormrage"] = {
-				"33:18:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-2-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-4-4:1001-3-3:1000-3-3:1362-0-20:127829", -- [1]
-				1481378240, -- [2]
+			["Méldym-Stormscale"] = {
+				"13:6:783-1-1:798-0-1:797-1-1:796-0-1:1296-1-1:795-0-1:794-1-1:793-0-1:792-0-3:791-3-3:790-0-3:789-0-3:788-4-4:787-0-3:786-3-3:785-1-4:784-2-4:1373-0-20:128862", -- [1]
+				1479470946, -- [2]
 			},
 			["Ikaana-Ragnaros"] = {
 				"27:13:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-4-4:139-0-1:138-1-1:137-3-3:136-3-3:135-1-4:134-3-3:133-3-3:132-4-4:131-0-3:130-3-3:129-1-1:1367-0-20:128306", -- [1]
@@ -6284,9 +6974,9 @@ VExRT = {
 				"17:14:125-1-1:128-0-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-0-1:137-0-3:136-3-3:135-2-4:134-3-3:133-0-3:132-4-4:131-0-3:130-1-4:129-1-1:1367-0-20:128306", -- [1]
 				1478706175, -- [2]
 			},
-			["Bigshanex-TheMaelstrom"] = {
-				"26:8:149-1-1:152-1-1:151-0-1:150-1-1:1333-1-1:1119-3-3:267-4-4:266-3-3:265-3-3:264-0-3:263-0-1:262-4-4:158-4-4:157-3-3:156-0-3:154-1-1:153-1-1:1361-0-20:128403", -- [1]
-				1476280083, -- [2]
+			["Zephios-Cho’gall"] = {
+				"43:22:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-5-5:329-3-3:328-3-3:327-3-3:326-3-3:325-3-3:324-3-3:323-4-4:1384-9-20:128870", -- [1]
+				1482328291, -- [2]
 			},
 			["Halvrolig-Kazzak"] = {
 				"35:21:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-1-1:778-3-3:777-5-5:776-3-3:775-3-3:774-4-4:773-3-3:772-3-3:771-3-3:767-3-3:766-1-1:765-1-1:1381-1-20:128827", -- [1]
@@ -6300,41 +6990,41 @@ VExRT = {
 				"29:17:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-1-3:848-4-4:847-3-3:846-4-4:845-1-1:844-3-3:843-3-3:842-4-4:841-0-3:840-1-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
 				1480724829, -- [2]
 			},
-			["Méldym-Stormscale"] = {
-				"13:6:783-1-1:798-0-1:797-1-1:796-0-1:1296-1-1:795-0-1:794-1-1:793-0-1:792-0-3:791-3-3:790-0-3:789-0-3:788-4-4:787-0-3:786-3-3:785-1-4:784-2-4:1373-0-20:128862", -- [1]
-				1479470946, -- [2]
+			["Classwhole-Kazzak"] = {
+				"11:0:1096-1-1:1236-1-1:1235-0-1:1098-0-1:1434-1-1:1328-1-1:1234-4-4:1233-0-3:1232-0-3:1231-3-3:1230-0-3:1229-0-3:1228-0-1:1101-0-3:1100-1-4:1099-2-3:1097-0-1:1363-0-20:128832", -- [1]
+				1479000120, -- [2]
 			},
-			["Scarhoof-Ahn'Qiraj"] = {
-				"21:21:125-1-1:128-0-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-1-1:137-0-3:136-3-3:135-4-4:134-4-4:133-2-4:132-3-3:131-0-3:130-0-3:129-1-1:1367-0-20:128306", -- [1]
+			["Crotemplar-Stormscale"] = {
+				"1:16:965-1-1:966-0-1:964-0-1:963-0-1:1342-1-1:1186-0-3:977-0-3:976-1-4:975-0-3:974-0-3:973-0-1:972-2-5:971-0-3:970-0-3:969-0-3:968-0-1:967-0-1:1377-0-20:128823", -- [1]
+				1480433829, -- [2]
+			},
+			["Powersdk-Draenor"] = {
+				"39:20:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-3-3:279-3-3:278-3-3:277-3-3:276-4-4:275-4-4:274-3-3:273-3-3:272-4-4:1359-5-20:128402", -- [1]
+				1481639249, -- [2]
+			},
+			["Meganfoxlol-Draenor"] = {
+				"19:4:881-1-1:882-1-1:879-0-1:878-1-1:1336-1-1:1095-3-3:880-1-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-3-3:871-0-3:870-1-4:869-3-3:868-1-4:1368-0-20:128861", -- [1]
 				1481935136, -- [2]
 			},
-			["Markhos-Ragnaros"] = {
-				"23:9:881-1-1:882-1-1:879-0-1:878-1-1:1336-1-1:1095-4-4:880-1-1:877-0-1:876-0-1:875-3-3:874-3-3:873-1-4:872-3-3:871-0-3:870-4-4:869-3-3:868-1-3:1368-0-20:128861", -- [1]
-				1476744124, -- [2]
+			["Belfezar-Draenor"] = {
+				"29:15:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-0-1:1011-1-1:1008-1-3:1007-4-4:1006-1-3:1005-3-3:1004-3-3:1003-3-3:1002-3-3:1001-4-4:1000-4-4:1362-0-20:127829", -- [1]
+				1480562940, -- [2]
 			},
-			["Ibenas-Magtheridon"] = {
-				"16:6:748-1-1:763-1-1:762-0-1:761-0-1:1340-1-1:760-0-1:759-1-1:758-0-1:757-0-3:756-3-3:755-0-3:754-4-4:753-0-3:752-1-3:751-5-5:750-0-3:749-3-3:1372-0-20:128820", -- [1]
-				1480697078, -- [2]
+			["Liti-Dragonblight"] = {
+				"27:12:831-1-1:833-1-1:832-1-1:830-0-1:1341-1-1:1094-3-3:829-3-3:828-1-1:827-1-1:826-1-1:825-3-3:824-4-4:822-0-3:821-3-3:820-5-5:801-0-3:800-3-3:1376-0-20:128940", -- [1]
+				1479048073, -- [2]
 			},
-			["Apheleia-Draenor"] = {
-				"32:21:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-3-3:995-4-4:994-1-3:993-3-3:992-4-4:991-3-3:990-4-4:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-0-20:128908", -- [1]
-				1481985358, -- [2]
+			["Himmelfisken-Al'Akir"] = {
+				"31:19:883-1-1:897-1-1:887-1-1:886-1-1:1345-1-1:898-1-1:896-3-3:895-3-3:894-3-3:893-3-3:892-4-4:891-5-5:890-3-3:889-1-3:888-3-3:885-1-1:884-0-1:1379-0-20:128868", -- [1]
+				1481373885, -- [2]
 			},
-			["Deathofficer-Ragnaros"] = {
-				"35:18:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-3-3:1176-4-4:1175-5-5:1174-3-3:1173-3-3:1172-3-3:1171-3-3:1391-1-20:128943", -- [1]
-				1480565550, -- [2]
+			["Laha-BurningLegion"] = {
+				"29:14:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-0-3:1041-4-4:1040-3-3:1039-4-4:1038-1-3:1037-4-4:1036-3-3:1035-3-3:1034-3-3:1364-0-20:128858", -- [1]
+				1479158568, -- [2]
 			},
-			["Barsol-Uldum"] = {
-				"28:11:965-1-1:966-1-1:964-1-1:963-0-1:1342-1-1:1186-4-4:977-2-3:976-3-3:975-4-4:974-0-3:973-1-1:972-3-3:971-4-4:970-3-3:969-3-3:968-0-1:967-1-1:1377-0-20:128823", -- [1]
-				1477589901, -- [2]
-			},
-			["Bromhilda-Khadgar"] = {
-				"33:17:881-1-1:882-1-1:879-1-1:878-1-1:1336-1-1:1095-3-3:880-1-1:877-1-1:876-1-1:875-3-3:874-4-4:873-3-3:872-3-3:871-2-3:870-3-3:869-5-5:868-3-3:1368-0-20:128861", -- [1]
-				1480564831, -- [2]
-			},
-			["Relíkt-BurningLegion"] = {
-				"33:18:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-3-3:279-2-3:278-4-4:277-3-3:276-3-3:275-3-3:274-3-3:273-4-4:272-4-4:1359-0-20:128402", -- [1]
-				1480850797, -- [2]
+			["Deminoheal-TarrenMill"] = {
+				"22:17:883-1-1:897-1-1:887-1-1:886-0-1:1345-1-1:898-0-1:896-3-3:895-3-3:894-4-4:893-1-3:892-4-4:891-3-3:890-1-4:889-0-3:888-3-3:885-0-1:884-0-1:1379-0-20:128868", -- [1]
+				1480074409, -- [2]
 			},
 			["Enorath-BurningLegion"] = {
 				"22:6:1096-1-1:1236-1-1:1235-1-1:1098-0-1:1434-1-1:1328-1-1:1234-4-4:1233-1-3:1232-0-3:1231-4-4:1230-1-4:1229-3-3:1228-1-1:1101-0-3:1100-3-3:1099-3-3:1097-1-1:1363-0-20:128832", -- [1]
@@ -6344,101 +7034,101 @@ VExRT = {
 				"32:16:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-2-4:954-3-3:953-3-3:952-3-3:951-4-4:950-3-3:949-4-4:948-3-3:1366-0-20:128821", -- [1]
 				1481648494, -- [2]
 			},
-			["Fuzzyvuzzy-Kazzak"] = {
-				"33:14:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-4-4:945-3-3:944-4-4:943-4-4:942-3-3:941-3-3:940-3-3:939-3-3:938-3-3:937-1-1:936-1-1:935-0-1:1375-0-20:128937", -- [1]
-				1478967383, -- [2]
+			["Syllars-BurningLegion"] = {
+				"28:16:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-3-3:318-4-4:317-3-3:316-0-3:315-0-3:314-4-4:313-3-3:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
+				1481375560, -- [2]
 			},
-			["Dàrkki-Stormreaver"] = {
-				"16:2:291-1-1:297-0-1:296-1-1:295-0-1:1350-1-1:306-0-3:305-0-3:304-0-3:303-4-4:302-3-3:301-5-5:300-3-3:299-0-3:298-1-3:294-1-1:293-0-1:292-0-1:1387-0-20:128935", -- [1]
-				1480433420, -- [2]
+			["Kodobogan-TwistingNether"] = {
+				"34:17:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-1-1:138-1-1:137-3-3:136-3-3:135-4-4:134-4-4:133-4-4:132-3-3:131-3-3:130-3-3:129-1-1:1367-0-20:128306", -- [1]
+				1480663381, -- [2]
 			},
 			["Lolerz-BurningLegion"] = {
-				"31:23:803-1-1:818-1-1:817-1-1:816-1-1:1355-1-1:815-1-1:814-1-1:813-1-1:812-3-3:811-3-3:810-1-4:809-3-3:808-5-5:807-3-3:806-3-3:805-3-3:804-3-3:1392-0-20:128941", -- [1]
-				1483123326, -- [2]
+				"32:25:803-1-1:818-1-1:817-1-1:816-1-1:1355-1-1:815-1-1:814-1-1:813-1-1:812-3-3:811-3-3:810-2-4:809-3-3:808-5-5:807-3-3:806-3-3:805-3-3:804-3-3:1392-0-20:128941", -- [1]
+				1483648276, -- [2]
 			},
 			["Molkyl-DefiasBrotherhood"] = {
 				"34:18:91-1-1:94-1-1:93-1-1:92-1-1:1358-1-1:106-3-3:105-4-4:104-1-1:103-1-1:102-4-4:101-3-3:100-3-3:99-3-3:98-3-3:97-1-1:96-4-4:95-3-3:1395-0-20:128289", -- [1]
 				1480696162, -- [2]
 			},
-			["Gouki-Balnazzar"] = {
-				"28:20:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-4-4:1176-3-3:1175-0-3:1174-3-3:1173-3-3:1172-1-4:1171-4-4:1391-0-20:128943", -- [1]
-				1481648494, -- [2]
+			["Wesly-BurningLegion"] = {
+				"29:14:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-0-1:1113-0-1:1112-1-1:1111-0-3:1110-3-3:1109-3-3:1108-3-3:1107-4-4:1106-3-3:1105-4-4:1104-4-4:1103-3-3:1389-0-20:128911", -- [1]
+				1479158568, -- [2]
 			},
 			["Mesá-Draenor"] = {
 				"33:21:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-1-1:1131-1-1:1130-1-1:1129-3-3:1128-3-3:1127-3-3:1126-4-4:1125-4-4:1124-3-3:1123-3-3:1122-2-3:1121-4-4:1378-0-20:128866", -- [1]
 				1482106911, -- [2]
 			},
-			["Gag-Draenor"] = {
-				"33:18:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-2-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-4-4:1002-4-4:1001-3-3:1000-3-3:1362-0-20:127829", -- [1]
-				1482106911, -- [2]
+			["Berryn-TarrenMill"] = {
+				"31:21:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-1-3:756-3-3:755-3-3:754-3-3:753-3-3:752-4-4:751-4-4:750-3-3:749-4-4:1372-0-20:128820", -- [1]
+				1481985358, -- [2]
 			},
-			["Feha-Draenor"] = {
-				"32:18:125-1-1:128-1-1:127-1-1:126-1-1:1335-1-1:140-3-3:139-0-1:138-1-1:137-3-3:136-3-3:135-4-4:134-4-4:133-3-3:132-3-3:131-2-3:130-4-4:129-1-1:1367-0-20:128306", -- [1]
+			["Shadøwed-Nemesis"] = {
+				"35:18:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-3-3:329-3-3:328-5-5:327-3-3:326-3-3:325-3-3:324-3-3:323-4-4:1384-1-20:128870", -- [1]
+				1480564831, -- [2]
+			},
+			["Pínti-Ragnaros"] = {
+				"33:25:40-1-1:353-1-1:54-1-1:49-1-1:1275-1-1:352-0-1:351-1-1:350-1-1:53-4-4:52-3-3:51-5-5:50-3-3:47-3-3:44-3-3:43-3-3:42-3-3:41-3-3:1118-0-20:120978", -- [1]
+				1483579044, -- [2]
+			},
+			["Madjin-Khadgar"] = {
+				"29:11:1120-1-1:1135-1-1:1134-1-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-1-1:1129-4-4:1128-3-3:1127-3-3:1126-3-3:1125-3-3:1124-3-3:1123-4-4:1122-1-4:1121-3-3:1378-0-20:128866", -- [1]
+				1477487636, -- [2]
+			},
+			["Charlietea-TarrenMill"] = {
+				"34:20:1102-1-1:1117-1-1:1116-1-1:1115-1-1:1352-1-1:1114-1-1:1113-1-1:1112-1-1:1111-3-3:1110-3-3:1109-3-3:1108-4-4:1107-4-4:1106-3-3:1105-4-4:1104-3-3:1103-3-3:1389-0-20:128911", -- [1]
+				1481648494, -- [2]
+			},
+			["Sajin-TarrenMill"] = {
+				"14:1:881-1-1:882-0-1:879-0-1:878-1-1:1336-1-1:1095-0-3:880-0-1:877-0-1:876-0-1:875-4-4:874-3-3:873-0-3:872-4-4:871-0-3:870-0-3:869-3-3:868-0-3:1368-0-20:128861", -- [1]
+				1481378240, -- [2]
+			},
+			["Sheildmaster-Kazzak"] = {
+				"30:16:1136-1-1:1139-1-1:1138-1-1:1137-1-1:1356-1-1:1151-0-3:1150-3-3:1149-3-3:1148-4-4:1147-3-3:1146-3-3:1145-4-4:1144-3-4:1143-3-3:1142-1-1:1141-1-1:1140-1-1:1393-0-20:128910", -- [1]
 				1480434900, -- [2]
 			},
-			["Synerios-Kazzak"] = {
-				"31:15:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-3-3:945-3-3:944-4-4:943-0-3:942-4-4:941-3-3:940-4-4:939-3-3:938-3-3:937-1-1:936-1-1:935-1-1:1375-0-20:128937", -- [1]
-				1480564831, -- [2]
-			},
-			["Speejson-BurningLegion"] = {
-				"29:13:1049-1-1:1048-0-1:1047-1-1:1046-1-1:1294-1-1:1045-0-1:1044-1-1:1043-1-1:1042-4-4:1041-5-5:1040-3-3:1039-3-3:1038-3-3:1037-3-3:1036-3-3:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
-				1478817541, -- [2]
-			},
-			["Voidflame-BurningLegion"] = {
-				"36:19:1096-1-1:1236-1-1:1235-1-1:1098-1-1:1434-1-1:1328-1-1:1234-3-3:1233-3-3:1232-3-3:1231-5-5:1230-3-3:1229-4-4:1228-1-1:1101-3-3:1100-3-3:1099-3-3:1097-1-1:1363-2-20:128832", -- [1]
-				1482970612, -- [2]
-			},
-			["Nimarean-Draenor"] = {
-				"13:0:899-1-1:930-0-1:901-1-1:900-0-1:1351-1-1:913-0-3:912-3-3:911-3-3:910-4-4:909-2-3:908-0-3:907-0-3:906-1-4:905-0-3:904-0-1:903-0-1:902-0-1:1388-0-20:128819", -- [1]
-				1480564831, -- [2]
-			},
-			["Meliotas-Talnivarr"] = {
-				"16:8:1096-1-1:1236-0-1:1235-0-1:1098-1-1:1434-0-1:1328-1-1:1234-1-4:1233-3-3:1232-4-4:1231-0-3:1230-4-4:1229-3-3:1228-1-1:1101-1-3:1100-0-3:1099-0-3:1097-0-1:1363-0-20:128832", -- [1]
-				1476280083, -- [2]
-			},
-			["Kornshredder-Draenor"] = {
-				"16:11:960-1-1:979-1-1:962-0-1:961-0-1:1334-1-1:959-0-1:958-0-1:957-1-1:956-4-4:955-0-3:954-1-3:953-1-4:952-0-3:951-3-3:950-4-4:949-0-3:948-3-3:1366-0-20:128821", -- [1]
-				1478027475, -- [2]
+			["Maadbas-TwistingNether"] = {
+				"29:17:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-0-1:332-1-1:331-3-3:330-4-4:329-0-3:328-3-3:327-4-4:326-2-3:325-3-3:324-4-4:323-3-3:1384-0-20:128870", -- [1]
+				1480562940, -- [2]
 			},
 			["Sevecio-BurningLegion"] = {
 				"27:15:122-1-1:1092-0-1:124-1-1:123-1-1:1332-1-1:1091-0-1:1090-3-3:120-1-1:119-1-1:117-3-3:115-3-3:114-0-3:113-4-4:111-1-3:110-4-4:109-4-4:108-3-3:1360-0-20:128292", -- [1]
 				1479470490, -- [2]
 			},
-			["Navydream-BurningLegion"] = {
-				"26:21:831-1-1:833-1-1:832-1-1:830-1-1:1341-1-1:1094-1-4:829-0-3:828-1-1:827-1-1:826-0-1:825-3-3:824-2-3:822-3-3:821-4-4:820-4-4:801-3-3:800-3-3:1376-0-20:128940", -- [1]
-				1481933929, -- [2]
+			["Robotnuny-BurningBlade"] = {
+				"6:0:931-1-1:934-0-1:933-0-1:932-0-1:1295-1-1:946-3-3:945-2-3:944-0-3:943-0-3:942-0-3:941-1-4:940-1-4:939-0-3:938-0-3:937-0-1:936-0-1:935-0-1:1375-0-20:128937", -- [1]
+				1481935738, -- [2]
 			},
-			["Garloch-Lightbringer"] = {
-				"18:8:1170-1-1:1185-1-1:1184-0-1:1183-1-1:1354-1-1:1182-1-1:1181-0-1:1180-1-1:1179-0-3:1178-3-3:1177-4-4:1176-3-3:1175-0-3:1174-1-4:1173-1-3:1172-0-3:1171-4-4:1391-0-20:128943", -- [1]
-				1481934731, -- [2]
+			["Raengo-Nethersturm"] = {
+				"35:22:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-3-3:305-3-3:304-3-3:303-4-4:302-3-3:301-4-4:300-4-4:299-3-3:298-3-3:294-1-1:293-1-1:292-1-1:1387-1-20:128935", -- [1]
+				1482328291, -- [2]
 			},
 			["Zubrowkaax-BurningLegion"] = {
 				"46:23:1010-1-1:1016-1-1:1015-1-1:1014-1-1:1330-1-1:1013-1-1:1012-1-1:1011-1-1:1008-3-3:1007-3-3:1006-3-3:1005-3-3:1004-4-4:1003-3-3:1002-3-3:1001-5-5:1000-3-3:1362-12-20:127829", -- [1]
 				1482939991, -- [2]
 			},
-			["Vargash-Eredar"] = {
-				"35:21:899-1-1:930-1-1:901-1-1:900-1-1:1351-1-1:913-3-3:912-3-3:911-3-3:910-6-6:909-3-3:908-3-3:907-3-3:906-3-3:905-3-3:904-1-1:903-1-1:902-1-1:1388-1-20:128819", -- [1]
-				1482106911, -- [2]
+			["Nidhogg-Stormreaver"] = {
+				"41:22:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-4-4:1176-3-3:1175-3-3:1174-3-3:1173-3-3:1172-4-4:1171-4-4:1391-7-20:128943", -- [1]
+				1482328291, -- [2]
 			},
 			["Kielki-BurningLegion"] = {
 				"35:19:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-4-4:995-5-5:994-3-3:993-3-3:992-3-3:991-3-3:990-3-3:989-3-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-1-20:128908", -- [1]
 				1482328291, -- [2]
 			},
-			["Piizzaguy-BurningLegion"] = {
-				"33:20:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-4-4:330-3-3:329-2-3:328-3-3:327-3-3:326-3-3:325-4-4:324-4-4:323-3-3:1384-0-20:128870", -- [1]
-				1481933929, -- [2]
+			["Kelándra-TwistingNether"] = {
+				"28:15:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-2-4:756-3-3:755-3-3:754-4-4:753-0-3:752-3-3:751-3-3:750-3-3:749-4-4:1372-0-20:128820", -- [1]
+				1479470490, -- [2]
 			},
-			["Trembull-TwistingNether"] = {
-				"29:16:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-1-3:1041-5-5:1040-3-3:1039-3-3:1038-3-3:1037-3-3:1036-4-4:1035-3-3:1034-0-3:1364-0-20:128858", -- [1]
-				1481554498, -- [2]
+			["Thrandull-Lightbringer"] = {
+				"22:10:1120-1-1:1135-1-1:1134-0-1:1133-1-1:1343-1-1:1132-0-1:1131-0-1:1130-0-1:1129-3-3:1128-4-4:1127-0-3:1126-3-3:1125-4-4:1124-4-4:1123-1-3:1122-0-3:1121-3-3:1378-0-20:128866", -- [1]
+				1480432079, -- [2]
 			},
-			["Xeqtioner-TarrenMill"] = {
-				"35:18:149-1-1:152-1-1:151-1-1:150-1-1:1333-1-1:1119-5-5:267-3-3:266-3-3:265-3-3:264-3-3:263-1-1:262-3-3:158-3-3:157-3-3:156-4-4:154-1-1:153-1-1:1361-1-20:128403", -- [1]
-				1480433829, -- [2]
+			["Exentia-Draenor"] = {
+				"27:19:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-0-1:778-0-3:777-3-3:776-5-5:775-3-3:774-0-3:773-4-4:772-3-3:771-3-3:767-3-3:766-1-1:765-1-1:1381-0-20:128827", -- [1]
+				1481985358, -- [2]
 			},
-			["Pigot-Kazzak"] = {
-				"33:18:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-4-4:319-3-3:318-3-3:317-2-3:316-3-3:315-3-3:314-4-4:313-3-3:312-4-4:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
-				1481935738, -- [2]
+			["Shishikyu-Kazzak"] = {
+				"47:24:40-1-1:353-1-1:54-1-1:49-1-1:1275-1-1:352-1-1:351-1-1:350-1-1:53-4-4:52-3-3:51-4-4:50-3-3:47-3-3:44-3-3:43-3-3:42-4-4:41-3-3:1118-13-20:120978", -- [1]
+				1483501592, -- [2]
 			},
 			["Polyxeni-TwistingNether"] = {
 				"27:18:764-1-1:770-1-1:769-1-1:768-1-1:1347-1-1:779-0-1:778-0-3:777-3-3:776-4-4:775-3-3:774-0-3:773-4-4:772-4-4:771-3-3:767-3-3:766-1-1:765-1-1:1381-0-20:128827", -- [1]
@@ -6448,17 +7138,17 @@ VExRT = {
 				"21:7:40-1-1:353-1-1:54-0-1:49-0-1:1275-1-1:352-0-1:351-0-1:350-1-1:53-6-6:52-0-3:51-3-3:50-3-3:47-3-3:44-0-3:43-0-3:42-3-3:41-3-3:1118-0-20:120978", -- [1]
 				1480434900, -- [2]
 			},
-			["Nidhogg-Stormreaver"] = {
-				"41:22:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-4-4:1176-3-3:1175-3-3:1174-3-3:1173-3-3:1172-4-4:1171-4-4:1391-7-20:128943", -- [1]
-				1482328291, -- [2]
+			["Requs-BurningLegion"] = {
+				"34:24:931-1-1:934-1-1:933-1-1:932-1-1:1295-1-1:946-3-3:945-3-3:944-4-4:943-4-4:942-3-3:941-4-4:940-3-3:939-3-3:938-3-3:937-1-1:936-1-1:935-1-1:1375-0-20:128937", -- [1]
+				1483654210, -- [2]
 			},
-			["Арчдевил-Ревущийфьорд"] = {
-				"37:22:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-3-3:1040-4-4:1039-4-4:1038-3-3:1037-3-3:1036-3-3:1035-3-3:1034-4-4:1364-3-20:128858", -- [1]
-				1482328291, -- [2]
+			["Sickdruid-Aggra(Português)"] = {
+				"13:0:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-0-3:955-0-3:954-0-3:953-0-3:952-3-3:951-4-4:950-4-4:949-0-3:948-0-3:1366-0-20:128821", -- [1]
+				1480567312, -- [2]
 			},
-			["Berryn-TarrenMill"] = {
-				"31:21:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-0-1:759-1-1:758-1-1:757-1-3:756-3-3:755-3-3:754-3-3:753-3-3:752-4-4:751-4-4:750-3-3:749-4-4:1372-0-20:128820", -- [1]
-				1481985358, -- [2]
+			["Navalon-LosErrantes"] = {
+				"34:21:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-3-3:1176-3-3:1175-3-3:1174-4-4:1173-4-4:1172-3-3:1171-4-4:1391-0-20:128943", -- [1]
+				1482167692, -- [2]
 			},
 			["Darriow-Twilight'sHammer"] = {
 				"24:18:834-1-1:837-1-1:836-0-1:835-1-1:1346-1-1:849-0-3:848-4-4:847-3-3:846-5-5:845-0-1:844-3-3:843-2-3:842-3-3:841-0-3:840-0-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
@@ -6468,41 +7158,41 @@ VExRT = {
 				"39:21:291-1-1:297-1-1:296-1-1:295-1-1:1350-1-1:306-4-4:305-3-3:304-3-3:303-4-4:302-3-3:301-3-3:300-3-3:299-3-3:298-4-4:294-1-1:293-1-1:292-1-1:1387-5-20:128935", -- [1]
 				1481985358, -- [2]
 			},
-			["Rusev-BurningLegion"] = {
-				"42:22:960-1-1:979-1-1:962-1-1:961-1-1:1334-1-1:959-1-1:958-1-1:957-1-1:956-3-3:955-3-3:954-4-4:953-3-3:952-3-3:951-3-3:950-3-3:949-5-5:948-3-3:1366-8-20:128821", -- [1]
-				1482509801, -- [2]
+			["Sanmaru-TwistingNether"] = {
+				"25:15:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-0-3:279-4-4:278-3-3:277-3-3:276-0-3:275-1-4:274-3-3:273-4-4:272-3-3:1359-0-20:128402", -- [1]
+				1479470490, -- [2]
 			},
 			["Shief-Outland"] = {
 				"18:8:931-1-1:934-0-1:933-1-1:932-1-1:1295-1-1:946-4-4:945-3-3:944-2-3:943-0-3:942-0-3:941-3-3:940-3-3:939-0-3:938-0-3:937-0-1:936-1-1:935-0-1:1375-0-20:128937", -- [1]
 				1477655959, -- [2]
 			},
-			["Direknight-BurningLegion"] = {
-				"29:14:289-1-1:286-1-1:285-1-1:284-1-1:1331-1-1:283-1-1:282-1-1:281-1-1:280-4-4:279-3-3:278-3-3:277-3-3:276-2-4:275-4-4:274-3-3:273-0-3:272-3-3:1359-0-20:128402", -- [1]
-				1478813137, -- [2]
+			["Yunei-Hyjal"] = {
+				"31:18:834-1-1:837-1-1:836-1-1:835-1-1:1346-1-1:849-3-3:848-4-4:847-4-4:846-3-3:845-0-1:844-3-3:843-3-3:842-4-4:841-1-3:840-1-1:839-1-1:838-3-3:1380-0-20:128825", -- [1]
+				1480873414, -- [2]
 			},
-			["Tarrá-Executus"] = {
-				"15:6:1102-1-1:1117-0-1:1116-1-1:1115-0-1:1352-1-1:1114-0-1:1113-0-1:1112-0-1:1111-0-3:1110-0-3:1109-0-3:1108-4-4:1107-0-3:1106-4-4:1105-1-3:1104-3-3:1103-4-4:1389-0-20:128911", -- [1]
-				1482339246, -- [2]
+			["Fulinu-Lightbringer"] = {
+				"31:20:307-1-1:322-1-1:321-1-1:311-1-1:1337-1-1:320-3-3:319-3-3:318-3-3:317-2-3:316-1-3:315-5-5:314-3-3:313-4-4:312-3-3:310-1-1:309-1-1:308-1-1:1369-0-20:128826", -- [1]
+				1482074642, -- [2]
 			},
-			["Imany-TarrenMill"] = {
-				"35:22:748-1-1:763-1-1:762-1-1:761-1-1:1340-1-1:760-1-1:759-1-1:758-1-1:757-3-3:756-3-3:755-4-4:754-3-3:753-3-3:752-3-3:751-4-4:750-3-3:749-4-4:1372-1-20:128820", -- [1]
-				1482342445, -- [2]
+			["Notkaylen-TarrenMill"] = {
+				"13:0:291-1-1:297-0-1:296-1-1:295-0-1:1350-1-1:306-0-3:305-0-3:304-1-4:303-3-3:302-3-3:301-4-4:300-0-3:299-0-3:298-0-3:294-1-1:293-0-1:292-1-1:1387-0-20:128935", -- [1]
+				1480567312, -- [2]
 			},
-			["Navalon-LosErrantes"] = {
-				"34:21:1170-1-1:1185-1-1:1184-1-1:1183-1-1:1354-1-1:1182-1-1:1181-1-1:1180-1-1:1179-3-3:1178-3-3:1177-3-3:1176-3-3:1175-3-3:1174-4-4:1173-4-4:1172-3-3:1171-4-4:1391-0-20:128943", -- [1]
-				1482167692, -- [2]
+			["Haldiro-AzjolNerub"] = {
+				"28:17:984-1-1:982-1-1:981-1-1:980-1-1:1357-1-1:996-5-5:995-3-3:994-2-3:993-3-3:992-1-3:991-4-4:990-3-3:989-0-3:988-3-3:987-1-1:986-1-1:985-1-1:1394-0-20:128908", -- [1]
+				1480361859, -- [2]
 			},
 			["Talpa-BurningLegion"] = {
-				"36:22:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-4-4:1040-3-3:1039-4-4:1038-3-3:1037-4-4:1036-3-3:1035-3-3:1034-3-3:1364-2-20:128858", -- [1]
-				1482446788, -- [2]
+				"42:25:1049-1-1:1048-1-1:1047-1-1:1046-1-1:1294-1-1:1045-1-1:1044-1-1:1043-1-1:1042-3-3:1041-4-4:1040-3-3:1039-5-5:1038-3-3:1037-3-3:1036-3-3:1035-3-3:1034-3-3:1364-8-20:128858", -- [1]
+				1483654210, -- [2]
 			},
-			["Illeora-Stormscale"] = {
-				"27:12:1096-1-1:1236-1-1:1235-1-1:1098-0-1:1434-1-1:1328-1-1:1234-3-3:1233-3-3:1232-1-4:1231-3-3:1230-3-3:1229-3-3:1228-1-1:1101-1-4:1100-4-4:1099-3-3:1097-1-1:1363-0-20:128832", -- [1]
-				1479389635, -- [2]
+			["Fantrise-BurningLegion"] = {
+				"39:25:346-1-1:347-1-1:337-1-1:335-1-1:1276-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-6-6:329-3-3:328-3-3:327-3-3:326-3-3:325-3-3:324-3-3:323-3-3:1384-5-20:128870", -- [1]
+				1483654210, -- [2]
 			},
-			["Doommie-TwistingNether"] = {
-				"17:17:1136-1-1:1139-1-1:1138-0-1:1137-1-1:1356-1-1:1151-1-4:1150-4-4:1149-3-3:1148-3-3:1147-0-3:1146-2-4:1145-3-3:1144-0-3:1143-0-3:1142-1-1:1141-0-1:1140-0-1:1393-0-20:128910", -- [1]
-				1481935277, -- [2]
+			["Thrashranade-TwistingNether"] = {
+				"16:6:960-1-1:979-0-1:962-0-1:961-1-1:1334-1-1:959-0-1:958-1-1:957-1-1:956-4-4:955-0-3:954-1-4:953-0-3:952-3-3:951-3-3:950-3-3:949-0-3:948-1-4:1366-0-20:128821", -- [1]
+				1478967766, -- [2]
 			},
 			["Kíssalke-BurningLegion"] = {
 				"17:10:122-1-1:1092-0-1:124-1-1:123-0-1:1332-1-1:1091-0-1:1090-3-3:120-1-1:119-1-1:117-4-4:115-0-3:114-0-3:113-3-3:111-0-3:110-1-3:109-2-5:108-3-3:1360-0-20:128292", -- [1]
@@ -6512,143 +7202,42 @@ VExRT = {
 				"37:18:290-1-1:86-1-1:80-1-1:73-1-1:1339-1-1:1169-1-1:87-1-1:84-3-3:83-3-3:82-3-3:81-3-3:79-3-3:78-1-1:77-3-3:75-3-3:74-6-6:72-3-3:1371-3-20:127857", -- [1]
 				1480433828, -- [2]
 			},
-			["Kyrza-Khadgar"] = {
-				"13:0:290-1-1:86-0-1:80-1-1:73-0-1:1339-1-1:1169-0-1:87-0-1:84-3-3:83-0-3:82-4-4:81-2-3:79-0-3:78-0-1:77-0-3:75-1-4:74-3-3:72-0-3:1371-0-20:127857", -- [1]
-				1481376674, -- [2]
+			["Creame-Ragnaros"] = {
+				"40:25:851-1-1:866-1-1:865-1-1:864-1-1:1349-1-1:863-1-1:862-1-1:861-1-1:860-3-3:859-3-3:858-3-3:857-4-4:856-4-4:855-3-3:854-3-3:853-4-4:852-3-3:1386-6-20:128476", -- [1]
+				1483548739, -- [2]
 			},
 		},
 	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["trackingDamageSpells"] = {
-		},
-		["autoSegments"] = {
-		},
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["fightsNum"] = 5,
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["Bossmods"] = {
-		["Ilgynoth"] = {
-			"Søsexi", -- [1]
-			"Voodooprst", -- [2]
-			"Avanafil", -- [3]
-			"Zozusek", -- [4]
-			nil, -- [5]
-			"Senurtan", -- [6]
-			"Akcent", -- [7]
-			"Vaadoos", -- [8]
-			"Redus", -- [9]
-			"Sheinen", -- [10]
-			"Dariogar", -- [11]
-			"Mitthi", -- [12]
-			"Azurewratmg", -- [13]
-			"Nevondes", -- [14]
-			"Morfizer", -- [15]
-			"Alastor", -- [16]
-			"Rediva", -- [17]
-			"Fantrise", -- [18]
-			"Stamperia", -- [19]
-			"Kiciex", -- [20]
-			"Szoplifter", -- [21]
-			["name"] = "Redus-BurningLegion",
-			["sync"] = true,
-			["time"] = 1480969117,
-		},
-		["Kormrok"] = {
-		},
-		["ArchimondeRadius"] = 40,
-		["Mannoroth"] = {
-		},
-		["IlgynothSetups"] = {
-			{
-			}, -- [1]
-			{
-			}, -- [2]
-			{
-			}, -- [3]
-			{
-			}, -- [4]
-			{
-			}, -- [5]
-		},
-		["KormrokSetups"] = {
-		},
-		["ModuleViewed3580"] = true,
-		["IlgynothScale"] = 0.67,
-		["Kromog"] = {
-		},
-	},
-	["RaidCheck"] = {
-		["FlaskExp"] = 1,
-		["RunesCheck"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["ReadyCheck"] = true,
-		["disableLFR"] = true,
-		["SendSelf"] = true,
-	},
-	["Logging"] = {
-		["disableLFR"] = true,
-	},
-	["MarksBar"] = {
-		["Show"] = {
-			nil, -- [1]
-			nil, -- [2]
-			nil, -- [3]
-			true, -- [4]
+	["Note"] = {
+		["BlackNames"] = {
 		},
 		["Strata"] = "HIGH",
-		["pulltimer"] = 10,
-		["DisableOutsideRaid"] = true,
-		["Scale"] = 200,
-		["Top"] = 349.500061035156,
-		["Left"] = 728.999572753906,
-		["enabled"] = true,
-	},
-	["Profiles"] = {
-	},
-	["Timers"] = {
-		["specTimes"] = {
-			[62] = 10,
-			[63] = 10,
-			[250] = 10,
-			[251] = 10,
-			[64] = 10,
-			[253] = 10,
-			[65] = 10,
-			[255] = 10,
-			[66] = 10,
-			[257] = 10,
-			[258] = 10,
-			[259] = 10,
-			[260] = 10,
-			[261] = 25,
-			[262] = 16,
-			[263] = 10,
-			[264] = 10,
-			[265] = 22,
-			[266] = 10,
-			[267] = 10,
-			[268] = 10,
-			[269] = 10,
-			[270] = 10,
-			[70] = 10,
-			[102] = 10,
-			[71] = 10,
-			[103] = 10,
-			[72] = 10,
-			[104] = 10,
-			[73] = 10,
-			[252] = 10,
-			[105] = 10,
-			[254] = 10,
-			[256] = 10,
-			[577] = 10,
-			[581] = 10,
+		["LastUpdateName"] = "Elewyr-Drak'thul",
+		["AutoLoad"] = {
+			[0] = 1854,
 		},
-		["Strata"] = "HIGH",
+		["LastUpdateTime"] = 1483575821,
+		["Width"] = 199.999786376953,
+		["Black"] = {
+			"", -- [1]
+			"", -- [2]
+			"", -- [3]
+		},
+		["Height"] = 99.9999542236328,
+		["FontSize"] = 12,
+		["Text1"] = "Rozestupy ||cffff00ff 10yd !||r\n\n||cff00ff00 Levá strana:||r 1 a 3 Grupa\n||cffff0000 Pravá strana:||r 2 a 4 Grupa\n\n||cff5555eePortály||r: Tera{H}, Trivium{Demon Hunter}, Masakry{Monk}, Ceaise{Demon Hunter},\n             \n1. Portál {cross}, 2. Portál {square}, 3. Portál {moon}\n\n{triangle}{triangle} ||cffff0000Lethon ||r- cast Siphon Spirit = switch do spiritů {triangle}{triangle} ",
+		["DefName"] = "Draci",
+	},
+	["InviteTool"] = {
+		["Words"] = "inv",
+		["AutoPromote"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["LootThreshold"] = 2,
+		["MasterLooters"] = "Redus Sheinen Dariogar",
+		["LootMethod"] = "master",
+		["PromoteNames"] = "Rediva Kiciex",
+		["AutoRaidDiff"] = true,
+		["Rank"] = 5,
 	},
 }

@@ -6,6 +6,8 @@ if not L then return end
 
 if L then
 L["ADDON_NOTES"] = "追踪所有获取的通货，并显示在游戏画面上"
+L["CT_CURRENCY_TO_TRACK"] = "在游戏画面上要追踪的通货："
+L["OPT_BREAKUPNUMBERS"] = "将数字加上本地化千分号"
 L["OPT_BTN_Reset"] = "重置位置"
 L["OPT_ShowOnScreen"] = "在游戏画面上显示通货信息"
 L["OPT_TOOLTIPSCALE"] = "通货信息提示的大小比例"

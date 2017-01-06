@@ -1,30 +1,15 @@
 ------------------------------------------------------------------------
-r35 | arith | 2016-12-26 02:27:50 -0600 (Mon, 26 Dec 2016) | 2 lines
+r37 | arith | 2017-01-04 03:41:12 -0600 (Wed, 04 Jan 2017) | 4 lines
 Changed paths:
-   M /trunk/Docs/Revision.txt
-   M /trunk/Libs
-
-update external library  links
-prepare for release
-------------------------------------------------------------------------
-r34 | arith | 2016-12-23 02:35:30 -0600 (Fri, 23 Dec 2016) | 4 lines
-Changed paths:
-   M /trunk/.pkgmeta
    M /trunk/CurrencyTracking.lua
    M /trunk/CurrencyTracking.toc
    M /trunk/CurrencyTracking_Options.lua
    M /trunk/CurrencyTracking_Options.xml
    M /trunk/Docs/Revision.txt
-   M /trunk/Embeds.xml
-   M /trunk/Locale/GlobalStrings.lua
-   M /trunk/Locale/Locales.xml
-   M /trunk/Locale/enUS.lua
-   A /trunk/Locale/koKR.lua
-   M /trunk/Locale/zhTW.lua
 
-- Added missing koKR localization file
-- Supports to track on whatever you would like to track. 
-  Tracking's configuration is now managed in addon's option panel. 
-  User will need to do a fresh config since this version.  
+- Added more space between currencies
+- Codes cleaned-up
+- Translation update:
+  - Korean (next96)
 ------------------------------------------------------------------------
 

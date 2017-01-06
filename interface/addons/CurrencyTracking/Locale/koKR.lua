@@ -6,6 +6,7 @@ if not L then return end
 
 if L then
 L["ADDON_NOTES"] = "Currency Tracking은 획득한 화폐를 추적하고 화면 상단에 선택한 화폐를 표시해주는 애드온입니다."
+L["CT_CURRENCY_TO_TRACK"] = "화면에 추적중인 화폐:"
 L["OPT_BTN_Reset"] = "위치 초기화"
 L["OPT_ShowOnScreen"] = "화면에 화폐 정보 표시"
 L["OPT_TOOLTIPSCALE"] = "화폐 정보 툴팁의 크기 비율"

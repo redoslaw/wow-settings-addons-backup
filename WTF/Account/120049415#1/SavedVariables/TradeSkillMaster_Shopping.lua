@@ -1,12 +1,8 @@
 
 TradeSkillMaster_ShoppingDB = {
-	["_currentProfile"] = {
-		["Ðeadshot - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-	},
-	["_version"] = 3,
-	["g@ @sniperVendorPrice"] = true,
+	["g@ @sniperCustomPrice"] = "0c",
+	["g@ @maxDeSearchPercent"] = 1,
+	["g@ @postUndercut"] = "1c",
 	["g@ @postBidPercent"] = 0.95,
 	["_scopeKeys"] = {
 		["char"] = {
@@ -14,26 +10,23 @@ TradeSkillMaster_ShoppingDB = {
 			"Ðeadshot - Burning Legion", -- [2]
 			"Ðeathshot - Steamwheedle Cartel", -- [3]
 		},
-		["factionrealm"] = {
-			"Horde - Burning Legion", -- [1]
-			"Alliance - Steamwheedle Cartel", -- [2]
+		["realm"] = {
+			"Burning Legion", -- [1]
+			"Steamwheedle Cartel", -- [2]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["realm"] = {
-			"Burning Legion", -- [1]
-			"Steamwheedle Cartel", -- [2]
+		["factionrealm"] = {
+			"Horde - Burning Legion", -- [1]
+			"Alliance - Steamwheedle Cartel", -- [2]
 		},
 	},
 	["g@ @helpPlatesShown"] = {
 		["auction"] = true,
 	},
-	["g@ @postUndercut"] = "1c",
-	["g@ @minDeSearchLvl"] = 1,
-	["g@ @maxDeSearchLvl"] = 735,
+	["g@ @sniperVendorPrice"] = true,
 	["g@ @sniperSound"] = "TSM_NO_SOUND",
-	["g@ @marketValueSource"] = "dbmarket",
 	["g@ @savedSearches"] = {
 		{
 			["searchMode"] = "normal",
@@ -166,7 +159,14 @@ TradeSkillMaster_ShoppingDB = {
 		}, -- [21]
 	},
 	["_hash"] = 1861581,
+	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @maxDeSearchLvl"] = 735,
+	["g@ @minDeSearchLvl"] = 1,
 	["g@ @normalPostPrice"] = "150% dbmarket",
-	["g@ @maxDeSearchPercent"] = 1,
-	["g@ @sniperCustomPrice"] = "0c",
+	["_version"] = 3,
+	["_currentProfile"] = {
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
 }

@@ -24,6 +24,14 @@ MultishotConfig = {
 		[0] = true,
 	},
 	["history"] = {
+		["Redus3653"] = true,
+		["Redus4422"] = true,
+		["Redus12118"] = true,
+		["Redus5721"] = true,
+		["Redus14323"] = true,
+		["Redus60043"] = true,
+		["Redus5720"] = true,
+		["Redus1839"] = true,
 	},
 	["groupstatus"] = {
 		["1solo"] = true,

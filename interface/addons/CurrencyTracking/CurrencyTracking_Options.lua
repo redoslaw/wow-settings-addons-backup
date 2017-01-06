@@ -1,6 +1,10 @@
 --[[
-$Id: CurrencyTracking_Options.lua 34 2016-12-23 08:35:30Z arith $
+$Id: CurrencyTracking_Options.lua 37 2017-01-04 09:41:12Z arith $
 ]]
+local _G = getfenv(0)
+
+local CurrencyTracking_Player = UnitName("player");
+local CurrencyTracking_Server = GetRealmName();
 
 local LibStub = _G.LibStub;
 local L = LibStub("AceLocale-3.0"):GetLocale("CurrencyTracking");
@@ -51,21 +55,14 @@ function CurrencyTrackingOptions_OnShow()
 	CurrencyTrackingTokenContainer_Update();
 end
 
-function CurrencyTrackingOptions_OnHide(self)
-	if(MYADDONS_ACTIVE_OPTIONSFRAME == self) then
-		ShowUIPanel(myAddOnsFrame);
-	end
-end
-
 function CurrencyTrackingOptions_ShowOnScreenToggle()
 	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 	
-	if(CurrencyTrackingInfoFrame:IsVisible()) then
-		CurrencyTrackingInfoFrame:Hide();
-		options.show_currency = false;
-	else
+	options.show_currency = not options.show_currency;
+	if(options.show_currency) then
 		CurrencyTrackingInfoFrame:Show();
-		options.show_currency = true;
+	else
+		CurrencyTrackingInfoFrame:Hide();
 	end
 end
 
@@ -111,27 +108,6 @@ function CurrencyTrackingOptions_OnMouseWheel(self, delta)
 	else
 		self:SetValue(self:GetValue() - self:GetValueStep())
 	end
-end
-
-function CurrencyTracking_PopulateCurrencyList()
-	local name, isHeader, isExpanded, isUnused, count, icon, cCount;
-
-	cCount = GetCurrencyListSize();
-	for i = 1, cCount do 
-		-- // GetCurrencyListInfo() syntax:
-		-- // name, isHeader, isExpanded, isUnused, isWatched, count, icon = GetCurrencyListInfo(index);
-		name, isHeader, isExpanded, isUnused, _, count, icon = GetCurrencyListInfo(i);
-		if ( isHeader ) then
-			tooltip = tooltip..name.."\n";
-		elseif ( (count ~= 0) and not isUnused ) then
-			if (icon ~= nil) then
-				display = " - "..name.."\t"..BreakUpLargeNumbers(count).." |T"..icon..":16|t"
-			end
-			-- trace(display)
-			tooltip = strconcat(tooltip, display,"|r\n");
-		end
-	end 
-
 end
 
 function CurrencyTrackingTokenButton_OnLoad(self)
@@ -253,16 +229,20 @@ function CurrencyTrackingTokenButton_OnClick(self)
 end
 
 function CurrencyTrackingTokenButton_ToggleTrack(name)
-	if (CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name] ~= nil) then
-		CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name] = not CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name];
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+
+	if (options["currencies"][name] ~= nil) then
+		options["currencies"][name] = not options["currencies"][name];
 	else
-		CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name] = false;
+		options["currencies"][name] = false;
 	end
 end
 
 function CurrencyTracking_SetupTokenOptions(name)
-	if (CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name] == nil) then
-		CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"]["currencies"][name] = false;
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+
+	if (options["currencies"][name] == nil) then
+		options["currencies"][name] = false;
 	end
 end
 

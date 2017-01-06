@@ -2,6 +2,7 @@
 ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
+	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"ActionBarProfiles", -- [1]
@@ -339,11 +340,10 @@ ACP_Data = {
 			"DBM-WorldEvents", -- [111]
 		}, -- [3]
 	},
-	["NoChildren"] = true,
 	["collapsed"] = {
-		["WoWPro"] = true,
-		["Blizzard Addons"] = true,
 		["HandyNotes"] = true,
+		["Blizzard Addons"] = true,
+		["WoWPro"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,
