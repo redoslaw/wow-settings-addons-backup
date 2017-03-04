@@ -1,0 +1,219 @@
+
+GSEOptions = {
+	["use2"] = false,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["COMMENT"] = "|cff55cc55",
+	["use14"] = true,
+	["EQUALS"] = "|cffccddee",
+	["use11"] = false,
+	["sendDebugOutputToChatWindow"] = false,
+	["debug"] = false,
+	["use6"] = false,
+	["CommandColour"] = "|cFF00FF00",
+	["UNKNOWN"] = "|cffff6666",
+	["sendDebugOutputToDebugOutput"] = false,
+	["hideSoundErrors"] = false,
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Name"] = "Samples",
+			["Version"] = "200",
+			["SequenceNames"] = {
+				"SAM_ProtWar", -- [1]
+				"SAM_Fury1", -- [2]
+				"SAM_Arms_ST", -- [3]
+				"SAM_Arms_AOE", -- [4]
+				"SAM_FuryAOE", -- [5]
+				"SAM_RetAOE", -- [6]
+				"SAM_HolyDeeps", -- [7]
+				"SAM_Prot_AOE", -- [8]
+				"SAM_RetRef", -- [9]
+				"SAM_Prot_ST", -- [10]
+				"SAM_Ret", -- [11]
+				"SAM_Palla_Sera", -- [12]
+				"SAM_BMaoe", -- [13]
+				"SAM_BMsingle", -- [14]
+				"SAM_SURVST", -- [15]
+				"SAM_SURVAOE", -- [16]
+				"SAM_Marks_AOE", -- [17]
+				"SAM_Mm_ST", -- [18]
+				"SAM_CalliynOutlaw", -- [19]
+				"SAM_Assassin", -- [20]
+				"SAM_Subtle", -- [21]
+				"SAM_Disc-THeal", -- [22]
+				"SAM_HolyPriesty", -- [23]
+				"SAM_KTN_MouseOver", -- [24]
+				"SAM_Disc-THealAoe", -- [25]
+				"SAM_Disc-TDPS", -- [26]
+				"SAM_ShadowPriest", -- [27]
+				"SAM_FDK2", -- [28]
+				"SAM_BloodDK", -- [29]
+				"SAM_DKunholy", -- [30]
+				"SAM_ElemAoE", -- [31]
+				"SAM_MC_Chain", -- [32]
+				"SAM_RestoDeeps", -- [33]
+				"SAM_enhsingle", -- [34]
+				"SAM_Elem", -- [35]
+				"SAM_MC_Surge", -- [36]
+				"SAM_MC_Wave", -- [37]
+				"SAM_Fire", -- [38]
+				"SAM_Arcane", -- [39]
+				"SAM_Ichthys_Frosty", -- [40]
+				"SAM_AFF", -- [41]
+				"SAM_DemoAoE", -- [42]
+				"SAM_Demon", -- [43]
+				"SAM_Destro", -- [44]
+				"SAM_DemoSingle", -- [45]
+				"SAM_AFF2", -- [46]
+				"SAM_BrewMaster_AoE", -- [47]
+				"SAM_WW", -- [48]
+				"SAM_BrewMaster_ST", -- [49]
+				"SAM_winsingle", -- [50]
+				"SAM_Feral-AoE", -- [51]
+				"SAM_Boomer", -- [52]
+				"SAM_KTNDRUHEALS", -- [53]
+				"SAM_Bear", -- [54]
+				"SAM_Feral-ST", -- [55]
+				"SAM_druid_bala_st", -- [56]
+				"SAM_DHHavoc", -- [57]
+				"SAM_Vengeance", -- [58]
+			},
+		},
+	},
+	["STRING"] = "|cff888888",
+	["clearUIErrors"] = false,
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["resetOOC"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["hideUIErrors"] = false,
+	["initialised"] = true,
+	["autoCreateMacroStubsGlobal"] = false,
+	["DebugModules"] = {
+		["Translator"] = false,
+		["GUI"] = false,
+		["Storage"] = false,
+		["Versions"] = false,
+		["Editor"] = false,
+		["API"] = false,
+		["Viewer"] = false,
+		["Transmission"] = false,
+	},
+	["INDENT"] = "|cffccaa88",
+	["autoCreateMacroStubsClass"] = true,
+	["filterList"] = {
+		["Spec"] = true,
+		["All"] = false,
+		["Class"] = true,
+	},
+	["EmphasisColour"] = "|cFFFFFF00",
+	["DisabledSequences"] = {
+	},
+	["WOWSHORTCUTS"] = "|cffddaaff",
+	["RealtimeParse"] = false,
+	["deleteOrphansOnLogout"] = false,
+	["ActiveSequenceVersions"] = {
+	},
+	["overflowPersonalMacros"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
+	["requireTarget"] = false,
+	["useTranslator"] = false,
+	["NUMBER"] = "|cffffaa00",
+	["use12"] = false,
+	["use13"] = true,
+	["NormalColour"] = "|cFFFFFFFF",
+	["CONCAT"] = "|cffcc7777",
+	["saveAllMacrosLocal"] = true,
+	["setDefaultIconQuestionMark"] = true,
+	["KEYWORD"] = "|cff88bbdd",
+	["use1"] = false,
+}
+GSELibrary = {
+	[8] = {
+		["SAM_Fire"] = {
+			["Talents"] = "2,2,3,3,1,1,1",
+			["Default"] = 1,
+			["SpecID"] = 63,
+			["MacroVersions"] = {
+				{
+					"/castsequence reset=combat Fireball, Fireball, Fireball, Fireball, Fire Blast, Pyroblast", -- [1]
+					"/cast Combustion", -- [2]
+					"/cast Living Bomb", -- [3]
+					"/cast Ice floes", -- [4]
+					["KeyRelease"] = {
+					},
+					["PostMacro"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+				}, -- [1]
+			},
+			["Author"] = "John Mets - wowlazymacros.com",
+		},
+		["SAM_Arcane"] = {
+			["Talents"] = "2,1,2,2,1,3,2",
+			["Default"] = 1,
+			["SpecID"] = 62,
+			["MacroVersions"] = {
+				{
+					"/castsequence [nochanneling]Arcane Blast,Arcane Blast,Arcane Blast,Arcane Blast,Arcane Barrage", -- [1]
+					"/cast [nochanneling]Arcane Missiles", -- [2]
+					"/castsequence [nochanneling]charged up, Arcane Barrage", -- [3]
+					"/cast [nochanneling]Rune of power", -- [4]
+					["PostMacro"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/startattack", -- [1]
+						"/cast [combat]Arcane Power", -- [2]
+						"/cast [combat]Presence of Mind", -- [3]
+					},
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+				}, -- [1]
+			},
+			["Author"] = "Flashgreer - wowlazymacros.com",
+		},
+		["SAM_Ichthys_Frosty"] = {
+			["Talents"] = "Talents: 1322112 -  Works best with a 0.75 to 1.0 second  button spam",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/cast [nochanneling] Rune of Power", -- [1]
+					"/cast [nochanneling] Ray of Frost", -- [2]
+					"/cast [nochanneling] Frost Bomb", -- [3]
+					"/cast [nochanneling] Frozen Orb", -- [4]
+					"/cast [nochanneling] Frozen Touch", -- [5]
+					"/cast [nochanneling] Ebonbolt", -- [6]
+					"/cast [nochanneling] Frostbolt", -- [7]
+					"/cast [nochanneling] Ice Lance", -- [8]
+					"/cast [nochanneling] Flurry", -- [9]
+					"/cast [nochanneling] Ice Lance", -- [10]
+					"/cast [nochanneling] Glacial Spike", -- [11]
+					"/cast [nochanneling] Frostbolt", -- [12]
+					["PostMacro"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [nochanneling] Ice Barrier", -- [1]
+						"/cast [nochanneling] Ice Floes", -- [2]
+						"/cast [nochanneling] Icy Veins", -- [3]
+						"/cast [nochanneling] Frozen Orb", -- [4]
+					},
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+						"/cast [nopet,nomod] Summon Water Elemental", -- [2]
+					},
+				}, -- [1]
+			},
+			["Lang"] = "enUS",
+			["Author"] = "Mageichthys@Kilrogg",
+			["Icon"] = "INV_MISC_QUESTIONMARK",
+			["SpecID"] = 64,
+		},
+	},
+}

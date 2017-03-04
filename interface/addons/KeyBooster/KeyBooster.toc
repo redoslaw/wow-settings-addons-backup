@@ -1,0 +1,10 @@
+## Interface: 70100
+## Title: KeyBooster
+## Notes: Add keystones to the LFG finder
+## Author: Simon Carlsson
+## Version: 1.0.0.6
+## SavedVariablesPerCharacter: KB_applicants, KB_premadeShowKeystone 
+
+KeystoneBooster.xml
+OnWhisper.lua
+PremadeExtension.lua

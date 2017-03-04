@@ -1,3 +1,70 @@
+### v2.2.5
+---
+##### Bugfixes
++ *The fix to ticket #237 caused another issue under certain circumstances - refixed the fix.*
+
+
+### v2.2.4
+---
+* Added Echo of Time (Nighthold quest item) to the ignore list.
+* Added proper guild rank sorting in the Version Checker.
+
+##### Bugfixes
++ *Links for gear2 is now properly generated when using TSV export.*
++ *~~Items will no longer be added multiple times to the session setup if you reopen the ML loot before starting the session (#237).~~*
++ *The Version Checker will no longer fail to show correct modules after manipulating the list.*
+
+
+### v2.2.3
+---
+* **History Export**
+ * ItemStrings are now in a seperate column.
+ * Added a tab delimited export with hyperlinks on items (#232).
+
+
+* Allowed raid groups with less than 5 people (#236).
+
+##### Bugfixes
++ *CSV export now works as intended (#233)*
++ *Made ML/candidate communication more reliable (#235)*
++ *The Version Checker will now display the realm part of a crossrealm players' name correctly.*
+
+### v2.2.2
+---
+* **Delete History entry**
+ * You can now delete individual entries in the loot history.
+
+
+* Comms optimizations.
+
+##### Bugfixes
++ *Loot History now works directly after clearing it (#228)*
++ *The previous version broke most sorting - reverted that.*
+
+
+### v2.2.1
+---
+* Artifact Relic type is now displayed in the voting frame.
+
+##### Bugfixes
++ *Fixed version comparison for good (#226)*
+
+### v2.2.0
+---
+* **Tier 19**
+ * Added support for Nighthold Tier 19 tokens.
+
+
+* **Skin**
+  * Legion's been out for a while, so the default skin is now back to Midnight Blue.
+
+
+* Buttons on the Loot Frame now always have a minimum witdh of 40 px.
+
+##### Bugfixes
++ *Added extra checks so a name related error won't happen (#223).*
++ *Fixed some false autopasses on artifact relics related to uncached items.*
+
 ### v2.1.11
 ---
 ##### Bugfixes

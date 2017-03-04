@@ -8,6 +8,16 @@ local VExRT = nil
 local strsplit = strsplit
 
 module.db.spellsCoins = {
+	[240641] = L.bossName[2032], --"ToS - Boss 1",
+	[240643] = L.bossName[2048], --"ToS - Boss 2",
+	[240644] = L.bossName[2036], --"ToS - Boss 3",
+	[240645] = L.bossName[2037], --"ToS - Boss 4",
+	[240646] = L.bossName[2050], --"ToS - Boss 5",
+	[240647] = L.bossName[2054], --"ToS - Boss 6",
+	[240648] = L.bossName[2052], --"ToS - Boss 7",
+	[240650] = L.bossName[2038], --"ToS - Boss 8",
+	[240651] = L.bossName[2051], --"ToS - Boss 9",
+
 	[232424] = L.bossName[1849], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 01
 	[232426] = L.bossName[1865], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 02
 	[232427] = L.bossName[1867], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 03
@@ -254,14 +264,14 @@ function module.main:CHAT_MSG_LOOT(msg, ...)
 		if numAffixes > 0 then
 			affixes = ":"..numAffixes..":"..affixes
 		end
-		if itemID then
+		if itemID and itemID ~= "144297" then
 			VExRT.Coins.list[#VExRT.Coins.list + 1] = "!"..ExRT.F.tohex(class or 0,1)..itemID..unitName..time()..affixes
 		end	
 	elseif msg:find(module.db.bonusLootChat) then
 		local unitName = msg:match(module.db.bonusLootChat)
 		local itemID = msg:match("|Hitem:(%d+)")
 		local class
-		if unitName and itemID then
+		if unitName and itemID and itemID ~= "144297" then
 			if UnitName(unitName) then
 				class = select(3,UnitClass(unitName))
 			end
@@ -374,7 +384,7 @@ function module.options:Load()
 			return 2
 		elseif (spellID and (tostring(spellID)):match(currFilter) ) then
 			return 3
-		elseif timestamp:lower():match(currFilter) then
+		elseif timestamp and timestamp:lower():match(currFilter) then
 			return 4
 		end
 	end

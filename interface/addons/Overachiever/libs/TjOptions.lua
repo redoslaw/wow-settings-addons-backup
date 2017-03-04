@@ -10,7 +10,7 @@
 --  See TjOptions.txt for documentation.
 --
 
-local THIS_VERSION = 0.46
+local THIS_VERSION = 0.47
 
 if (not TjOptions or TjOptions.Version < THIS_VERSION) then
   TjOptions = TjOptions or {};
@@ -456,7 +456,7 @@ if (not TjOptions or TjOptions.Version < THIS_VERSION) then
             y = obj_offy - nextoffy - (v.topBuffer or 0)
             nextoffy = obj_buffer + (v.btmBuffer or 0)
           else
-            x = obj_offx + (v.xOffset or 0) + (tab["column"..column.."Offset"] or 180) - xOffset_total
+            x = obj_offx + (v.xOffset or 0) + (tab["column"..column.."Offset"] or 270) - xOffset_total
             y = obj_offy - (v.topBuffer or 0)
           end
 
@@ -799,6 +799,22 @@ if (not TjOptions or TjOptions.Version < THIS_VERSION) then
     TjOptions.ItemChanged(self)
   end
 
+  local checkboxes_colors_def
+
+  local function checkboxSetEnabledHook(self, enabled)
+    local label = self.Text
+    if (not label) then  return;  end
+    if (not checkboxes_colors_def) then  checkboxes_colors_def = {};  end
+    if (not checkboxes_colors_def[label]) then
+      checkboxes_colors_def[label] = { label:GetTextColor() }
+    end
+    if (enabled) then
+      label:SetTextColor( unpack(checkboxes_colors_def[label]) )
+    else
+      label:SetTextColor(GRAY_FONT_COLOR.r, GRAY_FONT_COLOR.g, GRAY_FONT_COLOR.b)
+    end
+  end
+
   --SETVALUE: setvalue(self, val, data, arg)
 
   local function SetCheckboxVal(self, val)
@@ -823,9 +839,11 @@ if (not TjOptions or TjOptions.Version < THIS_VERSION) then
     frame:SetScript("OnClick", CheckboxOnClick)
     local label = _G[name.."Text"]
     if (label) then
+      --frame.label = label -- Unneeded. frame.Text serves this purpose.
       label:SetText(data.text)  -- nil is a valid value here.
       local w = data.width or label:GetWidth()
       frame:SetHitRectInsets(0, w * -1, 0, 0)
+      hooksecurefunc(frame, "SetEnabled", checkboxSetEnabledHook)
     else
       frame:SetHitRectInsets(0, (data.width or 0) * -1, 0, 0)
     end

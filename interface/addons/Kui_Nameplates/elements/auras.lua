@@ -42,6 +42,7 @@
         kui_whitelist = initialise with whitelist from KuiSpellList
         pulsate = whether or not to pulsate icons with low time remaining
         timer_threshold = threshold below which to show timer text
+        centred = centre visible auras in the frame
     }
 
     Callbacks
@@ -50,13 +51,15 @@
     ArrangeButtons(auraframe)
         Used to replace the built in ArrangeButtons function which arranges the
         aura buttons in the aura frame whenever they are updated.
+        If false (or nil) is returned, the built-in ArrangeButtons function will
+        still be run.
 
     CreateAuraButton(auraframe)
         Used to replace the built in CreateAuraButton function. Button functions
         will be mixed-in to the returned frame which can then be edited via the
         PostCreateAuraButton callback.
 
-    PostCreateAuraButton(button)
+    PostCreateAuraButton(auraframe,button)
         Called after an aura button is created.
 
     PostCreateAuraFrame(auraframe)
@@ -65,7 +68,7 @@
     PostUpdateAuraFrame(auraframe)
         Called after a shown aura frame is updated (buttons arranged, etc).
 
-    DisplayAura(name,spellid,duration)
+    DisplayAura(auraframe,name,spellid,duration)
         Can be used to arbitrarily filter auras.
 
 ]]
@@ -286,7 +289,7 @@ local function CreateAuraButton(parent)
         button[k] = v
     end
 
-    ele:RunCallback('PostCreateAuraButton',button)
+    ele:RunCallback('PostCreateAuraButton',parent,button)
 
     return button
 end
@@ -402,7 +405,7 @@ local function AuraFrame_ShouldShowAura(self,name,caster,nameplateShowPersonal,n
     return nameplateShowAll or (nameplateShowPersonal and (caster == 'player' or caster == 'pet' or caster == 'vehicle'))
 end
 local function AuraFrame_DisplayButton(self,spellid,name,icon,count,duration,expiration,index)
-    if ele:RunCallback('DisplayAura',name,spellid,duration) == false then
+    if ele:RunCallback('DisplayAura',self,name,spellid,duration) == false then
         -- blocked by callback
         return
     end
@@ -448,6 +451,9 @@ local function AuraFrame_HideAllButtons(self)
     for _,button in ipairs(self.buttons) do
         self:HideButton(button)
     end
+
+    self.visible = nil
+    self:Hide()
 end
 local function AuraFrame_ArrangeButtons(self)
     if ele:RunCallback('ArrangeButtons',self) then
@@ -465,31 +471,81 @@ local function AuraFrame_ArrangeButtons(self)
                 self.visible = self.visible + 1
                 button:ClearAllPoints()
 
-                if not prev then
-                    button:SetPoint(self.point[1])
-                    prev_row = button
-                else
-                    if  self.rows and self.rows > 1 and
-                        (self.visible - 1) % self.num_per_row == 0
-                    then
-                        button:SetPoint(
-                            self.row_point[1], prev_row, self.row_point[2],
-                            0, self.y_spacing
-                        )
+                -- if centred, we just need to count the number of buttons
+                -- visible to position them more efficiently later.
+                -- otherwise, set position in 1 iteration:
+                if not self.centred then
+                    if not prev then
+                        button:SetPoint(self.point[1])
                         prev_row = button
                     else
-                        button:SetPoint(
-                            self.point[2], prev, self.point[3],
-                            self.x_spacing, 0
-                        )
+                        if  self.rows and self.rows > 1 and
+                            (self.visible - 1) % self.num_per_row == 0
+                        then
+                            button:SetPoint(
+                                self.row_point[1], prev_row, self.row_point[2],
+                                0, self.y_spacing
+                            )
+                            prev_row = button
+                        else
+                            button:SetPoint(
+                                self.point[2], prev, self.point[3],
+                                self.x_spacing, 0
+                            )
+                        end
                     end
-
+                    prev = button
                 end
 
-                prev = button
                 button:Show()
             else
                 button:Hide()
+            end
+        end
+    end
+
+    if self.centred and self.visible > 0 then
+        -- align buttons from centre of frame
+        local i = 0
+        local row_i = 0
+        local rows = ceil(self.visible / self.num_per_row)-1
+        for _,button in ipairs(self.buttons) do
+            if button.spellid and button:IsShown() then
+                if not prev or (i % self.num_per_row) == 0 then
+                    -- start of row
+                    local visible_in_row =
+                        row_i < rows and
+                        self.num_per_row or
+                        self.visible - (self.num_per_row * rows)
+
+                    local row_width =
+                        (visible_in_row * self.size) +
+                        (self.x_spacing * (visible_in_row - 1))
+
+                    local row_x =
+                        floor((self:GetWidth() - row_width) / 2) + 1
+
+                    local row_y =
+                        (self.icon_height * row_i) +
+                        (self.y_spacing * row_i)
+
+                    if self.row_growth == 'DOWN' then
+                        row_y = -row_y
+                    end
+
+                    button:SetPoint(self.point[1],row_x,row_y)
+
+                    row_i = row_i + 1
+                else
+                    -- subsequent button in row
+                    button:SetPoint(
+                        self.point[2], prev, self.point[3],
+                        self.x_spacing, 0
+                    )
+                end
+
+                prev = button
+                i = i + 1
             end
         end
     end
@@ -557,6 +613,42 @@ end
 local function AuraFrame_OnHide(self)
     -- hide all buttons
     self:HideAllButtons()
+end
+-- external aura frame functions ###############################################
+local function ExternalAuraFrame_UpdateVisibility(self)
+    -- show/frame based on visible auras
+    -- (_Update does this for standard frames)
+    if self.visible and self.visible > 0 then
+        self:Show()
+    else
+        self:Hide()
+    end
+end
+local function ExternalAuraFrame_AddAura(self,uid,icon,count,duration,expiration)
+    if not icon then return end
+    if not count then count = 1 end
+    if not uid then uid = icon end
+
+    if duration and not expiration then
+        -- imply expiration
+        expiration = GetTime() + duration
+    end
+
+    self:DisplayButton(uid,nil,icon,count,duration,expiration)
+    self:ArrangeButtons()
+    self:UpdateVisibility()
+
+    return self.spellids[uid]
+end
+local function ExternalAuraFrame_RemoveAura(self,uid,icon)
+    if not icon then return end
+    if not uid then uid = icon end
+
+    if self.spellids[uid] then
+        self:HideButton(self.spellids[uid])
+        self:ArrangeButtons()
+        self:UpdateVisibility()
+    end
 end
 -- aura frame creation #########################################################
 -- aura frame metatable
@@ -650,13 +742,32 @@ function addon.Nameplate.CreateAuraFrame(f,frame_def)
         new_frame:SetWhitelist(new_frame.whitelist,nil)
     end
 
-    -- insert into frame list
-    if not f.Auras or not f.Auras.frames then
-        f.Auras = { frames = {} }
+    if not f.Auras then
+        f.Auras = {}
     end
 
-    new_frame.id = new_frame.id or #f.Auras.frames+1
-    f.Auras.frames[new_frame.id] = new_frame
+    if new_frame.external then
+        -- mixin external-only functions
+        new_frame.UpdateVisibility = ExternalAuraFrame_UpdateVisibility
+        new_frame.AddAura = ExternalAuraFrame_AddAura
+        new_frame.RemoveAura = ExternalAuraFrame_RemoveAura
+
+        -- insert into list of external frames
+        if not f.Auras.external_frames then
+            f.Auras.external_frames = {}
+        end
+
+        new_frame.id = new_frame.id or #f.Auras.external_frames+1
+        f.Auras.external_frames[new_frame.id] = new_frame
+    else
+        -- insert into frame list
+        if not f.Auras or not f.Auras.frames then
+            f.Auras = { frames = {} }
+        end
+
+        new_frame.id = new_frame.id or #f.Auras.frames+1
+        f.Auras.frames[new_frame.id] = new_frame
+    end
 
     ele:RunCallback('PostCreateAuraFrame',new_frame)
 
@@ -711,7 +822,7 @@ function ele:Initialised()
 end
 function ele:Initialise()
     -- register callbacks
-    self:RegisterCallback('ArrangeButtons')
+    self:RegisterCallback('ArrangeButtons',true)
     self:RegisterCallback('CreateAuraButton',true)
     self:RegisterCallback('PostCreateAuraButton')
     self:RegisterCallback('PostCreateAuraFrame')

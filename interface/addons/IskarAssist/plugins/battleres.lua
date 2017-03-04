@@ -149,18 +149,14 @@ BattleRes.OnInstall = function (plugin)
 	
 	bres_frame:SetScript ("OnEvent", function (self, event, ...)
 		if (event == "ENCOUNTER_START") then -- or event == "PLAYER_REGEN_DISABLED"
-		--if (event == "ENCOUNTER_START" or event == "PLAYER_REGEN_DISABLED") then
 			if (BattleRes.db.enabled) then
 				BattleRes.OnEncounter = true
 				wipe (BattleRes.ResRecently)
 				BattleRes.OnEncounterStart()
 			end
 		elseif (event == "ENCOUNTER_END") then -- or event == "PLAYER_REGEN_ENABLED"
-		--elseif (event == "ENCOUNTER_END" or event == "PLAYER_REGEN_ENABLED") then
-			--if (bres_frame:IsShown()) then
-				BattleRes.OnEncounter = nil
-				BattleRes.OnEncounterEnd()
-			--end
+			BattleRes.OnEncounter = nil
+			BattleRes.OnEncounterEnd()
 		end
 	end)
 	

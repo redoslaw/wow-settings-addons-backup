@@ -1,0 +1,7 @@
+## Interface: 70100
+## Title : LazyReadyCheck
+## Author: @project-author@
+## Version: 1.3.2
+## SavedVariables: LazyReadyCheck
+## Notes: Will autoaccept readychecks after enabled
+LazyReadycheck.lua

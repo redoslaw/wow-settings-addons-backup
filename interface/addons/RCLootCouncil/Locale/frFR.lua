@@ -150,6 +150,7 @@ L["Deselect responses to filter them"] = "Désélectionner les réponses avant d
 L["Diff"] = true
 L["Disenchant"] = "Désenchanter"
 L["disenchant_desc"] = "Sélectionner cette option pour que ce motif soit choisi lorsque vous attribuez un objet par le biais du bouton 'Désenchanter'"
+L["Double click to delete this entry."] = "Double cliquez pour supprimer cette occurence."
 L["DPS"] = true
 L["Dropped by:"] = "Dépouillé sur :"
 L["Enable Loot History"] = "Activer l'historique du butin"
@@ -352,7 +353,7 @@ L["Upper Quality Limit"] = "Seuil supérieur de qualité"
 L["upper_quality_limit_desc"] = [=[Déterminez le seuil supérieur de qualité des objets qui seront automatiquement attribués (cette qualité est comprise).
 Remarque : cette option prime le seuil de qualité par défaut. ]=]
 L["Usage"] = "Utilisation"
-L["Use the same setting when entering a raid as the group leader?"] = "Utiliser les mêmes paramètres que le chef de groupe en rejoignant un raid ?"
+L["Usage Options"] = "Options d'utilisation"
 L["version"] = true
 L["Version"] = true
 L["Version Check"] = "Vérifier la version"

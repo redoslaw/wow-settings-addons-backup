@@ -3,7 +3,7 @@ GoldSave = {
 	["Ðeadshot_Burning Legion::Horde"] = {
 		["show"] = true,
 		["name"] = "Ðeadshot",
-		["gold"] = 29739152,
+		["gold"] = 102215149,
 	},
 	["Redbullek_Burning Legion::Horde"] = {
 		["show"] = true,
@@ -18,7 +18,7 @@ GoldSave = {
 	["Redus_Burning Legion::Horde"] = {
 		["show"] = true,
 		["name"] = "Redus",
-		["gold"] = 1345190469,
+		["gold"] = 2049504937,
 	},
 	["Kot_Chamber of Aspects::Horde"] = {
 		["show"] = true,

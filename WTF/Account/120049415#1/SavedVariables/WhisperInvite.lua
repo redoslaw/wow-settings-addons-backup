@@ -3,7 +3,7 @@ WhisperInviteCoreDB = {
 	["char"] = {
 		["Ðeadshot - Burning Legion"] = {
 			["info"] = {
-				["enable"] = 1,
+				["enable"] = 3,
 			},
 		},
 		["Redus - Burning Legion"] = {
@@ -24,8 +24,8 @@ WhisperInviteCoreDB = {
 				["Default"] = {
 					["keywords"] = {
 						["red inv0"] = {
-							["keyword"] = "red inv",
 							["name"] = "red inv",
+							["keyword"] = "red inv",
 							["channels"] = {
 								["CHAT_MSG_OFFICER"] = true,
 								["CHAT_MSG_WHISPER"] = true,
@@ -50,9 +50,9 @@ WhisperInviteCoreDB = {
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Kot - Chamber of Aspects"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

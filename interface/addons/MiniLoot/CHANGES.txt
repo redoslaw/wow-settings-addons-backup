@@ -1,0 +1,12 @@
+tag 4c5c49c2defb8bff191e6aa501c25769b758da2c v7.1.5.170123
+Author:	Vladinator89 <vladix@gmail.com>
+Date:	Mon Jan 23 16:50:28 2017 +0000
+
+v7.1.5.170123
+
+commit 8294afefd79e86352dac3b96fe69a18a1365cdee
+Author: Vladinator89 <vladix@gmail.com>
+Date:   Mon Jan 23 17:49:46 2017 +0100
+
+    + TOC bump to fix curse CDN issue
+

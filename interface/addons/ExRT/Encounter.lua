@@ -221,7 +221,7 @@ function module.options:Load()
 		str = format("%d:%02d",m,s)
 		if num == 0 then return str end
 		local h = num % 24
-		num = floor(num / 60)
+		num = floor(num / 24)
 		str = format("%d:%02d:%02d",h,m,s)
 		if num == 0 then return str end
 		return num .. "." .. str
@@ -307,7 +307,7 @@ function module.options:Load()
 								encounterLine.pulls = encounterLine.pulls + 1
 							else
 								encounterLine.wipeTime = max( encounterLine.wipeTime or 0, pullTime )
-								if not pullTime or pullTime > minPullTime or pullTime == 0 then
+								if not pullTime or pullTime >= minPullTime or pullTime == 0 then
 									encounterLine.pulls = encounterLine.pulls + 1
 								end
 							end
@@ -347,9 +347,9 @@ function module.options:Load()
 				
 				local totalTime,isFK = 0
 				local legitPulls = 0
-				-- redo firstkill counter, cuz exist error if you kill boss on another char
+
 				for i=1,#encounterData.pullTable do
-					if (encounterData.pullTable[i].d or 31) >= 30 or encounterData.pullTable[i].d == 0 then
+					if not encounterData.pullTable[i].d or encounterData.pullTable[i].d >= minPullTime or encounterData.pullTable[i].d == 0 then
 						legitPulls = legitPulls + 1
 					end
 					if not isFK and encounterData.pullTable[i].k then

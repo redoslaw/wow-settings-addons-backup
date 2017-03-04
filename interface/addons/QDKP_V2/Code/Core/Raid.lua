@@ -200,6 +200,9 @@ function QDKP2_GetRaidRosterInfo(i)
       local unit="raid"..tostring(i)
       name, rank, subgroup, level, class, fileName, zone, online = GetRaidRosterInfo(i)
 	  name= QDKP2_FormatName(name)  -- name is not fully qualified from GetRaidRosterInfo
+	  QDKP2class[name] = class  --Feb 10 2017
+	  --local class2 = UnitClass(unit)
+	  --DEFAULT_CHAT_FRAME:AddMessage("RosterName "..name.." UnitName "..unit.." class "..class.." class2 "..class2)
 	  --[[Debugging text for combined server
 	  local name2, realm2=GetUnitName(unit, 1)
 	  realm2 = realm2 or "None"
@@ -231,7 +234,7 @@ function QDKP2_GetRaidRosterInfo(i)
     name=QDKP2standby[i-GroupSize]
     standby=true
     level=80 --i don't use the raid roster to get the level anyway
-    class=QDKP2class[name]
+    class=QDKP2class[name]  
     online=QDKP2online[name]
     zone="Standby"
   end

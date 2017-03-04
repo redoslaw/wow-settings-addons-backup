@@ -192,6 +192,23 @@ function QDKP2_Init()
   end
   QDKP2bossEnglish=QDKP2bossEnglish or {}
   QDKP2classEnglish=QDKP2classEnglish or {}
+  --Feb 10 2017 fix localization for new classes by un-using deprecated libbabble
+  local QDKP2classTemp={}
+  
+  FillLocalizedClassList(QDKP2classTemp)
+  for i,v in pairs (QDKP2classTemp) do
+    QDKP2classEnglish[v] = i
+	--DEFAULT_CHAT_FRAME:AddMessage("Initialization i "..i.." v "..v)
+  end
+  --Now for the female class names
+  FillLocalizedClassList(QDKP2classTemp, true)
+  for i,v in pairs (QDKP2classTemp) do
+    QDKP2classEnglish[v] = i
+	--DEFAULT_CHAT_FRAME:AddMessage("Initialization i "..i.." v "..v)
+  end
+  
+  --End of addition 
+  
   QDKP2zoneEnglish=QDKP2zoneEnglish or {}
   QDKP2inventoryEnglish=QDKP2inventoryEnglish or {}
 

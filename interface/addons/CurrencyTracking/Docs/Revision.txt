@@ -1,7 +1,30 @@
-﻿$Id: Revision.txt 37 2017-01-04 09:41:12Z arith $
+﻿$Id: Revision.txt 50 2017-03-01 16:00:24Z arith $
 
 Revision History:
 =================
+
+* v2.05 (Mar. 01, 2017)
+-----------------------
+- math function correction
+
+* v2.04 (Feb. 12, 2017)
+-----------------------
+- Fixed the issue the LDB text won't show or update properly when on-screen 
+  button is disabled.
+- Translation update:
+  - Korean (next96)
+
+* v2.03 (Feb. 07, 2017)
+-----------------------
+- Now supports to show currencies which have zero amount
+- Now supports to adjust currencies info's scale, transparency, and 
+  background transparency
+- Translation update:
+  - Russian (DogmatX)
+  
+* v2.02 (Jan. 06, 2017)
+-----------------------
+- Added option to toggle the numbers' displaying format
 
 * v2.01 (Jan. 04, 2017)
 -----------------------

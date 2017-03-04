@@ -1,0 +1,32 @@
+
+dbOHC = {
+	["char"] = {
+		["Redus - Burning Legion"] = {
+			["firstun"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["global"] = {
+		["warn01_seen"] = 0,
+		["firstrun"] = false,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["toggles"] = {
+				["SAVETROOPS"] = false,
+				["TROOPALERT"] = true,
+				["BONUS"] = true,
+				["SORTMISSION"] = "Garrison_SortMissions_Chance",
+				["MAKEITVERYQUICK"] = false,
+				["SPARE"] = false,
+				["MAKEITQUICK"] = false,
+				["MOVEPANEL"] = true,
+				["MAXIMIZEXP"] = false,
+				["USEALLY"] = false,
+			},
+			["showmenu"] = true,
+		},
+	},
+}

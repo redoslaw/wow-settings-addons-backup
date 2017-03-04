@@ -32,27 +32,27 @@ Modernize(data)
 # Helper functions mainly for the WeakAuras Options #
 #####################################################
 
-CanGroupShowWithZero(data)
+CanGroupShowWithZero(data, triggernum)
   Returns whether the first trigger could be shown without any affected group members.
   If that is the case no automatic icon can be determined. Only used by the options dialog.
   (If I understood the code correctly)
 
-CanHaveDuration(data)
+CanHaveDuration(data, triggernum)
   Returns whether the trigger can have a duration
 
-CanHaveAuto(data)
+CanHaveAuto(data, triggernum)
   Returns whether the icon can be automatically selected
 
-CanHaveClones(data)
+CanHaveClones(data, triggernum)
   Returns whether the trigger can have clones
 
-CanHaveTooltip(data)
+CanHaveTooltip(data, triggernum)
   Returns the type of tooltip to show for the trigger
 
-GetNameAndIcon(data)
+GetNameAndIcon(data, triggernum)
   Returns the name and icon to show in the options
 
-GetAdditionalProperties(data)
+GetAdditionalProperties(data, triggernum)
   Returns the a tooltip for the additional properties
 
 ]]--
@@ -1613,7 +1613,7 @@ function BuffTrigger.GetNameAndIcon(data, triggernum)
       name, _, icon = GetSpellInfo(trigger.spellId);
     else
       name = trigger.name;
-      icon = WeakAuras.GetIconFromSpellCache(trigger.name);
+      icon = WeakAuras.spellCache.GetIcon(trigger.name);
     end
   else
     if (trigger.spellIds and trigger.spellIds[1]) then
@@ -1623,7 +1623,7 @@ function BuffTrigger.GetNameAndIcon(data, triggernum)
        and trigger.names) then
       -- Try to get an icon from the icon cache
       for index, checkname in pairs(trigger.names) do
-        local iconFromSpellCache = WeakAuras.GetIconFromSpellCache(checkname);
+        local iconFromSpellCache = WeakAuras.spellCache.GetIcon(checkname);
         if(iconFromSpellCache) then
           name, icon = checkname, iconFromSpellCache;
           break;

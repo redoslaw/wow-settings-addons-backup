@@ -297,7 +297,6 @@ local achDraenorGarrison = {
 	IsAlliance and 9738 or 9508, -- Warlord of Draenor
 	IsAlliance and 9539 or 9705, -- Advanced Husbandry
 	IsAlliance and 9540 or 9706, -- The Stable Master
-
 }
 local achDraenorGarrisonShipyard = {
 	10177, -- Set Sail! (series)
@@ -306,6 +305,14 @@ local achDraenorGarrisonShipyard = {
 	10165, -- Ironsides
 	IsAlliance and 10256 or 10258, -- Charting a Course
 	10166, -- Naval Mechanics (broken?)
+}
+
+local achBrawlersGuild = {
+	IsAlliance and 11558 or 11559, -- The First Rule of Brawler's Guild (series)
+	11567, -- You Are Not The Contents Of Your Wallet
+	11570, -- Educated Guesser
+	11572, -- I Am Thrall's Complete Lack Of Surprise
+	11573, -- Rumble Club
 }
 
 local ACHID_ZONE_MISC = {
@@ -433,6 +440,7 @@ local ACHID_ZONE_MISC = {
 		7317, -- One Many Army
 		7318, -- A Taste of History
 		--7315 "Eternally in the Vale" is now a Feat of Strength
+		7322, -- Roll Club
 	},
 	["Isle of Thunder"] = 8121, -- "Stormbreaker"
 	["Timeless Isle"] = {
@@ -619,6 +627,8 @@ if (IsAlliance) then
   ACHID_ZONE_MISC["Lunarfall"] = achDraenorGarrison
   ACHID_ZONE_MISC["Shadowmoon Valley (Draenor)"].SUBZONES["Lunarfall Shipyard"] = achDraenorGarrisonShipyard
 
+  ACHID_ZONE_MISC["Deeprun Tram"] = { SUBZONES = { ["Bizmo's Brawlpub"] = achBrawlersGuild } }
+
 else
   tinsert(ACHID_ZONE_MISC["Azshara"], 5454) -- "Joy Ride"
   tinsert(ACHID_ZONE_MISC["Grizzly Hills"], 2017) -- "Grizzled Veteran"
@@ -646,6 +656,8 @@ else
   ACHID_ZONE_MISC["Frostwall"] = achDraenorGarrison -- !! name not 100% verified (have to run Horde char around outskirts of their garrison, refreshing suggestions, to test)
   ACHID_ZONE_MISC["Frostfire Ridge"].SUBZONES["Frostwall Shipyard"] = achDraenorGarrisonShipyard
 
+  ACHID_ZONE_MISC["Brawl'gar Arena"] = achBrawlersGuild
+
 end
 -- "The Fishing Diplomat":
 tinsert(ACHID_ZONE_MISC["Stormwind City"], "150:2")
@@ -665,6 +677,7 @@ tinsert(ACHID_ZONE_MISC["Undercity"], "6621:3")
 tinsert(ACHID_ZONE_MISC["Silvermoon City"], "6621:4")
 
 ACHID_ZONE_MISC["City of Ironforge"] = ACHID_ZONE_MISC["Ironforge"]
+ACHID_ZONE_MISC["Brawler's Guild"] = achBrawlersGuild -- alias
 
 -- INSTANCES - ANY DIFFICULTY (any group size):
 local ACHID_INSTANCES = {
@@ -681,7 +694,7 @@ local ACHID_INSTANCES = {
 	["Maraudon"] = 640,
 	["Sunken Temple"] = 641,
 	["Blackrock Depths"] = 642,
-	["Lower Blackrock Spire"] = 643, -- !! is this achievement still available? is the zone name right?
+	["Lower Blackrock Spire"] = 643,
 	--!! unavailable after Warlords of Draenor patch?-- ["Upper Blackrock Spire"] = { 1307, 2188 },	-- "Upper Blackrock Spire", "Leeeeeeeeeeeeeroy!"
 	["Dire Maul"] = 644,
 	["Stratholme"] = 646,
@@ -692,6 +705,7 @@ local ACHID_INSTANCES = {
 	["The Molten Core"] = { 686, 955 },
 	["Blackwing Lair"] = 685,
 	["Temple of Ahn'Qiraj"] = 687,
+	["Ahn'Qiraj Temple"] = 687,
 -- Burning Crusade
 	["Auchenai Crypts"] = 666,
 	["The Mechanar"] = 658,
@@ -777,7 +791,7 @@ local ACHID_INSTANCES = {
 	["Shadowmoon Burial Grounds"] = 9041,
 	["Skyreach"] = 8843,
 	["The Everbloom"] = 9044,
-	["Upper Blackrock Spire"] = 9042, -- !! or is this Upper Blackrock Spire?
+	["Upper Blackrock Spire"] = 9042,
 -- Draenor Raids
 	["Highmaul"] = { 8975, 8987, 8958, 8948, 8947, 8988, 8977, 8974, 8976, 8986 },
 	["Blackrock Foundry"] = { 8978, 8979, 8930, 8980, 8929, 8983, 8981, 8982, 8984, 8952, 8989, 8990, 8991, 8992 },
@@ -843,7 +857,7 @@ local ACHID_INSTANCES = {
 }
 -- Aliases
 ACHID_INSTANCES["Molten Core"] = ACHID_INSTANCES["The Molten Core"]
-ACHID_INSTANCES["Hall of Blackhand"] = ACHID_INSTANCES["Upper Blackrock Spire"]
+--ACHID_INSTANCES["Hall of Blackhand"] = ACHID_INSTANCES["Upper Blackrock Spire"]
 ACHID_INSTANCES["Violet Hold"] = ACHID_INSTANCES["Assault on Violet Hold"]
 
 -- Battlegrounds
@@ -977,24 +991,24 @@ local ACHID_INSTANCES_HEROIC = {
 	["Upper Blackrock Spire"] = { 9045, 9058, 9056, 9057 },
 }
 -- Aliases
-ACHID_INSTANCES_HEROIC["Hall of Blackhand"] = ACHID_INSTANCES_HEROIC["Upper Blackrock Spire"]
+--ACHID_INSTANCES_HEROIC["Hall of Blackhand"] = ACHID_INSTANCES_HEROIC["Upper Blackrock Spire"]
 
 local ACHID_INSTANCES_HEROIC_PLUS = {
 -- Draenor Dungeons
-	["Auchindoun"] = "9619:2", -- Savage Hero
+	["Auchindoun"] = "9619:3", -- Savage Hero
 	["Bloodmaul Slag Mines"] = "9619:1",
 	["Grimrail Depot"] = "9619:6",
-	["Iron Docks"] = "9619:3",
-	["Shadowmoon Burial Grounds"] = "9619:8",
-	["Skyreach"] = "9619:7",
+	["Iron Docks"] = "9619:2",
+	["Shadowmoon Burial Grounds"] = "9619:7",
+	["Skyreach"] = "9619:4",
 	["The Everbloom"] = "9619:5",
-	["Upper Blackrock Spire"] = "9619:4",
+	["Upper Blackrock Spire"] = "9619:8",
 -- Draenor Raids
-	["Upper Blackrock Spire"] = "9619:9",
+	["Highmaul"] = "9619:9",
 	["Blackrock Foundry"] = "9619:10",
 }
 -- Aliases
-ACHID_INSTANCES_HEROIC_PLUS["Hall of Blackhand"] = ACHID_INSTANCES_HEROIC_PLUS["Upper Blackrock Spire"]
+--ACHID_INSTANCES_HEROIC_PLUS["Hall of Blackhand"] = ACHID_INSTANCES_HEROIC_PLUS["Upper Blackrock Spire"]
 
 -- INSTANCES - 10-MAN ONLY (normal or heroic):
 local ACHID_INSTANCES_10 = {

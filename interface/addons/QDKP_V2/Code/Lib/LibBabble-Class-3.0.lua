@@ -26,6 +26,7 @@ lib:SetBaseTranslations {
 	Shaman = true,
 	Rogue = true,
 	Deathknight = "Death Knight",
+	Demonhunter = "Demon Hunter",
 
 	WARLOCK = true,
 	WARRIOR = true,
@@ -37,6 +38,7 @@ lib:SetBaseTranslations {
 	SHAMAN = true,
 	ROGUE = true,
 	DEATHKNIGHT = "Death Knight",
+	DEMONHUNTER = "Demon Hunter",
 }
 
 local l = GetLocale()

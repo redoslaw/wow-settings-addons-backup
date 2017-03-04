@@ -39,7 +39,7 @@ local function createOptions(id, data)
             name = L["Choose"],
             hidden = function() return WeakAuras.CanHaveAuto(data) and data.auto; end,
             order = 18,
-            func = function() WeakAuras.OpenIconPick(data, "displayIcon"); end
+            func = function() WeakAuras.OpenIconPicker(data, "displayIcon"); end
         },
 
         desaturate = {
@@ -99,7 +99,7 @@ local function createOptions(id, data)
             order = 41.2,
             name = L["Expand Text Editor"],
             func = function()
-                WeakAuras.TextEditor(data, {"customText"})
+                WeakAuras.OpenTextEditor(data, {"customText"})
             end,
             hidden = function()
                 return not data.displayStacks:find("%%c")

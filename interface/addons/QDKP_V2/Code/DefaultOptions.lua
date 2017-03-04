@@ -18,7 +18,7 @@
 QDKP2_Instances = {
 { name = "Hellfire Citadel",		Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
 { name = "The Emerald Nightmare", 		Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
-{ name = "Nighthold", 				Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
+{ name = "The Nighthold", 				Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
 { name = "Karazhan", 				Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
 { name = "Trial of Valor", 				Normal = 0, Heroic = 0, Mythic = 0, LFRFlex = 0},
 }

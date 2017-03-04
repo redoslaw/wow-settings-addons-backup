@@ -11,10 +11,20 @@ local kui = LibStub('Kui-1.0')
 local WorldFrame = WorldFrame
 local select, strfind, setmetatable, floor
     = select, strfind, setmetatable, floor
+local UnitIsUnit = UnitIsUnit
 --------------------------------------------------------------------------------
 -------------------------------------------------------- Core script handlers --
 local function FrameOnHide(self)
     self.kui.handler:OnHide()
+end
+local function FrameOnShow(self)
+    if not addon.USE_BLIZZARD_PERSONAL or
+       not self.unit or
+       not UnitIsUnit(self.unit,'player')
+    then
+        -- hide blizzard's nameplate
+        self:Hide()
+    end
 end
 --------------------------------------------------------- frame level monitor --
 local function FrameOnUpdate(self)
@@ -22,6 +32,8 @@ local function FrameOnUpdate(self)
 end
 ----------------------------------------------------------------------- Sizer --
 local function SizerOnSizeChanged(self,x,y)
+    -- If you're poking around here trying to find what's causing the extra CPU
+    -- usage, this is it.
     self.f:SetPoint('CENTER',WorldFrame,'BOTTOMLEFT',floor(x),floor(y))
 end
 ------------------------------------------------------------ Nameplate hooker --
@@ -44,14 +56,6 @@ function addon:HookNameplate(frame)
     sizer:SetScript('OnSizeChanged',SizerOnSizeChanged)
     sizer.f = frame.kui
 
-    -- hide blizzard's nameplate
-    if frame.UnitFrame then
-        frame.UnitFrame:Hide()
-        frame.UnitFrame:HookScript('OnShow',function(self)
-            self:Hide()
-        end)
-    end
-
     frame.kui:SetScale(self.uiscale)
     frame.kui:SetSize(self.width,self.height)
 
@@ -65,6 +69,10 @@ function addon:HookNameplate(frame)
 
     frame.kui.handler = { parent = frame.kui }
     setmetatable(frame.kui.handler, self.Nameplate)
+
+    if frame.UnitFrame then
+        frame.UnitFrame:HookScript('OnShow',FrameOnShow)
+    end
 
     -- base frame
     frame:HookScript('OnHide',FrameOnHide)

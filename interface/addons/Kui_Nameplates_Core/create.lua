@@ -61,14 +61,13 @@ local BAR_TEXTURE,BAR_ANIMATION,SHOW_STATE_ICONS
 local FADE_AVOID_NAMEONLY,FADE_UNTRACKED,FADE_AVOID_TRACKED
 local CASTBAR_COLOUR,CASTBAR_UNIN_COLOUR,CASTBAR_SHOW_NAME,CASTBAR_SHOW_ICON
 local SHOW_HEALTH_TEXT,SHOW_NAME_TEXT
-local AURAS_ON_PERSONAL
 local GUILD_TEXT_NPCS,GUILD_TEXT_PLAYERS,TITLE_TEXT_PLAYERS
 local CLASS_COLOUR_FRIENDLY_NAMES,CLASS_COLOUR_ENEMY_NAMES
 
 local HEALTH_TEXT_FRIEND_MAX,HEALTH_TEXT_FRIEND_DMG
 local HEALTH_TEXT_HOSTILE_MAX,HEALTH_TEXT_HOSTILE_DMG
 
-local FRAME_GLOW_SIZE,FRAME_GLOW_TEXTURE_INSET
+local FRAME_GLOW_SIZE,FRAME_GLOW_TEXTURE_INSET,FRAME_GLOW_THREAT
 
 -- common globals
 local UnitIsUnit,UnitIsFriend,UnitIsEnemy,UnitIsPlayer,UnitCanAttack,
@@ -202,9 +201,14 @@ do
     local ANIM_ASSOC = {
         nil,'smooth','cutaway'
     }
+    local function UpdateMediaLocals()
+        BAR_TEXTURE = LSM:Fetch(LSM.MediaType.STATUSBAR,core.profile.bar_texture)
+        FONT = LSM:Fetch(LSM.MediaType.FONT,core.profile.font_face)
+    end
     function core:SetLocals()
         -- set config locals to reduce table lookup
-        BAR_TEXTURE = LSM:Fetch(LSM.MediaType.STATUSBAR,self.profile.bar_texture)
+        UpdateMediaLocals()
+
         BAR_ANIMATION = ANIM_ASSOC[self.profile.bar_animation]
 
         TARGET_GLOW_COLOUR = self.profile.target_glow_colour
@@ -219,6 +223,7 @@ do
 
         FRAME_GLOW_SIZE = self.profile.frame_glow_size
         FRAME_GLOW_TEXTURE_INSET = .01 * (FRAME_GLOW_SIZE / 4)
+        FRAME_GLOW_THREAT = self.profile.frame_glow_threat
 
         CASTBAR_HEIGHT = self.profile.castbar_height
         CASTBAR_COLOUR = self.profile.castbar_colour
@@ -230,7 +235,6 @@ do
         NAME_VERTICAL_OFFSET = TEXT_VERTICAL_OFFSET + self.profile.name_vertical_offset
         BOT_VERTICAL_OFFSET = TEXT_VERTICAL_OFFSET + self.profile.bot_vertical_offset
 
-        FONT = LSM:Fetch(LSM.MediaType.FONT,self.profile.font_face)
         FONT_STYLE = FONT_STYLE_ASSOC[self.profile.font_style]
         FONT_SHADOW = self.profile.font_style == 3 or self.profile.font_style == 4
         FONT_SIZE_NORMAL = self.profile.font_size_normal
@@ -251,11 +255,17 @@ do
         HEALTH_TEXT_HOSTILE_MAX = self.profile.health_text_hostile_max
         HEALTH_TEXT_HOSTILE_DMG = self.profile.health_text_hostile_dmg
 
-        AURAS_ON_PERSONAL = self.profile.auras_on_personal
-
         GUILD_TEXT_NPCS = self.profile.guild_text_npcs
         GUILD_TEXT_PLAYERS = self.profile.guild_text_players
         TITLE_TEXT_PLAYERS = self.profile.title_text_players
+    end
+    function core:LSMMediaRegistered(msg,mediatype,key)
+        -- callback registered in config.lua:InitialiseConfig
+        if mediatype == LSM.MediaType.STATUSBAR and key == self.profile.bar_texture or
+           mediatype == LSM.MediaType.FONT and key == self.profile.font_face
+        then
+            UpdateMediaLocals()
+        end
     end
 end
 function core:configChangedFrameSize()
@@ -276,7 +286,7 @@ function core:configChangedTextOffset()
         if f.Auras and f.Auras.frames and f.Auras.frames.core_dynamic then
             -- update aura text
             for _,button in pairs(f.Auras.frames.core_dynamic.buttons) do
-                self.Auras_PostCreateAuraButton(button)
+                self.Auras_PostCreateAuraButton(f.Auras.frames.core_dynamic,button)
             end
         end
     end
@@ -357,10 +367,13 @@ end
 local function UpdateFrameSize(f)
     -- set frame size and position
     if f.state.minus then
+        f:SetSize(FRAME_WIDTH_MINUS+10,FRAME_HEIGHT_MINUS+20)
         f.bg:SetSize(FRAME_WIDTH_MINUS,FRAME_HEIGHT_MINUS)
     elseif f.state.player then
+        f:SetSize(FRAME_WIDTH_PERSONAL+10,FRAME_HEIGHT_PERSONAL+20)
         f.bg:SetSize(FRAME_WIDTH_PERSONAL,FRAME_HEIGHT_PERSONAL)
     else
+        f:SetSize(FRAME_WIDTH+10,FRAME_HEIGHT+20)
         f.bg:SetSize(FRAME_WIDTH,FRAME_HEIGHT)
     end
 
@@ -369,8 +382,8 @@ local function UpdateFrameSize(f)
     end
 
     -- calculate point to remain pixel-perfect
-    f.x = floor((addon.width / 2) - (f.bg:GetWidth() / 2))
-    f.y = floor((addon.height / 2) - (f.bg:GetHeight() / 2))
+    f.x = floor((f:GetWidth() / 2) - (f.bg:GetWidth() / 2))
+    f.y = floor((f:GetHeight() / 2) - (f.bg:GetHeight() / 2))
 
     f.bg:SetPoint('BOTTOMLEFT',f.x,f.y)
 
@@ -714,7 +727,7 @@ do
                     f.NameOnlyGlow:SetVertexColor(unpack(TARGET_GLOW_COLOUR))
                     f.NameOnlyGlow:SetAlpha(.8)
                     f.NameOnlyGlow:Show()
-                elseif f.state.glowing then
+                elseif FRAME_GLOW_THREAT and f.state.glowing then
                     f.NameOnlyGlow:SetVertexColor(unpack(f.state.glow_colour))
                     f.NameOnlyGlow:SetAlpha(.6)
                     f.NameOnlyGlow:Show()
@@ -740,7 +753,7 @@ do
             f.TargetGlow:SetVertexColor(unpack(TARGET_GLOW_COLOUR))
             f.TargetGlow:Show()
         else
-            if f.state.glowing then
+            if FRAME_GLOW_THREAT and f.state.glowing then
                 -- threat glow colour
                 f.ThreatGlow:SetAlpha(1)
                 f.ThreatGlow:SetVertexColor(unpack(f.state.glow_colour))
@@ -1087,7 +1100,8 @@ do
     local AURAS_MINUS_SIZE
     local AURAS_MIN_LENGTH
     local AURAS_MAX_LENGTH
-    local AURAS_CENTRED
+    local AURAS_ON_PERSONAL
+    local AURAS_ENABLED
 
     local function AuraFrame_SetFrameWidth(self)
         self:SetWidth(self.__width)
@@ -1100,15 +1114,7 @@ do
         )
     end
     local function AuraFrame_SetDesiredWidth(self)
-        if AURAS_CENTRED and
-           self.visible and
-           self.visible < self.num_per_row
-        then
-            self.__width = (self.size * self.visible) + ((1 * self.visible) - 1)
-        else
-            self.__width = (self.size * self.num_per_row) + (self.num_per_row - 1)
-        end
-
+        self.__width = (self.size * self.num_per_row) + (self.num_per_row - 1)
         AuraFrame_SetFrameWidth(self)
     end
     local function AuraFrame_SetIconSize(self,minus)
@@ -1133,7 +1139,7 @@ do
         -- enable/disable on personal frame
         if not AURAS_ON_PERSONAL and f.state.player then
             f.Auras.frames.core_dynamic:Disable()
-        else
+        elseif AURAS_ENABLED then
             f.Auras.frames.core_dynamic:Enable(true)
         end
 
@@ -1155,6 +1161,7 @@ do
             timer_threshold = self.profile.auras_time_threshold > 0 and self.profile.auras_time_threshold or nil,
             squareness = self.profile.auras_icon_squareness,
             sort = self.profile.auras_sort,
+            centred = self.profile.auras_centre,
         })
         -- initial icon size set by AuraFrame_SetIconSize < UpdateAuras
         -- frame width & point set by AuraFrame_SetFrameWidth < _SetIconSize
@@ -1166,7 +1173,7 @@ do
     end
 
     -- callbacks
-    function core.Auras_PostCreateAuraButton(button)
+    function core.Auras_PostCreateAuraButton(frame,button)
         -- move text to obey our settings
         button.cd:ClearAllPoints()
         button.cd:SetPoint('TOPLEFT',-2,2+TEXT_VERTICAL_OFFSET)
@@ -1180,15 +1187,9 @@ do
 
         core.AurasButton_SetFont(button)
     end
-    function core.Auras_PostUpdateAuraFrame(frame)
-        if frame.id == 'core_dynamic' and AURAS_CENTRED then
-            -- with auras centred, we need to update the frame size each time a
-            -- new button is made visible
-            AuraFrame_SetDesiredWidth(frame)
-            AuraFrame_SetFrameWidth(frame)
-        end
-    end
-    function core.Auras_DisplayAura(name,spellid,duration)
+    function core.Auras_DisplayAura(frame,name,spellid,duration)
+        if frame.id ~= 'core_dynamic' then return end
+
         if  AURAS_MIN_LENGTH and
             duration ~= 0 and duration <= AURAS_MIN_LENGTH
         then
@@ -1218,7 +1219,9 @@ do
 
         AURAS_NORMAL_SIZE = self.profile.auras_icon_normal_size
         AURAS_MINUS_SIZE = self.profile.auras_icon_minus_size
-        AURAS_CENTRED = self.profile.auras_centre
+
+        AURAS_ENABLED = self.profile.auras_enabled
+        AURAS_ON_PERSONAL = self.profile.auras_on_personal
 
         local timer_threshold = self.profile.auras_time_threshold
         if timer_threshold < 0 then
@@ -1234,6 +1237,7 @@ do
                     af.timer_threshold = timer_threshold
                     af.squareness = self.profile.auras_icon_squareness
                     af.vanilla_filter = self.profile.auras_vanilla_filter
+                    af.centred = self.profile.auras_centre
 
                     af:SetSort(self.profile.auras_sort)
                     af:SetWhitelist(nil,self.profile.auras_whitelist)
@@ -1260,7 +1264,7 @@ function core.ClassPowers_PostPositionFrame(cpf,parent)
         end
     elseif parent.state.player then
         cpf:ClearAllPoints()
-        cpf:SetPoint('CENTER',parent.HealthBar,'TOP',0,1)
+        cpf:SetPoint('CENTER',parent.HealthBar,'TOP',0,9)
     end
 end
 function core.ClassPowers_CreateBar()
@@ -1392,7 +1396,8 @@ end
 -- nameonly ####################################################################
 do
     local NAMEONLY_NO_FONT_STYLE,NAMEONLY_ENEMIES,NAMEONLY_DAMAGED_FRIENDS,
-    NAMEONLY_ALL_ENEMIES,NAMEONLY_TARGET,NAMEONLY_HEALTH_COLOUR
+    NAMEONLY_ALL_ENEMIES,NAMEONLY_TARGET,NAMEONLY_HEALTH_COLOUR,
+    NAMEONLY_ON_NEUTRAL,NAMEONLY_IN_COMBAT
 
     function core:configChangedNameOnly()
         NAMEONLY_NO_FONT_STYLE = self.profile.nameonly_no_font_style
@@ -1401,6 +1406,8 @@ do
         NAMEONLY_ENEMIES = NAMEONLY_ALL_ENEMIES or self.profile.nameonly_enemies
         NAMEONLY_TARGET = self.profile.nameonly_target
         NAMEONLY_HEALTH_COLOUR = self.profile.nameonly_health_colour
+        NAMEONLY_ON_NEUTRAL = self.profile.nameonly_neutral
+        NAMEONLY_IN_COMBAT = self.profile.nameonly_in_combat
 
         if NAMEONLY_ALL_ENEMIES or NAMEONLY_TARGET then
             -- create target/threat glow
@@ -1539,12 +1546,21 @@ do
     end
 
     local function UnattackableEnemyPlayer(f)
-        -- never activate for enemy players
-        return not NAMEONLY_ALL_ENEMIES and UnitIsPlayer(f.unit) and f.state.enemy
+        -- don't show on enemy players
+        return not NAMEONLY_ALL_ENEMIES and
+               UnitIsPlayer(f.unit) and
+               f.state.reaction <= 4
     end
     local function EnemyAndDisabled(f)
-        -- don't show on unattackble enemies
-        return not NAMEONLY_ENEMIES and f.state.enemy
+        -- don't show on enemies
+        if (not NAMEONLY_ENEMIES and not NAMEONLY_ALL_ENEMIES) and
+           f.state.reaction <= 4
+        then
+            -- if NAMEONLY_{ALL_,}ENEMIES is disabled and
+            -- this frame is an enemy;
+            return true
+            -- return we're disabled on this frame
+        end
     end
     local function FriendAndDisabled(f)
         if not NAMEONLY_DAMAGED_FRIENDS and f.state.friend then
@@ -1554,15 +1570,52 @@ do
             end
         end
     end
+    local function EnemyAffectingCombat(f)
+        if (NAMEONLY_ALL_ENEMIES or NAMEONLY_ON_NEUTRAL) and
+           not NAMEONLY_IN_COMBAT and
+           f.state.reaction <= 4 and
+           (f.state.threat or UnitIsPlayer(f.unit))
+        then
+            -- if NAMEONLY_ALL_ENEMIES or NAMEONLY_ON_NEUTRAL is enabled and
+            -- NAMEONLY_IN_COMBAT is disabled and
+            -- this is an enemy frame and
+            -- we are in the unit's threat table or
+            -- the unit is a player;
+            return true
+            -- disable on this frame
+        end
+    end
+    local function AttackableUnitAndEnabled(f)
+        -- don't show on attackable units
+        if (NAMEONLY_ALL_ENEMIES or not UnitCanAttack('player',f.unit)) or
+           (NAMEONLY_ON_NEUTRAL and f.state.reaction == 4)
+        then
+            -- NAMEONLY_ALL_ENEMIES is enabled or
+            -- unit cannot be attacked or
+            -- ( NAMEONLY_ON_NEUTRAL is enabled and
+            --   unit is neutral )
+            return true
+            -- return we're enabled on this frame
+        end
+    end
+
+    function core:NameOnlyCombatUpdate(f)
+        if  (NAMEONLY_ALL_ENEMIES or NAMEONLY_ON_NEUTRAL) and
+            not NAMEONLY_IN_COMBAT
+        then
+            self:NameOnlyUpdate(f)
+            self:NameOnlyUpdateFunctions(f)
+        end
+    end
     function core:NameOnlyUpdate(f,hide)
         if  not hide and self.profile.nameonly and
             -- don't show on player frame
             not f.state.player and
             -- don't show on target
             (NAMEONLY_TARGET or not f.state.target) and
-            -- don't show on attackable units
-            (NAMEONLY_ALL_ENEMIES or not UnitCanAttack('player',f.unit)) and
             -- more complex filters;
+            AttackableUnitAndEnabled(f) and
+            not EnemyAffectingCombat(f) and
             not UnattackableEnemyPlayer(f) and
             not EnemyAndDisabled(f) and
             not FriendAndDisabled(f)
@@ -1608,4 +1661,12 @@ function core:InitialiseElements()
         -- set custom power colours
         plugin_pb.colours['MANA'] = { .30, .37, .74 }
     end
+
+    self.BossModIcon = {
+        icon_size = self.profile.bossmod_icon_size,
+        icon_x_offset = self.profile.bossmod_x_offset,
+        icon_y_offset = self.profile.bossmod_y_offset,
+        control_visibility = self.profile.bossmod_control_visibility,
+        clickthrough = self.profile.bossmod_clickthrough,
+    }
 end

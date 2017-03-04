@@ -1,14 +1,14 @@
 
 aiDB = {
+	["global"] = {
+		["version"] = "3.2.9",
+	},
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
-		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Kot - Chamber of Aspects"] = "Default",
-	},
-	["global"] = {
-		["version"] = "3.2.7",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -54,7 +54,7 @@ aiDB = {
 						"------------------------------------------------------------", -- [1]
 						"Jezeli ktos jeszcze nie zarejestrowal sie w kalendarzu mythic-radiow, prosze nadrobic temat!!!", -- [2]
 						"---> raid.wipeforged.com <---  (po akceptacji tworzymy postac i zapisujemy sie w eventach !!! )", -- [3]
-						"PROSZE TEGO PILNOWAC!!! UZYWAMY TEGO ROWNIEZ DO REJESTROWANIA FREKWENCJI !!!", -- [4]
+						"PROSZE DOKONYWAC ZAPISOW CONAJMNIEJ KILKA GODZ. PRZED RAIDEM!!!", -- [4]
 						"------------------------------------------------------------", -- [5]
 					},
 					["custom"] = {
@@ -88,9 +88,9 @@ aiDB = {
 				},
 			},
 			["lastmessage"] = {
-				["message"] = "GEAR",
+				["message"] = "KALENDARZ",
 				["type"] = "regular",
-				["chan"] = "WHISPER",
+				["chan"] = "GUILD",
 			},
 		},
 	},

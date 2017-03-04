@@ -3,9 +3,9 @@ RecountDB = {
 	["profileKeys"] = {
 		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
 		["Redus - Burning Legion"] = "Redus - Burning Legion",
-		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
 		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
 	},
 	["profiles"] = {
 		["Redbullek - Burning Legion"] = {
@@ -29,10 +29,10 @@ RecountDB = {
 		["Redus - Burning Legion"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -211.99951171875,
-					["x"] = 581.500244140625,
-					["w"] = 249.000015258789,
-					["h"] = 309,
+					["y"] = -51.9996948242188,
+					["x"] = 650.000854492188,
+					["w"] = 368.000366210938,
+					["h"] = 310.000213623047,
 				},
 			},
 			["SegmentBosses"] = true,
@@ -46,19 +46,18 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -121.000450134277,
-			["DetailWindowX"] = 795.000793457031,
-			["LastInstanceName"] = "The Emerald Nightmare",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 249.000152587891,
-			["MainWindowHeight"] = 309,
-		},
-		["Ðeadshot - Burning Legion"] = {
+			["DetailWindowY"] = -324.000579833984,
+			["DetailWindowX"] = 667.00048828125,
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Darkheart Thicket",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 368.000244140625,
+			["MainWindowHeight"] = 310.000183105469,
+		},
+		["Kot - Chamber of Aspects"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.000122070313,
-					["h"] = 199.999877929688,
+					["h"] = 199.999984741211,
 				},
 			},
 			["Colors"] = {
@@ -91,10 +90,14 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Kot - Chamber of Aspects"] = {
+		["Ðeadshot - Burning Legion"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 199.999984741211,
+					["y"] = -241.999053955078,
+					["h"] = 314.999969482422,
+					["w"] = 253.000045776367,
+					["x"] = 467.499877929688,
 				},
 			},
 			["Colors"] = {
@@ -107,7 +110,8 @@ RecountDB = {
 					},
 				},
 			},
-			["CurDataSet"] = "OverallData",
+			["LastInstanceName"] = "Halls of Valor",
+			["CurDataSet"] = "LastFightData",
 		},
 	},
 }

@@ -26,8 +26,15 @@ function WorldQuestGroupFinderConf.CreateConfigMenu()
 	configPanelDesc:SetJustifyV('TOP')
 	configPanelDesc:SetText(L["WQGF_ADDON_DESCRIPTION"])
 	
+	local regularQuestsDesc = configPanel:CreateFontString(nil, 'ARTWORK', 'GameFontNormal')
+	regularQuestsDesc:SetPoint('TOPLEFT', configPanelDesc, 'BOTTOMLEFT', -2, -8)
+	regularQuestsDesc:SetText(L["WQGF_CONFIG_QUEST_SUPPORT_TITLE"])
+
+	local regularQuests = WorldQuestGroupFinderConf.CreateCheckButton(L["WQGF_CONFIG_QUEST_SUPPORT_ENABLE"], configPanel, L["WQGF_CONFIG_QUEST_SUPPORT_HOVER"], "regularQuests", 'InterfaceOptionsCheckButtonTemplate')
+	regularQuests:SetPoint('TOPLEFT', regularQuestsDesc, 'BOTTOMLEFT', 0, -2)
+	
 	local autoInviteDesc = configPanel:CreateFontString(nil, 'ARTWORK', 'GameFontNormal')
-	autoInviteDesc:SetPoint('TOPLEFT', configPanelDesc, 'BOTTOMLEFT', -2, -8)
+	autoInviteDesc:SetPoint('TOPLEFT', regularQuests, 'BOTTOMLEFT', 0, -6)
 	autoInviteDesc:SetText(L["WQGF_CONFIG_AUTOINVITE"])
 
 	local autoInviteUsers = WorldQuestGroupFinderConf.CreateCheckButton(L["WQGF_CONFIG_AUTOINVITE_WQGF_USERS"], configPanel, L["WQGF_CONFIG_AUTOINVITE_WQGF_USERS_HOVER"], "autoinviteUsers", 'InterfaceOptionsCheckButtonTemplate')
@@ -97,17 +104,10 @@ function WorldQuestGroupFinderConf.CreateConfigMenu()
 
 	local silentModeOpt = WorldQuestGroupFinderConf.CreateCheckButton(L["WQGF_CONFIG_SILENT_MODE_ENABLE"], configPanel, L["WQGF_CONFIG_SILENT_MODE_HOVER"], "silent", 'InterfaceOptionsCheckButtonTemplate')
 	silentModeOpt:SetPoint('TOPLEFT', silentModeDesc, 'BOTTOMLEFT', 0, -2)
-
-	local hideLoginMessageDesc = configPanel:CreateFontString(nil, 'ARTWORK', 'GameFontNormal')
-	hideLoginMessageDesc:SetPoint('TOPLEFT', silentModeOpt, 'BOTTOMLEFT', 0, -6)
-	hideLoginMessageDesc:SetText(L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE"])
-
-	local hideLoginMessage = WorldQuestGroupFinderConf.CreateCheckButton(L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE_ENABLE"], configPanel, L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE_HOVER"], "hideLoginMessage", 'InterfaceOptionsCheckButtonTemplate')
-	hideLoginMessage:SetPoint('TOPLEFT', hideLoginMessageDesc, 'BOTTOMLEFT', 0, -2)
 	
 	if (GetLocale() ~= "enUS" and GetLocale() ~= "enGB") then
 		local translationInfo = configPanel:CreateFontString(nil, 'ARTWORK', 'GameFontNormalSmall')
-		translationInfo:SetPoint('TOPLEFT', hideLoginMessage, 'BOTTOMLEFT', 0, -10)
+		translationInfo:SetPoint('TOPLEFT', silentModeOpt, 'BOTTOMLEFT', 0, -10)
 		translationInfo:SetText(L["WQGF_TRANSLATION_INFO"])
 	end
 	
@@ -217,5 +217,5 @@ WorldQuestGroupFinderConf.DefaultConfig = {
 	allLanguages = true,
 	avoidPVP = false,
 	autoLeaveGroup = false,
-	silent = false
+	regularQuests = true
 }

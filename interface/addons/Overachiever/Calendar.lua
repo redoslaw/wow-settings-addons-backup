@@ -1,6 +1,8 @@
 
 local L = OVERACHIEVER_STRINGS
 
+local showUnknownToasts = true
+
 local getCalendarTextureFile
 
 
@@ -50,7 +52,7 @@ local function getEventEnding(title, calendarType, yearStart, monthStart, daySta
 		day = day + 1
 		if (day > numDays) then
 			day = 1
-			m = m + 1
+			m = m + 1 -- !! This can't effectively go over 1. Thought it worked before, but apparently no longer. Leaving as is for now since there is no event over a month in length anyway.
 			_, _, numDays = CalendarGetMonth(m)
 		end
 	end
@@ -62,13 +64,13 @@ local lastEvents = {}
 local lastCheckedDay, lastCheckedMonth
 local eventsExpireHour, eventsExpireMinute = false, false
 
-function Overachiever.GetTodaysEvents(cachekey, unexpiredOnly, searchEndDate, checkTitleFunc)
-	--return Overachiever.GetHolidayEvents(2016, 10, 5, 1, cachekey, unexpiredOnly, searchEndDate, checkTitleFunc)
-	return Overachiever.GetHolidayEvents(nil, nil, nil, nil, cachekey, unexpiredOnly, searchEndDate, checkTitleFunc)
+function Overachiever.GetTodaysEvents(cachekey, unexpiredOnly, searchEndDate, filterFunc)
+	--return Overachiever.GetHolidayEvents(2016, 10, 5, 1, cachekey, unexpiredOnly, searchEndDate, filterFunc)
+	return Overachiever.GetHolidayEvents(nil, nil, nil, nil, cachekey, unexpiredOnly, searchEndDate, filterFunc)
 end
 
---/dump Overachiever.GetHolidayEvents(2016, 10, 6, "hey", true, true)
-function Overachiever.GetHolidayEvents(year, month, day, hourOverride, cachekey, unexpiredOnly, searchEndDate, checkTitleFunc)
+--/dump Overachiever.GetHolidayEvents(2017, 2, 1, 1, -1, true, true)
+function Overachiever.GetHolidayEvents(year, month, day, hourOverride, cachekey, unexpiredOnly, searchEndDate, filterFunc)
 	-- Make sure to use a unique cachekey for each combination of your other arguments. Otherwise, you may get back cached data for some other arguments.
 	cachekey = cachekey or 0
 	local weekdayNow, monthNow, dayNow, yearNow = CalendarGetDate()
@@ -96,16 +98,18 @@ function Overachiever.GetHolidayEvents(year, month, day, hourOverride, cachekey,
 	local expired = {}
 	for e = 1, numEvents do
 		local title, hour, minute, calendarType, sequenceType, eventType, texture = CalendarGetDayEvent(0, day, e)
+		--print(title, ",", calendarType, ",", sequenceType, ",", eventType, ",", texture)
 		if (not expired[title] and calendarType == "HOLIDAY") then
 			if (unexpiredOnly and sequenceType == "END" and (hour < hourNow or (hour == hourNow and minute <= minuteNow))) then
 				expired[title] = true
 				if (result) then  result[title] = nil;  end
-			elseif (not checkTitleFunc or checkTitleFunc(title)) then
+			elseif (not filterFunc or filterFunc(title, texture)) then
 				if (not result) then  result = {};  end
 				--texture = getCalendarTextureFile(texture, calendarType, sequenceType, eventType)
 				if (not result[title]) then  result[title] = {};  end
 				if (not result[title]["texture"] or result[title]["texture"] == "") then
-					result[title]["texture"] = getCalendarTextureFile(texture, calendarType, "START", eventType)
+					result[title]["texture"] = getCalendarTextureFile(texture, calendarType, sequenceType == "" and "" or "START", eventType)
+					result[title]["texture_unpathed"] = texture
 				end
 				if (not result[title]["desc"]) then
 					local _, description = CalendarGetHolidayInfo(0, day, e)
@@ -137,10 +141,136 @@ function Overachiever.GetHolidayEvents(year, month, day, hourOverride, cachekey,
 			end
 		end
 	end
-	lastEvents[cachekey] = result
+	if (cachekey ~= -1) then  lastEvents[cachekey] = result;  end
 	return result
 end
 
+--[[
+--/run DEBUG_GETALLEVENTS()
+function DEBUG_GETALLEVENTS()
+	local m = 1 -- Start month
+	local events = {}
+	--local _, _, numDays = TjCalendar.StartReadingAt(nil, 1, true) -- Start at first month of this year
+	local _, _, numDays = TjCalendar.StartReadingAt(nil, m, true)
+	local day = 1
+	for i = 1, 366 do -- Look up to 366 days away (365 + 1 in case it's a leap year)
+		local numEvents = CalendarGetNumDayEvents(0, day)
+		for e = 1, numEvents do
+			local title, _, _, calendarType, sequenceType, _, texture = CalendarGetDayEvent(0, day, e)
+			if (calendarType == "HOLIDAY") then --and sequenceType == "START") then
+				if (not texture) then  texture = 0;  end
+				if (events[title]) then
+					events[title][#(events[title])] = texture
+				else
+					events[title] = { texture }
+				end
+			end
+		end
+		day = day + 1
+		if (day > numDays) then
+			day = 1
+			m = m + 1
+			if (m > 12) then  break;  end
+			--_, _, numDays = CalendarGetMonth(m)
+			TjCalendar.StopReading()
+			_, _, numDays = TjCalendar.StartReadingAt(nil, m, true)
+		end
+	end
+	TjCalendar.StopReading()
+
+	C_Timer.After(0, function()
+		local s = ""
+		for k,v in pairs(events) do
+			v = table.concat(v, ",")
+			s = s .. '["' .. v .. '"] = "edit_this",				-- ' .. k .. "\r\n"
+		end
+		error(s)
+	end)
+
+	return events
+end
+--]]
+
+local EVENT_TEXTURE_LOOKUP = {
+	["calendar_volunteerguardday"] = "micro",				-- Volunteer Guard Day
+	["calendar_weekendpetbattles"] = "bonus",				-- Pet Battle Bonus Event
+	["calendar_glowcapfestival"] = "micro",					-- Glowcap Festival
+	["Calendar_HallowsEnd"] = "holiday",					-- Hallow's End
+	["calendar_weekendlegion"] = "dungeon",					-- Legion Dungeon Event
+	["calendar_weekendpvpskirmish"] = "bonus",				-- Arena Skirmish Bonus Event
+	["calendar_hatchingofthehippogryphs"] = "micro",		-- Hatching of the Hippogryphs
+	["calendar_ungoromadness"] = "micro",					-- Un'Goro Madness
+	["calendar_fireworks"] = "holiday",						-- Fireworks Celebration
+	["Calendar_LoveInTheAir"] = "holiday",					-- Love is in the Air
+	["calendar_thousandboatbash"] = "micro",				-- Thousand Boat Bash
+	["calendar_weekendworldquest"] = "bonus",				-- World Quest Bonus Event
+	["Calendar_Brewfest"] = "holiday",						-- Brewfest
+	["Calendar_HarvestFestival"] = "holiday",				-- Harvest Festival
+	["calendar_weekendmistsofpandaria"] = "dungeon",		-- Timewalking Dungeon Event
+	["calendar_springballoonfestival"] = "micro",			-- Spring Balloon Festival
+	["calendar_taverncrawl"] = "micro",						-- Kirin Tor Tavern Crawl
+	["calendar_fireworks"] = "holiday",						-- Fireworks Spectacular
+	["Calendar_LunarFestival"] = "holiday",					-- Lunar Festival
+	["Calendar_PiratesDay"] = "holiday",					-- Pirates' Day
+	["Calendar_Midsummer"] = "holiday",						-- Midsummer Fire Festival
+	["Calendar_WinterVeil"] = "holiday",					-- Feast of Winter Veil
+	["calendar_marchofthetadpoles"] = "micro",				-- March of the Tadpoles
+	["Calendar_DayOfTheDead"] = "holiday",					-- Day of the Dead
+	["Calendar_ChildrensWeek"] = "holiday",					-- Children's Week
+	["Calendar_Noblegarden"] = "holiday",					-- Noblegarden
+	["calendar_weekendbattlegrounds"] = "bonus",			-- Battleground Bonus Event
+	["calendar_darkmoonfaireterokkar"] = "holiday",			-- Darkmoon Faire
+	["calendar_callofthescarab"] = "micro",					-- Call of the Scarab
+}
+
+-- /run Overachiever.ToastForEvents(true, true, true, true)
+function Overachiever.ToastForEvents(holiday, microholiday, bonusevent, dungeonevent)
+	if (not holiday and not microholiday and not bonusevent and not dungeonevent) then  return;  end
+	--print("ToastForEvents",holiday, microholiday, bonusevent, dungeonevent)
+
+	local function filterEvents(localizedTitle, texture)
+		--print(texture)
+		local arr = EVENT_TEXTURE_LOOKUP[texture]
+		if (not arr) then  return showUnknownToasts;  end
+		local holidayType = type(arr) == "table" and arr[1] or arr
+		--print("holidayType",holidayType)
+		if     (holidayType == "holiday") then	return holiday
+		elseif (holidayType == "micro") then	return microholiday
+		elseif (holidayType == "bonus") then	return bonusevent
+		elseif (holidayType == "dungeon") then	return dungeonevent
+		end
+	end
+
+	local events = Overachiever.GetTodaysEvents(-1, true, nil, filterEvents)
+	if (events) then
+		--print("events:")
+		for localizedEventTitle,tab in pairs(events) do
+			local arr = EVENT_TEXTURE_LOOKUP[tab.texture_unpathed]
+			local onClick
+			local holidayType = type(arr) == "table" and arr[1] or arr
+			if (holidayType == "holiday") then
+				onClick = function()
+					if (not AchievementFrame or not AchievementFrame:IsShown()) then
+						ToggleAchievementFrame()
+					end
+					Overachiever.OpenSuggestionsTab(localizedEventTitle)
+				end
+			else
+				onClick = function()
+					Calendar_LoadUI()
+					if (Calendar_Show) then  Calendar_Show();  end
+				end
+			end
+			local achID = type(arr) == "table" and arr[2] or nil
+			local delay
+			if (Overachiever_Settings.ToastCalendar_noautofade) then
+				delay = Overachiever_Settings.ToastCalendar_onlyclickfade and -1 or 0
+			end
+			--print("-",localizedEventTitle)
+			Overachiever.ToastFakeAchievement(localizedEventTitle, achID, false, nil, delay, L.STARTTOAST_EVENT, onClick, tab.texture)
+		end
+	end
+end
 
 
 -- THIS SECTION IS FROM Blizzard_Calendar.lua (since it is entirely local there)

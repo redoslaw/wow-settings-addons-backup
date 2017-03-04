@@ -1,14 +1,10 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: AnnounceIt |cFF7CCF7C3.2|r
 ## Notes: Simple storage and retrieval access to broadcast your stored messages to Party, Raid and other chat channels.
-## Version: 3.2.7
+## Version: 3.2.9
 ## Author: giant
 ## SavedVariables: aiDB
 ## X-Category: Chat/Communication
-## X-Curse-Packaged-Version: 3.2.7
-## X-Curse-Project-Name: AnnounceIt
-## X-Curse-Project-ID: announce-it
-## X-Curse-Repository-ID: wow/announce-it/mainline
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
@@ -27,3 +23,4 @@ locale\enUS.lua
 locale\frFR.lua
 
 AnnounceIt.xml
+

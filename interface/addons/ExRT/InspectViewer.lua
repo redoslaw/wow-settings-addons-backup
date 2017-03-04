@@ -101,7 +101,13 @@ module.db.topEnchGems = {
 }
 
 module.db.achievementsList = {
-	{	--Nightmare
+	{	--Nighthold
+		L.S_ZoneT19Suramar,
+		10829,10837,10838,10839,10840,10842,10843,10844,10848,10847,10846,10845,10849,10850,11195,
+	},{	--Trial of Valor
+		L.S_ZoneT19ToV,
+		11426,11396,11397,11398,11581,
+	},{	--Nightmare
 		L.S_ZoneT19Nightmare,
 		10818,10819,10820,10821,10822,10823,10824,10825,10826,10827,
 	
@@ -137,7 +143,11 @@ module.db.achievementsList = {
 	},
 }
 module.db.achievementsList_statistic = {
-	{	--Nightmare
+	{	--Nighthold
+		0,0,0,0,{10940,10941,10942,10943},{10944,10945,10946,10947},{10948,10949,10950,10951},{10952,10953,10954,10955},{10969,10970,10971,10972},{10965,10966,10967,10968},{10961,10962,10963,10964},{10956,10957,10959,10960},{10973,10974,10975,10976},{10977,10978,10979,10980},
+	},{	--Trial of Valor
+		0,{11407,11408,11409,11410},{11411,11412,11413,11414},{11415,11416,11417,11418},
+	},{	--Nightmare
 		0,0,0,{10911,10912,10913,10914},{10920,10921,10922,10923},{10924,10925,10926,10927},{10915,10916,10917,10918},{10928,10929,10930,10931},{10932,10933,10934,10935},{10936,10937,10938,10939},
 	},{	--Legion 5ppl
 		{10981,10982},{10890,10891,10892,10893,10894,10895},{10899,10900,10901},{10910},{10881,10882,10883},{10878,10879,10880},{10887,10888,10889},{10902,10903,10904},
@@ -465,7 +475,7 @@ function module.options:Load()
 		end, arg1 = dropDownTable[4][1][i]}
 	end
 	
-	module.db.achievementList = 2
+	module.db.achievementList = 1
 	self.achievementsDropDown = ELib:DropDown(self,330,#module.db.achievementsList + 2):Point(405,-25):Size(249):SetText(ACHIEVEMENT_FILTER_TITLE)
 	self.achievementsDropDown:Hide()
 	self.achievementsDropDown.List = {}
@@ -886,6 +896,9 @@ function module.options:Load()
 							local it = 0
 							for j=1,#db do
 								local spellID = C_ArtifactUI.GetPowerInfo(db[j][1])
+								if ExRT.clientVersion >= 70200 then
+									spellID = spellID.spellID
+								end
 								
 								local spellTexture = GetSpellTexture(spellID)
 								
@@ -1723,6 +1736,13 @@ function module.options:Load()
 	
 	local function SetupButton(self, powerID, anchorRegion, currRank, totalRanks)
 		local spellID, cost, currentRank, maxRank, bonusRanks, x, y, prereqsMet, isStart, isGoldMedal, isFinal = C_ArtifactUI.GetPowerInfo(powerID)
+
+		if ExRT.clientVersion >= 70200 then
+			cost, currentRank, maxRank, bonusRanks, x, y, prereqsMet, isStart, isGoldMedal, isFinal = 
+			spellID.cost, spellID.currentRank, spellID.maxRank, spellID.bonusRanks, spellID.position.x, spellID.position.y, spellID.prereqsMet, spellID.isStart, spellID.isGoldMedal, spellID.isFinal
+			spellID = spellID.spellID
+		end
+
 		self:ClearAllPoints()
 		self:SetPoint("CENTER", anchorRegion, "TOPLEFT", x * anchorRegion:GetWidth() / ARTIFACT_TRAIT_SCALE, -y * anchorRegion:GetHeight() / ARTIFACT_TRAIT_SCALE)
 		
@@ -1742,6 +1762,7 @@ function module.options:Load()
 		self.isStart = isStart
 		self.isGoldMedal = isGoldMedal
 		self.isFinal = isFinal
+		self.tier = 1
 	
 		self.isCompletelyPurchased = currRank == totalRanks or self.isStart
 		self.hasSpentAny = currRank > 0
@@ -1963,7 +1984,10 @@ function module.options:Load()
 				count = count + 1
 			end
 		end
-		self.ScrollBar:SetMinMaxValues(1,max(count-module.db.perPage+1,1)):UpdateButtons()
+		local val = self.ScrollBar:GetValue()
+		local newMax = max(count-module.db.perPage+1,1)
+		self.ScrollBar:SetMinMaxValues(1,newMax):SetValue(min(val,newMax))
+		
 		module.options.ReloadPage()
 		
 		module.options.RaidIlvl()

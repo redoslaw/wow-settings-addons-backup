@@ -112,7 +112,7 @@ ExRT.Options.InBlizzardInterface:SetScript("OnShow",function (self)
 	self:SetScript("OnShow",nil)
 end)
 
-ExRT.Options.InBlizzardInterface.button = ELib:Button(ExRT.Options.InBlizzardInterface,"Exrsus Raid Tools",0):Size(400,25):Point("TOP",0,-100):OnClick(function ()
+ExRT.Options.InBlizzardInterface.button = ELib:Button(ExRT.Options.InBlizzardInterface,"Exorsus Raid Tools",0):Size(400,25):Point("TOP",0,-100):OnClick(function ()
 	if InterfaceOptionsFrame:IsShown() then
 		InterfaceOptionsFrame:Hide()
 	end

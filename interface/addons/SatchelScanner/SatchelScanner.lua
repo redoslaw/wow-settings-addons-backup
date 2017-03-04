@@ -3,318 +3,359 @@
 --------------------------------
 --     MAINFRAME & SCANNER    --
 --------------------------------
-textTable = {
-	ANT = { outLine = "OUTLINE", fontSize = "14", loc = "TOP", x = 0, y = 8, color = {1, 1, 1, 1}, text = "Satchel Scanner", },
-	statusText = { outLine = "OUTLINE", fontSize = "16", loc = "LEFT", x = 5, y = 61, color = {0, 1, 0, 1}, text = "Current Status:", },
-	scanText = { outLine = "OUTLINE", fontSize = "16", loc = "LEFT", x = 95, y = 61, color = {1, 0, 0, 1}, text = "Not Running", },
-	tankText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 22, y = 45, color = {1, 1, 1, 1}, text = "Tank:", },
-	tankScanningText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 52, y = 45, color = {1, 0, 0, 1}, text = "Not Scanning...", },
-	tankdg1 = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 6, y = 29, color = {0, 0.6, 0.8, 1}, text = "# ...", },
-	healerText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 22, y = 13, color = {1, 1, 1, 1}, text = "Healer:", },
-	healScanningText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 62, y = 13, color = {1, 0, 0, 1}, text = "Not Scanning...", },
-	healdg1 = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 6, y = -3, color = {0, 0.6, 0.8, 1}, text = "# ...", },
-	dpsText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 22, y = -19, color = {1, 1, 1, 1}, text = "DPS:", },
-	dpsScanningText = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 47, y = -19, color = {1, 0, 0, 1}, text = "Not Scanning...", },
-	dpsdg1 = { outLine = "OUTLINE", fontSize = "14", loc = "LEFT", x = 6, y = -35, color = {0, 0.6, 0.8, 1}, text = "# ...", },
-	bagCounter = { outLine = "OUTLINE", fontSize = "14", loc = "TOP", x = 116, y = -23, color = {0, 0.6, 0.8, 1}, bag = true, text = "0", },
-};
+SS_Spacer = "Interface\\Addons\\SatchelScanner\\textures\\hr.tga";
+SS_Border = "Interface\\Addons\\SatchelScanner\\textures\\border.tga";
+SS_BagIcon = "Interface\\Addons\\SatchelScanner\\textures\\bagIcon.tga";
+SS_TankIcon = "Interface\\Addons\\SatchelScanner\\textures\\tankIcon.tga";
+SS_HealerIcon = "Interface\\Addons\\SatchelScanner\\textures\\healerIcon.tga";
+SS_DpsIcon = "Interface\\Addons\\SatchelScanner\\textures\\dpsIcon.tga";
+SS_StartButton = "Interface\\Buttons\\UI-Panel-Button-Up.blp";
+SS_StopButton = "Interface\\Buttons\\UI-Panel-Button-Up.blp";
+SS_preFont = "Interface\\Addons\\SatchelScanner\\fonts\\font.TTF";
+SS_highlightSmallUI = "Interface\\Buttons\\UI-Panel-MinimizeButton-Highlight.blp";
+SS_hightlightMediumUI = "Interface\\Buttons\\UI-Panel-Button-Highlight.png";
+SS_ConfigButtonPush = "Interface\\Addons\\SatchelScanner\\textures\\configpush.tga";
+SS_CloseButtonPush = "Interface\\Addons\\SatchelScanner\\textures\\closepush.tga";
+SS_ConfigButton = "Interface\\Addons\\SatchelScanner\\textures\\config.tga";
+SS_CloseButton = "Interface\\Addons\\SatchelScanner\\textures\\close.tga";
 
-frameTable = {
-	scanButton = { zscale = 0, zxscale = 0, yscale = 22/32, xscale = 80/128, texture = true, Type = "Button", width = "80", height = "25", loc = "BOTTOM", x = -80, y = 5, text = "Start", script = true, functionName = "startScanning()", normalTxt = "Interface\\Buttons\\UI-Panel-Button-Up.blp", pushedTxt = "Interface\\Buttons\\UI-Panel-Button-Down.blp", highLightTxt = "Interface\\Buttons\\UI-Panel-Button-Highlight.png", },
-	stopButton = { zscale = 0, zxscale = 0, yscale = 22/32, xscale = 80/128, texture = true, Type = "Button", width = "80", height = "25", loc = "BOTTOM", x = 80, y = 5, text = "Stop", script = true, functionName = "stopScanning()", normalTxt = "Interface\\Buttons\\UI-Panel-Button-Up.blp", pushedTxt = "Interface\\Buttons\\UI-Panel-Button-Down.blp", highLightTxt = "Interface\\Buttons\\UI-Panel-Button-Highlight.png", },
-	configButton = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, texture = true, Type = "Button", width = "16", height = "16", loc = "TOP", x = 97, y = -5, script = true, functionName = "InterfaceOptionsFrame_OpenToCategory(SatchelScannerOptions.childpanel)", normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\config.tga", pushedTxt = "Interface\\Addons\\SatchelScanner\\icons\\configpush.tga", highLightTxt = "Interface\\Buttons\\UI-Panel-MinimizeButton-Highlight.blp", },
-	closeButton = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, texture = true, Type = "Button", width = "16", height = "16", loc = "TOP", x = 115, y = -5, script = true, functionName = "hideMainFrame()", normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\close.tga", pushedTxt = "Interface\\Addons\\SatchelScanner\\icons\\closepush.tga", highLightTxt = "Interface\\Buttons\\UI-Panel-MinimizeButton-Highlight.blp", },
-	bagIcon = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, Type = "Button", width = "16", height = "16", loc = "TOP", x = 97, y = -23, normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\bagIcon.tga", },
-	tankIcon = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, Type = "Button", width = "15", height = "15", loc = "LEFT", x = 6, y = 45, normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\tankIcon.tga", },
-	healIcon = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, Type = "Button", width = "15", height = "15", loc = "LEFT", x = 6, y = 13, normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\healerIcon.tga", },
-	dpsIcon = { zscale = 0, zxscale = 0, yscale = 1, xscale = 1, Type = "Button", width = "15", height = "15", loc = "LEFT", x = 6, y = -19, normalTxt = "Interface\\Addons\\SatchelScanner\\icons\\dpsIcon.tga", },
-};
+SS_instanceID1 = 1046; -- Heroics
+SS_instanceID2 = 0; -- Mythic Dungeon
+--SS_instanceID3 = 995; -- Timewalking WoTLK
+SS_instanceID3 = 1146; -- Timewalking Cataclysm
+SS_instanceID4 = 1287; -- Darkbough
+SS_instanceID5 = 1288; -- Tormented Guardians
+SS_instanceID6 = 1289; -- Rift of Aln
+SS_instanceID7 = 1411; -- Trial of Valor
+SS_instanceID8 = 1290; -- Arcing Aqueducts
+SS_instanceID9 = 1291; -- Royal Athenaeum
+SS_instanceID10 = 1292; -- Nightspire
+SS_instanceID11 = 1293; -- Betrayer's Rise
+SS_instanceID12 = 1494; -- The Tidestone's Rest
+SS_instanceID13 = 1495; -- Wailing Halls
+SS_instanceID14 = 1496; -- Chamber of the Avatar
+SS_instanceID15 = 1497; -- Deceiver's Fall
 
-dungeonTable = {
-	dungeon1 = { id = 1046, }
-};
+--for i = 1, GetNumRFDungeons() do
+--  local id, name = GetRFDungeonInfo(i)
+--  print(id .. ": " .. name)
+--end
+--for i = 1, GetNumRandomDungeons() do
+--  local id, name = GetLFGRandomDungeonInfo(i)
+--  print(id .. ": " .. name)
+--end
+
 -- Variables
-local playSound = true; -- Play sound to notify?
-local raidWarnNotify = true; -- Use Raidwarning to notify?
-local UpdateInterval = 5; -- Update Interval
-local scanForTank = true; -- Scan for Tank Option
-local scanForHeal = true; -- Scan for Heal Option
-local scanForDps = false; -- Scan for Dps Option
-local showUI = true; -- Show UI Yes by defualt
-
 local running = false; -- Boolean to detect Running/paused state
-
-local addonVersion = 7.05; -- Addon Version, useful for wiping savedvariables if needed
---local versionTag = "Release";
-local tankSatchelFound = false; -- Specific Boolean for Tank Satchels
-local healSatchelFound = false; -- Specific Boolean for Healer Satchels
-local dpsSatchelFound = false; -- Specific Boolean for DPS Satchels
-local satchelsReceived = 0;
-
-local scanInDungeon = false; -- Scan while in an dungeon?
-local scanInGroup = true; -- Scan while in an group?
+SS_addonVersion = 7.17; -- Addon Version, useful for wiping savedvariables if needed
+SS_versionTag = "Release";
+SS_TimeSinceLastNotification = 0;
 
 -- Dungeon Scan Var
-local runVar = {"Not Running", "Running"};
-local heroicVar = {"# Legion Heroic!", "# Not used...!"};
-local scanVar = {"# ...", "# Searching..."};
-local classScan = {"Not Scanning...","Scanning...","Satchel Found!"};
-local ctaVar = {"Call to Arms: Tank","Call to Arms: Healer","Call to Arms: Dps"};
-
+SS_runVar = {"Not Running", "Running"};
+SS_scanVar = {"#", "# ...", "# Searching...","# Legion Heroic!", "# Legion Mythic!", "# Timewalking Dungeon!","# Darkbough!","# Tormented Guardians!","# Rift of Aln!","# Trial of Valor!","# Arcing Aqueducts!","# Royal Athenaeum!","# Nightspire!","# Betrayer's Rise!"}
+SS_classScan = {"Not Scanning...","Scanning...","Satchel Found!"};
+SS_ctaVar = {"Call to Arms: Tank","Call to Arms: Healer","Call to Arms: Dps"};
 
 -- Text Colors
 local redColor = {1,0,0,1};
 local greenColor = {0,1,0,1};
 local yellowColor = {1,1,0,1};
+local whiteColor = {1,1,1,1};
 
-function stopScanning()
-	if running then
-		tankSatchelFound = false;
-		healSatchelFound = false;
-		dpsSatchelFound = false;
-		running = false;
-		textTable.scanText.textFrame:SetTextColor(unpack(redColor));
-		textTable.scanText.textFrame:SetText(runVar[1]);
-		textTable.tankScanningText.textFrame:SetText(classScan[1]);
-		textTable.tankScanningText.textFrame:SetTextColor(unpack(redColor));
-		textTable.healScanningText.textFrame:SetText(classScan[1]);
-		textTable.healScanningText.textFrame:SetTextColor(unpack(redColor));
-		textTable.dpsScanningText.textFrame:SetText(classScan[1]);
-		textTable.dpsScanningText.textFrame:SetTextColor(unpack(redColor));
-		textTable.tankdg1.textFrame:SetText(scanVar[1]);
-		textTable.healdg1.textFrame:SetText(scanVar[1]);
-		textTable.dpsdg1.textFrame:SetText(scanVar[1]);
+SS_masterFrameTable = {
+	[1] = {
+		[1] = { "Icon", x = 5, texture = SS_TankIcon, },
+		[2] = { "Text", x = 22, color = {1, 1, 1, 1}, text = "Tank:", },
+		[3] = { "Text2", x = 50, color = {1, 0, 0, 1}, text = "Not Scanning...", },
+		[4] = { "SS_heroicDungeonBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID1},
+		[5] = { "SS_mythicDungeonBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID2},
+		[6] = { "SS_timewalkingDungeonBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID3},
+		[7] = { "SS_DarkboughBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID4},
+		[8] = { "SS_TormentedGuardiansBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID5},
+		[9] = { "SS_RiftofAlnBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID6},
+		[10] = { "SS_TrialofValorBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID7},
+		[11] = { "SS_ArcingAqueductsBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID8},
+		[12] = { "SS_RoyalAthenaeumBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID9},
+		[13] = { "SS_NightspireBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID10},
+		[14] = { "SS_BetrayersRiseBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID11},
+		[15] = { "SS_TidestonesRestBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID12},
+		[16] = { "SS_WailingHallsBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID13},
+		[17] = { "SS_ChamberAvatarBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID14},
+		[18] = { "SS_DeceiversFallBox1", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID15},
+	},
+	[2] = {
+		[1] = { "Icon", x = 5, texture = SS_HealerIcon, },
+		[2] = { "Text", x = 22, color = {1, 1, 1, 1}, text = "Heal:", },
+		[3] = { "Text2", x = 49, color = {1, 0, 0, 1}, text = "Not Scanning...", },
+		[4] = { "SS_heroicDungeonBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID1},
+		[5] = { "SS_mythicDungeonBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID2},
+		[6] = { "SS_timewalkingDungeonBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID3},
+		[7] = { "SS_DarkboughBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID4},
+		[8] = { "SS_TormentedGuardiansBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID5},
+		[9] = { "SS_RiftofAlnBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID6},
+		[10] = { "SS_TrialofValorBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID7},
+		[11] = { "SS_ArcingAqueductsBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID8},
+		[12] = { "SS_RoyalAthenaeumBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID9},
+		[13] = { "SS_NightspireBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID10},
+		[14] = { "SS_BetrayersRiseBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID11},
+		[15] = { "SS_TidestonesRestBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID12},
+		[16] = { "SS_WailingHallsBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID13},
+		[17] = { "SS_ChamberAvatarBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID14},
+		[18] = { "SS_DeceiversFallBox2", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID15},
+	},
+	[3] = {
+		[1] = { "Icon", x = 5, texture = SS_DpsIcon, },
+		[2] = { "Text", x = 22, color = {1, 1, 1, 1}, text = "DPS:", },
+		[3] = { "Text2", x = 46, color = {1, 0, 0, 1}, text = "Not Scanning...", },
+		[4] = { "SS_heroicDungeonBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID1},
+		[5] = { "SS_mythicDungeonBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID2},
+		[6] = { "SS_timewalkingDungeonBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID3},
+		[7] = { "SS_DarkboughBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID4},
+		[8] = { "SS_TormentedGuardiansBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID5},
+		[9] = { "SS_RiftofAlnBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID6},
+		[10] = { "SS_TrialofValorBox3", x = 5, color = {255, 255, 255, 1}, text = "# ...", id = SS_instanceID7},
+		[11] = { "SS_ArcingAqueductsBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID8},
+		[12] = { "SS_RoyalAthenaeumBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID9},
+		[13] = { "SS_NightspireBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID10},
+		[14] = { "SS_BetrayersRiseBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID11},
+		[15] = { "SS_TidestonesRestBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID12},
+		[16] = { "SS_WailingHallsBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID13},
+		[17] = { "SS_ChamberAvatarBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID14},
+		[18] = { "SS_DeceiversFallBox3", x = 5, color = {1, 1, 1, 1}, text = "# ...", id = SS_instanceID15},
+	},
+};
+
+SS_slimFrame = {
+	SS_HeaderText = { loc = "TOP", x = 0, y = 8, fontSize = "14", color = {1, 1, 1, 1}, text = "Satchel Scanner", },
+	SS_SubHeaderText = { loc = "TOPLEFT", x = 5, y = -5, fontSize = "16", color = {0, 1, 0, 1}, text = "Current Status:", },
+	SS_SubHeaderText2 = { loc = "TOPLEFT", x = 95, y = -5, fontSize = "16", color = {1, 0, 0, 1}, text = "Not Running", },
+	SS_configButton = { loc = "TOP", x = 97, y = -5, width = "16", height = "16", functionName = "InterfaceOptionsFrame_OpenToCategory(SS_Options.childpanel)", texture = SS_ConfigButton, pushedTxt = SS_ConfigButtonPush, highLightTxt = SS_highlightSmallUI},
+	SS_closeButton = { loc = "TOP", x = 115, y = -5, width = "16", height = "16", functionName = "hideMainFrame()", texture = SS_CloseButton, pushedTxt = SS_CloseButtonPush, highLightTxt = SS_highlightSmallUI},
+	SS_HeaderSpacertexture = { loc = "TOP", x = 0, y = -23, width = "0" , height = "2", texture = SS_Spacer},
+	SS_bagIcontexture = { loc = "TOP", x = 79, y = -5, width = "16", height = "16", texture = SS_BagIcon},
+	SS_bagCounterText = { loc = "TOP", x = 60, y = -7, fontSize = "14", color = {0, 0.6, 0.8, 1}, text = "0"},
+	SS_startButton = { loc = "BOTTOM", x = -85, y = 5, text = "Start", yscale = 22/32, xscale = 80/130, width = "80", height = "25", functionName = "SS_startScanning()", texture = SS_StartButton, pushedTxt = "Interface\\Buttons\\UI-Panel-Button-Down.blp", highLightTxt = SS_hightlightMediumUI},
+	SS_stopButton = { loc = "BOTTOM", x = 85, y = 5, text = "Stop", yscale = 22/32, xscale = 80/130, width = "80", height = "25", functionName = "SS_stopScanning()", texture = SS_StopButton, pushedTxt = "Interface\\Buttons\\UI-Panel-Button-Down.blp", highLightTxt = SS_hightlightMediumUI},
+};
+
+function updateFrames()
+	if not _G["SS_InstanceText3#14"] and not running then
+		for j, var in ipairs(SS_masterFrameTable) do -- This is for drawing each texture
+			for i, tVar in ipairs(var) do
+				if not (i == 1) and not _G["SS_InstanceText"..j.."#"..i] then
+					_G["SS_InstanceText"..j.."#"..i] = SatchelScannerDisplayWindow:CreateFontString(nil, "OVERLAY")
+					_G["SS_InstanceText"..j.."#"..i]:SetFont(SS_preFont, 14, "OUTLINE");
+					_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(tVar.color));
+					_G["SS_InstanceText"..j.."#"..i]:SetText(tVar.text);
+					_G["SS_InstanceText"..j.."#"..i]:SetPoint("TOPLEFT", 0, 0);
+					_G["SS_InstanceText"..j.."#"..i]:Hide();
+				elseif (i == 1) and not _G["SS_InstanceIcon"..j.."#"..i] then
+					_G["SS_InstanceIcon"..j.."#"..i] = CreateFrame("Button", nil, SatchelScannerDisplayWindow);
+					_G["SS_InstanceIcon"..j.."#"..i]:SetWidth("16");
+					_G["SS_InstanceIcon"..j.."#"..i]:SetHeight("16");
+					_G["SS_InstanceIcon"..j.."#"..i]:SetNormalTexture(tVar.texture)
+					_G["SS_InstanceIcon"..j.."#"..i]:SetPoint("TOPLEFT", 0, 0);
+					_G["SS_InstanceIcon"..j.."#"..i]:Hide();
+				end	
+			end
+		end
 	end
-end
-
-function startScanning()
-	if not running and (scanForTank or scanForHeal or scanForDps) then
-		running = true
-		textTable.scanText.textFrame:SetTextColor(unpack(greenColor));
-		textTable.scanText.textFrame:SetText(runVar[2]);
-		if scanForTank then
-			textTable.tankdg1.textFrame:SetText(scanVar[2]);
+	if _G["SS_InstanceText3#14"] and not running then
+		local yvar = -28;
+		for j, var in ipairs(SS_masterFrameTable) do -- This is for displaying/hiding each texture
+			local countMe = 0;
+			for i, tVar in ipairs(var) do
+				if string.find(tVar[1] or "", "Box") then
+					if (_G[tVar[1]]:GetChecked()) then
+						_G["SS_InstanceText"..j.."#"..i]:SetPoint("TOPLEFT", tVar.x, yvar);
+						_G["SS_InstanceText"..j.."#"..i]:SetText(tVar.text);
+						_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(tVar.color));
+						_G["SS_InstanceText"..j.."#"..i]:Show();
+						yvar = yvar - 15;
+						countMe = countMe + 1;
+					elseif not (_G[tVar[1]]:GetChecked()) then
+						_G["SS_InstanceText"..j.."#"..i]:Hide();
+					end
+				elseif string.find(tVar[1] or "", "Text") then
+					_G["SS_InstanceText"..j.."#"..i]:SetPoint("TOPLEFT", tVar.x, yvar);
+					_G["SS_InstanceText"..j.."#"..i]:SetText(tVar.text);
+					_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(tVar.color));
+					_G["SS_InstanceText"..j.."#"..i]:Show();
+					if string.find(tVar[1] or "", "Text2") then
+						yvar = yvar - 17;
+					end
+				elseif string.find(tVar[1] or "", "Icon") then
+					_G["SS_InstanceIcon"..j.."#"..i]:SetPoint("TOPLEFT", tVar.x, yvar);
+					_G["SS_InstanceIcon"..j.."#"..i]:Show();
+					yvar = yvar - 1;
+				end
+			end
+			if countMe == 0 then
+				yvar = yvar + 18;
+				_G["SS_InstanceText"..j.."#"..3]:Hide();
+				_G["SS_InstanceText"..j.."#"..2]:Hide();
+				_G["SS_InstanceIcon"..j.."#"..1]:Hide();
+			end
+			local heigth = (yvar*-1) + 30;
+			SatchelScannerDisplayWindow:SetHeight(heigth);
 		end
-		if scanForHeal then
-			textTable.healdg1.textFrame:SetText(scanVar[2]);
-		end
-		if scanForDps then
-			textTable.dpsdg1.textFrame:SetText(scanVar[2]);
-		end
-		RequestLFDPlayerLockInfo();
-	elseif not running and not (scanForTank or scanForHeal or scanForDps) then
-		print("Must scan for atleast one class before starting the program!");
 	end
+	if _G["SS_InstanceText3#14"] and running then
+		for j, var in ipairs(SS_masterFrameTable) do -- This is for setting scan parameters
+			for i, tVar in ipairs(var) do
+				if (i > 1) and (_G["SS_InstanceText"..j.."#"..i]:IsShown()) then
+					if string.find(tVar[1] or "", "Box") then
+						_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(whiteColor));
+						_G["SS_InstanceText"..j.."#"..i]:SetText(SS_scanVar[3]);
+					elseif (i == 3) then
+						_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(yellowColor));
+						_G["SS_InstanceText"..j.."#"..i]:SetText(SS_classScan[2]);
+					end
+				end
+			end
+		end
+	end
+	SS_bagCounterText:SetText(SS_satchelsReceived);
 end
 
-function hideMainFrame()
-	MainFrame:Hide();
-	tableAdd("showMainFrame", false);
-end
-
-function drawFrames() -- Draws the MainFrame --
-	SS_interfaceConfig();
-	MainFrame = CreateFrame("Frame", "DragFrame2", UIParent)
-	MainFrame:SetMovable(true)
-	MainFrame:EnableMouse(true)
-	MainFrame:SetScript("OnMouseDown", function(self, button)
+function drawFrames() -- Draws the SatchelScannerDisplayWindow --
+	-- Draw Core
+	SatchelScannerDisplayWindow = CreateFrame("Frame", "SatchelFrame", UIParent)
+	SatchelScannerDisplayWindow:SetMovable(true)
+	SatchelScannerDisplayWindow:EnableMouse(true)
+	SatchelScannerDisplayWindow:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and not self.isMoving then
 			self:StartMoving();
 			self.isMoving = true;
 		end
 	end)
-	MainFrame:SetScript("OnMouseUp", function(self, button)
+	SatchelScannerDisplayWindow:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" and self.isMoving then
 			self:StopMovingOrSizing();
 			self.isMoving = false;
 		end
 	end)
-	MainFrame:SetScript("OnHide", function(self)
+	SatchelScannerDisplayWindow:SetScript("OnHide", function(self)
 		if ( self.isMoving ) then
 			self:StopMovingOrSizing();
 			self.isMoving = false;
 		end
 	end)
-	MainFrame:SetWidth(256);
-	MainFrame:SetHeight(150);
-	MainFrame:SetPoint("BOTTOMLEFT", 800, 400);
-	MainFrame:SetFrameStrata("BACKGROUND")
-	MainFrame:SetBackdrop({ 
+	SatchelScannerDisplayWindow:SetWidth(260);
+	SatchelScannerDisplayWindow:SetHeight(60);
+	SatchelScannerDisplayWindow:SetPoint("TOPLEFT", 200, -400);
+	SatchelScannerDisplayWindow:SetFrameStrata("BACKGROUND")
+	SatchelScannerDisplayWindow:SetBackdrop({ 
 		bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", 
-		edgeFile = "Interface\\Addons\\SatchelScanner\\border\\border.tga", tile = false, tileSize = 0, edgeSize = 8, 
+		edgeFile = SS_Border, tile = false, tileSize = 0, edgeSize = 8, 
 		insets = { left = 0, right = 0, top = 0, bottom = 0 }
 	});
-	for i, frameData in pairs(frameTable) do -- This is for drawing each texture.
-		frameData.frame = CreateFrame(frameData.Type,nil,MainFrame, UIPanelButtonTemplate);
-		frameData.frame:SetWidth(frameData.width);
-		frameData.frame:SetHeight(frameData.height);
-		frameData.frame:SetPoint(frameData.loc, frameData.x, frameData.y);
-		frameData.frame:SetNormalTexture(frameData.normalTxt);
-		frameData.frame:SetPushedTexture(frameData.pushedTxt);
-		frameData.frame:SetHighlightTexture(frameData.highLightTxt);
-		frameData.frame:GetNormalTexture():SetTexCoord(frameData.zxscale,frameData.xscale,frameData.zscale,frameData.yscale);
-		if frameData.texture then
-			frameData.frame:GetPushedTexture():SetTexCoord(frameData.zxscale,frameData.xscale,frameData.zscale,frameData.yscale);
-			frameData.frame:GetHighlightTexture():SetTexCoord(frameData.zxscale,frameData.xscale,frameData.zscale,frameData.yscale);
+	for i, tVar in pairs(SS_slimFrame) do
+		if string.find(i, "Button") then
+			_G[i] = CreateFrame("Button", nil, SatchelScannerDisplayWindow, UIPanelButtonTemplate);
+			_G[i]:SetWidth(tVar.width);
+			_G[i]:SetHeight(tVar.height);
+			_G[i]:SetPoint(tVar.loc, tVar.x, tVar.y);
+			_G[i]:SetNormalTexture(tVar.texture);
+			_G[i]:SetPushedTexture(tVar.pushedTxt);
+			_G[i]:SetHighlightTexture(tVar.highLightTxt);
+			_G[i]:SetScript("OnClick", loadstring(tVar.functionName))
+			if string.find(i, "start") or string.find(i, "stop") then
+				_G[i]:GetNormalTexture():SetTexCoord(0,tVar.xscale,0,tVar.yscale);
+				_G[i]:GetPushedTexture():SetTexCoord(0,tVar.xscale,0,tVar.yscale);
+				_G[i]:GetHighlightTexture():SetTexCoord(0,tVar.xscale,0,tVar.yscale);
+				if tVar.text then
+					local buttonText = _G[i]:CreateFontString(nil, "OVERLAY")
+					buttonText:SetFont(SS_preFont, 14, "");
+					buttonText:SetPoint("CENTER", 0, 0);
+					buttonText:SetTextColor(unpack(yellowColor));
+					buttonText:SetText(tVar.text);
+				end
+			end
+		elseif string.find(i, "texture") then
+			_G[i] = CreateFrame("Button", nil, SatchelScannerDisplayWindow);
+			_G[i]:SetWidth(tVar.width);
+			_G[i]:SetHeight(tVar.height);
+			_G[i]:SetPoint(tVar.loc, tVar.x, tVar.y);
+			_G[i]:SetNormalTexture(tVar.texture)
+			if string.find(i, "Spacer") then
+				_G[i]:SetWidth(SatchelScannerDisplayWindow:GetWidth() - 14);
+				_G[i]:SetAlpha(1);
+			end
+		elseif string.find(i, "Text") then
+			_G[i] = SatchelScannerDisplayWindow:CreateFontString(nil, "OVERLAY")
+			_G[i]:SetFont(SS_preFont, tVar.fontSize, "OUTLINE");
+			_G[i]:SetPoint(tVar.loc, tVar.x, tVar.y);
+			_G[i]:SetTextColor(unpack(tVar.color));
+			_G[i]:SetText(tVar.text);
 		end
-		if frameData.text then
-			local buttonText = frameData.frame:CreateFontString(nil, "OVERLAY")
-			buttonText:SetFont("Interface\\Addons\\SatchelScanner\\fonts\\font.TTF", 14, "");
-			buttonText:SetPoint("CENTER", 0, 0);
-			buttonText:SetTextColor(unpack(yellowColor));
-			buttonText:SetText(frameData.text);
-		end
-		if frameData.script then
-			frameData.frame:SetScript("OnClick", loadstring(frameData.functionName));
-		end
+	end
+	SS_datacall("read");
+	updateFrames();
+end
+
+function SS_startScanning()
+	if not running then
+		running = true
+		SS_SubHeaderText2:SetText(SS_runVar[2]);
+		SS_SubHeaderText2:SetTextColor(unpack(greenColor));
+		updateFrames();
+		RequestLFDPlayerLockInfo();
+		printmm("Started Scanning!");
 	end
 end
 
-function drawText() -- Draws the Text -- 
-	for i, textData in pairs(textTable) do
-		textData.textFrame = MainFrame:CreateFontString(nil, "OVERLAY")
-		textData.textFrame:SetFont("Interface\\Addons\\SatchelScanner\\fonts\\font.TTF", textData.fontSize, textData.outLine);
-		textData.textFrame:SetPoint(textData.loc, textData.x, textData.y);
-		textData.textFrame:SetTextColor(unpack(textData.color));
-		textData.textFrame:SetText(textData.text);
+function SS_stopScanning()
+	if running then
+		running = false;
+		SS_SubHeaderText2:SetText(SS_runVar[1]);
+		SS_SubHeaderText2:SetTextColor(unpack(redColor));
+		updateFrames();
+		printmm("Stopped Scanning!")
 	end
 end
 
-----------------------------
--- SCANNER, DO NOT MODIFY --
-----------------------------
---for i, dungeonID in pairs(dungeonTable) do
---end
-----------------------------
-	
+function hideMainFrame()
+	SatchelScannerDisplayWindow:Hide();
+	SS_showUI = false;
+	SatchelScannerDB["showMainFrame"] = SS_showUI;
+end
+
 function SS_Scanner()
-	local eligible, forTank, forHealer, forDamage = GetLFGRoleShortageRewards(1046, 1)
-		if forTank and scanForTank then
-			tankSatchelFound = true;
-			textTable.tankScanningText.textFrame:SetText(classScan[3]);
-			textTable.tankScanningText.textFrame:SetTextColor(unpack(greenColor));
-			textTable.tankdg1.textFrame:SetText(heroicVar[1]);
-			if raidWarnNotify then
-				RaidNotice_AddMessage(RaidWarningFrame, ctaVar[1], ChatTypeInfo["RAID_WARNING"])
+	if (_G["SS_InstanceText3#14"]) and running then
+		for j, var in ipairs(SS_masterFrameTable) do -- This is for drawing each texture.'
+			local SatchelFound;
+			for i, tVar in ipairs(var) do
+				if (i > 3) then
+					if (_G[tVar[1]]:GetChecked()) then
+						local fastScan = {};
+						local eligible, forTank, forHeal, forDps = GetLFGRoleShortageRewards(tVar.id, 1)
+						fastScan[1] = forTank;
+						fastScan[2] = forHeal;
+						fastScan[3] = forDps;
+						if fastScan[j] then
+							_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(greenColor));
+							_G["SS_InstanceText"..j.."#"..i]:SetText(SS_scanVar[i]);
+							SS_NotifcationTable[j] = true;
+							SatchelFound = true;
+						elseif not fastScan[j] then
+							_G["SS_InstanceText"..j.."#"..i]:SetTextColor(unpack(whiteColor));
+							_G["SS_InstanceText"..j.."#"..i]:SetText(SS_scanVar[3]);
+						end
+					end
+				end
 			end
-			if not MainFrame:IsShown() then
-				MainFrame:Show();
-			end
-		else
-			tankSatchelFound = false;
-			textTable.tankdg1.textFrame:SetText(scanVar[2]);
-			textTable.tankScanningText.textFrame:SetText(classScan[2]);
-			textTable.tankScanningText.textFrame:SetTextColor(unpack(yellowColor));
-		end
-		if forHealer and scanForHeal then
-			healSatchelFound = true;
-			textTable.healScanningText.textFrame:SetText(classScan[3]);
-			textTable.healScanningText.textFrame:SetTextColor(unpack(greenColor));
-			textTable.healdg1.textFrame:SetText(heroicVar[1]);
-			if raidWarnNotify then
-				RaidNotice_AddMessage(RaidWarningFrame, ctaVar[2], ChatTypeInfo["RAID_WARNING"])
-			end
-			if not MainFrame:IsShown() then
-				MainFrame:Show();
-			end
-		else
-			healSatchelFound = false;
-			textTable.healdg1.textFrame:SetText(scanVar[2]);
-			textTable.healScanningText.textFrame:SetText(classScan[2]);
-			textTable.healScanningText.textFrame:SetTextColor(unpack(yellowColor));
-		end
-		if forDamage and scanForDps then
-			dpsSatchelFound = true;
-			textTable.dpsScanningText.textFrame:SetText(classScan[3]);
-			textTable.dpsScanningText.textFrame:SetTextColor(unpack(greenColor));
-			textTable.dpsdg1.textFrame:SetText(heroicVar[1]);
-			if raidWarnNotify then
-				RaidNotice_AddMessage(RaidWarningFrame, ctaVar[3], ChatTypeInfo["RAID_WARNING"])
-			end
-			if not MainFrame:IsShown() then
-				MainFrame:Show();
-			end
-		else
-			dpsSatchelFound = false;
-			textTable.dpsdg1.textFrame:SetText(scanVar[2]);
-			textTable.dpsScanningText.textFrame:SetText(classScan[2]);
-			textTable.dpsScanningText.textFrame:SetTextColor(unpack(yellowColor));
-		end
-end
-
------------------------------
--- DATABASE, DO NOT MODIFY --
------------------------------
-function datacall(datatable)
-	if datatable == "reset" then
-		SatchelScannerDB = {}
-		tableAdd("updateint", 5);
-		tableAdd("version", addonVersion);
-		tableAdd("raidwarning", true);
-		tableAdd("sounds", true);
-		tableAdd("scanTank", true);
-		tableAdd("scanHeal", true);
-		tableAdd("scanDps", false);
-		tableAdd("scanInDungeon", false);
-		tableAdd("scanInGroup", true);
-		tableAdd("satchels", satchelsReceived);
-		tableAdd("showMainFrame", true);
-		datacall("read");
-	elseif datatable == "update" then
-		tableAdd("updateint", updateIntervalSlider:GetValue());
-		tableAdd("version", addonVersion);
-		tableAdd("raidwarning", raidWarningButton:GetChecked());
-		tableAdd("sounds", playSoundButton:GetChecked());
-		tableAdd("scanTank", scanForTankButton:GetChecked());
-		tableAdd("scanHeal", scanForHealButton:GetChecked());
-		tableAdd("scanDps", scanForDpsButton:GetChecked());
-		tableAdd("scanInDungeon", scanInDungeonButton:GetChecked());
-		tableAdd("scanInGroup", scanInGroupButton:GetChecked());
-		tableAdd("satchels", satchelsReceived);
-		tableAdd("showMainFrame", showUI);
-		datacall("read");
-	elseif datatable == "read" then
-		if not SatchelScannerDB then
-			printm("SS3: Your settings have been reset!");
-			datacall("reset");
-		elseif SatchelScannerDB["version"] < 7.04 then
-			satchelsReceived = SatchelScannerDB["satchels"];
-			printm("SS3: Your settings have been reset!");
-			datacall("reset");
-		else
-			playSound = SatchelScannerDB["sounds"];
-			playSoundButton:SetChecked(playSound);
-			raidWarnNotify = SatchelScannerDB["raidwarning"];
-			raidWarningButton:SetChecked(raidWarnNotify);
-			satchelsReceived = SatchelScannerDB["satchels"];
-			textTable.bagCounter.textFrame:SetText(satchelsReceived);
-			UpdateInterval = SatchelScannerDB["updateint"];
-			updateIntervalSlider:SetValue(UpdateInterval);
-			dbVersion = SatchelScannerDB["version"];
-			scanForTank = SatchelScannerDB["scanTank"];
-			scanForHeal = SatchelScannerDB["scanHeal"];
-			scanForDps = SatchelScannerDB["scanDps"];
-			scanInDungeon = SatchelScannerDB["scanInDungeon"];
-			scanInGroup = SatchelScannerDB["scanInGroup"];
-			scanInGroupButton:SetChecked(scanInGroup);
-			scanInDungeonButton:SetChecked(scanInDungeon);
-			scanForDpsButton:SetChecked(scanForDps);
-			scanForTankButton:SetChecked(scanForTank);
-			scanForHealButton:SetChecked(scanForHeal);
-			showUI = SatchelScannerDB["showMainFrame"];
-			if showUI then
-				MainFrame:Show();
+			if SatchelFound then
+				_G["SS_InstanceText"..j.."#3"]:SetText(SS_classScan[3]);
 			else
-				MainFrame:Hide();
+				_G["SS_InstanceText"..j.."#3"]:SetText(SS_classScan[2]);
 			end
 		end
-	else
-		errorCollect("DATATABLE", datatable);
+		if SS_NotifcationTable[1] or SS_NotifcationTable[2] or SS_NotifcationTable[3] then
+			SatchelScanner_Notify();
+		end
 	end
-end
-
-function tableAdd(var, arg) -- Updates values in tables
-	SatchelScannerDB[var] = arg;
 end
 
 -------------------------------
@@ -332,29 +373,34 @@ function printm(msg)
 	print("|cFFFF007F" .. msg  .. "|r");
 end
 
+function printmm(msg)
+	print("|cFF0080FFSS3: |cffffffff"..msg.."|r");
+end
+
 ----------------------------------
 -- ON LOAD, ON UPDATE, ON EVENT --
 ----------------------------------
 
 function SatchelScanner_OnEvent(self, event, arg, arg2)
 	local SS_inLFGQueue = GetLFGQueueStats(LE_LFG_CATEGORY_LFD)
-	local SS_inLFRQueue = GetLFGQueueStats(LE_LFG_CATEGORY_LFR)
+	local SS_inLFRQueue = GetLFGQueueStats(LE_LFG_CATEGORY_RF)
 	local SS_debuff = UnitDebuff("player", "Dungeon Deserter")
 	local SS_inGroup = IsInGroup()
 	if event == "ADDON_LOADED" and arg == "SatchelScanner" then
-		datacall("read");
-		printm("Satchel Scanner v" .. addonVersion .. " Loaded!");
+		SS_interfaceConfig();
+		SS_NotifcationTable = {};
+		printm("Satchel Scanner v"..SS_addonVersion.."-"..SS_versionTag.." Loaded!");
 		printm("->> Type /ss3 for commands!");
 	elseif event == "CHAT_MSG_LOOT" and string.find(arg, "Shattered Satchel of Cooperation") and not (MailFrame:IsShown() or TradeFrame:IsShown()) then
-		satchelsReceived = satchelsReceived + 1;
-		tableAdd("satchels", satchelsReceived);
-		textTable.bagCounter.textFrame:SetText(satchelsReceived);
+		SS_satchelsReceived = SS_satchelsReceived + 1;
+		SS_bagCounterText:SetText(SS_satchelsReceived);
+		SS_datacall("update");
 	elseif event == "LFG_QUEUE_STATUS_UPDATE" then
 		-- This is just thrown to make sure SS_inLFGQueue/SS_inLFRQueue works as intended.
 		-- Mostly to keep the booleans true/false even after an Que rejoin.
 	elseif event == "PLAYER_ENTERING_WORLD" then
 		ss_inInstance = IsInInstance()
-	elseif event == "LFG_UPDATE_RANDOM_INFO" and running and not SS_inLFGQueue and not SS_inLFRQueue and not string.find(SS_debuff or "", "Dungeon Deserter") and (scanInDungeon or not ss_inInstance) and (scanInGroup or not SS_inGroup) then
+	elseif event == "LFG_UPDATE_RANDOM_INFO" and running and not SS_inLFGQueue and not SS_inLFRQueue and not string.find(SS_debuff or "", "Dungeon Deserter") and (SS_scanInDungeon or not ss_inInstance) and (SS_scanInGroup or not SS_inGroup) then
 		SS_Scanner();
 	end
 end
@@ -365,31 +411,31 @@ function SatchelScanner_OnLoad(self)
 	self:RegisterEvent("LFG_UPDATE_RANDOM_INFO");
 	self:RegisterEvent("LFG_QUEUE_STATUS_UPDATE");
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");
-	drawFrames();
-	drawText();
 	SLASH_SATCHELSCANNER1, SLASH_SATCHELSCANNER2 = "/satchelscan", "/ss3"
 	SlashCmdList.SATCHELSCANNER = function(msg)
 		if msg == "toggle" then
-			if MainFrame:IsShown() then
-				MainFrame:Hide();
-				showUI = false;
+			if SatchelScannerDisplayWindow:IsShown() then
+				SatchelScannerDisplayWindow:Hide();
+				SS_showUI = false;
 			else
-				MainFrame:Show();
-				showUI = true;
+				SatchelScannerDisplayWindow:Show();
+				SS_showUI = true;
 			end
-			datacall("update");
+			SS_datacall("update");
 		elseif msg == "start" then
-			startScanning();
+			SS_startScanning();
 		elseif msg == "stop" then
-			stopScanning();
+			SS_stopScanning();
 		elseif msg == "reset" then
-			satchelsReceived = SatchelScannerDB["satchels"];
-			datacall("reset");
+			SS_satchelsReceived = SatchelScannerDB["satchels"];
+			SS_datacall("reset");
 		elseif msg == "reset-counter" then
-			satchelsReceived = 0;
-			datacall("update");
+			SS_satchelsReceived = 0;
+			SS_datacall("update");
 		elseif msg == "config" then
-			InterfaceOptionsFrame_OpenToCategory(SatchelScannerOptions.childpanel);
+			InterfaceOptionsFrame_OpenToCategory(SS_Options.childpanel);
+		elseif msg == "faq" then
+			InterfaceOptionsFrame_OpenToCategory(SS_Options.panel);
 		else
 			printm("====== Satchel Scanner ======");
 			printm("->> Type '/ss3 toggle' to show/hide the frame");
@@ -398,21 +444,44 @@ function SatchelScanner_OnLoad(self)
 			printm("->> Type '/ss3 reset' to reset the addon");
 			printm("->> Type '/ss3 reset-counter' to reset the bag counter");
 			printm("->> Type '/ss3 config' to configure the addon");
+			printm("->> Type '/ss3 faq' to open the F.A.Q")
 		end
 		msg = ""
 	end
 end
 
-function SatchelScanner_OnUpdate(self, elapsed)
-	if running and not SS_inLFGQueue and not SS_inLFRQueue and (scanInDungeon or not ss_inInstance) and (scanInGroup or not SS_inGroup) then
-		self.TimeSinceLastUpdate = self.TimeSinceLastUpdate + elapsed;
-		while (self.TimeSinceLastUpdate > UpdateInterval) do
-			RequestLFDPlayerLockInfo();
-			if (tankSatchelFound or healSatchelFound or dpsSatchelFound) and playSound and running then
-				PlaySoundFile("Sound\\interface\\RaidWarning.ogg", "Master")
-				FlashClientIcon()
+function SatchelScanner_Notify()
+	if running then
+		local timeSinceLast = GetTime(); -- GetTime(): KERNEL FUNCTION, KEEP IN MIND USES GetTickCount()!
+		timeSinceLast = timeSinceLast - SS_TimeSinceLastNotification;
+		if (timeSinceLast > SS_NotificationInterval) then
+			FlashClientIcon();
+			if SS_raidWarnNotify then
+				for i=1,3,1 do
+					if SS_NotifcationTable[i] then
+						RaidNotice_AddMessage(RaidWarningFrame, SS_ctaVar[i], ChatTypeInfo["RAID_WARNING"])
+						SS_NotifcationTable[i] = false;
+					end
+				end
 			end
-			self.TimeSinceLastUpdate = self.TimeSinceLastUpdate - UpdateInterval;
+			if not SatchelScannerDisplayWindow:IsShown() then
+				SatchelScannerDisplayWindow:Show();
+			end
+			if SS_playSound then
+				PlaySoundFile("Sound\\interface\\RaidWarning.ogg", "Master");
+			end
+			SS_TimeSinceLastNotification = GetTime();
+		end
+	end
+end
+
+function SatchelScanner_OnUpdate(self, elapsed)
+	--and not SS_inLFGQueue and not SS_inLFRQueue and (SS_scanInDungeon or not ss_inInstance) and (SS_scanInGroup or not SS_inGroup) 
+	if running then
+		self.TimeSinceLastUpdate = self.TimeSinceLastUpdate + elapsed;
+		while (self.TimeSinceLastUpdate > SS_ScannerInterval) do
+			RequestLFDPlayerLockInfo();
+			self.TimeSinceLastUpdate = self.TimeSinceLastUpdate - SS_ScannerInterval;
 		end
 	end
 end

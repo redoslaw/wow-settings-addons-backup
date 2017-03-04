@@ -806,7 +806,7 @@ function AnnounceIt:AddLink(index)
 		_G["AnnounceItSetMessage_Text"..index]:Insert(spellLink)
 	end
 	ClearCursor()
-	tradeLink = GetTradeSkillListLink()
+	local tradeLink = C_TradeSkillUI.GetTradeSkillListLink()
 	_G["AnnounceItSetMessage_Text"..index]:Insert(tradeLink)
 end
 

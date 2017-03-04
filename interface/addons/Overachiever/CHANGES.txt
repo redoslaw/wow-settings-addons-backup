@@ -1,13 +1,27 @@
 ------------------------------------------------------------------------
-r176 | Tuhljin | 2016-12-24 13:15:54 -0600 (Sat, 24 Dec 2016) | 1 line
+r184 | Tuhljin | 2017-02-23 12:39:13 -0600 (Thu, 23 Feb 2017) | 2 lines
 Changed paths:
-   M /trunk/GameTip.lua
+   M /trunk/Calendar.lua
+   M /trunk/Overachiever_Tabs/Suggestions.lua
+   M /trunk/readme.txt
+
+- Fix failure to load texture for one-day micro-holidays' toast nofications.
+- Suggestions Tab: Suggest "Roll Club" in Vale of Eternal Blossoms.
+------------------------------------------------------------------------
+r183 | Tuhljin | 2017-02-11 20:27:18 -0600 (Sat, 11 Feb 2017) | 2 lines
+Changed paths:
+   M /trunk/Calendar.lua
+   M /trunk/Options.lua
    M /trunk/Overachiever.lua
    M /trunk/Overachiever.toc
    M /trunk/Overachiever_Tabs/Overachiever_Tabs.toc
    M /trunk/Overachiever_Trade/Overachiever_Trade.toc
+   M /trunk/libs/TjOptions.lua
+   M /trunk/libs/TjOptions.txt
+   M /trunk/localization.lua
    M /trunk/readme.txt
 
-- Fix error on startup for characters Overachiever hasn't seen before.
+- New option added for toast notifications to control whether they will be hidden automatically (without interaction).
+- Made toast notifications more reliable.
 ------------------------------------------------------------------------
 

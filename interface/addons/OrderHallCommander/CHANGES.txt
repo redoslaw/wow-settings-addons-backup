@@ -1,0 +1,14 @@
+tag c7c342870c9d75ae8d5812fbeb480f65f3abd1f4 1.0.4
+Author:	Alar of Runetotem <alar@aspide.it>
+Date:	Mon Feb 20 10:24:21 2017 +0100
+
+Fix: lua error
+
+Message:...ace\AddOns\OrderHallCommander\OrderHallCommander.lua:12: O rderHallCommander: Need at least Libinit version 41
+
+commit e97b9c825a3646c5f2810a2c7e2f32b07c28e411
+Author: Alar of Runetotem <alar@aspide.it>
+Date:   Mon Feb 20 10:13:15 2017 +0100
+
+    In case of missing or wrong libraries only raise one error
+

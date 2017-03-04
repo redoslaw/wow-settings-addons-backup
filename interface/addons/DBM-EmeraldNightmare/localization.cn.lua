@@ -27,7 +27,7 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1738)
 
 L:SetOptionLocalization({
-	SetIconOnlyOnce		= "当一个软泥爆炸以后, 关闭软泥图标提示",
+	SetIconOnlyOnce2	= "当一个软泥爆炸以后, 关闭软泥图标提示",
 	InfoFrameBehavior	= "设置在战斗过程中信息窗的内容",
 	Fixates				= "显示被锁定的玩家",
 	Adds				= "显示所有小怪计数"
@@ -49,10 +49,6 @@ L:SetOptionLocalization({
 	Arrow				= "只使用传统的箭头",
 	HudSelf				= "只对你使用HUD连线",
 	HudAll				= "对所有相连目标使用HUD连线"
-})
-
-L:SetMiscLocalization({
-	MapMessage			= "注意: 本mod使用的箭头及HUD能在 /DBM 配置. 7.1后该功能被取缔."
 })
 
 ---------------------------

@@ -1,5 +1,29 @@
+changeset:   60:fa23b47fcaaa
+tag:         v2.3.6 release
+user:        Tercio
+date:        Fri Feb 24 14:29:10 2017 -0300
+summary:     - fixed Ticket #8: problem on hovering over the transmog window.
+
+
+changeset:   59:0e9b4ad26c9f
+user:        Tercio
+date:        Thu Feb 16 15:09:32 2017 -0200
+summary:     - Ticket #18: fixed an issue where the addon wasn't multiplying the item value by the item amount.
+
+
+changeset:   58:088f2b95017d
+user:        Tercio
+date:        Tue Feb 07 13:59:25 2017 -0200
+summary:     - Ticket #17 fixed 'ignore list broken for gray items'.
+
+
+changeset:   57:2b261a8ef2a6
+user:        Tercio
+date:        Mon Jan 16 14:22:45 2017 -0200
+summary:     - max item level for auto sell increased up to 851.
+
+
 changeset:   56:19cbe5ca07d5
-tag:         tip
 user:        Tercio
 date:        Thu Dec 08 14:16:33 2016 -0200
 summary:     - ticket #13: check if the vendor window is open before click on each item.

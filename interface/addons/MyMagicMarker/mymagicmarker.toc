@@ -1,8 +1,0 @@
-## Interface: 60000
-## Title: MyMagicMarker
-## Author: Malsomnus
-## SavedVariables: g_tblMobs
-## SavedVariablesPerCharacter: 
-## Version: v1.11
-
-MyMagicMarker.lua

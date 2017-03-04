@@ -560,7 +560,25 @@ function QDKP2_BidM_RollWatch(player,roll,rollLow,rollHigh)
 
   if not QDKP2_BidM_isBidding() or not QDKP2_BidM_CatchRoll or not QDKP2_BidM.ACCEPT_BID then return; end
 -- fully qualify player for merged servers
+  --player=QDKP2_FormatName(player)
+--8 Feb 2017 Revised roll detection.  Blizzard does not give the server for rolls.
+--check each character name against the raid roster.  If a match is found, use the server in the raid roster.
+  --DEFAULT_CHAT_FRAME:AddMessage("RollWatch called player "..player)
   player=QDKP2_FormatName(player)
+  --DEFAULT_CHAT_FRAME:AddMessage("RollWatch after format player "..player)
+  local name2, shortName, qServer2
+  local qName1, qServer1 = strsplit("-", player, 2)
+  
+  for i=1, QDKP2_GetNumRaidMembers() do
+    name2 = QDKP2_GetRaidRosterInfo(i);
+	shortName, qServer2 = strsplit("-", name2, 2)
+	--DEFAULT_CHAT_FRAME:AddMessage("RollWatch in loop index "..i.." shortName "..shortName.." qName1 "..qName1)
+    if qName1==shortName then
+      player=QDKP2_FormatName(name2)
+    end
+  end
+  --DEFAULT_CHAT_FRAME:AddMessage("RollWatch after loop player "..player)
+
 --end of merged server
   if not QDKP2_IsInGuild(player) and not QDKP2_BidM_CanOutGuild then
     QDKP2_BidM_SendMessage(player,"NOBID","GROUP",QDKP2_LOC_BidNoGuild)

@@ -5,9 +5,7 @@ core.lua	Contains core elements of the addon
 TODOs/Notes
 	Things marked with "todo"
 		- IDEA add an observer/council string to show players their role?
-		- If we truly want to be able to edit votingframe scrolltable with modules, it needs to have GetCol by name
-		- Pressing shift while hovering an item should do the same as vanilla
-		- The 4'th cell in @line81 in versionCheck should not be static
+		- Item subtype in history exports
 --------------------------------
 CHANGELOG
 	-- SEE CHANGELOG.TXT
@@ -47,7 +45,7 @@ local lootTable = {}
 function RCLootCouncil:OnInitialize()
 	--IDEA Consider if we want everything on self, or just whatever modules could need.
   	self.version = GetAddOnMetadata("RCLootCouncil", "Version")
-	self.nnp = false
+	self.nnp = false 
 	self.debug = false
 	self.tVersion = nil -- String or nil. Indicates test version, which alters stuff like version check. Is appended to 'version', i.e. "version-tVersion" (max 10 letters for stupid security)
 
@@ -141,10 +139,10 @@ function RCLootCouncil:OnInitialize()
 					x		= 0,
 					point	= "CENTER",
 					scale	= 0.8,
-					bgColor = {0.1, 1, 0, 1},
-					borderColor = {0, 0.8, 0, 0.75},
-					border = "Blizzard Garrison Background 2",
-					background = "Blizzard Dialog Gold",
+					bgColor = {0, 0, 0.2, 1},
+					borderColor = {0.3, 0.3, 0.5, 1},
+					border = "Blizzard Tooltip",
+					background = "Blizzard Tooltip",
 				},
 				lootframe = { -- We want the Loot Frame to get a little lower
 					y = -200,
@@ -182,7 +180,7 @@ function RCLootCouncil:OnInitialize()
 					border = "Blizzard Dialog Gold",
 				},
 			},
-			currentSkin = "legion",
+			currentSkin = "new_blue",
 
 			modules = { -- For storing module specific data
 				['*'] = {
@@ -238,6 +236,7 @@ function RCLootCouncil:OnInitialize()
 				124442, -- Chaos Crystal (Legion)
 				124441, -- Leylight Shard (Legion)
 				141303,141304,141305, -- Essence of Clarity (Emerald Nightmare quest item)
+				143656,143657,143658, -- Echo of Time (Nighthold quest item)
 			},
 		},
 	} -- defaults end
@@ -511,8 +510,9 @@ function RCLootCouncil:ChatCommand(msg)
 		self:Print("Debug Log cleared.")
 --[===[@debug@
 	elseif input == 't' then -- Tester cmd
-		self:Print("Not mldb.buttons:", not self.mldb.buttons)
-		self:Print("#council", #self.council)
+		local ItemUpgradeInfo = LibStub("LibItemUpgradeInfo-1.0")
+		self:Print(self:GetItemStringFromLink(arg1),self:GetItemStringFromLink(arg2))
+		self:Print("ItemUpgradeInfo",ItemUpgradeInfo:GetItemUpgradeInfo(arg1))
 --@end-debug@]===]
 	else
 		-- Check if the input matches anything
@@ -533,10 +533,9 @@ function RCLootCouncil:SendCommand(target, command, ...)
 	local toSend = self:Serialize(command, {...})
 
 	if target == "group" then
-		local num = GetNumGroupMembers()
-		if num > 5 then -- Raid
+		if IsInRaid() then -- Raid
 			self:SendCommMessage("RCLootCouncil", toSend, "RAID")
-		elseif num > 0 then -- Party
+		elseif IsInGroup() then -- Party
 			self:SendCommMessage("RCLootCouncil", toSend, "PARTY")
 		else--if self.testMode then -- Alone (testing)
 			self:SendCommMessage("RCLootCouncil", toSend, "WHISPER", self.playerName)
@@ -599,6 +598,19 @@ function RCLootCouncil:OnCommReceived(prefix, serializedMsg, distri, sender)
 							self:SendCommand("group", "response", i, self.playerName, {response = "DISABLED"})
 						end
 						return self:Debug("Sent 'DISABLED' response to", sender)
+					end
+
+					-- TODO: v2.2.0 While we don't rely on the cache for normal items, we do for artifact relics.
+					-- I can't get around it until I find out if C_ArtifactUI.GetRelicInfoByItemID() returns a localized result.
+					-- So meanwhile, we'll just delay everything until we've got it cached:
+					local cached = true
+					for ses, v in ipairs(lootTable) do
+						local iName = GetItemInfo(v.link)
+						if not iName then self:Debug(v.link); cached = false end
+					end
+					if not cached then
+						self:Debug("Some items wasn't cached, delaying loot by 1 sec")
+						return self:ScheduleTimer("OnCommReceived", 1, prefix, serializedMsg, distri, sender)
 					end
 
 					-- Out of instance support
@@ -797,8 +809,9 @@ end
 
 function RCLootCouncil:Test(num)
 	self:Debug("Test", num)
-	local testItems = {105473,105407,105513,105465,105482,104631,105450,105537,104554,105509,104412,105499,104476,104544,104495,105568,105514,105479,104532,105639,104508,105621,
+	local testItems = {105473,105407,105513,105465,105482,104631,105450,105537,104554,105509,104412,105499,104476,104544,104495,
 		137471,137463,137474,137472,137468, -- Artifact relics
+		143562,143563,143564,143565,143566, -- Tier 19 tokens
 	}
 	local items = {};
 	-- pick "num" random items
@@ -1138,6 +1151,7 @@ function RCLootCouncil:OnEvent(event, ...)
 		self:NewMLCheck()
 		-- Ask for data when we have done a /rl and have a ML
 		if not self.isMasterLooter and self.masterLooter and self.masterLooter ~= "" and player_relogged then
+			self:Debug("Player relog...")
 			self:ScheduleTimer("SendCommand", 2, self.masterLooter, "reconnect")
 			self:SendCommand(self.masterLooter, "playerInfo", self:GetPlayerInfo()) -- Also send out info, just in case
 		end
@@ -1311,6 +1325,10 @@ function RCLootCouncil:GetHistoryDB()
 	return self.lootDB.factionrealm
 end
 
+function RCLootCouncil:UpdateHistoryDB()
+	historyDB = self:GetHistoryDB()
+end
+
 function RCLootCouncil:GetAnnounceChannel(channel)
 	return channel == "group" and (IsInRaid() and "RAID" or "PARTY") or channel
 end
@@ -1339,7 +1357,7 @@ function RCLootCouncil:VersionCompare(ver1, ver2)
 	local a1,b1,c1 = string.split(".", ver1)
 	local a2,b2,c2 = string.split(".", ver2)
 	if not (c1 and c2) then return end -- Check if it exists
-	return tonumber(a1) < tonumber(a2) or tonumber(b1) < tonumber(b2) or tonumber(c1) < tonumber(c2)
+	if a1 ~= a2 then return  tonumber(a1) < tonumber(a2) elseif b1 ~= b2 then return tonumber(b1) < tonumber(b2) else return tonumber(c1) < tonumber(c2) end
 end
 
 -- from LibUtilities-1.0, which adds bonus index after bonus ID
@@ -1353,7 +1371,7 @@ function RCLootCouncil:DecodeItemLink(itemLink)
 	 upgradeTypeID, instanceDifficultyID, numBonuses, affixes = string.split(":", itemLink, 15)
 
 	 -- clean it up
-    local color = string.match(linkType, "^c?f?f?(%x*)")
+    local color = string.match(linkType, "|?c?f?f?(%x*)")
     linkType = string.gsub(linkType, "|?c?f?f?(%x*)|?H?", "")
     itemID = tonumber(itemID) or 0
     enchantID = tonumber(enchantID) or 0
@@ -1383,7 +1401,7 @@ function RCLootCouncil:DecodeItemLink(itemLink)
 	    upgradeID = tonumber(upgradeID) or 0
 	 end
 
-    return color, itemType, itemID, enchantID, gemID1, gemID2, gemID3, gemID4, suffixID, uniqueID, linkLevel,
+    return color, linktype, itemID, enchantID, gemID1, gemID2, gemID3, gemID4, suffixID, uniqueID, linkLevel,
 	 		specializationID, upgradeTypeID, upgradeID, instanceDifficultyID, numBonuses, bonusIDs
 end
 

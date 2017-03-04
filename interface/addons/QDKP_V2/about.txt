@@ -1,4 +1,23 @@
 Release Log:
+v6.1r February 20, 2017
+* Release version of 6.1 alpha fixes below
+* Correct spelling of Chronomatic Anomaly
+
+v 6.1a2 February 12, 2017
+* Fix localization for female class names
+* Update libBabbleBoss
+
+v 6.1 February 10, 2017
+* Fix roll detection for cross-server groups
+* Fix localized monk, demon hunter
+
+v 6.0.9c January 19, 2017
+* Fix for Demon Hunter color in roster
+
+v 6.0.9b January 18, 2017
+* Change "Nighthold" to "The Nighthold"
+* Version update for config
+
 v 6.0.9a November 14, 2016
 * Add Trial of Valor to options.ini
 

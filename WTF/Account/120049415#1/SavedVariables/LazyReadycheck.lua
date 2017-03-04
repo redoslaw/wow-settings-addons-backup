@@ -1,0 +1,4 @@
+
+LazyReadyCheck = {
+	["enabled"] = false,
+}

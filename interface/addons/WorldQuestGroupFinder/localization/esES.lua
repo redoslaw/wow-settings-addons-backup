@@ -1,15 +1,19 @@
 ﻿local L = LibStub("AceLocale-3.0"):NewLocale("WorldQuestGroupFinder", "esES") 
 if not L then return end 
-
+L = L or {}
 L["WQGF_ADDON_DESCRIPTION"] = "Hace mas sencillo encontrar grupos para las Misiones de Mundo utilizando la herramienta de Buscador de Grupos."
 L["WQGF_ALREADY_IS_GROUP_FOR_WQ"] = "Ya estás en un grupo para hacer esta misión de mundo."
 L["WQGF_ALREADY_QUEUED_BG"] = "Estás en cola para un Campo de Batalla. Por favor abandona la cola y prueba otra vez."
 L["WQGF_ALREADY_QUEUED_DF"] = "Estás en cola en el Buscador de Mazmorras. Por favor abandona la cola y prueba otra vez."
 L["WQGF_ALREADY_QUEUED_RF"] = "Estás en cola en el Buscador de Bandas. Por favor abandona la cola y prueba otra vez."
 L["WQGF_APPLIED_TO_GROUPS"] = "Te has inscrito a |c00bfffff%d|c00ffffff grupo(s) para la Misión de Mundo |c00bfffff%s|c00ffffff."
+L["WQGF_APPLIED_TO_GROUPS_QUEST"] = "Te has anotado en |c00bfffff%d|c00ffffff grupo(s) para la misión |c00bfffff%s|c00ffffff."
 L["WQGF_AUTO_LEAVING_DIALOG"] = [=[Has completado la misión y dejarás el grupo en %d segundos.
 
-Despídete!!]=]
+Despídete!]=]
+L["WQGF_AUTO_LEAVING_DIALOG_QUEST"] = [=[Ya has completado la misión. Serás retirado del grupo en %s segundos.
+
+¡Despídete!]=]
 L["WQGF_CANCEL"] = "Cancelar"
 L["WQGF_CANNOT_DO_WQ_IN_GROUP"] = "Esta misión de mundo no se puede completar como un grupo."
 L["WQGF_CANNOT_DO_WQ_TYPE_IN_GROUP"] = "Este tipo de misión de mundo no se puede completar como un grupo."
@@ -40,6 +44,12 @@ L["WQGF_CONFIG_PARTY_NOTIFICATION_TITLE"] = "Avisar al grupo cuando se haya comp
 L["WQGF_CONFIG_PVP_REALMS_ENABLE"] = "Evitar los Reinos PvP"
 L["WQGF_CONFIG_PVP_REALMS_HOVER"] = "Se evitará entrar en los grupos de Reinos PvP (este parámetro se ignora para los personajes en reinos PvP)"
 L["WQGF_CONFIG_PVP_REALMS_TITLE"] = "Reinos PvP"
+--Translation missing 
+L["WQGF_CONFIG_QUEST_SUPPORT_ENABLE"] = "Enable support for regular quests"
+--Translation missing 
+L["WQGF_CONFIG_QUEST_SUPPORT_HOVER"] = "Enabling this will display a button to find groups for supported regular quests"
+--Translation missing 
+L["WQGF_CONFIG_QUEST_SUPPORT_TITLE"] = "Regular quests support"
 L["WQGF_CONFIG_SILENT_MODE_ENABLE"] = "Activar el modo sin notificacioens"
 L["WQGF_CONFIG_SILENT_MODE_HOVER"] = "Cuando se activa el modo sin notificaciones, solo se mostrarán los mensajes de WQGF mas importantes"
 L["WQGF_CONFIG_SILENT_MODE_TITLE"] = "Modo sin notificaciones"
@@ -55,9 +65,16 @@ L["WQGF_DEBUG_MODE_ENABLED"] = "Se ha activado el modo Debug."
 L["WQGF_DEBUG_NO_CURRENT_WQ_ID"] = "Actualmente fuera de una misión de mundo."
 L["WQGF_DEBUG_WQ_ZONES_ENTERED"] = "Zonas de misión de mundo entradas en esta sesión:"
 L["WQGF_DELIST"] = "Quitarlo"
+--Translation missing 
+L["WQGF_FIND_GROUP_TOOLTIP"] = "Find Group with WQGF"
+L["WQGF_FIND_GROUP_TOOLTIP_2"] = "Haz click derecho para mirar los grupos."
 L["WQGF_GLOBAL_CONFIGURATION"] = "Configuración global:"
-L["WQGF_GROUP_CREATION_ERROR"] = "Ha ocurrido un error al intentar crear una entrada para el buscador el grupos.Por favor inténtalo de nuevo."
+L["WQGF_GROUP_CREATION_ERROR"] = "Ha ocurrido un error al intentar crear una entrada para el buscador de grupos. Por favor inténtalo de nuevo."
+L["WQGF_GROUP_NO_LONGER_DOING_QUEST"] = "Tu grupo ya no está haciendo la misión |c00bfffff%s|c00ffffff."
 L["WQGF_GROUP_NO_LONGER_DOING_WQ"] = "Tu grupo ya no está haciendo la misión de mundo |c00bfffff%s|c00ffffff."
+L["WQGF_GROUP_NOW_DOING_QUEST"] = "Tu grupo está haciendo la misión |c00bfffff%s|c00ffffff."
+L["WQGF_GROUP_NOW_DOING_QUEST_ALREADY_COMPLETE"] = "Tu grupo está haciendo la misión |c00bfffff%s|c00ffffff. Ya has completado esta misión."
+L["WQGF_GROUP_NOW_DOING_QUEST_NOT_ELIGIBLE"] = "Tu grupo está haciendo la misión |c00bfffff%s|c00ffffff. No cumples con los requisitos para hacer esta misión."
 L["WQGF_GROUP_NOW_DOING_WQ"] = "Tu grupo está ahora haciendo la misión de mundo |c00bfffff%s|c00ffffff."
 L["WQGF_GROUP_NOW_DOING_WQ_ALREADY_COMPLETE"] = "Tu grupo está ahora haciendo la misión de mundo |c00bfffff%s|c00ffffff. Ya has completado esa misión de mundo."
 L["WQGF_GROUP_NOW_DOING_WQ_NOT_ELIGIBLE"] = "Tu grupo está ahora haciendo la misión de mundo |c00bfffff%s|c00ffffff. No cumples los requisitos para hacer esa misión."
@@ -65,21 +82,36 @@ L["WQGF_INIT_MSG"] = "Haz click con el botón central del ratón en el seguimien
 L["WQGF_JOINED_WQ_GROUP"] = "Te has unido al grupo de |c00bfffff%s|c00ffffff para |c00bfffff%s|c00ffffff. Pásalo bien!"
 L["WQGF_LEADERS_BL_CLEARED"] = "Has limpiado la lista negra de líderes."
 L["WQGF_LEAVE"] = "Abandonar"
-L["WQGF_NEW_ENTRY_CREATED"] = "Se ha creado una nueva entrada de buscador de grupo para |c00bfffff%s|c00ffffff en |c00bfffff%s|c00ffffff."
+L["WQGF_NEW_ENTRY_CREATED"] = "Se ha creado una nueva entrada de buscador de grupo para |c00bfffff%s|c00ffffff."
 L["WQGF_NO"] = "No"
 L["WQGF_NO_APPLICATIONS_ANSWERED"] = "Ninguna de tus inscripciones para |c00bfffff%s|c00ffffff han sido respondidas a tiempo. Intentando encontrar nuevos grupos..."
 L["WQGF_NO_APPLY_BLACKLIST"] = "No te has inscrito a %d grupo(s) porqué su lider estaba en la lista negra. Puedes usar |c00bfffff/wqgf unbl |c00ffffffpour para limpiar la lista negra."
 L["WQGF_PLAYER_IS_NOT_LEADER"] = "No eres el líder del grupo."
+L["WQGF_QUEST_COMPLETE_LEAVE_DIALOG"] = [=[Ya has completado la misión.
+
+¿Abandonar el grupo?]=]
+L["WQGF_QUEST_COMPLETE_LEAVE_OR_DELIST_DIALOG"] = [=[Ya has completado la misión.
+
+¿Quieres abandonar el grupo o borrarlo de la lista del Buscador de Grupo?]=]
 L["WQGF_RAID_MODE_WARNING"] = "|c0000ffffADVERTENCIA:|c00ffffff Este grupo está en modo Banda, por lo cual no se podrán completar la misión de mundo. Deberías preguntar al lider para cambiar el tipo del grupo si es posible. El grupo se cambiará automáticamente de modo si te combiertes en el lider."
+L["WQGF_REFRESH_TOOLTIP"] = "Buscar otro grupo"
 L["WQGF_SEARCH_OR_CREATE_GROUP"] = "Buscar o crear un grupo"
 L["WQGF_SEARCHING_FOR_GROUP"] = "Buscando un grupo para la misión |c00bfffff%s|c00ffffff..."
+L["WQGF_SEARCHING_FOR_GROUP_QUEST"] = "Buscando un grupo para la misión |c00bfffff%s|c00ffffff..."
 L["WQGF_SLASH_COMMANDS_1"] = "|c00bfffffBarra de comandos (/wqgf):"
 L["WQGF_SLASH_COMMANDS_2"] = "|c00bfffff /wqgf config : Abre la configuración del addon"
 L["WQGF_SLASH_COMMANDS_3"] = "|c00bfffff /wqgf unbl : Limpia la lista negra de líderes"
+--Translation missing 
+L["WQGF_SLASH_COMMANDS_4"] = "|c00bfffff /wqgf toggle : Toggle new world quest zone detection"
+L["WQGF_START_ANOTHER_QUEST_DIALOG"] = [=[Ya estás en un grupo para una misión.
+
+¿Seguro que quieres crear uno nuevo?]=]
 L["WQGF_START_ANOTHER_WQ_DIALOG"] = [=[Estás en un grupo para otra misión de mundo.
 
 Estas seguro que quieres empezar otro?]=]
 L["WQGF_STAY"] = "Permanecer"
+--Translation missing 
+L["WQGF_STOP_TOOLTIP"] = "Stop doing this World Quest"
 L["WQGF_TRANSLATION_INFO"] = "Traducción al Español por Ooka (EU-DunModr)"
 L["WQGF_USER_JOINED"] = "Un usuario de World Quest Group Finder se ha unido al grupo!"
 L["WQGF_USERS_JOINED"] = "Los usuarios de World Quest Group Finder se han unido al grupo!"
@@ -96,6 +128,10 @@ L["WQGF_WQ_COMPLETE_LEAVE_OR_DELIST_DIALOG"] = [=[Has completado la misión de m
 
 Te gustaría abandonar el grupo o quitarlo del Buscador de Grupos?]=]
 L["WQGF_WQ_GROUP_APPLY_CANCELLED"] = "Has cancelado la inscripción para el grupo de |c00bfffff%s|c00ffffff para la misión de |c00bfffff%s|c00ffffff. WQGF intentará no volver a unirse a este grupo hasta que relogees o limpies la lista negra de líderes."
-L["WQGF_WQ_GROUP_DESCRIPTION"] = "Haciendo la misión de mundo \"%s\" en %s. Creado automáticamente por World Quest Group Finder %s."
+L["WQGF_WQ_GROUP_DESCRIPTION"] = "Creado automáticamente por World Quest Group Finder %s."
 L["WQGF_WRONG_LOCATION_FOR_WQ"] = "No estás en el lugar adecuado para esta Misión de Mundo."
 L["WQGF_YES"] = "Si"
+--Translation missing 
+L["WQGF_ZONE_DETECTION_DISABLED"] = "New world quest zone detection is now disabled."
+--Translation missing 
+L["WQGF_ZONE_DETECTION_ENABLED"] = "New world quest zone detection is now enabled."

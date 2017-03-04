@@ -3,14 +3,16 @@ MrtWooDB = {
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
-		["Kot - Chamber of Aspects"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
 				["as_dbver"] = 276,
+				["as_blocklist"] = {
+				},
 				["as_dbsnapshot"] = {
 					["wow%-toolbox"] = 50,
 					["fast"] = 15,
@@ -147,8 +149,6 @@ MrtWooDB = {
 					["money"] = 30,
 					["%.com"] = 20,
 					["working"] = 20,
-				},
-				["as_blocklist"] = {
 				},
 			},
 			["minimap"] = {

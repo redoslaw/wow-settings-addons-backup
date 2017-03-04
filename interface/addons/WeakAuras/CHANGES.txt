@@ -1,12 +1,30 @@
-tag 5f792559f05e180093549a886e599f158a7e1dad 2.2.2.4
+tag 5b641b7b384b23d0183e8c7a3e34168228753a02 2.3.4
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Mon Dec 12 23:08:03 2016 +0100
+Date:	Thu Mar 2 16:06:18 2017 +0100
 
-commit 097f9e99bd8428dc32076b90add68d834eff3477
-Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Mon Dec 12 23:07:04 2016 +0100
+commit c61ddbc9a730fec50416c868f1955b382eb604ad
+Author: Infus <infus@squorn.de>
+Date:   Thu Mar 2 08:25:01 2017 +0100
 
-    Revert "Use SetClipsChildren for Texture and Icon Frame"
+    Fix action Useable for spells with charges
+
+commit 895e9a8538626477efe1ae7f813d74277acaa7f5
+Author: Infus <infus@squorn.de>
+Date:   Thu Mar 2 00:25:22 2017 +0100
+
+    Fix Health/Power triggers
     
-    This reverts commit 4f8aac7277b4175cb2a14e5e854ba11a5bd5f84e.
+    Reported on discord. For those triggers, unit is initialized from
+    the second event parameter. That is no longer guranteed to be
+    a unit id, since those triggers now watch for more events.
+
+commit f0be68f67b811d9d5a8717d4f899cd0f0be6f8f1
+Author: Infus <infus@squorn.de>
+Date:   Thu Mar 2 00:13:44 2017 +0100
+
+    Fix Cooldown Progress (Equipment Slot)
+    
+    Broke if no item was equipped in a slot
+    
+    Ticket-Nr: 877
 

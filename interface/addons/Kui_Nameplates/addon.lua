@@ -10,11 +10,9 @@ KuiNameplates = CreateFrame('Frame')
 local addon = KuiNameplates
 addon.MAJOR=2
 
---[===[@alpha@
-addon.debug = true
---@end-alpha@]===]
 --[===[@debug@
---addon.debug_config = true
+addon.debug = true
+addon.debug_config = true
 --addon.debug_units = true
 --addon.debug_messages = true
 --addon.draw_frames = true
@@ -23,12 +21,14 @@ addon.debug = true
 -- kui nameplate container frame size
 addon.uiscale = .71 -- updated upon reload
 addon.IGNORE_UISCALE = nil
+addon.USE_BLIZZARD_PERSONAL = nil
 addon.width,addon.height = 140,40
 
 local framelist = {}
 
 -- plugin & element vars
 local sort, tinsert = table.sort, tinsert
+local UnitIsUnit = UnitIsUnit
 local function PluginSort(a,b)
     return a.priority < b.priority
 end
@@ -57,7 +57,10 @@ function addon:NAME_PLATE_UNIT_ADDED(unit)
         self:print('unit |cff88ff88added|r: '..unit..' ('..UnitName(unit)..')')
     end
 
-    f.kui.handler:OnUnitAdded(unit)
+    if not self.USE_BLIZZARD_PERSONAL or not UnitIsUnit(unit,'player') then
+        -- don't process anything for the personal nameplate if disabled
+        f.kui.handler:OnUnitAdded(unit)
+    end
 end
 function addon:NAME_PLATE_UNIT_REMOVED(unit)
     local f = C_NamePlate.GetNamePlateForUnit(unit)
@@ -84,18 +87,9 @@ function addon:UI_SCALE_CHANGED()
     self.uiscale = UIParent:GetEffectiveScale()
 
     if self.IGNORE_UISCALE then
-        local resolutions = {GetScreenResolutions()}
-        local resolution = GetCurrentResolution()
-
-        if #resolutions > 0 and resolution > 0 then
-            local resolution_text = resolutions[resolution]
-
-            if resolution_text then
-                resolution_text = tonumber(string.match(resolution_text,"%d+x(%d+)"))
-            end
-            if resolution_text then
-                self.uiscale = 768 / resolution_text
-            end
+        local screen_size = {GetPhysicalScreenSize()}
+        if screen_size and screen_size[2] then
+            self.uiscale = 768 / screen_size[2]
         end
     end
 
@@ -113,6 +107,10 @@ local function OnEvent(self,event,...)
         end
         return
     end
+
+    --[===[@alpha@
+    print('|cff9966ffKui Nameplates|r: You are using an alpha release and may see debug messages in chat.')
+    --@end-alpha@]===]
 
     if not self.layout then
         -- throw missing layout

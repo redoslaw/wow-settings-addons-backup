@@ -1,15 +1,16 @@
 
 MBB_Exclude = {
+	"LazyGroupFinderMinimapIcon", -- [1]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
-	["DetachedButtonPos"] = "TOPLEFT",
-	["MaxButtonsPerLine"] = 0,
-	["ButtonPos"] = {
-		-14.3960962295532, -- [1]
-		-99.9306716918945, -- [2]
-	},
 	["ExpandDirection"] = 1,
+	["DetachedButtonPos"] = "TOPLEFT",
+	["ButtonPos"] = {
+		-26.9880065917969, -- [1]
+		-67.7639541625977, -- [2]
+	},
+	["MaxButtonsPerLine"] = 0,
 }

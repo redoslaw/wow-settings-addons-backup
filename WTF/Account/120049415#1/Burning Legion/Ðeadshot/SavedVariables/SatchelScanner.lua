@@ -7,6 +7,6 @@ SatchelScannerDB = {
 	["version"] = "2.3.0",
 	["scanHeal"] = true,
 	["satchels"] = 0,
-	["updateint"] = 1,
 	["scanTank"] = true,
+	["updateint"] = 1,
 }

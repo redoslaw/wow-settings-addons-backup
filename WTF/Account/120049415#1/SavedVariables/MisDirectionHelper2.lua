@@ -7,7 +7,7 @@ MisDirectionHelperDB = {
 		["ßowjoß - Steamwheedle Cartel"] = "ßowjoß - Steamwheedle Cartel",
 		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Wów - Mazrigos"] = "Wów - Mazrigos",
+		["Wtbcrit - Chamber of Aspects"] = "Wtbcrit - Chamber of Aspects",
 		["Ów - Mazrigos"] = "Ów - Mazrigos",
 		["Redseventh - Steamwheedle Cartel"] = "Redseventh - Steamwheedle Cartel",
 		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
@@ -25,7 +25,7 @@ MisDirectionHelperDB = {
 		["Redsecond - Steamwheedle Cartel"] = "Redsecond - Steamwheedle Cartel",
 		["Redoslaw - Chamber of Aspects"] = "Redoslaw - Chamber of Aspects",
 		["Pokemongo - Chamber of Aspects"] = "Pokemongo - Chamber of Aspects",
-		["Wtbcrit - Chamber of Aspects"] = "Wtbcrit - Chamber of Aspects",
+		["Wów - Mazrigos"] = "Wów - Mazrigos",
 		["Redfirst - Steamwheedle Cartel"] = "Redfirst - Steamwheedle Cartel",
 		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
 	},
@@ -78,18 +78,18 @@ MisDirectionHelperDB = {
 		},
 		["Ðeadshot - Burning Legion"] = {
 			["autotank"] = true,
-			["name"] = "Morgrein",
-			["petname"] = "HERØ",
-			["target"] = "Morgrein",
-			["clearjoin"] = false,
+			["petname"] = "Hatí",
 			["minimap"] = {
 				["minimapPos"] = 115.543602346479,
-				["hide"] = true,
 			},
+			["name"] = "Hatí",
+			["autopet"] = true,
+			["clearjoin"] = false,
 		},
-		["Wów - Mazrigos"] = {
-			["name"] = "Turtle",
-			["petname"] = "Turtle",
+		["Wtbcrit - Chamber of Aspects"] = {
+			["autotank"] = true,
+			["autopet"] = true,
+			["petname"] = "Raptor",
 		},
 		["Ów - Mazrigos"] = {
 			["target"] = "Tartalid",
@@ -108,15 +108,15 @@ MisDirectionHelperDB = {
 		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
 			["autotank"] = true,
+			["name"] = "Arawia",
 			["petname"] = "HERØ",
+			["target"] = "Arawia",
+			["clearjoin"] = false,
+			["autopet"] = true,
 			["minimap"] = {
 				["minimapPos"] = 151.35029692767,
 				["hide"] = true,
 			},
-			["name"] = "Arawia",
-			["target"] = "Arawia",
-			["clearjoin"] = false,
-			["autopet"] = true,
 		},
 		["Ðeadshøt - Earthen Ring"] = {
 			["autotank"] = true,
@@ -202,10 +202,9 @@ MisDirectionHelperDB = {
 			["name"] = "Raptor",
 			["petname"] = "Raptor",
 		},
-		["Wtbcrit - Chamber of Aspects"] = {
-			["autotank"] = true,
-			["autopet"] = true,
-			["petname"] = "Raptor",
+		["Wów - Mazrigos"] = {
+			["name"] = "Turtle",
+			["petname"] = "Turtle",
 		},
 		["Redfirst - Steamwheedle Cartel"] = {
 			["minimap"] = {

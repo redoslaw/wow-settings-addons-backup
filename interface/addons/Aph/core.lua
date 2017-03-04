@@ -20,6 +20,7 @@ local BankTotalAP = 0
 local BagAPItems = {}
 local BankAPItems = {}
 local inBank = false
+local AKlvl
 local db
 local dbc
 local L 
@@ -55,6 +56,7 @@ local defaults = {
 		autoMinimize = false,
 		minimizeAnchor = "TOPLEFT",
 		scale=1,
+		AKLevel = 0,
 	}
 	
 }
@@ -132,11 +134,13 @@ function APH:OnInitialize()
 	APH.PosY = dbc.MainPosY
 	APH.Minimized = dbc.Minimized
 	APH.MoverAnchor = dbc.minimizeAnchor
+	AKlvl = dbc.AKLevel
 	APHMainFrame:SetScale(dbc.scale)
 	APHMinimizedFrame:SetScale(dbc.scale)
 	--APH:Print(APH.PosX, APH.PosY)
 	APHMainFrame:SetPoint("TOPLEFT",UIParent,"BOTTOMLEFT",APH.PosX,APH.PosY)
 	APH:anchorsChange(APH.MoverAnchor)
+	
 	APH:RegisterEvent("ADDON_LOADED")
 	APH:RegisterEvent("PLAYER_REGEN_DISABLED")
 	APH:RegisterEvent("PLAYER_REGEN_ENABLED")
@@ -147,6 +151,7 @@ function APH:OnInitialize()
 	--APH:RegisterEvent("BAG_UPDATE")
 	APH:RegisterEvent("PLAYER_ENTERING_WORLD")
 	APH:RegisterEvent("ARTIFACT_XP_UPDATE")
+	APH:RegisterEvent("ARTIFACT_UPDATE")
 	APH:RegisterEvent("WORLD_MAP_UPDATE")
 	APH:RegisterEvent("BANKFRAME_CLOSED",APH:BANKFRAME_CLOSED())
 	APH:RegisterEvent("BANKFRAME_OPENED",APH:BANKFRAME_OPENED())
@@ -191,9 +196,33 @@ function APH:aph(input)
 	elseif input:trim() == "reset" then
 		APHMainFrame:SetPoint("TOPLEFT",UIParent,"BOTTOMLEFT",UIParent:GetWidth()/2,UIParent:GetHeight()/2)
 	elseif input:trim() == "test" then
-		APH:WorldQuestsAP()
+		APH:ResearchNotes()
     end
 	---APH:UpdateWeapons()
+end
+--/run local a = C_Garrison.GetLooseShipments (LE_GARRISON_TYPE_7_0); for i=1,#a do print(C_Garrison.GetLandingPageShipmentInfoByContainerID (a [i])) end;
+
+-- [18:41:34] Leyblood Recipes	134939 24 24 24 0 			0 	nil 	Leyblood Recipes 134939 1 133916 nil
+-- [18:41:34] Frost Crux 		341980 1  0  1  1486406295 	600 6 min 	Frost Crux		 341980 3 139888 nil
+function APH:ResearchNotes()
+	local gls = C_Garrison.GetLooseShipments (LE_GARRISON_TYPE_7_0)
+	if (gls and #gls > 0) then
+		for i = 1, #gls do
+			local name, texture, _, done, _, creationTime, duration, timeleft = C_Garrison.GetLandingPageShipmentInfoByContainerID (gls[i])
+			--APH:Print(C_Garrison.GetLandingPageShipmentInfoByContainerID (gls[i]))
+			if texture == 237446 then -- Artifact research found
+				return done, timeleft
+			end
+			-- if (name and creationTime and creationTime > 0 and texture == 237446) then
+				-- local elapsedTime = time() - creationTime
+				-- local timeLeft = duration - elapsedTime
+				-- APH:Print ("timeleft: ", timeLeft / 60 / 60)
+				-- APH:Print (name, texture, shipmentCapacity, shipmentsReady, shipmentsTotal, creationTime, duration, timeleftString)
+				-- return name, timeleftString, timeLeft, elapsedTime, done
+			-- end
+		end
+	end
+	return false
 end
 
 
@@ -216,8 +245,13 @@ function APH:ShowTT(id)
 end
 
 function table.contains(table, element,index)
+local index = index or false
+--APH:Print(element)
   for i, value in pairs(table) do
-    if value[index] == element then
+  
+	if index then check = value[index] else check = value end
+--APH:Print(i,element,check)
+    if check == element then
       return i
     end
   end
@@ -258,38 +292,7 @@ function APH:FindItemInBags(ItemID)
 	end
 	return false
 end
---L= LibStub("AceLocale-3.0"):GetLocale("APH", true)
---[[local inBank = false
-function APH:GetInventoryItems(bank)
-	local TotalArtifactPower=0
-	local ArtPow = {}
-	
-	for bag = 0, NUM_BAG_SLOTS do
-        for slot = 1, GetContainerNumSlots(bag) do
-			id = GetContainerItemID(bag, slot)
-			a = GetItemSpell(id)
-			if a==L["Empowering"] then
-				newItemAP=APH:ReadAP(id) or 0
-				conf=table.contains(ArtPow,id,1)
-				if conf then
-					if newItemAP == ArtPow[conf][2] then
-						ArtPow[conf][3]=ArtPow[conf][3]+1
-					else
-						--
-					end
-				else
-				--APH:Print(id, newItemAP)
-					tinsert(ArtPow,{id,newItemAP,1})
-				end
-				--tinsert(ArtPow,tmp)
-				TotalArtifactPower = TotalArtifactPower + newItemAP
-			end
-        end
-    end
-	sort(ArtPow,function(a,b) return a[2]>b[2] end)
-	
-	return ArtPow, TotalArtifactPower
-end]]
+
 
 function APH:GetInventoryItems(bank)
 	--local TotalArtifactPower=0
@@ -314,6 +317,7 @@ function APH:GetInventoryItems(bank)
 					tinsert(APTable, {id,newItemAP,1,bag, slot}) 
 				else
 					conf=table.contains(APTable,id,1)
+					--APH:Print(conf)
 					if conf then
 						APTable[conf][3]=APTable[conf][3]+1
 					else
@@ -358,6 +362,7 @@ function APH:GetArtifactButtons(id,APTable)
 end
 
 
+
 local Weapons = {}
 function APH:CreateWeaponsIcons()
 	for ct,weapon in ipairs(APHdata.ArtifactWeapons[class]) do
@@ -377,11 +382,13 @@ function APH:CreateWeaponsIcons()
 			WeaponIcon.Percent:SetJustifyH("CENTER")
 			WeaponIcon.Percent:SetJustifyV("MIDDLE")
 			WeaponIcon.Percent:SetPoint("CENTER",2,0)
-			--WeaponIcon.Bar = WeaponIcon:CreateTexture(nil,"OVERLAY")
-			--WeaponIcon.Bar:SetAllPoints(WeaponIcon)
-			--WeaponIcon.Bar:SetPoint("BOTTOMRIGHT",WeaponIcon,"BOTTOMLEFT",2,0)
-			--WeaponIcon.Bar:SetColorTexture(0,1,0,.5)
-
+			-- WeaponIcon.Bar = WeaponIcon:CreateTexture(nil,"OVERLAY")
+			-- WeaponIcon.Bar:SetAllPoints(WeaponIcon)
+			-- WeaponIcon.Bar:SetPoint("BOTTOMRIGHT",WeaponIcon,"BOTTOMLEFT",5,0)
+			-- WeaponIcon.Bar:SetColorTexture(0,1,0,.5)
+			WeaponIcon.Id=0
+			WeaponIcon.Cont, WeaponIcon.Slot = 0,0
+			
 			tinsert(Weapons,WeaponIcon)
 			if msqGroups["APHWeapons"] then msqGroups.APHWeapons:AddButton(WeaponIcon) end
 	end
@@ -411,22 +418,16 @@ if not totalAP or totalAP == nil then return 0 end
 	local ret, ranksGained = _,0
 	local cost = APHdata.ArtifactCosts[rank]
 	local InitialRank=rank
+	--totalAP = totalAP*1000
 	while cost <= totalAP and rank < 54 do
 		rank = rank + 1
 		newCost = APHdata.ArtifactCosts[rank]
 		totalAP = totalAP - cost
 		cost = newCost
 	end
+	--if rank == 55 then APH:Print(APHdata.ArtifactCosts[rank],"Reached MAX") end
+	totalAP = math.min(APHdata.ArtifactCosts[54],totalAP)
 	ranksGained = rank - InitialRank
---[[	if(cost < totalAP) then
-		repeat
-			rank = rank + 1
-			newCost=APHdata.ArtifactCosts[rank]
-			totalAP = totalAP - cost
-			cost = newCost
-		until cost > totalAP or rank > 54
-		ranksGained = rank - InitialRank
-	end]]--
 	ret = totalAP/cost
 
 	return math.floor( (ret + ranksGained)*100), cost-totalAP, ret
@@ -454,6 +455,7 @@ for i,j in ipairs(unlocked) do
 		local weap = Weapons[i]
 		texture = select(10, GetItemInfo(j) )
 		weap.Icon:SetTexture(texture)
+		--if i== 1 then weap.border:SetVertexColor(0, 1.0, 0, 0.35) end
 	if saved[j] and saved[j][1] then
 		local CR, CP, CN = saved[j][1],saved[j][2],saved[j][3]
 		local Percent,remain, per  = CalcPercent(CR +1, CP + TotalArtifactPower)
@@ -465,10 +467,24 @@ for i,j in ipairs(unlocked) do
 			--ActionButton_HideOverlayGlow(weap)
 			weap.Percent:SetText(Percent.."%")
 		end
-		--weap:SetScript("OnEnter", function() APH:WeaponsTooltipEnter(j, CR, CP, CN-CP) end)
-		--weap.Bar:SetPoint("TOPLEFT",weap,"TOPLEFT",0,-40 +40*per)
+		-- weap.Bar:SetPoint("TOPLEFT",weap,"TOPLEFT",0,-40 +40*per)
+		weap.Id=j
+		weap.Cont, weap.Slot = APH:FindItemInBags(j)
+		
 		weap:SetScript("OnEnter", function() APH:WeaponsTooltipEnter(j, CR, CP, remain) end)
 		weap:SetScript("OnLeave", function() APH:WeaponsTooltipLeave() end)
+		
+		--Pressing active weapon uses AP, pressing other changes spec
+			weap:SetAttribute("type", "click")
+			weap:SetAttribute("*type-ignore", "")
+
+			weap:SetScript("PreClick", function(self, button) APH:ArtifactPreClick(self, button,i) end)
+			weap:SetScript("PostClick", function(self, button) APH:ArtifactPostClick(self, button,i) end)
+			weap:SetScript("OnMouseUp", function(self, button) APH:ButtonOnMouseUp(self, button,i) end)
+
+
+		
+		
 	end
 		weap:SetPoint("TOPLEFT",ArtifactInfoFrame,"TOPLEFT",APHdata.WC[nW].OffSet+(40+APHdata.WC[nW].Spacing)*(i-1),-30)
 end
@@ -485,7 +501,9 @@ APHMinimizedFrame.Icon.Texture:SetTexture(select(10,GetItemInfo(unlocked[1])))
 		--APHMinimizedFrame.Icon:SetScript("OnEnter", function() APH:WeaponsTooltipEnter(unlocked[1], CurRank, CurPow, CostOfNext-CurPow) end)
 		APHMinimizedFrame.Icon:SetScript("OnEnter", function() APH:WeaponsTooltipEnter(unlocked[1], CurRank, CurPow, remain) end)
 		APHMinimizedFrame.Icon:SetScript("OnLeave", function() APH:WeaponsTooltipLeave() end)
-
+		if(#ArtPow>0) then
+			APHMinimizedFrame.Icon:SetAttribute("item","item:"..ArtPow[1][1])
+		end
 
 end
 
@@ -513,7 +531,7 @@ function APH:Update()
 		button:SetScript("OnLeave", function() APH:HideTT() end)
 		button:SetAttribute("item","item:"..ids[1])
 		local col, row = (j-1) - math.floor((j-1)/6)*6, math.floor((j-1)/6)
-		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,-90-row*36)
+		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,-100-row*36)
 		
 		button.Count:SetText(ids[3])
 		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],2).."|r")
@@ -539,7 +557,7 @@ function APH:Update()
 		button:SetScript("OnMouseUp", function () UseContainerItem(ids[4],ids[5]); end )
 		--button:SetAttribute("item","item:"..ids[1])
 		local col, row = (j-1) - math.floor((j-1)/6)*6, math.floor((j-1)/6)
-		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,(-90-APItemsHeight-40)-row*36)
+		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,(-100-APItemsHeight-40)-row*36)
 		button.Count:SetText(ids[3])
 		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],2).."|r")
 		button:Show()
@@ -547,7 +565,7 @@ function APH:Update()
 	end
 	
 	if inBank then BankAPHeight = 40+math.floor((#bankArtPow+5)/6)*36 end
-	APHMainFrame:SetHeight(90+APItemsHeight + BankAPHeight )
+	APHMainFrame:SetHeight(100+APItemsHeight + BankAPHeight )
 
 	
 	if msqGroups["APHItems"] then
@@ -555,6 +573,17 @@ function APH:Update()
 		msqGroups.APHWeapons:ReSkin()
 	end
 	--APH:Print(i)
+	
+	if APH:ResearchNotes() then
+		local a = APH:ResearchNotes()
+		if a>0 then
+			APHInfoFrame.ResearchNotesReady:Show()	
+		else
+			APHInfoFrame.ResearchNotesReady:Hide()
+		end
+	end
+	
+	
 	APH:UpdateWeapons()
 	APH:WorldQuestsAP()
 	APH:UpdateTexts()
@@ -565,7 +594,7 @@ function APH:PreUpdate(force)
 --APH:Print(force or "No arguments")
 --APH:Print(Equipped)
 --APH:Print(#APHdata.ArtifactCosts)
-if UnitLevel("PLAYER")<100 or Equipped ==0 then 
+if UnitLevel("PLAYER")<98 or Equipped ==0 then 
 APHMainFrame:Hide()
 APHMinimizedFrame:Hide()
 --return
@@ -632,6 +661,38 @@ end
 --return WQAP
 end
 
+
+--WeaponIcon:SetScript("PreClick", APH:ArtifactPreClick)
+--WeaponIcon:SetScript("PostClick",APH:ArtifactPostClick)
+
+function APH:ArtifactPreClick(artifact,MouseButton,i)
+end
+
+function APH:ArtifactPostClick()
+--APH:Print("Post Click")
+end
+function APH:ButtonOnMouseUp(artifact,MouseButton,i)
+	if MouseButton == "LeftButton" then
+		if i == 1 then
+			if(#ArtPow>0) then
+				artifact:SetAttribute("type","item")
+				artifact:SetAttribute("item","item:"..ArtPow[1][1])
+			end
+		else
+			local specn=table.contains(APHdata.ArtifactWeapons[class], artifact.Id)
+			SetSpecialization(specn)
+		end
+
+	else 
+		if i==1 then
+			SocketInventoryItem(16)
+		else
+			SocketContainerItem(artifact.Cont, artifact.Slot)
+		end
+	end
+
+end
+
 function APH:Minimize()
 	if APH.Minimized then
 		APHMinimizedFrame:Hide();
@@ -661,8 +722,8 @@ function APH:WeaponsTooltipEnter(id,rank, ap, left)
 	GameTooltip:ClearLines()
 	GameTooltip:AddLine(name,1, 0.9, 0.8,false)
 	GameTooltip:AddDoubleLine("Rank:", rank)
-	GameTooltip:AddDoubleLine("Artifact Power:",ap)
-	GameTooltip:AddDoubleLine("Remaining:",left)
+	GameTooltip:AddDoubleLine("Artifact Power:",BreakUpLargeNumbers(ap))
+	GameTooltip:AddDoubleLine("Remaining:",BreakUpLargeNumbers(left))
 	GameTooltip:Show()
 end
 
@@ -670,6 +731,31 @@ function APH:WeaponsTooltipLeave(id)
 	GameTooltip_Hide()
 end
 
+function APH:ResearchNotesEnter()
+	if APH:ResearchNotes() then
+		local num, rem = APH:ResearchNotes()
+		GameTooltip_SetDefaultAnchor(GameTooltip, UIParent)
+		GameTooltip:SetOwner(APHMainFrame,"ANCHOR_CURSOR")
+		GameTooltip:ClearLines()
+		-- GameTooltipHeaderText:SetFont('Fonts\\FRIZQT__.TTF', 20)
+		GameTooltip:AddLine("Artifact Research Notes",1,1,1)
+		-- GameTooltipHeaderText:SetFont('Fonts\\FRIZQT__.TTF', 12)
+
+		if num > 0 then GameTooltip:AddLine(num .. " Research Note"..(num >1 and "s are" or " is").." ready!") end
+		if rem then GameTooltip:AddLine("Next Research Note ready in "..rem or "") end
+		GameTooltip:AddTexture([[Interface\Icons\INV_Scroll_11]])
+		-- GameTooltip:AddTexture(237446)
+		GameTooltip:Show()
+	end
+end
+
+function APH:ResearchNotesLeave()
+	GameTooltip_Hide()
+end
+
+function APH:UseAP()
+
+end
 
 
 function APH:PLAYER_EQUIPMENT_CHANGED(slot,hasItem)
@@ -726,6 +812,12 @@ end
 function APH:ARTIFACT_XP_UPDATE()
 --APH:Print("ARTIFACT_XP_UPDATE")
 	APH:PreUpdate(1)
+end
+
+function APH:ARTIFACT_UPDATE()
+	AKlvl=C_ArtifactUI.GetArtifactKnowledgeLevel()
+	if AKlvl > dbc.AKLevel then dbc.AKLevel = AKlvl end
+	
 end
 
 function APH:BANKFRAME_OPENED()
@@ -788,7 +880,7 @@ APHMainFrame = CreateFrame("Frame", "ArtifactPowerFrame", UIParent)
 	
 	
 	
-local APHInfoFrame = CreateFrame("Frame", "ArtifactInfoFrame", ArtifactPowerFrame)
+APHInfoFrame = CreateFrame("Frame", "ArtifactInfoFrame", ArtifactPowerFrame)
 		APHInfoFrame:SetSize(220,40)
 		APHInfoFrame:SetPoint("TOPLEFT", ArtifactPowerFrame)
 		APHInfoFrame.ItemsAP= APHInfoFrame:CreateFontString("TotalItemsAP","ARTWORK","NumberFontNormal")
@@ -806,6 +898,34 @@ local APHInfoFrame = CreateFrame("Frame", "ArtifactInfoFrame", ArtifactPowerFram
 		--APHInfoFrame.RemainingAP:SetJustifyH("CENTER")
 		--APHInfoFrame.RemainingAP:SetPoint("TOPLEFT",147,0)
 		--APHInfoFrame.RemainingAP:SetWidth(73)
+		APHInfoFrame.ArtK= APHInfoFrame:CreateFontString("ArtK","ARTWORK","NumberFontNormal")
+		APHInfoFrame.ArtK:SetFont("Fonts\\FRIZQT__.TTF", 10)
+		APHInfoFrame.ArtK:SetJustifyH("CENTER")
+		APHInfoFrame.ArtK:SetJustifyV("MIDDLE")
+		APHInfoFrame.ArtK:SetPoint("TOP",0,-75)
+		APHInfoFrame.ArtK:SetSize(50,20)
+		--APHInfoFrame.ArtK:SetScript("OnEnter", function() APH:ResearchNotesEnter() end)
+		--APHInfoFrame.ArtK:SetScript("OnLeave", function() APH:ResearchNotesLeave() end)
+
+		APHInfoFrame.ResearchNotes = CreateFrame("Frame","ResearchNote",APHInfoFrame)--,"SecureActionButtonTemplate")
+		APHInfoFrame.ResearchNotes:SetSize(50,20)
+		APHInfoFrame.ResearchNotes:SetPoint("CENTER",APHInfoFrame.ArtK,"CENTER")
+		APHInfoFrame.ResearchNotes:SetScript("OnEnter", function() APH:ResearchNotesEnter() end)
+		APHInfoFrame.ResearchNotes:SetScript("OnLeave", function() APH:ResearchNotesLeave() end)
+		APHInfoFrame.ResearchNotesReady = CreateFrame("Button","ResearchNoteReady",APHInfoFrame,"SecureActionButtonTemplate")
+		APHInfoFrame.ResearchNotesReady:SetSize(20,20)
+		APHInfoFrame.ResearchNotesReady:SetPoint("CENTER",APHInfoFrame,"CENTER",-25,-62)
+		APHInfoFrame.ResearchNotesReady.Texture = APHInfoFrame.ResearchNotesReady:CreateTexture(nil,"BACKGROUND")
+		APHInfoFrame.ResearchNotesReady.Texture:SetAllPoints()
+		APHInfoFrame.ResearchNotesReady.Texture:SetTexture(237446)
+		APHInfoFrame.ResearchNotesReady:SetHighlightTexture([[Interface\Buttons\ButtonHilight-Square]],"ADD")
+		ActionButton_ShowOverlayGlow(APHInfoFrame.ResearchNotesReady)
+		APHInfoFrame.ResearchNotesReady:Hide()
+
+		if msqGroups["APHItems"] then msqGroups.APHItems:AddButton(APHInfoFrame.ResearchNotesReady) end
+		
+		
+		
 		APHInfoFrame.BankAP = APHInfoFrame:CreateFontString("BankAP","ARTWORK","NumberFontNormal")
 		APHInfoFrame.BankAP:SetFont("Fonts\\FRIZQT__.TTF", 10)
 		APHInfoFrame.BankAP:SetJustifyH("CENTER")
@@ -814,17 +934,18 @@ local APHInfoFrame = CreateFrame("Frame", "ArtifactInfoFrame", ArtifactPowerFram
 
 
 function APH:UpdateTexts()
---APHInfoFrame.CurAp:SetText("Current\n"..BreakUpLargeNumbers(CurPow))
-APHInfoFrame.ItemsAP:SetText("Items\n"..BreakUpLargeNumbers(TotalArtifactPower)) --.. "/" .. BreakUpLargeNumbers( (CostOfNext or 0) - (CurPow or 0) ) )
-APHInfoFrame.WorldQuestsAP:SetText("World Quests\n"..BreakUpLargeNumbers(WQAP))
---APHInfoFrame.RemainingAP:SetText("Remaining\n"..BreakUpLargeNumbers(CostOfNext - CurPow))
-if inBank then
-	APHInfoFrame.BankAP:Show()
-	APHInfoFrame.BankAP:SetText("Bank Artifact Power\n"..BreakUpLargeNumbers(BankTotalAP))
-	APHInfoFrame.BankAP:SetPoint("TOPLEFT",0,-100-(math.floor((#ArtPow+5)/6)*36 or 20))
-else
-	APHInfoFrame.BankAP:Hide()
-end
+	--APHInfoFrame.CurAp:SetText("Current\n"..BreakUpLargeNumbers(CurPow))
+	APHInfoFrame.ItemsAP:SetText("Items\n"..BreakUpLargeNumbers(TotalArtifactPower)) --.. "/" .. BreakUpLargeNumbers( (CostOfNext or 0) - (CurPow or 0) ) )
+	APHInfoFrame.WorldQuestsAP:SetText("World Quests\n"..BreakUpLargeNumbers(WQAP))
+	--APHInfoFrame.RemainingAP:SetText("Remaining\n"..BreakUpLargeNumbers(CostOfNext - CurPow))
+	APHInfoFrame.ArtK:SetText("AK "..AKlvl)
+	if inBank then
+		APHInfoFrame.BankAP:Show()
+		APHInfoFrame.BankAP:SetText("Bank Artifact Power\n"..BreakUpLargeNumbers(BankTotalAP))
+		APHInfoFrame.BankAP:SetPoint("TOPLEFT",0,-100-(math.floor((#ArtPow+5)/6)*36 or 20))
+	else
+		APHInfoFrame.BankAP:Hide()
+	end
 
 end	
 	
@@ -863,6 +984,8 @@ local APHMinimizedFrame = CreateFrame("Frame","APHMinimizedFrame", UIParent)
 	APHMinimizedFrame.Icon.Percent:SetPoint("CENTER",2,0)
 	APHMinimizedFrame.Icon:SetScript("OnEnter", function() APHMinimizedFrame.Maxi:Show() end)
 	APHMinimizedFrame.Icon:SetScript("OnLeave", function() APHMinimizedFrame.Maxi:Hide() end)
+	APHMinimizedFrame.Icon:RegisterForClicks("AnyUp")
+	APHMinimizedFrame.Icon:SetAttribute("type","item")
 
 	if msqGroups["APHWeapons"] then msqGroups.APHWeapons:AddButton(APHMinimizedFrame.Icon) end
 
@@ -917,3 +1040,11 @@ APHMover = CreateFrame("Frame","APHMover",UIParent)
 	APHMover.Maxi:SetScript("OnEnter", function() APHMover:Show() end)
 	APHMover.Maxi:SetScript("OnMouseUp", function() APH:Minimize() end)
 	APHMover.Maxi:Hide()
+
+	
+	--APHTest = CreateFrame("Frame","TEST",UIParent)
+	--APHTest:SetSize(50,50)
+	--APHTest.Texture=APHTest:CreateTexture(nil,"BACKGROUND")
+	--APHTest.Texture:SetAllPoints()
+	--APHTest.Texture:SetTexture (237446)
+	--APHTest:SetPoint("RIGHT",ArtifactPowerFrame)

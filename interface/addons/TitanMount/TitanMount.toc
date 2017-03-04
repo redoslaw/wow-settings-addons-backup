@@ -1,7 +1,7 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: Titan Panel [|cffeda55fMount|r] |cff00aa006.1.300|r
 ## Author: Skydragon247
-## Version: 7.3.500
+## Version: 7.5.1
 ## Notes: "Tool for customizing the organization of character mounts. Adds mount button to Titan Panel."
 ## RequiredDeps: Titan
 ## DefaultState: Enabled

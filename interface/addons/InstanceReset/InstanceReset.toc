@@ -1,0 +1,6 @@
+##Interface: 70100
+##Title: InstanceReset
+##Author: oksky23@gmail.com _ Azshara 
+##Version: 1.01
+
+InstanceReset.lua

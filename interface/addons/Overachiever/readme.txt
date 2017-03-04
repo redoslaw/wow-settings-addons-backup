@@ -1,5 +1,5 @@
 
-Overachiever v0.99.3
+Overachiever v0.99.5
 ==============================
 
 Author: Tuhljin
@@ -107,6 +107,21 @@ Change log
 ==========
 
 The change log lists changes of particular note to users, not every change made.
+
+v0.99.5
+- New option added for toast notifications to control whether they will be hidden automatically (without interaction).
+- Made toast notifications more reliable.
+- Fix failure to load texture for one-day micro-holidays' toast nofications.
+- Suggestions Tab: Suggest "Roll Club" in Vale of Eternal Blossoms.
+
+v0.99.4
+- New feature: Toast notifications for today's holidays/events. By default, today's holidays are displayed upon entering the game world. Clicking their toast frames will display related achievements in the Suggestions tab. Notifications for micro-holidays, bonus events, and dungeon events are also available but they are disabled by default.
+- Separated battleground-win achievements from the option for auto-tracking timed achievements. The new option ("Auto-track timed battleground achievements") will also automatically untrack achievements it tracked upon leaving the battleground. The new implementation should fix an issue where the wrong achievements were automatically tracked in battlegrounds.
+- Suggestions Tab:
+-- Added suggestions for Brawler's Guild.
+-- Fixed suggestion for Temple of Ahn'Qiraj not appearing in the instance.
+-- Fixed criteria-specific suggestions for "Savage Hero".
+- "Adventurer of Highmountain": Fixed inadvertent swap of two criteria (related to recently spotted objectives).
 
 v0.99.3
 - Fix error on startup for characters Overachiever hasn't seen before.

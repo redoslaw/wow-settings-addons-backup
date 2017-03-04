@@ -1,4 +1,4 @@
-local VERSION = 28
+local VERSION = 29
 
 --[[
 Special icons for rares, pvp or pet battle quests in list
@@ -67,6 +67,10 @@ Minor fixes
 Rewards updates must be faster
 Added options for enable/disabe Enigma Helper/Barrels Helper
 Added option "Ignore filter for PvP quests"
+
+Added scroll (use mouse wheel or buttons for navigate)
+AP numbers divided by 1000 for artifact knowledge 26 or higher
+7.2 PTR Update (Note: this version works on both clients: live 7.1.5 and ptr 7.2.0)
 ]]
 
 local charKey = (UnitName'player' or "").."-"..(GetRealmName() or ""):gsub(" ","")
@@ -272,7 +276,7 @@ hooksecurefunc("TaskPOI_OnClick", TaskPOI_OnClick)
 local WorldQuestList_Width = 450+70
 local WorldQuestList_ZoneWidth = 100
 
-local WorldQuestList = CreateFrame("Frame","WorldQuestsListFrame",WorldMapFrame)
+local WorldQuestList = CreateFrame("ScrollFrame","WorldQuestsListFrame",WorldMapFrame)
 WorldQuestList:SetPoint("TOPLEFT",WorldMapFrame,"TOPRIGHT",10,-4)
 WorldQuestList:SetSize(550,300)
 
@@ -282,6 +286,7 @@ WorldQuestList:SetScript("OnHide",function(self)
 		UpdateAnchor()
 	end
 	WorldQuestList_Update_PrevZone = nil
+	WorldQuestList:SetVerticalScroll(0)
 end)
 WorldQuestList:SetScript("OnShow",function(self)
 	C_Timer.After(2.5,function()
@@ -289,6 +294,131 @@ WorldQuestList:SetScript("OnShow",function(self)
 	end)
 end)
 
+WorldQuestList.C = CreateFrame("Frame", nil, WorldQuestList) 
+WorldQuestList:SetScrollChild(WorldQuestList.C)
+WorldQuestList:SetScript("OnMouseWheel", function (self,delta)
+	delta = delta * 16
+	local max = max(0 , self.C:GetHeight() - self:GetHeight() )
+	local val = self:GetVerticalScroll()
+	if (val - delta) < 0 then
+		self:SetVerticalScroll(0)
+	elseif (val - delta) > max then
+		self:SetVerticalScroll(max)
+	else
+		self:SetVerticalScroll(val - delta)
+	end
+end)
+WorldQuestList.C:SetWidth(WorldQuestList_Width)
+
+local function UpdateScrollButtonsState()
+	local val = WorldQuestList:GetVerticalScroll()
+
+	if val > 4 then
+		WorldQuestList.ScrollUpLine:Show()
+	else
+		WorldQuestList.ScrollUpLine:Hide()
+	end
+	
+	local max = max(0 , WorldQuestList.C:GetHeight() - WorldQuestList:GetHeight() )
+	if val < (max - 4) then
+		WorldQuestList.ScrollDownLine:Show()
+	else
+		WorldQuestList.ScrollDownLine:Hide()
+	end		
+end
+
+WorldQuestList:SetScript("OnVerticalScroll",function(self,val)
+	UpdateScrollButtonsState()
+end)
+
+WorldQuestList.ScrollDownLine = CreateFrame("Button", nil, WorldQuestList)
+WorldQuestList.ScrollDownLine:SetPoint("LEFT",-1,0)
+WorldQuestList.ScrollDownLine:SetPoint("RIGHT",1,0)
+WorldQuestList.ScrollDownLine:SetPoint("BOTTOM",0,-1)
+WorldQuestList.ScrollDownLine:SetHeight(15)
+WorldQuestList.ScrollDownLine:SetFrameLevel(120)
+WorldQuestList.ScrollDownLine:Hide()
+WorldQuestList.ScrollDownLine:SetScript("OnEnter",function(self)
+	self.entered = true
+	self.timer = C_Timer.NewTicker(.05,function(timer)
+		if not self.entered then
+			timer:Cancel()
+			self.timer = nil
+			return
+		end
+		local limit = WorldQuestList.C:GetHeight()
+		local curr = WorldQuestList:GetVerticalScroll()
+		WorldQuestList:SetVerticalScroll(min(curr + 4,limit - WorldQuestList:GetHeight() + 14))
+	end)
+end)
+WorldQuestList.ScrollDownLine:SetScript("OnLeave",function(self)
+	self.entered = nil
+end)
+WorldQuestList.ScrollDownLine:SetScript("OnHide",function(self)
+	if self.timer then
+		self.timer:Cancel()
+	end
+	self.timer = nil
+	self.entered = nil
+end)
+WorldQuestList.ScrollDownLine:SetScript("OnClick",function(self)
+	local limit = WorldQuestList.C:GetHeight()
+	WorldQuestList:SetVerticalScroll(limit - WorldQuestList:GetHeight())
+end)
+
+WorldQuestList.ScrollDownLine.b = WorldQuestList.ScrollDownLine:CreateTexture(nil,"BACKGROUND")
+WorldQuestList.ScrollDownLine.b:SetAllPoints()
+WorldQuestList.ScrollDownLine.b:SetColorTexture(.3,.3,.3,1)
+
+WorldQuestList.ScrollDownLine.i = WorldQuestList.ScrollDownLine:CreateTexture(nil,"ARTWORK")
+WorldQuestList.ScrollDownLine.i:SetTexture("Interface\\AddOns\\WorldQuestsList\\navButtons")
+WorldQuestList.ScrollDownLine.i:SetPoint("CENTER")
+WorldQuestList.ScrollDownLine.i:SetTexCoord(0,.25,0,1)
+WorldQuestList.ScrollDownLine.i:SetSize(14,14)
+
+WorldQuestList.ScrollUpLine = CreateFrame("Button", nil, WorldQuestList)
+WorldQuestList.ScrollUpLine:SetPoint("LEFT",-1,0)
+WorldQuestList.ScrollUpLine:SetPoint("RIGHT",1,0)
+WorldQuestList.ScrollUpLine:SetPoint("TOP",0,1)
+WorldQuestList.ScrollUpLine:SetHeight(15)
+WorldQuestList.ScrollUpLine:SetFrameLevel(120)
+WorldQuestList.ScrollUpLine:Hide()
+WorldQuestList.ScrollUpLine:SetScript("OnEnter",function(self)
+	self.entered = true
+	self.timer = C_Timer.NewTicker(.05,function(timer)
+		if not self.entered then
+			timer:Cancel()
+			self.timer = nil
+			return
+		end
+		local limit = WorldQuestList.C:GetHeight()
+		local curr = WorldQuestList:GetVerticalScroll()
+		WorldQuestList:SetVerticalScroll(max(curr - 4,0))
+	end)
+end)
+WorldQuestList.ScrollUpLine:SetScript("OnLeave",function(self)
+	self.entered = nil
+end)
+WorldQuestList.ScrollUpLine:SetScript("OnHide",function(self)
+	if self.timer then
+		self.timer:Cancel()
+	end
+	self.timer = nil
+	self.entered = nil
+end)
+WorldQuestList.ScrollUpLine:SetScript("OnClick",function(self)
+	WorldQuestList:SetVerticalScroll(0)
+end)
+
+WorldQuestList.ScrollUpLine.b = WorldQuestList.ScrollUpLine:CreateTexture(nil,"BACKGROUND")
+WorldQuestList.ScrollUpLine.b:SetAllPoints()
+WorldQuestList.ScrollUpLine.b:SetColorTexture(.3,.3,.3,1)
+
+WorldQuestList.ScrollUpLine.i = WorldQuestList.ScrollUpLine:CreateTexture(nil,"ARTWORK")
+WorldQuestList.ScrollUpLine.i:SetTexture("Interface\\AddOns\\WorldQuestsList\\navButtons")
+WorldQuestList.ScrollUpLine.i:SetPoint("CENTER")
+WorldQuestList.ScrollUpLine.i:SetTexCoord(.25,.5,0,1)
+WorldQuestList.ScrollUpLine.i:SetSize(14,14)
 
 WorldQuestList.b = WorldQuestList:CreateTexture(nil,"BACKGROUND")
 WorldQuestList.b:SetAllPoints()
@@ -702,10 +832,10 @@ local function WorldQuestList_CreateLine(i)
 	if WorldQuestList.l[i] then
 		return
 	end
-	WorldQuestList.l[i] = CreateFrame("Button",nil,WorldQuestList)
+	WorldQuestList.l[i] = CreateFrame("Button",nil,WorldQuestList.C)
 	local line = WorldQuestList.l[i]
 	line:SetPoint("TOPLEFT",0,-(i-1)*16)
-	line:SetPoint("BOTTOMRIGHT",WorldQuestList,"TOPRIGHT",0,-i*16)
+	line:SetPoint("BOTTOMRIGHT",WorldQuestList.C,"TOPRIGHT",0,-i*16)
 	
 	line:SetScript("OnEnter",WorldQuestList_Line_OnEnter)
 	line:SetScript("OnLeave",WorldQuestList_Line_OnLeave)
@@ -715,9 +845,13 @@ local function WorldQuestList_CreateLine(i)
 	line.nameicon = line:CreateTexture(nil, "BACKGROUND")
 	line.nameicon:SetPoint("LEFT",3,0)
 	line.nameicon:SetSize(1,16)
+	
+	line.secondicon = line:CreateTexture(nil, "BACKGROUND")
+	line.secondicon:SetPoint("LEFT",line.nameicon,"RIGHT",0,0)
+	line.secondicon:SetSize(1,16)	
 
 	line.name = line:CreateFontString(nil,"ARTWORK","GameFontWhite")
-	line.name:SetPoint("LEFT",line.nameicon,"RIGHT",1,0)
+	line.name:SetPoint("LEFT",line.secondicon,"RIGHT",0,0)
 	line.name:SetSize(135,20)
 	line.name:SetJustifyH("LEFT")
 
@@ -1320,6 +1454,8 @@ local function WorldQuestList_Leveling_Update()
 		
 		line.nameicon:SetTexture("")
 		line.nameicon:SetWidth(1)
+		line.secondicon:SetTexture("")
+		line.secondicon:SetWidth(1)		
 		line.name:SetWidth(NAME_WIDTH)
 		
 		line.reward:SetText(data.reward or "")
@@ -1433,6 +1569,7 @@ function WorldQuestList_Update()
 			end
 		end
 		WorldQuestList:SetWidth(WorldQuestList_Width+WorldQuestList_ZoneWidth)
+		WorldQuestList.C:SetWidth(WorldQuestList_Width+WorldQuestList_ZoneWidth)
 	else
 		taskInfo = C_TaskQuest.GetQuestsForPlayerByMapID(mapAreaID)
 		
@@ -1451,6 +1588,7 @@ function WorldQuestList_Update()
 		end
 		
 		WorldQuestList:SetWidth(WorldQuestList_Width)
+		WorldQuestList.C:SetWidth(WorldQuestList_Width)
 	end
 	
 	local nextResearch = nil
@@ -1470,6 +1608,8 @@ function WorldQuestList_Update()
 		end
 	end
 	
+	local artifactKnowlegeLevel = select(2,GetCurrencyInfo(1171)) or 0
+		
 	local bounties = GetQuestBountyInfoForMapID(1007)
 	local bountiesInProgress = {}
 	for _,bountyData in pairs(bounties or {}) do
@@ -1520,6 +1660,8 @@ function WorldQuestList_Update()
 					local artifactKnowlege
 					local isEliteQuest
 					local timeToComplete
+					local isInvasion
+					local WarSupplies
 					
 					local professionFix
 					local IsPvPQuest
@@ -1531,6 +1673,9 @@ function WorldQuestList_Update()
 					
 					local _,_,worldQuestType,rarity, _, tradeskillLineIndex = GetQuestTagInfo(questID)
 					
+					if worldQuestType == LE_QUEST_TAG_TYPE_INVASION then
+						isInvasion = true
+					end
 					
 					if worldQuestType == LE_QUEST_TAG_TYPE_DUNGEON then
 						nameicon = -6
@@ -1604,24 +1749,20 @@ function WorldQuestList_Update()
 									totalG = totalG + money
 								end
 							end
-						end
-							
-						local artifactXP = GetQuestLogRewardArtifactXP(questID)
-						if ( artifactXP > 0 ) then
-							reward = BONUS_OBJECTIVE_ARTIFACT_XP_FORMAT:format(artifactXP)
-							rewardSort = artifactXP
-							rewardType = 25
-						end
-						
+						end						
 						
 						-- currency		
 						local numQuestCurrencies = GetNumQuestLogRewardCurrencies(questID)
 						for i = 1, numQuestCurrencies do
 							local name, texture, numItems = GetQuestLogRewardCurrencyInfo(i, questID)
 							local text = BONUS_OBJECTIVE_REWARD_WITH_COUNT_FORMAT:format(texture, numItems, name)
-							reward = text
-							rewardType = 30
-							
+							if texture and texture:find("ble_boss_token$") then	--War Supplies
+								WarSupplies = numItems
+							else
+								reward = text
+								rewardType = 30
+							end
+						
 							if texture and texture:find("orderresources$") then
 								hasRewardFiltered = true
 								rewardSort = numItems or 0
@@ -1631,6 +1772,30 @@ function WorldQuestList_Update()
 								if isValidLine ~= 0 then
 									totalOR = totalOR + (numItems or 0)
 								end
+							end
+						end
+						
+						local artifactXP = GetQuestLogRewardArtifactXP(questID)
+						local totalAPadded = 0
+						if ( artifactXP > 0 ) then
+							--reward = BONUS_OBJECTIVE_ARTIFACT_XP_FORMAT:format(artifactXP)
+							--rewardSort = artifactXP
+							--rewardType = 25
+							
+							hasRewardFiltered = true
+							rewardType = 20
+							if bit.band(filters[2][2],ActiveFilter) == 0 then 
+								isValidLine = 0  
+							end
+							if BAG_ITEM_QUALITY_COLORS[6] then
+								rewardColor = BAG_ITEM_QUALITY_COLORS[6]
+							end
+						
+							reward = "["..artifactXP.."] "..BONUS_OBJECTIVE_ARTIFACT_XP_FORMAT:gsub("^%%s ","")
+							rewardSort = artifactXP
+							if isValidLine ~= 0 then
+								totalAP = totalAP + artifactXP
+								totalAPadded = totalAPadded + artifactXP
 							end
 						end
 				
@@ -1674,14 +1839,17 @@ function WorldQuestList_Update()
 										rewardSort = ilvl
 									end
 								elseif text and rewardType == 20 and text:find("^"..ITEM_SPELL_TRIGGER_ONUSE) then
-									local ap
-									if locale == "frFR" then
-										ap = tonumber((text:gsub("%p", ""):match("%d[%d%s]+") or "?"):gsub("%s+", ""),nil)
-									else
-										ap = tonumber((text:match("%d+[,%d%.]*") or "?"):gsub(",",""):gsub("%.",""),nil)
-									end
+									local ap = tonumber((text:gsub("(%d)[ %.,]+(%d)","%1%2"):match("%d+[,%d%.]*") or "?"):gsub(",",""):gsub("%.",""),nil)
 									if ap then
-										reward = reward:gsub(":0|t ",":0|t ["..ap.."] ")
+										if artifactXP then
+											ap = ap + artifactXP
+											totalAP = totalAP - totalAPadded
+										end
+										if artifactKnowlegeLevel > 25 then
+											reward = reward:gsub(":0|t ",":0|t ["..format("%dk",ap / 1000).."] ")
+										else
+											reward = reward:gsub(":0|t ",":0|t ["..ap.."] ")
+										end
 										rewardSort = ap
 										if isValidLine ~= 0 then
 											totalAP = totalAP + ap
@@ -1734,6 +1902,17 @@ function WorldQuestList_Update()
 							reward = reward .. BONUS_OBJECTIVE_REWARD_WITH_COUNT_FORMAT:format("Interface\\ICONS\\Achievement_LegionPVPTier4", honorAmount, HONOR)
 							
 							IsPvPQuest = true
+						end
+						
+						if WarSupplies and WarSupplies > 0 then
+							if reward ~= "" then
+								reward = reward .. ", "
+							else
+								rewardSort = WarSupplies
+								rewardType = 31
+							end
+							local name, amount, texturePath, earnedThisWeek, weeklyMax, totalMax, isDiscovered, quality = GetCurrencyInfo(1342)
+							reward = reward .. "|T" .. texturePath .. ":0|t " .. WarSupplies .. " " .. name
 						end
 						
 						if not hasRewardFiltered then
@@ -1814,6 +1993,7 @@ function WorldQuestList_Update()
 							artifactKnowlege = artifactKnowlege,
 							isEliteQuest = isEliteQuest,
 							timeToComplete = timeToComplete,
+							isInvasion = isInvasion,
 						})
 					end
 					
@@ -1835,10 +2015,13 @@ function WorldQuestList_Update()
 		elseif data.isNewQuest then
 			--line.name:SetTextColor(.3,.8,1)
 			line.name:SetTextColor(1,1,.7)
+		elseif data.isInvasion then
+			line.name:SetTextColor(0.78, 1, 0)
 		else
 			line.name:SetTextColor(1,1,1)
 		end
 		
+		local questNameWidth = NAME_WIDTH
 		if data.nameicon then
 			line.nameicon:SetWidth(16)
 			if data.nameicon == -1 then
@@ -1854,12 +2037,23 @@ function WorldQuestList_Update()
 			elseif data.nameicon == -6 then
 				line.nameicon:SetAtlas("Dungeon")
 			end
-			line.name:SetWidth(NAME_WIDTH-15)
+			questNameWidth = questNameWidth - 15
 		else
 			line.nameicon:SetTexture("")
 			line.nameicon:SetWidth(1)
-			line.name:SetWidth(NAME_WIDTH)
-		end	
+		end
+		
+		if data.isInvasion then
+			line.secondicon:SetAtlas("worldquest-icon-burninglegion")
+			line.secondicon:SetWidth(16)
+			
+			questNameWidth = questNameWidth - 15
+		else
+			line.secondicon:SetTexture("")
+			line.secondicon:SetWidth(1)	
+		end
+		
+		line.name:SetWidth(questNameWidth)
 		
 		line.reward:SetText(data.reward)
 		if data.rewardColor then
@@ -1912,6 +2106,19 @@ function WorldQuestList_Update()
 	end
 	
 	WorldQuestList:SetHeight(max(16*(taskIconIndex-1),1))
+	WorldQuestList.C:SetHeight(max(16*(taskIconIndex-1),1))
+	
+	local bottomPos = WorldQuestList:GetBottom()
+	if bottomPos and bottomPos < 0 then
+		WorldQuestList:SetHeight(WorldQuestList:GetHeight() - (ceil(abs(bottomPos / 16)) + 1) * 16 + 10)
+		WorldQuestList:SetVerticalScroll( min(WorldQuestList.C:GetHeight() - WorldQuestList:GetHeight(),WorldQuestList:GetVerticalScroll()) )
+		--WorldQuestList.ScrollDownLine:Show()
+		UpdateScrollButtonsState()
+	else
+		--WorldQuestList.ScrollDownLine:Hide()
+		WorldQuestList:SetVerticalScroll(0)
+		UpdateScrollButtonsState()
+	end
 	
 	for i = taskIconIndex, NUM_WORLDMAP_TASK_POIS do
 		WorldQuestList.l[i]:Hide()
@@ -2298,6 +2505,7 @@ local BarrelsHelper_count = 8
 local BarrelsHelper = CreateFrame'Frame'
 BarrelsHelper:RegisterEvent('QUEST_ACCEPTED')
 BarrelsHelper:RegisterEvent('QUEST_REMOVED')
+BarrelsHelper:RegisterEvent('PLAYER_ENTERING_WORLD')
 BarrelsHelper:SetScript("OnEvent",function(self,event,arg1,arg2, hideCaster,sourceGUID,sourceName,sourceFlags,sourceFlags2,destGUID,destName,destFlags,destFlags2,spellId)
 	if event == 'QUEST_ACCEPTED' then
 		if (arg1 and BarrelsHelperQuests[arg1]) or (arg2 and BarrelsHelperQuests[arg2]) then
@@ -2305,8 +2513,8 @@ BarrelsHelper:SetScript("OnEvent",function(self,event,arg1,arg2, hideCaster,sour
 				return
 			end
 			print("World Quests List: Barrels helper loaded")
-			self:RegisterEvent("UPDATE_MOUSEOVER_UNIT")
 			BarrelsHelper_count = 8
+			self:RegisterEvent("UPDATE_MOUSEOVER_UNIT")
 		end
 	elseif event == 'QUEST_REMOVED' then
 		if (arg1 and BarrelsHelperQuests[arg1]) or (arg2 and BarrelsHelperQuests[arg2]) then
@@ -2328,6 +2536,18 @@ BarrelsHelper:SetScript("OnEvent",function(self,event,arg1,arg2, hideCaster,sour
 				if GetRaidTargetIndex("mouseover") ~= BarrelsHelper_guid[guid] then
 					SetRaidTarget("mouseover", BarrelsHelper_guid[guid])
 				end
+			end
+		end
+	elseif event == "PLAYER_ENTERING_WORLD" then
+		if VWQL.DisableBarrels then
+			return
+		end
+		for i=1,GetNumQuestLogEntries() do
+			local title, _, _, _, _, _, _, questID = GetQuestLogTitle(i)
+			if questID and BarrelsHelperQuests[questID] then
+				BarrelsHelper_count = 8
+				self:RegisterEvent("UPDATE_MOUSEOVER_UNIT")
+				break
 			end
 		end
 	end

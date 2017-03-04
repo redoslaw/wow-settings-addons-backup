@@ -1,5 +1,15 @@
 
 CharacterNotesDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Redbullek - Burning Legion"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+	},
 	["realm"] = {
 		["Steamwheedle Cartel"] = {
 			["removedSpacesFromRealm"] = true,
@@ -11,15 +21,6 @@ CharacterNotesDB = {
 				["Ksek"] = "Ziomek od tych 6-ciu co chcieli dolaczyc",
 			},
 			["removedSpacesFromRealm"] = true,
-		},
-	},
-	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
 		},
 	},
 }

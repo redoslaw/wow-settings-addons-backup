@@ -1,6 +1,6 @@
 ## Interface: 70100
 ## Title: Overachiever
-## Version: 0.99.3
+## Version: 0.99.5
 ## Author: Tuhljin
 ## Notes: Tools and tweaks to make the lives of players seeking Achievements a little bit easier.
 ## Notes-zhTW: 使玩家尋求成就可以稍微輕鬆點的微調工具。
@@ -23,6 +23,7 @@ libs\TjBagWatch.lua
 libs\TjCalendar.lua
 
 localization.lua
+Templates.xml
 Overachiever.lua
 AchieveID.lua
 AchieveTip.lua

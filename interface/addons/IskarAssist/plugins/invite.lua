@@ -109,7 +109,10 @@ end
 
 local handle_inv_text = function (message, from)
 	for i = 1, #Invite.db.auto_invite_keywords do
-		if (message == Invite.db.auto_invite_keywords [i]) then
+	
+		local LowMessage, LowKeyword = string.lower (message), string.lower (Invite.db.auto_invite_keywords [i])
+		
+		if (LowMessage == LowKeyword) then
 			if (GetNumGroupMembers() == 5) then
 				if (not IsInRaid()) then
 					local in_instance, instance_type = IsInInstance()
@@ -144,8 +147,16 @@ function Invite:CHAT_MSG_WHISPER (event, message, sender, language, channelStrin
 end
 
 function Invite:CHAT_MSG_BN_WHISPER (event, message, sender, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, counter, unknown, presenceID, unknown)
+	local bnet_friends_amt = BNGetNumFriends()
+	for i = 1, bnet_friends_amt do 
+		local presenceID, presenceName, battleTag, isBattleTagPresence, toonName, toonID, client, isOnline, lastOnline, isAFK, isDND, messageText, noteText, isRIDFriend, broadcastTime, canSoR = BNGetFriendInfo (i)
+		if (presenceName == sender) then
+			return handle_inv_whisper (message, toonName)
+		end
+	end
 	return handle_inv_whisper (message, sender)
 end
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> auto accept invites
@@ -599,6 +610,7 @@ function Invite.BuildOptions (frame)
 		local on_edit_select = function (_, _, preset)
 			Invite:ShowPreset (Invite:GetPreset (preset))
 			Invite:DisableCreatePanel()
+			InviteNewProfileFrame:Hide()
 		end
 		local dropdown_edit_fill = function()
 			local t = {}

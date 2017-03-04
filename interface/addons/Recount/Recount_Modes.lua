@@ -4,7 +4,7 @@ local AceLocale = LibStub("AceLocale-3.0")
 local L = AceLocale:GetLocale("Recount")
 local Epsilon = 0.000000000000000001
 
-local revision = tonumber(string.sub("$Revision: 1361 $", 12, -3))
+local revision = tonumber(string.sub("$Revision: 1413 $", 12, -3))
 if Recount.Version < revision then
 	Recount.Version = revision
 end

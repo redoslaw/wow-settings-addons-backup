@@ -970,7 +970,7 @@ function RaidGroups.UpdatePlayer (raidIndex, name, rank, subgroup, level, class,
 					slot:SetBackdropBorderColor (unpack (slot_bordercolor_filtered))
 					got_filtered = true
 				end
-			elseif (filter == "DPS") then
+			elseif (filter == "DPS" or filter == "DAMAGER") then
 				if (role == "DAMAGER") then
 					slot:SetBackdropBorderColor (unpack (slot_bordercolor_filtered))
 					got_filtered = true

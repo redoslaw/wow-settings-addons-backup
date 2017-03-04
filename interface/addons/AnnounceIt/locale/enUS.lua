@@ -25,8 +25,8 @@ L["GUILD"] = "Guild"
 L["Hide Minimap Button"] = true
 L["LFG"] = true
 L["Message"] = true
-L["Messages and Profiles"] = true
 L["Message Tags"] = true
+L["Messages and Profiles"] = true
 L["My name is [NAME]. I am a [RACE] [CLASS] in the [GUILD] guild."] = true
 L["New"] = true
 L["New Message"] = true
@@ -62,4 +62,3 @@ L["Your guild name if you are in a guild"] = true
 L["Your message title was not unique, please enter a unique title."] = true
 L["Your name"] = true
 L["Your race"] = true
-

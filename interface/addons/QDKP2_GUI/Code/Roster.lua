@@ -172,8 +172,10 @@ function myClass.Refresh(self, forceResort)
 	  
 		--]]
 		name = QDKP2_FormatName(name)  --Fully format for merged realms
-        local class=QDKP2class[name] or UnitClass(name)
-        local isinguild=QDKP2_IsInGuild(name)
+		
+        local class= QDKP2class[name] -- or UnitClass(name)  Feb 10 this is an illformed call of UnitClass
+		
+        local isinguild = QDKP2_IsInGuild(name)
         local colors=myClass.PlayersColor.Default
         if not isinguild then colors=myClass.PlayersColor.NoGuild
         elseif QDKP2_USE_CLASS_BASED_COLORS then

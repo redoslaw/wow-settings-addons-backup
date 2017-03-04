@@ -9,6 +9,7 @@ local default_config = {
 	enabled = true,
 	menu_priority = 1,
 	
+	show_window_after = 0.9,
 	text_size = 10,
 	text_face = "Friz Quadrata TT",
 	text_shadow = false,
@@ -363,7 +364,7 @@ function ReadyCheck:READY_CHECK (event, player, timeout)
 		
 		ReadyCheck.ScreenPanel:SetHeight (80)
 		
-		ReadyCheck.ScreenPanel.ShowAFKPlayersAt = timeout * 0.8
+		ReadyCheck.ScreenPanel.ShowAFKPlayersAt = timeout * ReadyCheck.db.show_window_after
 		ReadyCheck.ScreenPanel.StartAt = GetTime()
 		ReadyCheck.ScreenPanel.EndAt = GetTime() + timeout
 		ReadyCheck.ScreenPanel:SetScript ("OnUpdate", check_onupdate)

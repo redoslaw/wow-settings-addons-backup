@@ -23,7 +23,7 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1738)
 
 L:SetOptionLocalization({
-	SetIconOnlyOnce		= "Set icon only once per ooze scan then disable until at least one blows up (experimental)",
+	SetIconOnlyOnce2	= "Set icon only once per ooze scan then disable until at least one blows up (experimental)",
 	InfoFrameBehavior	= "Set information InfoFrame shows during encounter",
 	Fixates				= "Show players affected by Fixate",
 	Adds				= "Show add counts for all add types"
@@ -47,10 +47,6 @@ L:SetOptionLocalization({
 	Arrow				= "Show only traditional Arrow if you're affected",
 	HudSelf				= "Show HUD line only if you're affected",
 	HudAll				= "Show HUD line for all affected targets"
-})
-
-L:SetMiscLocalization({
-	MapMessage			= "Note: This mod uses arrow/HUD options that can be configured in GUI. These options will also break in 7.1"
 })
 
 ---------------------------

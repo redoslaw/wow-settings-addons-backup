@@ -72,7 +72,7 @@
 ]]
 local addon = KuiNameplates
 local ele = addon:NewElement('ClassPowers')
-local class, power_type, power_type_tag, cpf, initialised
+local _,class,power_type,power_type_tag,highlight_at,cpf,initialised
 local on_target
 local orig_SetVertexColor
 -- power types by class/spec
@@ -132,6 +132,8 @@ local ANTICIPATION_TALENT_ID=19240
 local BALANCE_FERAL_AFFINITY_TALENT_ID=22155
 local GUARDIAN_FERAL_AFFINITY_TALENT_ID=22156
 local RESTO_FERAL_AFFINITY_TALENT_ID=22367
+local FIRES_OF_JUSTICE_SPELL_ID=209785
+local FIRES_OF_JUSTICE_NAME
 -- local functions #############################################################
 local function IsTalentKnown(id)
     return select(10,GetTalentInfoByID(id))
@@ -164,6 +166,7 @@ local function Icon_SetVertexColor(self,...)
 
     if self.glow then
         self.glow:SetVertexColor(...)
+        self.glow:SetAlpha(.5)
     end
 end
 local function CreateIcon()
@@ -199,6 +202,7 @@ local function CreateIcon()
             cd:SetDrawEdge(false)
             cd:SetDrawBling(false)
             cd:SetHideCountdownNumbers(true)
+            cd.noCooldownCount = true
             icon.cd = cd
         else
             icon.Active = function(self)
@@ -338,11 +342,18 @@ local function PowerUpdate()
                     icon:Inactive()
                 end
 
-                if icon.glow then
+                if highlight_at and i <= highlight_at and cur >= highlight_at then
+                    icon.glow:Show()
+                elseif icon.glow then
                     icon.glow:Hide()
                 end
             end
         end
+    end
+
+    if class == 'PALADIN' and cur > 0 and highlight_at == 2 then
+        -- colour first icon red to show fires of justice
+        cpf.icons[1]:ActiveOverflow()
     end
 
     ele:RunCallback('PostPowerUpdate')
@@ -480,17 +491,29 @@ end
 function ele:PowerInit()
     -- get current power type, register events
     power_type_tag = nil
+    highlight_at = nil
 
     if type(powers[class]) == 'table' then
         local spec = GetSpecialization()
         power_type = powers[class][spec]
 
-        if class == 'DRUID' and (
+        if class == 'PALADIN' then
+            if power_type then
+                -- ret paladin; watch for fires of justice procs
+                FIRES_OF_JUSTICE_NAME = GetSpellInfo(FIRES_OF_JUSTICE_SPELL_ID)
+                self:RegisterEvent('UNIT_AURA','Paladin_WatchFiresOfJustice')
+                highlight_at = 3
+            else
+                self:UnregisterEvent('UNIT_AURA')
+            end
+        elseif class == 'DRUID' and (
            (spec == 1 and IsTalentKnown(BALANCE_FERAL_AFFINITY_TALENT_ID)) or
            (spec == 3 and IsTalentKnown(GUARDIAN_FERAL_AFFINITY_TALENT_ID)) or
            (spec == 4 and IsTalentKnown(RESTO_FERAL_AFFINITY_TALENT_ID))
            )
         then
+            -- if feral affinity is known, we need to watch for shapeshifts
+            -- into cat form
             self:RegisterEvent('UPDATE_SHAPESHIFT_FORM')
 
             local form = GetShapeshiftForm()
@@ -620,6 +643,16 @@ function ele:PowerEvent(event,unit,power_type_rcv)
 end
 function ele:UPDATE_SHAPESHIFT_FORM()
     self:PowerInit()
+end
+function ele:Paladin_WatchFiresOfJustice(_,unit)
+    if unit ~= 'player' then return end
+    if UnitBuff(unit,FIRES_OF_JUSTICE_NAME) then
+        highlight_at = 2
+    else
+        highlight_at = 3
+    end
+
+    PowerUpdate()
 end
 -- register ####################################################################
 function ele:OnEnable()

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-$Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
+$Id: CurrencyTracking_Options.xml 50 2017-03-01 16:00:24Z arith $
 -->
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 	<Script file="CurrencyTracking_Options.lua"/>
+
 	<Button name="CurrencyTrackingTokenButtonTemplate" virtual="true">
 		<Size>
 			<AbsDimension x="545" y="17"/>
@@ -15,7 +16,7 @@ $Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
 						<Anchor point="TOPLEFT" x="1" y="0"/>
 						<Anchor point="BOTTOMRIGHT" x="-1" y="0"/>
 					</Anchors>
-					<Color a=".08" r="1" g="1" b="1"/>
+					<Color a="0.08" r="1" g="1" b="1"/>
 				</Texture>
 			</Layer>
 			<Layer level="BORDER">
@@ -181,17 +182,6 @@ $Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
 					</Anchors>
 				</FontString>
 			</Layer>
-			<Layer level="ARTWORK">
-				<FontString inherits="GameFontNormalLarge" text="CT_CURRENCY_TO_TRACK">
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="15" y="-165"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</FontString>
-			</Layer>
 		</Layers>
 		<Frames>
 			<CheckButton name="$parent_ShowOnScreen" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -208,6 +198,23 @@ $Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
 					</OnLoad>
 					<OnClick>
 						CurrencyTrackingOptions_ShowOnScreenToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parent_BreakupNumbers" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_ShowOnScreen">>
+						<Offset>
+							<AbsDimension x="0" y="-25"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(CT_OPT_BREAKUPNUMBERS);
+					</OnLoad>
+					<OnClick>
+						CurrencyTrackingOptions_BreakupNumbersToggle();
 					</OnClick>
 				</Scripts>
 			</CheckButton>
@@ -228,86 +235,136 @@ $Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Slider name="$ParentSliderAlpha" inherits="OptionsSliderTemplate">
+			<Slider name="$parentSliderFrameScale" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-85" />
+							<AbsDimension x="0" y="-110" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						self:EnableMouseWheel(true)
-						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_TRANSPARENCY, 0, 1.0, 0.01);
-						CurrencyTrackingOptionsFrameSliderAlphaLow:SetText("0.00");
-						CurrencyTrackingOptionsFrameSliderAlphaHigh:SetText("1.00");
+						self:EnableMouseWheel(true);
+						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_SCALE, 0.5, 2.0, 0.1);
+						CurrencyTrackingOptionsFrameSliderFrameScaleLow:SetText("0.5");
+						CurrencyTrackingOptionsFrameSliderFrameScaleHigh:SetText("2.0");
 					</OnLoad>
 					<OnValueChanged>
-						CurrencyTrackingOptions_SliderAlphaOnValueChanged(self);
+						CurrencyTrackingOptions_SliderFrameScaleOnValueChanged(self);
 					</OnValueChanged>
 					<OnMouseWheel>
-						CurrencyTrackingOptions_OnMouseWheel(self, delta)
+						CurrencyTrackingOptions_OnMouseWheel(self, delta);
 					</OnMouseWheel>
 				</Scripts>
 			</Slider>
-			<Slider name="$ParentSliderToolTipScale" inherits="OptionsSliderTemplate">
+			<Slider name="$parentSliderFrameAlpha" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
 				</Size>
 				<Anchors>
-					<Anchor point="TOP">
+					<Anchor point="TOPLEFT" relativeTo="$parentSliderFrameScale">
 						<Offset>
-							<AbsDimension x="0" y="-125" />
+							<AbsDimension x="0" y="-40" />
 						</Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						self:EnableMouseWheel(true)
+						self:EnableMouseWheel(true);
+						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_TRANSPARENCY, 0, 1.0, 0.1);
+						CurrencyTrackingOptionsFrameSliderFrameAlphaLow:SetText("0.0");
+						CurrencyTrackingOptionsFrameSliderFrameAlphaHigh:SetText("1.0");
+					</OnLoad>
+					<OnValueChanged>
+						CurrencyTrackingOptions_SliderFrameAlphaOnValueChanged(self);
+					</OnValueChanged>
+					<OnMouseWheel>
+						CurrencyTrackingOptions_OnMouseWheel(self, delta);
+					</OnMouseWheel>
+				</Scripts>
+			</Slider>
+			<Slider name="$parentSliderFrameBGAlpha" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="360" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentSliderFrameAlpha">
+						<Offset>
+							<AbsDimension x="0" y="-40" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:EnableMouseWheel(true);
+						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_BGTRANSPARENCY, 0, 1.0, 0.1);
+						CurrencyTrackingOptionsFrameSliderFrameBGAlphaLow:SetText("0.0");
+						CurrencyTrackingOptionsFrameSliderFrameBGAlphaHigh:SetText("1.0");
+					</OnLoad>
+					<OnValueChanged>
+						CurrencyTrackingOptions_SliderFrameBGAlphaOnValueChanged(self);
+					</OnValueChanged>
+					<OnMouseWheel>
+						CurrencyTrackingOptions_OnMouseWheel(self, delta);
+					</OnMouseWheel>
+				</Scripts>
+			</Slider>
+			<Slider name="$parentSliderToolTipAlpha" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="360" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentSliderFrameBGAlpha">
+						<Offset>
+							<AbsDimension x="0" y="-40" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:EnableMouseWheel(true);
+						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_TOOLTIPTRANSPARENCY, 0, 1.0, 0.01);
+						CurrencyTrackingOptionsFrameSliderToolTipAlphaLow:SetText("0.00");
+						CurrencyTrackingOptionsFrameSliderToolTipAlphaHigh:SetText("1.00");
+					</OnLoad>
+					<OnValueChanged>
+						CurrencyTrackingOptions_SliderToolTipAlphaOnValueChanged(self);
+					</OnValueChanged>
+					<OnMouseWheel>
+						CurrencyTrackingOptions_OnMouseWheel(self, delta);
+					</OnMouseWheel>
+				</Scripts>
+			</Slider>
+			<Slider name="$parentSliderToolTipScale" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="360" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentSliderToolTipAlpha">
+						<Offset>
+							<AbsDimension x="0" y="-40" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:EnableMouseWheel(true);
 						CurrencyTrackingOptions_SetupSlider(self, CT_OPT_TOOLTIPSCALE, 0.01, 1.75, 0.01);
 						CurrencyTrackingOptionsFrameSliderToolTipScaleLow:SetText("0.01");
 						CurrencyTrackingOptionsFrameSliderToolTipScaleHigh:SetText("1.75");
 					</OnLoad>
 					<OnValueChanged>
-						CurrencyTrackingOptions_SliderToolTipScaleOnValueChanged(self)
+						CurrencyTrackingOptions_SliderToolTipScaleOnValueChanged(self);
 					</OnValueChanged>
 					<OnMouseWheel>
-						CurrencyTrackingOptions_OnMouseWheel(self, delta)
+						CurrencyTrackingOptions_OnMouseWheel(self, delta);
 					</OnMouseWheel>
 				</Scripts>
 			</Slider>
-			<ScrollFrame name="$parentContainer" parentKey="TokenContainer" inherits="HybridScrollFrameTemplate">
-				<Size>
-					<AbsDimension x="550" y="342" />
-				</Size>
-				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
-						<Offset>
-							<AbsDimension x="30" y="-185"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Frames>
-					<Slider name="$parentScrollBar" inherits="HybridScrollBarTemplate">
-						<Anchors>
-							<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
-								<Offset>
-									<AbsDimension x="0" y="-12"/>
-								</Offset>
-							</Anchor>
-							<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
-								<Offset>
-									<AbsDimension x="0" y="11"/>
-								</Offset>
-							</Anchor>
-						</Anchors>
-					</Slider>
-				</Frames>
-			</ScrollFrame>
 
 <!--
 			<CheckButton name="$parent_2ndOption" inherits="InterfaceOptionsSmallCheckButtonTemplate">
@@ -335,6 +392,59 @@ $Id: CurrencyTracking_Options.xml 37 2017-01-04 09:41:12Z arith $
 			</OnLoad>
 			<OnShow>
 				CurrencyTrackingOptions_OnShow(self);
+			</OnShow>
+		</Scripts>
+	</Frame>
+	<Frame name="CurrencyTrackingTokenOptionsFrame" hidden="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString inherits="GameFontNormalLarge" text="CT_CURRENCY_TO_TRACK">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="15" y="-15"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<ScrollFrame name="$parentContainer" parentKey="TokenContainer" inherits="HybridScrollFrameTemplate">
+				<Size>
+					<AbsDimension x="550" y="500" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-45"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Frames>
+					<Slider name="$parentScrollBar" inherits="HybridScrollBarTemplate">
+						<Anchors>
+							<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+								<Offset>
+									<AbsDimension x="0" y="-12"/>
+								</Offset>
+							</Anchor>
+							<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+								<Offset>
+									<AbsDimension x="0" y="11"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Slider>
+				</Frames>
+			</ScrollFrame>
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				CurrencyTrackingTokenOptions_OnLoad(self);
+			</OnLoad>
+			<OnShow>
+				CurrencyTrackingTokenOptions_OnShow(self);
 			</OnShow>
 		</Scripts>
 	</Frame>

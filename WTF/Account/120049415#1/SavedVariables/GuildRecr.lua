@@ -1,18 +1,21 @@
 
 GuildRecrDB = {
 	["profileKeys"] = {
-		["Kot - Chamber of Aspects"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Redus - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
 	},
 	["global"] = {
-		["announce_general"] = true,
-		["announce_lfg"] = false,
-		["sync_revision"] = 1483572120,
-		["message"] = "Wipeforged (EN: 7/7 Mythic ToV: 1/3 Mythic)  poszukuje sumiennych i aktywnych graczy do wzmocnienia grupy progresowej! Gramy w SR,CZW,PN 20-23 - Po szczegolowe informacje zapraszamy na wipeforged.com!\n",
+		["guild_coop"] = false,
 		["min_lines"] = 10,
+		["sync_revision"] = 1488463200,
+		["message"] = "Wipeforged (NH 10/10 HC / 3/10 Mythic) poszukuje aktywnych graczy do wzmocnienia grupy progresowej! Szczeg. heala i dpsów przygotowanych do progresu NH mythic!Raidy SR,CZW,PN -  Po szczegolowe informacje zapraszamy na wipeforged.com\n",
+		["announce_lfg"] = false,
+		["timer"] = 10,
 		["announce_trade"] = true,
+		["announce_general"] = true,
 	},
 	["realm"] = {
 		["Burning Legion"] = {

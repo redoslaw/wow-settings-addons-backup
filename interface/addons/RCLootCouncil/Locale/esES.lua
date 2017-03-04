@@ -346,7 +346,6 @@ L["Upper Quality Limit"] = "Limite Superior de Calidad"
 L["upper_quality_limit_desc"] = [=[Seleccionar la calidad mas alta de los objetos a repartir automaticamente (calidad seleccionada incluida)
 Nota: Esto sobrescribe el umbral normal de saqueo.]=]
 L["Usage"] = "Uso"
-L["Use the same setting when entering a raid as the group leader?"] = "Utilice el mismo ajuste al entrar en una Banda como el lider del grupo?"
 L["version"] = "Version"
 L["Version"] = true
 L["Version Check"] = "Comprobar version"

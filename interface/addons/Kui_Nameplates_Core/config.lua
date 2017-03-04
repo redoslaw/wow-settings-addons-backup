@@ -39,6 +39,11 @@ local default_config = {
     target_arrows = false,
     frame_glow_size = 8,
     target_arrows_size = 33,
+    use_blizzard_personal = false,
+
+    clickthrough_self = false,
+    clickthrough_friend = false,
+    clickthrough_enemy = false,
 
     nameonly = true,
     nameonly_no_font_style = false,
@@ -46,7 +51,9 @@ local default_config = {
     nameonly_damaged_friends = true,
     nameonly_enemies = true,
     nameonly_all_enemies = false,
+    nameonly_neutral = false,
     nameonly_target = true,
+    nameonly_in_combat = false,
     guild_text_npcs = true,
     guild_text_players = false,
     title_text_players = false,
@@ -133,7 +140,9 @@ local default_config = {
 
     tank_mode = true,
     tankmode_force_enable = false,
+    tankmode_force_offtank = false,
     threat_brackets = false,
+    frame_glow_threat = true,
     tankmode_tank_colour = { 0, 1, 0 },
     tankmode_trans_colour = { 1, 1, 0 },
     tankmode_other_colour = { .6, 0, 1 },
@@ -150,9 +159,16 @@ local default_config = {
     classpowers_colour_rogue       = {1,1,.1},
     classpowers_colour_mage        = {.5,.5,1},
     classpowers_colour_monk        = {.3,1,.9},
-    classpowers_colour_warlock     = {1,.5,1},
+    classpowers_colour_warlock     = {.9,.6,1},
     classpowers_colour_overflow    = {1,.3,.3},
-    classpowers_colour_inactive    = {.5,.5,.5,.5},
+    classpowers_colour_inactive    = {.5,.5,.5,.7},
+
+    bossmod_enable = true,
+    bossmod_control_visibility = true,
+    bossmod_icon_size = 40,
+    bossmod_x_offset = 0,
+    bossmod_y_offset = 30,
+    bossmod_clickthrough = false,
 }
 -- local functions #############################################################
 local function UpdateClickboxSize()
@@ -167,7 +183,10 @@ local function UpdateClickboxSize()
         C_NamePlate.SetNamePlateEnemySize(width,height)
     end
 
-    C_NamePlate.SetNamePlateSelfSize(width,height)
+    C_NamePlate.SetNamePlateSelfSize(
+        (core.profile.frame_width_personal * addon.uiscale) + 10,
+        (core.profile.frame_height_personal * addon.uiscale) + 20
+    )
 end
 local function QueueClickboxUpdate()
     cc:QueueFunction(UpdateClickboxSize)
@@ -184,6 +203,10 @@ end
 function configChanged.tankmode_force_enable(v)
     local ele = addon:GetPlugin('TankMode')
     ele:SetForceEnable(v)
+end
+function configChanged.tankmode_force_offtank(v)
+    local ele = addon:GetPlugin('TankMode')
+    ele:SetForceOffTank(v)
 end
 
 function configChanged.castbar_enable(v)
@@ -244,7 +267,7 @@ local function configChangedFadeRule(v,on_load)
 
     if core.profile.fade_avoid_raidicon then
         plugin:AddFadeRule(function(f)
-            return f.RaidIcon:IsShown() and 1
+            return f.RaidIcon and f.RaidIcon:IsShown() and 1
         end,1)
 
         -- force an alpha update whenever a raid icon is added/removed
@@ -394,16 +417,20 @@ configChanged.nameonly_enemies = configChanged.nameonly
 configChanged.nameonly_all_enemies = configChanged.nameonly
 configChanged.nameonly_target = configChanged.nameonly
 configChanged.nameonly_health_colour = configChanged.nameonly
+configChanged.nameonly_neutral = configChanged.nameonly
+configChanged.nameonly_in_combat = configChanged.nameonly
 
+local function configChangedAuras()
+    core:SetAurasConfig()
+end
 function configChanged.auras_enabled(v)
     if v then
         addon:GetPlugin('Auras'):Enable()
     else
         addon:GetPlugin('Auras'):Disable()
     end
-end
-local function configChangedAuras()
-    core:SetAurasConfig()
+
+    configChangedAuras()
 end
 configChanged.auras_vanilla_filter = configChangedAuras
 configChanged.auras_whitelist = configChangedAuras
@@ -416,6 +443,7 @@ configChanged.auras_maximum_length = configChangedAuras
 configChanged.auras_icon_normal_size = configChangedAuras
 configChanged.auras_icon_minus_size = configChangedAuras
 configChanged.auras_icon_squareness = configChangedAuras
+configChanged.auras_on_personal = configChangedAuras
 
 function configChanged.classpowers_enable(v)
     if v then
@@ -506,6 +534,42 @@ function configChanged.ignore_uiscale(v)
     QueueClickboxUpdate()
 end
 
+function configChanged.use_blizzard_personal(v)
+    addon.USE_BLIZZARD_PERSONAL = v
+end
+
+local function configChangedClickthrough()
+    C_NamePlate.SetNamePlateSelfClickThrough(core.profile.clickthrough_self)
+    C_NamePlate.SetNamePlateFriendlyClickThrough(core.profile.clickthrough_friend)
+    C_NamePlate.SetNamePlateEnemyClickThrough(core.profile.clickthrough_enemy)
+end
+configChanged.clickthrough_self = configChangedClickthrough
+configChanged.clickthrough_friend = configChangedClickthrough
+configChanged.clickthrough_enemy = configChangedClickthrough
+
+configChanged.bossmod_enable = function(v)
+    if v then
+        addon:GetPlugin('BossMods'):Enable()
+    else
+        addon:GetPlugin('BossMods'):Disable()
+    end
+end
+local function configChangedBossMod()
+    core.BossModIcon.icon_size = core.profile.bossmod_icon_size
+    core.BossModIcon.icon_x_offset = core.profile.bossmod_x_offset
+    core.BossModIcon.icon_y_offset = core.profile.bossmod_y_offset
+    core.BossModIcon.control_visibility = core.profile.bossmod_control_visibility
+    core.BossModIcon.clickthrough = core.profile.bossmod_clickthrough
+
+    if addon:GetPlugin('BossMods').enabled then
+        addon:GetPlugin('BossMods'):UpdateConfig()
+    end
+end
+configChanged.bossmod_control_visibility = configChangedBossMod
+configChanged.bossmod_icon_size = configChangedBossMod
+configChanged.bossmod_x_offset = configChangedBossMod
+configChanged.bossmod_y_offset = configChangedBossMod
+
 -- config loaded functions #####################################################
 local configLoaded = {}
 configLoaded.fade_alpha = configChanged.fade_alpha
@@ -517,6 +581,7 @@ configLoaded.colour_hated = configChangedReactionColour
 
 configLoaded.tank_mode = configChanged.tank_mode
 configLoaded.tankmode_force_enable = configChanged.tankmode_force_enable
+configLoaded.tankmode_force_offtank = configChanged.tankmode_force_offtank
 configLoaded.tankmode_tank_colour = configChangedTankColour
 
 configLoaded.castbar_enable = configChanged.castbar_enable
@@ -524,6 +589,8 @@ configLoaded.level_text = configChanged.level_text
 
 configLoaded.auras_enabled = configChanged.auras_enabled
 configLoaded.auras_whitelist = configChangedAuras
+
+configLoaded.clickthrough_self = configChangedClickthrough
 
 function configLoaded.classpowers_enable(v)
     if v then
@@ -546,6 +613,10 @@ function configLoaded.ignore_uiscale(v)
     addon.IGNORE_UISCALE = v
     addon:UI_SCALE_CHANGED()
 end
+
+configLoaded.use_blizzard_personal = configChanged.use_blizzard_personal
+
+configLoaded.bossmod_enable = configChanged.bossmod_enable
 
 -- init config #################################################################
 function core:InitialiseConfig()
@@ -597,6 +668,9 @@ function core:InitialiseConfig()
 
     -- also update upon closing interface options
     InterfaceOptionsFrame:HookScript('OnHide',QueueClickboxUpdate)
+
+    -- listen for LSM media updates
+    LSM.RegisterCallback(self, 'LibSharedMedia_Registered', 'LSMMediaRegistered')
 end
 
 -- combat checking frame #######################################################

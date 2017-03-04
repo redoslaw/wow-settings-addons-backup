@@ -1,9 +1,0 @@
-
-PollConfig = {
-	["Burning Legion-Ðeadshot"] = {
-		["locale"] = "enUS",
-		["idChannel"] = 0,
-		["system"] = "RAID",
-		["channel"] = "raid",
-	},
-}

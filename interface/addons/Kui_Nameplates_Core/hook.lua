@@ -21,6 +21,11 @@ end
 local anchor = CreateFrame('Frame','KuiNameplatesPlayerAnchor')
 anchor:Hide()
 
+if addon.draw_frames then
+    anchor:SetBackdrop({ edgeFile = kui.m.t.solid, edgeSize = 1 })
+    anchor:SetBackdropBorderColor(0,0,1)
+end
+
 local plugin_fading
 local plugin_classpowers
 -- messages ####################################################################
@@ -46,7 +51,6 @@ end
 function core:Show(f)
     f.state.player = UnitIsUnit(f.unit,'player')
     f.state.friend = UnitIsFriend('player',f.unit)
-    f.state.enemy = UnitIsEnemy('player',f.unit)
 
     -- go into nameonly mode if desired
     self:NameOnlyUpdate(f)
@@ -84,7 +88,8 @@ function core:Show(f)
     end
 
     if f.state.player then
-        anchor:SetAllPoints(f)
+        anchor:SetParent(f)
+        anchor:SetAllPoints()
         anchor:Show()
 
         if addon.ClassPowersFrame then
@@ -109,7 +114,6 @@ function core:HealthUpdate(f)
 end
 function core:HealthColourChange(f)
     f.state.friend = UnitIsFriend('player',f.unit)
-    f.state.enemy = UnitIsEnemy('player',f.unit)
 
     -- update nameonly upon faction changes
     self:NameOnlyUpdate(f)
@@ -177,6 +181,9 @@ function core:QUESTLINE_UPDATE()
     end
 end
 function core:UNIT_THREAT_LIST_UPDATE(event,f)
+    -- enable/disable nameonly if enabled on enemies
+    self:NameOnlyCombatUpdate(f)
+
     -- update to show name of units which are in combat with the player
     self:ShowNameUpdate(f)
     f:UpdateFrameSize()
@@ -215,7 +222,6 @@ function core:Initialise()
 
     -- register callbacks
     self:AddCallback('Auras','PostCreateAuraButton',self.Auras_PostCreateAuraButton)
-    self:AddCallback('Auras','PostUpdateAuraFrame',self.Auras_PostUpdateAuraFrame)
     self:AddCallback('Auras','DisplayAura',self.Auras_DisplayAura)
     self:AddCallback('ClassPowers','PostPositionFrame',self.ClassPowers_PostPositionFrame)
     self:AddCallback('ClassPowers','CreateBar',self.ClassPowers_CreateBar)

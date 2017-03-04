@@ -1,0 +1,608 @@
+commit 9201802ffa62def75fef7c0b2d253c649f44ad4d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:38:15 2017 +1030
+
+    travis #228
+
+commit 0a37e199897910da7474252002d36a19301ffa85
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:31:56 2017 +1030
+
+    more #228
+
+commit 47742cb6b921d75a65051ef15d207a69188b9972
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:26:44 2017 +1030
+
+    even more travis spec stuff #228
+
+commit e27fde6c84d0bda5a7d61276210d8d4e2b335366
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:22:37 2017 +1030
+
+    trav fix #228
+
+commit 893803d2e412de64e25a0435e928f5baaed42d9e
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:19:22 2017 +1030
+
+    Travis #228
+
+commit 9e17dd1f3d46b07da088b442baf4e42a4d4a25bb
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:07:51 2017 +1030
+
+    Travis Ambiguous Reference #228
+
+commit 8743201668caa10e0437f8afc2ac006bd38da351
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 15:02:54 2017 +1030
+
+    spec fix #228
+
+commit 9c6f5a2021d549eb35b7d223b685284a19c52a56
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:59:24 2017 +1030
+
+    try to get coveralls back
+
+commit 27bf0ee5b7b787fbcc289e8f15adff6fbf5dfcac
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:55:18 2017 +1030
+
+    more unit tests #228
+
+commit fd3ef79623952a746f7230d291967da07b93bd8e
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:44:41 2017 +1030
+
+    #228
+
+commit f9e9f3ea3108a52d87d027f65953e379ffdeb615
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:40:05 2017 +1030
+
+    Export Mod version number #228
+
+commit 3eb466ac6d1c37752b49778a77ad1143c0035e5b
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:20:58 2017 +1030
+
+    Unittest results #239
+
+commit 7e0384bd9e70e014028ef76d70929ec4fc126b7e
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 14:05:37 2017 +1030
+
+    VerifyTest #239
+
+commit 2e73c3cd58bc0743259b52552eafd9d159b12b06
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 13:58:51 2017 +1030
+
+    more unittests #239
+
+commit e8ef967418e78514569d5ba36cde58d455159fcc
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 12:22:48 2017 +1030
+
+    travis #239
+
+commit bbd5497372f309d5489881bd8d56c763efa47348
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 12:19:38 2017 +1030
+
+    more tests for #239
+
+commit b4e8c039a51e531a54df4ed888e696adff85df9f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 12:11:21 2017 +1030
+
+    more for #235
+
+commit ae1855958de72f5c2d216186bf74bfd9bc0b6310
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 12:00:36 2017 +1030
+
+    more unittests for #239
+
+commit c5959c09c12c5a3419a352fd043df1b82c7fdcb2
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 11:14:54 2017 +1030
+
+    more unittest corrections #239
+
+commit 1e013cb3ab8b35c650fbca16c388ab27c0d1e0f8
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 11:11:12 2017 +1030
+
+    more unittest for #239
+
+commit 8206a454838176939881d5ab048dab07189e9e8e
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 11:05:24 2017 +1030
+
+    update based on unittests #239
+
+commit cb60b73519779efcbff74991985cdc2e6a436c1f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 10:56:27 2017 +1030
+
+    more unittest stuff #239
+
+commit 35cf52e0084882665d3127344c44f96cf999aee3
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 10:37:11 2017 +1030
+
+    correction to unittest #239
+
+commit 41311131c469f7b944eed91cccc40e49ce9f33df
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 10:28:41 2017 +1030
+
+    #239 spec update
+
+commit 8580edab872dd5c2bd7ee1d70e6d555a85c05971
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 10:24:34 2017 +1030
+
+    Compare Sequence #239
+
+commit 55ea5d98bac9aba16980c477d9fdfc8e78587ea6
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 09:07:03 2017 +1030
+
+    unittest correction for #235 #237
+
+commit 38407f24179d862af9c2512c7df4b64554d075ef
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 08:57:53 2017 +1030
+
+    More for #235 #237
+
+commit 65c65da47d41fa5594ebb57484070df16d19bea6
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 27 08:51:40 2017 +1030
+
+    Fix for #238
+
+commit f480f2dceaafd3e3eb32363e3f4268b86d41a430
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Thu Jan 26 08:13:37 2017 +1030
+
+    Remove Target=true #231 #235
+
+commit 980cd1a209b8c5a51ef3090645576aba92700133
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 17:46:14 2017 +1030
+
+    fix for #233
+
+commit dbef260fbd00043b105a86c17808f9e9034331d5
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 13:14:00 2017 +1030
+
+    Unit Tests for #231
+
+commit 2a7c6977fa94d2682b47b9a2cf0085bd0538261f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 13:02:47 2017 +1030
+
+    target unittest #233
+
+commit 514a7fd18c3b1a435b53511cdd0c8feb00dfc25f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 12:08:43 2017 +1030
+
+    statics for #233 unit test
+
+commit f6999f1396b339cab9b8cd0bc600d734df744a4f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 12:05:26 2017 +1030
+
+    Normal Priority StepFunction UnitTest1, PreMacro LoopTest1 #233
+
+commit 56465c85ee92681b9596b7534a94769e03b56c07
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 11:56:46 2017 +1030
+
+    further unittesting #233
+
+commit b4ba56e149246cd896f14ef0875eccc8b09224fb
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 11:53:26 2017 +1030
+
+    more #233 UnitTesting
+
+commit b1d0b96b08f51d80a6c0b6089835af092bf72c69
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Wed Jan 25 11:50:22 2017 +1030
+
+    More Unittesting #233
+
+commit 9b4e83b79643432fa1774285040a91fb7eecc62c
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 17:06:40 2017 +1030
+
+    Attempt to fix #227
+
+commit 34aaa8673371784d54baec4b5ad9c3dad1491078
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 16:55:56 2017 +1030
+
+    fix for #234
+
+commit 2f9727096f047836f72d29ecfb8d42b38452ed6a
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 14:43:35 2017 +1030
+
+    more UnitTest #233
+
+commit b03d1cc1f68d0e4639fe7906d08800825c32a6ec
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 14:39:42 2017 +1030
+
+    more for unittest #233
+
+commit 537f3eb6ea267aa64299adfae89ef2d01e37d033
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 14:36:24 2017 +1030
+
+    Unit Test for #233
+
+commit 79582efdf3b0f5bb705c31dc2f2080fcf55900fd
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 08:22:40 2017 +1030
+
+    TOC Update
+
+commit b9db6d94df69d1c050003283b6318c67baaed11f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 24 08:22:01 2017 +1030
+
+    Fix for #188
+
+commit 3d08175e87eaf15639b47a8ef32a756acfcfa0d3
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 16:58:54 2017 +1030
+
+    Fix for #229
+
+commit ac53357f4ffb2e110768a49afd07103d1ed9dfb9
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 15:00:58 2017 +1030
+
+    toc for 2.0.10
+
+commit bb65f25888d443896c81d25f31a5f4511aca7fdf
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 15:00:48 2017 +1030
+
+    translator to call new parts for #230
+
+commit edcfd4624423b70dd0e9e0371d54c3e0bdc05a5f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 14:59:12 2017 +1030
+
+    Attempt at #230
+
+commit c1240c3e3292e0d6b34beab602d7115d37d5bfdc
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 12:48:18 2017 +1030
+
+    update test #230
+
+commit 2aa7013e41c0904d6201ddfc93e8773424bfc956
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 12:20:24 2017 +1030
+
+    unittests to code against for #230
+
+commit 5e343559f17957bdb27a96dac183db7c2bbfaa16
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 11:47:34 2017 +1030
+
+    first parts of #225
+
+commit 949584b16769d5cd25e849331871fbe00454d955
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 11:34:00 2017 +1030
+
+    Revert back to Curse Packager #229
+
+commit fea72747f50a37ca1f288e413827b7580f715913
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 11:23:10 2017 +1030
+
+    Travis Update for #229
+
+commit 39234db8cffabd2fb18f1b03de17702810600551
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 08:58:58 2017 +1030
+
+    Travis Fix #229
+
+commit ffbe5f6216421d5e5154d3835d2bd72e48896867
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 23 08:51:30 2017 +1030
+
+    Chinese Translation @229
+
+commit bf19314f5277d9a9f468141d36cf0fc5939da5ae
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 20 17:24:16 2017 +1030
+
+    Changes for #226
+
+commit c1fa9126dd5739f55ea658839863f972aeb8be99
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 20 10:15:12 2017 +1030
+
+    Travis #174
+
+commit 46438a1c364e8e874d73da0b133d5062feb53149
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 20 09:43:50 2017 +1030
+
+    Attempt to fix #174
+
+commit 8c9fd84c8511488ce0dbfa0ac687d6418c8e9139
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Fri Jan 20 09:42:57 2017 +1030
+
+    Attempt to fix #224
+
+commit aaad0660f91779686cd4162c898eac98b3d05d24
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 18:27:04 2017 +1030
+
+    Update toc for 209
+
+commit e5d4688de2d363b3c592c4b7dbcb63fc7b968a1f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 16:45:53 2017 +1030
+
+    I cant get it to clean up the extra spaces so will turn off the two unit tests #219
+
+commit 45acb2e9c0e4def2876f3e764babdb2a11d0c58c
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 16:15:39 2017 +1030
+
+    more #219
+
+commit 7529e66179ab4b153895fc9e4dcfc2511c483623
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 15:55:51 2017 +1030
+
+    more #219
+
+commit 156e714f3bb38883f0cbce6eaece609a207ee5d3
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 15:46:16 2017 +1030
+
+    getting closer #219
+
+commit 775c2089ae7b225efcde3bc4a184384a015aea80
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 15:41:50 2017 +1030
+
+    more tweaks for #219 try to resolve , ;
+
+commit cd86ac33c4f4d8f38d99bab79bcd3278db88477d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 15:37:38 2017 +1030
+
+    test #219
+
+commit 92b10ca0e2f3614edcd8c56d9aa4d1ace0eaaeec
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 13:57:42 2017 +1030
+
+    more on ;
+
+commit 6c446d94160862ed17ec3065721b20775bf527b1
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 13:28:49 2017 +1030
+
+    working through ;'s #219
+
+commit cf7dc7438c1517a08e91e51c4ed0334a71f3c8ed
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 12:58:02 2017 +1030
+
+    more on #219 219
+
+commit 806ad359f3c68928d792ec9f2f8abd9e0e4d7291
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 12:44:01 2017 +1030
+
+    more on #219
+
+commit 557feec84edf8c4f6bae19eb2c62880cdb05ecff
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 12:38:30 2017 +1030
+
+    more on #219
+
+commit 235d55707651644482da2508379759ff2aef262f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 12:31:25 2017 +1030
+
+    Fix for case from #201 in #219
+
+commit 458b603be1be2cd98383ff1325d15c9177619abd
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 12:28:39 2017 +1030
+
+    More Unit testing #219
+
+commit 6df42f69697c21f20a82033b725b7c986340e6af
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 09:55:39 2017 +1030
+
+    test fix #219
+
+commit 35737fa77f9a8203e368d22ccbc765e251f25f3c
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 09:48:22 2017 +1030
+
+    test fix for #219
+
+commit 422816e955d56e36608c1494254cff1633a83dac
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 09:37:25 2017 +1030
+
+    next attempt for #219
+
+commit 5483cb5d4ec07aee762af4255e5125ae221a8064
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 09:31:04 2017 +1030
+
+    take 2 #219
+
+commit ff8cc1901a7fba4582ec95c07eca330522f6b715
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 09:27:13 2017 +1030
+
+    remove extra spaces #219
+
+commit 0cf5c79062e4f1a5e90e37eb78eab8406d20bdff
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:50:09 2017 +1030
+
+    trying to solve frustrations #219
+
+commit 9f7ac9e83566ccc2cb1ffff9e0c6b76952b4546d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:40:46 2017 +1030
+
+    more for #219
+
+commit b6219faec225ee2b47365892e9f1377e6219815e
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:32:18 2017 +1030
+
+    Unit tests for #219
+
+commit b377426d3bbc8edf4c9e4c4ac3681d63c385115b
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:28:52 2017 +1030
+
+    Unit test corrections
+
+commit ab0203dff655a65f240af20af06b614f9c621ecb
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:28:40 2017 +1030
+
+    Revert "more unittest changes #201"
+    
+    This reverts commit ac6062733bdedc14dd9c09fd099c2e9f58c1c3ed.
+
+commit 477916f959c515cee463bad79c0362e2cc45deb0
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 08:16:53 2017 +1030
+
+    add unittest to verify #219
+
+commit 622a45362a45bc39b8383e384992cfd69d73a1e7
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 06:35:17 2017 +1030
+
+    Fix for #207
+
+commit 055731cd29836e1f5fc8c0fc88dcc6c96f93425d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Tue Jan 17 06:28:16 2017 +1030
+
+    Changes for #217
+
+commit 38d7bc7d5f67792ca4f0973095da9384b0be438d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 21:30:08 2017 +1030
+
+    next attempt for #207
+
+commit 8796649650996ab4d4f321f34bd89d6134eb0404
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 20:02:22 2017 +1030
+
+    fix tag
+
+commit e8c35f4e655f76416ffa0e3fc3e1ca5f19075cc4
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 19:45:59 2017 +1030
+
+    #209
+
+commit 70f4de69c7133ba9c77c86914013b8db9e789bc6
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 19:41:46 2017 +1030
+
+    Fix for #216
+
+commit f830af6375682b377891f217ced66d4e80d582a1
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 19:35:58 2017 +1030
+
+    more for #216
+
+commit 6bb9037373ece322bf0ee3a360fbc792ced2ea25
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 19:33:55 2017 +1030
+
+    Fix for #191
+
+commit 7d850d231b2d3503a72ad2183b4f4af9afbf683b
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 19:21:53 2017 +1030
+
+    Fix for #214
+
+commit 51dbcf8b3173f7f0eb6eb8005c0daa5f6ff2039f
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 18:32:18 2017 +1030
+
+    debug #204
+
+commit 023e1970ddf2de40fcdc8c1b08d2fb372c4b84e6
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 18:30:21 2017 +1030
+
+    cleanup for #216
+
+commit 91cd98484945ef555a07d6af73883d6c75050ab4
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 16:22:53 2017 +1030
+
+    more for #216
+
+commit 3586da25ac065df742731fb9d9dcc0668c516fac
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 16:18:54 2017 +1030
+
+    travis #216
+
+commit 787f7d3e20a47ab514ae29810e06097c3beb8e8d
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 16:14:29 2017 +1030
+
+    Changes for #216
+
+commit 32faf95f382be254f9e441102fc6d4ce2ccb8666
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 14:45:53 2017 +1030
+
+    first changes for #212
+
+commit 7abf99b43e88a4d91ef2a997678b685f66cee7c1
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 14:07:49 2017 +1030
+
+    remove excess spaces #201
+
+commit ac6062733bdedc14dd9c09fd099c2e9f58c1c3ed
+Author: Timothy Minahan <timothy@minahan.net>
+Date:   Mon Jan 16 14:01:22 2017 +1030
+
+    more unittest changes #201
+

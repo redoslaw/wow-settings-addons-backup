@@ -6,19 +6,6 @@ local L
 ---------------
 L= DBM:GetModLocalization(1706)
 
-L:SetWarningLocalization({
-})
-
-L:SetTimerLocalization({
-})
-
-L:SetOptionLocalization({
-})
-
-L:SetMiscLocalization({
-	NoDebuff	= "Kein %s"
-})
-
 ---------------------------
 -- Chronomatic Anomaly --
 ---------------------------
@@ -60,7 +47,7 @@ L:SetWarningLocalization({
 })
 
 L:SetOptionLocalization({
-	warnStarLow				= "Spezialwarnung, wenn eine Plasmasphäre bald stirbt (bei ~15%)"
+	warnStarLow				= "Spezialwarnung, wenn eine Plasmasphäre bald stirbt (bei ~25%)"
 })
 
 L:SetMiscLocalization({

@@ -1,5 +1,35 @@
+changeset:   116:fc54d812683d
+tag:         v2.1.231 release
+user:        Tercio
+date:        Fri Feb 24 13:40:28 2017 -0300
+summary:     - added encounter spell list for the first wing of Nighthold.
+
+
+changeset:   115:0b8ce060659c
+user:        Tercio
+date:        Thu Feb 16 14:21:11 2017 -0200
+summary:     - added boss ids for nighthold raid.
+
+
+changeset:   114:48ea1b9c1a8c
+user:        Tercio
+date:        Tue Feb 07 14:16:11 2017 -0200
+summary:     - raid groups and invite fixes.
+
+
+changeset:   113:87ba10003a0f
+user:        Tercio
+date:        Mon Jan 16 14:00:31 2017 -0200
+summary:     - invite keywords are no longer case sensitive.
+
+
+changeset:   112:412ba41fdfd5
+user:        Tercio
+date:        Sun Jan 08 17:23:37 2017 -0200
+summary:     - after receiving a readycheck, the window shall popup a faster.
+
+
 changeset:   111:b8d156fc8470
-tag:         tip
 user:        Tercio
 date:        Thu Dec 29 15:30:31 2016 -0200
 summary:     - added ability list for Nythendra, Elerethe and Il'gynoth.
@@ -573,35 +603,5 @@ changeset:   16:b6eec63212cc
 user:        Tercio
 date:        Thu Jul 16 21:38:12 2015 -0300
 summary:     - Added Darkbindings aura.
-
-
-changeset:   15:3ca3b642916f
-user:        Tercio
-date:        Thu Jul 16 21:24:46 2015 -0300
-summary:     - Added Darkbindings aura.
-
-
-changeset:   14:9b761c5ff6b4
-user:        Tercio
-date:        Mon Jul 13 18:20:49 2015 -0300
-summary:     - Added warlock dispell.
-
-
-changeset:   13:f8fd38081fb2
-user:        Tercio
-date:        Tue Jun 30 18:33:30 2015 -0300
-summary:     - middle click now select the player.
-
-
-changeset:   12:ef7381b3d334
-user:        Tercio
-date:        Fri Jun 26 16:56:38 2015 -0300
-summary:     - added missing libraries.
-
-
-changeset:   11:a08d72b025aa
-user:        Tercio
-date:        Fri Jun 26 14:58:49 2015 -0300
-summary:     - added sort like grid unit frames.
 
 

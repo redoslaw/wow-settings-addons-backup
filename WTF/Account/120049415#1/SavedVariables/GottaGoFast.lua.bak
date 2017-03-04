@@ -1,0 +1,14 @@
+
+GottaGoFastDB = {
+	["profileKeys"] = {
+		["Redus - Burning Legion"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["LevelInObjectives"] = true,
+			["MobPoints"] = true,
+			["Version"] = 26200,
+			["DeathInObjectives"] = true,
+		},
+	},
+}

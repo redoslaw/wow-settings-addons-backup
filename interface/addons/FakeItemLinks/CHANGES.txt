@@ -1,9 +1,9 @@
 ------------------------------------------------------------------------
-r28 | Saregon | 2016-12-09 05:56:41 -0600 (Fri, 09 Dec 2016) | 2 lines
+r30 | Saregon | 2017-02-10 09:09:04 -0600 (Fri, 10 Feb 2017) | 2 lines
 Changed paths:
    M /trunk/FakeItemLinks.lua
 
-mythic 11/12 added
-cataclysm ilvl set to 333
+obliterum 9/10 added
+mythic 13/14/15 added
 ------------------------------------------------------------------------
 

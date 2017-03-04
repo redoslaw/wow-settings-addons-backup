@@ -35,7 +35,7 @@ MythicPlusProgressDB = {
 		},
 		[102253] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 2,
 			},
 			["name"] = "Understone Demolisher",
 		},
@@ -47,13 +47,14 @@ MythicPlusProgressDB = {
 		},
 		[97185] = {
 			["values"] = {
-				[10] = 1,
+				[10] = 2,
 			},
 			["name"] = "The Grimewalker",
 		},
 		[113537] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 0.75,
+				[10] = 1,
 			},
 			["name"] = "Unknown",
 		},
@@ -89,13 +90,13 @@ MythicPlusProgressDB = {
 		},
 		[97043] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 5,
 			},
 			["name"] = "Seacursed Slaver",
 		},
 		[102430] = {
 			["values"] = {
-				1, -- [1]
+				6, -- [1]
 			},
 			["name"] = "Tarspitter Slug",
 		},
@@ -107,7 +108,7 @@ MythicPlusProgressDB = {
 		},
 		[95832] = {
 			["values"] = {
-				[2] = 3,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Shieldmaiden",
 		},
@@ -125,7 +126,8 @@ MythicPlusProgressDB = {
 		},
 		[102287] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 0.5625,
+				[10] = 2,
 			},
 			["name"] = "Unknown",
 		},
@@ -221,7 +223,7 @@ MythicPlusProgressDB = {
 		},
 		[95834] = {
 			["values"] = {
-				[2] = 3,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Mystic",
 		},
@@ -269,7 +271,7 @@ MythicPlusProgressDB = {
 		},
 		[97365] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 2,
 			},
 			["name"] = "Seacursed Mistmender",
 		},
@@ -281,7 +283,7 @@ MythicPlusProgressDB = {
 		},
 		[96664] = {
 			["values"] = {
-				[2] = 4,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Runecarver",
 		},
@@ -389,7 +391,7 @@ MythicPlusProgressDB = {
 		},
 		[102404] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 3,
 			},
 			["name"] = "Stoneclaw Grubmaster",
 		},
@@ -401,7 +403,7 @@ MythicPlusProgressDB = {
 		},
 		[97097] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 4,
 			},
 			["name"] = "Helarjar Champion",
 		},
@@ -491,26 +493,26 @@ MythicPlusProgressDB = {
 		},
 		[102104] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 3,
 			},
 			["name"] = "Enslaved Shieldmaiden",
 		},
 		[102375] = {
 			["values"] = {
-				[3] = 1,
+				[3] = 3,
 			},
 			["name"] = "Runecarver Slave",
 		},
 		[96574] = {
 			["values"] = {
-				0.31640625, -- [1]
-				[5] = 4,
+				1, -- [1]
 			},
 			["name"] = "Stormforged Sentinel",
 		},
 		[102232] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 1.5,
+				[2] = 1,
 			},
 			["name"] = "Rockbound Trapper",
 		},
@@ -534,7 +536,7 @@ MythicPlusProgressDB = {
 		},
 		[95842] = {
 			["values"] = {
-				[2] = 11,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Thundercaller",
 		},
@@ -543,12 +545,6 @@ MythicPlusProgressDB = {
 				1, -- [1]
 			},
 			["name"] = "Saltscale Lurker",
-		},
-		[96611] = {
-			["values"] = {
-				[2] = 1,
-			},
-			["name"] = "Angerhoof Bull",
 		},
 		[98732] = {
 			["values"] = {
@@ -612,7 +608,7 @@ MythicPlusProgressDB = {
 		},
 		[98919] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 6,
 			},
 			["name"] = "Seacursed Swiftblade",
 		},
@@ -624,7 +620,7 @@ MythicPlusProgressDB = {
 		},
 		[90998] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 2,
 			},
 			["name"] = "Blightshard Shaper",
 		},
@@ -636,19 +632,19 @@ MythicPlusProgressDB = {
 		},
 		[96640] = {
 			["values"] = {
-				[2] = 3,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Marksman",
 		},
 		[90997] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 2,
 			},
 			["name"] = "Mightstone Breaker",
 		},
 		[97182] = {
 			["values"] = {
-				[6] = 1,
+				[6] = 2,
 			},
 			["name"] = "Night Watch Mariner",
 		},
@@ -666,7 +662,7 @@ MythicPlusProgressDB = {
 		},
 		[99188] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 3,
 			},
 			["name"] = "Waterlogged Soul Guard",
 		},
@@ -696,7 +692,7 @@ MythicPlusProgressDB = {
 		},
 		[96608] = {
 			["values"] = {
-				[2] = 7,
+				[2] = 1,
 			},
 			["name"] = "Ebonclaw Worg",
 		},
@@ -708,7 +704,7 @@ MythicPlusProgressDB = {
 		},
 		[97087] = {
 			["values"] = {
-				[2] = 18,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Champion",
 		},
@@ -720,7 +716,7 @@ MythicPlusProgressDB = {
 		},
 		[97119] = {
 			["values"] = {
-				1, -- [1]
+				9, -- [1]
 			},
 			["name"] = "Shroud Hound",
 		},
@@ -768,7 +764,7 @@ MythicPlusProgressDB = {
 		},
 		[97197] = {
 			["values"] = {
-				[2] = 2,
+				[2] = 1,
 			},
 			["name"] = "Valarjar Purifier",
 		},
@@ -846,7 +842,7 @@ MythicPlusProgressDB = {
 		},
 		[97200] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 5,
 			},
 			["name"] = "Seacursed Soulkeeper",
 		},
@@ -864,7 +860,7 @@ MythicPlusProgressDB = {
 		},
 		[99033] = {
 			["values"] = {
-				[4] = 1,
+				[4] = 3,
 			},
 			["name"] = "Helarjar Mistcaller",
 		},
@@ -888,7 +884,7 @@ MythicPlusProgressDB = {
 		},
 		[99307] = {
 			["values"] = {
-				[12] = 1,
+				[12] = 2,
 			},
 			["name"] = "Skjal",
 		},
@@ -912,7 +908,8 @@ MythicPlusProgressDB = {
 		},
 		[91001] = {
 			["values"] = {
-				[4] = 1,
+				0.75, -- [1]
+				[4] = 1.75,
 			},
 			["name"] = "Tarspitter Lurker",
 		},

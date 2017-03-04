@@ -1,0 +1,26 @@
+## Interface: 70100
+## Title: Lazy Group Finder
+## Version: 1.1
+## Notes: Group Finder for the lazy
+## Author: Luuci-Frostmane EU
+## SavedVariablesPerCharacter: LazyGroupFinderEnabled
+## SavedVariablesPerCharacter: LazyGroupFinderAchievementOnApply
+## SavedVariablesPerCharacter: LazyGroupFinderActivityType
+## SavedVariablesPerCharacter: LazyGroupFinderActivities
+## SavedVariablesPerCharacter: LazyGroupFinderKeywords
+## SavedVariablesPerCharacter: LazyGroupFinderBannedwords
+## SavedVariablesPerCharacter: LazyGroupFinderMinTank
+## SavedVariablesPerCharacter: LazyGroupFinderMaxTank
+## SavedVariablesPerCharacter: LazyGroupFinderMinHeal
+## SavedVariablesPerCharacter: LazyGroupFinderMaxHeal
+## SavedVariablesPerCharacter: LazyGroupFinderMinDps
+## SavedVariablesPerCharacter: LazyGroupFinderMaxDps
+## SavedVariables: LazyGroupFinderMinimapIconPoint
+## SavedVariables: LazyGroupFinderMinimapIconHover
+## SavedVariables: LazyGroupFinderSoundAnnouncement
+## SavedVariables: LazyGroupFinderChatAnnouncement
+
+LazyGroupFinderMapIcon.lua
+LazyGroupFinder.lua
+LazyGroupFinderOptions.lua
+LazyGroupFinderPopup.lua

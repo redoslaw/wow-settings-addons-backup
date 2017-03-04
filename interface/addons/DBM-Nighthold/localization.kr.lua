@@ -6,19 +6,6 @@ local L
 ---------------
 L= DBM:GetModLocalization(1706)
 
-L:SetWarningLocalization({
-})
-
-L:SetTimerLocalization({
-})
-
-L:SetOptionLocalization({
-})
-
-L:SetMiscLocalization({
-	NoDebuff	= "%s 없음"
-})
-
 ---------------------------
 -- Chronomatic Anomaly --
 ---------------------------
@@ -39,10 +26,16 @@ L= DBM:GetModLocalization(1751)
 ------------------
 L= DBM:GetModLocalization(1762)
 
+L:SetOptionLocalization({
+	HUDSeekerLines		= "추적 박쥐떼 경로에 HUD 표시"
+})
+
 L:SetMiscLocalization({
-	First				= "1번",
-	Second				= "2번",
-	Third				= "3번"
+	First				= "1번 낙인",
+	Second				= "2번 낙인",
+	Third				= "3번 낙인",
+	Adds1				= "부하들아! 이리 와라!",
+	Adds2				= "이 멍청이들에게 싸우는 법을 알려 줘라!"
 })
 
 ------------------
@@ -50,21 +43,34 @@ L:SetMiscLocalization({
 ------------------
 L= DBM:GetModLocalization(1713)
 
+L:SetWarningLocalization({
+	warnSlamSoon		= "%d초 후 다리 파괴"
+})
+
+L:SetOptionLocalization({
+	warnSlamSoon		= DBM_CORE_AUTO_ANNOUNCE_OPTIONS.soon:format(205862)
+})
+
+L:SetMiscLocalization({
+	MoveLeft			= "왼쪽으로 이동",
+	MoveRight			= "오른쪽으로 이동"
+})
+
 ------------------
 -- High Botanist Tel'arn --
 ------------------
 L= DBM:GetModLocalization(1761)
 
 L:SetWarningLocalization({
-	warnStarLow				= "플라즈마 구체가 거의 내려옴"
+	warnStarLow				= "플라스마 구체 체력 낮음"
 })
 
 L:SetOptionLocalization({
-	warnStarLow				= "플라즈마 구체가 거의 내려왔을 때 특수 경고 보기 (15% 이하)"
+	warnStarLow				= "플라스마 구체 체력이 낮으면 특수 경고 보기 (25% 이하)"
 })
 
 L:SetMiscLocalization({
-	RadarMessage			= "레이더는 디버프가 없는 짝을 찾을 때 사용하고 HUD는 다른 디버프를 피할 때 사용하새요. 본 기능이 앞으로 발전되어 더 많은 기능을 제공했으면 좋겠습니다."
+	RadarMessage			= "레이더는 디버프가 없는 짝을 찾을 때 사용하고 HUD는 다른 디버프를 피할 때 사용하세요. 본 기능이 앞으로 발전되어 더 많은 기능을 제공했으면 좋겠습니다."
 })
 
 ------------------
@@ -73,8 +79,8 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1732)
 
 L:SetOptionLocalization({
-	ShowNeutralColor		= "별자리의 징표가 없는 주변 플레이어를 징표가 사라지기 전까지 HUD에 하얀색 원으로 표시",
-	FilterOtherSigns		= "별자리의 징표에 걸리지 않으면 대상 알림을 하지 않습니다."
+	ShowCustomNPAuraTextures	= "별자리의 징표에 걸리면 징표 디버프 대신 사용자 지정 녹색/빨간색 아이콘 표시",
+	FilterOtherSigns		= "당신이 걸리지 않은 징표는 대상 알림에서 제외합니다."
 })
 
 ------------------
@@ -82,14 +88,30 @@ L:SetOptionLocalization({
 ------------------
 L= DBM:GetModLocalization(1743)
 
+L:SetTimerLocalization({
+	timerFastTimeBubble		= "시간 빠름 바닥 (%d)",
+	timerSlowTimeBubble		= "시간 느림 바닥 (%d)"
+})
+
+L:SetOptionLocalization({
+	timerFastTimeBubble		= "$spell:209166 바닥 타이머 바 보기",
+	timerSlowTimeBubble		= "$spell:209165 바닥 타이머 바 보기"
+})
+
 L:SetMiscLocalization({
-	noCLEU4EchoRings		= "Let the waves of time crash over you!"
+	noCLEU4EchoRings		= "시간의 파도가 널 덮치기를!",
+	noCLEU4EchoOrbs				= "시간은 제멋대로 사라져 버리지.",
+	prePullRP				= "모두 예견했다. 너희를 여기로 이끈 운명의 실마리를. 군단을 막으려는 너희의 필사적인 몸부림을."
 })
 
 ------------------
 -- Gul'dan --
 ------------------
 L= DBM:GetModLocalization(1737)
+
+L:SetMiscLocalization({
+	mythicPhase3		= "악마사냥꾼의 영혼을 육신으로 돌려보내야 할 때요... 군단의 주인을 거부해야 하오!"
+})
 
 -------------
 --  Trash  --

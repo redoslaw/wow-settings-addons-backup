@@ -2,16 +2,16 @@ local L = LibStub("AceLocale-3.0"):NewLocale("AutoSellerLocales", "koKR")
 if not L then return end 
 
 L["STRING_AHPRICE"] = "경매 가격"
-L["STRING_AHPRICE_DESC"] = [=[이 값보다 |cFFFFFF00더 낮은|r 경매 가격의 아이템을 판매합니다.
+L["STRING_AHPRICE_DESC"] = [=[이 값보다 |cFFFFFF00더 낮은|r 경매가인 아이템을 판매합니다.
 
 값을 입력하려면 오른쪽 클릭하세요.]=]
 L["STRING_AHPRICEBUTTONTEXT"] = "AH 가격"
 L["STRING_AHPRICEPANELTITLE"] = "경매장 가격"
 L["STRING_AUTOOPEN"] = "자동 열기"
-L["STRING_AUTOOPEN_DESC"] = "상점 창이 열리면 이 창을 자동으로 엽니다."
+L["STRING_AUTOOPEN_DESC"] = "상인 창이 열리면 이 창을 자동으로 엽니다."
 L["STRING_AUTOREPAIR"] = "자동 수리"
 L["STRING_AUTOREPAIR_BANK"] = "길드 은행 사용"
-L["STRING_AUTOREPAIR_DESC"] = "수리가 가능한 상점 창이 열리면 장비를 자동으로 수리합니다."
+L["STRING_AUTOREPAIR_DESC"] = "수리 가능한 상인 창이 열리면 장비를 자동으로 수리합니다."
 L["STRING_AUTOSELLBUTTONTEXT"] = "자동 판매"
 L["STRING_CANTSELL"] = "상점이 열려 있지 않습니다. 상인 Npc와 대화하세요."
 L["STRING_IGNORE_DESC1"] = [=[차단 목록에 아이템을 추가합니다.

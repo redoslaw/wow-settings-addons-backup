@@ -59,7 +59,7 @@ local is_weapon_model = {
 local config_table = {
 	profile = {
 		SellGreen = true,
-		SellGreenMaxLevel = 460,
+		SellGreenMaxLevel = 810,
 		SellBlue = false,
 		SellVendorThreshold = 500,
 		AHPriceThreshold = 1000,
@@ -134,7 +134,7 @@ local options_table = {
 			name = "Sell Green Level Max", 
 			desc = "Itens with item level superior of this, won't be selled.",
 			min = 6,
-			max = 811,
+			max = 851,
 			step = 1,
 			get = function() return AutoSeller.db.profile.SellGreenMaxLevel end,
 			set = function (self, val) 
@@ -589,11 +589,12 @@ function SYH:ShowPanel (only_load)
 		local backpack_flash_last_texture
 		
 		local backpack_flash = function (item_texture)
-			
+
 			if (type (item_texture) == "table") then
 				item_texture = backpack_flash_last_texture
 			elseif (type (item_texture) == "string") then
 				backpack_flash_last_texture = item_texture
+			elseif (type (item_texture) == "number") then
 			else
 				return
 			end
@@ -609,11 +610,14 @@ function SYH:ShowPanel (only_load)
 				end
 			end
 
-			item_texture = item_texture:gsub ("%.BLP", "")
-			item_texture = item_texture:gsub ("%.blp", "")
+			item_texture = item_texture or ""
+			
+			if (type (item_texture) == "string") then
+				item_texture = item_texture:gsub ("%.BLP", "")
+				item_texture = item_texture:gsub ("%.blp", "")
+			end
 			
 			for i = 1, #containers do
-			
 				local containerSlot = containers [i]
 				local texture = _G [containerSlot:GetName() .. "IconTexture"]
 				
@@ -623,7 +627,6 @@ function SYH:ShowPanel (only_load)
 						anim:Play()
 					end
 				end
-			
 			end
 
 		end
@@ -1056,7 +1059,7 @@ function SYH:ShowPanel (only_load)
 		local blue_switch, blue_label = SYH:CreateSwitch (SYH.SellPanel, nil, SYH.db.profile.SellBlue, _, _, _, _, "SellBlueSwitch", _, _, _, _, L["STRING_SELLBLUE"] .. ":", options_checkbox_template, options_text_template)
 		blue_switch:SetAsCheckBox()
 		
-		local green_ilvl_slider, green_ilvl_label = SYH:CreateSlider (SYH.SellPanel, _, _, 6, 811, 1, SYH.db.profile.SellGreenMaxLevel, _, "GreenIlvlMax", _, L["STRING_ITEMLEVEL"] .. ":", options_slider_template, options_text_template)
+		local green_ilvl_slider, green_ilvl_label = SYH:CreateSlider (SYH.SellPanel, _, _, 6, 851, 1, SYH.db.profile.SellGreenMaxLevel, _, "GreenIlvlMax", _, L["STRING_ITEMLEVEL"] .. ":", options_slider_template, options_text_template)
 		local gold_threshold_slider, gold_threshold_label = SYH:CreateSlider (SYH.SellPanel, _, _, 15, 500, 5, SYH.db.profile.SellVendorThreshold, _, "GoldThreshold", _, L["STRING_VENDORGOLD"] .. ":", options_slider_template, options_text_template)
 		local ahprice_threshold_slider, ahprice_threshold_label = SYH:CreateSlider (SYH.SellPanel, _, _, 1, 3000, 10, SYH.db.profile.AHPriceThreshold, _, "AHPriceThreshold", _, L["STRING_AHPRICE"] .. ":", options_slider_template, options_text_template)
 		
@@ -1369,8 +1372,6 @@ MerchantFrame:HookScript ("OnShow", function (self)
 		self.OpenSYHButton = CreateFrame ("button", "AutoSellerOpenButton", self, "OptionsButtonTemplate")
 		self.OpenSYHButton:SetSize (40, 19)
 		self.OpenSYHButton:SetText ("A.S.")
-		--self.OpenSYHButton:SetPoint ("bottomleft", self, "bottomleft", 7, 5)
-		--self.OpenSYHButton:SetPoint ("topleft", self, "topleft", 60, -32)
 		self.OpenSYHButton:SetPoint ("topright", self, "topright", -26, -1)
 		self.OpenSYHButton:SetScript ("OnClick", function (self)
 			SYH:ShowPanel()
@@ -1421,19 +1422,21 @@ function SYH:Sell (only_gray)
 		
 			local itemId = GetContainerItemID (backpack, slot)
 			if (itemId and not ignore_list [itemId]) then
-				local _, _, _, quality, _, _, itemLink = GetContainerItemInfo (backpack, slot)
+				local _, amountOfItems, _, quality, _, _, itemLink = GetContainerItemInfo (backpack, slot)
 				local itemName, itemLink, _, itemLevel, _, itemType, itemSubType, _, itemEquipLoc, _, itemSellPrice = GetItemInfo (itemLink)
 
 				--> gray
 				if (quality == gray_item) then
-					local valor = itemSellPrice or 0
-					to_sell [#to_sell+1] = {backpack, slot, valor}
+					if (not SalvageYardHDB.UserBlackList [itemName]) then
+						local valor = itemSellPrice or 0
+						to_sell [#to_sell+1] = {backpack, slot, valor, false, amountOfItems}
+					end
 				else
 				
 				--> any item at the sell list
 					if (SalvageYardHDB.UserAutoSellList [itemName] or SalvageYardHDB.UserAutoSellList [itemLink]) then
 						local valor = itemSellPrice or 0
-						to_sell [#to_sell+1] = {backpack, slot, valor, true}
+						to_sell [#to_sell+1] = {backpack, slot, valor, true, amountOfItems}
 
 				--> green, blue, epic
 					elseif (itemName and SYH.db.profile.AllowToSell [itemEquipLoc] and not SalvageYardHDB.UserBlackList [itemName]) then
@@ -1459,7 +1462,7 @@ function SYH:Sell (only_gray)
 												if (auction_value < auction_limit) then
 													local valor = itemSellPrice
 													if ((itemLevel < SYH.db.profile.SellGreenMaxLevel) or (valor > (SYH.db.profile.SellVendorThreshold * 10000))) then
-														to_sell [#to_sell+1] = {backpack, slot, valor}
+														to_sell [#to_sell+1] = {backpack, slot, valor, false, amountOfItems}
 													end
 												else
 													--print ("Can't sell ", itemName, "AH Threshold.", auction_value, " > ", auction_limit)
@@ -1468,7 +1471,7 @@ function SYH:Sell (only_gray)
 												if (SYH:GetAuctionPrice (itemLink) < auction_limit) then
 													local valor = itemSellPrice
 													if ((itemLevel > SYH.db.profile.SellGreenMaxLevel) or (valor > (SYH.db.profile.SellVendorThreshold * 10000))) then
-														to_sell [#to_sell+1] = {backpack, slot, valor}
+														to_sell [#to_sell+1] = {backpack, slot, valor, false, amountOfItems}
 													end
 												end
 											end
@@ -1479,7 +1482,7 @@ function SYH:Sell (only_gray)
 							elseif (quality == epic_item and SYH.SellPanel.SellLowLevelEpic) then
 								if (itemLevel < 600 and itemLevel > 5 and SYH:IsSoulbound (backpack, slot)) then
 									local valor = itemSellPrice
-									to_sell [#to_sell+1] = {backpack, slot, valor}
+									to_sell [#to_sell+1] = {backpack, slot, valor, false, amountOfItems}
 								end
 							end
 						end
@@ -1503,6 +1506,7 @@ end
 
 function SYH:SellThread (item_list)
 
+	--make sure the vendor window is opened, or the addon will equip the gear instead of sell
 	if (not SYH.MerchantWindowIsOpen) then
 		SYH:SellingFinished()
 		return
@@ -1513,12 +1517,11 @@ function SYH:SellThread (item_list)
 	if (not item) then
 		return SYH:SellingFinished()
 	end
-	
-	--make sure the vendor window is opened, or the addon will equip the gear instead of sell
-	
+
 	UseContainerItem (item[1], item[2])
 	
-	SYH.SellGoldAmount = SYH.SellGoldAmount + item[3]
+	local total_value = item[3] * (item[5] or 1)
+	SYH.SellGoldAmount = SYH.SellGoldAmount + total_value
 	
 	if (item [4]) then
 		--auto sell list message

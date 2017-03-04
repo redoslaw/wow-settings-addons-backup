@@ -581,7 +581,7 @@ function module:slash(arg)
 			return
 		end
 		local dist = calculateWorldDistance(x,y,xP,yP)
-		print(format("Distance to %s: %d",unit,dist))
+		print(format("Distance to %s: %.1f",unit,dist))
 	elseif arg:find("^arrowbuff ") then
 		local spell = arg:match("^arrowbuff (.+)")
 		if not spell then

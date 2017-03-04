@@ -15,6 +15,7 @@ Overachiever.DefaultSettings = {
   UI_HolidayNotice = true;
   UI_HolidayNotice_SuggestionsTabOnly = false;
   Tracker_AutoTimer = true;
+  Tracker_AutoTimer_BG = true;
   Explore_AutoTrack = false;
   --Explore_AutoTrack_Completed = false;
   CritterTip_loved = true;
@@ -45,11 +46,21 @@ Overachiever.DefaultSettings = {
   ProgressToast_AutoTrack = false;
   ProgressToast_ChatLog = true;
   ProgressToast_Suggest = true;
+  ToastCalendar_holiday = true;
+  ToastCalendar_microholiday = false;
+  ToastCalendar_bonusevent = false;
+  ToastCalendar_dungeonevent = false;
+  ToastCalendar_noautofade = true;
+  ToastCalendar_onlyclickfade = true;
   Version = THIS_VERSION;
 };
 
 local function SoundSelected(self, key, val, clicked)
   if (clicked) then  PlaySoundFile( self:Fetch() );  end
+end
+
+local function updateEnabled()
+  Overachiever_Options_ToastCalendar_onlyclickfade:SetEnabled( Overachiever_Options_ToastCalendar_noautofade:GetChecked() )
 end
 
 function Overachiever.CreateOptions(THIS_TITLE, BuildCriteriaLookupTab_check, AutoTrackCheck_Explore, CheckDraggable_AchFrame)
@@ -65,6 +76,7 @@ function Overachiever.CreateOptions(THIS_TITLE, BuildCriteriaLookupTab_check, Au
 	
 	{ type = "labelwrap", text = L.OPT_LABEL_TRACKING, topBuffer = 4 },
 	{ variable = "Tracker_AutoTimer", text = L.OPT_AUTOTRACKTIMED, tooltip = L.OPT_AUTOTRACKTIMED_TIP },
+	{ variable = "Tracker_AutoTimer_BG", text = L.OPT_AUTOTRACKTIMED_BG, tooltip = L.OPT_AUTOTRACKTIMED_TIP_BG },
 	{ variable = "Explore_AutoTrack", text = L.OPT_AUTOTRACKEXPLORE,
 	  tooltip = L.OPT_AUTOTRACKEXPLORE_TIP, OnChange = AutoTrackCheck_Explore },
 	--{ variable = "Explore_AutoTrack_Completed", text = L.OPT_AUTOTRACKEXPLORE_COMPLETED,
@@ -85,6 +97,16 @@ function Overachiever.CreateOptions(THIS_TITLE, BuildCriteriaLookupTab_check, Au
 	{ variable = "UI_HolidayNotice_SuggestionsTabOnly", xOffset = 15, text = L.OPT_UI_HOLIDAYNOTICE_SUGGESTIONSTABONLY, OnChange = holidayNoticeChange },
 	{ variable = "Draggable_AchFrame", xOffset = 0, text = L.OPT_DRAGGABLE, OnChange = CheckDraggable_AchFrame },
 	{ variable = "DragSave_AchFrame", text = L.OPT_DRAGSAVE, xOffset = 15, OnChange = CheckDraggable_AchFrame },
+
+	{ type = "labelwrap", text = L.OPT_LABEL_STARTTOAST, topBuffer = 4, xOffset = 0 },
+	{ variable = "ToastCalendar_holiday", text = L.OPT_STARTTOAST_HOLIDAY, tooltip = L.OPT_STARTTOAST_HOLIDAY_TIP },
+	{ variable = "ToastCalendar_microholiday", text = L.OPT_STARTTOAST_MICROHOLIDAY, tooltip = L.OPT_STARTTOAST_MICROHOLIDAY_TIP, column = 2 },
+	{ variable = "ToastCalendar_bonusevent", text = L.OPT_STARTTOAST_BONUS, tooltip = L.OPT_STARTTOAST_BONUS_TIP },
+	{ variable = "ToastCalendar_dungeonevent", text = L.OPT_STARTTOAST_DUNGEON, tooltip = L.OPT_STARTTOAST_DUNGEON_TIP, column = 2 },
+	{ variable = "ToastCalendar_noautofade", text = L.OPT_STARTTOAST_TIMEFADE, tooltip = L.OPT_STARTTOAST_TIMEFADE_TIP, OnChange = updateEnabled,
+	  name = "Overachiever_Options_ToastCalendar_noautofade" },
+	{ variable = "ToastCalendar_onlyclickfade", xOffset = 15, text = L.OPT_STARTTOAST_ONLYCLICKFADE, tooltip = L.OPT_STARTTOAST_ONLYCLICKFADE_TIP,
+	  name = "Overachiever_Options_ToastCalendar_onlyclickfade" },
 
 	{ type = "labelwrap", text = L.OPT_LABEL_TRADESKILLUI, topBuffer = 4, xOffset = 0 },
 	{ variable = "Tradeskill_ShowCompletedAch_Cooking", text = L.OPT_TRADESKILL_SHOWCOMPLETEDACH_COOKING, tooltip = L.OPT_TRADESKILL_SHOWCOMPLETEDACH_COOKING_TIP },
@@ -165,7 +187,8 @@ function Overachiever.CreateOptions(THIS_TITLE, BuildCriteriaLookupTab_check, Au
 	scrolling = true,
 	items = items_general,
 	variables = "Overachiever_Settings",
-	defaults = Overachiever.DefaultSettings
+	defaults = Overachiever.DefaultSettings,
+	OnShow = updateEnabled
   });
 
   local reminderspanel = TjOptions.CreatePanel(L.OPTPANEL_REMINDERTOOLTIPS, THIS_TITLE, {

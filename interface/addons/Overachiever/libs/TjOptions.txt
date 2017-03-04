@@ -1,5 +1,5 @@
 
-TjOptions v0.46
+TjOptions v0.47
 ========================================
 
 Author: Tuhljin
@@ -488,6 +488,9 @@ Example usage:
 
 Recent changes
 ================
+
+v0.47
+- Checkboxes now update the color of their text labels when they are enabled/disabled using checkboxframe:SetEnabled(value).
 
 v0.46
 - Item field "tooltip" can now be a table of numerically-indexed strings.

@@ -1,6 +1,10 @@
 
 Overachiever_Tabs_Settings = {
 	["WatchLists_Realms"] = {
+		["Burning Legion"] = {
+			["Redus"] = {
+			},
+		},
 	},
 	["SearchType"] = 1,
 	["WatchSort"] = 0,
@@ -16,7 +20,7 @@ Overachiever_Tabs_Settings = {
 		[11191] = true,
 		[11190] = true,
 	},
-	["Version"] = "0.99.3",
+	["Version"] = "0.99.5",
 	["SearchFullList"] = true,
 	["AchFilters"] = {
 	},

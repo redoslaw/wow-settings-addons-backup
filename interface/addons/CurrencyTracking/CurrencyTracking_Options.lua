@@ -1,7 +1,9 @@
 --[[
-$Id: CurrencyTracking_Options.lua 37 2017-01-04 09:41:12Z arith $
+$Id: CurrencyTracking_Options.lua 50 2017-03-01 16:00:24Z arith $
 ]]
 local _G = getfenv(0)
+-- Libraries
+local math = _G.math;
 
 local CurrencyTracking_Player = UnitName("player");
 local CurrencyTracking_Server = GetRealmName();
@@ -9,50 +11,36 @@ local CurrencyTracking_Server = GetRealmName();
 local LibStub = _G.LibStub;
 local L = LibStub("AceLocale-3.0"):GetLocale("CurrencyTracking");
 
+local myaddon = {};
 
 function CurrencyTrackingOptions_Toggle()
 	if(InterfaceOptionsFrame:IsVisible()) then
 		InterfaceOptionsFrame:Hide();
 	else
-		InterfaceOptionsFrame_OpenToCategory(L["TITLE"]);
-		-- Yes we have to call this twice
-		InterfaceOptionsFrame_OpenToCategory(L["TITLE"]);
+		InterfaceOptionsFrame_OpenToCategory(L["CT_TITLE"]);
+		InterfaceOptionsFrame_OpenToCategory(L["CT_CAT_TRACKED_CURRENCY"]);
 	end
 end
 
 function CurrencyTrackingOptions_OnLoad(self)
 	UIPanelWindows['CurrencyTrackingOptionsFrame'] = {area = 'center', pushable = 0};
 	
-	self.name = L["TITLE"];
-	InterfaceOptions_AddCategory(self);
-	if (LibStub:GetLibrary("LibAboutPanel", true)) then
-		LibStub("LibAboutPanel").new(L["TITLE"], "CurrencyTracking");
-	end
+	myaddon.panel = self;
 	
-	CurrencyTrackingOptionsFrame.TokenContainer.update = CurrencyTrackingTokenContainer_Update;
+	myaddon.panel.name = L["CT_TITLE"];
+	InterfaceOptions_AddCategory(myaddon.panel);
 end
 
 function CurrencyTrackingOptions_OnShow()
 	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 	
 	CurrencyTrackingOptionsFrame_ShowOnScreen:SetChecked(options.show_currency);
-	CurrencyTrackingOptionsFrameSliderAlpha:SetValue(options.tooltip_alpha);
+	CurrencyTrackingOptionsFrame_BreakupNumbers:SetChecked(options.breakupnumbers);
+	CurrencyTrackingOptionsFrameSliderFrameScale:SetValue(options.scale);
+	CurrencyTrackingOptionsFrameSliderFrameAlpha:SetValue(options.alpha);
+	CurrencyTrackingOptionsFrameSliderFrameBGAlpha:SetValue(options.bgalpha);
+	CurrencyTrackingOptionsFrameSliderToolTipAlpha:SetValue(options.tooltip_alpha);
 	CurrencyTrackingOptionsFrameSliderToolTipScale:SetValue(options.tooltip_scale);
-
-	-- Create buttons if not created yet
-	if (not CurrencyTrackingOptionsFrame.TokenContainer.buttons) then
-		HybridScrollFrame_CreateButtons(CurrencyTrackingOptionsFrame.TokenContainer, "CurrencyTrackingTokenButtonTemplate", 1, -2, "TOPLEFT", "TOPLEFT", 0, 0);
-		local buttons = CurrencyTrackingOptionsFrame.TokenContainer.buttons;
-		local numButtons = #buttons;
-		for i=1, numButtons do
-			if ( mod(i, 2) == 1 ) then
-				buttons[i].stripe:Hide();
-			end
-		end
-	end
-
-	-- SetButtonPulse(CharacterFrameTab3, 0, 1);	--Stop the button pulse
-	CurrencyTrackingTokenContainer_Update();
 end
 
 function CurrencyTrackingOptions_ShowOnScreenToggle()
@@ -60,10 +48,16 @@ function CurrencyTrackingOptions_ShowOnScreenToggle()
 	
 	options.show_currency = not options.show_currency;
 	if(options.show_currency) then
-		CurrencyTrackingInfoFrame:Show();
+		CurrencyTrackingFrame:Show();
 	else
-		CurrencyTrackingInfoFrame:Hide();
+		CurrencyTrackingFrame:Hide();
 	end
+end
+
+function CurrencyTrackingOptions_BreakupNumbersToggle()
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+
+	options.breakupnumbers = not options.breakupnumbers;
 end
 
 function CurrencyTrackingOptions_ResetPosition()
@@ -84,14 +78,38 @@ local function round(num, idp)
    return math.floor(num * mult + 0.5) / mult;
 end
 
-function CurrencyTrackingOptions_UpdateSlider(self, text)
+local function CurrencyTrackingOptions_UpdateSlider(self, text)
 	_G[self:GetName().."Text"]:SetText("|cffffd200"..text.." ("..round(self:GetValue(), 3)..")");
 end
 
-function CurrencyTrackingOptions_SliderAlphaOnValueChanged(self)
+function CurrencyTrackingOptions_SliderFrameScaleOnValueChanged(self)
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+	
+	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_SCALE);
+	options.scale = self:GetValue();
+	CurrencyTrackingFrame:SetScale(options.scale); 
+end
+
+function CurrencyTrackingOptions_SliderFrameAlphaOnValueChanged(self)
 	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_TRANSPARENCY);
+	options.alpha = self:GetValue();
+	CurrencyTrackingFrame:SetAlpha(options.alpha); 
+end
+
+function CurrencyTrackingOptions_SliderFrameBGAlphaOnValueChanged(self)
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+	
+	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_BGTRANSPARENCY);
+	options.bgalpha = self:GetValue();
+	CurrencyTrackingFrame.Texture:SetColorTexture(0, 0, 0, options.bgalpha); 
+end
+
+function CurrencyTrackingOptions_SliderToolTipAlphaOnValueChanged(self)
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+	
+	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_TOOLTIPTRANSPARENCY);
 	options.tooltip_alpha = self:GetValue();
 end
 
@@ -110,6 +128,41 @@ function CurrencyTrackingOptions_OnMouseWheel(self, delta)
 	end
 end
 
+function CurrencyTrackingTokenOptions_OnLoad(self)
+	UIPanelWindows['CurrencyTrackingTokenOptionsFrame'] = {area = 'center', pushable = 0};
+	
+	myaddon.panel2 = self;
+	
+	myaddon.panel2.name = L["CT_CAT_TRACKED_CURRENCY"];
+	myaddon.panel2.parent = myaddon.panel.name;
+	InterfaceOptions_AddCategory(myaddon.panel2);
+	
+	CurrencyTrackingTokenOptionsFrame.TokenContainer.update = CurrencyTrackingTokenContainer_Update;
+
+	if (LibStub:GetLibrary("LibAboutPanel", true)) then
+		LibStub("LibAboutPanel").new(L["CT_TITLE"], "CurrencyTracking");
+	end
+end
+
+function CurrencyTrackingTokenOptions_OnShow()
+	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+	
+	-- Create buttons if not created yet
+	if (not CurrencyTrackingTokenOptionsFrame.TokenContainer.buttons) then
+		HybridScrollFrame_CreateButtons(CurrencyTrackingTokenOptionsFrame.TokenContainer, "CurrencyTrackingTokenButtonTemplate", 1, -2, "TOPLEFT", "TOPLEFT", 0, 0);
+		local buttons = CurrencyTrackingTokenOptionsFrame.TokenContainer.buttons;
+		local numButtons = #buttons;
+		for i=1, numButtons do
+			if ( math.fmod(i, 2) == 1 ) then
+				buttons[i].stripe:Hide();
+			end
+		end
+	end
+
+	-- SetButtonPulse(CharacterFrameTab3, 0, 1);	--Stop the button pulse
+	CurrencyTrackingTokenContainer_Update();
+end
+
 function CurrencyTrackingTokenButton_OnLoad(self)
 	local name = self:GetName();
 	self.count = _G[name.."Count"];
@@ -124,12 +177,12 @@ end
 function CurrencyTrackingTokenContainer_Update()
 	local numTokenTypes = GetCurrencyListSize();
 	
-	if (not CurrencyTrackingOptionsFrame.TokenContainer.buttons) then
+	if (not CurrencyTrackingTokenOptionsFrame.TokenContainer.buttons) then
 		return;
 	end
 
 	-- Setup the buttons
-	local scrollFrame = CurrencyTrackingOptionsFrame.TokenContainer;
+	local scrollFrame = CurrencyTrackingTokenOptionsFrame.TokenContainer;
 	local offset = HybridScrollFrame_GetOffset(scrollFrame);
 	local buttons = scrollFrame.buttons;
 	local numButtons = #buttons;
@@ -177,10 +230,10 @@ function CurrencyTrackingTokenContainer_Update()
 				button.highlight:SetTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight");
 				button.highlight:SetPoint("TOPLEFT", button, "TOPLEFT", 0, 0);
 				button.highlight:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", 0, 0);
-				--Gray out the text if the count is 0
 				if ( count == 0 ) then
-					button.count:SetFontObject("GameFontDisable");
-					button.name:SetFontObject("GameFontDisable");
+					button.count:SetFontObject("GameFontRed");
+					--button.name:SetFontObject("GameFontDisable");
+					button.name:SetFontObject("GameFontRed");
 				else
 					button.count:SetFontObject("GameFontHighlight");
 					button.name:SetFontObject("GameFontHighlight");
@@ -193,8 +246,8 @@ function CurrencyTrackingTokenContainer_Update()
 				end
 			end
 			--Manage highlight
-			if ( name == CurrencyTrackingOptionsFrame.TokenContainer.selectedToken ) then
-				CurrencyTrackingOptionsFrame.TokenContainer.selectedID = index;
+			if ( name == CurrencyTrackingTokenOptionsFrame.TokenContainer.selectedToken ) then
+				CurrencyTrackingTokenOptionsFrame.TokenContainer.selectedID = index;
 				button:LockHighlight();
 			else
 				button:UnlockHighlight();
@@ -222,8 +275,8 @@ function CurrencyTrackingTokenButton_OnClick(self)
 			ExpandCurrencyList(self.index, 1);
 		end
 	else
-		CurrencyTrackingOptionsFrame.TokenContainer.selectedToken = self.name:GetText();
-		CurrencyTrackingTokenButton_ToggleTrack(CurrencyTrackingOptionsFrame.TokenContainer.selectedToken);
+		CurrencyTrackingTokenOptionsFrame.TokenContainer.selectedToken = self.name:GetText();
+		CurrencyTrackingTokenButton_ToggleTrack(CurrencyTrackingTokenOptionsFrame.TokenContainer.selectedToken);
 	end
 	CurrencyTrackingTokenContainer_Update();
 end

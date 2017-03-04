@@ -360,8 +360,12 @@ local function updateEnemyPower()
 	local threshold = value[1]
 	local powerType = value[2]
 	for i = 1, 5 do
-		if UnitExists("boss"..i) and (UnitPower("boss"..i, powerType) / UnitPowerMax("boss"..i, powerType) * 100 >= threshold) then
-			lines[UnitName("boss"..i)] = UnitPower("boss"..i, powerType)
+		if UnitExists("boss"..i) then
+			local currentPower, maxPower = UnitPower("boss"..i, powerType), UnitPowerMax("boss"..i, powerType)
+			if maxPower == 0 then return end--Prevent division by 0
+			if currentPower / maxPower * 100 >= threshold then
+				lines[UnitName("boss"..i)] = currentPower
+			end
 		end
 	end
 	updateLines()
@@ -424,12 +428,17 @@ local function updatePlayerDebuffRemaining()
 	twipe(lines)
 	local spellName = value[1]
 	for uId in DBM:GetGroupMembers() do
-		local _, _, _, _, _, _, expires = UnitDebuff(uId, spellName)
+		local _, _, _, _, _, _, expires, _, _, _, _, _, _, _, _, timeMod = UnitDebuff(uId, spellName)
 		if expires then
 			if expires == 0 then
 				lines[UnitName(uId)] = 9000--Force sorting the unknowns under the ones we do know.
 			else
 				local debuffTime = expires - GetTime()
+				--[[if timeMod then
+					debuffTime = expires - GetTime() / timeMod
+				else
+					debuffTime = expires - GetTime()
+				end--]]
 				lines[UnitName(uId)] = mfloor(debuffTime)
 			end
 		end

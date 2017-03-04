@@ -1,11 +1,12 @@
 local mod	= DBM:NewMod(1819, "DBM-TrialofValor", nil, 861)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 15596 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 15941 $"):sub(12, -3))
 mod:SetCreatureID(114263, 114361, 114360)--114263 Odyn, 114361 Hymdall, 114360 Hyrja 
 mod:SetEncounterID(1958)
 mod:SetZone()
-mod:SetBossHPInfoToHighest()
+--mod:SetBossHPInfoToHighest()
+mod:SetMainBossID(114263)
 mod:SetUsedIcons(1)
 mod:SetHotfixNoticeRev(15581)
 mod.respawnTime = 29
@@ -77,7 +78,7 @@ local timerShieldofLightCD			= mod:NewNextCountTimer(32, 228270, nil, nil, nil, 
 --Stage 1: Halls of Valor was merely a set back
 mod:AddTimerLine(SCENARIO_STAGE:format(1))
 local timerDrawPowerCD				= mod:NewNextTimer(70, 227503, nil, nil, nil, 6)
-local timerDrawPower				= mod:NewCastTimer(30, 227629, nil, nil, nil, 2, nil, DBM_CORE_DEADLY_ICON)
+local timerDrawPower				= mod:NewCastTimer(33, 227629, nil, nil, nil, 2, nil, DBM_CORE_DEADLY_ICON)
 --Stage 2: Odyn immitates margok
 mod:AddTimerLine(SCENARIO_STAGE:format(2))
 local timerSpearCD					= mod:NewNextTimer(8, 227697, nil, nil, nil, 3)
@@ -95,7 +96,7 @@ local timerRadiantSmite				= mod:NewCastTimer(7.5, 231350, nil, nil, nil, 2, nil
 --local berserkTimer				= mod:NewBerserkTimer(300)
 
 --Stage 1: Halls of Valor was merely a set back
-local countdownDrawPower			= mod:NewCountdown(30, 227629)
+local countdownDrawPower			= mod:NewCountdown(33, 227629)
 local countdownHorn					= mod:NewCountdown("Alt32", 228012)
 local countdownShield				= mod:NewCountdown("AltTwo32", 228270)
 --Stage 3: Odyn immitates lei shen
@@ -123,6 +124,7 @@ local voiceRunicBrand				= mod:NewVoice(231297)--mmX (will be changed to mmc whe
 mod:AddSetIconOption("SetIconOnShield", 228270, true)
 mod:AddInfoFrameOption(227503, true)
 mod:AddRangeFrameOption("5/8/15")
+mod:AddNamePlateOption("NPAuraOnRunicBrand", 231297, true)
 
 mod.vb.phase = 1
 mod.vb.hornCasting = false
@@ -225,6 +227,9 @@ function mod:OnCombatStart(delay)
 		timerExpelLightCD:Start(25-delay)
 		timerDrawPowerCD:Start(35-delay)
 		countdownDrawPower:Start(35-delay)
+		if self.Options.NPAuraOnRunicBrand then
+			DBM:FireEvent("BossMod_EnableFriendlyNameplates")
+		end
 	elseif not self:IsEasy() then
 		timerHornOfValorCD:Start(8-delay, 1)
 		countdownHorn:Start(8-delay)
@@ -254,6 +259,9 @@ function mod:OnCombatEnd()
 	end
 	if self.Options.InfoFrame then
 		DBM.InfoFrame:Hide()
+	end
+	if self.Options.NPAuraOnRunicBrand and self:IsMythic() then
+		DBM.Nameplate:Hide(false, nil, nil, nil, true, true)
 	end
 end
 
@@ -475,6 +483,9 @@ function mod:SPELL_AURA_APPLIED(args)
 			end
 			updateRangeFrame(self)
 		end
+		if self.Options.NPAuraOnRunicBrand then
+			DBM.Nameplate:Show(false, args.destName, spellId, nil, 10)
+		end
 	end
 end
 mod.SPELL_AURA_APPLIED_DOSE = mod.SPELL_AURA_APPLIED
@@ -497,6 +508,9 @@ function mod:SPELL_AURA_REMOVED(args)
 	elseif spellId == 231311 or spellId == 231342 or spellId == 231344 or spellId == 231345 or spellId == 231346 then--Branded (Draw Power Runes)
 		if args:IsPlayer() then
 			playerDebuff = nil
+		end
+		if self.Options.NPAuraOnRunicBrand then
+			DBM.Nameplate:Hide(false, args.destName, spellId)
 		end
 	end
 end

@@ -2,7 +2,7 @@
     Name:           Titan Mount
 	Description:	Titan Panel plugin for mounting.
 	Author:         Skydragon247
-	Version:        7.3.500
+	Version:        7.5.1
     --]]
 	
 --Binding Variables
@@ -10,7 +10,7 @@ BINDING_HEADER_TITANPANELMOUNT = "Titan Panel [Mount]"
 BINDING_NAME_TOGGLETITANMOUNT = "Toggle last mount"
 
 local MountID = "Mount"
-local MountVersion = "7.3.500"
+local MountVersion = "7.5.1"
 --White
 local MountC1 = "|cffffffff"
 --Burgundy
@@ -60,6 +60,7 @@ local favSelection1, favSelection2, favSelection3
 local TitanMountInitialLoad = true;
 local gDropDown1, gDropDown2
 local dropdown1, dropdown2, dropdown3
+local _G = getfenv(0);
 
 --Event fired when the addon is first loaded onto the UI
 function TitanPanelMountButton_OnLoad(self)
@@ -120,8 +121,6 @@ function AddNewMountID(mountNamePassed)
 	local mounts = C_MountJournal.GetNumMounts()
 
 	for i = 1, #mounts do	
-
-
 		local mountName, owned
 		--Get dat mount info we need...
 		mountName, _, _, _, owned, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(mounts[i])
@@ -296,7 +295,7 @@ do
 					info.hasArrow = 1
 
 
-					UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)  
+					Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])  
 					end
 				else
 					for j = 1, table.getn(alphabet[i].mountIDs) do
@@ -305,7 +304,7 @@ do
 						info.icon = icon
 						info.notCheckable = 1
 						info.func = function() TitanPanelMountButton_MountToggle(alphabet[i].mountIDs[j], MountTestName) end
-						UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)  
+						Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])  
 					end
 				end
 				
@@ -336,7 +335,7 @@ do
 						info.icon = icon
 						info.notCheckable = 1
 						info.func = function() TitanPanelMountButton_MountToggle(alphabet[i].mountIDs[j], MountTestName) end
-						UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)  
+						Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])  
 					end
 				end
 			end
@@ -415,7 +414,7 @@ do
         local info = {}
 
 		local function FavoriteMountSelect(self, arg1)
-			UIDropDownMenu_SetSelectedID(favoriteDropDown, self:GetID())
+			Lib_UIDropDownMenu_SetSelectedID(favoriteDropDown, self:GetID())
 			local dropDownName = favoriteDropDown:GetName()
 			
 			if dropDownName == "DropDownFav1" then
@@ -441,7 +440,7 @@ do
 					info.icon = icon
 					info.func = FavoriteMountSelect
 					info.arg1 = MountTestName
-					UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)  
+					Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])  
 				end
 				
 				break
@@ -470,7 +469,7 @@ do
 			end
         end
 		
-        UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+        Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
     end
 	
 	--Shows a particular account favorite, if it exists, otherwise shows a button to the favorite panel
@@ -492,7 +491,7 @@ do
 			end
         end
 		
-        UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+        Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
     end
 
 	function CheckFavoriteID(favoriteID, favoriteName)
@@ -512,30 +511,30 @@ do
 		charLabel:SetTextColor(1, .82, 0)
 		charLabel:SetPoint("Center", -10, 9)
 	
-		gDropDown1 = CreateFrame("Frame", "GlobalDropDownFav1", self, "UIDropDownMenuTemplate")
+		gDropDown1 = CreateFrame("Frame", "GlobalDropDownFav1", self, "Lib_UIDropDownMenuTemplate")
 		gDropDown1:SetPoint("Center", 55, 110)
-		UIDropDownMenu_SetWidth(gDropDown1, 200)
-		UIDropDownMenu_SetText(gDropDown1, "Select Account Favorite Mount #1")
+		Lib_UIDropDownMenu_SetWidth(gDropDown1, 200)
+		Lib_UIDropDownMenu_SetText(gDropDown1, "Select Account Favorite Mount #1")
 		
-		gDropDown2 = CreateFrame("Frame", "GlobalDropDownFav2", self, "UIDropDownMenuTemplate")
+		gDropDown2 = CreateFrame("Frame", "GlobalDropDownFav2", self, "Lib_UIDropDownMenuTemplate")
 		gDropDown2:SetPoint("Center", 55, 70)
-		UIDropDownMenu_SetWidth(gDropDown2, 200)
-		UIDropDownMenu_SetText(gDropDown2, "Select Account Favorite Mount #2")
+		Lib_UIDropDownMenu_SetWidth(gDropDown2, 200)
+		Lib_UIDropDownMenu_SetText(gDropDown2, "Select Account Favorite Mount #2")
 		
-		dropdown1 = CreateFrame("Frame", "DropDownFav1", self, "UIDropDownMenuTemplate")
+		dropdown1 = CreateFrame("Frame", "DropDownFav1", self, "Lib_UIDropDownMenuTemplate")
 		dropdown1:SetPoint("Center", 55, -90)
-		UIDropDownMenu_SetWidth(dropdown1, 200)
-		UIDropDownMenu_SetText(dropdown1, "Select Favorite Mount #1")
+		Lib_UIDropDownMenu_SetWidth(dropdown1, 200)
+		Lib_UIDropDownMenu_SetText(dropdown1, "Select Favorite Mount #1")
 		
-		dropdown2 = CreateFrame("Frame", "DropDownFav2", self, "UIDropDownMenuTemplate")
+		dropdown2 = CreateFrame("Frame", "DropDownFav2", self, "Lib_UIDropDownMenuTemplate")
 		dropdown2:SetPoint("Center", 55, -130)
-		UIDropDownMenu_SetWidth(dropdown2, 200)
-		UIDropDownMenu_SetText(dropdown2, "Select Favorite Mount #2")
+		Lib_UIDropDownMenu_SetWidth(dropdown2, 200)
+		Lib_UIDropDownMenu_SetText(dropdown2, "Select Favorite Mount #2")
 		
-		dropdown3 = CreateFrame("Frame", "DropDownFav3", self, "UIDropDownMenuTemplate")
+		dropdown3 = CreateFrame("Frame", "DropDownFav3", self, "Lib_UIDropDownMenuTemplate")
 		dropdown3:SetPoint("Center", 55, -170)
-		UIDropDownMenu_SetWidth(dropdown3, 200)
-		UIDropDownMenu_SetText(dropdown3, "Select Favorite Mount #3")
+		Lib_UIDropDownMenu_SetWidth(dropdown3, 200)
+		Lib_UIDropDownMenu_SetText(dropdown3, "Select Favorite Mount #3")
 	end
 	
 	--Initializes display of favorite panel when it is show
@@ -550,7 +549,7 @@ do
 			elseif level == 2 then
 				for i = 1, table.getn(alphabet) do
 					--Match the MENU_VALUE to the letter in the alphabet
-					if UIDROPDOWNMENU_MENU_VALUE == alphabet[i].letter then
+					if _G["LIB_UIDROPDOWNMENU_MENU_VALUE"] == alphabet[i].letter then
 						--Prepare the mounts!
 						PrepareMountFavoriteSubMenu(alphabet[i].letter, self)
 					end
@@ -558,46 +557,36 @@ do
 			end
 		end
 		
-		UIDropDownMenu_Initialize(GlobalDropDownFav1, initialize)
-		UIDropDownMenu_Initialize(GlobalDropDownFav2, initialize)
+		Lib_UIDropDownMenu_Initialize(GlobalDropDownFav1, initialize)
+		Lib_UIDropDownMenu_Initialize(GlobalDropDownFav2, initialize)
 		
-		UIDropDownMenu_Initialize(DropDownFav1, initialize)
-		UIDropDownMenu_Initialize(DropDownFav2, initialize)
-		UIDropDownMenu_Initialize(DropDownFav3, initialize)
+		Lib_UIDropDownMenu_Initialize(DropDownFav1, initialize)
+		Lib_UIDropDownMenu_Initialize(DropDownFav2, initialize)
+		Lib_UIDropDownMenu_Initialize(DropDownFav3, initialize)
 		
 		if TitanMountGlobalFav1 ~= nil then
-
-
 			name, _, _, _, _, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(TitanMountGlobalFav1)
-			UIDropDownMenu_SetText(gDropDown1, name)
+			Lib_UIDropDownMenu_SetText(gDropDown1, name)
 		end
 		
 		if TitanMountGlobalFav2 ~= nil then
-
-
 			name, _, _, _, _, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(TitanMountGlobalFav2)
-			UIDropDownMenu_SetText(gDropDown2, name)
+			Lib_UIDropDownMenu_SetText(gDropDown2, name)
 		end
 		
 		if TitanMountFav1 ~= nil then
-
-
 			name, _, _, _, _, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(TitanMountFav1)
-			UIDropDownMenu_SetText(dropdown1, name)
+			Lib_UIDropDownMenu_SetText(dropdown1, name)
 		end
 		
 		if TitanMountFav2 ~= nil then
-
-
 			name, _, _, _, _, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(TitanMountFav2)
-			UIDropDownMenu_SetText(dropdown2, name)
+			Lib_UIDropDownMenu_SetText(dropdown2, name)
 		end
 		
 		if TitanMountFav3 ~= nil then
-
-
 			name, _, _, _, _, _, _, _, _, _, _  = C_MountJournal.GetMountInfoByID(TitanMountFav3)
-			UIDropDownMenu_SetText(dropdown3, name)
+			Lib_UIDropDownMenu_SetText(dropdown3, name)
 		end
 		
 		TitanMountFavoriteDialog:Show();
@@ -611,49 +600,49 @@ do
         info.value = title
         info.notCheckable = 1
         info.hasArrow = 1
-        UIDropDownMenu_AddButton(info, 1)
+        Lib_UIDropDownMenu_AddButton(info, 1)
     end
 end
 
 --Controls how the level 1 and level 2 right click menu is displayed. Each "Arrow Over" is another menu level. 
 function TitanPanelRightClickMenu_PrepareMountMenu()
-        if UIDROPDOWNMENU_MENU_LEVEL == 2 then
-			if UIDROPDOWNMENU_MENU_VALUE == "Display Options" then
+        if _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"] == 2 then
+			if _G["LIB_UIDROPDOWNMENU_MENU_VALUE"] == "Display Options" then
 				local info = {}       
 				info.text = "Button with Icon and Text"
 				info.value = nil
 				info.checkable = 1
 				info.keepShownOnClick = 1
-				UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+				Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
 					
 				info.text = "Button with Icon"
 				info.value = nil
 				info.checkable = 1
 				info.keepShownOnClick = 1
-				UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+				Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
 				
 				info.text = "Button with Text"
 				info.value = nil
 				info.checkable = 1
 				info.keepShownOnClick = 1
-				UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+				Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
 			else
 				-- We're in a submenu, build it
 				for i = 1, table.getn(alphabet) do
 					--Match the MENU_VALUE to the letter in the alphabet
-					if UIDROPDOWNMENU_MENU_VALUE == alphabet[i].letter then
+					if _G["LIB_UIDROPDOWNMENU_MENU_VALUE"] == alphabet[i].letter then
 						--Prepare the mounts!
 						PrepareMountSubMenu(alphabet[i].letter)
 					end
 				end
 			end
-		elseif UIDROPDOWNMENU_MENU_LEVEL == 3 then
+		elseif _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"] == 3 then
 			-- We're in a sub-submenu, build it
 			for i = 1, table.getn(alphabet) do
 				--Match the MENU_VALUE to the letter in the alphabet
-				if strupper(strsub(UIDROPDOWNMENU_MENU_VALUE, 1, 1)) == alphabet[i].letter then
+				if strupper(strsub(_G["LIB_UIDROPDOWNMENU_MENU_VALUE"], 1, 1)) == alphabet[i].letter then
 					--Get the number from the MENU_VALUE
-					local subNumber = strsub(UIDROPDOWNMENU_MENU_VALUE, -1, string.len(UIDROPDOWNMENU_MENU_VALUE))
+					local subNumber = strsub(_G["LIB_UIDROPDOWNMENU_MENU_VALUE"], -1, string.len(_G["LIB_UIDROPDOWNMENU_MENU_VALUE"]))
 					
 					PrepareSplitMountSubMenu(alphabet[i].letter, subNumber)
 				end
@@ -689,7 +678,7 @@ function TitanPanelRightClickMenu_PrepareMountMenu()
                 info.value = nil
 				info.notCheckable = 1
                 info.func = function() ShowFavoriteAddMenu() end
-                UIDropDownMenu_AddButton(info, UIDROPDOWNMENU_MENU_LEVEL)
+                Lib_UIDropDownMenu_AddButton(info, _G["LIB_UIDROPDOWNMENU_MENU_LEVEL"])
             end
           
             TitanPanelRightClickMenu_AddToggleIcon(MountID)

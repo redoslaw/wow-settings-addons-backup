@@ -481,7 +481,10 @@ local raid_list = {
 	[1448] = {669, {1778, 1785, 1787, 1798, 1786, 1783, 1788, 1794, 1777, 1800, 1784, 1795, 1799}}, --mapid / EJ_id / encounter ids (hellfire citadel)
 	[1520] = {768, {1853, 1876, 1873, 1841, 1854, 1877, 1864}}, --mapid / EJ_id / encounter ids (emerald nightmare)
 	[1648] = {861, {1958, 1962, 2008}}, --mapid / EJ_id / encounter ids (trials of valor)
+	[1530] = {786, {1849, 1865, 1867, 1871, 1862, 1842, 1886, 1863, 1872, 1866}}, --mapid / EJ_id / encounter ids (nighthold)
 }
+
+
 
 local empty_table = {}
 function RA:GetCurrentRaidEncounterList (mapid)
@@ -706,6 +709,76 @@ local boss_spells = {
 		228063, --orb-of-corrosion
 		228514, --torrent
 	}, 
+	
+	--Skorpyron
+	[1706] = {
+		204292, --crystalline fragments
+		214718, --acidic fragments
+		204275, --arcanoslash
+		214662, --volatile fragments
+		210074, --shockwave
+		204483, --focused blast
+		214654, --acidic fragments
+		204744, --toxic chitin
+		211659, --arcane tether
+		204766, --energy surge
+		211801, --volatile fragments
+	}, 
+	
+	--Chronomatic Anomaly
+	[1725] = {
+		219823, --power overwhelming
+		206612, --burst of time
+		206607, --chronometric particles
+		206608, --time release
+		205707, --temporal orb
+		212099, --temporal charge
+		207228, --warp nightwell
+		219808, --chronomate
+		228335, --warp nightwell
+		219808, --chronomate
+	}, 
+	
+	--Trilliax
+	[1731] = {
+		206749, --mana rupture
+		206641, --arcane slash
+		206821, --cleansing rage
+		206792, --toxic slice
+		206488, --arcane seepage
+		206798, --toxic slice
+		207328, --cleansing destruction
+		212103, --energy drain
+	}, 
+	
+	--Spellblade Aluriel
+	[1751] = {
+		
+	}, 
+	--Tichondrius
+	[1762] = {
+		
+	}, 
+	--Krosus
+	[1713] = {
+		
+	}, 
+	--High Botanist Tel'arn
+	[1761] = {
+		
+	}, 
+	--Star Augur Etraeus
+	[1732] = {
+		
+	}, 
+	--Grand Magistrix Elisande
+	[1743] = {
+		
+	}, 
+	--Gul'dan
+	[1737] = {
+		
+	}, 
 }
 
 function RA:GetBossSpellList (ej_id)
@@ -718,6 +791,21 @@ end
 	return the encounter id from the journal and for the combatlog
 --]=]
 local encounter_journal = {
+	--instance EJID --boss EJID
+	[786] = {
+		1706, 1725, 1731, 1751, 1762, 1713, 1761, 1732, 1743, 1737,
+		[1706] = 1849, --Skorpyron
+		[1725] = 1865, --Chronomatic Anomaly
+		[1731] = 1867, --Trilliax
+		[1751] = 1871, --Spellblade Aluriel
+		[1762] = 1862, --Tichondrius
+		[1713] = 1842, --Krosus
+		[1761] = 1886, --High Botanist Tel'arn
+		[1732] = 1863, --Star Augur Etraeus
+		[1743] = 1872, --Grand Magistrix Elisande
+		[1737] = 1866, --Gul'dan
+	},
+	
 	[861] = {
 		1819, 1830, 1829,
 		[1819] = 1958, --Odyn	
@@ -738,6 +826,22 @@ local encounter_journal = {
 }
 
 local combat_log_ids = {
+	--instance EJID --boss CLID
+
+	[786] = {
+		1849, 1865, 1867, 1871, 1862, 1842, 1886, 1863, 1872, 1866,
+		[1849] = 1706, --Skorpyron
+		[1865] = 1725, --Chronomatic Anomaly
+		[1867] = 1731, --Trilliax
+		[1871] = 1751, --Spellblade Aluriel
+		[1862] = 1762, --Tichondrius
+		[1842] = 1713, --Krosus
+		[1886] = 1761, --High Botanist Tel'arn
+		[1863] = 1732, --Star Augur Etraeus
+		[1872] = 1743, --Grand Magistrix Elisande
+		[1866] = 1737, --Gul'dan
+	},
+
 	[861] = {
 		1958, 1962, 2008,
 		[1958] = 1819, --Odyn

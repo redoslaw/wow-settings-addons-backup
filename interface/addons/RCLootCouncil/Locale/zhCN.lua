@@ -349,7 +349,6 @@ L["Upper Quality Limit"] = "最高品质限定"
 L["upper_quality_limit_desc"] = [=[选择自动分配时物品的最高品质限定 (含此品质！).
 注意: 这将会更改物品分配界限。]=]
 L["Usage"] = "用法"
-L["Use the same setting when entering a raid as the group leader?"] = "当以队长身份加入团队时是否使用相同配置？"
 L["version"] = "版本"
 L["Version"] = "版本"
 L["Version Check"] = "版本检查"

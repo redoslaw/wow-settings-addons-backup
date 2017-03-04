@@ -18,8 +18,11 @@ local L = OVERACHIEVER_STRINGS
 
 local CATEGORIES_INDIV_ALL, CATEGORIES_GUILD_ALL, CATEGORIES_ALL
 local CATEGORY_EXPLOREROOT, CATEGORIES_EXPLOREZONES
-local OptionsPanel
+local OptionsPanel, openOptions
 local MadeDraggable_AchFrame, MadeDragSave_AchFrame
+
+local TexAlert = "Interface\\AddOns\\Overachiever\\AlertGreenLine"
+local TexAlertBorders = "Interface\\AddOns\\Overachiever\\AlertBordersGreen"
 
 
 -- Overcome problem where GetAchievementInfo throws an error if the achievement ID is invalid:
@@ -759,7 +762,7 @@ local function getExplorationAch(zonesOnly, ...)
   end
 end
 
-local AutoTrackedAch_explore
+local AutoTrackedAch_explore, AutoTrackedAch_bg
 
 local function AutoTrackCheck_Explore(noClearing)
 -- noClearing will evaluate to true when called through TjOptions since it passes an object for this first arg.
@@ -1071,19 +1074,87 @@ Overachiever.AchBtnRedisplayTooltip = achBtnRedisplay
 -- TOASTS
 -----------
 
-local fakeToastBaseID
-local fakeToastName
+-- /run Overachiever.ToastFakeAchievement("test")
+
+--[[
+local fakeToastBaseID, fakeToastName, fakeToastDelay
+local hookedAchToast = false
 
 local function achievementToasted(frame, achievementID, alreadyEarned)
   if (achievementID == fakeToastBaseID) then
     frame.Name:SetText(fakeToastName)
+    if (fakeToastDelay) then
+	  if (fakeToastDelay <= 0) then
+	    C_Timer.After(0, function()  AlertFrame_StopOutAnimation(frame);  end)
+	  else
+	    local delay = fakeToastDelay
+	    C_Timer.After(0, function()
+          frame.waitAndAnimOut.animOut:SetStartDelay(delay)
+		end)
+	  end
+    end
     fakeToastBaseID = nil
-	fakeToastName = nil
+    fakeToastName = nil
+    fakeToastDelay = nil
   end
 end
+--]]
 
-local hookedAchToast = false
-function Overachiever.ToastFakeAchievement(name, baseID, playSound, chatMessage)
+--local function alertOnClick(self, ...)
+function OverachieverAlertFrame_OnClick(self, ...)
+	if (self.delay == -1) then
+		self:SetScript("OnLeave", AlertFrame_ResumeOutAnimation)
+		self.delay = 0
+	end
+	if (self.onClick) then
+		if (AlertFrame_OnClick(self, ...)) then  return;  end -- Handle right-clicking to hide the frame.
+		self.onClick(self, ...)
+	elseif (self.onClick == false) then
+		AlertFrame_OnClick(self, ...)
+	else
+		AchievementAlertFrame_OnClick(self, ...)
+	end
+end
+
+local function OverachieverAlertFrame_SetUp(frame, achievementID, alreadyEarned, name, delay, toptext, onClick, icon)
+	-- An alert flagged as alreadyEarned has more space for the text to display since there's no shield+points icon.
+	local ret = AchievementAlertFrame_SetUp(frame, achievementID, alreadyEarned)
+	frame.Name:SetText(name)
+	frame.Unlocked:SetText(toptext or (toptext == false and THIS_TITLE) or ACHIEVEMENT_UNLOCKED)
+	frame.onClick = onClick
+	frame.delay = delay
+	--frame:SetScript("OnClick", alertOnClick) -- made this part of the template
+	if (delay) then
+		if (delay <= 0) then
+			C_Timer.After(0, function()  AlertFrame_StopOutAnimation(frame);  end)
+		else
+			C_Timer.After(0, function()
+				frame.waitAndAnimOut.animOut:SetStartDelay(delay)
+			end)
+		end
+	end
+	if (delay == -1) then
+		frame:SetScript("OnLeave", nil)
+	else
+		frame:SetScript("OnLeave", AlertFrame_ResumeOutAnimation)
+	end
+	if (icon) then
+		--HEY = HEY or { frame.Icon.Texture:GetTexCoord() }
+		frame.Icon.Texture:SetTexture(icon)
+		frame.Icon.Texture:SetTexCoord(0.0, 0.7109375, 0.0, 0.7109375)
+		frame.Background:SetTexture(TexAlert)
+		frame.OldAchievement:SetTexture(TexAlertBorders)
+	else
+		frame.Icon.Texture:SetTexCoord(0, 0, 0, 1, 1, 0, 1, 1)
+		frame.Background:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Alert-Background")
+		frame.OldAchievement:SetTexture("Interface\\AchievementFrame\\UI-Achievement-Borders")
+	end
+end
+-- /run Overachiever.ToastFakeAchievement("test")
+-- /run Overachiever.ToastForEvents(true, true, true, true)
+-- /run Overachiever.ToastFakeAchievement("test", nil, nil, nil, -1, "okay")
+
+function Overachiever.ToastFakeAchievement(name, baseID, playSound, chatMessage, delay, toptext, onClick, icon, newEarn)
   if (IsKioskModeEnabled()) then
     return;
   end
@@ -1091,16 +1162,31 @@ function Overachiever.ToastFakeAchievement(name, baseID, playSound, chatMessage)
     AchievementFrame_LoadUI();
   end
 
+  --[[
   if (not hookedAchToast) then
 	hooksecurefunc(AchievementAlertSystem, "setUpFunction", achievementToasted)
 	hookedAchToast = true
+  --]]
+
+  if (not Overachiever.AlertSystem) then
+	--Overachiever.AlertSystem = AlertFrame:AddQueuedAlertFrameSubSystem("AchievementAlertFrameTemplate", AchievementAlertFrame_SetUp, 4, math.huge)
+	--hooksecurefunc(Overachiever.AlertSystem, "setUpFunction", achievementToasted)
+	Overachiever.AlertSystem = AlertFrame:AddQueuedAlertFrameSubSystem("OverachieverAlertFrameTemplate", OverachieverAlertFrame_SetUp, 4, math.huge)
   end
 
-  if (not baseID) then  baseID = 5208;  end -- 5208 is "Twin Peaking", chosen because of its thumbs-up art.
+  if (not baseID) then  baseID = 5208;  end -- 5208 is "Twin Peaking", chosen because of its thumbs-up texture.
+  Overachiever.AlertSystem:AddAlert(baseID, not newEarn, name, delay, toptext, onClick, icon)
+
+  --[[
   fakeToastName = name
   fakeToastBaseID = baseID
-  --AchievementAlertSystem:AddAlert(baseID)
-  AchievementAlertSystem:AddAlert(baseID, true) -- Flagging it as already earned gives more space for the text to display since there's no shield+points icon
+  fakeToastDelay = delay
+  AchievementAlertSystem:AddAlert(baseID, true)
+  --CriteriaAlertSystem:AddAlert(baseID, true)
+  --for alertFrame in AchievementAlertSystem.alertFramePool:EnumerateActive() do
+  --end
+  --]]
+
   if (playSound) then  PlaySound("UI_Alert_AchievementGained");  end
   if (chatMessage) then  chatprint("", chatMessage);  end
 end
@@ -1111,7 +1197,10 @@ end
 
 function Overachiever.OnEvent(self, event, arg1, ...)
   --print("[Oa]", event, arg1, ...)
-  if (event == "PLAYER_ENTERING_WORLD") then
+  if (event == "CRITERIA_UPDATE") then
+    Overachiever.Criteria_Updated = true  -- used by GameTip.lua
+
+  elseif (event == "PLAYER_ENTERING_WORLD") then
     Overachiever.MainFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")
     Overachiever.MainFrame:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 	Overachiever.MainFrame:RegisterEvent("CRITERIA_UPDATE") -- used by GameTip.lua
@@ -1210,31 +1299,99 @@ function Overachiever.OnEvent(self, event, arg1, ...)
     end
 
 	if (toast) then
-	  C_Timer.After(8, function() -- 8 might not be a long enough delay. It might depend on loading time. Tried to find an event that told me when loading was REALLY done; couldn't find one. (Although it seems pretty reliable as is, for me at least, so long as the player is actually entering the game world and not just reloading the UI.)
-	    Overachiever.ToastFakeAchievement(toast, nil, false, msg)
+	  C_Timer.After(0, function()
+	    -- This strange double-timer thing works around an issue where the timer starts counting down, so to speak, during the loading screen if the UI is being reloaded (as per /reload), making the toast not appear.
+	    C_Timer.After(4, function()
+	      Overachiever.ToastFakeAchievement(toast, nil, false, msg, 15, nil, function()  openOptions();  end)
+	    end)
 	  end)
 	end
 
-  elseif (event == "CRITERIA_UPDATE") then
-    Overachiever.Criteria_Updated = true  -- used by GameTip.lua
+	OpenCalendar() -- We need calendar data to be available later (not just for toasts, but also holiday notices on achievement GUI), so we request it now. (Needed if some other addon doesn't do this.)
+	-- You might think we'd want to watch for event CALENDAR_UPDATE_EVENT_LIST after this, but it's not reliably called. Some report you need to call another function like CalendarSetAbsMonth beforehand for it to work,
+	-- but how we're doing it, we don't seem to need to do that or use that event at all.
+
+	if (Overachiever_Settings.ToastCalendar_holiday or Overachiever_Settings.ToastCalendar_microholiday or Overachiever_Settings.ToastCalendar_bonusevent or Overachiever_Settings.ToastCalendar_dungeonevent) then
+	  C_Timer.After(0, function()
+	    -- This strange double-timer thing works around an issue where the timer starts counting down, so to speak, during the loading screen if the UI is being reloaded (as per /reload), making the toast not appear.
+		C_Timer.After(5, function()
+		  Overachiever.ToastForEvents(Overachiever_Settings.ToastCalendar_holiday, Overachiever_Settings.ToastCalendar_microholiday, Overachiever_Settings.ToastCalendar_bonusevent, Overachiever_Settings.ToastCalendar_dungeonevent)
+		end)
+	  end)
+	  --[[
+      Overachiever.MainFrame:RegisterEvent("CALENDAR_UPDATE_EVENT_LIST")
+	  --if (not IsAddOnLoaded("Blizzard_Calendar")) then  UIParentLoadAddOn("Blizzard_Calendar");  end
+      OpenCalendar()
+	  --]]
+	end
+
+  --[[
+  elseif (event == "CALENDAR_UPDATE_EVENT_LIST") then
+    Overachiever.MainFrame:UnregisterEvent("CALENDAR_UPDATE_EVENT_LIST")
+	--Overachiever.MainFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
+	--Overachiever.MainFrame:RegisterEvent("PET_JOURNAL_LIST_UPDATE")
+	C_Timer.After(0, function()
+	  -- This strange double-timer thing works around an issue where the timer starts counting down, so to speak, during the loading screen if the UI is being reloaded (as per /reload), making the toast not appear.
+	  C_Timer.After(5, function()
+		Overachiever.ToastForEvents(Overachiever_Settings.ToastCalendar_holiday, Overachiever_Settings.ToastCalendar_microholiday, Overachiever_Settings.ToastCalendar_bonusevent, Overachiever_Settings.ToastCalendar_dungeonevent)
+	  end)
+	end)
+  --]] --[[
+  elseif (event == "COMBAT_LOG_EVENT_UNFILTERED") then
+	Overachiever.MainFrame:UnregisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
+	C_Timer.After(8, function()
+	  Overachiever.ToastForEvents(Overachiever_Settings.ToastCalendar_holiday, Overachiever_Settings.ToastCalendar_microholiday, Overachiever_Settings.ToastCalendar_bonusevent, Overachiever_Settings.ToastCalendar_dungeonevent)
+	end)
+  --]]
 
   elseif (event == "ZONE_CHANGED_NEW_AREA") then
     AutoTrackCheck_Explore()
+    if (AutoTrackedAch_bg and IsTrackedAchievement(AutoTrackedAch_bg)) then
+      -- If we automatically tracked a timed battleground achievement, untrack it upon leaving the instance:
+      local isInstance, instanceType = IsInInstance()
+      if (not isInstance or instanceType ~= "pvp") then
+        RemoveTrackedAchievement(AutoTrackedAch_bg)
+        AutoTrackedAch_bg = nil
+      end
+    end
 
   elseif (event == "TRACKED_ACHIEVEMENT_UPDATE") then
+    --print("*****", event, arg1, select(2, GetAchievementInfo(arg1)), "*****")
     if (arg1 and arg1 > 0) then  -- Attempt to work around an apparent WoW bug. May prevent errors but if the given ID is 0, we have no way of knowing what the achievement really was so we can't track it (unless there's another call with the correct data).
       local criteriaID, elapsed, duration = ...
+	  --print("criteriaID, elapsed, duration",criteriaID, elapsed, duration)
       if (elapsed and duration and elapsed < duration) then
-        Overachiever.FlagReminder(arg1)
-        if (Overachiever_Settings.Tracker_AutoTimer and
-            not setTracking(arg1) and AutoTrackedAch_explore and IsTrackedAchievement(AutoTrackedAch_explore)) then
-          -- If failed to track this, remove an exploration achievement that was auto-tracked and try again:
-          RemoveTrackedAchievement(AutoTrackedAch_explore)
-          if (not setTracking(arg1)) then
-            -- If still didn't successfully track new achievement, track previous achievement again:
-            AddTrackedAchievement(AutoTrackedAch_explore)
+	    local canTrack
+	    if (OVERACHIEVER_BGTIMERID[arg1]) then -- If this is one of the battleground timers, then we have to treat it a special way because there is a Blizzard bug that makes this event trigger for achievements for OTHER battlegrounds:
+		  local _, instanceType, _, _, _, _, _, instanceMapID = GetInstanceInfo()
+		  --print("instanceMapID",instanceMapID)
+		  if (instanceType == "pvp" and instanceMapID and (instanceMapID == OVERACHIEVER_BGTIMERID[arg1] or instanceMapID == OVERACHIEVER_BGTIMERID_RATED[arg1])) then
+		    Overachiever.FlagReminder(arg1)
+			canTrack = Overachiever_Settings.Tracker_AutoTimer_BG
+			if (canTrack) then
+			  AutoTrackedAch_bg = arg1  -- Yes, this variable is set even if setTracking() below fails to actually track the achievement; that's okay for our purposes here.
+			end
+		  else
+		    canTrack = false
+		  end
+		else
+		  Overachiever.FlagReminder(arg1)
+		  canTrack = Overachiever_Settings.Tracker_AutoTimer
+		end
+		--print("canTrack",canTrack)
+
+		if (canTrack) then
+		  local tracked = setTracking(arg1)
+          if (not tracked and AutoTrackedAch_explore and IsTrackedAchievement(AutoTrackedAch_explore)) then
+            -- If failed to track this, remove an exploration achievement that was auto-tracked and try again:
+            RemoveTrackedAchievement(AutoTrackedAch_explore)
+            if (not setTracking(arg1)) then
+              -- If still didn't successfully track new achievement, track previous achievement again:
+              AddTrackedAchievement(AutoTrackedAch_explore)
+            end
           end
-        end
+		end
+
       end
 	end
 
@@ -1457,7 +1614,7 @@ local function slashHandler(msg, self, silent, func_nomsg)
   end
 end
 
-local function openOptions(panel)
+function openOptions(panel) -- function name defined as local above
   panel = panel or OptionsPanel
   InterfaceOptionsFrame_OpenToCategory(panel)
   -- Working around a Blizzard bug by calling this twice:
@@ -1635,3 +1792,5 @@ Overachiever.MainFrame:RegisterEvent("PLAYER_LOGOUT")
 
 Overachiever.MainFrame:SetScript("OnEvent", Overachiever.OnEvent)
 Overachiever.MainFrame:SetScript("OnUpdate", AchievementUI_FirstShown_post)
+
+--Overachiever.MainFrame:RegisterEvent("PLAYER_LOGIN")

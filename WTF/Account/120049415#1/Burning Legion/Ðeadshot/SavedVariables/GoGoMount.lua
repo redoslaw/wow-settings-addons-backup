@@ -10,25 +10,13 @@ GoGo_Prefs = {
 	["AutoExcludeFlyingMounts"] = false,
 	["DruidFormNotRandomize"] = false,
 	["Zones"] = {
-		[321] = {
+		[1015] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[1033] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[976] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[4] = {
+		[1017] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -40,31 +28,7 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[465] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[1014] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[1007] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[1072] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[466] = {
+		[4] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -76,7 +40,103 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[903] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1038] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1046] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[976] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[495] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[606] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[862] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1027] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[809] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[811] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[321] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1014] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1018] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1022] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1024] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[13] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1072] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -88,7 +148,91 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[13] = {
+		[465] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1076] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1080] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[466] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1067] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[485] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1033] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[896] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1041] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1045] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1096] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1007] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[800] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[-1] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1054] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {

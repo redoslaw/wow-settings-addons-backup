@@ -64,7 +64,7 @@ local IsAlliance = UnitFactionGroup("player") == "Alliance"
 
 OVERACHIEVER_MOB_CRIT = {
 	-- For achievements where Overachiever.AchLookup_kill doesn't work, e.g. due to the asset ID being for quests instead of NPCs for some reason.
-	-- Format: <mob ID> = { <achievement ID>, <ach's criteria index>[, <2nd achievement ID>, <2nd ach's criteria index>[, ...]] }  ()
+	-- Format: [<mob ID>] = { <achievement ID>, <ach's criteria index>[, <2nd achievement ID>, <2nd ach's criteria index>[, ...]] }  ()
 
 	-- Adventurer of Azsuna:
 	[90244] = { 11261, 10 }, -- Unbound Rift (start w/object)
@@ -99,8 +99,8 @@ OVERACHIEVER_MOB_CRIT = {
 	[101077] = { 11264, 1 }, -- Sekhan
 	[97653] = { 11264, 2 }, -- The Beastly Boxer
 	[97933] = { 11264, 3 }, -- Crab Rider Grmlrml
-	[96590] = { 11264, 4 }, -- Gurbog da Basher
-	[97345] = { 11264, 5 }, -- Crawshuk the Hungry
+	[97345] = { 11264, 4 }, -- Crawshuk the Hungry
+	[96590] = { 11264, 5 }, -- Gurbog da Basher
 	[97326] = { 11264, 6 }, -- Hartli the Snatcher
 	[95872] = { 11264, 7 }, -- Skywhisker Taskmaster
 	[100302] = { 11264, 8 }, -- Unethical Adventurers (1/5)
@@ -216,6 +216,29 @@ end
 --/run error(WHICHCRIT(11263)) -- Adventurer of Stormheim
 --/run error(WHICHCRIT(11265)) -- Adventurer of Suramar
 --]]
+
+
+-- Battleground Timed Wins:
+OVERACHIEVER_BGTIMERID = {
+	-- Format: [<Achievement ID>] = <Instance Map ID>. See: http://wow.gamepedia.com/InstanceMapID#Battlegrounds
+	[201] = 489, -- Warsong Expedience (Warsong Gulch) [working around bug]
+	[159] = 529, -- Let's Get This Done (Arathi Basin) [working around bug]
+	[214] = 566, -- Flurry (Eye of the Storm)
+	[226] = 30, -- The Alterac Blitz (Alterac Valley) -- worked when not present (but needs to be present bc separate option now)
+	-- none for Isle of Conquest
+	[1310] = 607, -- Storm the Beach (Strand of the Ancients) -- this is for the attack round only, not whole match
+	[5254] = 761, -- Newbs to Plowshares (Battle for Gilneas) [working around bug]
+	[5216] = 726, -- Peak Speed (Twin Peaks) [working around bug]
+	-- none for Silvershard Mines
+	-- none for Temple of Kotmogu
+	-- none for Deepwind Gorge
+	-- not instanced: [1755] = -1, -- Within Our Grasp (Wintergrasp)
+	-- none for Tol Barad
+	-- none for Ashran
+}
+OVERACHIEVER_BGTIMERID_RATED = {
+	[214] = 968, -- Flurry (Eye of the Storm)
+}
 
 
 -- Look up the achievement ID of the given zone's exploration achievement, whatever the localization.

@@ -8,7 +8,7 @@ local GetNumGroupMembers,UnitIsUnit,UnitIsFriend,UnitExists,UnitInParty,
       GetNumGroupMembers,UnitIsUnit,UnitIsFriend,UnitExists,UnitInParty,
       UnitInRaid,UnitGroupRolesAssigned,UnitIsPlayer,UnitPlayerControlled
 
-local force_enable,spec_enabled,offtank_enable
+local force_enable,force_offtank,spec_enabled,offtank_enable
 -- local functions #############################################################
 local function UpdateFrames()
     -- update threat colour on currently visible frames
@@ -61,6 +61,11 @@ function mod:SetForceEnable(b)
     force_enable = b == true
     self:SpecUpdate()
 end
+function mod:SetForceOffTank(b)
+    force_offtank = b == true
+    self:GroupUpdate(nil,true)
+    UpdateFrames()
+end
 -- messages ####################################################################
 function mod:Show(f)
     if not UnitIsPlayer(f.unit) and not UnitPlayerControlled(f.unit) then
@@ -81,7 +86,7 @@ function mod:GlowColourChange(f)
     end
 
     -- tank mode health bar colours
-    if self.enabled and spec_enabled and
+    if self.enabled and (force_enable or spec_enabled) and
         ( (f.state.threat and f.state.threat > 0) or
           f.state.tank_mode_offtank
         )
@@ -124,18 +129,13 @@ function mod:UNIT_THREAT_LIST_UPDATE(event,f,unit)
 end
 function mod:SpecUpdate()
     local was_enabled = spec_enabled
+    local spec = GetSpecialization()
+    local role = spec and GetSpecializationRole(spec) or nil
 
-    if force_enable then
+    if role == 'TANK' then
         spec_enabled = true
     else
-        local spec = GetSpecialization()
-        local role = spec and GetSpecializationRole(spec) or nil
-
-        if role == 'TANK' then
-            spec_enabled = true
-        else
-            spec_enabled = nil
-        end
+        spec_enabled = nil
     end
 
     if spec_enabled ~= was_enabled then
@@ -144,7 +144,8 @@ function mod:SpecUpdate()
     end
 end
 function mod:GroupUpdate(event,no_update)
-    if GetNumGroupMembers() > 0 and spec_enabled then
+    -- enable/disable off-tank detection
+    if GetNumGroupMembers() > 0 and (spec_enabled or force_offtank) then
         if not offtank_enable then
             offtank_enable = true
 

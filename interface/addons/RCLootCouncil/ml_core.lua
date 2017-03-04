@@ -107,15 +107,17 @@ function RCLootCouncilML:UpdateGroup(ask)
 	for i = 1, GetNumGroupMembers() do
 		local name, _, _, _, _, class, _, _, _, _, _, role  = GetRaidRosterInfo(i)
 		name = addon:UnitName(name) -- Get their unambiguated name
-		if group_copy[name] then	-- If they're already registered
-			group_copy[name] = nil	-- remove them from the check
-		else -- add them
-			if not ask then -- ask for playerInfo?
-				addon:SendCommand(name, "playerInfoRequest")
-				addon:SendCommand(name, "MLdb", addon.mldb) -- and send mlDB
+		if name then -- Apparantly name can be nil (ticket #223)
+			if group_copy[name] then	-- If they're already registered
+				group_copy[name] = nil	-- remove them from the check
+			else -- add them
+				if not ask then -- ask for playerInfo?
+					addon:SendCommand(name, "playerInfoRequest")
+					addon:SendCommand(name, "MLdb", addon.mldb) -- and send mlDB
+				end
+				self:AddCandidate(name, class, role) -- Add them in case they haven't installed the adoon
+				updates = true
 			end
-			self:AddCandidate(name, class, role) -- Add them in case they haven't installed the adoon
-			updates = true
 		end
 	end
 	-- If anything's left in group_copy it means they left the raid, so lets remove them
@@ -208,16 +210,16 @@ function RCLootCouncilML:BuildMLdb()
 	local changedButtons = {};
 	for i = 1, db.numButtons do
 		if db.buttons[i].text ~= addon.defaults.profile.buttons[i].text then
-			changedButtons[i] = db.buttons[i]
+			changedButtons[i] = {text = db.buttons[i].text}
 		end
 	end
 	-- Extract changed award reasons
-	local changedAwardReasons = {}
+	--[[local changedAwardReasons = {}
 	for i = 1, db.numAwardReasons do
 		if db.awardReasons[i].text ~= addon.defaults.profile.awardReasons[i].text then
 			changedAwardReasons[i] = db.awardReasons[i]
 		end
-	end
+	end]]
 	return {
 		selfVote			= db.selfVote,
 		multiVote		= db.multiVote,
@@ -226,7 +228,7 @@ function RCLootCouncilML:BuildMLdb()
 		numButtons		= db.numButtons,
 		hideVotes		= db.hideVotes,
 		observe			= db.observe,
-		awardReasons	= changedAwardReasons,
+	--	awardReasons	= changedAwardReasons,
 		buttons			= changedButtons,
 		responses		= changedResponses,
 		timeout			= db.timeout,
@@ -255,8 +257,8 @@ function RCLootCouncilML:Timer(type, ...)
 		addon:SendCommand("group", "offline_timer")
 
 	elseif type == "GroupUpdate" then
-		addon:SendCommand("group", "candidates", self.candidates)
 		addon:SendCommand("group", "council", db.council)
+		addon:SendCommand("group", "candidates", self.candidates)
 	end
 end
 
@@ -277,16 +279,20 @@ function RCLootCouncilML:OnCommReceived(prefix, serializedMsg, distri, sender)
 			elseif command == "council_request" then
 				addon:SendCommand("group", "council", db.council)
 
+			elseif command == "candidates_request" then
+				addon:SendCommand("group", "candidates", self.candidates)
+
 			elseif command == "reconnect" and not addon:UnitIsUnit(sender, addon.playerName) then -- Don't receive our own reconnect
 				-- Someone asks for mldb, council and candidates
 				addon:SendCommand(sender, "MLdb", addon.mldb)
 				addon:SendCommand(sender, "council", db.council)
 
 			--[[NOTE: For some reason this can silently fail, but adding a 1 sec timer on the rest of the calls seems to fix it
-				v2.0.1: With huge candidates/lootTable we get AceComm lostdatawarning "First", presumeably due to the 4kb ChatThrottleLib limit.
-				Bumping loottable to 4 secs is tested to work with 27 candidates + 10 items.]]
+				v2.0.1: 	With huge candidates/lootTable we get AceComm lostdatawarning "First", presumeably due to the 4kb ChatThrottleLib limit.
+							Bumping loottable to 4 secs is tested to work with 27 candidates + 10 items.
+				v2.2.3: 	Got a ticket where canidates wasn't received. Bumped to 2 sec and added extra checks for candidates.]]
 
-				addon:ScheduleTimer("SendCommand", 1, sender, "candidates", self.candidates)
+				addon:ScheduleTimer("SendCommand", 2, sender, "candidates", self.candidates)
 				if self.running then -- Resend lootTable
 					addon:ScheduleTimer("SendCommand", 4, sender, "lootTable", self.lootTable)
 				end
@@ -321,6 +327,7 @@ function RCLootCouncilML:OnEvent(event, ...)
 end
 
 function RCLootCouncilML:LootOpened()
+	local sessionframe = addon:GetActiveModule("sessionframe")
 	if addon.isMasterLooter and GetNumLootItems() > 0 then
 		addon.target = GetUnitName("target") or L["Unknown/Chest"] -- capture the boss name
 		local updatedLootSlot = {}
@@ -343,6 +350,9 @@ function RCLootCouncilML:LootOpened()
 				end
 			else
 				if db.altClickLooting then self:ScheduleTimer("HookLootButton", 0.5, i) end -- Delay lootbutton hooking to ensure other addons have had time to build their frames
+				-- We might already have the session frame running, in which case we shouldn't add the items again
+				if sessionframe:IsRunning() then return end
+
 				local _, _, quantity, quality = GetLootSlotInfo(i)
 				if self:ShouldAutoAward(item, quality) and quantity > 0 then
 					self:AutoAward(i, item, quality, db.autoAwardTo, db.autoAwardReason, addon.target)

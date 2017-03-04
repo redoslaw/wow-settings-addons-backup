@@ -1,28 +1,20 @@
 ## Interface: 70100
 ## Title: WeakAuras Options
 ## Author: Mirrored and the WeakAuras Team
-## Version: 2.2.2.4
+## Version: 2.3.4
 ## Notes: Options for WeakAuras
 ## Notes-esES: Opciones para WeakAuras
 ## Notes-deDE: Optionen für WeakAuras
 ## Notes-ruRU: Опции WeakAuras
 ## Notes-zhTW: WeakAuras的設定
 ## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
 ## DefaultState: Enabled
 ## LoadOnDemand: 1
 ## Dependencies: WeakAuras
 ## SavedVariables: WeakAurasOptionsSaved
 
-Localization-enUS.lua
-Localization-deDE.lua
-Localization-esES.lua
-Localization-esMX.lua
-Localization-frFR.lua
-Localization-koKR.lua
-Localization-ptBR.lua
-Localization-ruRU.lua
-Localization-zhCN.lua
-Localization-zhTW.lua
+locales.xml
 
 ForAllIndentsAndPurposes.lua
 
@@ -35,8 +27,22 @@ RegionOptions\dynamicgroup.lua
 RegionOptions\model.lua
 RegionOptions\progresstexture.lua
 
-WeakAurasOptions.lua
+Cache.lua
 
+WeakAurasOptions.lua
+ExternalAddons.lua
+
+OptionsFrames\OptionsFrame.lua
+# -- Groups
+OptionsFrames\CodeReview.lua
+OptionsFrames\IconPicker.lua
+OptionsFrames\ImportExport.lua
+OptionsFrames\ModelPicker.lua
+OptionsFrames\TextEditor.lua
+OptionsFrames\TexturePicker.lua
+# -- misc Frames
+OptionsFrames\MoverSizer.lua
+OptionsFrames\FrameChooser.lua
 
 AceGUI-Widgets\AceGUIWidget-WeakAurasNewHeaderButton.lua
 AceGUI-Widgets\AceGUIWidget-WeakAurasLoadedHeaderButton.lua
@@ -45,4 +51,4 @@ AceGUI-Widgets\AceGUIWidget-WeakAurasTextureButton.lua
 AceGUI-Widgets\AceGUIWidget-WeakAurasIconButton.lua
 AceGUI-Widgets\AceGUIWidget-WeakAurasNewButton.lua
 AceGUI-Widgets\AceGUIWidget-WeakAurasImportButton.lua
-AceGUI-Widgets\AceGUIWidget-WeakAurasSortedDropdown.lua
+AceGUI-Widgets\AceGUIWidget-WeakAurasSortedDropDown.lua

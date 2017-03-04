@@ -7,6 +7,7 @@ local UnitIsPlayer,UnitIsOtherPlayersPet,GetGuildInfo=
 
 local tooltip = CreateFrame('GameTooltip','KNPNPCTitleTooltip',UIParent,'GameTooltipTemplate')
 local cb_tooltips
+local pattern,pattern_type,pattern_class,pattern_class_type
 
 -- messages ####################################################################
 function mod:Show(f)
@@ -28,7 +29,16 @@ function mod:Show(f)
 
         tooltip:Hide()
 
-        if not gtext or gtext:find('^Level ') then return end
+        -- ignore strings matching TOOLTIP_UNIT_LEVEL
+        if not gtext or
+           gtext:find(pattern) or
+           gtext:find(pattern_type) or
+           gtext:find(pattern_class) or
+           gtext:find(pattern_class_type)
+        then
+            return
+        end
+
         f.state.guild_text = gtext
     end
 end
@@ -37,6 +47,14 @@ function mod:CVAR_UPDATE()
     cb_tooltips = GetCVarBool('colorblindmode')
 end
 -- register ####################################################################
+function mod:Initialise()
+    -- generate matching pattern for locale
+    -- replace format substitution with match anything
+    pattern = "^"..TOOLTIP_UNIT_LEVEL:gsub("%%.%$?s?",".+").."$"
+    pattern_type = "^"..TOOLTIP_UNIT_LEVEL_TYPE:gsub("%%.%$?s?",".+").."$"
+    pattern_class = "^"..TOOLTIP_UNIT_LEVEL_CLASS:gsub("%%.%$?s?",".+").."$"
+    pattern_class_type = "^"..TOOLTIP_UNIT_LEVEL_CLASS_TYPE:gsub("%%.%$?s?",".+").."$"
+end
 function mod:OnEnable()
     self:RegisterMessage('Show')
     self:RegisterEvent('CVAR_UPDATE')

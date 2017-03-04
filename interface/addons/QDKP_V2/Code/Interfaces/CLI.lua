@@ -43,6 +43,18 @@ function QDKP2_CLI_ProcessCommand(text)
 	  DEFAULT_CHAT_FRAME:AddMessage("Boss "..W2.." award "..awardtest.." instDiff "..instDiff.." DKPType "..DKPType)
 	end
 	return
+	
+  elseif (W1=="rtest") then
+    --dump raid info for testing mixed servers
+	local name2, shortName, qServer2
+	local rank, subgroup, level, class, fileName, zone, online, inguild, standby, removed
+	for i=1, QDKP2_GetNumRaidMembers() do
+      name2, rank, subgroup, level, class, fileName, zone, online, inguild, standby, removed = QDKP2_GetRaidRosterInfo(i);
+	  shortName, qServer2 = strsplit("-", name2, 2)
+      
+	DEFAULT_CHAT_FRAME:AddMessage("Raid index "..i.." name2 "..name2.." shortName "..shortName.." qServer2 "..qServer2) 
+	DEFAULT_CHAT_FRAME:AddMessage("Rank "..rank.." subgroup "..subgroup.." class "..class.." fileName "..fileName)
+    end
   --]]  --end of testing section
 
   elseif ((W1=="stop" or W1=="end") and W2=="session") or W1=="stopsession" or W1=="endsession"  then
