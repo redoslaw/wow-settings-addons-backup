@@ -1,8 +1,7 @@
 local me,ns=...
 if ns.die then return end
-local hlp=LibStub("LibInit"):GetAddon(me)
-local L=hlp:GetLocale()
-function hlp:loadHelp()
+local L=ns:GetLocale()
+function ns:loadHelp()
 self:HF_Title(me,"RELNOTES")
 self:HF_Paragraph("Description")
 self:Wiki([[
@@ -14,6 +13,28 @@ self:Wiki([[
 * "What if" switches to change party composition based on criteria
 == Silent mode ==
 typing /ohc silent in chat will eliminate every chat message from GarrisonCommander
+]])
+self:RelNotes(1,1,3,[[
+Fix: Now manages new champions ilevel upgrade token
+Feature: added option to sort unfilled missions as last 
+]])
+self:RelNotes(1,1,2,[[
+Toc bump
+]])
+self:RelNotes(1,1,1,[[
+Fix: Save troops honored (https://wow.curseforge.com/projects/orderhallcommander/issues/33)
+Fix: restored future missions in tooltip
+Fix: improved kill troop information, now the skull is green if klll troops is in effect but used troops only have 1 durability left
+]])
+self:RelNotes(1,1,0,[[
+Fix: All cache error should be gone
+Feature: new Don't use troops switch
+Feature: Separate state rcap for Champions and Troops
+Feature: you can decide if show busy or even inactive followers
+Feature: shift click on reward prints wowhead link in chat
+Feature: added icon to show active bonus and malus in mission buttons
+Feature: added an informative message when the options you checked lead to not being able to fill missions
+Fix: Healing Stream Totem is now considered as upgrade
 ]])
 self:RelNotes(0,2,4,[[
 Fix: lua errors in matchmaker.lua

@@ -753,19 +753,45 @@ local boss_spells = {
 	
 	--Spellblade Aluriel
 	[1751] = {
-		
+		213624, --mark of frost
+		212648, --mark of frost explosion
+		213761, --burst of flame
+		213166, --searing brand
+		213328, --detonate arcane orb
+		213520, --arcane orb
+		213278, --burning ground
+		233098, --blazing charge
+		213807, --burst of ice
+		230423, --whirling barrage
+		213085, --frozen tempest
+		230414, --fel stomp
+		212736, --pool of frost
+		213504, --arcane fog
+		212494, --annihilated
 	}, 
 	--Tichondrius
 	[1762] = {
-		
+		223021, --carrion plague
+		216027, --nether zone
+		216726, --ring of shadows
+		213534, --echoes of the void
+		206474, --seeker swarm
+		216024, --volatile wound
+		215988, --carrion nightmare
+		216040, --burning soul
 	}, 
 	--Krosus
 	[1713] = {
-		
+		225362, --slam
+		205348, --orb of destruction
+		206677, --searing brand
+		206376, --burning pitch
+		206352, --felburst
+		205391, --fel beam
 	}, 
 	--High Botanist Tel'arn
 	[1761] = {
-		
+
 	}, 
 	--Star Augur Etraeus
 	[1732] = {

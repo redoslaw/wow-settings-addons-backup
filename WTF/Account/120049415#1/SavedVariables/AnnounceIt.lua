@@ -4,18 +4,26 @@ aiDB = {
 		["version"] = "3.2.9",
 	},
 	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Kot - Chamber of Aspects"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["messages"] = {
 				["GEAR"] = {
 					["text"] = {
-						"|cffffff00|Hachievement:11185:Player-3713-071CB8A4:1:12:4:16:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r", -- [1]
+						"", -- [1]
 						"|cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r|cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r", -- [2]
 						"|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
 						"", -- [4]
@@ -68,13 +76,13 @@ aiDB = {
 						["GUILD"] = true,
 					},
 				},
-				["SLACK"] = {
+				["LINK KEY"] = {
 					["text"] = {
-						"--- Slack ---", -- [1]
-						"Wszystkie osoby raidujace proszone sa o dolaczenie do gildyjnego slacka! Link na tsie (banner) lub wipeforged.com/slack", -- [2]
-						"Slacka uzywamy do zgadywania sie na mythic+, karazhan, do przekazywania informacji o spoznieniach/nieobecnosciach. Szczegoly na kanale #NEWS", -- [3]
-						"W kazdy dzien raidowy sprawdzamy obecnosc na kanale Mythic_Raiders (wpisujemy sie kto jest - nawet na stand by! )", -- [4]
-						"Po dluzszym okresie czasu os. z najwyzsza frekwencja beda mialy pierwszenstwo do raidow progresowych! // W razie problemow / pytan mozna pisac do mnie :)", -- [5]
+						"Link your key please.", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+						"", -- [5]
 					},
 					["custom"] = {
 						"", -- [1]
@@ -83,14 +91,17 @@ aiDB = {
 						"", -- [4]
 					},
 					["chan"] = {
-						["GUILD"] = true,
+						["WHISPER"] = true,
 					},
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 265.865569758834,
+			},
 			["lastmessage"] = {
-				["message"] = "KALENDARZ",
+				["message"] = "LINK KEY",
 				["type"] = "regular",
-				["chan"] = "GUILD",
+				["chan"] = "WHISPER",
 			},
 		},
 	},

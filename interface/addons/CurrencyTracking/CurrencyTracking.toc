@@ -1,4 +1,4 @@
-## Interface: 70100
+## Interface: 70200
 #@non-debug@
 ## Title: Currency Tracking
 ## Title-deDE: Abzeichenverfolgung
@@ -20,11 +20,11 @@
 # ## Notes-zhTW: |cff00CC33追蹤所有獲取的通貨，並顯示在遊戲畫面上|r
 #@end-debug@
 ## Author: arith
-## Version: 2.05
+## Version: 2.08
 ## OptionalDeps: LibDataBroker-1.1, LibAboutPanel, CallbackHandler-1.0, LibStub, AceLocale-3.0
 ## DefaultState: Enabled
 ## SavedVariables: CurrencyTrackingDB
-## X-Date: 2017-03-01T16:00:24Z
+## X-Date: 2017-04-05T15:50:17Z
 ## X-Donate: https://pledgie.com/campaigns/31749
 ## X-Website: http://mods.curse.com/addons/wow/currency-tracking
 ## X-License: GPLv2

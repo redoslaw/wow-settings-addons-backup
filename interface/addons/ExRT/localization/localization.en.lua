@@ -92,6 +92,7 @@ L.SetThanks = "Thanks"
 L.SetErrorInCombat = "Waiting until combat ends to finish loading due to Blizzard combat restrictions."
 L.SetAdditionalTabs = "Additional Tabs"
 L.SetTranslate = "Translator"
+L.SetScaleReset = "* Right click - reset"
 
 L.bossmodstot = "Throne of Thunder"
 PH.bossmodsradenhelp = "Ra-Den. Players are sorted into two columns (groups 2 and 4 are in the left column, 3 and 5 in the right). Players with \"Unstable Vita\" debuff are highlighted in green, players with \"Vita Sensitivity\" - in red, without debuffs - in white."

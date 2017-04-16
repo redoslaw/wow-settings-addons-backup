@@ -59,7 +59,7 @@ QDKP2_Bosses = {
 { name = "Skorpyron",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
 { name = "Tichondrius",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
 { name = "Star Augur Etraeus",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
-{ name = "Chromatic Anomaly",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
+{ name = "Chronomatic Anomaly",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
 { name = "Trilliax",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
 { name = "Spellblade Aluriel",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},
 { name = "Grand Magistrix Elisande",		Normal = nil, Heroic = nil, Mythic = nil, LFRFlex = nil},

@@ -1,45 +1,14 @@
 
 FlyPitchDB = {
 	["profileKeys"] = {
-		["Ðeadshøt - Earthen Ring"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["elements"] = {
-				["Mover"] = {
-					["color"] = {
-						["g"] = 0,
-						["b"] = 0.168627450980392,
-					},
-					["size"] = {
-						["height"] = 64,
-					},
-				},
-				["Center"] = {
-					["size"] = {
-						["height"] = 64,
-					},
-				},
-				["LimitArrow"] = {
-					["color"] = {
-						["g"] = 0,
-						["b"] = 0.0588235294117647,
-					},
-				},
-			},
-			["framelevel"] = {
-				["strata"] = "HIGH",
-				["level"] = 22,
-			},
-			["animation"] = {
-				["update"] = 0.08,
-				["fader"] = {
-					["timeuntilfade"] = 3,
-				},
-			},
-			["size"] = {
-				["scale"] = 1.55,
-			},
 		},
 	},
 }

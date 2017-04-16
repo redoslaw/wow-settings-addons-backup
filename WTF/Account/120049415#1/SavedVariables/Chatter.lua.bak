@@ -2,172 +2,93 @@
 ChatterDB = {
 	["namespaces"] = {
 		["PlayerNames"] = {
-			["profiles"] = {
-				["Default"] = {
-					["saveFriends"] = false,
-				},
-			},
-			["realm"] = {
-				["Burning Legion"] = {
-					["names"] = {
-						["Thelev"] = {
-							["level"] = 110,
-							["class"] = "MAGE",
-						},
-						["Dariogar-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "SHAMAN",
-						},
-						["Ciugdor-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "SHAMAN",
-						},
-						["Redus"] = {
-							["level"] = 110,
-							["class"] = "MAGE",
-						},
-						["Kkomar-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DRUID",
-						},
-						["Swoon-BurningLegion"] = {
-							["level"] = 104,
-							["class"] = "PALADIN",
-						},
-						["Cutè-BurningLegion"] = {
-							["level"] = 102,
-							["class"] = "PALADIN",
-						},
-						["Redus-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "MAGE",
-						},
-						["Murloks-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "HUNTER",
-						},
-						["Oskimorderca-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DEMONHUNTER",
-						},
-						["Sheinen-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "HUNTER",
-						},
-						["Rocknrooll-BurningLegion"] = {
-							["level"] = 105,
-							["class"] = "MAGE",
-						},
-						["Earthwaves-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "SHAMAN",
-						},
-						["Groodo-BurningLegion"] = {
-							["level"] = 100,
-							["class"] = "SHAMAN",
-						},
-						["Razerix-BurningLegion"] = {
-							["level"] = 95,
-							["class"] = "DEATHKNIGHT",
-						},
-						["Doubletap-BurningLegion"] = {
-							["level"] = 100,
-							["class"] = "ROGUE",
-						},
-						["Dkmeister-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DEATHKNIGHT",
-						},
-						["Getheros-BurningLegion"] = {
-							["level"] = 108,
-							["class"] = "MONK",
-						},
-						["Kiljadyn-BurningLegion"] = {
-							["level"] = 101,
-							["class"] = "DRUID",
-						},
-						["Mammalaga-BurningLegion"] = {
-							["level"] = 100,
-							["class"] = "DEATHKNIGHT",
-						},
-						["Kharthesh-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DEMONHUNTER",
-						},
-						["Kaiaraqt-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DEMONHUNTER",
-						},
-						["Johnkanaka-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "DEATHKNIGHT",
-						},
-						["Bloemfontein-BurningLegion"] = {
-							["level"] = 100,
-							["class"] = "MONK",
-						},
-						["Virrkaa-BurningLegion"] = {
-							["level"] = 48,
-							["class"] = "PALADIN",
-						},
-						["Zozusek-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "MONK",
-						},
-						["Agu-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "HUNTER",
-						},
-						["Paralaz-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "ROGUE",
-						},
-						["Tequilä-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "PALADIN",
-						},
-						["Arawia-BurningLegion"] = {
-							["level"] = 100,
-							["class"] = "MAGE",
-						},
-						["Roggak-BurningLegion"] = {
-							["level"] = 110,
-							["class"] = "WARRIOR",
-						},
-						["Szczepanisko-BurningLegion"] = {
-							["level"] = 1,
-							["class"] = "WARRIOR",
-						},
-						["Hajot-BurningLegion"] = {
-							["level"] = 104,
-							["class"] = "DEMONHUNTER",
-						},
-						["Mishen-BurningLegion"] = {
-							["level"] = 42,
-							["class"] = "HUNTER",
-						},
-					},
-				},
-			},
 		},
 		["AltLinks"] = {
 			["realm"] = {
 				["Burning Legion"] = {
 					["Redus"] = "Redus",
+					["Byyczysyn"] = "Gehennus",
+				},
+			},
+			["profiles"] = {
+				["MAGE"] = {
+					["guildranks"] = {
+						false, -- [1]
+						false, -- [2]
+						nil, -- [3]
+						false, -- [4]
+						false, -- [5]
+						false, -- [6]
+						[0] = false,
+					},
+				},
+				["Default"] = {
+					["guildranks"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						false, -- [4]
+						false, -- [5]
+						false, -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						[0] = false,
+					},
+				},
+				["Redus - Burning Legion"] = {
+					["guildranks"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						false, -- [4]
+						false, -- [5]
+						false, -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						[0] = false,
+					},
+				},
+				["Burning Legion"] = {
+					["guildranks"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						false, -- [4]
+						false, -- [5]
+						false, -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						[0] = false,
+					},
 				},
 			},
 		},
 		["Scrollback"] = {
-			["profiles"] = {
-				["Default"] = {
-					["FRAME_1"] = 250,
-				},
-			},
 		},
 		["Invite Links"] = {
 			["profiles"] = {
+				["MAGE"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+				["Redus - Burning Legion"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
 				["Default"] = {
-					["altClickToinvite"] = false,
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+				["Burning Legion"] = {
 					["words"] = {
 						["inv"] = "inv",
 						["invite"] = "invite",
@@ -177,37 +98,131 @@ ChatterDB = {
 		},
 		["ChannelColors"] = {
 			["profiles"] = {
-				["Default"] = {
+				["MAGE"] = {
 					["colors"] = {
-						["Party Leader"] = {
-							["b"] = 1,
-							["g"] = 0.784313797950745,
-							["r"] = 0.462745130062103,
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
 						},
 						["Instance Leader"] = {
-							["b"] = 0.0352941192686558,
-							["g"] = 0.282352954149246,
 							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["Raid Leader"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["wipeforged"] = {
+							["r"] = 1,
+							["g"] = 0.450980424880981,
+							["b"] = 0.172549024224281,
+						},
+						["LookingForGroup"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Party"] = {
+							["r"] = 0.666666686534882,
+							["g"] = 0.666666686534882,
+							["b"] = 1,
+						},
+						["Whisper"] = {
+							["r"] = 1,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
+						},
+						["Raid"] = {
+							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["red"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Party Leader"] = {
+							["r"] = 0.462745130062103,
+							["g"] = 0.784313797950745,
+							["b"] = 1,
 						},
 						["Instance"] = {
-							["b"] = 0,
-							["g"] = 0.498039245605469,
 							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["Yell"] = {
+							["r"] = 1,
+							["g"] = 0.250980406999588,
+							["b"] = 0.250980406999588,
+						},
+						["LocalDefense"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.964705944061279,
+						},
+						["Trade"] = {
+							["r"] = 0.847058892250061,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["Say"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["General"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["b"] = 0.250980406999588,
+						},
+					},
+				},
+				["Redus - Burning Legion"] = {
+					["colors"] = {
+						["Guild"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["Real ID Whisper"] = {
+							["b"] = 0.964705944061279,
+							["g"] = 1,
+							["r"] = 0,
 						},
 						["Raid Leader"] = {
 							["b"] = 0.0352941192686558,
 							["g"] = 0.282352954149246,
 							["r"] = 1,
 						},
-						["Yell"] = {
-							["b"] = 0.250980406999588,
-							["g"] = 0.250980406999588,
+						["wipeforged"] = {
+							["b"] = 0.172549024224281,
+							["g"] = 0.450980424880981,
 							["r"] = 1,
 						},
-						["Real ID Whisper"] = {
-							["b"] = 0.964705944061279,
-							["g"] = 1,
-							["r"] = 0,
+						["LookingForGroup"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["Party"] = {
 							["b"] = 1,
@@ -219,30 +234,653 @@ ChatterDB = {
 							["g"] = 0.501960813999176,
 							["r"] = 1,
 						},
-						["Say"] = {
-							["b"] = 1,
-							["g"] = 1,
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
 							["r"] = 1,
+						},
+						["red"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["Party Leader"] = {
+							["b"] = 1,
+							["g"] = 0.784313797950745,
+							["r"] = 0.462745130062103,
+						},
+						["Instance"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["Yell"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["LocalDefense"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["Instance Leader"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Trade"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0.847058892250061,
 						},
 						["Raid Warning"] = {
 							["b"] = 0,
 							["g"] = 0.282352954149246,
 							["r"] = 1,
 						},
-						["Raid"] = {
-							["b"] = 0,
-							["g"] = 0.498039245605469,
+						["General"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
 							["r"] = 1,
 						},
-						["Guild"] = {
-							["b"] = 0.250980406999588,
+						["Say"] = {
+							["b"] = 1,
 							["g"] = 1,
-							["r"] = 0.250980406999588,
+							["r"] = 1,
 						},
 						["Officer"] = {
 							["b"] = 0.250980406999588,
 							["g"] = 0.752941250801086,
 							["r"] = 0.250980406999588,
+						},
+					},
+				},
+				["Default"] = {
+					["colors"] = {
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
+						},
+						["Instance Leader"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["Raid Leader"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["wipeforged"] = {
+							["r"] = 1,
+							["g"] = 0.450980424880981,
+							["b"] = 0.172549024224281,
+						},
+						["LookingForGroup"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Party"] = {
+							["r"] = 0.666666686534882,
+							["g"] = 0.666666686534882,
+							["b"] = 1,
+						},
+						["Whisper"] = {
+							["r"] = 1,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
+						},
+						["Raid"] = {
+							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["red"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Party Leader"] = {
+							["r"] = 0.462745130062103,
+							["g"] = 0.784313797950745,
+							["b"] = 1,
+						},
+						["Instance"] = {
+							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["GR2"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["Yell"] = {
+							["r"] = 1,
+							["g"] = 0.250980406999588,
+							["b"] = 0.250980406999588,
+						},
+						["LocalDefense"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Red"] = {
+							["b"] = 0,
+							["g"] = 0.921568691730499,
+							["r"] = 1,
+						},
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.964705944061279,
+						},
+						["Trade"] = {
+							["r"] = 0.847058892250061,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["Say"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["General"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["b"] = 0.250980406999588,
+						},
+					},
+				},
+				["Burning Legion"] = {
+					["colors"] = {
+						["Real ID Whisper"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.964705944061279,
+						},
+						["CHANNEL6"] = {
+							["b"] = 0.172549024224281,
+							["g"] = 0.450980424880981,
+							["r"] = 1,
+						},
+						["Raid Leader"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["CHANNEL"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["PARTY"] = {
+							["b"] = 1,
+							["g"] = 0.666666686534882,
+							["r"] = 0.666666686534882,
+						},
+						["CHANNEL_LIST"] = {
+							["b"] = 0.501960813999176,
+							["g"] = 0.501960813999176,
+							["r"] = 0.752941250801086,
+						},
+						["Raid"] = {
+							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["SYSTEM"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["RAID_BOSS_EMOTE"] = {
+							["b"] = 0,
+							["g"] = 0.866666734218597,
+							["r"] = 1,
+						},
+						["CHANNEL7"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["SKILL"] = {
+							["b"] = 1,
+							["g"] = 0.333333343267441,
+							["r"] = 0.333333343267441,
+						},
+						["CHANNEL1"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["CHANNEL3"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["BATTLENET"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["PET_BATTLE_INFO"] = {
+							["b"] = 0.364705890417099,
+							["g"] = 0.870588302612305,
+							["r"] = 0.882353007793427,
+						},
+						["LOOT"] = {
+							["b"] = 0,
+							["g"] = 0.666666686534882,
+							["r"] = 0,
+						},
+						["Officer"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["b"] = 0.250980406999588,
+						},
+						["IGNORED"] = {
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["BN_WHISPER_PLAYER_OFFLINE"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["OFFICER"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941250801086,
+							["r"] = 0.250980406999588,
+						},
+						["wipeforged"] = {
+							["r"] = 1,
+							["g"] = 0.450980424880981,
+							["b"] = 0.172549024224281,
+						},
+						["YELL"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["BN_INLINE_TOAST_BROADCAST_INFORM"] = {
+							["b"] = 1,
+							["g"] = 0.772549092769623,
+							["r"] = 0.509803950786591,
+						},
+						["COMBAT_MISC_INFO"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["SAY"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Raid Warning"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0,
+						},
+						["DND"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["GUILD_ACHIEVEMENT"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["MONSTER_PARTY"] = {
+							["b"] = 1,
+							["g"] = 0.666666686534882,
+							["r"] = 0.666666686534882,
+						},
+						["BN_INLINE_TOAST_ALERT"] = {
+							["b"] = 1,
+							["g"] = 0.772549092769623,
+							["r"] = 0.509803950786591,
+						},
+						["CHANNEL4"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["WHISPER_FOREIGN"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["RAID_WARNING"] = {
+							["b"] = 0,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Say"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["MONSTER_WHISPER"] = {
+							["b"] = 0.921568691730499,
+							["g"] = 0.709803938865662,
+							["r"] = 1,
+						},
+						["CHANNEL_JOIN"] = {
+							["b"] = 0.501960813999176,
+							["g"] = 0.501960813999176,
+							["r"] = 0.752941250801086,
+						},
+						["WHISPER_INFORM"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["QUEST_BOSS_EMOTE"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["Guild"] = {
+							["r"] = 0.250980406999588,
+							["g"] = 1,
+							["b"] = 0.250980406999588,
+						},
+						["COMBAT_HONOR_GAIN"] = {
+							["b"] = 0.0392156876623631,
+							["g"] = 0.792156934738159,
+							["r"] = 0.878431439399719,
+						},
+						["CHANNEL5"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["MONSTER_SAY"] = {
+							["b"] = 0.623529434204102,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Party"] = {
+							["r"] = 0.666666686534882,
+							["g"] = 0.666666686534882,
+							["b"] = 1,
+						},
+						["BG_SYSTEM_NEUTRAL"] = {
+							["b"] = 0.0392156876623631,
+							["g"] = 0.470588266849518,
+							["r"] = 1,
+						},
+						["MONEY"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["TEXT_EMOTE"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["red"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["GUILD_ITEM_LOOTED"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["TRADESKILLS"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["CHANNEL9"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["GUILD"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["OPENING"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["CHANNEL8"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["INSTANCE_CHAT_LEADER"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["Yell"] = {
+							["r"] = 1,
+							["g"] = 0.250980406999588,
+							["b"] = 0.250980406999588,
+						},
+						["COMBAT_FACTION_CHANGE"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["MONSTER_EMOTE"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["CHANNEL_LEAVE"] = {
+							["b"] = 0.501960813999176,
+							["g"] = 0.501960813999176,
+							["r"] = 0.752941250801086,
+						},
+						["BG_SYSTEM_HORDE"] = {
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["Whisper"] = {
+							["r"] = 1,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
+						},
+						["CHANNEL_NOTICE_USER"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 0.752941250801086,
+						},
+						["PET_INFO"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["CHANNEL10"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["INSTANCE_CHAT"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["ACHIEVEMENT"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["General"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["Instance Leader"] = {
+							["r"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
+						},
+						["EMOTE"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["COMBAT_XP_GAIN"] = {
+							["b"] = 1,
+							["g"] = 0.435294151306152,
+							["r"] = 0.435294151306152,
+						},
+						["CHANNEL2"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0.847058892250061,
+						},
+						["COMBAT_GUILD_XP_GAIN"] = {
+							["b"] = 1,
+							["g"] = 0.435294151306152,
+							["r"] = 0.435294151306152,
+						},
+						["LookingForGroup"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["BG_SYSTEM_ALLIANCE"] = {
+							["b"] = 0.937254965305328,
+							["g"] = 0.682352960109711,
+							["r"] = 0,
+						},
+						["BN_WHISPER_INFORM"] = {
+							["b"] = 0.964705944061279,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["PARTY_LEADER"] = {
+							["b"] = 1,
+							["g"] = 0.784313797950745,
+							["r"] = 0.462745130062103,
+						},
+						["BN_WHISPER"] = {
+							["b"] = 0.964705944061279,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["CHANNEL_NOTICE"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 0.752941250801086,
+						},
+						["RAID_BOSS_WHISPER"] = {
+							["b"] = 0,
+							["g"] = 0.866666734218597,
+							["r"] = 1,
+						},
+						["RAID_LEADER"] = {
+							["b"] = 0.0352941192686558,
+							["g"] = 0.282352954149246,
+							["r"] = 1,
+						},
+						["ARENA_POINTS"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["TARGETICONS"] = {
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Party Leader"] = {
+							["r"] = 0.462745130062103,
+							["g"] = 0.784313797950745,
+							["b"] = 1,
+						},
+						["RESTRICTED"] = {
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["Instance"] = {
+							["r"] = 1,
+							["g"] = 0.498039245605469,
+							["b"] = 0,
+						},
+						["AFK"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["FILTERED"] = {
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["BN_INLINE_TOAST_CONVERSATION"] = {
+							["b"] = 1,
+							["g"] = 0.772549092769623,
+							["r"] = 0.509803950786591,
+						},
+						["LocalDefense"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["BN_INLINE_TOAST_BROADCAST"] = {
+							["b"] = 1,
+							["g"] = 0.772549092769623,
+							["r"] = 0.509803950786591,
+						},
+						["RAID"] = {
+							["b"] = 0,
+							["g"] = 0.498039245605469,
+							["r"] = 1,
+						},
+						["WHISPER"] = {
+							["b"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["PET_BATTLE_COMBAT_LOG"] = {
+							["b"] = 0.670588254928589,
+							["g"] = 0.870588302612305,
+							["r"] = 0.90588241815567,
+						},
+						["MONSTER_YELL"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["CURRENCY"] = {
+							["b"] = 0,
+							["g"] = 0.666666686534882,
+							["r"] = 0,
+						},
+						["Trade"] = {
+							["r"] = 0.847058892250061,
+							["g"] = 1,
+							["b"] = 0,
 						},
 					},
 				},
@@ -253,61 +891,43 @@ ChatterDB = {
 		["RealIdPolish"] = {
 		},
 		["ChatFrameBorders"] = {
+		},
+		["Buttons"] = {
 			["profiles"] = {
-				["Default"] = {
-					["frames"] = {
-						["FRAME_1"] = {
-							["edgeSize"] = 39,
-							["tileSize"] = 24,
-							["inset"] = 9,
-						},
-					},
+				["Burning Legion"] = {
+					["scrollReminder"] = false,
 				},
 			},
 		},
-		["Buttons"] = {
-		},
 		["Server Positioning"] = {
 		},
-		["JustifyText"] = {
+		["Mousewheel Scroll"] = {
 		},
 		["Timestamps"] = {
 			["profiles"] = {
-				["Default"] = {
+				["Burning Legion"] = {
 					["frames"] = {
-						["Frame10"] = true,
+						["Frame10"] = false,
 					},
-					["colorByChannel"] = true,
 				},
 			},
 		},
 		["EditBox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["edgeSize"] = 14,
-				},
-			},
 		},
-		["Highlight"] = {
+		["ChatFont"] = {
 			["profiles"] = {
-				["Default"] = {
-					["customChannels"] = {
-						["BN_WHISPER"] = "Blizzard: Alarm Clock 3",
-						["WHISPER"] = "Blizzard: Alarm Clock 2",
-					},
-					["highlights"] = {
-						["BN_WHISPER"] = true,
-						["WHISPER"] = true,
-					},
+				["Burning Legion"] = {
+					["outline"] = "OUTLINE",
+					["font"] = "Arial Narrow",
+					["fontsize"] = 19,
 				},
 			},
 		},
 		["ChatTabs"] = {
 			["profiles"] = {
-				["Default"] = {
-					["height"] = 36,
-					["chattabs"] = false,
+				["Burning Legion"] = {
 					["alpha"] = 1,
+					["chattabs"] = false,
 				},
 			},
 		},
@@ -315,7 +935,7 @@ ChatterDB = {
 		},
 		["CopyChat"] = {
 			["profiles"] = {
-				["Default"] = {
+				["Burning Legion"] = {
 					["copyIcon"] = true,
 				},
 			},
@@ -324,37 +944,85 @@ ChatterDB = {
 		},
 		["Editbox History"] = {
 			["realm"] = {
+				["Chamber of Aspects"] = {
+					["history"] = {
+						"/addons", -- [1]
+					},
+				},
 				["Burning Legion"] = {
 					["history"] = {
-						"/dance", -- [1]
+						"/p FFS!", -- [1]
+						"/tsm", -- [2]
+						"/tsm", -- [3]
+						"/tsm destroy", -- [4]
+						"/tsm", -- [5]
+						"/tsm destroy", -- [6]
+						"/tsm", -- [7]
+						"/tsm destroy", -- [8]
+						"/addons", -- [9]
+						"/addons", -- [10]
+						"/routes", -- [11]
+						"/routes", -- [12]
+						"/routes", -- [13]
+						"/routes", -- [14]
+						"/routes", -- [15]
+						"/routes", -- [16]
+						"/routes", -- [17]
+						"/routes", -- [18]
+						"/routes", -- [19]
+						"/routes", -- [20]
+						"/routes", -- [21]
+						"/routes", -- [22]
+						"/routes", -- [23]
+						"/routes", -- [24]
+						"/routes", -- [25]
+						"/routes", -- [26]
+						"/routes", -- [27]
+						"/routes", -- [28]
+						"/gathermate", -- [29]
+						"/gathermate", -- [30]
+						"/routes", -- [31]
+						"/routes", -- [32]
 					},
 				},
 			},
 		},
-		["ChatFont"] = {
-			["profiles"] = {
-				["Default"] = {
-					["font"] = "FrancoisOne",
-					["fontsize"] = 14,
-				},
-			},
+		["Highlight"] = {
 		},
-		["Mousewheel Scroll"] = {
+		["JustifyText"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Redus - Burning Legion"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Burning Legion",
+		["Pandared - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Redus - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
+		["MAGE"] = {
+		},
+		["Redus - Burning Legion"] = {
+			["welcomeMessaged"] = true,
+		},
 		["Default"] = {
+			["welcomeMessaged"] = true,
+		},
+		["Burning Legion"] = {
 			["modules"] = {
-				["Highlights"] = true,
-				["Scrollback"] = true,
-				["Automatic Whisper Windows"] = true,
-				["Borders/Background"] = false,
+				["Invite Links"] = false,
+				["Disable Buttons"] = false,
 				["ChatTabs"] = true,
-				["Disable Buttons"] = true,
-				["All Edge resizing"] = true,
+				["Chat Font"] = true,
+				["Borders/Background"] = false,
 			},
 			["welcomeMessaged"] = true,
 		},

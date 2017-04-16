@@ -2,42 +2,62 @@
 TradeSkillMaster_MailingDB = {
 	["g@ @sendDelay"] = 0.5,
 	["g@ @sendItemsIndividually"] = false,
+	["f@Alliance - Steamwheedle Cartel@deMailTarget"] = "",
 	["_scopeKeys"] = {
 		["char"] = {
 			"Redus - Burning Legion", -- [1]
+			"Ðeadshot - Burning Legion", -- [2]
+			"Ðeathshot - Steamwheedle Cartel", -- [3]
+			"Kot - Chamber of Aspects", -- [4]
 		},
 		["realm"] = {
 			"Burning Legion", -- [1]
+			"Steamwheedle Cartel", -- [2]
+			"Chamber of Aspects", -- [3]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
 		["factionrealm"] = {
 			"Horde - Burning Legion", -- [1]
+			"Alliance - Steamwheedle Cartel", -- [2]
+			"Horde - Chamber of Aspects", -- [3]
 		},
 	},
 	["g@ @helpPlatesShown"] = {
+		["other"] = true,
 		["inbox"] = true,
 		["groups"] = true,
+		["quickSend"] = true,
 	},
+	["c@Kot - Chamber of Aspects@goldMailTarget"] = "",
 	["_hash"] = 3711258,
+	["c@Ðeadshot - Burning Legion@goldKeepAmount"] = 1000000,
 	["g@ @inboxMessages"] = true,
+	["c@Kot - Chamber of Aspects@goldKeepAmount"] = 1000000,
 	["g@ @defaultMailTab"] = true,
-	["_currentProfile"] = {
-		["Redus - Burning Legion"] = "Default",
-	},
-	["g@ @resendDelay"] = 1,
-	["g@ @sendMessages"] = true,
 	["f@Horde - Burning Legion@deMailTarget"] = "",
+	["_currentProfile"] = {
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+	},
+	["g@ @autoCheck"] = true,
+	["g@ @resendDelay"] = 1,
+	["c@Ðeathshot - Steamwheedle Cartel@goldMailTarget"] = "",
+	["g@ @showReloadBtn"] = true,
+	["c@Ðeathshot - Steamwheedle Cartel@goldKeepAmount"] = 1000000,
+	["g@ @keepMailSpace"] = 0,
 	["g@ @defaultPage"] = 1,
 	["g@ @deleteEmptyNPCMail"] = false,
 	["g@ @openMailSound"] = "TSM_NO_SOUND",
 	["g@ @displayMoneyCollected"] = true,
 	["c@Redus - Burning Legion@goldKeepAmount"] = 1000000,
 	["c@Redus - Burning Legion@goldMailTarget"] = "",
-	["g@ @showReloadBtn"] = true,
-	["g@ @autoCheck"] = true,
+	["g@ @sendMessages"] = true,
+	["f@Horde - Chamber of Aspects@deMailTarget"] = "",
 	["g@ @deMaxQuality"] = 2,
 	["_version"] = 1,
-	["g@ @keepMailSpace"] = 0,
+	["c@Ðeadshot - Burning Legion@goldMailTarget"] = "",
 }

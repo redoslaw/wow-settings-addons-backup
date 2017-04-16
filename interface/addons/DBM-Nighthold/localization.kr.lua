@@ -11,6 +11,12 @@ L= DBM:GetModLocalization(1706)
 ---------------------------
 L= DBM:GetModLocalization(1725)
 
+L:SetOptionLocalization({
+	InfoFrameBehavior	= "전투 도중 정보 창에 표시할 정보 설정",
+	TimeRelease			= "시간 방출 대상자 표시",
+	TimeBomb			= "시한 폭탄 대상자 표시"
+})
+
 ---------------------------
 -- Trilliax --
 ---------------------------
@@ -25,10 +31,6 @@ L= DBM:GetModLocalization(1751)
 -- Tichondrius --
 ------------------
 L= DBM:GetModLocalization(1762)
-
-L:SetOptionLocalization({
-	HUDSeekerLines		= "추적 박쥐떼 경로에 HUD 표시"
-})
 
 L:SetMiscLocalization({
 	First				= "1번 낙인",
@@ -79,8 +81,7 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1732)
 
 L:SetOptionLocalization({
-	ShowCustomNPAuraTextures	= "별자리의 징표에 걸리면 징표 디버프 대신 사용자 지정 녹색/빨간색 아이콘 표시",
-	FilterOtherSigns		= "당신이 걸리지 않은 징표는 대상 알림에서 제외합니다."
+	ConjunctionYellFilter	= "$spell:205408 동안 다른 모든 일반 대화 메시지를 끄고 천체 정렬이 끝날 때까지 별자리 징표만 도배"
 })
 
 ------------------
@@ -110,7 +111,8 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1737)
 
 L:SetMiscLocalization({
-	mythicPhase3		= "악마사냥꾼의 영혼을 육신으로 돌려보내야 할 때요... 군단의 주인을 거부해야 하오!"
+	mythicPhase3		= "악마사냥꾼의 영혼을 육신으로 돌려보내야 할 때요... 군단의 주인을 거부해야 하오!",
+	prePullRP			= "아, 그래, 영웅들이 납셨군. 아주 끈질겨... 자신감이 넘치고. 그 오만 때문에 파멸할 것이다!"
 })
 
 -------------

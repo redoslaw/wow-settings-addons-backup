@@ -26,6 +26,7 @@ ChatterDB = {
 						false, -- [6]
 						false, -- [7]
 						false, -- [8]
+						false, -- [9]
 						[0] = false,
 					},
 				},
@@ -781,10 +782,10 @@ ChatterDB = {
 							["g"] = 0.784313797950745,
 							["b"] = 1,
 						},
-						["RAID_LEADER"] = {
+						["AFK"] = {
 							["r"] = 1,
-							["g"] = 0.282352954149246,
-							["b"] = 0.0352941192686558,
+							["g"] = 0.501960813999176,
+							["b"] = 1,
 						},
 						["CHANNEL_NOTICE"] = {
 							["r"] = 0.752941250801086,
@@ -796,10 +797,10 @@ ChatterDB = {
 							["g"] = 0.866666734218597,
 							["b"] = 0,
 						},
-						["AFK"] = {
+						["RAID_LEADER"] = {
 							["r"] = 1,
-							["g"] = 0.501960813999176,
-							["b"] = 1,
+							["g"] = 0.282352954149246,
+							["b"] = 0.0352941192686558,
 						},
 						["ARENA_POINTS"] = {
 							["r"] = 1,
@@ -918,8 +919,8 @@ ChatterDB = {
 		["ChatTabs"] = {
 			["profiles"] = {
 				["Burning Legion"] = {
-					["chattabs"] = false,
 					["alpha"] = 1,
+					["chattabs"] = false,
 				},
 			},
 		},
@@ -936,40 +937,45 @@ ChatterDB = {
 		},
 		["Editbox History"] = {
 			["realm"] = {
+				["Chamber of Aspects"] = {
+					["history"] = {
+						"/addons", -- [1]
+					},
+				},
 				["Burning Legion"] = {
 					["history"] = {
-						"/p swich to dps", -- [1]
-						"/p for a while", -- [2]
-						"/p we still have space for healer and dps then", -- [3]
-						"/p ppl see on group we hv healer ", -- [4]
-						"/p both ;d", -- [5]
-						"/p u will heal again I'm affraid :D", -- [6]
-						"/p ok Ugly swich to heal ", -- [7]
-						"/p inside", -- [8]
-						"/p u got sum ?", -- [9]
-						"/p 1 sec", -- [10]
-						"/p u xD", -- [11]
-						"/p Earth", -- [12]
-						"/p 5", -- [13]
-						"/p he's boosting us", -- [14]
-						"/p on his key", -- [15]
-						"/p reset?", -- [16]
-						"/p That kind of boost I understand ;)", -- [17]
-						"/p I could", -- [18]
-						"/p what do u think guys?", -- [19]
-						"/p ye lets do it", -- [20]
-						"/p I am farming mos for ap mostly", -- [21]
-						"/p but 1 dht should be fine", -- [22]
-						"/p ;p", -- [23]
-						"/p forgpt bl lol", -- [24]
-						"/roll", -- [25]
-						"/p ty", -- [26]
-						"/p sure", -- [27]
-						"/p We will stay in touch", -- [28]
-						"/p I think we pass for today, its 4:38 am", -- [29]
-						"/p tomorrow we will back to this :P", -- [30]
-						"/p thanks mate for joining", -- [31]
-						"/p take care", -- [32]
+						"/p FFS!", -- [1]
+						"/tsm", -- [2]
+						"/tsm", -- [3]
+						"/tsm destroy", -- [4]
+						"/tsm", -- [5]
+						"/tsm destroy", -- [6]
+						"/tsm", -- [7]
+						"/tsm destroy", -- [8]
+						"/addons", -- [9]
+						"/addons", -- [10]
+						"/routes", -- [11]
+						"/routes", -- [12]
+						"/routes", -- [13]
+						"/routes", -- [14]
+						"/routes", -- [15]
+						"/routes", -- [16]
+						"/routes", -- [17]
+						"/routes", -- [18]
+						"/routes", -- [19]
+						"/routes", -- [20]
+						"/routes", -- [21]
+						"/routes", -- [22]
+						"/routes", -- [23]
+						"/routes", -- [24]
+						"/routes", -- [25]
+						"/routes", -- [26]
+						"/routes", -- [27]
+						"/routes", -- [28]
+						"/gathermate", -- [29]
+						"/gathermate", -- [30]
+						"/routes", -- [31]
+						"/routes", -- [32]
 					},
 				},
 			},
@@ -987,11 +993,19 @@ ChatterDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Redus - Burning Legion",
-		["Redus - Burning Legion"] = "Burning Legion",
-		["Kot - Chamber of Aspects"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Burning Legion",
+		["Pandared - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Redus - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["MAGE"] = {
@@ -1004,11 +1018,11 @@ ChatterDB = {
 		},
 		["Burning Legion"] = {
 			["modules"] = {
-				["Invite Links"] = false,
-				["Borders/Background"] = false,
+				["Disable Buttons"] = false,
 				["ChatTabs"] = true,
 				["Chat Font"] = true,
-				["Disable Buttons"] = false,
+				["Borders/Background"] = false,
+				["Invite Links"] = false,
 			},
 			["welcomeMessaged"] = true,
 		},

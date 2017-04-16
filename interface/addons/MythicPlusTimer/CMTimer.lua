@@ -35,6 +35,7 @@ function MythicPlusTimerCMTimer:Init()
     MythicPlusTimerCMTimer.frame:RegisterForDrag("LeftButton")
     MythicPlusTimerCMTimer.frame:SetScript("OnDragStart", MythicPlusTimerCMTimer.frame.StartMoving)
     MythicPlusTimerCMTimer.frame:SetScript("OnDragStop", MythicPlusTimerCMTimer.frame.StopMovingOrSizing)
+    MythicPlusTimerCMTimer.frame:SetScript("OnMouseDown", MythicPlusTimerCMTimer.OnFrameMouseDown)
     MythicPlusTimerCMTimer.frame:SetWidth(100);
     MythicPlusTimerCMTimer.frame:SetHeight(100);
     MythicPlusTimerCMTimer.frameToggle = false
@@ -72,6 +73,11 @@ function MythicPlusTimerCMTimer:ToggleFrame()
         MythicPlusTimerDB.pos.relativePoint = relativePoint;
         MythicPlusTimerDB.pos.top = yOfs;
         MythicPlusTimerDB.pos.left = xOfs;
+
+        local _, _, difficulty, _, _, _, _, _ = GetInstanceInfo();
+        if difficulty ~= 8 then
+            MythicPlusTimerCMTimer.frame:Hide();
+        end
     else
         MythicPlusTimerCMTimer.frame:SetMovable(true)
         local backdrop = {
@@ -90,11 +96,20 @@ function MythicPlusTimerCMTimer:ToggleFrame()
 
         MythicPlusTimerCMTimer.frame:SetBackdrop(backdrop)
         MythicPlusTimerCMTimer.frameToggle = true
+        MythicPlusTimerCMTimer.frame:Show();
     end
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
 function MythicPlusTimerCMTimer:OnComplete()
+    if not MythicPlusTimerDB.bestTimes[MythicPlusTimerDB.currentRun.currentZoneID]["_complete"] or MythicPlusTimerDB.currentRun.time < MythicPlusTimerDB.bestTimes[MythicPlusTimerDB.currentRun.currentZoneID]["_complete"] then
+        MythicPlusTimerDB.bestTimes[MythicPlusTimerDB.currentRun.currentZoneID]["_complete"] = MythicPlusTimerDB.currentRun.time
+    end
+    
+    if MythicPlusTimerDB.config.objectiveTimeInChat then
+        MythicPlusTimer:Print(MythicPlusTimerDB.currentRun.zoneName.." +"..MythicPlusTimerDB.currentRun.cmLevel.." "..MythicPlusTimer.L["Completed"].."! "..MythicPlusTimer.L["Time"]..": "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.currentRun.time).." "..MythicPlusTimer.L["BestTime"]..": "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.bestTimes[MythicPlusTimerDB.currentRun.currentZoneID]["_complete"]))
+    end
+    
     ObjectiveTrackerFrame:Show();
     MythicPlusTimerCMTimer.isCompleted = true;
     MythicPlusTimerCMTimer.frame:Hide();
@@ -230,12 +245,17 @@ function MythicPlusTimerCMTimer:Draw()
     if MythicPlusTimerDB.currentRun.death == nil then
         MythicPlusTimerDB.currentRun.death = 0
     end
-    
     local cmLevel, affixes, empowered = C_ChallengeMode.GetActiveKeystoneInfo();
-    local zoneName, _, maxTime = C_ChallengeMode.GetMapInfo(currentZoneID);
+    local currentMapId = C_ChallengeMode.GetActiveChallengeMapID();
+    local zoneName, _, maxTime = C_ChallengeMode.GetMapInfo(currentMapId);
     local bonus = C_ChallengeMode.GetPowerLevelDamageHealthMod(cmLevel);
-    
+
     -- Info
+    MythicPlusTimerDB.currentRun.cmLevel = cmLevel
+    MythicPlusTimerDB.currentRun.zoneName = zoneName
+    MythicPlusTimerDB.currentRun.currentZoneID = currentZoneID
+    MythicPlusTimerDB.currentRun.time = timeCM
+
     if not MythicPlusTimerCMTimer.frames.info then
         local f = CreateFrame("Frame", nil, MythicPlusTimerCMTimer.frame)
         f:SetAllPoints()
@@ -341,6 +361,7 @@ function MythicPlusTimerCMTimer:Draw()
     MythicPlusTimerCMTimer.frames.time.timer.text:SetText(MythicPlusTimerCMTimer:FormatSeconds(timeLeft));
     MythicPlusTimerCMTimer.frames.time.timer2.text:SetText("(".. MythicPlusTimerCMTimer:FormatSeconds(timeCM) .." / ".. MythicPlusTimerCMTimer:FormatSeconds(maxTime) ..")");
 
+    MythicPlusTimerDB.currentRun.timeLeft = timeLeft
     
     
     -- Chest Timer
@@ -356,6 +377,9 @@ function MythicPlusTimerCMTimer:Draw()
     if timeLeft2 < 0 then
         timeLeft2 = 0;
     end
+
+    MythicPlusTimerDB.currentRun.timeLeft3 = timeLeft3
+    MythicPlusTimerDB.currentRun.timeLeft2 = timeLeft2
     
     if not MythicPlusTimerCMTimer.frames.chesttimer then
         local l2 = CreateFrame("Frame", nil, MythicPlusTimerCMTimer.frame)
@@ -447,6 +471,10 @@ function MythicPlusTimerCMTimer:Draw()
                 if not MythicPlusTimerDB.bestTimes[currentZoneID][i] or timeCM < MythicPlusTimerDB.bestTimes[currentZoneID][i] then
                     MythicPlusTimerDB.bestTimes[currentZoneID][i] = timeCM
                 end
+
+                if MythicPlusTimerDB.config.objectiveTimeInChat then
+                    MythicPlusTimer:Print(name.." "..MythicPlusTimer.L["Completed"]..". "..MythicPlusTimer.L["Time"]..": "..MythicPlusTimerCMTimer:FormatSeconds(timeCM).." "..MythicPlusTimer.L["BestTime"]..": "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.bestTimes[currentZoneID][i]))
+                end
             end
         else
             MythicPlusTimerCMTimer.frames.objectives[i].text:SetFontObject("GameFontHighlight")
@@ -525,3 +553,19 @@ function MythicPlusTimerCMTimer:FormatSeconds(seconds)
     return min .. ":" .. sec
 end
 
+-- ---------------------------------------------------------------------------------------------------------------------
+function MythicPlusTimerCMTimer:OnFrameMouseDown()
+    if IsModifiedClick("CHATLINK") then
+        if not MythicPlusTimerDB.currentRun.time then
+            return
+        end
+        
+        local timeText = MythicPlusTimer.L["TimeLeft"]..": "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.currentRun.timeLeft).." || +2: "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.currentRun.timeLeft2).." || +3: "..MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.currentRun.timeLeft3)
+
+        local channel = "PARTY"
+        if GetNumGroupMembers(LE_PARTY_CATEGORY_INSTANCE) > 0 then
+            channel = "INSTANCE_CHAT"
+        end
+        SendChatMessage(timeText, channel)
+    end
+end

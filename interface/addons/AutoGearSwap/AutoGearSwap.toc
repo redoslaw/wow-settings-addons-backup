@@ -1,0 +1,12 @@
+## Interface: 70000
+## Title: AutoGearSwap
+## Author: Tipton @ Shadowsong
+## Version: 1.0
+## Notes: Remembers what gear you are wearing in each specialization
+## eMail: tiptonshadowsong@googlemail.com
+## URL: original-guild.net
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: AutoGearSwapPrefs
+
+AutoGearSwap.lua

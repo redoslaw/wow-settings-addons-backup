@@ -5,11 +5,11 @@ wherereportraidach = "raid_warning"
 wherereportpartyach = "party"
 raquantrepeatach = 5
 raquantrepeatachtm = 2
-raoldvern2 = 0
+raoldvern2 = 7.102
 raaddoninstalledsins = "16/6/2015"
-raminibutshowt = true
+raminibutshowt = false
 RA_Settings = {
-	["RAMinimapPos"] = -176,
+	["RAMinimapPos"] = -175.162179445907,
 }
 rasoundtoplay = {
 	1, -- [1]
@@ -21,4 +21,4 @@ rasoundtoplay = {
 }
 raenablebg = 1
 psdonaspanvar = nil
-radonateq1 = 1
+radonateq1 = 50

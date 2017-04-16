@@ -1,0 +1,11 @@
+## Interface: 70100
+## Title: EasyLoot
+## Author: Zaman
+## Version: 3.3.1
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: EasyLootSettings
+## SavedVariablesPerCharacter: EasyLootLootList
+## OptionalDeps: AtlasLoot, Auc-Auctioneer
+locale\localization.lua
+EasyLoot.xml

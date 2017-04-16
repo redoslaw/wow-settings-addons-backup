@@ -3,7 +3,7 @@ ActionBarSaverDB = {
 	["restoreRank"] = false,
 	["macro"] = false,
 	["sets"] = {
-		["DEATHKNIGHT"] = {
+		["HUNTER"] = {
 		},
 		["WARRIOR"] = {
 		},
@@ -13,50 +13,19 @@ ActionBarSaverDB = {
 		},
 		["PRIEST"] = {
 		},
+		["PALADIN"] = {
+		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
+		["DEMONHUNTER"] = {
 		},
-		["HUNTER"] = {
-			["bmhunter"] = {
-				"macro|1||HUNTER: Bestia|INTERFACE\\ICONS\\ability_hunter_sickem|#showtooltip [modifier:shift] [modifier:alt] Mend Pet; Dire Beast; Mend Pet/n/cast [modifier:shift] Mend Pet/n/cast [modifier:alt] Mend Pet/n/cast [nomodifier] Dire Beast", -- [1]
-				"spell|3044||Arcane Shot||", -- [2]
-				"spell|2643||Multi-Shot||", -- [3]
-				"macro|4||Deterrence|Interface\\Icons\\Ability_Whirlwind|#showtooltip/n/cancelaura Deterrence/n/cast [nomodifier] Deterrence/n/cast [modifier:alt] Feign Death/n/cast [modifier:ctrl] Feign Death", -- [4]
-				"spell|82692||Focus Fire||", -- [5]
-				"spell|83242||Call Pet 2||", -- [6]
-				"spell|136||Mend Pet||", -- [7]
-				"spell|5118||Aspect of the Cheetah||", -- [8]
-				nil, -- [9]
-				"spell|20572||Blood Fury|Racial|", -- [10]
-				"spell|883||Call Pet 1||", -- [11]
-				"spell|2641||Dismiss Pet||", -- [12]
-				[58] = "spell|77769||Trap Launcher||",
-				[60] = "item|6948||Hearthstone",
-				[61] = "spell|53351||Kill Shot||",
-				[62] = "macro|62||HUNTER: Kill Com|Interface\\Icons\\Ability_Hunter_KillCommand|#showtooltip Kill Command/n/cast Bestial Wrath/n/cast Kill Command/n/petattack",
-				[63] = "spell|5116||Concussive Shot||",
-				[64] = "macro|64||Steady Shot|INTERFACE\\ICONS\\ability_hunter_cobrashot|#showtooltip/n/cancelaura Deterrence/n/cancelaura hand of protection/n/cast Steady Shot",
-				[39] = "spell|83968||Mass Resurrection|Guild Perk|",
-				[71] = "macro|71||HUNTER: Interrup|Interface\\Icons\\inv_ammo_arrow_03|#showtooltip/n/cast [modifier:alt] Tranquilizing Shot/n/cast [modifier:shift] Concussive Shot/n/cast [nomodifier] Counter Shot",
-				[48] = "item|6948||Hearthstone",
-				[49] = "item|128318||Touch of the Void",
-				[50] = "spell|53271||Master's Call||",
-				[26] = "item|112324||Nightmarish Hitching Post",
-				[52] = "spell|6197||Eagle Eye||",
-				[53] = "spell|13159||Aspect of the Pack||",
-				[54] = "spell|781||Disengage||",
-				[55] = "spell|82941||Ice Trap|Frost - Trap Launcher|",
-				[56] = "spell|19574||Bestial Wrath||",
-				[57] = "spell|1462||Beast Lore||",
-				[67] = "macro|67||HUNTER: MOVE|Interface\\Icons\\Ability_Rogue_Feint|#showtooltip/n/cast [modifier:shift] Aspect of the Cheetah/n/cast [modifier:alt] Aspect of the Cheetah/n/cast [nomodifier] Disengage",
-			},
+		["DEATHKNIGHT"] = {
 		},
 		["DRUID"] = {
 		},
 		["MONK"] = {
 		},
-		["PALADIN"] = {
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

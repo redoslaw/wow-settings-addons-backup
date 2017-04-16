@@ -115,7 +115,7 @@ CruiseControl: disabled
 Glamour: disabled
 Magneto: disabled
 QuickRoutes: disabled
-Routes: disabled
+Routes: enabled
 GoFish: enabled
 FarmHud: disabled
 FishingBuddy: enabled
@@ -137,3 +137,4 @@ BestInSlot_WarlordsOfDraenorLFR: disabled
 BestInSlot: disabled
 BestInSlot_WarlordsOfDraenor: disabled
 Grid: disabled
+GatherMate2: enabled

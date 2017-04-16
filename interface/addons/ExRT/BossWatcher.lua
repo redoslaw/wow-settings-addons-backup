@@ -1029,7 +1029,8 @@ local BossPhasesData = {
 }
 local BossPhasesFrame = CreateFrame("Frame")
 local BossPhasesBossmodPhaseCounter, BossPhasesBossmodPhase, BossPhasesBossmodEnabled = 1
-local BossPhasesBossmod = function ()
+local BossPhasesBossmod
+function BossPhasesBossmod()
 	if BigWigsLoader and type(BigWigsLoader)=='table' and BigWigsLoader.RegisterMessage then
 		local r = {}
 		function r:BigWigs_Message (event, module, key, text, ...)
@@ -1440,6 +1441,161 @@ do
 		end
 		ExRT.F.ScheduleTimer(ZoneCheck,2)
 	end
+end
+
+local function AddNotRealDeath(destGUID,timestamp,spellID)
+	local destData = deathLog[destGUID]
+	if not destData then
+		destData = {}
+		for i=1,deathMaxEvents do
+			destData[i] = {}
+		end
+		destData.c = 0
+		deathLog[destGUID] = destData
+	end
+	local destTable = {
+		{5,destGUID,timestamp,active_segment,spellID},
+	}
+	destTable.header = destTable[1]
+	local destTableLen = 1
+	fightData_deathLog[#fightData_deathLog + 1] = destTable
+	local c = destData.c
+	for i=c,1,-1 do
+		local copyTable = destData[i]
+		if copyTable.t then
+			destTableLen = destTableLen + 1
+			destTable[destTableLen] = {
+				copyTable.t,
+				copyTable.s,
+				copyTable.ti,
+				copyTable.sp,
+				copyTable.a,
+				copyTable.o,
+				copyTable.sc,
+				copyTable.b,
+				copyTable.ab,
+				copyTable.c,
+				false,
+				copyTable.h,
+				copyTable.hm,
+				copyTable.ia,
+				copyTable.sm,
+				copyTable.dm,
+			}
+		end
+	end
+	for i=deathMaxEvents,c+1,-1 do
+		local copyTable = destData[i]
+		if copyTable.t then
+			destTableLen = destTableLen + 1
+			destTable[destTableLen] = {
+				copyTable.t,
+				copyTable.s,
+				copyTable.ti,
+				copyTable.sp,
+				copyTable.a,
+				copyTable.o,
+				copyTable.sc,
+				copyTable.b,
+				copyTable.ab,
+				copyTable.c,
+				false,
+				copyTable.h,
+				copyTable.hm,
+				copyTable.ia,
+				copyTable.sm,
+				copyTable.dm,
+			}
+		end
+	end
+	destData.schFunc = function()
+		local tinsert = tinsert
+		if destData.c ~= c then
+			local d = {}
+			if destData.c < c then
+				for i=destData.c,1,-1 do
+					local copyTable = destData[i]
+					if copyTable.t and (copyTable.ti - timestamp) <= 0.25 then
+						d[#d+1] = {
+							copyTable.t,
+							copyTable.s,
+							copyTable.ti,
+							copyTable.sp,
+							copyTable.a,
+							copyTable.o,
+							copyTable.sc,
+							copyTable.b,
+							copyTable.ab,
+							copyTable.c,
+							false,
+							copyTable.h,
+							copyTable.hm,
+							copyTable.ia,
+							copyTable.sm,
+							copyTable.dm,
+						}
+					end
+				end
+				for i=deathMaxEvents,c+1,-1 do
+					local copyTable = destData[i]
+					if copyTable.t and (copyTable.ti - timestamp) <= 0.25 then
+						d[#d+1] = {
+							copyTable.t,
+							copyTable.s,
+							copyTable.ti,
+							copyTable.sp,
+							copyTable.a,
+							copyTable.o,
+							copyTable.sc,
+							copyTable.b,
+							copyTable.ab,
+							copyTable.c,
+							false,
+							copyTable.h,
+							copyTable.hm,
+							copyTable.ia,
+							copyTable.sm,
+							copyTable.dm,
+						}
+					end						
+				end
+				for i=#d,1,-1 do
+					tinsert(destTable,1,d[i])
+				end
+			else
+				for i=destData.c,c+1,-1 do
+					local copyTable = destData[i]
+					if copyTable.t and (copyTable.ti - timestamp) <= 0.25 then
+						d[#d+1] = {
+							copyTable.t,
+							copyTable.s,
+							copyTable.ti,
+							copyTable.sp,
+							copyTable.a,
+							copyTable.o,
+							copyTable.sc,
+							copyTable.b,
+							copyTable.ab,
+							copyTable.c,
+							false,
+							copyTable.h,
+							copyTable.hm,
+							copyTable.ia,
+							copyTable.sm,
+							copyTable.dm,
+						}
+					end
+				end
+				for i=#d,1,-1 do
+					tinsert(destTable,1,d[i])
+				end					
+			end
+		end
+		
+		destData.schFunc = nil
+		destData.sch = nil
+	end
+	destData.sch = C_Timer.NewTimer(1,destData.schFunc)
 end
 
 local EnvironmentalTypeToSpellID = {
@@ -1887,6 +2043,8 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 			lotmData[5] = timestamp
 		elseif spellID == 186263 then	--Shadow Mend: effective healing fix, remove damage from debuff
 			spellFix_SM[destGUID] = spellTable
+		elseif spellID == 213313 then	--Paladin: Divine intervention
+			AddNotRealDeath(destGUID,timestamp,spellID)
 		end
 		
 	---------------------------------
@@ -2010,6 +2168,12 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 				spellsSchool[spellID] = school
 			end
 		end
+		
+		
+		if spellID == 45181 or spellID == 211336 or spellID == 87024 or spellID == 229333 or spellID == 116888 or spellID == 209261 then	--Cheated Death, Archbishop Benedictus' Restitution, Cauterize, Sands of Time (Trinket), Shroud of Purgatory, Uncontained Fel 
+			AddNotRealDeath(destGUID,timestamp,spellID)
+		end
+		
 		
 	elseif event == "SPELL_AURA_REMOVED" then
 		local spellID,_,school,auraType,amount = ...
@@ -2310,6 +2474,11 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		end
 		healingFromSpellTableSpell[active_segment] = (healingFromSpellTableSpell[active_segment] or 0)+amount
 
+
+		if spellID == 213313 then	--Paladin: Divine intervention
+			AddNotRealDeath(destGUID,timestamp,spellID)
+		end
+
 	---------------------------------
 	------ miss
 	---------------------------------	
@@ -2361,6 +2530,7 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		1: damage
 		2: heal
 		3: death
+		5: death simulation (fd, sor proc)
 		]]	
 			
 		local destData = deathLog[destGUID]
@@ -2377,6 +2547,12 @@ local function CLEUParser(self,_,timestamp,event,hideCaster,sourceGUID,sourceNam
 		}
 		local destTableLen = 1
 		fightData_deathLog[#fightData_deathLog + 1] = destTable
+		
+		if destData.sch then
+			destData.sch:Cancel()
+			destData.schFunc()
+		end
+		
 		for i=destData.c,1,-1 do
 			local copyTable = destData[i]
 			if copyTable.t then
@@ -10354,9 +10530,18 @@ function BWInterfaceFrameLoad()
 				if data[i][1] == 3 then
 					local text = GetGUID(data[i][2])..GUIDtoText(" [%s]",data[i][2]) .. " ".. L.BossWatcherDeathDeath
 					
-					DeathTab_SetLine(i,timeText,text,0,0,0,data[i][4])
+					DeathTab_SetLine(i,timeText,text,0,0,0)
 					
 					reportData[9][#reportData[9] + 1] = "-0.0s "..L.BossWatcherDeathDeath
+					
+					deathTime = _time
+				elseif data[i][1] == 5 then
+					local spellName,_,spellTexture = GetSpellInfo(data[i][5])
+					local text = format(GUILD_NEWS_FORMAT3,GetGUID(data[i][2])..GUIDtoText(" [%s]",data[i][2]),"|T"..spellTexture..":0|t"..spellName)
+					
+					DeathTab_SetLine(i,timeText,text,0,0,0,data[i][5])
+					
+					reportData[9][#reportData[9] + 1] = "-0.0s "..spellName
 					
 					deathTime = _time
 				elseif data[i][1] == 1 then
@@ -10437,7 +10622,8 @@ function BWInterfaceFrameLoad()
 	local function DeathTab_SetDeathList()
 		local counter = 0
 		for i,deathData in ipairs(CurrentFight.deathLog) do
-			local GUID = deathData[1][2]
+			local header = deathData.header or deathData[1]
+			local GUID = header[2]
 			local isFriendly = ExRT.F.UnitIsFriendlyByUnitFlag2(CurrentFight.reaction[GUID])
 			if ((isFriendly and not DeathTab_Variables.isEnemy) or (not isFriendly and DeathTab_Variables.isEnemy)) and (deathData[2] and deathData[2][1]) then
 				counter = counter + 1
@@ -10448,8 +10634,8 @@ function BWInterfaceFrameLoad()
 				end
 				local text = classColor..GetGUID(GUID)..GUIDtoText(" [%s]",GUID).."|r"
 				local spellID = nil
-				for j=2,#deathData do
-					if deathData[j][1] == 1 and deathData[j][6] > 0 then
+				for j=1,#deathData do
+					if deathData[j] ~= header and deathData[j][1] == 1 and deathData[j][6] > 0 then
 						local sourceColor = "|cffbbbbbb"
 						if ExRT.F.GetUnitTypeByGUID(deathData[j][2]) == 0 then
 							sourceColor = "|c"..ExRT.F.classColorByGUID(deathData[j][2])
@@ -10460,13 +10646,20 @@ function BWInterfaceFrameLoad()
 						break
 					end
 				end
+				local cR,cG,cB = 0,0,0
+				if header[1] == 5 then
+					local spellName,_,spellTexture = GetSpellInfo(header[5])
+					spellID = header[5]
+					text = text .." (|T"..spellTexture..":0|t"..spellName..")"
+					cR,cG,cB = .8,.8,0
+				end
 				
 				local _time = timestampToFightTime( deathData[1][3] )
 				local timeText = date("%M:%S.",_time)..format("%03d",_time * 1000 % 1000)
 				
 				local arrowPos = _time / GetFightLength(true)
 				
-				DeathTab_SetLine(counter,timeText,text,0,0,0,spellID,i,arrowPos)
+				DeathTab_SetLine(counter,timeText,text,cR,cG,cB,spellID,i,arrowPos)
 				BWInterfaceFrame.tab.tabs[9].lines[counter]:Show()
 			end
 		end
@@ -10476,8 +10669,9 @@ function BWInterfaceFrameLoad()
 	local function DeathTab_UpdateData()
 		wipe(BWInterfaceFrame.tab.tabs[9].sourceDropDown.List)
 		local list = BWInterfaceFrame.tab.tabs[9].sourceDropDown.List
-		for i,deathData in ipairs(CurrentFight.deathLog) do	
-			local GUID = deathData[1][2]
+		for i,deathData in ipairs(CurrentFight.deathLog) do
+			local header = deathData.header or deathData[1]
+			local GUID = header[2]
 			local isFriendly = ExRT.F.UnitIsFriendlyByUnitFlag2(CurrentFight.reaction[GUID])
 			if ((isFriendly and not DeathTab_Variables.isEnemy) or (not isFriendly and DeathTab_Variables.isEnemy)) and (deathData[2] and deathData[2][1]) then
 				local classColor = ""
@@ -10487,7 +10681,7 @@ function BWInterfaceFrameLoad()
 				elseif isFriendly then
 					classColor = "|cffbbbbbb"
 				end
-				local text = date("%M:%S ",timestampToFightTime(deathData[1][3]))..classColor..GetGUID(GUID)..GUIDtoText(" [%s]",GUID)
+				local text = date("%M:%S"..(header[1] == 5 and "*" or "").." ",timestampToFightTime(header[3]))..classColor..GetGUID(GUID)..GUIDtoText(" [%s]",GUID)
 				list[#list+1] = {
 					text = text,
 					arg1 = i,
@@ -10495,7 +10689,7 @@ function BWInterfaceFrameLoad()
 					func = DeathTab_SetDeath,
 					hoverFunc = DamageTab_ShowArrow,
 					leaveFunc = DamageTab_HideArrow,
-					hoverArg = timestampToFightTime( deathData[1][3] ) / GetFightLength(true),
+					hoverArg = timestampToFightTime( header[3] ) / GetFightLength(true),
 				}
 			end
 		end

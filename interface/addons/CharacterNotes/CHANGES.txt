@@ -1,0 +1,12 @@
+tag 90878e49b8f1700ec658f98c965da7304c548184 7.2.0
+Author:	Talryn <git@talryn.sent.com>
+Date:	Tue Mar 28 12:33:46 2017 -0400
+
+Tag as 7.2.0.
+
+commit ac75ec3694f192e22eb8d46496b7934ce1022cc1
+Author: Talryn <git@talryn.sent.com>
+Date:   Tue Mar 28 04:24:44 2017 -0400
+
+    Update TOC for 7.2.
+

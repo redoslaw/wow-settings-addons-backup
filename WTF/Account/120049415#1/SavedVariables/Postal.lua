@@ -1,12 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Redus - Burning Legion"] = "Redus - Burning Legion",
-		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
-		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
-		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -17,6 +10,13 @@ Postal3DB = {
 				"Ðeathshot|Steamwheedle Cartel|Alliance|100|HUNTER", -- [5]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
 	},
 	["profiles"] = {
 		["Ðeadshot - Burning Legion"] = {
@@ -32,11 +32,11 @@ Postal3DB = {
 				},
 			},
 		},
-		["Redbullek - Burning Legion"] = {
+		["Kot - Chamber of Aspects"] = {
 		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
 		},
-		["Kot - Chamber of Aspects"] = {
+		["Redbullek - Burning Legion"] = {
 		},
 	},
 }

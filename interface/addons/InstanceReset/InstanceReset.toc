@@ -1,4 +1,4 @@
-##Interface: 70100
+##Interface: 70200
 ##Title: InstanceReset
 ##Author: oksky23@gmail.com _ Azshara 
 ##Version: 1.01

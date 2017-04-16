@@ -11,7 +11,7 @@ ServerHopSettings = {
 	true, -- [3]
 	true, -- [4]
 	false, -- [5]
-	["DEFAULT_MODE"] = true,
+	["DEFAULT_MODE"] = false,
 	["NON_AUTO_GROUPS_WAIT"] = 5,
 	["STATUS_FRAME_POSITION"] = 2,
 	["MINIMAP_SETTINGS"] = {

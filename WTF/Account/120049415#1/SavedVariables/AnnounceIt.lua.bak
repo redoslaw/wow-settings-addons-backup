@@ -1,25 +1,32 @@
 
 aiDB = {
-	["global"] = {
-		["version"] = "3.2.7",
-	},
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.2.9",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["lastmessage"] = {
-				["message"] = "Curse i grupy",
-				["type"] = "regular",
-				["chan"] = "OFFICER",
-			},
 			["messages"] = {
-				["Curse i grupy"] = {
+				["GEAR"] = {
 					["text"] = {
-						"!!! UWAGA SPAM :D  !!!", -- [1]
-						"Jezeli szukasz grupy na mythic 5-man lub chcesz zameldowac gotowosc do raidowania, zapraszamy na nasz serwer glosowy na curse. Link na http://wipeforged.com", -- [2]
-						"W przypadku wspolnego raidowania obecnosc na voice jest obowiazkowa!", -- [3]
-						"Grupy C i D poszukuja tanka do farmienia mythic 5-man. Po szczegoly zapraszamy na odpowiednie kanaly.", -- [4]
+						"", -- [1]
+						"|cffff8000|Hitem:132410:5427:130219::::::110:63:::2:3459:3458:::|h[Shard of the Exodar]|h|r|cffff8000|Hitem:132406::::::::110:63:::2:3459:3458:::|h[Marquee Bindings of the Sun King]|h|r", -- [2]
+						"|cffa335ee|Hitem:142157::130219::::::110:63::23:4:1808:3453:1487:3337:::|h[Aran's Relaxing Ruby]|h|r|cffa335ee|Hitem:142297::::::::110:63::23:3:3454:1492:3337:::|h[Robes of the Ancient Chronicle]|h|r", -- [3]
+						"", -- [4]
 						"", -- [5]
 					},
 					["custom"] = {
@@ -29,9 +36,72 @@ aiDB = {
 						"", -- [4]
 					},
 					["chan"] = {
-						["OFFICER"] = true,
+						["WHISPER"] = true,
 					},
 				},
+				["PRIV O GILDII"] = {
+					["text"] = {
+						"", -- [1]
+						"Jezeli moge Cie o to prosic, przeslij prosze jakies krotkie info odnosnie swojej postaci oraz ew. doswiadczenia raidowego na naszego gildyjnego maila: gildia@wipeforged.com. Bardzo ulatwi nam to robote...", -- [2]
+						"Raz dziennie oficerowie sie zbiera, rozpatruja i omawiaja zgloszenia, a nastepnie wysylaja odp.", -- [3]
+						"", -- [4]
+						"", -- [5]
+					},
+					["custom"] = {
+						"", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+					},
+					["chan"] = {
+						["WHISPER"] = true,
+					},
+				},
+				["KALENDARZ"] = {
+					["text"] = {
+						"------------------------------------------------------------", -- [1]
+						"Jezeli ktos jeszcze nie zarejestrowal sie w kalendarzu mythic-radiow, prosze nadrobic temat!!!", -- [2]
+						"---> raid.wipeforged.com <---  (po akceptacji tworzymy postac i zapisujemy sie w eventach !!! )", -- [3]
+						"PROSZE DOKONYWAC ZAPISOW CONAJMNIEJ KILKA GODZ. PRZED RAIDEM!!!", -- [4]
+						"------------------------------------------------------------", -- [5]
+					},
+					["custom"] = {
+						"", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+					},
+					["chan"] = {
+						["OFFICER"] = true,
+						["GUILD"] = true,
+					},
+				},
+				["LINK KEY"] = {
+					["text"] = {
+						"Link your key please.", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+						"", -- [5]
+					},
+					["custom"] = {
+						"", -- [1]
+						"", -- [2]
+						"", -- [3]
+						"", -- [4]
+					},
+					["chan"] = {
+						["WHISPER"] = true,
+					},
+				},
+			},
+			["lastmessage"] = {
+				["message"] = "LINK KEY",
+				["type"] = "regular",
+				["chan"] = "WHISPER",
+			},
+			["minimap"] = {
+				["minimapPos"] = 265.865569758834,
 			},
 		},
 	},

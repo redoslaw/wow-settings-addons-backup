@@ -1,10 +1,59 @@
 
 GuildNoteSetterDB = {
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
 		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
 	},
 	["realm"] = {
+		["Chamber of Aspects"] = {
+			["Cowboys For Horde"] = {
+				["blackList"] = {
+					["updateTime"] = 0,
+					["list"] = {
+					},
+				},
+			},
+		},
 		["Burning Legion"] = {
+			["Golden Bank"] = {
+				["blackList"] = {
+					["list"] = {
+					},
+					["updateTime"] = 0,
+				},
+			},
+			["Rage Quit"] = {
+				["blackList"] = {
+					["list"] = {
+					},
+					["updateTime"] = 0,
+				},
+			},
+			["Encore"] = {
+				["blackList"] = {
+					["list"] = {
+					},
+					["updateTime"] = 0,
+				},
+			},
+			["No one cares"] = {
+				["blackList"] = {
+					["updateTime"] = 0,
+					["list"] = {
+					},
+				},
+			},
 			["Wipeforged"] = {
 				["blackList"] = {
 					["updateTime"] = 0,

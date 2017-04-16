@@ -1,5 +1,11 @@
+changeset:   8:061a5e4cf2fb
+tag:         r49-release
+user:        Tercio
+date:        Tue Apr 04 10:50:01 2017 -0300
+summary:     - framework update.
+
+
 changeset:   7:88a7626ebb8b
-tag:         tip
 user:        Tercio
 date:        Thu Dec 08 13:16:35 2016 -0200
 summary:     - update all libs in the project.

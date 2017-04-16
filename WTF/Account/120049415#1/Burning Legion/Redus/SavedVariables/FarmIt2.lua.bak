@@ -1,0 +1,304 @@
+
+FI_SVPC_CONFIG = {
+	["show"] = true,
+	["Currency"] = {
+		["show"] = true,
+		["scale"] = 1,
+		["alpha"] = 1,
+		["tracking"] = true,
+	},
+	["version"] = 2.38,
+	["scale"] = 1,
+	["move"] = true,
+	["alpha"] = 1,
+	["style"] = "default",
+}
+FI_SVPC_STYLE = {
+	["anchor"] = {
+		["pad"] = 2,
+		["text"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/ARIALN.TTF",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["alpha"] = 1,
+			["size"] = 13,
+		},
+		["background"] = {
+			["color"] = {
+			},
+			["texture"] = "Interface/BUTTONS/UI-QuickSlot",
+			["alpha"] = 0.75,
+			["size"] = {
+				56, -- [1]
+				56, -- [2]
+			},
+		},
+		["border"] = {
+			["offset"] = 2,
+			["tile"] = true,
+			["color"] = {
+			},
+			["texture"] = "",
+			["alpha"] = 1,
+			["size"] = 6,
+		},
+		["size"] = {
+			34, -- [1]
+			34, -- [2]
+		},
+	},
+	["button"] = {
+		["number"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/ARIALN.TTF",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["alpha"] = 1,
+			["size"] = 14,
+		},
+		["glow"] = {
+			["color"] = {
+				0.3, -- [1]
+				0.3, -- [2]
+				0.3, -- [3]
+			},
+			["alpha"] = 0.9,
+		},
+		["pad"] = 5,
+		["background"] = {
+			["color"] = {
+			},
+			["texture"] = "Interface/BUTTONS/UI-EmptySlot.blp",
+			["alpha"] = 0.75,
+			["size"] = {
+				66, -- [1]
+				66, -- [2]
+			},
+		},
+		["text"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/FRIZQT__.TTF",
+			["color"] = {
+				0.5, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
+			},
+			["alpha"] = 0.75,
+			["size"] = 14,
+		},
+		["border"] = {
+			["offset"] = 2,
+			["tile"] = true,
+			["texture"] = "",
+			["alpha"] = 0.9,
+			["size"] = 6,
+		},
+		["size"] = {
+			37, -- [1]
+			37, -- [2]
+		},
+	},
+}
+FI_SVPC_DATA = {
+	["Sessions"] = {
+		{
+			["id"] = 1,
+			["stop"] = 1492269359,
+			["start"] = 1492269205,
+		}, -- [1]
+		{
+			["id"] = 2,
+			["stop"] = 1492280841,
+			["start"] = 1492280730,
+		}, -- [2]
+		{
+			["id"] = 3,
+			["stop"] = 1492304084,
+			["start"] = 1492281009,
+		}, -- [3]
+		{
+			["id"] = 4,
+			["stop"] = 1492343521,
+			["start"] = 1492308856,
+		}, -- [4]
+		{
+			["id"] = 5,
+			["stop"] = 0,
+			["start"] = 1492355773,
+		}, -- [5]
+	},
+	["Currencies"] = {
+		{
+			["success"] = true,
+			["name"] = "",
+			["objective"] = 0,
+			["id"] = 1,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["count"] = 0,
+		}, -- [1]
+		{
+			["success"] = true,
+			["name"] = "",
+			["objective"] = 0,
+			["id"] = 2,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["count"] = 0,
+		}, -- [2]
+		{
+			["success"] = true,
+			["name"] = "",
+			["objective"] = 0,
+			["id"] = 3,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["count"] = 0,
+		}, -- [3]
+	},
+	["Groups"] = {
+		{
+			["show"] = true,
+			["grow"] = "U",
+			["move"] = false,
+			["id"] = 1,
+			["scale"] = 1,
+			["pad"] = 5,
+			["alpha"] = 1,
+			["size"] = 3,
+		}, -- [1]
+	},
+	["Buttons"] = {
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 35,
+			["lastcount"] = 0,
+			["id"] = 1,
+			["group"] = 1,
+			["item"] = 127843,
+			["bank"] = false,
+		}, -- [1]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 2,
+			["group"] = 1,
+			["item"] = 127847,
+			["bank"] = false,
+		}, -- [2]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 79,
+			["lastcount"] = 0,
+			["id"] = 3,
+			["group"] = 1,
+			["item"] = 127834,
+			["bank"] = false,
+		}, -- [3]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 4,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [4]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 5,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [5]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 6,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [6]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 7,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [7]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 8,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [8]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 9,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [9]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 10,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [10]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 11,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [11]
+		{
+			["objective"] = 0,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 0,
+			["id"] = 12,
+			["group"] = 1,
+			["item"] = false,
+			["bank"] = false,
+		}, -- [12]
+	},
+}
+FI_SVPC_CACHE = {
+	["Currencies"] = {
+	},
+}

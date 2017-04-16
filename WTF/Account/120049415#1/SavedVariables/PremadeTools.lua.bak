@@ -1,0 +1,72 @@
+
+PremadeToolsDB = {
+	["profileKeys"] = {
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+	},
+	["global"] = {
+		["minimap"] = {
+			["minimapPos"] = 147.824369418886,
+		},
+		["templates"] = {
+			[""] = {
+				["activity"] = 16,
+				["ilvl"] = 900,
+				["details"] = "",
+				["voice"] = "",
+				["auto_accept"] = "",
+				["title"] = "Nethershard Tomb of Sargeras farm",
+			},
+			["Last Listed Group"] = {
+				["activity"] = 421,
+				["title"] = "Warden Tower Assault: Nightwatcher's Perch",
+				["details"] = "Текущее локальное задание [Штурм Сторожевой башни: вершина ночного стража]. Создано автоматически аддоном World Quest Group Finder 0.22.1. #WQ:41420#PVP#",
+				["auto_accept"] = false,
+				["voice"] = "",
+				["ilvl"] = 0,
+			},
+			["Last Joined Group"] = {
+				["activity"] = 469,
+				["title"] = "Stonebound Soldiers",
+				["details"] = "Doing the world quest [Stonebound Soldiers]. Automatically created by World Quest Group Finder 0.22.1. #WQ:46236#PVE#",
+				["auto_accept"] = false,
+				["voice"] = "",
+				["ilvl"] = 0,
+			},
+			["Nethershard"] = {
+				["activity"] = 16,
+				["ilvl"] = 890,
+				["details"] = "Nethershard farm 900+ MURLOCKS",
+				["voice"] = "",
+				["auto_accept"] = "",
+				["title"] = "Nethershard farm 900+ MURLOCKS",
+			},
+			["FORMING MOS GRP"] = {
+				["activity"] = 465,
+				["title"] = "Forming MoS +4 +9 Boosting GRP",
+				["details"] = "",
+				["auto_accept"] = false,
+				["voice"] = "",
+				["ilvl"] = 900,
+			},
+			["MOS LF KEY"] = {
+				["activity"] = 465,
+				["title"] = "MoS +4 +9 boost grp 910 /w key!",
+				["details"] = "Link your key! We're boosting Maw of Souls only! Looking for keys: +4 +5 +6 +7 +8 +9 3-chest quarantee!",
+				["auto_accept"] = false,
+				["voice"] = "",
+				["ilvl"] = 0,
+			},
+		},
+	},
+}

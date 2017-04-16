@@ -1,18 +1,22 @@
 
 TradeSkillMaster_WarehousingDB = {
 	["_hash"] = 185553,
-	["g@ @ShowLogData"] = false,
 	["f@Horde - Burning Legion@BagState"] = {
+	},
+	["g@ @ShowLogData"] = false,
+	["f@Horde - Chamber of Aspects@BagState"] = {
 	},
 	["_scopeKeys"] = {
 		["char"] = {
 			"Redus - Burning Legion", -- [1]
 			"Ðeadshot - Burning Legion", -- [2]
 			"Ðeathshot - Steamwheedle Cartel", -- [3]
+			"Kot - Chamber of Aspects", -- [4]
 		},
 		["factionrealm"] = {
 			"Horde - Burning Legion", -- [1]
 			"Alliance - Steamwheedle Cartel", -- [2]
+			"Horde - Chamber of Aspects", -- [3]
 		},
 		["profile"] = {
 			"Default", -- [1]
@@ -20,6 +24,7 @@ TradeSkillMaster_WarehousingDB = {
 		["realm"] = {
 			"Burning Legion", -- [1]
 			"Steamwheedle Cartel", -- [2]
+			"Chamber of Aspects", -- [3]
 		},
 	},
 	["f@Alliance - Steamwheedle Cartel@BagState"] = {
@@ -27,6 +32,7 @@ TradeSkillMaster_WarehousingDB = {
 	["_version"] = 1,
 	["_currentProfile"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 		["Redus - Burning Legion"] = "Default",
 		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 	},

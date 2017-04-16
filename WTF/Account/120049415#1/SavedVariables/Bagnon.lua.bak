@@ -4,79 +4,223 @@ Bagnon_Sets = {
 	},
 	["leatherColor"] = {
 	},
-	["enchantColor"] = {
-	},
-	["glowAlpha"] = 0.5,
 	["engineerColor"] = {
 	},
 	["refrigeColor"] = {
 	},
-	["mineColor"] = {
-	},
 	["inscribeColor"] = {
 	},
-	["frames"] = {
-		["vault"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-		["inventory"] = {
-			["color"] = {
-			},
-			["scale"] = 1,
-			["alpha"] = 1,
-			["borderColor"] = {
-			},
-		},
-		["guild"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-		["bank"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-	},
-	["herbColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["gemColor"] = {
-	},
-	["reagentColor"] = {
-	},
+	["locked"] = false,
 	["players"] = {
+		["Chamber of Aspects"] = {
+		},
+		["Steamwheedle Cartel"] = {
+		},
 		["Burning Legion"] = {
 			["Redus"] = {
 				["vault"] = {
+					["scale"] = 1,
 					["hiddenBags"] = {
+					},
+					["color"] = {
+					},
+					["itemScale"] = 1,
+					["alpha"] = 1,
+					["borderColor"] = {
 					},
 				},
 				["inventory"] = {
-					["y"] = 416.999877929687,
-					["x"] = -183.000244140625,
-					["point"] = "BOTTOMRIGHT",
+					["enabled"] = true,
+					["point"] = "TOPRIGHT",
 					["hiddenBags"] = {
 					},
-					["brokerObject"] = "BagnonLauncher",
-					["itemScale"] = 1,
-					["columns"] = 13,
+					["scale"] = 1,
+					["alpha"] = 1,
+					["y"] = -108.483520507812,
+					["x"] = -161,
+					["borderColor"] = {
+					},
+					["columns"] = 16,
+					["showBags"] = true,
+					["itemScale"] = 1.01,
+					["color"] = {
+					},
 				},
 				["guild"] = {
+					["brokerObject"] = "AutoLog",
+					["point"] = "TOPLEFT",
 					["hiddenBags"] = {
+					},
+					["scale"] = 1,
+					["alpha"] = 1,
+					["y"] = -183.496398925781,
+					["x"] = 365.000213623047,
+					["borderColor"] = {
+					},
+					["itemScale"] = 1,
+					["color"] = {
 					},
 				},
 				["bank"] = {
+					["enabled"] = true,
+					["columns"] = 25,
 					["hiddenBags"] = {
+						[-3] = false,
+					},
+					["scale"] = 1,
+					["alpha"] = 1,
+					["point"] = "TOPLEFT",
+					["bagBreak"] = false,
+					["x"] = 17.9993991851807,
+					["itemScale"] = 1,
+					["showBags"] = true,
+					["color"] = {
+					},
+					["borderColor"] = {
+					},
+					["exclusiveReagent"] = false,
+					["y"] = -75.9996948242188,
+				},
+			},
+			["Ðeadshot"] = {
+				["vault"] = {
+					["color"] = {
+					},
+					["hiddenBags"] = {
+					},
+					["scale"] = 1,
+					["itemScale"] = 1,
+					["alpha"] = 1,
+					["borderColor"] = {
+					},
+				},
+				["inventory"] = {
+					["enabled"] = true,
+					["brokerObject"] = "CharacterNotes",
+					["point"] = "TOPRIGHT",
+					["hiddenBags"] = {
+					},
+					["scale"] = 1,
+					["alpha"] = 1,
+					["y"] = -154.487670898438,
+					["x"] = -68.00048828125,
+					["borderColor"] = {
+					},
+					["columns"] = 16,
+					["showBags"] = true,
+					["itemScale"] = 1.01,
+					["color"] = {
+					},
+				},
+				["guild"] = {
+					["point"] = "TOPLEFT",
+					["hiddenBags"] = {
+					},
+					["color"] = {
+					},
+					["alpha"] = 1,
+					["y"] = -331.499694824219,
+					["x"] = 468.000061035156,
+					["borderColor"] = {
+					},
+					["itemScale"] = 1,
+					["scale"] = 1,
+				},
+				["bank"] = {
+					["enabled"] = false,
+					["columns"] = 25,
+					["hiddenBags"] = {
+					},
+					["scale"] = 1,
+					["alpha"] = 1,
+					["y"] = 361.000122070313,
+					["x"] = 211.000015258789,
+					["borderColor"] = {
+					},
+					["point"] = "BOTTOMLEFT",
+					["itemScale"] = 1,
+					["color"] = {
 					},
 				},
 			},
 		},
 	},
+	["gemColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["glowAlpha"] = 0.5,
+	["normalColor"] = {
+	},
+	["displayAuction"] = false,
+	["mineColor"] = {
+	},
+	["displayGuildbank"] = true,
+	["herbColor"] = {
+	},
+	["global"] = {
+		["inventory"] = {
+			["enabled"] = true,
+			["point"] = "BOTTOMLEFT",
+			["hiddenBags"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["y"] = 313.999969482422,
+			["x"] = 633.759399414063,
+			["borderColor"] = {
+			},
+			["color"] = {
+			},
+			["itemScale"] = 1.01,
+			["showBags"] = true,
+			["columns"] = 16,
+		},
+		["vault"] = {
+			["hiddenBags"] = {
+			},
+			["borderColor"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["itemScale"] = 1,
+			["color"] = {
+			},
+		},
+		["guild"] = {
+			["point"] = "TOPLEFT",
+			["hiddenBags"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["y"] = -355.499755859375,
+			["x"] = 679,
+			["borderColor"] = {
+			},
+			["color"] = {
+			},
+			["itemScale"] = 1,
+		},
+		["bank"] = {
+			["enabled"] = false,
+			["columns"] = 25,
+			["hiddenBags"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["y"] = 361.000122070313,
+			["x"] = 211.000015258789,
+			["borderColor"] = {
+			},
+			["color"] = {
+			},
+			["itemScale"] = 1,
+			["point"] = "BOTTOMLEFT",
+		},
+	},
+	["reagentColor"] = {
+	},
+	["displayBank"] = true,
+	["displayBlizzard"] = true,
+	["displayCraft"] = false,
 }

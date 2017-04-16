@@ -17,14 +17,23 @@ module.db.spellsCoins = {
 	[240648] = L.bossName[2052], --"ToS - Boss 7",
 	[240650] = L.bossName[2038], --"ToS - Boss 8",
 	[240651] = L.bossName[2051], --"ToS - Boss 9",
+	
+	[242965] = "7.2 World Boss",
+	[242966] = "7.2 World Boss",
+	[242967] = "7.2 World Boss",
+	[242968] = "7.2 World Boss",
+	
+	[240051] = "Arena (10v10)",
+	[240041] = "Arena (2v2)",
+	[240047] = "Arena (3v3)",
 
 	[232424] = L.bossName[1849], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 01
 	[232426] = L.bossName[1865], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 02
 	[232427] = L.bossName[1867], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 03
 	[232428] = L.bossName[1871], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 04
-	[232429] = L.bossName[1862], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 05
-	[232430] = L.bossName[1886], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 06
-	[232431] = L.bossName[1842], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 07
+	[232429] = L.bossName[1862], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 05 Tich
+	[232430] = L.bossName[1842], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 06 Krosus
+	[232431] = L.bossName[1886], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 07 Botanist
 	[232432] = L.bossName[1863], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 08
 	[232433] = L.bossName[1872], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 09
 	[232434] = L.bossName[1866], --7.0 Raid Nighthold - Bonus Roll Loot - Boss 10

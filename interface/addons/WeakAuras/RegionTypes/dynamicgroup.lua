@@ -1,7 +1,5 @@
 local SharedMedia = LibStub("LibSharedMedia-3.0");
 
--- GLOBALS: WeakAuras
-
 local default = {
     controlledChildren = {},
     border = "None",
@@ -136,7 +134,7 @@ local function modify(parent, region, data)
                 region.controlledRegions[regionIndex].data = childData;
                 region.controlledRegions[regionIndex].region = childRegion;
                 region.controlledRegions[regionIndex].key = tostring(region.controlledRegions[regionIndex].region);
-                anyIndexInfo = anyIndexInfo or childRegion.index;
+                anyIndexInfo = anyIndexInfo or childRegion.state and childRegion.state.index;
                 region.controlledRegions[regionIndex].dataIndex = dataIndex;
                 dataIndex = dataIndex + 1;
                 regionIndex = regionIndex + 1;
@@ -150,7 +148,7 @@ local function modify(parent, region, data)
                         region.controlledRegions[regionIndex].cloneId = cloneId;
                         region.controlledRegions[regionIndex].region = cloneRegion;
                         region.controlledRegions[regionIndex].key = tostring(region.controlledRegions[regionIndex].region);
-                        anyIndexInfo = anyIndexInfo or cloneRegion.index;
+                        anyIndexInfo = anyIndexInfo or cloneRegion.state and cloneRegion.state.index;
                         region.controlledRegions[regionIndex].dataIndex = dataIndex;
                         regionIndex = regionIndex + 1;
                     end
@@ -253,7 +251,7 @@ local function modify(parent, region, data)
                 return (
                     (
                         a.dataIndex == b.dataIndex
-                        and (a.region.state.index or 0) < (b.region.state.index or 0)
+                        and (a.region.state and a.region.state.index or 0) < (b.region.state and b.region.state.index or 0)
                     )
                     or (a.dataIndex or 0) < (b.dataIndex or 0)
                 )
@@ -368,13 +366,12 @@ local function modify(parent, region, data)
 
     function region:PositionChildren()
         region:EnsureTrays();
-        local childId, childData, childRegion;
+        local childData, childRegion;
         local xOffset, yOffset = 0, 0;
         local currentWidth, currentHeight = 0, 0;
         local numVisible = 0;
 
         for index, regionData in pairs(region.controlledRegions) do
-            childId = regionData.id;
             childData = regionData.data;
             childRegion = regionData.region;
             if(childData and childRegion) then
@@ -445,7 +442,6 @@ local function modify(parent, region, data)
             end
         end
         for index, regionData in pairs(region.controlledRegions) do
-            childId = regionData.id;
             childData = regionData.data;
             childRegion = regionData.region;
             if(childData and childRegion) then

@@ -16,7 +16,7 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[4] = {
+		[962] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -28,13 +28,13 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[13] = {
+		[862] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[862] = {
+		[4] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -46,26 +46,27 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[962] = {
+		[13] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
 	},
+	["PrefVer"] = 1,
 	["DisableMountNotice"] = false,
-	["autodismount"] = true,
+	["DisableWaterFlight"] = true,
 	["DruidDisableInCombat"] = false,
 	["DisableUpdateNotice"] = false,
 	["RemoveBuffs"] = true,
-	["version"] = "7.0.12",
+	["version"] = "7.1.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
 	["ShamanClickForm"] = false,
 	["ExtraPassengerMounts"] = {
 	},
-	["DisableWaterFlight"] = true,
+	["autodismount"] = true,
 }
 GoGo_DebugLog = {
 }

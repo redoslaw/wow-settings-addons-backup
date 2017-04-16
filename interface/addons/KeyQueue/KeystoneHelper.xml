@@ -1,0 +1,74 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+	<Font name="GameFontSmall" inherits="GameFontNormal" virtual="true">
+		<FontHeight>
+			<AbsValue val="8"/>
+		</FontHeight>
+	</Font>
+	
+	<FontString name="KeystoneLabelSmall" text="No whisper" parentKey="KeystoneLabel" inherits="GameFontNormalSmall" virtual="true">
+	 <Anchors>
+		<Anchor point="LEFT"/>
+	</Anchors>		
+	</FontString>
+	
+	<Frame name="ApplicantTemplate" virtual="true">
+		<Size x="290" y="35"/>
+		<Frames>
+			<Button name="$parrentInviteButton" text="Invite" parentKey="InviteButton" inherits="UIPanelButtonTemplate">
+				<Size x="60" y="25"/>
+				<Anchors>
+					<Anchor point="RIGHT" relativePoint="RIGHT">
+						<Offset x="-5" y="0"/>
+					</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="$parentFontStringKey" text="+15" parentKey="TextStringKey" inherits="GameFontNormal">
+					<TextHeight val="5"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativePoint="TOPLEFT"> 
+							<Offset x="5" y="-8" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentFontStringTime" text="15m" parentKey="TextStringTime" inherits="GameFontNormalSmall">
+					<TextHeight val="5"/>
+					<Color r="0.5" g="0.5" b="0.5" a="1"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativePoint="TOPLEFT"> 
+							<Offset x="5" y="-23" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentFontStringDungeon" text="Vault of the Wardens" parentKey="TextStringDungeon" inherits="GameFontNormal">
+					<TextHeight val="5"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativePoint="TOPLEFT"> 
+							<Offset x="40" y="-8" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentFontStringName" text="Maraad-EarthenRing" parentKey="TextStringName" inherits="GameFontNormalSmall">
+					<TextHeight val="5"/>
+					<Color r="0.5" g="0.5" b="0.5" a="1"/>
+					<Width val="150"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativePoint="TOPLEFT"> 
+							<Offset x="40" y="-23" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parentFontStringilvl" text="1555" parentKey="TextStringilvl" inherits="GameFontNormalSmall">
+					<TextHeight val="5"/>
+					<Anchors>
+						<Anchor point="TOPRIGHT"  relativePoint="TOPRIGHT"> 
+							<Offset x="-70" y="-10" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+</Ui>

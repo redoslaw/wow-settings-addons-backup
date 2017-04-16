@@ -10,6 +10,12 @@ L= DBM:GetModLocalization(1706)
 ---------------------------
 L= DBM:GetModLocalization(1725)
 
+L:SetOptionLocalization({
+	InfoFrameBehavior	= "Set information InfoFrame shows during encounter",
+	TimeRelease			= "Show players affected by Time Release",
+	TimeBomb			= "Show players affected by Time Bomb"
+})
+
 ---------------------------
 -- Trilliax --
 ---------------------------
@@ -24,10 +30,6 @@ L= DBM:GetModLocalization(1751)
 -- Tichondrius --
 ------------------
 L= DBM:GetModLocalization(1762)
-
-L:SetOptionLocalization({
-	HUDSeekerLines		= "Show HUD lines with Seeker Swarm"
-})
 
 L:SetMiscLocalization({
 	First				= "First",
@@ -78,8 +80,7 @@ L:SetMiscLocalization({
 L= DBM:GetModLocalization(1732)
 
 L:SetOptionLocalization({
-	ShowCustomNPAuraTextures= "Show custom green/red icon textures in nameplates instead of debuff signs if you are affected by star signs",
-	FilterOtherSigns		= "Filter target announces for Star Signs you are not affected by."
+	ConjunctionYellFilter	= "During $spell:205408, disable all other SAY messages and just spam the star sign message says instead until conjunction has ended"
 })
 
 ------------------

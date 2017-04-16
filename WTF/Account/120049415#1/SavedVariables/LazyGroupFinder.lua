@@ -1,5 +1,5 @@
 
-LazyGroupFinderMinimapIconPoint = -86.5732293802925
+LazyGroupFinderMinimapIconPoint = -22.9320951660789
 LazyGroupFinderMinimapIconHover = false
 LazyGroupFinderSoundAnnouncement = true
-LazyGroupFinderChatAnnouncement = true
+LazyGroupFinderChatAnnouncement = false

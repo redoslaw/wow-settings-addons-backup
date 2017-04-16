@@ -82,6 +82,12 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[1149] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1027] = {
 			["Preferred"] = {
 			},
@@ -136,19 +142,19 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[1054] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[-1] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1072] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[1011] = {
-			["Preferred"] = {
-			},
-			["Excluded"] = {
-			},
-		},
-		[465] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -166,7 +172,7 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[466] = {
+		[800] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -178,7 +184,7 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[485] = {
+		[1096] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -208,7 +214,7 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[1096] = {
+		[485] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -220,26 +226,26 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[800] = {
+		[466] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[-1] = {
+		[1011] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[1054] = {
+		[465] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
 	},
-	["DisableWaterFlight"] = true,
+	["PrefVer"] = 1,
 	["DisableMountNotice"] = false,
 	["autodismount"] = true,
 	["DruidDisableInCombat"] = false,
@@ -252,7 +258,7 @@ GoGo_Prefs = {
 	["ShamanClickForm"] = false,
 	["ExtraPassengerMounts"] = {
 	},
-	["PrefVer"] = 1,
+	["DisableWaterFlight"] = true,
 }
 GoGo_DebugLog = {
 }

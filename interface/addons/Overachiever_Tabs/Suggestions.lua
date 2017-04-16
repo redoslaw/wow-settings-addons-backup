@@ -238,9 +238,12 @@ local achClassHall = {
 	10747, -- Fighting with Style: Upgraded
 	10748, -- Fighting with Style: Valorous
 	10749, -- Fighting with Style: War-torn
+	11612, -- Fighting with Style: Challenging
 	10852, -- Artifact or Artifiction
 	11171, -- Arsenal of Power
-	
+	11609, -- Power Unbound
+	11144, -- Power Realized
+
 	10706, -- Training the Troops
 	11214, -- Many Missions
 	11218, -- There's a Boss In There
@@ -540,12 +543,14 @@ local ACHID_ZONE_MISC = {
 		11175, -- Higher Dimensional Learning
 		"11186:1", -- Tehd & Marius' Excellent Adventure
 		11256, -- Treasures of Azsuna
+		"11544:1", -- Defender of the Broken Isles
 	},
 	["Val'sharah"] = {
 		11262, -- Adventurer of Val'sharah
 		"11186:4", -- Tehd & Marius' Excellent Adventure
 		10698, -- That's Val'sharah Folks!
 		11258, -- Treasures of Val'sharah
+		"11544:4", -- Defender of the Broken Isles
 	},
 	["Highmountain"] = {
 		11264, -- Adventurer of Highmountain
@@ -554,6 +559,7 @@ local ACHID_ZONE_MISC = {
 		11257, -- Treasures of Highmountain
 		10774, -- Hatchling of the Talon
 		--10398, -- "Drum Circle" - shows as red for some reason, both factions; comment out for now
+		"11544:2", -- Defender of the Broken Isles
 	},
 	["Stormheim"] = {
 		11263, -- Adventurer of Stormheim
@@ -563,6 +569,7 @@ local ACHID_ZONE_MISC = {
 		10790, -- Vrykul Story, Bro
 		10793, -- What a Ripoff!
 		--11232, -- Lock, Stock and Two Smoking Goblins (starts in Dalaran which is available after "What a Ripoff!")
+		"11544:3", -- Defender of the Broken Isles
 	},
 	["Suramar"] = {
 		11265, -- Adventurer of Suramar
@@ -581,6 +588,20 @@ local ACHID_ZONE_MISC = {
 	["Dalaran (Broken Isles)"] = { -- RENAMED ZONE
 		10722, -- The Wish Remover
 		11066, -- Underbelly Tycoon
+	},
+	["Broken Shore"] = {
+		11731, -- A Magic Contribution
+		11545, -- Legionfall Commander
+		11735, -- Take Command
+		11737, -- Disrupting the Nether
+		11546, -- Breaching the Tomb
+		11802, -- Bringing Home the Beacon
+		11846, -- Champions of Legionfall
+		11681, -- Crate Expectations
+		11841, -- Naxt Victim
+		11653, -- Paragon of the Broken Isles
+		11786, -- Terrors of the Shore
+		11787, -- The Gates of Hell
 	},
 -- Legion: Class Halls
 	["Acherus: The Ebon Hold"] = achClassHall, -- Death knight
@@ -702,9 +723,18 @@ local ACHID_INSTANCES = {
 	-- These are now Feats of Strength: ["Zul'Gurub"] = { 688, 560, 957 },	-- "Zul'Gurub", "Deadliest Catch", "Hero of the Zandalar"
 	["Ruins of Ahn'Qiraj"] = 689,
 	--["Onyxia's Lair"] = 684, -- This is now a Feat of Strength
-	["The Molten Core"] = { 686, 955 },
-	["Blackwing Lair"] = 685,
-	["Temple of Ahn'Qiraj"] = 687,
+	["The Molten Core"] = {
+		686, 955,
+		11741, -- So Hot Right Now
+	},
+	["Blackwing Lair"] = {
+		685, -- Blackwing Lair (defeat Nefarion)
+		11742, -- Dress in Lairs
+	},
+	["Temple of Ahn'Qiraj"] = {
+		687, -- Temple of Ahn'Qiraj (defeat C'thun)
+		11743, -- Accessor-Eyes
+	},
 	["Ahn'Qiraj Temple"] = 687,
 -- Burning Crusade
 	["Auchenai Crypts"] = 666,
@@ -715,18 +745,39 @@ local ACHID_INSTANCES = {
 	["Mana-Tombs"] = 651,
 	["The Botanica"] = 659,
 	["Shadow Labyrinth"] = 654,
-	["Sunwell Plateau"] = 698,
-	["Black Temple"] = 697,			-- "The Black Temple"
+	["Sunwell Plateau"] = {
+		698, -- Sunwell Plateau (defeat Kil'jaeden)
+		11749, -- Suns Out, Thori'dals Out
+	},
+	["Black Temple"] = {
+		697, -- The Black Temple (defeat Illidan Stormrage)
+		11748, -- Black is the New Black
+	},
 	["Hyjal Summit"] = 695,			-- "The Battle for Mount Hyjal"
-	["Tempest Keep"] = 696,
+	["Tempest Keep"] = {
+		696,
+		11747, -- Merely a Set  (!! - zone name "The Eye"?)
+	},
 	["Sethekk Halls"] = 653,
 	["Old Hillsbrad Foothills"] = 652,	-- "The Escape From Durnholde"
 	["The Black Morass"] = 655,		-- "Opening of the Dark Portal"
-	["Magtheridon's Lair"] = 693,
-	["Gruul's Lair"] = 692,
-	["Karazhan"] = 690,
+	["Magtheridon's Lair"] = {
+		693,
+		11746, -- Outlandish Style
+	},
+	["Gruul's Lair"] = {
+		692,
+		11746, -- Outlandish Style
+	},
+	["Karazhan"] = {
+		690,
+		11746, -- Outlandish Style
+	},
 	["The Steamvault"] = 656,
-	["Serpentshrine Cavern"] = { 694, 144 },	-- "Serpentshrine Cavern", "The Lurker Above"
+	["Serpentshrine Cavern"] = {
+		694, 144,	-- "Serpentshrine Cavern", "The Lurker Above"
+		11747, -- Merely a Set
+	}, 
 	["The Shattered Halls"] = 657,
 	["The Slave Pens"] = 649,
 	["The Underbog"] = 650,			-- "Underbog"
@@ -745,23 +796,37 @@ local ACHID_INSTANCES = {
 	["The Nexus"] = 478,
 	["The Violet Hold"] = 483,
 	["Azjol-Nerub"] = 480,
-	["Trial of the Champion"] = IsAlliance and 4296 or 3778,
+	["Trial of the Champion"] = {
+		IsAlliance and 4296 or 3778,
+		11752, -- Style of the Crusader
+	},
 	["The Forge of Souls"] = 4516,
 	["Halls of Reflection"] = 4518,
 	["Pit of Saron"] = 4517,
-	
+-- Lich King Raids
+	--["Naxxramas"] = 11744, -- Drop Dead, Gorgeous (feat of strength - for old Naxxramas, not WotLK, though gear obtainable from black market AH)
+	["Naxxramas"] = 11750, -- Undying Aesthetic
+	["Icecrown Citadel"] = 11753, -- Winter Catalog
+	["Ulduar"] = 11751, -- Mogg-Saron
+
 -- Cataclysm Dungeons
 	-- Heroic only, but these dungeons are heroic only so it may as well always show up if suggesting for the zone:
 	["Zul'Aman"] = { 5769, 5858, 5760, 5761, 5750 },  -- "Heroic: Zul'Aman", "Bear-ly Made It", "Ring Out!", "Hex Mix", "Tunnel Vision"
 	["Zul'Gurub"] = { 5768, 5765, 5743, 5762, 5759, 5744 },  -- "Heroic: Zul'Gurub", "Here, Kitty Kitty...", "It's Not Easy Being Green", "Ohganot So Fast!", "Spirit Twister", "Gurubashi Headhunter"
 -- Cataclysm Raids
-	["Firelands"] = { 5802, 5828, 5855 }, -- "Firelands", "Glory of the Firelands Raider", "Ragnar-O's"
+	["Blackwing Descent"] = 11754, -- Glamour of Twilight -- !! add others for this raid!
+	["The Bastion of Twilight"] = 11754, -- Glamour of Twilight -- !! add others for this raid! and confirm "The" in name.
+	["Firelands"] = {
+		5802, 5828, 5855, -- "Firelands", "Glory of the Firelands Raider", "Ragnar-O's"
+		11755, -- Hot Couture
+	},
 	["Dragon Soul"] = {
 		6169, -- Glory of the Dragon Soul Raider
 		6175,
 		6106,
 		6107,
 		6177,
+		11756, -- Wardrobe of the Old Gods
 	},
 
 -- Pandaria Dungeons
@@ -769,17 +834,25 @@ local ACHID_INSTANCES = {
 	["Stormstout Brewery"] = { 6400, 6402 }, -- "How Did He Get Up There?", "Ling-Ting's Herbal Journey"
 	["Scarlet Monastery"] = 6946, -- "Empowered Spiritualist"
 -- Pandaria Raids
-	["Heart of Fear"] = { 6718, 6845, 6936, 6518, 6683, 6553, 6937, 6922 }, -- "The Dread Approach", "Nightmare of Shek'zeer", "Candle in the Wind", "I Heard You Like Amber...", "Less Than Three", "Like An Arrow to the Face", "Overzealous", "Timing is Everything"
+	["Heart of Fear"] = {
+		6718, 6845, 6936, 6518, 6683, 6553, 6937, 6922, -- "The Dread Approach", "Nightmare of Shek'zeer", "Candle in the Wind", "I Heard You Like Amber...", "Less Than Three", "Like An Arrow to the Face", "Overzealous", "Timing is Everything"
+		11757, -- Sha of Fabulous
+	},
 	["Mogu'shan Vaults"] = { 6458, 6844, 6674, 6687, 6823, 6455, 7056, 6686 }, -- "Guardians of Mogu'shan", "The Vault of Mysteries", "Anything You Can Do, I Can Do Better...", "Getting Hot in Here", "Must Love Dogs", "Show Me Your Moves!", "Sorry, Were You Looking for This?", "Straight Six"
-	["Terrace of Endless Spring"] = { 6689, 6824, 6717, 6825, 6933 }, -- "Terrace of Endless Spring", "Face Clutchers", "Power Overwhelming", "The Mind-Killer", "Who's Got Two Green Thumbs?"
+	["Terrace of Endless Spring"] = {
+		6689, 6824, 6717, 6825, 6933, -- "Terrace of Endless Spring", "Face Clutchers", "Power Overwhelming", "The Mind-Killer", "Who's Got Two Green Thumbs?"
+		11757, -- Sha of Fabulous
+	},
 	["Throne of Thunder"] = {
 		8070, 8071, 8069, 8072, -- "Forgotten Depths", "Halls of Flesh-Shaping", "Last Stand of the Zandalari", "Pinnacle of Storms"
-		8037, 8087, 8090, 8094, 8073, 8082, 8098, 8081, 8086 -- "Genetically Unmodified Organism", "Can't Touch This", "A Complete Circuit", "Lightning Overload", "Cage Match", "Head Case", "You Said Crossing the Streams Was Bad", "Ritualist Who?", "From Dusk 'til Dawn"
+		8037, 8087, 8090, 8094, 8073, 8082, 8098, 8081, 8086, -- "Genetically Unmodified Organism", "Can't Touch This", "A Complete Circuit", "Lightning Overload", "Cage Match", "Head Case", "You Said Crossing the Streams Was Bad", "Ritualist Who?", "From Dusk 'til Dawn"
 		-- 8089 "I Thought He Was Supposed to Be Hard?" is now a Feat of Strength
+		11758, -- Thunderwear
 	},
 	["Siege of Orgrimmar"] = {
 		8454, 8458, 8459, 8461, 8462, -- "Glory of the Orgrimmar Raider", "Vale of Eternal Sorrows", "Gates of Retribution", "The Underhold", "Downfall"
-		IsAlliance and 8679 or 8680 -- "Conqueror of Orgrimmar" or "Liberator of Orgrimmar"
+		IsAlliance and 8679 or 8680, -- "Conqueror of Orgrimmar" or "Liberator of Orgrimmar"
+		11759, -- Yaass'shaarj
 	},
 
 -- Draenor Dungeons
@@ -794,8 +867,14 @@ local ACHID_INSTANCES = {
 	["Upper Blackrock Spire"] = 9042,
 -- Draenor Raids
 	["Highmaul"] = { 8975, 8987, 8958, 8948, 8947, 8988, 8977, 8974, 8976, 8986 },
-	["Blackrock Foundry"] = { 8978, 8979, 8930, 8980, 8929, 8983, 8981, 8982, 8984, 8952, 8989, 8990, 8991, 8992 },
-	["Hellfire Citadel"] = { 10026, 10057, 10013, 9972, 9979, 9988, 10086, 9989, 10012, 10087, 10030, 10073, 10023, 10024, 10025, 10020, 10019 },
+	["Blackrock Foundry"] = {
+		8978, 8979, 8930, 8980, 8929, 8983, 8981, 8982, 8984, 8952, 8989, 8990, 8991, 8992,
+		11740, -- Make it W-orc W-orc
+	},
+	["Hellfire Citadel"] = {
+		10026, 10057, 10013, 9972, 9979, 9988, 10086, 9989, 10012, 10087, 10030, 10073, 10023, 10024, 10025, 10020, 10019,
+		11631, -- Extreme Makeover: Fel Edition
+	},
 
 -- Legion Dungeons
 	["Eye of Azshara"] = 10780, -- "Eye of Azshara" (chain)
@@ -820,6 +899,7 @@ local ACHID_INSTANCES = {
 		11432, -- Scared Straight
 		11335, -- Season Tickets
 	},
+	["Cathedral of Eternal Night"] = 11700,
 -- Legion Raids
 	["The Emerald Nightmare"] = {
 		10555, -- Buggy Fight
@@ -848,11 +928,20 @@ local ACHID_INSTANCES = {
 		10838, -- Nightspire
 		10839, -- Betrayer's Rise
 		10851, -- Elementalry!
+		11628, -- That's So Last Millenium
 	},
 	["Trial of Valor"] = { -- !! double check this zone name
 		11394, -- Trial of Valor (series)
 		11386, -- Boneafide Tri Tip
 		11377, -- Patient Zero
+		11762, -- Can I Get A Helya
+	},
+	["Tomb of Sargeras"] = {
+		11763, -- Glory of the Tomb Raider
+		11789, -- Chamber of the Avatar
+		11790, -- Deceiver's Fall
+		11760, -- Retro Trend
+		11788, -- Wailing Halls
 	},
 }
 -- Aliases
@@ -1094,7 +1183,10 @@ local ACHID_INSTANCES_25 = {
 -- INSTANCES - NORMAL 10-MAN ONLY:
 local ACHID_INSTANCES_10_NORMAL = {
 	["Icecrown Citadel"] = 4532,
-	["The Ruby Sanctum"] = 4817, -- Need to confirm zone name.
+	["The Ruby Sanctum"] = { -- !! Need to confirm zone name.
+		4817,
+		--11669, -- Unholy Determination (added in 7.2. currently unknown if this is obtainable and how; might not be part of the normal instance at all)
+	}
 }
 
 -- INSTANCES - HEROIC 10-MAN ONLY:
@@ -1173,6 +1265,11 @@ local ACHID_INSTANCES_MYTHIC = {
 		10816, -- Mythic: Court of Stars
 		10610, -- Waiting for Gerdo
 	},
+	["Cathedral of Eternal Night"] = {
+		11769, -- A Steamy Romance Saga
+		11768, -- Boom Bloom
+		11703, -- Master of Shadows
+	},
 -- Legion Raids
 	["The Emerald Nightmare"] = {
 		10821, -- Mythic: Nythendra
@@ -1201,6 +1298,9 @@ local ACHID_INSTANCES_MYTHIC = {
 		11396, -- Mythic: Odyn
 		11387, -- The Chosen
 		11337, -- You Runed Everything!
+	},
+	["Tomb of Sargeras"] = {
+		11774, 11780, 11767, 11775, 11781, 11779, 11776, 11777, 11778,
 	},
 }
 
@@ -2244,3 +2344,6 @@ end
 -- Thanks to chrisnolanca for many of the WoD changes.
 -- https://github.com/ChrisNolan/OverachieverContinued/compare/WoDchanges
 
+
+-- where? !!
+-- 11607 They See Me Rolling

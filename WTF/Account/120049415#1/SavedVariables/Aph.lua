@@ -14,7 +14,7 @@ APHDB = {
 				[128861] = {
 					29, -- [1]
 					302980, -- [2]
-					417560, -- [3]
+					315520, -- [3]
 				},
 				[0] = {
 					0, -- [1]
@@ -27,9 +27,8 @@ APHDB = {
 		},
 		["Redus - Burning Legion"] = {
 			["Minimized"] = true,
-			["AKLevel"] = 25,
-			["MainPosY"] = 406.99951171875,
-			["MainPosX"] = 1414.00158691406,
+			["AKLevel"] = 29,
+			["MainPosY"] = 841.99951171875,
 			["ArtifactWeapons"] = {
 				[0] = {
 					0, -- [1]
@@ -37,14 +36,14 @@ APHDB = {
 					100, -- [3]
 				},
 				[128862] = {
-					36, -- [1]
-					321270, -- [2]
-					2010000, -- [3]
+					46, -- [1]
+					2612520, -- [2]
+					3270000, -- [3]
 				},
 				[128820] = {
-					54, -- [1]
-					110437, -- [2]
-					4835000, -- [3]
+					43, -- [1]
+					53841900, -- [2]
+					49000000, -- [3]
 				},
 				[127857] = {
 					29, -- [1]
@@ -53,17 +52,35 @@ APHDB = {
 				},
 			},
 			["autoMinimize"] = true,
+			["MainPosX"] = 1302.00158691406,
 		},
 		["Redbullek - Burning Legion"] = {
-			["MainPosY"] = 815.000045776367,
-			["MainPosX"] = 1700.00012207031,
+			["Minimized"] = true,
+			["MainPosY"] = 613.999847412109,
+			["MainPosX"] = 1441.00012207031,
+			["ArtifactWeapons"] = {
+				[128860] = {
+					1, -- [1]
+					620, -- [2]
+					100, -- [3]
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Redus - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

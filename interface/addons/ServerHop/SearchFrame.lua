@@ -881,7 +881,10 @@ local dDropList = {
 	[432] = 100,[442] = 200,[452] = 300,[466]=400,
 	[433] = 100,[443] = 200,[453] = 300,[467]=400,
 	[434] = 100,[444] = 200,[454] = 300,
-							[455]=300, -- karazhan
+							[455] = 300, -- karazhan	
+				[470] = 200,			[471]=400,
+				[472] = 200,			[473]=400,
+				[474] = 200,[475] = 300,[476]=400,		
 	[417] = 100,[418] = 200, -- random
 }
 
@@ -1044,10 +1047,10 @@ local rDropList = {
 	[40] = 5,[399] = 5,[400] = 5,
 	[409] = 5,[410] = 5,[412] = 5,
 	-- legion
-	[413] = 100, [414] = 100, -- raid 1
-	[456] = 200, [457] = 200,-- raid 7.1
-	[415] = 300, [416] = 300, -- raid 2
-
+	[413] = 100, [414] = 100, -- raid 1: emerald nightmare
+	[456] = 200, [457] = 200,-- raid 7.1: helya
+	[415] = 300, [416] = 300, -- raid 2: nighthold
+	[478] = 400, [479] = 400 -- raid 3: tomb of sargeras
 }
 
 
@@ -1099,7 +1102,14 @@ function rDrop.initialize(self,level)
 		info.hasArrow = true
 		info.checked = false
 		UIDropDownMenu_AddButton(info,level)
-		
+		-- tomb of sargeras
+		info.text = GetMapNameByID(1147)
+		info.value = 400
+		info.func = nil
+		info.hasArrow = true
+		info.checked = false
+		UIDropDownMenu_AddButton(info,level)
+
 	elseif (level == 2) then
 		local raidAct = C_LFGList.GetAvailableActivities(3, nil, 0,"")
 		

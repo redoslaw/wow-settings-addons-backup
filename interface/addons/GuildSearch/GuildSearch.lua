@@ -15,7 +15,7 @@ local LDB = _G.LibStub("LibDataBroker-1.1")
 local icon = _G.LibStub("LibDBIcon-1.0")
 
 local ADDON_NAME, addon = ...
-local ADDON_VERSION = "7.1.0"
+local ADDON_VERSION = "7.2.0"
 
 addon.addonName = "Guild Search"
 addon.updateDelay = 2
@@ -48,7 +48,7 @@ local function cleanupVersion(version)
 end
 
 addon.addonTitle = _G.GetAddOnMetadata(ADDON_NAME,"Title")
-addon.addonVersion = cleanupVersion("7.1.0")
+addon.addonVersion = cleanupVersion("7.2.0")
 
 addon.CURRENT_BUILD, addon.CURRENT_INTERNAL, 
   addon.CURRENT_BUILD_DATE, addon.CURRENT_UI_VERSION = _G.GetBuildInfo()

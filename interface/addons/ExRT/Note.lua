@@ -125,6 +125,7 @@ function module.options:Load()
 	}
 	
 	module.db.encountersList = {
+		{1147,2032,2048,2036,2037,2050,2054,2052,2038,2051},
 		{1088,1849,1865,1867,1871,1862,1886,1842,1863,1872,1866},
 		{1114,1958,1962,2008},
 		{1094,1853,1841,1873,1854,1876,1877,1864},
@@ -1231,7 +1232,7 @@ do
 		end
 		for i=0,limit do
 			if VExRT.Note.AutoLoad[i] == encounterID then
-				ExRT.F.Timer(SendNoteByEncounter, 1, i)
+				ExRT.F.Timer(SendNoteByEncounter, 1.8, i)
 				break
 			end
 			if i == limit then

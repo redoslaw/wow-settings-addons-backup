@@ -1,5 +1,5 @@
 
-Overachiever v0.99.5
+Overachiever v0.99.7
 ==============================
 
 Author: Tuhljin
@@ -107,6 +107,19 @@ Change log
 ==========
 
 The change log lists changes of particular note to users, not every change made.
+
+v0.99.7
+- Holiday/Event Toasts:
+-- Added option to control the appearance of PvP Brawl toasts. Disabled by default.
+-- Fix certain timewalking events being treated as holidays instead of dungeon events.
+-- Fix failure to load texture for micro-holidays that take up two days in the calendar.
+
+v0.99.6
+- Updated for WoW patch 7.2.
+- "Compare progress in others' links" option no longer adds a line indicating you completed the achievement (and when) because WoW 7.2 has made that redundant.
+- Suggestions Tab:
+-- Added suggestions for Broken Shore, Cathedral of Eternal Night, and Tomb of Sargeras, and additional suggestions for class order halls.
+-- Suggest the new class armor set achievements in the appropriate instances, from Molten Core to Tomb of Sargeras.
 
 v0.99.5
 - New option added for toast notifications to control whether they will be hidden automatically (without interaction).

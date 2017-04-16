@@ -1,5 +1,5 @@
 --[[
-Copyright 2008-2016 João Cardoso
+Copyright 2008-2017 João Cardoso
 Scrap is distributed under the terms of the GNU General Public License (Version 3).
 As a special exception, the copyright holders of this addon do not give permission to
 redistribute and/or modify it.
@@ -79,16 +79,13 @@ function Scrap:StartupMerchant()
 	
 	-- Visualizer Tab
 	if select(5, GetAddOnInfo('Scrap_Visualizer')) then
-		local tab = TabAppender_New(MerchantFrame)
+		local tab = LibStub('SecureTabs-2.0'):Add(MerchantFrame)
 		tab:SetText('Scrap')
-		tab.OnClick = function()
-			MerchantFrame_UpdateBuybackInfo()
-		
-			if LoadAddOn('Scrap_Visualizer') then
-				ScrapVisualizer:Show()
-			end
+		tab.OnSelect = function()
+			LoadAddOn('Scrap_Visualizer')
+			tab.frame = ScrapVisualizer
 		end
-		
+
 		self.tab = tab
 	end
 end

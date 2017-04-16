@@ -1,7 +1,5 @@
-local SharedMedia = LibStub("LibSharedMedia-3.0");
-local L = WeakAuras.L;
-
--- GLOBALS: WeakAuras UIParent AceGUIWidgetLSMlists
+local Masque = LibStub("Masque", true)
+local L = WeakAuras.L
 
 local function createOptions(id, data)
     local options = {
@@ -182,7 +180,7 @@ local function createOptions(id, data)
             bigStep = 0.01,
             isPercent = true,
 			hidden = function()
-                return not LBF;
+                return not Masque;
             end
         },
         stickyDuration = {
@@ -208,7 +206,7 @@ local function createOptions(id, data)
     return options;
 end
 
-local function createThumbnail(parent, fullCreate)
+local function createThumbnail(parent)
     local icon = parent:CreateTexture();
     icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark");
 

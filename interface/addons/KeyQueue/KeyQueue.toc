@@ -1,0 +1,11 @@
+## Interface: 70100
+## Title: KeyQueue
+## Notes: Play with your favorite streamer!
+## Author: Simon Carlsson
+## Version: 1.5.0.2
+## SavedVariablesPerCharacter: KQ_applicants, KQ_settings, KQ_isKeyQueueShown
+
+KeystoneHelper.xml
+GetKeystone.lua
+UIMAIN.lua
+Settings.lua

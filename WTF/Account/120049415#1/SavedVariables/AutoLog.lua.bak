@@ -2,21 +2,31 @@
 AutoLog_DB = {
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 	},
-	["char"] = {
-		["Ðeadshot - Burning Legion"] = {
-			["normal"] = {
-				["63HFC"] = true,
-			},
-			["enable"] = true,
-			["hidecat"] = true,
-			["hidemop"] = true,
-			["mythic"] = {
-				["63HFC"] = true,
-			},
-			["heroic"] = {
-				["63HFC"] = true,
-			},
+	["global"] = {
+		["normal"] = {
+			["71TEN"] = false,
+			["72TNH"] = false,
+		},
+		["lfr"] = {
+			["71TEN"] = false,
+			["72TNH"] = false,
+		},
+		["warned"] = true,
+		["mythic"] = {
+			["73TOV"] = true,
 		},
 	},
 }

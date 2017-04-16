@@ -28,6 +28,12 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[13] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1021] = {
 			["Preferred"] = {
 			},
@@ -40,13 +46,25 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[1033] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[962] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1014] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[13] = {
+		[1080] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
@@ -76,13 +94,13 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
-		[1033] = {
+		[1048] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {
 			},
 		},
-		[1048] = {
+		[976] = {
 			["Preferred"] = {
 			},
 			["Excluded"] = {

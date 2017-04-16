@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "ScrollingTable", tonumber("149") or 40000;
+local MAJOR, MINOR = "ScrollingTable", tonumber("@project-revision@") or 40000;
 if MINOR < 40000 then
 	MINOR = MINOR + 10000;
 end

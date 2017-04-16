@@ -196,7 +196,11 @@ function APH:aph(input)
 	elseif input:trim() == "reset" then
 		APHMainFrame:SetPoint("TOPLEFT",UIParent,"BOTTOMLEFT",UIParent:GetWidth()/2,UIParent:GetHeight()/2)
 	elseif input:trim() == "test" then
-		APH:ResearchNotes()
+		--APH:ResearchNotes()
+		--APH:Print(APH:ReadAP(147548,1))
+		local a = GetLocale()
+		APH:Print(APH:ReadAP(146126,1))
+		APH:Print(APH:ReadAP(146125,1))
     end
 	---APH:UpdateWeapons()
 end
@@ -398,18 +402,24 @@ end
 
 
 local tip = CreateFrame ("GameTooltip", "APHTooltipReader", nil, "GameTooltipTemplate")
-function APH:ReadAP (itemLink)
+function APH:ReadAP (itemLink,pp)
 	tip:SetOwner (WorldFrame, "ANCHOR_NONE")
 	tip:SetItemByID (itemLink)
 
 	for i=tip:NumLines(),1,-1 do
 		local txt=_G["APHTooltipReaderTextLeft"..i]:GetText()-- .. "100.000 BATATAS 100 000 00 "
-	  if txt and string.match(string.gsub(string.gsub(txt,"%p",""),"%d+([ ])?%d+",""),L["Use Grants (%d+) Artifact Power"]) then
-		--APH:Print(txt,string.gsub(string.gsub(txt,"%p",""),"%d+([ ])?%d+",""),L["Use Grants (%d+) Artifact Power"])
-		power=string.match(string.gsub(string.gsub(txt,"%p",""),"%d+([ ])?%d+",""),L["Use Grants (%d+) Artifact Power"])
-		return tonumber(power)
+	  if txt and string.match(string.gsub(string.gsub(txt,"%p",""),"%d+([ ])?%d+",""),L["Use Grants (%d+)"]) then
+		if string.match(txt,L["(%d+) Artifact"]) then -- Under 1 million
+			power=string.match(string.gsub(string.gsub(txt,"%p",""),"%d+([ ])?%d+",""),L["Use Grants (%d+)"])
+		else
+			_,_,power = string.find(txt,"(%d*[,%.]?%d+)")
+			power=power*1e6
+		end
+		
+		return tonumber(power)-->10 and tonumber(power) or tonumber(power)*1000000
 	  end
 	end	
+	return 0
 end
 
 local function CalcPercent(rank,totalAP)
@@ -446,7 +456,7 @@ end
 local nW = #unlocked
 _,_,_,_,CurPow, CurRank = C_ArtifactUI.GetEquippedArtifactInfo()
 CurPow, CurRank = CurPow or 0, CurRank or 0
-CostOfNext = C_ArtifactUI.GetCostForPointAtRank(CurRank)
+CostOfNext = APHdata.ArtifactCosts[CurRank]   --C_ArtifactUI.GetCostForPointAtRank(CurRank)
 if Equipped >0 then dbc.ArtifactWeapons[Equipped] = {CurRank,CurPow,CostOfNext} end
 local saved = dbc.ArtifactWeapons
 if not saved[unlocked[1]] then return end
@@ -534,7 +544,7 @@ function APH:Update()
 		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,-100-row*36)
 		
 		button.Count:SetText(ids[3])
-		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],2).."|r")
+		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],1).."|r")
 		
 		button:Show()
 		j=j+1
@@ -559,7 +569,7 @@ function APH:Update()
 		local col, row = (j-1) - math.floor((j-1)/6)*6, math.floor((j-1)/6)
 		button:SetPoint("TOPLEFT", ArtifactPowerFrame,"TOPLEFT", 4+col*36,(-100-APItemsHeight-40)-row*36)
 		button.Count:SetText(ids[3])
-		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],2).."|r")
+		button.AP:SetText("|c0000ff00"..ReadableNumber(ids[2],1).."|r")
 		button:Show()
 		j=j+1
 	end
@@ -640,9 +650,9 @@ newWQAP=0
 						numWQ=numWQ+1
 						if GetNumQuestLogRewards(questList[ct].questId) > 0 then
 							local _, _, _, _, _, itemId = GetQuestLogRewardInfo(1, questList[ct].questId)
-								--APH:Print(itemID,GetItemSpell(itemId))
+								--APH:Print(itemId,GetItemSpell(itemId))
 							if GetItemSpell(itemId) == L["Empowering"] then
-								--APH:Print("Found APITem",questList[ct].questId,APH:ReadAP(itemId))
+								--APH:Print("Found APItem",questList[ct].questId,APH:ReadAP(itemId))
 								newWQAP = newWQAP + APH:ReadAP(itemId)
 							end
 						end
@@ -732,11 +742,12 @@ function APH:WeaponsTooltipLeave(id)
 end
 
 function APH:ResearchNotesEnter()
-	if APH:ResearchNotes() then
-		local num, rem = APH:ResearchNotes()
 		GameTooltip_SetDefaultAnchor(GameTooltip, UIParent)
 		GameTooltip:SetOwner(APHMainFrame,"ANCHOR_CURSOR")
 		GameTooltip:ClearLines()
+	if APH:ResearchNotes() then
+		APH:PreUpdate(true)
+		local num, rem = APH:ResearchNotes()
 		-- GameTooltipHeaderText:SetFont('Fonts\\FRIZQT__.TTF', 20)
 		GameTooltip:AddLine("Artifact Research Notes",1,1,1)
 		-- GameTooltipHeaderText:SetFont('Fonts\\FRIZQT__.TTF', 12)
@@ -817,7 +828,7 @@ end
 function APH:ARTIFACT_UPDATE()
 	AKlvl=C_ArtifactUI.GetArtifactKnowledgeLevel()
 	if AKlvl > dbc.AKLevel then dbc.AKLevel = AKlvl end
-	
+	APH:PreUpdate(true)
 end
 
 function APH:BANKFRAME_OPENED()

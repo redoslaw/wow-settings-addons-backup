@@ -1,11 +1,19 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Default",
-		["Redus - Burning Legion"] = "Default",
-		["Kot - Chamber of Aspects"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
 		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -15,21 +23,21 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsMF = {
 	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
-		["Redus - Burning Legion"] = "Redus - Burning Legion",
-		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
-		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
 		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
 	},
 	["profiles"] = {
-		["Redbullek - Burning Legion"] = {
-		},
-		["Redus - Burning Legion"] = {
-		},
-		["Kot - Chamber of Aspects"] = {
-		},
-		["Ðeathshot - Steamwheedle Cartel"] = {
-		},
 		["Ðeadshot - Burning Legion"] = {
 			[809] = {
 				["809:0:600302602.71812:418899002.37503:TomTom waypoint"] = {
@@ -62,9 +70,9 @@ TomTomWaypointsMF = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["persistent"] = true,
@@ -77,6 +85,30 @@ TomTomWaypointsMF = {
 					["world"] = true,
 				},
 			},
+		},
+		["Rêd - Burning Legion"] = {
+		},
+		["Rèd - Burning Legion"] = {
+		},
+		["Chúck - Burning Legion"] = {
+		},
+		["Ðeadshøt - Burning Legion"] = {
+		},
+		["Kot - Chamber of Aspects"] = {
+		},
+		["Redoslaw - Burning Legion"] = {
+		},
+		["Redus - Burning Legion"] = {
+		},
+		["Pandared - Burning Legion"] = {
+		},
+		["Kneewhoya - Burning Legion"] = {
+		},
+		["Redbullek - Burning Legion"] = {
+		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+		["Wòw - Burning Legion"] = {
 		},
 	},
 }

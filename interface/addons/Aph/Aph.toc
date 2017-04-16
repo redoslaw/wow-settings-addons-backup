@@ -1,8 +1,8 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: Artifact Power Helper
 ## Author: RasuSeiro
 ## Notes: Simplify and help with the whole artifact power usage and management.
-## Version: v1.1.0
+## Version: v1.1.3
 ## SavedVariables: APHDB
 ## OptionalDeps: Masque
 

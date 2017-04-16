@@ -338,7 +338,7 @@ WeakAurasTemplates: enabled
 WhisperPop: enabled
 WorldQuestGroupFinder: enabled
 WorldQuestsList: enabled
-TradeSkillMaster: enabled
+TradeSkillMaster: disabled
 TradeSkillMaster_Accounting: enabled
 TradeSkillMaster_AppHelper: enabled
 TradeSkillMaster_AuctionDB: enabled

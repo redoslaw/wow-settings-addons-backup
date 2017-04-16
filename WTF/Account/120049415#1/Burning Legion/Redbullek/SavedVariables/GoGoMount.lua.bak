@@ -10,6 +10,48 @@ GoGo_Prefs = {
 	["AutoExcludeFlyingMounts"] = false,
 	["DruidFormNotRandomize"] = false,
 	["Zones"] = {
+		[1077] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1015] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1017] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1021] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[976] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[4] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1048] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 		[1007] = {
 			["Preferred"] = {
 			},
@@ -22,20 +64,63 @@ GoGo_Prefs = {
 			["Excluded"] = {
 			},
 		},
+		[962] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1018] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[-1] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1080] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1024] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[1033] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
+		[13] = {
+			["Preferred"] = {
+			},
+			["Excluded"] = {
+			},
+		},
 	},
+	["PrefVer"] = 1,
 	["DisableMountNotice"] = false,
-	["autodismount"] = true,
+	["DisableWaterFlight"] = true,
 	["DruidDisableInCombat"] = false,
 	["DisableUpdateNotice"] = false,
 	["RemoveBuffs"] = true,
-	["version"] = "7.0.12",
+	["version"] = "7.1.1",
 	["DruidClickForm"] = true,
 	["GlobalPrefMounts"] = {
 	},
 	["ShamanClickForm"] = false,
 	["ExtraPassengerMounts"] = {
 	},
-	["DisableWaterFlight"] = true,
+	["autodismount"] = true,
 }
 GoGo_DebugLog = {
 }

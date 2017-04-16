@@ -2,7 +2,7 @@
 SatchelScannerDB = {
 	["raidwarning"] = false,
 	["scanDps"] = false,
-	["showMainFrame"] = true,
+	["showMainFrame"] = false,
 	["sounds"] = false,
 	["version"] = "2.3.0",
 	["scanHeal"] = false,

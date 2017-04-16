@@ -3,7 +3,7 @@ if L == nil then
     return 
 end
 
-L["ToggleCommandText"] = "Timerbereich Freischalten/Sperren  (Timer ist nur in einer Mythic+ Dungeon sichtbar)"
+L["ToggleCommandText"] = "Timerbereich Freischalten/Sperren"
 L["Loot"] = "Beute"
 L["NoLoot"] = "Keine Beute"
 L["Chests"] = "Truhen"
@@ -15,3 +15,9 @@ L["DeleteBestTimesRecords"] = "Gespeicherte Zielzeiten löschen."
 L["DeathCounter"] = "Todeszähler (Einschränkung: Zählt keine Tote die zu weit entfernt sind)"
 L["DeathCounterDesc"] = "Zeigt die Todesanzahl und die verlorene Zeit durch Tote. (5s pro Tod)"
 L["Deaths"] = "Tote"
+L["Completed"] = "abgeschlossen"
+L["Time"] = "Zeit"
+L["BestTime"] = "Beste"
+L["ObjectiveTimesInChat"] = "Abschlusszeiten im Chat anzeigen"
+L["ObjectiveTimesInChatDesc"] = "Zeigt die Abschlusszeiten im Chat an."
+L["TimeLeft"] = "Übrige Zeit"

@@ -1,3 +1,18 @@
+### v2.3.0
+---
+* **Patch 7.2**
+  * Added Tier 20 tokens
+  * Updated .toc to 7.2.
+  * Updated libraries.
+
+
+* Councilmen reconnecting will now receive the full session data instead of just the initial state.
+* Added better boss name grabbing for the loot history.
+
+
+##### Bugfixes
+ + *Fixed a bug that allowed modules to cause errors when changing columns (#249).*
+
 ### v2.2.5
 ---
 ##### Bugfixes

@@ -7,7 +7,7 @@ MisDirectionHelperDB = {
 		["ßowjoß - Steamwheedle Cartel"] = "ßowjoß - Steamwheedle Cartel",
 		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
-		["Wtbcrit - Chamber of Aspects"] = "Wtbcrit - Chamber of Aspects",
+		["Wów - Mazrigos"] = "Wów - Mazrigos",
 		["Ów - Mazrigos"] = "Ów - Mazrigos",
 		["Redseventh - Steamwheedle Cartel"] = "Redseventh - Steamwheedle Cartel",
 		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
@@ -25,7 +25,7 @@ MisDirectionHelperDB = {
 		["Redsecond - Steamwheedle Cartel"] = "Redsecond - Steamwheedle Cartel",
 		["Redoslaw - Chamber of Aspects"] = "Redoslaw - Chamber of Aspects",
 		["Pokemongo - Chamber of Aspects"] = "Pokemongo - Chamber of Aspects",
-		["Wów - Mazrigos"] = "Wów - Mazrigos",
+		["Wtbcrit - Chamber of Aspects"] = "Wtbcrit - Chamber of Aspects",
 		["Redfirst - Steamwheedle Cartel"] = "Redfirst - Steamwheedle Cartel",
 		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
 	},
@@ -44,9 +44,9 @@ MisDirectionHelperDB = {
 		["Chúck - Burning Legion"] = {
 			["autotank"] = true,
 			["name"] = "HERØ",
-			["petname"] = "HERØ",
-			["autopet"] = true,
 			["remind"] = true,
+			["autopet"] = true,
+			["petname"] = "HERØ",
 			["minimap"] = {
 				["minimapPos"] = 192.603165516584,
 				["hide"] = true,
@@ -78,18 +78,17 @@ MisDirectionHelperDB = {
 		},
 		["Ðeadshot - Burning Legion"] = {
 			["autotank"] = true,
+			["name"] = "Hatí",
 			["petname"] = "Hatí",
+			["autopet"] = true,
+			["clearjoin"] = false,
 			["minimap"] = {
 				["minimapPos"] = 115.543602346479,
 			},
-			["name"] = "Hatí",
-			["autopet"] = true,
-			["clearjoin"] = false,
 		},
-		["Wtbcrit - Chamber of Aspects"] = {
-			["autotank"] = true,
-			["autopet"] = true,
-			["petname"] = "Raptor",
+		["Wów - Mazrigos"] = {
+			["name"] = "Turtle",
+			["petname"] = "Turtle",
 		},
 		["Ów - Mazrigos"] = {
 			["target"] = "Tartalid",
@@ -202,9 +201,10 @@ MisDirectionHelperDB = {
 			["name"] = "Raptor",
 			["petname"] = "Raptor",
 		},
-		["Wów - Mazrigos"] = {
-			["name"] = "Turtle",
-			["petname"] = "Turtle",
+		["Wtbcrit - Chamber of Aspects"] = {
+			["autotank"] = true,
+			["autopet"] = true,
+			["petname"] = "Raptor",
 		},
 		["Redfirst - Steamwheedle Cartel"] = {
 			["minimap"] = {

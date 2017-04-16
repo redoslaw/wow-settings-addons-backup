@@ -1,7 +1,7 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: Quick DKP V2 - Core
 ## Author: Akhaan & Honesty Hyj
-## Version: 6.1r
+## Version: 6.2
 ## Notes: Complete system for in-game DKP managment
 ## OptionalDeps: AtlasLoot, DeadlyBossMods
 ## DefaultState: Enabled

@@ -46,4 +46,3 @@ L["option_pet_actions"] = "Управление питомцем"
 L["option_talents"] = "Таланты"
 L["tooltip_list"] = "Доступные профили:"
 L["tooltip_list_empty"] = "Нет доступных профилей"
-

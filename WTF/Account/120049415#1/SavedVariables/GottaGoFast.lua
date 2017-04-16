@@ -2,6 +2,7 @@
 GottaGoFastDB = {
 	["profileKeys"] = {
 		["Redus - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -11,13 +12,13 @@ GottaGoFastDB = {
 			["AutoDialog"] = true,
 			["AffixesInObjectives"] = false,
 			["IndividualMobValue"] = false,
-			["LevelInTimer"] = false,
+			["GoldTimer"] = false,
 			["TimerFontSize"] = 22,
 			["IncreaseInObjectives"] = false,
 			["FrameAnchor"] = "TOPRIGHT",
-			["GoldTimer"] = false,
+			["LevelInTimer"] = false,
 			["FrameY"] = 8.00006008148193,
-			["Version"] = 26200,
+			["Version"] = 26500,
 			["BestReport"] = false,
 			["ObjectiveFontSize"] = 15,
 			["SpyHelper"] = true,

@@ -14,19 +14,19 @@ end
 
 function GottaGoFast:OnEnable()
     -- Called when the addon is enabled
-
     -- Register Events
     RegisterAddonMessagePrefix("GottaGoFast");
     RegisterAddonMessagePrefix("GottaGoFastCM");
     RegisterAddonMessagePrefix("GottaGoFastTW");
-    self:RegisterEvent("CHALLENGE_MODE_START");
     self:RegisterEvent("CHALLENGE_MODE_COMPLETED");
     self:RegisterEvent("CHALLENGE_MODE_RESET");
-    self:RegisterEvent("PLAYER_ENTERING_WORLD");
-    self:RegisterEvent("SCENARIO_POI_UPDATE");
-    self:RegisterEvent("WORLD_STATE_TIMER_START");
-    self:RegisterEvent("UPDATE_MOUSEOVER_UNIT");
+    self:RegisterEvent("CHALLENGE_MODE_START")
     self:RegisterEvent("GOSSIP_SHOW");
+    self:RegisterEvent("PLAYER_LOGIN")
+    self:RegisterEvent("SCENARIO_POI_UPDATE");
+    self:RegisterEvent("UPDATE_MOUSEOVER_UNIT");
+    self:RegisterEvent("WORLD_STATE_TIMER_START");
+    self:RegisterEvent("ZONE_CHANGED_NEW_AREA")
     self:RegisterChatCommand("ggf", "ChatCommand");
     self:RegisterChatCommand("GottaGoFast", "ChatCommand");
     self:RegisterComm("GottaGoFast", "ChatComm");
@@ -45,13 +45,6 @@ function GottaGoFast:OnDisable()
   -- Called when the addon is disabled
 end
 
-function GottaGoFast:CHALLENGE_MODE_START()
-  GottaGoFast.Utility.DebugPrint("CM Start");
-  local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo();
-  GottaGoFast.InitCM(currentZoneID);
-  GottaGoFast.StartCM(10);
-end
-
 function GottaGoFast:CHALLENGE_MODE_COMPLETED()
   GottaGoFast.Utility.DebugPrint("CM Complete");
   GottaGoFast.CompleteCM();
@@ -62,17 +55,20 @@ function GottaGoFast:CHALLENGE_MODE_COMPLETED()
 end
 
 function GottaGoFast:CHALLENGE_MODE_RESET()
-  GottaGoFast.Utility.DebugPrint("CM Reset");
-  local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo();
-  GottaGoFast.InitCM(currentZoneID);
+  GottaGoFast.Utility.DebugPrint("CM Reset")
+  GottaGoFast.ResetState()
+  GottaGoFast.HideObjectiveTracker()
 end
 
-function GottaGoFast:PLAYER_ENTERING_WORLD()
-  GottaGoFast.Utility.DebugPrint("Player Entered World");
-  GottaGoFast.CheckCount = 0;
-  GottaGoFast.FirstCheck = false;
-  GottaGoFast.ResetState();
-  GottaGoFast.WhereAmI();
+function GottaGoFast:CHALLENGE_MODE_START()
+  GottaGoFast.Utility.DebugPrint("CM Start")
+  GottaGoFast.ResetState()
+  GottaGoFast.HideObjectiveTracker()
+end
+
+function GottaGoFast:PLAYER_LOGIN()
+  GottaGoFast.Utility.DebugPrint("Player Login");
+  GottaGoFast.WhereAmI()
 end
 
 function GottaGoFast:SCENARIO_POI_UPDATE()
@@ -83,26 +79,15 @@ function GottaGoFast:SCENARIO_POI_UPDATE()
     end
     GottaGoFast.UpdateCMInformation();
     GottaGoFast.UpdateCMObjectives();
-  elseif (GottaGoFast.inTW) then
-    GottaGoFast.Utility.DebugPrint("Scenario POI Update");
-    if (GottaGoFast.CurrentTW["Steps"] == 0 and GottaGoFast.CurrentTW["Completed"] == false and next(GottaGoFast.CurrentTW["Bosses"]) == nil) then
-      -- Timewalking Must Be Resetup If You Enter First
-      local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo();
-      GottaGoFast.WipeTW();
-      GottaGoFast.SetupTW(currentZoneID);
-    end
-    GottaGoFast.UpdateTWInformation();
-    GottaGoFast.UpdateTWObjectives();
   end
 end
 
 function GottaGoFast:WORLD_STATE_TIMER_START()
-  if (GottaGoFast.inCM == true) then
-    if (GottaGoFast.CurrentCM == nil or next(GottaGoFast.CurrentCM) == nil or GottaGoFast.CurrentCM["Steps"] == 0) then
-      local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo();
-      GottaGoFast.InitCM(currentZoneID)
-    end
-    if (GottaGoFast.CurrentCM["Completed"] == false) then
+  GottaGoFast.Utility.DebugPrint("World Start Timer Start")
+  if (ggf.inCM == false or GottaGoFast.CurrentCM == nil or next(GottaGoFast.CurrentCM) == nil or GottaGoFast.CurrentCM["Steps"] == 0) then
+    GottaGoFast.WhereAmI()
+  end
+  if (ggf.inCM and GottaGoFast.CurrentCM["Completed"] == false) then
       local _, timeCM = GetWorldElapsedTime(1);
       if (timeCM ~= nil and timeCM <= 2) then
         GottaGoFast.StartCM(0);
@@ -111,7 +96,6 @@ function GottaGoFast:WORLD_STATE_TIMER_START()
         GottaGoFast.CurrentCM["Deaths"] = GottaGoFast.CurrentCM["Deaths"] + 1;
         GottaGoFast.UpdateCMObjectives();
       end
-    end
   end
 end
 
@@ -119,9 +103,12 @@ function GottaGoFast:UPDATE_MOUSEOVER_UNIT()
   if (ggf.inCM == true and ggf.GetIndividualMobValue(nil) == true and ggf.CurrentCM ~= nil and next(ggf.CurrentCM) ~= nil) then
     local npcID = GottaGoFast.MouseoverUnitID();
     local mapID = ggf.CurrentCM["ZoneID"];
+    local cmID = ggf.CurrentCM["CmID"]
     local isTeeming = ggf.HasTeeming(ggf.CurrentCM["Affixes"]);
     if (npcID ~= nil and mapID ~= nil and isTeeming ~= nil) then
-      local weight = ggf.LOP:GetNPCWeightByMap(mapID, npcID, isTeeming);
+      -- Upper Karazhan Check Should Be Param 4
+      local upper = cmID == 234
+      local weight = ggf.LOP:GetNPCWeightByMap(mapID, npcID, isTeeming, upper);
       if (weight ~= nil) then
         local appendString = string.format(" (%.2f%%)", weight);
         GameTooltip:AppendText(appendString);
@@ -134,6 +121,11 @@ function GottaGoFast:GOSSIP_SHOW()
   if (ggf.inCM == true and ggf.CurrentCM ~= nil and next(ggf.CurrentCM) ~= nil) then
     GottaGoFast.HandleGossip();
   end
+end
+
+function GottaGoFast:ZONE_CHANGED_NEW_AREA()
+  GottaGoFast.Utility.DebugPrint("Zone Changed New Area")
+  GottaGoFast.WhereAmI();
 end
 
 function GottaGoFast:ChatCommand(input)
@@ -201,18 +193,9 @@ function GottaGoFast.WhereAmI()
   local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo();
   GottaGoFast.Utility.DebugPrint("Difficulty: " .. difficulty);
   GottaGoFast.Utility.DebugPrint("Zone ID: " .. currentZoneID);
-  if (GottaGoFast.FirstCheck == false) then
-    GottaGoFast.FirstCheck = true;
-    GottaGoFast:ScheduleTimer(GottaGoFast.WhereAmI, 0.2);
-  elseif (difficulty == 8) then
+  if (difficulty == 8 and C_ChallengeMode.GetActiveChallengeMapID() ~= nil) then
     GottaGoFast.InitCM(currentZoneID)
-  elseif (difficulty == 9999 and GottaGoFastInstanceInfo[currentZoneID]) then
-    -- Difficutly 24 for Timewalking
-    GottaGoFast.InitTW(currentZoneID)
-  elseif (GottaGoFast.CheckCount < 20 and GottaGoFastInstanceInfo[currentZoneID]) then
-    GottaGoFast.CheckCount = GottaGoFast.CheckCount + 1;
-    GottaGoFast:ScheduleTimer(GottaGoFast.WhereAmI, 0.2);
   else
-    GottaGoFast.ResetState();
+    GottaGoFast.ResetState()
   end
 end

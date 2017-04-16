@@ -4,8 +4,6 @@ local MSQ = LibStub("Masque", true);
 -- WoW API
 local _G = _G
 
--- GLOBALS: WeakAuras
-
 local default = {
     icon = true,
     desaturate = false,
@@ -206,7 +204,7 @@ local function modify(parent, region, data)
         region.color_a = a;
         icon:SetVertexColor(r, g, b, a);
         if MSQ then
-            button:SetAlpha(a);
+          button:SetAlpha(a or 1);
         end
     end
 

@@ -1,6 +1,6 @@
-﻿## Interface: 70100
+﻿## Interface: 70200
 ## Title: Server Hop
-## Version: 6.0.0
+## Version: 7.2.2
 ## Author: ChronoAS#2758 (EU)
 ## Notes: Cross-server LFG tool. Includes: changing realm in the fastest way possible and improved automatic search.
 ## Notes-ruRU: Инструмент для межсерверного поиска группы. Включает: почти мгновенную смену сервера и улучшенный автоматический поиск.

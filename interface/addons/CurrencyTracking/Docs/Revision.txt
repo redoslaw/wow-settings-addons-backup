@@ -1,7 +1,23 @@
-﻿$Id: Revision.txt 50 2017-03-01 16:00:24Z arith $
+﻿$Id: Revision.txt 60 2017-04-05 15:50:17Z arith $
 
 Revision History:
 =================
+
+* v2.08 (Apr. 05, 2017)
+-----------------------
+- Added option to always lock the info frame
+- Added option to show currency icon prior to its amount
+  (same applies to money when configured)
+- Translation update:
+  - German (pas06)
+
+* v2.07 (Mar. 27, 2017)
+-----------------------
+- Toc update to support WoW 7.2
+
+* v2.06 (Mar. 21, 2017)
+-----------------------
+- added to support in showing money info
 
 * v2.05 (Mar. 01, 2017)
 -----------------------

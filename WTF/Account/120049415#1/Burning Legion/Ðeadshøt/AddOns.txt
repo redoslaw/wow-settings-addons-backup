@@ -65,3 +65,4 @@ Altoholic_Guild: enabled
 Altoholic_Search: enabled
 Altoholic_Summary: enabled
 Grid: disabled
+TradeSkillMaster: disabled

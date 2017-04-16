@@ -302,6 +302,32 @@ GTFO.SpellID["216476"] = {
   sound = 1;
 };
 
+GTFO.SpellID["215921"] = {
+  --desc = "Guardian Nova (Guardian Orb)";
+  sound = 1;
+};
+
+GTFO.SpellID["202704"] = {
+  --desc = "Defiled Consecration (Eredar Enforcer)";
+  sound = 1;
+};
+
+GTFO.SpellID["217907"] = {
+  --desc = "Wrathful Flames (Calamir)";
+  sound = 1;
+};
+
+GTFO.SpellID["242873"] = {
+  --desc = "The Felstorm";
+  sound = 1;
+};
+
+GTFO.SpellID["239085"] = {
+  --desc = "Shadow Conduit (Lord Kalgorath)";
+  sound = 1;
+};
+
+
 -- **********
 -- * Mardum *
 -- **********
@@ -374,6 +400,12 @@ GTFO.SpellID["191853"] = {
   --desc = "Furious Flames (Tirathon Saltheril)";
   sound = 1;
 };
+
+GTFO.SpellID["216319"] = {
+  --desc = "A Mother's Love (Grimoira)";
+  sound = 1;
+};
+
 
 -- ********************
 -- * The Broken Shore *
@@ -948,7 +980,6 @@ GTFO.SpellID["211634"] = {
 -- *************
 
 -- TODO: Volatile Fragment (Skorpyron)
--- TODO: Sterilize (Trilliax) -- FF Damage
 -- TODO: Arcing Bonds (Trilliax) -- FF Damage
 -- TODO: Fel Stomp (Spellblade Aluriel)
 -- TODO: Flames of Argus (Tichondrius)
@@ -958,7 +989,6 @@ GTFO.SpellID["211634"] = {
 -- TODO: Collapse of Night (High Botanist Tel'arn) -- when marked and not standing by someone unmarked
 -- TODO: Solar Collapse (High Botanist Tel'arn) -- Any ticks avoidable?
 -- TODO: Frigid Pulse (Star Augur Etaeus)
--- TODO: Desolate Ground (Gul'dan)
 -- TODO: Flames of Sargeras (Gul'dan) -- FF 
 
 GTFO.SpellID["204744"] = {
@@ -1002,6 +1032,13 @@ GTFO.SpellID["223718"] = {
 GTFO.SpellID["206488"] = {
   --desc = "Arcane Seepage (Trilliax)";
   sound = 1;
+};
+
+GTFO.SpellID["208501"] = {
+  --desc = "Sterilize (Trilliax)";
+  sound = 4;
+  ignoreSelfInflicted = true;
+  negatingDebuffSpellID = 208499; -- Sterilize
 };
 
 GTFO.SpellID["224572"] = {
@@ -1120,6 +1157,16 @@ GTFO.SpellID["217770"] = {
 
 GTFO.SpellID["209191"] = {
   --desc = "Empowered Liquid Hellfire (Gul'dan)";
+  sound = 1;
+};
+
+GTFO.SpellID["221781"] = {
+  --desc = "Desolate Ground (Gul'dan)";
+  sound = 1;
+};
+
+GTFO.SpellID["231008"] = {
+  --desc = "Explosive Trap (Flightmaster Volnath)";
   sound = 1;
 };
 
@@ -1261,3 +1308,40 @@ GTFO.SpellID["228993"] = {
   sound = 1;
 };
 
+-- **************************
+-- * Cathedral of the Night *
+-- **************************
+
+GTFO.SpellID["238656"] = {
+  --desc = "Shadow Wave (Dul'zak)";
+  sound = 1;
+};
+
+GTFO.SpellID["237325"] = {
+  --desc = "Toxic Pollen (Felborne Botanist)";
+  applicationOnly = true;
+  sound = 1;
+};
+
+GTFO.SpellID["240556"] = {
+  --desc = "Tome of Everlasting Silence";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["240951"] = {
+  --desc = "Destructive Rampage (Thrashbite the Scornful)";
+  sound = 3;
+  tankSound = 1;
+};
+
+GTFO.SpellID["239326"] = {
+  --desc = "Felblaze Orb (Nal'asha)";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["233177"] = {
+  --desc = "Carrion Swarm (Mephistroth)";
+  sound = 1;
+};

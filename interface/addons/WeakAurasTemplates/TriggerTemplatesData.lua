@@ -240,7 +240,7 @@ templates.class.WARRIOR = {
         { spell = 23920, type = "buff", unit = "player" }, -- Spell Reflection
         { spell = 107574, type = "buff", unit = "player", talent = 9 }, -- Avatar
         { spell = 125565, type = "buff", unit = "player" }, -- Demoralizing Shout
-        { spell = 132404, type = "buff", unit = "player" }, -- Shield Block
+        { spell = 132404, type = "buff", unit = "player", fullscan = true }, -- Shield Block
         { spell = 147833, type = "buff", unit = "target" }, -- Intervene
         { spell = 188783, type = "buff", unit = "player" }, -- Might of the Vrykul
         { spell = 189064, type = "buff", unit = "player" }, -- Scales of Earth
@@ -3567,6 +3567,7 @@ templates.items[2] = {
     { spell = 235559, type = "buff", unit = "player", item = 144281}, -- Skullflower's Haemostasis
     { spell = 236757, type = "buff", unit = "player", item = 144354}, -- Fiery Red Maimers
     { spell = 235054, type = "buff", unit = "player", item = 144239}, -- The Emperor's Capacitor
+    { spell = 235712, type = "buff", unit = "player", item = 144303}, -- MKII Gyroscopic Stabilizer
     { spell = 236546, type = "buff", unit = "player", item = 144438}, -- Zeks Exterminatus
     { spell = 235169, type = "buff", unit = "player", item = 144249, titleSuffix = L["buff"]}, -- Archimonde's Hatred Reborn
     { spell = 235966, type = "buff", unit = "player", item = 144258, titleSuffix = L["buff"]}, -- Velen's Future Sight
@@ -3910,7 +3911,7 @@ tinsert(templates.class.MONK[3][5].args, createSimplePowerTemplate(12));
 templates.class.MONK[1][6] = {
   title = L["Ability Charges"],
   args = {
-    { spell = 115072, type = "ability", showOn = "always"}, -- Expel Harm
+    { spell = 115072, type = "ability", showOn = "showAlways"}, -- Expel Harm
   },
   icon = 627486,
 };
@@ -3918,7 +3919,7 @@ templates.class.MONK[1][6] = {
 templates.class.MONK[2][6] = {
   title = L["Ability Charges"],
   args = {
-    { spell = 205406, type = "ability", showOn = "always"}, -- Sheilun's Gift
+    { spell = 205406, type = "ability", showOn = "showAlways"}, -- Sheilun's Gift
   },
   icon = 1242282,
 };
@@ -3926,7 +3927,7 @@ templates.class.MONK[2][6] = {
 templates.class.MONK[3][6] = {
   title = L["Ability Charges"],
   args = {
-    { spell = 101546, type = "ability", showOn = "always"}, -- Spinning Crane Kick
+    { spell = 101546, type = "ability", showOn = "showAlways"}, -- Spinning Crane Kick
   },
   icon = 606543,
 };
@@ -4019,14 +4020,14 @@ tinsert(templates.race.Goblin, { spell = 69041, type = "ability" });
 -- Enrich items from spell, set title
 local function handleItem(item)
   if (item.spell) then
-    local name, icon, tmp;
+    local name, icon, _;
     if (item.type == "item") then
-      name, tmp, tmp, tmp, tmp, tmp, tmp, tmp, tmp, icon = GetItemInfo(item.spell);
+      name, _, _, _, _, _, _, _, _, icon = GetItemInfo(item.spell);
       if (name == nil) then
         name = L["Unknown Item"] .. " " .. tostring(item.spell);
       end
     else
-      name, tmp, icon = GetSpellInfo(item.spell);
+      name, _, icon = GetSpellInfo(item.spell);
       if (name == nil) then
         name = L["Unknown Spell"] .. " " .. tostring(item.spell);
         print ("Error: Unknown spell", item.spell);

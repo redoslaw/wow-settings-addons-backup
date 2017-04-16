@@ -42,8 +42,8 @@ WoWPro_Leveling: disabled
 WowPro_Profession: disabled
 WoWPro_WorldEvents: disabled
 !Swatter: disabled
-TradeSkillMaster_Accounting: enabled
-TradeSkillMaster: disabled
+TradeSkillMaster_Accounting: disabled
+TradeSkillMaster: enabled
 TradeSkillMaster_Additions: disabled
 TradeSkillMaster_AuctionDB: enabled
 TradeSkillMaster_Auctioning: enabled
@@ -95,7 +95,7 @@ Grail: disabled
 Grail-Achievements: disabled
 Grail-When: disabled
 Grail-Reputations: disabled
-RaidAchievement: enabled
+RaidAchievement: disabled
 RaidAchievement_WoDHeroics: disabled
 RaidAchievement_WoDRaids: disabled
 Broker_Garrison: disabled
@@ -162,7 +162,7 @@ Sushi-3.0: enabled
 CustomTutorials-2.1: enabled
 CrossRealmAssist: disabled
 LFGShout: enabled
-ServerHop: disabled
+ServerHop: enabled
 ActionBarSaver: enabled
 AskMrRobot: enabled
 ItemRack: enabled
@@ -176,7 +176,7 @@ ReadyCheckAnnouncer: enabled
 Clique: enabled
 GuildRecr: enabled
 LibCompress: enabled
-WorldQuestTracker: disabled
+WorldQuestTracker: enabled
 WhisperPop: enabled
 WorldFlightMap: disabled
 NPCScan: disabled
@@ -228,7 +228,7 @@ LibParse: enabled
 LibGraph-2.0: enabled
 TheUndermineJournal: enabled
 LibRealmInfo: enabled
-TradeSkillMaster_AppHelper: enabled
+TradeSkillMaster_AppHelper: disabled
 ArtifactPowerUser: enabled
 Broker_TicketStatus: disabled
 FlyPitch: disabled
@@ -242,7 +242,7 @@ TradeSkillMaster_CompetitorTracker: enabled
 AceTimer-3.0: enabled
 AceBucket-3.0: enabled
 TitanMount: disabled
-SuramarPortals: disabled
+SuramarPortals: enabled
 ActionBarProfiles: enabled
 ACP: enabled
 AnnounceIt: enabled
@@ -270,8 +270,8 @@ MiniLoot: enabled
 MinimapClock: enabled
 PassLoot: enabled
 Paste: enabled
-RaidAchievement_LegionHeroics: enabled
-RaidAchievement_LegionRaids: enabled
+RaidAchievement_LegionHeroics: disabled
+RaidAchievement_LegionRaids: disabled
 Recount: enabled
 TitanSpeed: disabled
 TitanCurrTrack: disabled
@@ -366,3 +366,7 @@ OrderHallCommander: enabled
 DBM-TombofSargeras: disabled
 LibInit: enabled
 GottaGoFast: disabled
+InstanceReset: disabled
+MPH: disabled
+GottaGoFastHistory: disabled
+PokemonTrainer: disabled

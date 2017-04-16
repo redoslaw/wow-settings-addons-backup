@@ -8,12 +8,10 @@ SS_HealTexture = "Interface\\Addons\\SatchelScanner\\textures\\healer.tga";
 SS_DpsTexture = "Interface\\Addons\\SatchelScanner\\textures\\dps.tga";
 
 SS_newsTable = {
-	SS_mythicDungeonNews = { text = "Seems Scrapped.", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_mythicDungeonBox3"},
-	SS_LFR1News = { text = "Release: March 7", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_BetrayersRiseBox3"},
-	SS_LFR2News = { text = "Release: Patch 7.2", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_TidestonesRestBox3"},
-	SS_LFR3News = { text = "Release: Patch 7.2", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_WailingHallsBox3"},
-	SS_LFR4News = { text = "Release: Patch 7.2", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_ChamberAvatarBox3"},
-	SS_LFR5News = { text = "Release: Patch 7.2", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_DeceiversFallBox3"},
+	SS_LFR2News = { text = "Release: Patch 7.2, Date TBA", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_TidestonesRestBox3"},
+	SS_LFR3News = { text = "Release: Patch 7.2, Date TBA", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_WailingHallsBox3"},
+	SS_LFR4News = { text = "Release: Patch 7.2, Date TBA", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_ChamberAvatarBox3"},
+	SS_LFR5News = { text = "Release: Patch 7.2, Date TBA", loc = "TOPLEFT", x = 20, y = -4, anchor = "SS_DeceiversFallBox3"},
 };
 
 SS_optionsTable2 = {
@@ -63,9 +61,9 @@ SS_optionsTable2 = {
 	SS_ScannerInstances = {
 		SS_spacer6 = { loc = "TOP", x = 0, y = -45, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
 		SS_spacer7 = { loc = "TOP", x = 0, y = -130, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
-		SS_spacer8 = { loc = "TOP", x = 0, y = -215, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
-		SS_spacer9 = { loc = "TOP", x = 0, y = -320, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
-		SS_spacer10 = { loc = "TOP", x = 0, y = -425, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
+		SS_spacer8 = { loc = "TOP", x = 0, y = -195, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
+		SS_spacer9 = { loc = "TOP", x = 0, y = -300, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
+		SS_spacer10 = { loc = "TOP", x = 0, y = -405, isSpacer = true, isIcon = true, width = "0" , height = "2", texture = SS_Spacer},
 		SS_instanceHeader = { isText = true, fontSize = 24, loc = "TOP", x = 0, y = -5, text = "|cFF0080FFSatchel Scanner|r"},
 		SS_instanceSubHeader = { isText = true, fontSize = 18, loc = "TOP", x = 0, y = -25, text = "|cffff0000Instance Options|r"},
 		SS_tankIconText = { text = "Tank", loc = "TOP", x = -148, y = -110, isText = true, fontSize = 14},
@@ -77,71 +75,67 @@ SS_optionsTable2 = {
 		-- Dungeons
 		SS_randomDungeons = { text = "|cffff0000Random Dungeons|r", loc = "TOP", x = 0, y = -136, isText = true, fontSize = 14},
 		SS_heroicDungeon = { text = "Heroic Dungeons:", loc = "TOPLEFT", x = 10, y = -155, isText = true, fontSize = 14},
-		SS_mythicDungeon = { text = "Mythic Dungeons:", loc = "TOPLEFT", x = 10, y = -175, isText = true, fontSize = 14},
-		SS_timewalkingDungeon = { text = "Timewalking:", loc = "TOPLEFT", x = 10, y = -195, isText = true, fontSize = 14},
+		SS_timewalkingDungeon = { text = "Timewalking:", loc = "TOPLEFT", x = 10, y = -175, isText = true, fontSize = 14},
 		SS_heroicDungeonBox1 = { loc = "TOP", x = -150, y = -150},
 		SS_heroicDungeonBox2 = { loc = "TOP", x = 0, y = -150},
 		SS_heroicDungeonBox3 = { loc = "TOP", x = 150, y = -150},
-		SS_mythicDungeonBox1 = { locked = true; loc = "TOP", x = -150, y = -170},
-		SS_mythicDungeonBox2 = { locked = true; loc = "TOP", x = 0, y = -170},
-		SS_mythicDungeonBox3 = { locked = true; loc = "TOP", x = 150, y = -170},
-		SS_timewalkingDungeonBox1 = { loc = "TOP", x = -150, y = -190},
-		SS_timewalkingDungeonBox2 = { loc = "TOP", x = 0, y = -190},
-		SS_timewalkingDungeonBox3 = { loc = "TOP", x = 150, y = -190},
+		SS_timewalkingDungeonBox1 = { loc = "TOP", x = -150, y = -170},
+		SS_timewalkingDungeonBox2 = { loc = "TOP", x = 0, y = -170},
+		SS_timewalkingDungeonBox3 = { loc = "TOP", x = 150, y = -170},
 		-- Emerald Nightmare, ToV
-		SS_EmeraldNightmareLFR = { text = "|cffff0000Emerald Nightmare & Trial of Valor|r", loc = "TOP", x = 0, y = -221, isText = true, fontSize = 14},
-		SS_Darkbough = { text = "Darkbough:", loc = "TOPLEFT", x = 10, y = -240, isText = true, fontSize = 14},
-		SS_TormentedGuardians = { text = "Tormented Guardians:", loc = "TOPLEFT", x = 10, y = -260, isText = true, fontSize = 14},
-		SS_RiftofAln = { text = "Rift of Aln:", loc = "TOPLEFT", x = 10, y = -280, isText = true, fontSize = 14},
-		SS_TrialofValor = { text = "Trial of Valor:", loc = "TOPLEFT", x = 10, y = -300, isText = true, fontSize = 14},
-		SS_DarkboughBox1 = { loc = "TOP", x = -150, y = -235},
-		SS_DarkboughBox2 = { loc = "TOP", x = 0, y = -235},
-		SS_DarkboughBox3 = { loc = "TOP", x = 150, y = -235},
-		SS_TormentedGuardiansBox1 = { loc = "TOP", x = -150, y = -255},
-		SS_TormentedGuardiansBox2 = { loc = "TOP", x = 0, y = -255},
-		SS_TormentedGuardiansBox3 = { loc = "TOP", x = 150, y = -255},
-		SS_RiftofAlnBox1 = { loc = "TOP", x = -150, y = -275},
-		SS_RiftofAlnBox2 = { loc = "TOP", x = 0, y = -275},
-		SS_RiftofAlnBox3 = { loc = "TOP", x = 150, y = -275},
-		SS_TrialofValorBox1 = { loc = "TOP", x = -150, y = -295},
-		SS_TrialofValorBox2 = { loc = "TOP", x = 0, y = -295},
-		SS_TrialofValorBox3 = { loc = "TOP", x = 150, y = -295},
+		SS_EmeraldNightmareLFR = { text = "|cffff0000Emerald Nightmare & Trial of Valor|r", loc = "TOP", x = 0, y = -201, isText = true, fontSize = 14},
+		SS_Darkbough = { text = "Darkbough:", loc = "TOPLEFT", x = 10, y = -220, isText = true, fontSize = 14},
+		SS_TormentedGuardians = { text = "Tormented Guardians:", loc = "TOPLEFT", x = 10, y = -240, isText = true, fontSize = 14},
+		SS_RiftofAln = { text = "Rift of Aln:", loc = "TOPLEFT", x = 10, y = -260, isText = true, fontSize = 14},
+		SS_TrialofValor = { text = "Trial of Valor:", loc = "TOPLEFT", x = 10, y = -280, isText = true, fontSize = 14},
+		SS_DarkboughBox1 = { loc = "TOP", x = -150, y = -215},
+		SS_DarkboughBox2 = { loc = "TOP", x = 0, y = -215},
+		SS_DarkboughBox3 = { loc = "TOP", x = 150, y = -215},
+		SS_TormentedGuardiansBox1 = { loc = "TOP", x = -150, y = -235},
+		SS_TormentedGuardiansBox2 = { loc = "TOP", x = 0, y = -235},
+		SS_TormentedGuardiansBox3 = { loc = "TOP", x = 150, y = -235},
+		SS_RiftofAlnBox1 = { loc = "TOP", x = -150, y = -255},
+		SS_RiftofAlnBox2 = { loc = "TOP", x = 0, y = -255},
+		SS_RiftofAlnBox3 = { loc = "TOP", x = 150, y = -255},
+		SS_TrialofValorBox1 = { loc = "TOP", x = -150, y = -275},
+		SS_TrialofValorBox2 = { loc = "TOP", x = 0, y = -275},
+		SS_TrialofValorBox3 = { loc = "TOP", x = 150, y = -275},
 		-- Nighthold
-		SS_NightholdLFR = { text = "|cffff0000Looking for Raid: Nighthold|r", loc = "TOP", x = 0, y = -326, isText = true, fontSize = 14},
-		SS_ArcingAqueducts = { text = "Arcing Aqueducts:", loc = "TOPLEFT", x = 10, y = -345, isText = true, fontSize = 14},
-		SS_RoyalAthenaeum = { text = "Royal Athenaeum:", loc = "TOPLEFT", x = 10, y = -365, isText = true, fontSize = 14},
-		SS_Nightspire = { text = "Nightspire:", loc = "TOPLEFT", x = 10, y = -385, isText = true, fontSize = 14},
-		SS_BetrayersRise = { text = "Betrayer's Rise:", loc = "TOPLEFT", x = 10, y = -405, isText = true, fontSize = 14},
-		SS_ArcingAqueductsBox1 = { loc = "TOP", x = -150, y = -340},
-		SS_ArcingAqueductsBox2 = { loc = "TOP", x = 0, y = -340},
-		SS_ArcingAqueductsBox3 = { loc = "TOP", x = 150, y = -340},
-		SS_RoyalAthenaeumBox1 = { loc = "TOP", x = -150, y = -360},
-		SS_RoyalAthenaeumBox2 = { loc = "TOP", x = 0, y = -360},
-		SS_RoyalAthenaeumBox3 = { loc = "TOP", x = 150, y = -360},
-		SS_NightspireBox1 = { loc = "TOP", x = -150, y = -380},
-		SS_NightspireBox2 = { loc = "TOP", x = 0, y = -380},
-		SS_NightspireBox3 = { loc = "TOP", x = 150, y = -380},
-		SS_BetrayersRiseBox1 = { locked = true; loc = "TOP", x = -150, y = -400},
-		SS_BetrayersRiseBox2 = { locked = true; loc = "TOP", x = 0, y = -400},
-		SS_BetrayersRiseBox3 = { locked = true; loc = "TOP", x = 150, y = -400},
+		SS_NightholdLFR = { text = "|cffff0000Looking for Raid: Nighthold|r", loc = "TOP", x = 0, y = -306, isText = true, fontSize = 14},
+		SS_ArcingAqueducts = { text = "Arcing Aqueducts:", loc = "TOPLEFT", x = 10, y = -325, isText = true, fontSize = 14},
+		SS_RoyalAthenaeum = { text = "Royal Athenaeum:", loc = "TOPLEFT", x = 10, y = -345, isText = true, fontSize = 14},
+		SS_Nightspire = { text = "Nightspire:", loc = "TOPLEFT", x = 10, y = -365, isText = true, fontSize = 14},
+		SS_BetrayersRise = { text = "Betrayer's Rise:", loc = "TOPLEFT", x = 10, y = -385, isText = true, fontSize = 14},
+		SS_ArcingAqueductsBox1 = { loc = "TOP", x = -150, y = -320},
+		SS_ArcingAqueductsBox2 = { loc = "TOP", x = 0, y = -320},
+		SS_ArcingAqueductsBox3 = { loc = "TOP", x = 150, y = -320},
+		SS_RoyalAthenaeumBox1 = { loc = "TOP", x = -150, y = -340},
+		SS_RoyalAthenaeumBox2 = { loc = "TOP", x = 0, y = -340},
+		SS_RoyalAthenaeumBox3 = { loc = "TOP", x = 150, y = -340},
+		SS_NightspireBox1 = { loc = "TOP", x = -150, y = -360},
+		SS_NightspireBox2 = { loc = "TOP", x = 0, y = -360},
+		SS_NightspireBox3 = { loc = "TOP", x = 150, y = -360},
+		SS_BetrayersRiseBox1 = { loc = "TOP", x = -150, y = -380},
+		SS_BetrayersRiseBox2 = { loc = "TOP", x = 0, y = -380},
+		SS_BetrayersRiseBox3 = { loc = "TOP", x = 150, y = -380},
 		-- Tomb of Sargeras
-		SS_TombofSargerasLFR = { text = "|cffff0000Tomb of Sargeras!|r", loc = "TOP", x = 0, y = -431, isText = true, fontSize = 14},
-		SS_TidestonesRest = { text = "The Tidestone's Rest:", loc = "TOPLEFT", x = 10, y = -450, isText = true, fontSize = 14},
-		SS_WailingHallsRest = { text = "Wailing Halls:", loc = "TOPLEFT", x = 10, y = -470, isText = true, fontSize = 14},
-		SS_ChamberAvatarRest = { text = "Chamber of the Avatar:", loc = "TOPLEFT", x = 10, y = -490, isText = true, fontSize = 14},
-		SS_DeceiversFallRest = { text = "Deveiver's Fall:", loc = "TOPLEFT", x = 10, y = -510, isText = true, fontSize = 14},
-		SS_TidestonesRestBox1 = { locked = true; loc = "TOP", x = -150, y = -445},
-		SS_TidestonesRestBox2 = { locked = true; loc = "TOP", x = 0, y = -445},
-		SS_TidestonesRestBox3 = { locked = true; loc = "TOP", x = 150, y = -445},	
-		SS_WailingHallsBox1 = { locked = true; loc = "TOP", x = -150, y = -465},
-		SS_WailingHallsBox2 = { locked = true; loc = "TOP", x = 0, y = -465},
-		SS_WailingHallsBox3 = { locked = true; loc = "TOP", x = 150, y = -465},
-		SS_ChamberAvatarBox1 = { locked = true; loc = "TOP", x = -150, y = -485},
-		SS_ChamberAvatarBox2 = { locked = true; loc = "TOP", x = 0, y = -485},
-		SS_ChamberAvatarBox3 = { locked = true; loc = "TOP", x = 150, y = -485},
-		SS_DeceiversFallBox1 = { locked = true; loc = "TOP", x = -150, y = -505},
-		SS_DeceiversFallBox2 = { locked = true; loc = "TOP", x = 0, y = -505},
-		SS_DeceiversFallBox3 = { locked = true; loc = "TOP", x = 150, y = -505},
+		SS_TombofSargerasLFR = { text = "|cffff0000Tomb of Sargeras!|r", loc = "TOP", x = 0, y = -411, isText = true, fontSize = 14},
+		SS_TidestonesRest = { text = "The Tidestone's Rest:", loc = "TOPLEFT", x = 10, y = -430, isText = true, fontSize = 14},
+		SS_WailingHallsRest = { text = "Wailing Halls:", loc = "TOPLEFT", x = 10, y = -450, isText = true, fontSize = 14},
+		SS_ChamberAvatarRest = { text = "Chamber of the Avatar:", loc = "TOPLEFT", x = 10, y = -470, isText = true, fontSize = 14},
+		SS_DeceiversFallRest = { text = "Deveiver's Fall:", loc = "TOPLEFT", x = 10, y = -490, isText = true, fontSize = 14},
+		SS_TidestonesRestBox1 = { locked = true; loc = "TOP", x = -150, y = -425},
+		SS_TidestonesRestBox2 = { locked = true; loc = "TOP", x = 0, y = -425},
+		SS_TidestonesRestBox3 = { locked = true; loc = "TOP", x = 150, y = -425},	
+		SS_WailingHallsBox1 = { locked = true; loc = "TOP", x = -150, y = -445},
+		SS_WailingHallsBox2 = { locked = true; loc = "TOP", x = 0, y = -445},
+		SS_WailingHallsBox3 = { locked = true; loc = "TOP", x = 150, y = -445},
+		SS_ChamberAvatarBox1 = { locked = true; loc = "TOP", x = -150, y = -465},
+		SS_ChamberAvatarBox2 = { locked = true; loc = "TOP", x = 0, y = -465},
+		SS_ChamberAvatarBox3 = { locked = true; loc = "TOP", x = 150, y = -465},
+		SS_DeceiversFallBox1 = { locked = true; loc = "TOP", x = -150, y = -485},
+		SS_DeceiversFallBox2 = { locked = true; loc = "TOP", x = 0, y = -485},
+		SS_DeceiversFallBox3 = { locked = true; loc = "TOP", x = 150, y = -485},
 	};
 };	
 
@@ -159,7 +153,7 @@ function SS_interfaceConfig()
 	SS_Options = {};
 	SS_Options.panel = CreateFrame("Frame", "SatchelScannerPanel", UIParent);
 	SS_Options.panel.name = "Satchel Scanner";
-	SS_Options.panel.okay = function(self) SS_datacall("update"); SS_stopScanning(); updateFrames(); end;
+	SS_Options.panel.okay = function(self) SS_datacall("update"); SS_updateFrames(); end;
 	SS_Options.panel:SetBackdrop(SS_optionsPanelBackdrop);
 	SS_Options.panel:SetBackdropColor(0, 0, 0, 0.8);
 	InterfaceOptions_AddCategory(SS_Options.panel);
@@ -258,6 +252,6 @@ function SS_interfaceConfig()
 		_G[i]:SetPoint(tVar.loc, tVar.x, tVar.y);
 		_G[i]:SetText(tVar.text);
 	end
-	drawFrames();
+	SS_drawFrames();
 end
 

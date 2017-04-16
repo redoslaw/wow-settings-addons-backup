@@ -1,10 +1,8 @@
 -- Lua APIs
-local select, pairs, next, type, unpack = select, pairs, next, type, unpack
+local pairs = pairs
 
 -- WoW APIs
 local IsShiftKeyDown, CreateFrame =  IsShiftKeyDown, CreateFrame
-
--- GLOBALS: WeakAuras
 
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
@@ -521,7 +519,7 @@ local function ConstructMoverSizer(parent)
     if(self.currentAlpha ~= self.goalAlpha) then
       self.currentAlpha = self.currentAlpha or self:GetAlpha();
       local newAlpha = (self.currentAlpha < self.goalAlpha) and self.currentAlpha + (elaps * 4) or self.currentAlpha - (elaps * 4);
-      local newAlpha = (newAlpha > 1 and 1) or (newAlpha < 0.1 and 0.1) or newAlpha;
+      newAlpha = (newAlpha > 1 and 1) or (newAlpha < 0.1 and 0.1) or newAlpha;
       mover:SetAlpha(newAlpha);
       frame:SetAlpha(newAlpha);
       self.currentAlpha = newAlpha;
@@ -586,7 +584,7 @@ local function ConstructMoverSizer(parent)
 end
 
 function WeakAuras.MoverSizer(parent)
-  if not moversizer or not __mover then
+  if not moversizer or not mover then
     moversizer, mover = ConstructMoverSizer(parent)
   end
   return moversizer, mover

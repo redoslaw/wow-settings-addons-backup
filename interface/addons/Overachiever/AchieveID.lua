@@ -351,6 +351,7 @@ OVERACHIEVER_EXPLOREZONEID = {
 	["Highmountain"] = 10667,
 	["Stormheim"] = 10668,
 	["Suramar"] = 10669,
+	["Broken Shore"] = 11543,
 };
 -- "Explore Cataclysm": 4868
 

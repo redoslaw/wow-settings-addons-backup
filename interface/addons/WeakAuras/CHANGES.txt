@@ -1,30 +1,23 @@
-tag 5b641b7b384b23d0183e8c7a3e34168228753a02 2.3.4
+tag 80a1275186e28fc42f94f2ed5f47be8e5985f792 2.3.9
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Thu Mar 2 16:06:18 2017 +0100
+Date:	Tue Apr 4 19:13:18 2017 +0200
 
-commit c61ddbc9a730fec50416c868f1955b382eb604ad
+commit c879426dbeb0d5c8ddb2b3cccb3d9dcdf9cdcfaf
 Author: Infus <infus@squorn.de>
-Date:   Thu Mar 2 08:25:01 2017 +0100
+Date:   Fri Mar 31 07:47:29 2017 +0200
 
-    Fix action Useable for spells with charges
+    Fix Power Type trigger with "Only if primary"
+    
+    Ticket-Nr: 906
 
-commit 895e9a8538626477efe1ae7f813d74277acaa7f5
+commit 9617b6d9fe26f2e633ef05741ed11beb4e66ee10
 Author: Infus <infus@squorn.de>
-Date:   Thu Mar 2 00:25:22 2017 +0100
+Date:   Thu Mar 30 20:29:30 2017 +0200
 
-    Fix Health/Power triggers
+    Fix Expel Harm again
     
-    Reported on discord. For those triggers, unit is initialized from
-    the second event parameter. That is no longer guranteed to be
-    a unit id, since those triggers now watch for more events.
-
-commit f0be68f67b811d9d5a8717d4f899cd0f0be6f8f1
-Author: Infus <infus@squorn.de>
-Date:   Thu Mar 2 00:13:44 2017 +0100
-
-    Fix Cooldown Progress (Equipment Slot)
+    Another small tweak to unified cooldown function.
+    A spell on gcd cooldown is not a spell with a cooldown.
     
-    Broke if no item was equipped in a slot
-    
-    Ticket-Nr: 877
+    Ticket-Nr: 910
 

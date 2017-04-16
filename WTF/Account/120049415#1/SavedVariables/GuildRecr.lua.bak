@@ -1,6 +1,33 @@
 
 GuildRecrDB = {
+	["global"] = {
+		["announce_general"] = true,
+		["min_lines"] = 10,
+		["sync_revision"] = 1492213500,
+		["message"] = "Wipeforged (7/10 Mythic) poszukuje graczy do wzmocnienia skladu progresowego głownie rdps! Szukamy ludzi aktywnych, przygotowanych do progresu NH mythic! Raidy SR,CZW,PN. Zainteresowanych zapraszamy na wipeforged.com !\n",
+		["announce_lfg"] = false,
+		["timer"] = 7,
+		["announce_trade"] = true,
+		["guild_coop"] = false,
+	},
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
 		["Chúck - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+	},
+	["realm"] = {
+		["Burning Legion"] = {
+			["enabled"] = true,
+		},
 	},
 }

@@ -45,7 +45,7 @@ local lootTable = {}
 function RCLootCouncil:OnInitialize()
 	--IDEA Consider if we want everything on self, or just whatever modules could need.
   	self.version = GetAddOnMetadata("RCLootCouncil", "Version")
-	self.nnp = false 
+	self.nnp = false
 	self.debug = false
 	self.tVersion = nil -- String or nil. Indicates test version, which alters stuff like version check. Is appended to 'version', i.e. "version-tVersion" (max 10 letters for stupid security)
 
@@ -313,16 +313,16 @@ function RCLootCouncil:OnEnable()
 		self:SendCommand("guild", "verTest", self.version, self.tVersion) -- send out a version check
 	end
 
-	if self.db.global.version and self.db.global.version < "2.1.1"
-		and self.db.global.localizedSubTypes.created then -- We need to reset subtype locales due to changes in v2.1.1
-		self.db.global.localizedSubTypes.created = false
-	end
-
 	-- For some reasons all frames are blank until ActivateSkin() is called, even though the values used
 	-- in the :CreateFrame() all :Prints as expected :o
 	self:ActivateSkin(db.currentSkin)
 
-	self.db.global.version = self.version;
+	if self.db.global.version and self:VersionCompare(self.db.global.version, self.version) then -- We've upgraded
+		self.db.global.oldVersion = self.db.global.version
+		self.db.global.version = self.version
+	else -- Mostly for first time load
+		self.db.global.version = self.version;
+	end
 	self.db.global.logMaxEntries = self.defaults.global.logMaxEntries -- reset it now for zzz
 
 	if self.tVersion then
@@ -844,6 +844,9 @@ function RCLootCouncil:EnterCombat()
 	 InterfaceOptionsFrameOkay:Click()
 	end)
 	self.inCombat = true
+	if self.isMasterLooter then -- Grab the target after 10 seconds and hope it's the boss. We might grab the correct one when looting if not.
+		self:ScheduleTimer(function() self.target = GetUnitName("target") end, 10)
+	end
 	if not db.minimizeInCombat then return end
 	for _,frame in ipairs(frames) do
 		if frame:IsVisible() and not frame.combatMinimized then -- only minimize for combat if it isn't already minimized
@@ -1763,6 +1766,7 @@ end
 --[===[@debug@
 -- debug func
 function printtable( data, level )
+	if not data then return end
 	level = level or 0
 	local ident=strrep('     ', level)
 	if level>6 then return end

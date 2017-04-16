@@ -1,0 +1,72 @@
+
+PremadeToolsDB = {
+	["profileKeys"] = {
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Redbullek - Burning Legion"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
+		["Ðeadshot - Burning Legion"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+	},
+	["global"] = {
+		["templates"] = {
+			[""] = {
+				["activity"] = 16,
+				["title"] = "Nethershard Tomb of Sargeras farm",
+				["details"] = "",
+				["auto_accept"] = "",
+				["voice"] = "",
+				["ilvl"] = 900,
+			},
+			["Last Listed Group"] = {
+				["activity"] = 421,
+				["ilvl"] = 0,
+				["details"] = "Текущее локальное задание [Штурм Сторожевой башни: вершина ночного стража]. Создано автоматически аддоном World Quest Group Finder 0.22.1. #WQ:41420#PVP#",
+				["voice"] = "",
+				["auto_accept"] = false,
+				["title"] = "Warden Tower Assault: Nightwatcher's Perch",
+			},
+			["Last Joined Group"] = {
+				["activity"] = 469,
+				["ilvl"] = 0,
+				["details"] = "Doing the world quest [Stonebound Soldiers]. Automatically created by World Quest Group Finder 0.22.1. #WQ:46236#PVE#",
+				["voice"] = "",
+				["auto_accept"] = false,
+				["title"] = "Stonebound Soldiers",
+			},
+			["Nethershard"] = {
+				["activity"] = 16,
+				["title"] = "Nethershard farm 900+ MURLOCKS",
+				["details"] = "Nethershard farm 900+ MURLOCKS",
+				["auto_accept"] = "",
+				["voice"] = "",
+				["ilvl"] = 890,
+			},
+			["FORMING MOS GRP"] = {
+				["activity"] = 465,
+				["ilvl"] = 900,
+				["details"] = "",
+				["voice"] = "",
+				["auto_accept"] = false,
+				["title"] = "Forming MoS +4 +9 Boosting GRP",
+			},
+			["MOS LF KEY"] = {
+				["activity"] = 465,
+				["ilvl"] = 0,
+				["details"] = "Link your key! We're boosting Maw of Souls only! Looking for keys: +4 +5 +6 +7 +8 +9 3-chest quarantee!",
+				["voice"] = "",
+				["auto_accept"] = false,
+				["title"] = "MoS +4 +9 boost grp 910 /w key!",
+			},
+		},
+		["minimap"] = {
+			["minimapPos"] = 147.824369418886,
+		},
+	},
+}

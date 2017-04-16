@@ -1098,7 +1098,11 @@ function SYH:ShowPanel (only_load)
 		sell_epic_switch:SetAsCheckBox()
 
 		local transmog_button = SYH:CreateButton (SYH.SellPanel, open_transmog, 75, 14, L["STRING_TRANSMOGBUTTONTEXT"], _, _, _, "TransogButton", _, _, options_dropdown_template)
+		transmog_button.tooltip = "Show a list of not soulbound equipment on your backpack."
+		
 		local ahprices_button = SYH:CreateButton (SYH.SellPanel, open_ah_prices, 75, 14, L["STRING_AHPRICEBUTTONTEXT"], _, _, _, "AhPricesButton", _, _, options_dropdown_template)
+		ahprices_button.tooltip = "Show items in your backpack with known auction house value."
+		
 		local autosell_button = SYH:CreateButton (SYH.SellPanel, open_selllist, 75, 14, L["STRING_AUTOSELLBUTTONTEXT"], _, _, _, "AutoSellButton", _, _, options_dropdown_template)
 		autosell_button.tooltip = function()
 			local s = L["STRING_SELLBUTTON_DESC1"]
@@ -1121,6 +1125,7 @@ function SYH:ShowPanel (only_load)
 		ahprice_threshold_slider.tooltip = L["STRING_AHPRICE_DESC"]
 		
 		auto_repair.tooltip = L["STRING_AUTOREPAIR_DESC"]
+		auto_repair_bank.tooltip = "Use gold from the guild bank first, if not enough tries to use your gold."
 		
 		auto_sell_gray.tooltip = L["STRING_SELLGRAY_DESC"]
 		auto_open.tooltip = L["STRING_AUTOOPEN_DESC"]

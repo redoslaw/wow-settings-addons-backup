@@ -149,7 +149,7 @@ CheckButton	ExRTRadioButtonModernTemplate
 local GlobalAddonName, ExRT = ...
 local isExRT = GlobalAddonName == "ExRT"
 
-local libVersion = 27
+local libVersion = 28
 
 if type(ELib)=='table' and type(ELib.V)=='number' and ELib.V > libVersion then return end
 
@@ -194,12 +194,14 @@ do
 		self:SetScript("OnClick",func)
 		return self
 	end
-	local function Widget_OnShow(self,func)
+	local function Widget_OnShow(self,func,disableFirstRun)
 		if not func then
 			return self
 		end
 		self:SetScript("OnShow",func)
-		func(self)
+		if not disableFirstRun then
+			func(self)
+		end
 		return self
 	end
 	local function Widget_Run(self,func,...)

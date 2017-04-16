@@ -1,4 +1,17 @@
-﻿0.21.3 (25/02/2017)
+﻿0.22.1 (31/03/2017)
+- Changed TOC to 7.2
+- Added new slash command to auto-kick out of range players : /wqgf autokick
+- Updated localizations
+- Known issue : There seems to be some occasionnal taint errors since the 7.2 patch. I'm currently investigating this and will release a fix as soon as possible.
+
+0.22 (17/03/2017)
+- This update is including a few changes by Nalumis (thanks!) :
+	- Group leader now has an additionnal button to auto-kick players who are 500+ yards away
+	- It is possible to force creating a new group by using the middle mouse click on the WQGF button (you should prefer joining another group though)
+	- Only level 110 will be auto-invited when doing World Quests
+- Updated localizations
+
+0.21.3 (25/02/2017)
 - Dropped support for World Bosses, as it was causing issues and was not optimal
 - Blacklisted the Nighthold world quests
 - Will no longer apply to groups with blizz auto-invite enabled

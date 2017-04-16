@@ -30,6 +30,22 @@ function ggf.Changelog()
 end
 
 local changes = {};
+table.insert(changes, "# v2.6.5");
+table.insert(changes, "- Addon: Change Addon Lifecycle");
+table.insert(changes, "- Mythic+: Only Create CM Once");
+table.insert(changes, "- Mythic+: Only Attempt To Load Once CM ID Available");
+table.insert(changes, "- Mythic+: Frame Only Shows When Timer Actually Starts");
+table.insert(changes, "- Mythic+: Remove Defeat From Objective Names");
+table.insert(changes, "");
+table.insert(changes, "# v2.6.4");
+table.insert(changes, "- Mythic+: Fix Challenge Map ID Bug");
+table.insert(changes, "- Mythic+: Upper Kara Mob Weights (Ty Simca)");
+table.insert(changes, "");
+table.insert(changes, "# v2.6.3");
+table.insert(changes, "- Addon: Update To 7.2");
+table.insert(changes, "- Mythic+: Use New Challenge Map ID");
+table.insert(changes, "- Mythic+: Update LibObjectiveProgress For 7.2");
+table.insert(changes, "");
 table.insert(changes, "# v2.6.2");
 table.insert(changes, "- Mythic+: Fix Bug With CoS Spy Helper Misprinting");
 table.insert(changes, "");

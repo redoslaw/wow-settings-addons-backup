@@ -1,0 +1,2 @@
+
+GuildWhisperInviteDBPerChar = nil

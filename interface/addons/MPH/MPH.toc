@@ -1,0 +1,17 @@
+## Interface: 70000
+## Title: Mythic Plus Helper
+## Notes: Creates MPH export strings
+## Author: Stikkers, Honkman
+## Version: 1.0
+## OptionalDependencies: Ace3
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+#@no-lib-strip@
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+#@end-no-lib-strip@
+
+MPH.xml
+main.lua

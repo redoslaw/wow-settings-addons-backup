@@ -8,7 +8,7 @@ local getCalendarTextureFile
 
 Overachiever.HOLIDAY_REV = { -- lookup table to support localization
 --	["Localized holiday/event name"] = "The key we're using for this holiday/event",
-	[L.HOLIDAY_DARKMOONFAIRE] = "Darmoon Faire",
+	[L.HOLIDAY_DARKMOONFAIRE] = "Darkmoon Faire",
 	[L.HOLIDAY_LUNARFESTIVAL] = "Lunar Festival",
 	[L.HOLIDAY_LOVEISINTHEAIR] = "Love is in the Air",
 	[L.HOLIDAY_NOBLEGARDEN] = "Noblegarden",
@@ -108,7 +108,21 @@ function Overachiever.GetHolidayEvents(year, month, day, hourOverride, cachekey,
 				--texture = getCalendarTextureFile(texture, calendarType, sequenceType, eventType)
 				if (not result[title]) then  result[title] = {};  end
 				if (not result[title]["texture"] or result[title]["texture"] == "") then
-					result[title]["texture"] = getCalendarTextureFile(texture, calendarType, sequenceType == "" and "" or "START", eventType)
+					local st = sequenceType
+					--if (st ~= "") then  st = "START";  end
+					if (st == "ONGOING" or st == "END") then  st = "START";  end
+
+					--[[ CALENDAR_USE_SEQUENCE_FOR_EVENT_TEXTURE is hardcoded to true right now. It's safe to just treat it as true until that changes.
+					if (not CalendarFrame) then  Calendar_LoadUI();  end  -- Need to load the calendar so CALENDAR_USE_SEQUENCE_FOR_EVENT_TEXTURE is defined by Blizzard_Calendar.lua.
+					if (CALENDAR_USE_SEQUENCE_FOR_EVENT_TEXTURE) then
+					--]]
+						local event = C_Calendar.GetDayEvent(0, day, e)
+						if (event.numSequenceDays == 2) then  st = "";  end
+					--[[
+					end
+					--]]
+
+					result[title]["texture"] = getCalendarTextureFile(texture, calendarType, st, eventType)
 					result[title]["texture_unpathed"] = texture
 				end
 				if (not result[title]["desc"]) then
@@ -206,7 +220,6 @@ local EVENT_TEXTURE_LOOKUP = {
 	["calendar_weekendworldquest"] = "bonus",				-- World Quest Bonus Event
 	["Calendar_Brewfest"] = "holiday",						-- Brewfest
 	["Calendar_HarvestFestival"] = "holiday",				-- Harvest Festival
-	["calendar_weekendmistsofpandaria"] = "dungeon",		-- Timewalking Dungeon Event
 	["calendar_springballoonfestival"] = "micro",			-- Spring Balloon Festival
 	["calendar_taverncrawl"] = "micro",						-- Kirin Tor Tavern Crawl
 	["calendar_fireworks"] = "holiday",						-- Fireworks Spectacular
@@ -221,10 +234,16 @@ local EVENT_TEXTURE_LOOKUP = {
 	["calendar_weekendbattlegrounds"] = "bonus",			-- Battleground Bonus Event
 	["calendar_darkmoonfaireterokkar"] = "holiday",			-- Darkmoon Faire
 	["calendar_callofthescarab"] = "micro",					-- Call of the Scarab
+	["calendar_brawl"] = "pvpbrawl",						-- PvP Brawl (any)
+	-- Timewalking Dungeon Events:
+	["calendar_weekendburningcrusade"] = "dungeon",
+	["calendar_weekendwrathofthelichking"] = "dungeon",
+	["calendar_weekendcataclysm"] = "dungeon",
+	["calendar_weekendmistsofpandaria"] = "dungeon",
 }
 
 -- /run Overachiever.ToastForEvents(true, true, true, true)
-function Overachiever.ToastForEvents(holiday, microholiday, bonusevent, dungeonevent)
+function Overachiever.ToastForEvents(holiday, microholiday, bonusevent, dungeonevent, pvpbrawl)
 	if (not holiday and not microholiday and not bonusevent and not dungeonevent) then  return;  end
 	--print("ToastForEvents",holiday, microholiday, bonusevent, dungeonevent)
 
@@ -238,6 +257,7 @@ function Overachiever.ToastForEvents(holiday, microholiday, bonusevent, dungeone
 		elseif (holidayType == "micro") then	return microholiday
 		elseif (holidayType == "bonus") then	return bonusevent
 		elseif (holidayType == "dungeon") then	return dungeonevent
+		elseif (holidayType == "pvpbrawl") then	return pvpbrawl
 		end
 	end
 
@@ -454,6 +474,8 @@ function getCalendarTextureFile(textureName, calendarType, sequenceType, eventTy
 		texture = CALENDAR_EVENTTYPE_TEXTURES[eventType];
 		tcoords = CALENDAR_EVENTTYPE_TCOORDS[eventType];
 	end
+	--print(textureName, calendarType, sequenceType, eventType)
+	--print("-", texture, tcoords)
 	return texture, tcoords;
 end
 

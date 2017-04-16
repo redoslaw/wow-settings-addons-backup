@@ -1,16 +1,222 @@
 
 MisDirectionHelperDB = {
 	["profileKeys"] = {
+		["Rumcajs - Steamwheedle Cartel"] = "Rumcajs - Steamwheedle Cartel",
 		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
+		["ßowjoß - Steamwheedle Cartel"] = "ßowjoß - Steamwheedle Cartel",
+		["Wów - Mazrigos"] = "Wów - Mazrigos",
+		["Deadshøt - Mazrigos"] = "Deadshøt - Mazrigos",
+		["Wtbcrit - Chamber of Aspects"] = "Wtbcrit - Chamber of Aspects",
+		["Ów - Mazrigos"] = "Ów - Mazrigos",
+		["Redseventh - Steamwheedle Cartel"] = "Redseventh - Steamwheedle Cartel",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Redoslaw - Chamber of Aspects"] = "Redoslaw - Chamber of Aspects",
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Redsecond - Steamwheedle Cartel"] = "Redsecond - Steamwheedle Cartel",
+		["Bowjoß - Burning Legion"] = "Bowjoß - Burning Legion",
+		["Ðeadshot - Chamber of Aspects"] = "Ðeadshot - Chamber of Aspects",
+		["Redsixth - Steamwheedle Cartel"] = "Redsixth - Steamwheedle Cartel",
+		["Redus - Chamber of Aspects"] = "Redus - Chamber of Aspects",
+		["Napierdalam - Mazrigos"] = "Napierdalam - Mazrigos",
+		["Strzelam - Mazrigos"] = "Strzelam - Mazrigos",
+		["Redthird - Steamwheedle Cartel"] = "Redthird - Steamwheedle Cartel",
+		["Bylominelo - Chamber of Aspects"] = "Bylominelo - Chamber of Aspects",
+		["Augumentin - Chamber of Aspects"] = "Augumentin - Chamber of Aspects",
+		["Ðeadshøt - Earthen Ring"] = "Ðeadshøt - Earthen Ring",
+		["Pokemongo - Chamber of Aspects"] = "Pokemongo - Chamber of Aspects",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
+		["Redfirst - Steamwheedle Cartel"] = "Redfirst - Steamwheedle Cartel",
+		["Redfifth - Steamwheedle Cartel"] = "Redfifth - Steamwheedle Cartel",
 	},
 	["profiles"] = {
-		["Chúck - Burning Legion"] = {
-			["target2"] = "pet",
-			["petname"] = "Norris",
+		["Rumcajs - Steamwheedle Cartel"] = {
+			["autotank"] = true,
+			["name"] = "HERØ",
+			["petname"] = "HERØ",
+			["clearjoin"] = true,
+			["autopet"] = true,
 			["minimap"] = {
-				["minimapPos"] = 197.414297600255,
+				["minimapPos"] = 190.799067641678,
+				["hide"] = true,
 			},
-			["name2"] = "Norris",
+		},
+		["Chúck - Burning Legion"] = {
+			["autotank"] = true,
+			["name"] = "HERØ",
+			["remind"] = true,
+			["autopet"] = true,
+			["petname"] = "HERØ",
+			["minimap"] = {
+				["minimapPos"] = 192.603165516584,
+				["hide"] = true,
+			},
+		},
+		["Wòw - Burning Legion"] = {
+			["minimap"] = {
+				["minimapPos"] = 155.484611021764,
+			},
+		},
+		["ßowjoß - Steamwheedle Cartel"] = {
+			["petname"] = "Raptor",
+			["name"] = "Raptor",
+			["minimap"] = {
+				["minimapPos"] = 340.586270636114,
+			},
+		},
+		["Wów - Mazrigos"] = {
+			["name"] = "Turtle",
+			["petname"] = "Turtle",
+		},
+		["Deadshøt - Mazrigos"] = {
+			["name"] = "Dragonhawk",
+			["petname"] = "Dragonhawk",
+		},
+		["Wtbcrit - Chamber of Aspects"] = {
+			["autotank"] = true,
+			["autopet"] = true,
+			["petname"] = "Raptor",
+		},
+		["Ów - Mazrigos"] = {
+			["target"] = "Tartalid",
+			["minimap"] = {
+				["minimapPos"] = 186.24689116959,
+			},
+			["name"] = "Tartalid",
+			["petname"] = "Raptor",
+		},
+		["Redseventh - Steamwheedle Cartel"] = {
+			["petname"] = "Pumba",
+			["name"] = "Pumba",
+			["minimap"] = {
+				["minimapPos"] = 341.242395410023,
+			},
+		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+			["autotank"] = true,
+			["name"] = "Arawia",
+			["petname"] = "HERØ",
+			["target"] = "Arawia",
+			["clearjoin"] = false,
+			["autopet"] = true,
+			["minimap"] = {
+				["minimapPos"] = 151.35029692767,
+				["hide"] = true,
+			},
+		},
+		["Redoslaw - Chamber of Aspects"] = {
+			["target"] = "Krowsonn",
+			["name"] = "Krowsonn",
+			["petname"] = "Pumba",
+		},
+		["Ðeadshot - Burning Legion"] = {
+			["autotank"] = true,
+			["name"] = "Hatí",
+			["petname"] = "Hatí",
+			["autopet"] = true,
+			["clearjoin"] = false,
+			["minimap"] = {
+				["minimapPos"] = 115.543602346479,
+			},
+		},
+		["Redsecond - Steamwheedle Cartel"] = {
+			["target"] = "Dariogan",
+			["minimap"] = {
+				["minimapPos"] = 245.489744153294,
+			},
+			["name"] = "Dariogan",
+			["petname"] = "SWINIA",
+		},
+		["Bowjoß - Burning Legion"] = {
+			["autotank"] = true,
+			["name"] = "Spirit Beast",
+			["remind"] = false,
+			["autopet"] = true,
+			["petname"] = "Spirit Beast",
+			["minimap"] = {
+				["minimapPos"] = 197.584137773377,
+			},
+		},
+		["Ðeadshot - Chamber of Aspects"] = {
+			["name"] = "Pumba",
+			["petname"] = "Pumba",
+		},
+		["Redsixth - Steamwheedle Cartel"] = {
+			["petname"] = "Pumba",
+			["name"] = "Pumba",
+			["minimap"] = {
+				["minimapPos"] = 233.842109751409,
+			},
+		},
+		["Redus - Chamber of Aspects"] = {
+			["name"] = "Raptor",
+			["petname"] = "Raptor",
+		},
+		["Napierdalam - Mazrigos"] = {
+			["target"] = "Paldias",
+			["petname"] = "Dragonhawk",
+			["name"] = "Paldias",
+			["minimap"] = {
+				["minimapPos"] = 110.625439827648,
+			},
+		},
+		["Strzelam - Mazrigos"] = {
+			["name"] = "Cat",
+			["petname"] = "Cat",
+		},
+		["Redthird - Steamwheedle Cartel"] = {
+			["petname"] = "Spider",
+			["name"] = "Spider",
+			["minimap"] = {
+				["minimapPos"] = 0.837687253208989,
+			},
+		},
+		["Bylominelo - Chamber of Aspects"] = {
+			["name"] = "Boar",
+			["petname"] = "Boar",
+		},
+		["Augumentin - Chamber of Aspects"] = {
+			["target"] = "Niseath",
+			["name"] = "Niseath",
+			["petname"] = "Pumba",
+		},
+		["Ðeadshøt - Earthen Ring"] = {
+			["autotank"] = true,
+			["name"] = "Cat",
+			["petname"] = "Cat",
+			["clearjoin"] = true,
+			["remind"] = true,
+			["minimap"] = {
+				["minimapPos"] = 196.788818396547,
+			},
+		},
+		["Pokemongo - Chamber of Aspects"] = {
+			["name"] = "Raptor",
+			["petname"] = "Raptor",
+		},
+		["Ðeadshøt - Burning Legion"] = {
+			["target"] = "Tartalid",
+			["petname"] = "Boar",
+			["name"] = "Tartalid",
+			["minimap"] = {
+				["minimapPos"] = 244.784768271721,
+				["hide"] = true,
+			},
+		},
+		["Redfirst - Steamwheedle Cartel"] = {
+			["petname"] = "Raptor",
+			["name"] = "Raptor",
+			["minimap"] = {
+				["minimapPos"] = 194.837762835422,
+			},
+		},
+		["Redfifth - Steamwheedle Cartel"] = {
+			["minimap"] = {
+				["minimapPos"] = 200.473933090977,
+				["hide"] = true,
+			},
+			["name"] = "Boar",
+			["petname"] = "Boar",
 		},
 	},
 }

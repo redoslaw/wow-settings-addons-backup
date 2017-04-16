@@ -159,16 +159,5635 @@ RecountPerCharDB = {
 				[47] = 0.141995030173944,
 				[26] = 0.738019169329074,
 				[7] = 1.1547745828896,
-				[35] = 1.08874689385872,
-				[24] = 0.25275115370962,
 				[39] = 0.0188143414980476,
+				[24] = 0.25275115370962,
+				[35] = 1.08874689385872,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastActive"] = 2302.082,
-			["UnitLockout"] = 1682.083,
+			["LastAbility"] = 4098.059,
+			["LastEventTimes"] = {
+				2250.948, -- [1]
+				2252.565, -- [2]
+				2253.832, -- [3]
+				2254.165, -- [4]
+				2255.065, -- [5]
+				2255.249, -- [6]
+				2255.382, -- [7]
+				2256.282, -- [8]
+				2256.598, -- [9]
+				2256.615, -- [10]
+				2256.615, -- [11]
+				2256.649, -- [12]
+				2257.298, -- [13]
+				2257.415, -- [14]
+				2257.832, -- [15]
+				2261.732, -- [16]
+				2261.732, -- [17]
+				2261.848, -- [18]
+				2288.082, -- [19]
+				2288.082, -- [20]
+				2288.548, -- [21]
+				2289.482, -- [22]
+				2289.482, -- [23]
+				2289.548, -- [24]
+				2289.548, -- [25]
+				2289.715, -- [26]
+				2290.865, -- [27]
+				2290.865, -- [28]
+				2290.882, -- [29]
+				2290.932, -- [30]
+				2291.565, -- [31]
+				2294.048, -- [32]
+				2294.065, -- [33]
+				2294.065, -- [34]
+				2294.165, -- [35]
+				2296.682, -- [36]
+				2296.965, -- [37]
+				2296.998, -- [38]
+				2297.398, -- [39]
+				2297.398, -- [40]
+				2297.532, -- [41]
+				2297.548, -- [42]
+				2297.548, -- [43]
+				2297.548, -- [44]
+				2298.215, -- [45]
+				2302.232, -- [46]
+				2302.265, -- [47]
+				2250.899, -- [48]
+				2250.899, -- [49]
+				2250.899, -- [50]
+			},
 			["Owner"] = false,
+			["TimeLast"] = {
+				["TimeHeal"] = 2294.082,
+				["OVERALL"] = 2302.082,
+				["DamageTaken"] = 2297.082,
+				["HealingTaken"] = 2294.082,
+				["Overhealing"] = 2302.082,
+				["ActiveTime"] = 2302.082,
+				["Healing"] = 2294.082,
+				["TimeDamage"] = 2302.082,
+				["DOT_Time"] = 2302.082,
+				["Damage"] = 2302.082,
+			},
+			["NextEventNum"] = 48,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				99.7500887468939, -- [21]
+				99.7500887468939, -- [22]
+				99.7500887468939, -- [23]
+				99.4973375931843, -- [24]
+				99.4973375931843, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				99.8714944976926, -- [31]
+				99.8714944976926, -- [32]
+				99.8714944976926, -- [33]
+				99.8714944976926, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				99.981185658502, -- [41]
+				99.981185658502, -- [42]
+				99.981185658502, -- [43]
+				99.981185658502, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Kneewhoya Leech Kneewhoya Hit +4978 (4978 overheal)", -- [1]
+				"Void Wurm Melee Kneewhoya Dodge (1)", -- [2]
+				"Kneewhoya Living Bomb (DoT) Void Lord Crit -43554 (Fire)", -- [3]
+				"Kneewhoya Leech Kneewhoya Hit +859 (859 overheal)", -- [4]
+				"Void Wurm Melee Kneewhoya Hit -72 (Physical)", -- [5]
+				"Kneewhoya Inferno Blast Setesh Crit -165000 (Fire)", -- [6]
+				"Kneewhoya Leech Kneewhoya Hit +3253 (3181 overheal)", -- [7]
+				"Kneewhoya Ignite (DoT) Setesh Tick -7101 (Fire)", -- [8]
+				"Kneewhoya Leech Kneewhoya Hit +140 (140 overheal)", -- [9]
+				"Kneewhoya Living Bomb (DoT) Void Lord Crit -39048 (Fire)", -- [10]
+				"Kneewhoya Living Bomb Void Wurm Crit -124893 (Fire)", -- [11]
+				"Kneewhoya Living Bomb (DoT) Setesh Tick -19524 (Fire)", -- [12]
+				"Kneewhoya Ignite (DoT) Setesh Tick -7101 (Fire)", -- [13]
+				"Void Lord Void Burst Kneewhoya Miss (Shadow)", -- [14]
+				"Kneewhoya Leech Kneewhoya Hit +3757 (3757 overheal)", -- [15]
+				"Kneewhoya Living Bomb (DoT) Void Wurm Tick -21777 (Fire)", -- [16]
+				"Kneewhoya Living Bomb Void Wurm Hit -69652 (Fire)", -- [17]
+				"Kneewhoya Leech Kneewhoya Hit +1803 (1803 overheal)", -- [18]
+				"Kneewhoya Living Bomb (DoT) Living Vine Tick -21777 (Fire)", -- [19]
+				"Kneewhoya Leech Kneewhoya Hit +429 (429 overheal)", -- [20]
+				"Lifewarden Nymph Shoot Kneewhoya Hit -704 (Physical)", -- [21]
+				"Kneewhoya Living Bomb (DoT) Living Vine Crit -40550 (Fire)", -- [22]
+				"Kneewhoya Living Bomb Lifewarden Nymph Hit -64848 (Fire)", -- [23]
+				"Lifewarden Nymph Entangling Shot Kneewhoya Hit -712 (Nature)", -- [24]
+				"Lifewarden Nymph Shoot Kneewhoya Miss (Physical)", -- [25]
+				"Kneewhoya Leech Kneewhoya Hit +2079 (663 overheal)", -- [26]
+				"Kneewhoya Living Bomb (DoT) Living Vine Tick -19524 (Fire)", -- [27]
+				"Kneewhoya Living Bomb (DoT) Lifewarden Nymph Tick -19524 (Fire)", -- [28]
+				"Kneewhoya Living Bomb Lifewarden Nymph Crit -124892 (Fire)", -- [29]
+				"Kneewhoya Leech Kneewhoya Hit +3233 (3233 overheal)", -- [30]
+				"Lifewarden Nymph Entangling Shot (DoT) Kneewhoya Tick -362 (Nature)", -- [31]
+				"Kneewhoya Living Bomb (DoT) Budding Spore Tick -21026 (Fire)", -- [32]
+				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -67250 (Fire)", -- [33]
+				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -67250 (Fire)", -- [34]
+				"Kneewhoya Leech Kneewhoya Hit +3067 (2705 overheal)", -- [35]
+				"Bloodpetal Sprout Melee Kneewhoya Miss (1)", -- [36]
+				"Kneewhoya Living Bomb (DoT) Ammunae Crit -45056 (Fire)", -- [37]
+				"Kneewhoya Leech Kneewhoya Hit +888 (888 overheal)", -- [38]
+				"Bloodpetal Sprout Melee Kneewhoya Hit -53 (Physical)", -- [39]
+				"Bloodpetal Sprout Melee Kneewhoya Miss (1)", -- [40]
+				"Kneewhoya Inferno Blast Ammunae Crit -177223 (Fire)", -- [41]
+				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -69652 (Fire)", -- [42]
+				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -69651 (Fire)", -- [43]
+				"Kneewhoya Living Bomb Bloodpetal Sprout Crit -139303 (Fire)", -- [44]
+				"Kneewhoya Leech Kneewhoya Hit +8986 (8933 overheal)", -- [45]
+				"Kneewhoya Living Bomb (DoT) Budding Spore Tick -20275 (Fire)", -- [46]
+				"Kneewhoya Leech Kneewhoya Hit +400 (400 overheal)", -- [47]
+				"Kneewhoya Living Bomb (DoT) Void Seeker Crit -43554 (Fire)", -- [48]
+				"Kneewhoya Living Bomb Void Wurm Hit -69651 (Fire)", -- [49]
+				"Kneewhoya Living Bomb Void Seeker Crit -139303 (Fire)", -- [50]
+			},
+			["Name"] = "Kneewhoya",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 53,
 			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Sun-Touched Speaker"] = {
+									["count"] = 3,
+								},
+								["Temple Swiftstalker"] = {
+									["count"] = 0,
+								},
+								["Sun-Touched Servant"] = {
+									["count"] = 24,
+								},
+								["Sun-Touched Sprite"] = {
+									["count"] = 6,
+								},
+								["Temple Shadowlancer"] = {
+									["count"] = 0,
+								},
+								["Rajh"] = {
+									["count"] = 6,
+								},
+								["Temple Fireshaper"] = {
+									["count"] = 0,
+								},
+								["Sun-Touched Spriteling"] = {
+									["count"] = 3,
+								},
+								["Temple Runecaster"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Sun-Touched Sprite"] = {
+									["count"] = 15,
+								},
+								["Rajh"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 2234,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 2827147,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 1718,
+						["Fire"] = 516,
+					},
+					["DOT_Time"] = 69,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.63,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 1,
+								},
+								["Multistrike"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Evade"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 2234,
+					["ElementDone"] = {
+						["Fire"] = 2827147,
+					},
+					["DamagedWho"] = {
+						["Sun-Touched Speaker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 43553,
+								},
+							},
+							["amount"] = 43553,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 233538,
+								},
+								["Living Bomb"] = {
+									["count"] = 504373,
+								},
+							},
+							["amount"] = 737911,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 64580,
+								},
+								["Inferno Blast"] = {
+									["count"] = 158889,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 34190,
+								},
+								["Living Bomb"] = {
+									["count"] = 936694,
+								},
+							},
+							["amount"] = 1194353,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 40550,
+								},
+								["Inferno Blast"] = {
+									["count"] = 171112,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 29456,
+								},
+							},
+							["amount"] = 241118,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21776,
+								},
+								["Living Bomb"] = {
+									["count"] = 588436,
+								},
+							},
+							["amount"] = 610212,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 787,
+								},
+							},
+							["amount"] = 787,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 585,
+								},
+							},
+							["amount"] = 585,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 125,
+								},
+							},
+							["amount"] = 125,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 221,
+								},
+								["Flame Dispersion"] = {
+									["count"] = 516,
+								},
+							},
+							["amount"] = 737,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 3.63,
+								},
+							},
+							["amount"] = 3.63,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18863,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 53502,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 53502,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 2234,
+								},
+							},
+							["amount"] = 2234,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 2234,
+								},
+							},
+							["amount"] = 2234,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["Flame Dispersion"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Searing Flames"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 19,
+						},
+						["Flame Dispersion"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["Searing Flames"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 53502,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 3.63,
+								},
+							},
+							["amount"] = 3.63,
+						},
+						["Sun-Touched Speaker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.34,
+								},
+							},
+							["amount"] = 6.72,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.52,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Living Bomb"] = {
+									["count"] = 1.85,
+								},
+							},
+							["amount"] = 5.25,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.34,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.1,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 2.18,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.73,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 4.67,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 737,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 2234,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 2234,
+						},
+					},
+					["ActiveTime"] = 25.95,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 2234,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 45055,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 213262,
+								},
+								["Tick"] = {
+									["max"] = 22528,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 190735,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 403997,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 171112,
+									["min"] = 158889,
+									["count"] = 2,
+									["amount"] = 330001,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 330001,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 7364,
+									["min"] = 6838,
+									["count"] = 9,
+									["amount"] = 63646,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 63646,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 43232,
+									["min"] = 43232,
+									["count"] = 1,
+									["amount"] = 43232,
+								},
+								["Multistrike"] = {
+									["max"] = 21616,
+									["min"] = 21616,
+									["count"] = 1,
+									["amount"] = 21616,
+								},
+								["Hit"] = {
+									["max"] = 72054,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 888658,
+								},
+								["Crit"] = {
+									["max"] = 144107,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 1075997,
+								},
+								["Evade"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 2029503,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 22.32,
+					["TimeDamaging"] = {
+						["Sun-Touched Speaker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.34,
+								},
+							},
+							["amount"] = 6.72,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.52,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Living Bomb"] = {
+									["count"] = 1.85,
+								},
+							},
+							["amount"] = 5.25,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.34,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.1,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 2.18,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.73,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 4.67,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Dustbone Horror"] = {
+									["count"] = 0,
+								},
+								["Blistering Scarab"] = {
+									["count"] = 0,
+								},
+								["Jeweled Scarab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Anraphet"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 244413,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 3,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.45,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 4819,
+					["ElementDone"] = {
+						["Fire"] = 244413,
+					},
+					["DamagedWho"] = {
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 8462,
+								},
+								["Inferno Blast"] = {
+									["count"] = 235951,
+								},
+							},
+							["amount"] = 244413,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Serrated Slash (DoT)"] = {
+									["count"] = 0,
+								},
+								["Serrated Slash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.45,
+								},
+							},
+							["amount"] = 0.45,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 4819,
+								},
+							},
+							["amount"] = 4819,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 4819,
+								},
+							},
+							["amount"] = 4819,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Serrated Slash (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Surge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Corrosive Spray"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Serrated Slash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Serrated Slash (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Surge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Corrosive Spray"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Serrated Slash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.45,
+								},
+							},
+							["amount"] = 0.45,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0.7,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.7,
+								},
+							},
+							["amount"] = 4.4,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3578,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 4819,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4819,
+						},
+					},
+					["ActiveTime"] = 4.85,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 4819,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 181501,
+									["min"] = 181501,
+									["count"] = 1,
+									["amount"] = 181501,
+								},
+								["Multistrike (Crit)"] = {
+									["max"] = 54450,
+									["min"] = 54450,
+									["count"] = 1,
+									["amount"] = 54450,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 235951,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 8462,
+									["min"] = 8462,
+									["count"] = 1,
+									["amount"] = 8462,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8462,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 4.4,
+					["TimeDamaging"] = {
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0.7,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.7,
+								},
+							},
+							["amount"] = 4.4,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Earth Warden"] = {
+									["count"] = 0,
+								},
+								["Budding Spore"] = {
+									["count"] = 0,
+								},
+								["Jeweled Scarab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["DamagedWho"] = {
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Earth Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Surge"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Surge"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Earth Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Earth Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Stone Trogg Pillager"] = {
+									["count"] = 0,
+								},
+								["Void Lord"] = {
+									["count"] = 6,
+								},
+								["Flame Warden"] = {
+									["count"] = 0,
+								},
+								["Temple Shadowlancer"] = {
+									["count"] = 0,
+								},
+								["Stone Trogg Rock Flinger"] = {
+									["count"] = 0,
+								},
+								["Stone Trogg Brute"] = {
+									["count"] = 0,
+								},
+								["Air Warden"] = {
+									["count"] = 0,
+								},
+								["Temple Runecaster"] = {
+									["count"] = 0,
+								},
+								["Void Seeker"] = {
+									["count"] = 3,
+								},
+								["Void Wurm"] = {
+									["count"] = 3,
+								},
+								["Setesh"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Setesh"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 72,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 750158,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 72,
+					},
+					["DOT_Time"] = 21,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.13,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 0,
+								},
+								["Multistrike"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 72,
+					["ElementDone"] = {
+						["Fire"] = 750158,
+					},
+					["DamagedWho"] = {
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Lord"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 82602,
+								},
+							},
+							["amount"] = 82602,
+						},
+						["Flame Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Setesh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19524,
+								},
+								["Inferno Blast"] = {
+									["count"] = 165000,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 14202,
+								},
+							},
+							["amount"] = 198726,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Air Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Seeker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 43554,
+								},
+								["Living Bomb"] = {
+									["count"] = 139303,
+								},
+							},
+							["amount"] = 182857,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21777,
+								},
+								["Living Bomb"] = {
+									["count"] = 264196,
+								},
+							},
+							["amount"] = 285973,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 0.13,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4978,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 14718,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 14718,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Void Burst"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Void Burst"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 14718,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.13,
+								},
+							},
+							["amount"] = 0.13,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Lord"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.26,
+								},
+							},
+							["amount"] = 3.26,
+						},
+						["Flame Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Setesh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.03,
+								},
+								["Inferno Blast"] = {
+									["count"] = 1.42,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.55,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Air Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Seeker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 72,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 72,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 72,
+						},
+					},
+					["ActiveTime"] = 13.39,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 72,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 43554,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 126156,
+								},
+								["Tick"] = {
+									["max"] = 21777,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 41301,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 167457,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 165000,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 165000,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 165000,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 7101,
+									["min"] = 7101,
+									["count"] = 2,
+									["amount"] = 14202,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 14202,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 139303,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 264196,
+								},
+								["Hit"] = {
+									["max"] = 69652,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 139303,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 403499,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 13.26,
+					["TimeDamaging"] = {
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Lord"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.26,
+								},
+							},
+							["amount"] = 3.26,
+						},
+						["Flame Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Setesh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.03,
+								},
+								["Inferno Blast"] = {
+									["count"] = 1.42,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.55,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Air Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Void Seeker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 1.37,
+						},
+					},
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Isiset"] = {
+									["count"] = 6,
+								},
+								["Temple Swiftstalker"] = {
+									["count"] = 0,
+								},
+								["Celestial Familiar"] = {
+									["count"] = 3,
+								},
+								["Earthrager Ptah"] = {
+									["count"] = 0,
+								},
+								["Temple Shadowlancer"] = {
+									["count"] = 0,
+								},
+								["Astral Rain"] = {
+									["count"] = 6,
+								},
+								["Veil of Sky"] = {
+									["count"] = 6,
+								},
+								["Celestial Call"] = {
+									["count"] = 6,
+								},
+								["Temple Fireshaper"] = {
+									["count"] = 0,
+								},
+								["Dustbone Horror"] = {
+									["count"] = 0,
+								},
+								["Spatial Anomaly"] = {
+									["count"] = 9,
+								},
+								["Dustbone Tormentor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Astral Rain"] = {
+									["count"] = 9,
+								},
+								["Earthrager Ptah"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DamageTaken"] = 3373,
+					["ElementDoneAbsorb"] = {
+						["Fire"] = 57710,
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["Star Shock"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Serrated Slash (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Multi-Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Star Shock"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Serrated Slash (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Multi-Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Smash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 21.68,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 2264,
+						["Arcane"] = 1109,
+					},
+					["DOT_Time"] = 45,
+					["Damage"] = 2171978,
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15460,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 40132,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 40132,
+						},
+					},
+					["TimeHeal"] = 1.37,
+					["Overhealing"] = 40132,
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 3373,
+								},
+							},
+							["amount"] = 3373,
+						},
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Star Shock"] = {
+									["count"] = 851,
+								},
+							},
+							["amount"] = 851,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1550,
+								},
+							},
+							["amount"] = 1550,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Serrated Slash (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Astral Rain"] = {
+									["count"] = 258,
+								},
+							},
+							["amount"] = 258,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 714,
+								},
+							},
+							["amount"] = 714,
+						},
+					},
+					["Healing"] = 3373,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Multistrike"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 23953,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 113984,
+								},
+								["Crit"] = {
+									["max"] = 49558,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 275875,
+								},
+								["Absorb"] = {
+									["max"] = 22301,
+									["min"] = 22301,
+									["count"] = 1,
+									["amount"] = 22301,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 412160,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 194945,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 376445,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 376445,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 8390,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 25170,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 25170,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Multistrike"] = {
+									["max"] = 21399,
+									["min"] = 21399,
+									["count"] = 1,
+									["amount"] = 21399,
+								},
+								["Absorb"] = {
+									["max"] = 35409,
+									["min"] = 35409,
+									["count"] = 1,
+									["amount"] = 35409,
+								},
+								["Crit"] = {
+									["max"] = 153231,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 709608,
+								},
+								["Hit"] = {
+									["max"] = 76616,
+									["min"] = 71331,
+									["count"] = 8,
+									["amount"] = 591787,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 1358203,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 0,
+								},
+								["Multistrike"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 2171978,
+					},
+					["HealingTaken"] = 3373,
+					["DamagedWho"] = {
+						["Earthrager Ptah"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 89205,
+								},
+								["Inferno Blast"] = {
+									["count"] = 181500,
+								},
+							},
+							["amount"] = 270705,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flux Animator"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 153230,
+								},
+							},
+							["amount"] = 153230,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 66903,
+								},
+								["Living Bomb"] = {
+									["count"] = 213995,
+								},
+							},
+							["amount"] = 280898,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 22301,
+								},
+							},
+							["amount"] = 22301,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 121418,
+								},
+								["Living Bomb"] = {
+									["count"] = 153230,
+								},
+							},
+							["amount"] = 274648,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 67730,
+								},
+								["Inferno Blast"] = {
+									["count"] = 194945,
+								},
+								["Living Bomb"] = {
+									["count"] = 164062,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 25170,
+								},
+							},
+							["amount"] = 451907,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 459692,
+								},
+							},
+							["amount"] = 459692,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 44603,
+								},
+								["Living Bomb"] = {
+									["count"] = 213994,
+								},
+							},
+							["amount"] = 258597,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 20.31,
+					["TimeDamaging"] = {
+						["Earthrager Ptah"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 4.28,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7.78,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flux Animator"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.27,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.27,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.37,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.33,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.02,
+								},
+							},
+							["amount"] = 6.22,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.02,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1550,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 3373,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3373,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 3373,
+								},
+							},
+							["amount"] = 3373,
+						},
+					},
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1.37,
+								},
+							},
+							["amount"] = 1.37,
+						},
+						["Earthrager Ptah"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 4.28,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7.78,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flux Animator"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.27,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.27,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.37,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.33,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.02,
+								},
+							},
+							["amount"] = 6.22,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.02,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Temple Swiftstalker"] = {
+									["count"] = 0,
+								},
+								["Stone Trogg Pillager"] = {
+									["count"] = 0,
+								},
+								["Ammunae"] = {
+									["count"] = 3,
+								},
+								["Living Vine"] = {
+									["count"] = 9,
+								},
+								["Lifewarden Nymph"] = {
+									["count"] = 3,
+								},
+								["Temple Shadowlancer"] = {
+									["count"] = 0,
+								},
+								["Water Warden"] = {
+									["count"] = 0,
+								},
+								["Budding Spore"] = {
+									["count"] = 3,
+								},
+								["Stone Trogg Rock Flinger"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Temple Guardian Anhuur"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1831,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 947526,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 704,
+						["Melee"] = 53,
+						["Nature"] = 1074,
+					},
+					["DOT_Time"] = 18,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.33,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1778,
+					["ElementDone"] = {
+						["Fire"] = 947526,
+					},
+					["DamagedWho"] = {
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 413106,
+								},
+							},
+							["amount"] = 413106,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
+								["Inferno Blast"] = {
+									["count"] = 177223,
+								},
+							},
+							["amount"] = 222279,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 81851,
+								},
+							},
+							["amount"] = 81851,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21026,
+								},
+							},
+							["amount"] = 21026,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19524,
+								},
+								["Living Bomb"] = {
+									["count"] = 189740,
+								},
+							},
+							["amount"] = 209264,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 704,
+								},
+								["Entangling Shot"] = {
+									["count"] = 712,
+								},
+								["Entangling Shot (DoT)"] = {
+									["count"] = 362,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3233,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 7918,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 7918,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1778,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1778,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Entangling Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Entangling Shot (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Entangling Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Entangling Shot (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 7918,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.05,
+								},
+							},
+							["amount"] = 6.05,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.17,
+								},
+							},
+							["amount"] = 3.17,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1416,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 1778,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1778,
+						},
+					},
+					["ActiveTime"] = 12.98,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 1778,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 45056,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 85606,
+								},
+								["Tick"] = {
+									["max"] = 21777,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 81851,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 167457,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 177223,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 177223,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 177223,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 139303,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 264195,
+								},
+								["Hit"] = {
+									["max"] = 69652,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 338651,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 602846,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 12.65,
+					["TimeDamaging"] = {
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.05,
+								},
+							},
+							["amount"] = 6.05,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.17,
+								},
+							},
+							["amount"] = 3.17,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Temple Swiftstalker"] = {
+									["count"] = 0,
+								},
+								["Stone Trogg Pillager"] = {
+									["count"] = 0,
+								},
+								["Ammunae"] = {
+									["count"] = 3,
+								},
+								["Living Vine"] = {
+									["count"] = 9,
+								},
+								["Lifewarden Nymph"] = {
+									["count"] = 3,
+								},
+								["Temple Shadowlancer"] = {
+									["count"] = 0,
+								},
+								["Water Warden"] = {
+									["count"] = 0,
+								},
+								["Budding Spore"] = {
+									["count"] = 3,
+								},
+								["Stone Trogg Rock Flinger"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Temple Guardian Anhuur"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 1831,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 947526,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 704,
+						["Melee"] = 53,
+						["Nature"] = 1074,
+					},
+					["DOT_Time"] = 18,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.33,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 1778,
+					["ElementDone"] = {
+						["Fire"] = 947526,
+					},
+					["DamagedWho"] = {
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 413106,
+								},
+							},
+							["amount"] = 413106,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
+								["Inferno Blast"] = {
+									["count"] = 177223,
+								},
+							},
+							["amount"] = 222279,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 81851,
+								},
+							},
+							["amount"] = 81851,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21026,
+								},
+							},
+							["amount"] = 21026,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19524,
+								},
+								["Living Bomb"] = {
+									["count"] = 189740,
+								},
+							},
+							["amount"] = 209264,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 704,
+								},
+								["Entangling Shot"] = {
+									["count"] = 712,
+								},
+								["Entangling Shot (DoT)"] = {
+									["count"] = 362,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3233,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 7918,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 7918,
+						},
+					},
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1778,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 1778,
+								},
+							},
+							["amount"] = 1778,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Entangling Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Entangling Shot (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Entangling Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Entangling Shot (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 3,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 7918,
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.05,
+								},
+							},
+							["amount"] = 6.05,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.17,
+								},
+							},
+							["amount"] = 3.17,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1416,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 1778,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1778,
+						},
+					},
+					["ActiveTime"] = 12.98,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 1778,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 45056,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 85606,
+								},
+								["Tick"] = {
+									["max"] = 21777,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 81851,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 167457,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 177223,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 177223,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 177223,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 139303,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 264195,
+								},
+								["Hit"] = {
+									["max"] = 69652,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 338651,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 602846,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 12.65,
+					["TimeDamaging"] = {
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.05,
+								},
+							},
+							["amount"] = 6.05,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.17,
+								},
+							},
+							["amount"] = 3.17,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 				["OverallData"] = {
 					["TimeHealing"] = {
 						["Kneewhoya"] = {
@@ -246,23 +5865,23 @@ RecountPerCharDB = {
 								["Temple Fireshaper"] = {
 									["count"] = 21,
 								},
-								["Sun-Touched Servant"] = {
-									["count"] = 24,
-								},
-								["Earthrager Ptah"] = {
-									["count"] = 3,
-								},
-								["Celestial Familiar"] = {
+								["Lifewarden Nymph"] = {
 									["count"] = 3,
 								},
 								["Ammunae"] = {
 									["count"] = 3,
 								},
-								["Void Seeker"] = {
+								["Celestial Familiar"] = {
 									["count"] = 3,
 								},
-								["Veil of Sky"] = {
-									["count"] = 6,
+								["Earthrager Ptah"] = {
+									["count"] = 3,
+								},
+								["Spatial Anomaly"] = {
+									["count"] = 9,
+								},
+								["Blistering Scarab"] = {
+									["count"] = 3,
 								},
 								["Temple Shadowlancer"] = {
 									["count"] = 15,
@@ -276,17 +5895,17 @@ RecountPerCharDB = {
 								["Celestial Call"] = {
 									["count"] = 6,
 								},
-								["Blistering Scarab"] = {
-									["count"] = 3,
+								["Veil of Sky"] = {
+									["count"] = 6,
 								},
-								["Spatial Anomaly"] = {
-									["count"] = 9,
+								["Void Seeker"] = {
+									["count"] = 3,
 								},
 								["Void Wurm"] = {
 									["count"] = 3,
 								},
-								["Lifewarden Nymph"] = {
-									["count"] = 3,
+								["Sun-Touched Servant"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 300,
@@ -302,8 +5921,8 @@ RecountPerCharDB = {
 								["Anraphet"] = {
 									["count"] = 3,
 								},
-								["Temple Guardian Anhuur"] = {
-									["count"] = 3,
+								["Setesh"] = {
+									["count"] = 6,
 								},
 								["Earthrager Ptah"] = {
 									["count"] = 3,
@@ -311,8 +5930,8 @@ RecountPerCharDB = {
 								["Sun-Touched Sprite"] = {
 									["count"] = 15,
 								},
-								["Setesh"] = {
-									["count"] = 6,
+								["Temple Guardian Anhuur"] = {
+									["count"] = 3,
 								},
 							},
 							["amount"] = 51,
@@ -321,74 +5940,74 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Tick"] = {
+									["count"] = 8,
 								},
 								["Miss"] = {
 									["count"] = 18,
 								},
-								["Tick"] = {
-									["count"] = 8,
+								["Hit"] = {
+									["count"] = 5,
 								},
 							},
 							["amount"] = 31,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 37,
+								["Dodge"] = {
+									["count"] = 12,
 								},
 								["Hit"] = {
 									["count"] = 47,
 								},
-								["Dodge"] = {
-									["count"] = 12,
+								["Miss"] = {
+									["count"] = 37,
 								},
 							},
 							["amount"] = 96,
 						},
 						["Arcane"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
 								["Miss"] = {
 									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
 								},
 							},
 							["amount"] = 7,
 						},
 						["Fire"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 13,
-								},
 								["Hit"] = {
 									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 13,
 								},
 							},
 							["amount"] = 14,
 						},
 						["Shadow"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
 								["Hit"] = {
 									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
 							["amount"] = 3,
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Tick"] = {
 									["count"] = 1,
 								},
 								["Hit"] = {
 									["count"] = 1,
 								},
-								["Tick"] = {
+								["Miss"] = {
 									["count"] = 1,
 								},
 							},
@@ -568,31 +6187,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 8,
 						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Smash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Arcane Barrage"] = {
+						["Entangling Shot"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -616,7 +6211,31 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-						["Entangling Shot"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Smash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Astral Rain"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -798,31 +6417,7 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Smash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
+						["Entangling Shot"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -846,7 +6441,31 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Entangling Shot"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Smash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Astral Rain"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -870,6 +6489,1275 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 351,
 					["Damage"] = 20637813,
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37197,
+									["min"] = 25,
+									["count"] = 94,
+									["amount"] = 377925,
+								},
+							},
+							["count"] = 94,
+							["amount"] = 377925,
+						},
+					},
+					["TimeHeal"] = 11.32,
+					["Overhealing"] = 377925,
+					["WhoHealed"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 20640,
+								},
+							},
+							["amount"] = 20640,
+						},
+					},
+					["WhoDamaged"] = {
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 24808,
+								},
+							},
+							["amount"] = 24808,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 1121,
+								},
+							},
+							["amount"] = 1121,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 221,
+								},
+								["Flame Dispersion"] = {
+									["count"] = 516,
+								},
+							},
+							["amount"] = 737,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Astral Rain"] = {
+									["count"] = 258,
+								},
+							},
+							["amount"] = 258,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1429,
+								},
+							},
+							["amount"] = 1429,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 704,
+								},
+								["Entangling Shot"] = {
+									["count"] = 712,
+								},
+								["Entangling Shot (DoT)"] = {
+									["count"] = 362,
+								},
+							},
+							["amount"] = 1778,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Serrated Slash (DoT)"] = {
+									["count"] = 1175,
+								},
+								["Serrated Slash"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 1340,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 582,
+								},
+							},
+							["amount"] = 582,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 714,
+								},
+							},
+							["amount"] = 714,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 125,
+								},
+							},
+							["amount"] = 125,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2937,
+								},
+							},
+							["amount"] = 2937,
+						},
+						["No One"] = {
+							["Details"] = {
+								["Star Shock"] = {
+									["count"] = 851,
+								},
+							},
+							["amount"] = 851,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 787,
+								},
+							},
+							["amount"] = 787,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 242,
+								},
+							},
+							["amount"] = 242,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1169,
+								},
+							},
+							["amount"] = 1169,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 585,
+								},
+							},
+							["amount"] = 585,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 662,
+								},
+							},
+							["amount"] = 662,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1550,
+								},
+							},
+							["amount"] = 1550,
+						},
+					},
+					["Healing"] = 20640,
+					["Attacks"] = {
+						["Living Bomb (DoT)"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 13381,
+									["min"] = 13381,
+									["count"] = 2,
+									["amount"] = 26762,
+								},
+								["Multistrike"] = {
+									["max"] = 7433,
+									["min"] = 6690,
+									["count"] = 5,
+									["amount"] = 34689,
+								},
+								["Tick"] = {
+									["max"] = 24780,
+									["min"] = 6999,
+									["count"] = 53,
+									["amount"] = 1175391,
+								},
+								["Crit"] = {
+									["max"] = 49558,
+									["min"] = 12997,
+									["count"] = 39,
+									["amount"] = 1736443,
+								},
+								["Absorb"] = {
+									["max"] = 22301,
+									["min"] = 22301,
+									["count"] = 1,
+									["amount"] = 22301,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 2995586,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 54450,
+									["min"] = 54450,
+									["count"] = 1,
+									["amount"] = 54450,
+								},
+								["Crit"] = {
+									["max"] = 194945,
+									["min"] = 158889,
+									["count"] = 14,
+									["amount"] = 2541009,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 2595459,
+						},
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 8462,
+									["min"] = 6838,
+									["count"] = 17,
+									["amount"] = 127391,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 127391,
+						},
+						["Living Bomb"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["max"] = 43232,
+									["min"] = 43232,
+									["count"] = 1,
+									["amount"] = 43232,
+								},
+								["Absorb"] = {
+									["max"] = 35409,
+									["min"] = 35409,
+									["count"] = 1,
+									["amount"] = 35409,
+								},
+								["Hit"] = {
+									["max"] = 79257,
+									["min"] = 64848,
+									["count"] = 78,
+									["amount"] = 5672907,
+								},
+								["Multistrike"] = {
+									["max"] = 21616,
+									["min"] = 21399,
+									["count"] = 2,
+									["amount"] = 43015,
+								},
+								["Crit"] = {
+									["max"] = 158514,
+									["min"] = 107254,
+									["count"] = 63,
+									["amount"] = 9124814,
+								},
+								["Evade"] = {
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 156,
+							["amount"] = 14919377,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 4,
+								},
+								["Multistrike"] = {
+									["count"] = 7,
+								},
+								["Tick"] = {
+									["count"] = 70,
+								},
+								["Hit"] = {
+									["count"] = 78,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 116,
+								},
+								["Evade"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 289,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 20637813,
+					},
+					["HealingTaken"] = 20640,
+					["DamagedWho"] = {
+						["Sun-Touched Speaker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 43553,
+								},
+							},
+							["amount"] = 43553,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 89205,
+								},
+								["Inferno Blast"] = {
+									["count"] = 181500,
+								},
+							},
+							["amount"] = 270705,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 64425,
+								},
+								["Living Bomb"] = {
+									["count"] = 906172,
+								},
+							},
+							["amount"] = 970597,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 8100,
+								},
+								["Inferno Blast"] = {
+									["count"] = 188223,
+								},
+							},
+							["amount"] = 196323,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 67730,
+								},
+								["Inferno Blast"] = {
+									["count"] = 194945,
+								},
+								["Living Bomb"] = {
+									["count"] = 164062,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 25170,
+								},
+							},
+							["amount"] = 451907,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 150588,
+								},
+							},
+							["amount"] = 150588,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 47906,
+								},
+								["Inferno Blast"] = {
+									["count"] = 188223,
+								},
+							},
+							["amount"] = 236129,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 71860,
+								},
+								["Living Bomb"] = {
+									["count"] = 446481,
+								},
+							},
+							["amount"] = 518341,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 47906,
+								},
+								["Living Bomb"] = {
+									["count"] = 71331,
+								},
+							},
+							["amount"] = 119237,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 41301,
+								},
+							},
+							["amount"] = 41301,
+						},
+						["Flux Animator"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 153230,
+								},
+							},
+							["amount"] = 153230,
+						},
+						["Flame Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 61204,
+								},
+								["Inferno Blast"] = {
+									["count"] = 194945,
+								},
+							},
+							["amount"] = 256149,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 117288,
+								},
+								["Living Bomb"] = {
+									["count"] = 607637,
+								},
+							},
+							["amount"] = 724925,
+						},
+						["Air Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 137359,
+								},
+							},
+							["amount"] = 137359,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 427363,
+								},
+							},
+							["amount"] = 427363,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 413106,
+								},
+							},
+							["amount"] = 413106,
+						},
+						["Earth Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 22301,
+								},
+								["Inferno Blast"] = {
+									["count"] = 188223,
+								},
+							},
+							["amount"] = 210524,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 8462,
+								},
+								["Inferno Blast"] = {
+									["count"] = 235951,
+								},
+							},
+							["amount"] = 244413,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 155282,
+								},
+								["Living Bomb"] = {
+									["count"] = 147946,
+								},
+							},
+							["amount"] = 303228,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 66903,
+								},
+								["Living Bomb"] = {
+									["count"] = 213995,
+								},
+							},
+							["amount"] = 280898,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 81851,
+								},
+							},
+							["amount"] = 81851,
+						},
+						["Setesh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19524,
+								},
+								["Inferno Blast"] = {
+									["count"] = 165000,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 14202,
+								},
+							},
+							["amount"] = 198726,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21776,
+								},
+								["Living Bomb"] = {
+									["count"] = 588436,
+								},
+							},
+							["amount"] = 610212,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 131163,
+								},
+								["Living Bomb"] = {
+									["count"] = 73973,
+								},
+							},
+							["amount"] = 205136,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19524,
+								},
+								["Living Bomb"] = {
+									["count"] = 189740,
+								},
+							},
+							["amount"] = 209264,
+						},
+						["Void Lord"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 82602,
+								},
+							},
+							["amount"] = 82602,
+						},
+						["Void Seeker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 43554,
+								},
+								["Living Bomb"] = {
+									["count"] = 139303,
+								},
+							},
+							["amount"] = 182857,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 22301,
+								},
+							},
+							["amount"] = 22301,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
+								["Inferno Blast"] = {
+									["count"] = 177223,
+								},
+							},
+							["amount"] = 222279,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 459692,
+								},
+							},
+							["amount"] = 459692,
+						},
+						["Earthrager Ptah"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 46255,
+								},
+								["Inferno Blast"] = {
+									["count"] = 181501,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 7811,
+								},
+							},
+							["amount"] = 235567,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 23127,
+								},
+								["Living Bomb"] = {
+									["count"] = 76615,
+								},
+							},
+							["amount"] = 99742,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 64580,
+								},
+								["Inferno Blast"] = {
+									["count"] = 158889,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 34190,
+								},
+								["Living Bomb"] = {
+									["count"] = 936694,
+								},
+							},
+							["amount"] = 1194353,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 189972,
+								},
+								["Living Bomb"] = {
+									["count"] = 501960,
+								},
+							},
+							["amount"] = 691932,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 40550,
+								},
+								["Inferno Blast"] = {
+									["count"] = 171112,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 29456,
+								},
+							},
+							["amount"] = 241118,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 23953,
+								},
+								["Living Bomb"] = {
+									["count"] = 494034,
+								},
+							},
+							["amount"] = 517987,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 44603,
+								},
+								["Living Bomb"] = {
+									["count"] = 213994,
+								},
+							},
+							["amount"] = 258597,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 121418,
+								},
+								["Living Bomb"] = {
+									["count"] = 153230,
+								},
+							},
+							["amount"] = 274648,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 233538,
+								},
+								["Living Bomb"] = {
+									["count"] = 504373,
+								},
+							},
+							["amount"] = 737911,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 21777,
+								},
+								["Living Bomb"] = {
+									["count"] = 264196,
+								},
+							},
+							["amount"] = 285973,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 256876,
+								},
+								["Inferno Blast"] = {
+									["count"] = 369724,
+								},
+								["Living Bomb"] = {
+									["count"] = 7048589,
+								},
+							},
+							["amount"] = 7675189,
+						},
+					},
+					["TimeDamage"] = 214.95,
+					["TimeDamaging"] = {
+						["Sun-Touched Speaker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 4.28,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 7.78,
+						},
+						["Stone Trogg Rock Flinger"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 5.63,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 5.67,
+						},
+						["Temple Guardian Anhuur"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 1.03,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 4.53,
+						},
+						["Astral Rain"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.37,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.33,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.02,
+								},
+							},
+							["amount"] = 6.22,
+						},
+						["Venomous Skitterer"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Water Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 5.85,
+								},
+								["Inferno Blast"] = {
+									["count"] = 1.32,
+								},
+							},
+							["amount"] = 7.17,
+						},
+						["Temple Runecaster"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.02,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 6.04,
+						},
+						["Dustbone Tormentor"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Budding Spore"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.67,
+								},
+							},
+							["amount"] = 6.67,
+						},
+						["Flux Animator"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flame Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 4.32,
+								},
+								["Inferno Blast"] = {
+									["count"] = 2.25,
+								},
+							},
+							["amount"] = 6.57,
+						},
+						["Jeweled Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 8.37,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.37,
+						},
+						["Air Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 10.04,
+								},
+							},
+							["amount"] = 10.04,
+						},
+						["Dustbone Horror"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 17.1,
+								},
+							},
+							["amount"] = 17.1,
+						},
+						["Bloodpetal Sprout"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Earth Warden"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.75,
+								},
+							},
+							["amount"] = 4.25,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Ignite (DoT)"] = {
+									["count"] = 0.7,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.7,
+								},
+							},
+							["amount"] = 4.4,
+						},
+						["Temple Swiftstalker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 9.27,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.27,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Vine"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.05,
+								},
+							},
+							["amount"] = 6.05,
+						},
+						["Setesh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.03,
+								},
+								["Inferno Blast"] = {
+									["count"] = 1.42,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.55,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Sun-Touched Spriteling"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.73,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.44,
+								},
+							},
+							["amount"] = 4.67,
+						},
+						["Temple Fireshaper"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 12.21,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 12.21,
+						},
+						["Lifewarden Nymph"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Void Lord"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.26,
+								},
+							},
+							["amount"] = 3.26,
+						},
+						["Void Seeker"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Earthrager Ptah"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.37,
+								},
+								["Inferno Blast"] = {
+									["count"] = 1.1,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 0.53,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Blistering Scarab"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.05,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.05,
+						},
+						["Sun-Touched Sprite"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.52,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Living Bomb"] = {
+									["count"] = 1.85,
+								},
+							},
+							["amount"] = 5.25,
+						},
+						["Temple Shadowlancer"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 11.03,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 11.03,
+						},
+						["Rajh"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.34,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.1,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 2.18,
+						},
+						["Stone Trogg Brute"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0.02,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.02,
+						},
+						["Spatial Anomaly"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.27,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6.27,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.34,
+								},
+							},
+							["amount"] = 6.72,
+						},
+						["Void Wurm"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 3.5,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stone Trogg Pillager"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 19.95,
+								},
+								["Inferno Blast"] = {
+									["count"] = 5.12,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 25.19,
+						},
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3578,
+									["min"] = 45,
+									["count"] = 41,
+									["amount"] = 20640,
+								},
+							},
+							["count"] = 41,
+							["amount"] = 20640,
+						},
+					},
+					["HealedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 20640,
+								},
+							},
+							["amount"] = 20640,
+						},
+					},
 					["TimeSpent"] = {
 						["Sun-Touched Speaker"] = {
 							["Details"] = {
@@ -903,11 +7791,11 @@ RecountPerCharDB = {
 						},
 						["Temple Guardian Anhuur"] = {
 							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
 								["Ignite (DoT)"] = {
 									["count"] = 1.03,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.5,
 								},
 							},
 							["amount"] = 4.53,
@@ -920,11 +7808,11 @@ RecountPerCharDB = {
 								["Inferno Blast"] = {
 									["count"] = 3.5,
 								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.02,
-								},
 								["Living Bomb"] = {
 									["count"] = 0.33,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 2.02,
 								},
 							},
 							["amount"] = 6.22,
@@ -1053,11 +7941,11 @@ RecountPerCharDB = {
 						},
 						["Anraphet"] = {
 							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.7,
-								},
 								["Ignite (DoT)"] = {
 									["count"] = 0.7,
+								},
+								["Inferno Blast"] = {
+									["count"] = 3.7,
 								},
 							},
 							["amount"] = 4.4,
@@ -1131,19 +8019,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 12.21,
 						},
-						["Stone Trogg Pillager"] = {
+						["Lifewarden Nymph"] = {
 							["Details"] = {
 								["Living Bomb (DoT)"] = {
-									["count"] = 19.95,
-								},
-								["Inferno Blast"] = {
-									["count"] = 5.12,
+									["count"] = 0,
 								},
 								["Living Bomb"] = {
-									["count"] = 0.12,
+									["count"] = 0.02,
 								},
 							},
-							["amount"] = 25.19,
+							["amount"] = 0.02,
 						},
 						["Void Lord"] = {
 							["Details"] = {
@@ -1153,27 +8038,43 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.26,
 						},
-						["Sun-Touched Servant"] = {
+						["Void Seeker"] = {
 							["Details"] = {
 								["Living Bomb (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.34,
-								},
-							},
-							["amount"] = 6.72,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.27,
+									["count"] = 3.5,
 								},
 								["Living Bomb"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 6.27,
+							["amount"] = 3.5,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ammunae"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 2.8,
+								},
+								["Inferno Blast"] = {
+									["count"] = 0.57,
+								},
+							},
+							["amount"] = 3.37,
+						},
+						["Star Shard"] = {
+							["Details"] = {
+								["Living Bomb"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
 						},
 						["Earthrager Ptah"] = {
 							["Details"] = {
@@ -1189,25 +8090,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2,
 						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
 						["Sun-Touched Sprite"] = {
 							["Details"] = {
 								["Living Bomb (DoT)"] = {
@@ -1216,11 +8098,11 @@ RecountPerCharDB = {
 								["Inferno Blast"] = {
 									["count"] = 0,
 								},
-								["Living Bomb"] = {
-									["count"] = 1.85,
-								},
 								["Ignite (DoT)"] = {
 									["count"] = 2.88,
+								},
+								["Living Bomb"] = {
+									["count"] = 1.85,
 								},
 							},
 							["amount"] = 5.25,
@@ -1283,24 +8165,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.02,
 						},
-						["Celestial Familiar"] = {
+						["Spatial Anomaly"] = {
 							["Details"] = {
 								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
+									["count"] = 6.27,
 								},
 								["Living Bomb"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 6.27,
+						},
+						["Sun-Touched Servant"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 6.38,
+								},
+								["Living Bomb"] = {
+									["count"] = 0.34,
+								},
+							},
+							["amount"] = 6.72,
 						},
 						["Void Wurm"] = {
 							["Details"] = {
@@ -1312,296 +8197,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3.5,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["TimeHeal"] = 11.32,
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 20640,
-								},
-							},
-							["amount"] = 20640,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3578,
-									["min"] = 45,
-									["count"] = 41,
-									["amount"] = 20640,
-								},
-							},
-							["count"] = 41,
-							["amount"] = 20640,
-						},
-					},
-					["TimeDamaging"] = {
-						["Sun-Touched Speaker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 4.28,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 7.78,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 5.63,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 5.67,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.03,
-								},
-							},
-							["amount"] = 4.53,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.37,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 6.22,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 5.85,
-								},
-								["Inferno Blast"] = {
-									["count"] = 1.32,
-								},
-							},
-							["amount"] = 7.17,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 6.04,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.67,
-								},
-							},
-							["amount"] = 6.67,
-						},
-						["Flux Animator"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flame Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 4.32,
-								},
-								["Inferno Blast"] = {
-									["count"] = 2.25,
-								},
-							},
-							["amount"] = 6.57,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 8.37,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.37,
-						},
-						["Air Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 10.04,
-								},
-							},
-							["amount"] = 10.04,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 17.1,
-								},
-							},
-							["amount"] = 17.1,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Earth Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.75,
-								},
-							},
-							["amount"] = 4.25,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.7,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.7,
-								},
-							},
-							["amount"] = 4.4,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 9.27,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.27,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.05,
-								},
-							},
-							["amount"] = 6.05,
-						},
-						["Setesh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.03,
-								},
-								["Inferno Blast"] = {
-									["count"] = 1.42,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.55,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.73,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.44,
-								},
-							},
-							["amount"] = 4.67,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 12.21,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 12.21,
 						},
 						["Stone Trogg Pillager"] = {
 							["Details"] = {
@@ -1617,6606 +8212,11 @@ RecountPerCharDB = {
 							},
 							["amount"] = 25.19,
 						},
-						["Void Lord"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.26,
-								},
-							},
-							["amount"] = 3.26,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.34,
-								},
-							},
-							["amount"] = 6.72,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.27,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.27,
-						},
-						["Earthrager Ptah"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.37,
-								},
-								["Inferno Blast"] = {
-									["count"] = 1.1,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.53,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.05,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2.05,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.52,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 1.85,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.88,
-								},
-							},
-							["amount"] = 5.25,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 11.03,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 11.03,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.34,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.1,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.74,
-								},
-							},
-							["amount"] = 2.18,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["Healing"] = 20640,
-					["ElementDone"] = {
-						["Fire"] = 20637813,
-					},
-					["DamagedWho"] = {
-						["Sun-Touched Speaker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 43553,
-								},
-							},
-							["amount"] = 43553,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 89205,
-								},
-								["Inferno Blast"] = {
-									["count"] = 181500,
-								},
-							},
-							["amount"] = 270705,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 64425,
-								},
-								["Living Bomb"] = {
-									["count"] = 906172,
-								},
-							},
-							["amount"] = 970597,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 188223,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 8100,
-								},
-							},
-							["amount"] = 196323,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 67730,
-								},
-								["Inferno Blast"] = {
-									["count"] = 194945,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 25170,
-								},
-								["Living Bomb"] = {
-									["count"] = 164062,
-								},
-							},
-							["amount"] = 451907,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 150588,
-								},
-							},
-							["amount"] = 150588,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 47906,
-								},
-								["Inferno Blast"] = {
-									["count"] = 188223,
-								},
-							},
-							["amount"] = 236129,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 71860,
-								},
-								["Living Bomb"] = {
-									["count"] = 446481,
-								},
-							},
-							["amount"] = 518341,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 47906,
-								},
-								["Living Bomb"] = {
-									["count"] = 71331,
-								},
-							},
-							["amount"] = 119237,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 41301,
-								},
-							},
-							["amount"] = 41301,
-						},
-						["Flux Animator"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 153230,
-								},
-							},
-							["amount"] = 153230,
-						},
-						["Flame Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 61204,
-								},
-								["Inferno Blast"] = {
-									["count"] = 194945,
-								},
-							},
-							["amount"] = 256149,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 117288,
-								},
-								["Living Bomb"] = {
-									["count"] = 607637,
-								},
-							},
-							["amount"] = 724925,
-						},
-						["Air Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 137359,
-								},
-							},
-							["amount"] = 137359,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 427363,
-								},
-							},
-							["amount"] = 427363,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 413106,
-								},
-							},
-							["amount"] = 413106,
-						},
-						["Earth Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 22301,
-								},
-								["Inferno Blast"] = {
-									["count"] = 188223,
-								},
-							},
-							["amount"] = 210524,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 235951,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 8462,
-								},
-							},
-							["amount"] = 244413,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 155282,
-								},
-								["Living Bomb"] = {
-									["count"] = 147946,
-								},
-							},
-							["amount"] = 303228,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 66903,
-								},
-								["Living Bomb"] = {
-									["count"] = 213995,
-								},
-							},
-							["amount"] = 280898,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 81851,
-								},
-							},
-							["amount"] = 81851,
-						},
-						["Setesh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 19524,
-								},
-								["Inferno Blast"] = {
-									["count"] = 165000,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 14202,
-								},
-							},
-							["amount"] = 198726,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21776,
-								},
-								["Living Bomb"] = {
-									["count"] = 588436,
-								},
-							},
-							["amount"] = 610212,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 131163,
-								},
-								["Living Bomb"] = {
-									["count"] = 73973,
-								},
-							},
-							["amount"] = 205136,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 256876,
-								},
-								["Inferno Blast"] = {
-									["count"] = 369724,
-								},
-								["Living Bomb"] = {
-									["count"] = 7048589,
-								},
-							},
-							["amount"] = 7675189,
-						},
-						["Void Lord"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 82602,
-								},
-							},
-							["amount"] = 82602,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 233538,
-								},
-								["Living Bomb"] = {
-									["count"] = 504373,
-								},
-							},
-							["amount"] = 737911,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 121418,
-								},
-								["Living Bomb"] = {
-									["count"] = 153230,
-								},
-							},
-							["amount"] = 274648,
-						},
-						["Earthrager Ptah"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 46255,
-								},
-								["Inferno Blast"] = {
-									["count"] = 181501,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 7811,
-								},
-							},
-							["amount"] = 235567,
-						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 459692,
-								},
-							},
-							["amount"] = 459692,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
-								},
-								["Inferno Blast"] = {
-									["count"] = 177223,
-								},
-							},
-							["amount"] = 222279,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 23127,
-								},
-								["Living Bomb"] = {
-									["count"] = 76615,
-								},
-							},
-							["amount"] = 99742,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 64580,
-								},
-								["Inferno Blast"] = {
-									["count"] = 158889,
-								},
-								["Living Bomb"] = {
-									["count"] = 936694,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 34190,
-								},
-							},
-							["amount"] = 1194353,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 189972,
-								},
-								["Living Bomb"] = {
-									["count"] = 501960,
-								},
-							},
-							["amount"] = 691932,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 40550,
-								},
-								["Inferno Blast"] = {
-									["count"] = 171112,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 29456,
-								},
-							},
-							["amount"] = 241118,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 23953,
-								},
-								["Living Bomb"] = {
-									["count"] = 494034,
-								},
-							},
-							["amount"] = 517987,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 44603,
-								},
-								["Living Bomb"] = {
-									["count"] = 213994,
-								},
-							},
-							["amount"] = 258597,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 22301,
-								},
-							},
-							["amount"] = 22301,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 43554,
-								},
-								["Living Bomb"] = {
-									["count"] = 139303,
-								},
-							},
-							["amount"] = 182857,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21777,
-								},
-								["Living Bomb"] = {
-									["count"] = 264196,
-								},
-							},
-							["amount"] = 285973,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 19524,
-								},
-								["Living Bomb"] = {
-									["count"] = 189740,
-								},
-							},
-							["amount"] = 209264,
-						},
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 13381,
-									["min"] = 13381,
-									["count"] = 2,
-									["amount"] = 26762,
-								},
-								["Multistrike"] = {
-									["max"] = 7433,
-									["min"] = 6690,
-									["count"] = 5,
-									["amount"] = 34689,
-								},
-								["Tick"] = {
-									["max"] = 24780,
-									["min"] = 6999,
-									["count"] = 53,
-									["amount"] = 1175391,
-								},
-								["Crit"] = {
-									["max"] = 49558,
-									["min"] = 12997,
-									["count"] = 39,
-									["amount"] = 1736443,
-								},
-								["Absorb"] = {
-									["max"] = 22301,
-									["min"] = 22301,
-									["count"] = 1,
-									["amount"] = 22301,
-								},
-							},
-							["count"] = 100,
-							["amount"] = 2995586,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 54450,
-									["min"] = 54450,
-									["count"] = 1,
-									["amount"] = 54450,
-								},
-								["Crit"] = {
-									["max"] = 194945,
-									["min"] = 158889,
-									["count"] = 14,
-									["amount"] = 2541009,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 2595459,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 43232,
-									["min"] = 43232,
-									["count"] = 1,
-									["amount"] = 43232,
-								},
-								["Absorb"] = {
-									["max"] = 35409,
-									["min"] = 35409,
-									["count"] = 1,
-									["amount"] = 35409,
-								},
-								["Hit"] = {
-									["max"] = 79257,
-									["min"] = 64848,
-									["count"] = 78,
-									["amount"] = 5672907,
-								},
-								["Multistrike"] = {
-									["max"] = 21616,
-									["min"] = 21399,
-									["count"] = 2,
-									["amount"] = 43015,
-								},
-								["Crit"] = {
-									["max"] = 158514,
-									["min"] = 107254,
-									["count"] = 63,
-									["amount"] = 9124814,
-								},
-								["Evade"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 156,
-							["amount"] = 14919377,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 8462,
-									["min"] = 6838,
-									["count"] = 17,
-									["amount"] = 127391,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 127391,
-						},
-					},
-					["HealingTaken"] = 20640,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 4,
-								},
-								["Multistrike"] = {
-									["count"] = 7,
-								},
-								["Tick"] = {
-									["count"] = 70,
-								},
-								["Hit"] = {
-									["count"] = 78,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 116,
-								},
-								["Evade"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 289,
-						},
-					},
-					["TimeDamage"] = 214.95,
-					["WhoDamaged"] = {
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 24808,
-								},
-							},
-							["amount"] = 24808,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 1121,
-								},
-							},
-							["amount"] = 1121,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 221,
-								},
-								["Flame Dispersion"] = {
-									["count"] = 516,
-								},
-							},
-							["amount"] = 737,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Astral Rain"] = {
-									["count"] = 258,
-								},
-							},
-							["amount"] = 258,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1429,
-								},
-							},
-							["amount"] = 1429,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1550,
-								},
-							},
-							["amount"] = 1550,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Serrated Slash (DoT)"] = {
-									["count"] = 1175,
-								},
-								["Serrated Slash"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 1340,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 582,
-								},
-							},
-							["amount"] = 582,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 662,
-								},
-							},
-							["amount"] = 662,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 585,
-								},
-							},
-							["amount"] = 585,
-						},
-						["No One"] = {
-							["Details"] = {
-								["Star Shock"] = {
-									["count"] = 851,
-								},
-							},
-							["amount"] = 851,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2937,
-								},
-							},
-							["amount"] = 2937,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 787,
-								},
-							},
-							["amount"] = 787,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 242,
-								},
-							},
-							["amount"] = 242,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1169,
-								},
-							},
-							["amount"] = 1169,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 125,
-								},
-							},
-							["amount"] = 125,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 714,
-								},
-							},
-							["amount"] = 714,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 704,
-								},
-								["Entangling Shot"] = {
-									["count"] = 712,
-								},
-								["Entangling Shot (DoT)"] = {
-									["count"] = 362,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 20640,
-								},
-							},
-							["amount"] = 20640,
-						},
-					},
-					["Overhealing"] = 377925,
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 37197,
-									["min"] = 25,
-									["count"] = 94,
-									["amount"] = 377925,
-								},
-							},
-							["count"] = 94,
-							["amount"] = 377925,
-						},
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Dustbone Horror"] = {
-									["count"] = 0,
-								},
-								["Blistering Scarab"] = {
-									["count"] = 0,
-								},
-								["Jeweled Scarab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Anraphet"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 3,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.45,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 244413,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 235951,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 8462,
-								},
-							},
-							["amount"] = 244413,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Serrated Slash (DoT)"] = {
-									["count"] = 0,
-								},
-								["Serrated Slash"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.45,
-								},
-							},
-							["amount"] = 0.45,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 4819,
-								},
-							},
-							["amount"] = 4819,
-						},
-					},
-					["PartialResist"] = {
-						["Serrated Slash (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Surge"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Corrosive Spray"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Serrated Slash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 4.85,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.45,
-								},
-							},
-							["amount"] = 0.45,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.7,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.7,
-								},
-							},
-							["amount"] = 4.4,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3578,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 4819,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4819,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Serrated Slash (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Surge"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Corrosive Spray"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Serrated Slash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 4819,
-								},
-							},
-							["amount"] = 4819,
-						},
-					},
-					["Healing"] = 4819,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 181501,
-									["min"] = 181501,
-									["count"] = 1,
-									["amount"] = 181501,
-								},
-								["Multistrike (Crit)"] = {
-									["max"] = 54450,
-									["min"] = 54450,
-									["count"] = 1,
-									["amount"] = 54450,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 235951,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 8462,
-									["min"] = 8462,
-									["count"] = 1,
-									["amount"] = 8462,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8462,
-						},
-					},
-					["HealingTaken"] = 4819,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeDamage"] = 4.4,
-					["TimeDamaging"] = {
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 3.7,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0.7,
-								},
-							},
-							["amount"] = 4.4,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 244413,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Earth Warden"] = {
-									["count"] = 0,
-								},
-								["Jeweled Scarab"] = {
-									["count"] = 0,
-								},
-								["Budding Spore"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Earth Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Surge"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Earth Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Surge"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Jeweled Scarab"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Venomous Skitterer"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Earth Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Temple Swiftstalker"] = {
-									["count"] = 0,
-								},
-								["Stone Trogg Pillager"] = {
-									["count"] = 0,
-								},
-								["Ammunae"] = {
-									["count"] = 3,
-								},
-								["Living Vine"] = {
-									["count"] = 9,
-								},
-								["Lifewarden Nymph"] = {
-									["count"] = 3,
-								},
-								["Temple Shadowlancer"] = {
-									["count"] = 0,
-								},
-								["Water Warden"] = {
-									["count"] = 0,
-								},
-								["Stone Trogg Rock Flinger"] = {
-									["count"] = 0,
-								},
-								["Budding Spore"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Temple Guardian Anhuur"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 1831,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 18,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 704,
-						["Melee"] = 53,
-						["Nature"] = 1074,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.33,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 947526,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 413106,
-								},
-							},
-							["amount"] = 413106,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
-								},
-								["Inferno Blast"] = {
-									["count"] = 177223,
-								},
-							},
-							["amount"] = 222279,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 81851,
-								},
-							},
-							["amount"] = 81851,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 19524,
-								},
-								["Living Bomb"] = {
-									["count"] = 189740,
-								},
-							},
-							["amount"] = 209264,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21026,
-								},
-							},
-							["amount"] = 21026,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3233,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 7918,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 7918,
-						},
-					},
-					["WhoDamaged"] = {
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 704,
-								},
-								["Entangling Shot"] = {
-									["count"] = 712,
-								},
-								["Entangling Shot (DoT)"] = {
-									["count"] = 362,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1778,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Entangling Shot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["Entangling Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 12.98,
-					["Overhealing"] = 7918,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.05,
-								},
-							},
-							["amount"] = 6.05,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.17,
-								},
-							},
-							["amount"] = 3.17,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1416,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1778,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1778,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Entangling Shot (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Entangling Shot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1778,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["Healing"] = 1778,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 45056,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 85606,
-								},
-								["Tick"] = {
-									["max"] = 21777,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 81851,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 167457,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 177223,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 177223,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 177223,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 139303,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 264195,
-								},
-								["Hit"] = {
-									["max"] = 69652,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 338651,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 602846,
-						},
-					},
-					["HealingTaken"] = 1778,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["TimeDamage"] = 12.65,
-					["TimeDamaging"] = {
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.05,
-								},
-							},
-							["amount"] = 6.05,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.17,
-								},
-							},
-							["amount"] = 3.17,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 947526,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 1.37,
-						},
-					},
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Isiset"] = {
-									["count"] = 6,
-								},
-								["Temple Swiftstalker"] = {
-									["count"] = 0,
-								},
-								["Celestial Familiar"] = {
-									["count"] = 3,
-								},
-								["Earthrager Ptah"] = {
-									["count"] = 0,
-								},
-								["Temple Shadowlancer"] = {
-									["count"] = 0,
-								},
-								["Astral Rain"] = {
-									["count"] = 6,
-								},
-								["Dustbone Horror"] = {
-									["count"] = 0,
-								},
-								["Celestial Call"] = {
-									["count"] = 6,
-								},
-								["Temple Fireshaper"] = {
-									["count"] = 0,
-								},
-								["Spatial Anomaly"] = {
-									["count"] = 9,
-								},
-								["Veil of Sky"] = {
-									["count"] = 6,
-								},
-								["Dustbone Tormentor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Astral Rain"] = {
-									["count"] = 9,
-								},
-								["Earthrager Ptah"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DamageTaken"] = 3373,
-					["ElementDoneAbsorb"] = {
-						["Fire"] = 57710,
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["Star Shock"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Serrated Slash (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Multi-Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Star Shock"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Smash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Serrated Slash (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Multi-Shot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 21.68,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 2264,
-						["Arcane"] = 1109,
-					},
-					["DOT_Time"] = 45,
-					["Damage"] = 2171978,
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1.37,
-								},
-							},
-							["amount"] = 1.37,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 4.28,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 7.78,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flux Animator"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Earthrager Ptah"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.37,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 6.22,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.27,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.27,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeHeal"] = 1.37,
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 3373,
-								},
-							},
-							["amount"] = 3373,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1550,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 3373,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3373,
-						},
-					},
-					["TimeDamaging"] = {
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 4.28,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 7.78,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flux Animator"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Earthrager Ptah"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.37,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 6.22,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.02,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.27,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6.27,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 3373,
-					["ElementDone"] = {
-						["Fire"] = 2171978,
-					},
-					["DamagedWho"] = {
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 66903,
-								},
-								["Living Bomb"] = {
-									["count"] = 213995,
-								},
-							},
-							["amount"] = 280898,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 89205,
-								},
-								["Inferno Blast"] = {
-									["count"] = 181500,
-								},
-							},
-							["amount"] = 270705,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flux Animator"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 153230,
-								},
-							},
-							["amount"] = 153230,
-						},
-						["Earthrager Ptah"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 67730,
-								},
-								["Inferno Blast"] = {
-									["count"] = 194945,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 25170,
-								},
-								["Living Bomb"] = {
-									["count"] = 164062,
-								},
-							},
-							["amount"] = 451907,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Star Shard"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 459692,
-								},
-							},
-							["amount"] = 459692,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 44603,
-								},
-								["Living Bomb"] = {
-									["count"] = 213994,
-								},
-							},
-							["amount"] = 258597,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 121418,
-								},
-								["Living Bomb"] = {
-									["count"] = 153230,
-								},
-							},
-							["amount"] = 274648,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 22301,
-								},
-							},
-							["amount"] = 22301,
-						},
-						["Dustbone Tormentor"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 23953,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 113984,
-								},
-								["Crit"] = {
-									["max"] = 49558,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 275875,
-								},
-								["Absorb"] = {
-									["max"] = 22301,
-									["min"] = 22301,
-									["count"] = 1,
-									["amount"] = 22301,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 412160,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 194945,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 376445,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 376445,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["max"] = 35409,
-									["min"] = 35409,
-									["count"] = 1,
-									["amount"] = 35409,
-								},
-								["Multistrike"] = {
-									["max"] = 21399,
-									["min"] = 21399,
-									["count"] = 1,
-									["amount"] = 21399,
-								},
-								["Crit"] = {
-									["max"] = 153231,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 709608,
-								},
-								["Hit"] = {
-									["max"] = 76616,
-									["min"] = 71331,
-									["count"] = 8,
-									["amount"] = 591787,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 1358203,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 8390,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 25170,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 25170,
-						},
-					},
-					["HealingTaken"] = 3373,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 0,
-								},
-								["Multistrike"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 13,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 32,
-						},
-					},
-					["TimeDamage"] = 20.31,
-					["WhoDamaged"] = {
-						["No One"] = {
-							["Details"] = {
-								["Star Shock"] = {
-									["count"] = 851,
-								},
-							},
-							["amount"] = 851,
-						},
-						["Dustbone Horror"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Blistering Scarab"] = {
-							["Details"] = {
-								["Serrated Slash (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Spatial Anomaly"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 714,
-								},
-							},
-							["amount"] = 714,
-						},
-						["Astral Rain"] = {
-							["Details"] = {
-								["Astral Rain"] = {
-									["count"] = 258,
-								},
-							},
-							["amount"] = 258,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1550,
-								},
-							},
-							["amount"] = 1550,
-						},
-					},
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 3373,
-								},
-							},
-							["amount"] = 3373,
-						},
-					},
-					["Overhealing"] = 40132,
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15460,
-									["min"] = 0,
-									["count"] = 12,
-									["amount"] = 40132,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 40132,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Temple Swiftstalker"] = {
-									["count"] = 0,
-								},
-								["Stone Trogg Pillager"] = {
-									["count"] = 0,
-								},
-								["Ammunae"] = {
-									["count"] = 3,
-								},
-								["Living Vine"] = {
-									["count"] = 9,
-								},
-								["Lifewarden Nymph"] = {
-									["count"] = 3,
-								},
-								["Temple Shadowlancer"] = {
-									["count"] = 0,
-								},
-								["Water Warden"] = {
-									["count"] = 0,
-								},
-								["Stone Trogg Rock Flinger"] = {
-									["count"] = 0,
-								},
-								["Budding Spore"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Temple Guardian Anhuur"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 1831,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 18,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 704,
-						["Melee"] = 53,
-						["Nature"] = 1074,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.33,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 947526,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 413106,
-								},
-							},
-							["amount"] = 413106,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
-								},
-								["Inferno Blast"] = {
-									["count"] = 177223,
-								},
-							},
-							["amount"] = 222279,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 81851,
-								},
-							},
-							["amount"] = 81851,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 19524,
-								},
-								["Living Bomb"] = {
-									["count"] = 189740,
-								},
-							},
-							["amount"] = 209264,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21026,
-								},
-							},
-							["amount"] = 21026,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3233,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 7918,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 7918,
-						},
-					},
-					["WhoDamaged"] = {
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 704,
-								},
-								["Entangling Shot"] = {
-									["count"] = 712,
-								},
-								["Entangling Shot (DoT)"] = {
-									["count"] = 362,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1778,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Entangling Shot (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["Entangling Shot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 12.98,
-					["Overhealing"] = 7918,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.05,
-								},
-							},
-							["amount"] = 6.05,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.17,
-								},
-							},
-							["amount"] = 3.17,
-						},
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1416,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1778,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1778,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Entangling Shot (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Entangling Shot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 1778,
-								},
-							},
-							["amount"] = 1778,
-						},
-					},
-					["Healing"] = 1778,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 45056,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 85606,
-								},
-								["Tick"] = {
-									["max"] = 21777,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 81851,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 167457,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 177223,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 177223,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 177223,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 139303,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 264195,
-								},
-								["Hit"] = {
-									["max"] = 69652,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 338651,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 602846,
-						},
-					},
-					["HealingTaken"] = 1778,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["TimeDamage"] = 12.65,
-					["TimeDamaging"] = {
-						["Bloodpetal Sprout"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ammunae"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 2.8,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.57,
-								},
-							},
-							["amount"] = 3.37,
-						},
-						["Living Vine"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.05,
-								},
-							},
-							["amount"] = 6.05,
-						},
-						["Temple Guardian Anhuur"] = {
-							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Water Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lifewarden Nymph"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-						["Budding Spore"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.17,
-								},
-							},
-							["amount"] = 3.17,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 947526,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Stone Trogg Pillager"] = {
-									["count"] = 0,
-								},
-								["Void Lord"] = {
-									["count"] = 6,
-								},
-								["Flame Warden"] = {
-									["count"] = 0,
-								},
-								["Temple Shadowlancer"] = {
-									["count"] = 0,
-								},
-								["Setesh"] = {
-									["count"] = 3,
-								},
-								["Stone Trogg Brute"] = {
-									["count"] = 0,
-								},
-								["Temple Runecaster"] = {
-									["count"] = 0,
-								},
-								["Air Warden"] = {
-									["count"] = 0,
-								},
-								["Void Seeker"] = {
-									["count"] = 3,
-								},
-								["Void Wurm"] = {
-									["count"] = 3,
-								},
-								["Stone Trogg Rock Flinger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Setesh"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 72,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 21,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 72,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.13,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 750158,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Lord"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 82602,
-								},
-							},
-							["amount"] = 82602,
-						},
-						["Flame Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Air Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 43554,
-								},
-								["Living Bomb"] = {
-									["count"] = 139303,
-								},
-							},
-							["amount"] = 182857,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21777,
-								},
-								["Living Bomb"] = {
-									["count"] = 264196,
-								},
-							},
-							["amount"] = 285973,
-						},
-						["Setesh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 19524,
-								},
-								["Inferno Blast"] = {
-									["count"] = 165000,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 14202,
-								},
-							},
-							["amount"] = 198726,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4978,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 14718,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 14718,
-						},
-					},
-					["WhoDamaged"] = {
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.13,
-								},
-							},
-							["amount"] = 0.13,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Void Burst"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 13.39,
-					["Overhealing"] = 14718,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.13,
-								},
-							},
-							["amount"] = 0.13,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Lord"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.26,
-								},
-							},
-							["amount"] = 3.26,
-						},
-						["Flame Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Air Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Setesh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.03,
-								},
-								["Inferno Blast"] = {
-									["count"] = 1.42,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.55,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 72,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 72,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 72,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Void Burst"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-					},
-					["Healing"] = 72,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 43554,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 126156,
-								},
-								["Tick"] = {
-									["max"] = 21777,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 41301,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 167457,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 165000,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 165000,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 165000,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 139303,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 264196,
-								},
-								["Hit"] = {
-									["max"] = 69652,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 139303,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 403499,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 7101,
-									["min"] = 7101,
-									["count"] = 2,
-									["amount"] = 14202,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 14202,
-						},
-					},
-					["HealingTaken"] = 72,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 0,
-								},
-								["Multistrike"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["TimeDamage"] = 13.26,
-					["TimeDamaging"] = {
-						["Stone Trogg Rock Flinger"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Lord"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.26,
-								},
-							},
-							["amount"] = 3.26,
-						},
-						["Flame Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Pillager"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stone Trogg Brute"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Air Warden"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Void Seeker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Void Wurm"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Setesh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.03,
-								},
-								["Inferno Blast"] = {
-									["count"] = 1.42,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.55,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 750158,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Sun-Touched Speaker"] = {
-									["count"] = 3,
-								},
-								["Temple Swiftstalker"] = {
-									["count"] = 0,
-								},
-								["Sun-Touched Servant"] = {
-									["count"] = 24,
-								},
-								["Sun-Touched Sprite"] = {
-									["count"] = 6,
-								},
-								["Temple Shadowlancer"] = {
-									["count"] = 0,
-								},
-								["Rajh"] = {
-									["count"] = 6,
-								},
-								["Temple Fireshaper"] = {
-									["count"] = 0,
-								},
-								["Temple Runecaster"] = {
-									["count"] = 0,
-								},
-								["Sun-Touched Spriteling"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 42,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Rajh"] = {
-									["count"] = 12,
-								},
-								["Sun-Touched Sprite"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 27,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 2234,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 69,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 1718,
-						["Fire"] = 516,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 3.63,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 2827147,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Sun-Touched Speaker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 43553,
-								},
-							},
-							["amount"] = 43553,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 233538,
-								},
-								["Living Bomb"] = {
-									["count"] = 504373,
-								},
-							},
-							["amount"] = 737911,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 64580,
-								},
-								["Inferno Blast"] = {
-									["count"] = 158889,
-								},
-								["Living Bomb"] = {
-									["count"] = 936694,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 34190,
-								},
-							},
-							["amount"] = 1194353,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 40550,
-								},
-								["Inferno Blast"] = {
-									["count"] = 171112,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 29456,
-								},
-							},
-							["amount"] = 241118,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 21776,
-								},
-								["Living Bomb"] = {
-									["count"] = 588436,
-								},
-							},
-							["amount"] = 610212,
-						},
-					},
-					["OverHeals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 18863,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 53502,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 53502,
-						},
-					},
-					["WhoDamaged"] = {
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 787,
-								},
-							},
-							["amount"] = 787,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 585,
-								},
-							},
-							["amount"] = 585,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 125,
-								},
-							},
-							["amount"] = 125,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 221,
-								},
-								["Flame Dispersion"] = {
-									["count"] = 516,
-								},
-							},
-							["amount"] = 737,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 3.63,
-								},
-							},
-							["amount"] = 3.63,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 2234,
-								},
-							},
-							["amount"] = 2234,
-						},
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 19,
-						},
-						["Flame Dispersion"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 10,
-						},
-						["Searing Flames"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 25.95,
-					["Overhealing"] = 53502,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 3.63,
-								},
-							},
-							["amount"] = 3.63,
-						},
-						["Sun-Touched Speaker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.34,
-								},
-							},
-							["amount"] = 6.72,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.52,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 1.85,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.88,
-								},
-							},
-							["amount"] = 5.25,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.34,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.1,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.74,
-								},
-							},
-							["amount"] = 2.18,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.73,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.44,
-								},
-							},
-							["amount"] = 4.67,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 737,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 2234,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 2234,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 0,
-						},
-						["Flame Dispersion"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
-						["Searing Flames"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 2234,
-								},
-							},
-							["amount"] = 2234,
-						},
-					},
-					["Healing"] = 2234,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Living Bomb (DoT)"] = {
-							["Details"] = {
-								["Multistrike"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 45055,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 213262,
-								},
-								["Tick"] = {
-									["max"] = 22528,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 190735,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 403997,
-						},
-						["Inferno Blast"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 171112,
-									["min"] = 158889,
-									["count"] = 2,
-									["amount"] = 330001,
-								},
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 330001,
-						},
-						["Living Bomb"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["max"] = 43232,
-									["min"] = 43232,
-									["count"] = 1,
-									["amount"] = 43232,
-								},
-								["Multistrike"] = {
-									["max"] = 21616,
-									["min"] = 21616,
-									["count"] = 1,
-									["amount"] = 21616,
-								},
-								["Hit"] = {
-									["max"] = 72054,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 888658,
-								},
-								["Crit"] = {
-									["max"] = 144107,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 1075997,
-								},
-								["Evade"] = {
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 2029503,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 7364,
-									["min"] = 6838,
-									["count"] = 9,
-									["amount"] = 63646,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 63646,
-						},
-					},
-					["HealingTaken"] = 2234,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 1,
-								},
-								["Multistrike"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-								["Crit"] = {
-									["count"] = 15,
-								},
-								["Evade"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 60,
-						},
-					},
-					["TimeDamage"] = 22.32,
-					["TimeDamaging"] = {
-						["Sun-Touched Speaker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Temple Swiftstalker"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Servant"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 6.38,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.34,
-								},
-							},
-							["amount"] = 6.72,
-						},
-						["Sun-Touched Sprite"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.52,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 1.85,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 2.88,
-								},
-							},
-							["amount"] = 5.25,
-						},
-						["Temple Shadowlancer"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rajh"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.34,
-								},
-								["Inferno Blast"] = {
-									["count"] = 0.1,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 1.74,
-								},
-							},
-							["amount"] = 2.18,
-						},
-						["Temple Runecaster"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Temple Fireshaper"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sun-Touched Spriteling"] = {
-							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 0.73,
-								},
-								["Inferno Blast"] = {
-									["count"] = 3.5,
-								},
-								["Living Bomb"] = {
-									["count"] = 0.44,
-								},
-							},
-							["amount"] = 4.67,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 2827147,
-					["DispelledWho"] = {
 					},
 				},
 			},
-			["NextEventNum"] = 48,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				99.7500887468939, -- [21]
-				99.7500887468939, -- [22]
-				99.7500887468939, -- [23]
-				99.4973375931843, -- [24]
-				99.4973375931843, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				99.8714944976926, -- [31]
-				99.8714944976926, -- [32]
-				99.8714944976926, -- [33]
-				99.8714944976926, -- [34]
-				100, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				99.981185658502, -- [41]
-				99.981185658502, -- [42]
-				99.981185658502, -- [43]
-				99.981185658502, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Kneewhoya Leech Kneewhoya Hit +4978 (4978 overheal)", -- [1]
-				"Void Wurm Melee Kneewhoya Dodge (1)", -- [2]
-				"Kneewhoya Living Bomb (DoT) Void Lord Crit -43554 (Fire)", -- [3]
-				"Kneewhoya Leech Kneewhoya Hit +859 (859 overheal)", -- [4]
-				"Void Wurm Melee Kneewhoya Hit -72 (Physical)", -- [5]
-				"Kneewhoya Inferno Blast Setesh Crit -165000 (Fire)", -- [6]
-				"Kneewhoya Leech Kneewhoya Hit +3253 (3181 overheal)", -- [7]
-				"Kneewhoya Ignite (DoT) Setesh Tick -7101 (Fire)", -- [8]
-				"Kneewhoya Leech Kneewhoya Hit +140 (140 overheal)", -- [9]
-				"Kneewhoya Living Bomb (DoT) Void Lord Crit -39048 (Fire)", -- [10]
-				"Kneewhoya Living Bomb Void Wurm Crit -124893 (Fire)", -- [11]
-				"Kneewhoya Living Bomb (DoT) Setesh Tick -19524 (Fire)", -- [12]
-				"Kneewhoya Ignite (DoT) Setesh Tick -7101 (Fire)", -- [13]
-				"Void Lord Void Burst Kneewhoya Miss (Shadow)", -- [14]
-				"Kneewhoya Leech Kneewhoya Hit +3757 (3757 overheal)", -- [15]
-				"Kneewhoya Living Bomb (DoT) Void Wurm Tick -21777 (Fire)", -- [16]
-				"Kneewhoya Living Bomb Void Wurm Hit -69652 (Fire)", -- [17]
-				"Kneewhoya Leech Kneewhoya Hit +1803 (1803 overheal)", -- [18]
-				"Kneewhoya Living Bomb (DoT) Living Vine Tick -21777 (Fire)", -- [19]
-				"Kneewhoya Leech Kneewhoya Hit +429 (429 overheal)", -- [20]
-				"Lifewarden Nymph Shoot Kneewhoya Hit -704 (Physical)", -- [21]
-				"Kneewhoya Living Bomb (DoT) Living Vine Crit -40550 (Fire)", -- [22]
-				"Kneewhoya Living Bomb Lifewarden Nymph Hit -64848 (Fire)", -- [23]
-				"Lifewarden Nymph Entangling Shot Kneewhoya Hit -712 (Nature)", -- [24]
-				"Lifewarden Nymph Shoot Kneewhoya Miss (Physical)", -- [25]
-				"Kneewhoya Leech Kneewhoya Hit +2079 (663 overheal)", -- [26]
-				"Kneewhoya Living Bomb (DoT) Living Vine Tick -19524 (Fire)", -- [27]
-				"Kneewhoya Living Bomb (DoT) Lifewarden Nymph Tick -19524 (Fire)", -- [28]
-				"Kneewhoya Living Bomb Lifewarden Nymph Crit -124892 (Fire)", -- [29]
-				"Kneewhoya Leech Kneewhoya Hit +3233 (3233 overheal)", -- [30]
-				"Lifewarden Nymph Entangling Shot (DoT) Kneewhoya Tick -362 (Nature)", -- [31]
-				"Kneewhoya Living Bomb (DoT) Budding Spore Tick -21026 (Fire)", -- [32]
-				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -67250 (Fire)", -- [33]
-				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -67250 (Fire)", -- [34]
-				"Kneewhoya Leech Kneewhoya Hit +3067 (2705 overheal)", -- [35]
-				"Bloodpetal Sprout Melee Kneewhoya Miss (1)", -- [36]
-				"Kneewhoya Living Bomb (DoT) Ammunae Crit -45056 (Fire)", -- [37]
-				"Kneewhoya Leech Kneewhoya Hit +888 (888 overheal)", -- [38]
-				"Bloodpetal Sprout Melee Kneewhoya Hit -53 (Physical)", -- [39]
-				"Bloodpetal Sprout Melee Kneewhoya Miss (1)", -- [40]
-				"Kneewhoya Inferno Blast Ammunae Crit -177223 (Fire)", -- [41]
-				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -69652 (Fire)", -- [42]
-				"Kneewhoya Living Bomb Bloodpetal Sprout Hit -69651 (Fire)", -- [43]
-				"Kneewhoya Living Bomb Bloodpetal Sprout Crit -139303 (Fire)", -- [44]
-				"Kneewhoya Leech Kneewhoya Hit +8986 (8933 overheal)", -- [45]
-				"Kneewhoya Living Bomb (DoT) Budding Spore Tick -20275 (Fire)", -- [46]
-				"Kneewhoya Leech Kneewhoya Hit +400 (400 overheal)", -- [47]
-				"Kneewhoya Living Bomb (DoT) Void Seeker Crit -43554 (Fire)", -- [48]
-				"Kneewhoya Living Bomb Void Wurm Hit -69651 (Fire)", -- [49]
-				"Kneewhoya Living Bomb Void Seeker Crit -139303 (Fire)", -- [50]
-			},
-			["Name"] = "Kneewhoya",
-			["LastDamageTaken"] = 53,
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				false, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				false, -- [22]
-				false, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				true, -- [35]
-				true, -- [36]
-				false, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				true, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["TimeLast"] = {
-				["TimeHeal"] = 2294.082,
-				["OVERALL"] = 2302.082,
-				["DamageTaken"] = 2297.082,
-				["HealingTaken"] = 2294.082,
-				["Overhealing"] = 2302.082,
-				["ActiveTime"] = 2302.082,
-				["Healing"] = 2294.082,
-				["TimeDamage"] = 2302.082,
-				["DOT_Time"] = 2302.082,
-				["Damage"] = 2302.082,
-			},
-			["LastEventTimes"] = {
-				2250.948, -- [1]
-				2252.565, -- [2]
-				2253.832, -- [3]
-				2254.165, -- [4]
-				2255.065, -- [5]
-				2255.249, -- [6]
-				2255.382, -- [7]
-				2256.282, -- [8]
-				2256.598, -- [9]
-				2256.615, -- [10]
-				2256.615, -- [11]
-				2256.649, -- [12]
-				2257.298, -- [13]
-				2257.415, -- [14]
-				2257.832, -- [15]
-				2261.732, -- [16]
-				2261.732, -- [17]
-				2261.848, -- [18]
-				2288.082, -- [19]
-				2288.082, -- [20]
-				2288.548, -- [21]
-				2289.482, -- [22]
-				2289.482, -- [23]
-				2289.548, -- [24]
-				2289.548, -- [25]
-				2289.715, -- [26]
-				2290.865, -- [27]
-				2290.865, -- [28]
-				2290.882, -- [29]
-				2290.932, -- [30]
-				2291.565, -- [31]
-				2294.048, -- [32]
-				2294.065, -- [33]
-				2294.065, -- [34]
-				2294.165, -- [35]
-				2296.682, -- [36]
-				2296.965, -- [37]
-				2296.998, -- [38]
-				2297.398, -- [39]
-				2297.398, -- [40]
-				2297.532, -- [41]
-				2297.548, -- [42]
-				2297.548, -- [43]
-				2297.548, -- [44]
-				2298.215, -- [45]
-				2302.232, -- [46]
-				2302.265, -- [47]
-				2250.899, -- [48]
-				2250.899, -- [49]
-				2250.899, -- [50]
-			},
-			["LastAbility"] = 38236.623,
+			["UnitLockout"] = 1682.083,
+			["LastActive"] = 2302.082,
 		},
 		["Isiset"] = {
 			["GUID"] = "Creature-0-3771-644-11563-39587-00005D23E9",
@@ -8226,8 +8226,8 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 181500,
-			["LastFightIn"] = 12,
-			["UnitLockout"] = 2117.082,
+			["LastAbility"] = 4098.059,
+			["LastDamageAbility"] = "Inferno Blast",
 			["Name"] = "Isiset",
 			["LastActive"] = 2147.082,
 			["Fights"] = {
@@ -8324,12 +8324,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8340,24 +8339,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -8365,52 +8364,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -8427,12 +8427,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8443,24 +8442,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -8468,52 +8467,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -8599,8 +8599,8 @@ RecountPerCharDB = {
 				},
 			},
 			["level"] = 87,
-			["LastDamageAbility"] = "Inferno Blast",
-			["LastAbility"] = 38236.623,
+			["UnitLockout"] = 2117.082,
+			["LastFightIn"] = 12,
 		},
 		["Earthrager Ptah"] = {
 			["GUID"] = "Creature-0-3771-644-11563-39428-00005D23E9",
@@ -8610,8 +8610,8 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 46255,
-			["LastAbility"] = 38236.623,
-			["UnitLockout"] = 1841.083,
+			["LastActive"] = 1842.083,
+			["LastDamageAbility"] = "Living Bomb (DoT)",
 			["Name"] = "Earthrager Ptah",
 			["LastFightIn"] = 6,
 			["Fights"] = {
@@ -8628,12 +8628,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8644,24 +8643,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -8669,52 +8668,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -8731,12 +8731,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8747,24 +8746,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -8772,52 +8771,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -8841,8 +8841,8 @@ RecountPerCharDB = {
 				},
 			},
 			["level"] = 87,
-			["LastDamageAbility"] = "Living Bomb (DoT)",
-			["LastActive"] = 1842.083,
+			["UnitLockout"] = 1841.083,
+			["LastAbility"] = 4098.059,
 		},
 		["Temple Guardian Anhuur"] = {
 			["GUID"] = "Creature-0-3771-644-11563-39425-00005D23E9",
@@ -8852,8 +8852,8 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 8100,
-			["LastAbility"] = 38236.623,
-			["UnitLockout"] = 1730.083,
+			["LastActive"] = 1731.083,
+			["LastDamageAbility"] = "Ignite (DoT)",
 			["Name"] = "Temple Guardian Anhuur",
 			["LastFightIn"] = 3,
 			["Fights"] = {
@@ -8870,12 +8870,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8886,24 +8885,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -8911,52 +8910,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -8973,12 +8973,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -8989,24 +8988,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -9014,52 +9013,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -9067,11 +9067,11 @@ RecountPerCharDB = {
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
-								["Inferno Blast"] = {
-									["count"] = 188223,
-								},
 								["Ignite (DoT)"] = {
 									["count"] = 8100,
+								},
+								["Inferno Blast"] = {
+									["count"] = 188223,
 								},
 							},
 							["amount"] = 196323,
@@ -9080,8 +9080,8 @@ RecountPerCharDB = {
 				},
 			},
 			["level"] = 87,
-			["LastDamageAbility"] = "Ignite (DoT)",
-			["LastActive"] = 1731.083,
+			["UnitLockout"] = 1730.083,
+			["LastAbility"] = 4098.059,
 		},
 		["Whiltierna-EarthenRing"] = {
 			["GUID"] = "Player-1317-08197722",
@@ -9213,1238 +9213,56 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastActive"] = 2180.082,
-			["UnitLockout"] = 2149.082,
+			["LastAbility"] = 4098.059,
+			["LastEventTimes"] = {
+				2037.416, -- [1]
+				2042.366, -- [2]
+				2044.399, -- [3]
+				2045.282, -- [4]
+				2045.399, -- [5]
+				2047.399, -- [6]
+				2048.149, -- [7]
+				2048.399, -- [8]
+				2050.399, -- [9]
+				2051.032, -- [10]
+				2053.399, -- [11]
+				2053.899, -- [12]
+				2054.282, -- [13]
+				2134.665, -- [14]
+				2134.665, -- [15]
+				2143.649, -- [16]
+				2146.532, -- [17]
+				2146.665, -- [18]
+				2146.715, -- [19]
+				2149.399, -- [20]
+				2149.665, -- [21]
+				2152.265, -- [22]
+				2152.649, -- [23]
+				2152.682, -- [24]
+				2155.666, -- [25]
+				2161.999, -- [26]
+				2161.999, -- [27]
+				2171.282, -- [28]
+				2174.149, -- [29]
+				2174.299, -- [30]
+				2177.032, -- [31]
+				2177.299, -- [32]
+				2179.899, -- [33]
+				2180.282, -- [34]
+			},
 			["Owner"] = false,
-			["Fights"] = {
-				["Fight5"] = {
-					["TimeHealing"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 1.63,
-								},
-								["Flash Heal"] = {
-									["count"] = 2.03,
-								},
-								["Echo of Light"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5.66,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Flash Heal"] = {
-									["count"] = 3.5,
-								},
-								["Echo of Light"] = {
-									["count"] = 0.37,
-								},
-							},
-							["amount"] = 3.87,
-						},
-					},
-					["TimeSpent"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 1.63,
-								},
-								["Flash Heal"] = {
-									["count"] = 2.03,
-								},
-								["Echo of Light"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5.66,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Flash Heal"] = {
-									["count"] = 3.5,
-								},
-								["Echo of Light"] = {
-									["count"] = 0.37,
-								},
-							},
-							["amount"] = 3.87,
-						},
-					},
-					["DamageTaken"] = 15703,
-					["PartialResist"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 9.53,
-					["ElementTaken"] = {
-						["Shadow"] = 15703,
-					},
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 3,
-								},
-								["Kptblood-EarthenRing"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 274,
-									["min"] = 274,
-									["count"] = 1,
-									["amount"] = 274,
-								},
-								["Tick"] = {
-									["max"] = 683,
-									["min"] = 683,
-									["count"] = 1,
-									["amount"] = 683,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 957,
-						},
-						["Flash Heal"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7160,
-									["min"] = 7160,
-									["count"] = 1,
-									["amount"] = 7160,
-								},
-								["Hit"] = {
-									["max"] = 3580,
-									["min"] = 3580,
-									["count"] = 1,
-									["amount"] = 3580,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 10740,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 442,
-									["min"] = 159,
-									["count"] = 3,
-									["amount"] = 1042,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1042,
-						},
-					},
-					["ShieldedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["Healing"] = 12739,
-					["HealingTaken"] = 4696,
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["HealedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 957,
-								},
-								["Flash Heal"] = {
-									["count"] = 3580,
-								},
-								["Echo of Light"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 4696,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Flash Heal"] = {
-									["count"] = 7160,
-								},
-								["Echo of Light"] = {
-									["count"] = 883,
-								},
-							},
-							["amount"] = 8043,
-						},
-					},
-					["WhoDamaged"] = {
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15703,
-								},
-							},
-							["amount"] = 15703,
-						},
-					},
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 957,
-								},
-								["Flash Heal"] = {
-									["count"] = 3580,
-								},
-								["Echo of Light"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 4696,
-						},
-					},
-					["TimeHeal"] = 9.53,
-					["HOT_Time"] = 12,
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["Ressed"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["DOTs"] = {
-					},
-					["ManaGain"] = 1200,
-					["ElementDoneResist"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Arcane"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamageTaken"] = 4909,
-					["RageGainedFrom"] = {
-					},
-					["Absorbs"] = 4909,
-					["DeathCount"] = 0,
-					["HOT_Time"] = 24,
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["Damage"] = 3468,
-					["ElementTaken"] = {
-						["Arcane"] = 4909,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["TimeHeal"] = 22.5,
-					["ShieldedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["Dispels"] = 0,
-					["RageGain"] = 0,
-					["CCBroken"] = {
-					},
-					["FAttacks"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 1200,
-								},
-							},
-							["amount"] = 1200,
-						},
-					},
-					["ElementDone"] = {
-						["Holy"] = 3468,
-					},
-					["OverHeals"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Arcane Barrage"] = {
-									["count"] = 4909,
-								},
-							},
-							["amount"] = 4909,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 4909,
-								},
-							},
-							["amount"] = 4909,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.04,
-								},
-								["Echo of Light"] = {
-									["count"] = 3.41,
-								},
-								["Flash Heal"] = {
-									["count"] = 0.05,
-								},
-							},
-							["amount"] = 15.5,
-						},
-					},
-					["Dispelled"] = 0,
-					["RessedWho"] = {
-					},
-					["PartialResist"] = {
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 1200,
-								},
-							},
-							["amount"] = 1200,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Arcane"] = 4909,
-					},
-					["ActiveTime"] = 22.5,
-					["InterruptData"] = {
-					},
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.04,
-								},
-								["Echo of Light"] = {
-									["count"] = 3.41,
-								},
-								["Flash Heal"] = {
-									["count"] = 0.05,
-								},
-							},
-							["amount"] = 15.5,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["PartialAbsorb"] = {
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-					},
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 274,
-									["min"] = 274,
-									["count"] = 1,
-									["amount"] = 274,
-								},
-								["Tick"] = {
-									["max"] = 805,
-									["min"] = 108,
-									["count"] = 4,
-									["amount"] = 2501,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2775,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 175,
-									["min"] = 17,
-									["count"] = 4,
-									["amount"] = 542,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 542,
-						},
-						["Power Word: Shield"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-						["Flash Heal"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4117,
-									["min"] = 4117,
-									["count"] = 1,
-									["amount"] = 4117,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4117,
-						},
-					},
-					["HealedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 4909,
-								},
-							},
-							["amount"] = 4909,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2775,
-								},
-								["Echo of Light"] = {
-									["count"] = 542,
-								},
-								["Flash Heal"] = {
-									["count"] = 4117,
-								},
-							},
-							["amount"] = 7434,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["Absorbed"] = {
-						["Power Word: Shield"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-					},
-					["Healing"] = 7434,
-					["RageGained"] = {
-					},
-					["DamagedWho"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 3468,
-								},
-							},
-							["amount"] = 3468,
-						},
-					},
-					["Attacks"] = {
-						["Reflective Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1761,
-									["min"] = 1707,
-									["count"] = 2,
-									["amount"] = 3468,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3468,
-						},
-					},
-					["HealingTaken"] = 4909,
-					["PartialBlock"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 1.63,
-								},
-								["Flash Heal"] = {
-									["count"] = 2.03,
-								},
-								["Power Word: Shield"] = {
-									["count"] = 7,
-								},
-								["Echo of Light"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 12.66,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.04,
-								},
-								["Flash Heal"] = {
-									["count"] = 3.55,
-								},
-								["Echo of Light"] = {
-									["count"] = 3.78,
-								},
-							},
-							["amount"] = 19.37,
-						},
-					},
-					["DamageTaken"] = 20612,
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 957,
-								},
-								["Flash Heal"] = {
-									["count"] = 3580,
-								},
-								["Power Word: Shield"] = {
-									["count"] = 4909,
-								},
-								["Echo of Light"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 9605,
-						},
-					},
-					["Absorbs"] = 4909,
-					["TimeSpent"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 1.63,
-								},
-								["Flash Heal"] = {
-									["count"] = 2.03,
-								},
-								["Power Word: Shield"] = {
-									["count"] = 7,
-								},
-								["Echo of Light"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 12.66,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 12.04,
-								},
-								["Flash Heal"] = {
-									["count"] = 3.55,
-								},
-								["Echo of Light"] = {
-									["count"] = 3.78,
-								},
-							},
-							["amount"] = 19.37,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 957,
-								},
-								["Flash Heal"] = {
-									["count"] = 3580,
-								},
-								["Power Word: Shield"] = {
-									["count"] = 4909,
-								},
-								["Echo of Light"] = {
-									["count"] = 159,
-								},
-							},
-							["amount"] = 9605,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2775,
-								},
-								["Flash Heal"] = {
-									["count"] = 11277,
-								},
-								["Echo of Light"] = {
-									["count"] = 1425,
-								},
-							},
-							["amount"] = 15477,
-						},
-					},
-					["WhoDamaged"] = {
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15703,
-								},
-							},
-							["amount"] = 15703,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Arcane Barrage"] = {
-									["count"] = 4909,
-								},
-							},
-							["amount"] = 4909,
-						},
-					},
-					["PartialResist"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-					},
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 1200,
-								},
-							},
-							["amount"] = 1200,
-						},
-					},
-					["HOT_Time"] = 36,
-					["ActiveTime"] = 32.03,
-					["ManaGainedFrom"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 1200,
-								},
-							},
-							["amount"] = 1200,
-						},
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 15703,
-						["Arcane"] = 4909,
-					},
-					["HOTs"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 3,
-								},
-								["Kptblood-EarthenRing"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["count"] = 3,
-								},
-								["Kptblood-EarthenRing"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["Damage"] = 3468,
-					["DamagedWho"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 3468,
-								},
-							},
-							["amount"] = 3468,
-						},
-					},
-					["Heals"] = {
-						["Renew"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 274,
-									["min"] = 274,
-									["count"] = 2,
-									["amount"] = 548,
-								},
-								["Tick"] = {
-									["max"] = 805,
-									["min"] = 108,
-									["count"] = 5,
-									["amount"] = 3184,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 3732,
-						},
-						["Flash Heal"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 7160,
-									["min"] = 7160,
-									["count"] = 1,
-									["amount"] = 7160,
-								},
-								["Hit"] = {
-									["max"] = 4117,
-									["min"] = 3580,
-									["count"] = 2,
-									["amount"] = 7697,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 14857,
-						},
-						["Power Word: Shield"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-						["Echo of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 442,
-									["min"] = 17,
-									["count"] = 7,
-									["amount"] = 1584,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 1584,
-						},
-					},
-					["ShieldedWho"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Power Word: Shield"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeHeal"] = 32.03,
-					["Attacks"] = {
-						["Reflective Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1761,
-									["min"] = 1707,
-									["count"] = 2,
-									["amount"] = 3468,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3468,
-						},
-					},
-					["Healing"] = 20173,
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Arcane"] = 4909,
-					},
-					["ElementDone"] = {
-						["Holy"] = 3468,
-					},
-					["HealingTaken"] = 9605,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Reflective Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 1200,
-					["PartialAbsorb"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-					},
-					["Absorbed"] = {
-						["Power Word: Shield"] = {
-							["Details"] = {
-								["Whiltierna-EarthenRing"] = {
-									["max"] = 2493,
-									["min"] = 2416,
-									["count"] = 2,
-									["amount"] = 4909,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 4909,
-						},
-					},
-				},
+			["TimeLast"] = {
+				["TimeHeal"] = 2161.082,
+				["Healing"] = 2155.082,
+				["DamageTaken"] = 2161.082,
+				["Absorbs"] = 2161.082,
+				["HealingTaken"] = 2161.082,
+				["HOT_Time"] = 2155.082,
+				["ActiveTime"] = 2161.082,
+				["OVERALL"] = 2161.082,
+				["ManaGain"] = 2161.082,
+				["TimeDamage"] = 2161.082,
+				["Damage"] = 2161.082,
 			},
 			["NextEventNum"] = 35,
 			["LastEventHealthNum"] = {
@@ -10520,7 +9338,6 @@ RecountPerCharDB = {
 				"Whiltierna-EarthenRing Renew Kptblood-EarthenRing Tick +95", -- [34]
 			},
 			["Name"] = "Whiltierna-EarthenRing",
-			["LastDamageTaken"] = 2416,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				false, -- [2]
@@ -10557,56 +9374,1239 @@ RecountPerCharDB = {
 				false, -- [33]
 				false, -- [34]
 			},
-			["TimeLast"] = {
-				["TimeHeal"] = 2161.082,
-				["Healing"] = 2155.082,
-				["DamageTaken"] = 2161.082,
-				["Absorbs"] = 2161.082,
-				["HealingTaken"] = 2161.082,
-				["HOT_Time"] = 2155.082,
-				["ActiveTime"] = 2161.082,
-				["OVERALL"] = 2161.082,
-				["ManaGain"] = 2161.082,
-				["TimeDamage"] = 2161.082,
-				["Damage"] = 2161.082,
+			["LastDamageTaken"] = 2416,
+			["Fights"] = {
+				["Fight5"] = {
+					["TimeHealing"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 1.63,
+								},
+								["Echo of Light"] = {
+									["count"] = 2,
+								},
+								["Flash Heal"] = {
+									["count"] = 2.03,
+								},
+							},
+							["amount"] = 5.66,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Echo of Light"] = {
+									["count"] = 0.37,
+								},
+								["Flash Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.87,
+						},
+					},
+					["TimeSpent"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 1.63,
+								},
+								["Echo of Light"] = {
+									["count"] = 2,
+								},
+								["Flash Heal"] = {
+									["count"] = 2.03,
+								},
+							},
+							["amount"] = 5.66,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Echo of Light"] = {
+									["count"] = 0.37,
+								},
+								["Flash Heal"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.87,
+						},
+					},
+					["DamageTaken"] = 15703,
+					["PartialResist"] = {
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 9.53,
+					["ElementTaken"] = {
+						["Shadow"] = 15703,
+					},
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 3,
+								},
+								["Kptblood-EarthenRing"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 683,
+									["min"] = 683,
+									["count"] = 1,
+									["amount"] = 683,
+								},
+								["Hit"] = {
+									["max"] = 274,
+									["min"] = 274,
+									["count"] = 1,
+									["amount"] = 274,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 957,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 442,
+									["min"] = 159,
+									["count"] = 3,
+									["amount"] = 1042,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1042,
+						},
+						["Flash Heal"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7160,
+									["min"] = 7160,
+									["count"] = 1,
+									["amount"] = 7160,
+								},
+								["Hit"] = {
+									["max"] = 3580,
+									["min"] = 3580,
+									["count"] = 1,
+									["amount"] = 3580,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10740,
+						},
+					},
+					["ShieldedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Healing"] = 12739,
+					["HealingTaken"] = 4696,
+					["HOT_Time"] = 12,
+					["TimeHeal"] = 9.53,
+					["WhoDamaged"] = {
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15703,
+								},
+							},
+							["amount"] = 15703,
+						},
+					},
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 957,
+								},
+								["Echo of Light"] = {
+									["count"] = 159,
+								},
+								["Flash Heal"] = {
+									["count"] = 3580,
+								},
+							},
+							["amount"] = 4696,
+						},
+					},
+					["HealedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 957,
+								},
+								["Echo of Light"] = {
+									["count"] = 159,
+								},
+								["Flash Heal"] = {
+									["count"] = 3580,
+								},
+							},
+							["amount"] = 4696,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Echo of Light"] = {
+									["count"] = 883,
+								},
+								["Flash Heal"] = {
+									["count"] = 7160,
+								},
+							},
+							["amount"] = 8043,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["DOTs"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 4909,
+					["ElementTakenResist"] = {
+					},
+					["Absorbs"] = 4909,
+					["DeathCount"] = 0,
+					["HOT_Time"] = 24,
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementTaken"] = {
+						["Arcane"] = 4909,
+					},
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Damage"] = 3468,
+					["PartialBlock"] = {
+					},
+					["TimeHeal"] = 22.5,
+					["ShieldedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Dispels"] = 0,
+					["HealingTaken"] = 4909,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["DamagedWho"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 3468,
+								},
+							},
+							["amount"] = 3468,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 3468,
+					},
+					["RageGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 1200,
+								},
+							},
+							["amount"] = 1200,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Arcane Barrage"] = {
+									["count"] = 4909,
+								},
+							},
+							["amount"] = 4909,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.04,
+								},
+								["Flash Heal"] = {
+									["count"] = 0.05,
+								},
+								["Echo of Light"] = {
+									["count"] = 3.41,
+								},
+							},
+							["amount"] = 15.5,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RessedWho"] = {
+					},
+					["HealedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 4909,
+								},
+							},
+							["amount"] = 4909,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2775,
+								},
+								["Flash Heal"] = {
+									["count"] = 4117,
+								},
+								["Echo of Light"] = {
+									["count"] = 542,
+								},
+							},
+							["amount"] = 7434,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+						["Arcane"] = 4909,
+					},
+					["PartialAbsorb"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+					},
+					["PartialResist"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 1200,
+								},
+							},
+							["amount"] = 1200,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.04,
+								},
+								["Flash Heal"] = {
+									["count"] = 0.05,
+								},
+								["Echo of Light"] = {
+									["count"] = 3.41,
+								},
+							},
+							["amount"] = 15.5,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["Overhealing"] = 0,
+					["InterruptData"] = {
+					},
+					["ActiveTime"] = 22.5,
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 805,
+									["min"] = 108,
+									["count"] = 4,
+									["amount"] = 2501,
+								},
+								["Hit"] = {
+									["max"] = 274,
+									["min"] = 274,
+									["count"] = 1,
+									["amount"] = 274,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2775,
+						},
+						["Flash Heal"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4117,
+									["min"] = 4117,
+									["count"] = 1,
+									["amount"] = 4117,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 4117,
+						},
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 175,
+									["min"] = 17,
+									["count"] = 4,
+									["amount"] = 542,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 542,
+						},
+					},
+					["EnergyGain"] = 0,
+					["EnergyGained"] = {
+					},
+					["Dispelled"] = 0,
+					["Healing"] = 7434,
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 4909,
+								},
+							},
+							["amount"] = 4909,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Reflective Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1761,
+									["min"] = 1707,
+									["count"] = 2,
+									["amount"] = 3468,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3468,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 1200,
+					["RageGainedFrom"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 1.63,
+								},
+								["Echo of Light"] = {
+									["count"] = 2,
+								},
+								["Power Word: Shield"] = {
+									["count"] = 7,
+								},
+								["Flash Heal"] = {
+									["count"] = 2.03,
+								},
+							},
+							["amount"] = 12.66,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.04,
+								},
+								["Echo of Light"] = {
+									["count"] = 3.78,
+								},
+								["Flash Heal"] = {
+									["count"] = 3.55,
+								},
+							},
+							["amount"] = 19.37,
+						},
+					},
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 957,
+								},
+								["Echo of Light"] = {
+									["count"] = 159,
+								},
+								["Power Word: Shield"] = {
+									["count"] = 4909,
+								},
+								["Flash Heal"] = {
+									["count"] = 3580,
+								},
+							},
+							["amount"] = 9605,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["TimeSpent"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 1.63,
+								},
+								["Echo of Light"] = {
+									["count"] = 2,
+								},
+								["Power Word: Shield"] = {
+									["count"] = 7,
+								},
+								["Flash Heal"] = {
+									["count"] = 2.03,
+								},
+							},
+							["amount"] = 12.66,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 12.04,
+								},
+								["Echo of Light"] = {
+									["count"] = 3.78,
+								},
+								["Flash Heal"] = {
+									["count"] = 3.55,
+								},
+							},
+							["amount"] = 19.37,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 20612,
+					["TimeDamaging"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Absorbs"] = 4909,
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 1200,
+								},
+							},
+							["amount"] = 1200,
+						},
+					},
+					["HOT_Time"] = 36,
+					["ActiveTime"] = 32.03,
+					["DamagedWho"] = {
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Reflective Shield"] = {
+									["count"] = 3468,
+								},
+							},
+							["amount"] = 3468,
+						},
+					},
+					["ElementTaken"] = {
+						["Arcane"] = 4909,
+						["Shadow"] = 15703,
+					},
+					["HOTs"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 3,
+								},
+								["Kptblood-EarthenRing"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["count"] = 3,
+								},
+								["Kptblood-EarthenRing"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["Damage"] = 3468,
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["Heals"] = {
+						["Renew"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 805,
+									["min"] = 108,
+									["count"] = 5,
+									["amount"] = 3184,
+								},
+								["Hit"] = {
+									["max"] = 274,
+									["min"] = 274,
+									["count"] = 2,
+									["amount"] = 548,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 3732,
+						},
+						["Echo of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 442,
+									["min"] = 17,
+									["count"] = 7,
+									["amount"] = 1584,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 1584,
+						},
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+						["Flash Heal"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 7160,
+									["min"] = 7160,
+									["count"] = 1,
+									["amount"] = 7160,
+								},
+								["Hit"] = {
+									["max"] = 4117,
+									["min"] = 3580,
+									["count"] = 2,
+									["amount"] = 7697,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 14857,
+						},
+					},
+					["ShieldedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Power Word: Shield"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeHeal"] = 32.03,
+					["ElementDone"] = {
+						["Holy"] = 3468,
+					},
+					["Healing"] = 20173,
+					["ElementTakenAbsorb"] = {
+						["Arcane"] = 4909,
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Reflective Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1761,
+									["min"] = 1707,
+									["count"] = 2,
+									["amount"] = 3468,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3468,
+						},
+					},
+					["HealingTaken"] = 9605,
+					["ManaGainedFrom"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 1200,
+								},
+							},
+							["amount"] = 1200,
+						},
+					},
+					["TimeDamage"] = 0,
+					["WhoDamaged"] = {
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15703,
+								},
+							},
+							["amount"] = 15703,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Arcane Barrage"] = {
+									["count"] = 4909,
+								},
+							},
+							["amount"] = 4909,
+						},
+					},
+					["ManaGain"] = 1200,
+					["HealedWho"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 957,
+								},
+								["Echo of Light"] = {
+									["count"] = 159,
+								},
+								["Power Word: Shield"] = {
+									["count"] = 4909,
+								},
+								["Flash Heal"] = {
+									["count"] = 3580,
+								},
+							},
+							["amount"] = 9605,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2775,
+								},
+								["Echo of Light"] = {
+									["count"] = 1425,
+								},
+								["Flash Heal"] = {
+									["count"] = 11277,
+								},
+							},
+							["amount"] = 15477,
+						},
+					},
+					["Absorbed"] = {
+						["Power Word: Shield"] = {
+							["Details"] = {
+								["Whiltierna-EarthenRing"] = {
+									["max"] = 2493,
+									["min"] = 2416,
+									["count"] = 2,
+									["amount"] = 4909,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4909,
+						},
+					},
+				},
 			},
-			["LastEventTimes"] = {
-				2037.416, -- [1]
-				2042.366, -- [2]
-				2044.399, -- [3]
-				2045.282, -- [4]
-				2045.399, -- [5]
-				2047.399, -- [6]
-				2048.149, -- [7]
-				2048.399, -- [8]
-				2050.399, -- [9]
-				2051.032, -- [10]
-				2053.399, -- [11]
-				2053.899, -- [12]
-				2054.282, -- [13]
-				2134.665, -- [14]
-				2134.665, -- [15]
-				2143.649, -- [16]
-				2146.532, -- [17]
-				2146.665, -- [18]
-				2146.715, -- [19]
-				2149.399, -- [20]
-				2149.665, -- [21]
-				2152.265, -- [22]
-				2152.649, -- [23]
-				2152.682, -- [24]
-				2155.666, -- [25]
-				2161.999, -- [26]
-				2161.999, -- [27]
-				2171.282, -- [28]
-				2174.149, -- [29]
-				2174.299, -- [30]
-				2177.032, -- [31]
-				2177.299, -- [32]
-				2179.899, -- [33]
-				2180.282, -- [34]
-			},
-			["LastAbility"] = 38236.623,
+			["UnitLockout"] = 2149.082,
+			["LastActive"] = 2180.082,
 		},
 		["Rajh"] = {
 			["GUID"] = "Vehicle-0-3771-644-11563-39378-00005D23E9",
@@ -10616,12 +10616,12 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 20275,
-			["LastFightIn"] = 13,
-			["UnitLockout"] = 2187.082,
+			["LastAbility"] = 4098.059,
+			["LastDamageAbility"] = "Living Bomb (DoT)",
 			["Name"] = "Rajh",
 			["LastActive"] = 2191.082,
 			["Fights"] = {
-				["OverallData"] = {
+				["Fight3"] = {
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
@@ -10682,12 +10682,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -10698,24 +10697,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -10723,52 +10722,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -10785,12 +10785,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -10801,24 +10800,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -10826,56 +10825,57 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
-				["Fight3"] = {
+				["OverallData"] = {
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
@@ -10925,738 +10925,51 @@ RecountPerCharDB = {
 				},
 			},
 			["level"] = 87,
-			["LastDamageAbility"] = "Living Bomb (DoT)",
-			["LastAbility"] = 38236.623,
+			["UnitLockout"] = 2187.082,
+			["LastFightIn"] = 13,
 		},
-		["Anraphet"] = {
-			["GUID"] = "Creature-0-3771-644-11563-39788-00005D23E9",
-			["LastEventHealth"] = {
-				"???", -- [1]
-				"???", -- [2]
-				"???", -- [3]
-				"239625 (100%)", -- [4]
-				"58124 (24%)", -- [5]
-				"3674 (1%)", -- [6]
-				"3674 (1%)", -- [7]
-				"1 (0%)", -- [8]
-				"0 (0%)", -- [9]
-				"???", -- [10]
-				"???", -- [11]
-				"???", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"???", -- [19]
-				"???", -- [20]
-				"???", -- [21]
-				"???", -- [22]
-				"???", -- [23]
-				"???", -- [24]
-				"???", -- [25]
-				"???", -- [26]
-				"???", -- [27]
-				"???", -- [28]
-				"???", -- [29]
-				"???", -- [30]
-				"???", -- [31]
-				"???", -- [32]
-				"???", -- [33]
-				"???", -- [34]
-				"???", -- [35]
-				"???", -- [36]
-				"???", -- [37]
-				"???", -- [38]
-				"???", -- [39]
-				"???", -- [40]
-				"???", -- [41]
-				"???", -- [42]
-				"???", -- [43]
-				"???", -- [44]
-				"???", -- [45]
-				"???", -- [46]
-				"???", -- [47]
-				"???", -- [48]
-				"???", -- [49]
-				"???", -- [50]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"MISC", -- [9]
-				"MISC", -- [10]
-				"MISC", -- [11]
-				"MISC", -- [12]
-				"MISC", -- [13]
-				"MISC", -- [14]
-				"MISC", -- [15]
-				"MISC", -- [16]
-				"MISC", -- [17]
-				"MISC", -- [18]
-				"MISC", -- [19]
-				"MISC", -- [20]
-				"MISC", -- [21]
-				"MISC", -- [22]
-				"MISC", -- [23]
-				"MISC", -- [24]
-				"MISC", -- [25]
-				"MISC", -- [26]
-				"MISC", -- [27]
-				"MISC", -- [28]
-				"MISC", -- [29]
-				"MISC", -- [30]
-				"MISC", -- [31]
-				"MISC", -- [32]
-				"MISC", -- [33]
-				"MISC", -- [34]
-				"MISC", -- [35]
-				"MISC", -- [36]
-				"MISC", -- [37]
-				"MISC", -- [38]
-				"MISC", -- [39]
-				"MISC", -- [40]
-				"MISC", -- [41]
-				"MISC", -- [42]
-				"MISC", -- [43]
-				"MISC", -- [44]
-				"MISC", -- [45]
-				"MISC", -- [46]
-				"MISC", -- [47]
-				"MISC", -- [48]
-				"MISC", -- [49]
-				"MISC", -- [50]
-			},
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					1, -- [1]
-				},
-				["ActiveTime"] = {
-					8.85, -- [1]
-				},
-				["TimeDamage"] = {
-					8.85, -- [1]
-				},
-				["DamageTaken"] = {
-					244413, -- [1]
-				},
-				["Damage"] = {
-					56113, -- [1]
-				},
-			},
-			["enClass"] = "MOB",
-			["unit"] = "playertarget",
-			["LastActive"] = 2045.082,
-			["level"] = -1,
-			["LastDamageAbility"] = "Ignite (DoT)",
-			["LastFightIn"] = 11,
-			["LastEventNum"] = {
-				[5] = 75.7437663015128,
-				[6] = 22.7230046948357,
-				[8] = 3.53135106937924,
-			},
-			["type"] = "Boss",
-			["FightsSaved"] = 5,
-			["UnitLockout"] = 2043.082,
-			["LastEventTimes"] = {
-				2037.066, -- [1]
-				2037.399, -- [2]
-				2037.416, -- [3]
-				2043.266, -- [4]
-				2044.266, -- [5]
-				2044.599, -- [6]
-				2044.766, -- [7]
-				2045.299, -- [8]
-				2045.616, -- [9]
-				2036.716, -- [10]
-				2036.716, -- [11]
-				2036.716, -- [12]
-				2036.716, -- [13]
-				2036.716, -- [14]
-				2036.716, -- [15]
-				2036.716, -- [16]
-				2036.716, -- [17]
-				2036.716, -- [18]
-				2036.716, -- [19]
-				2036.716, -- [20]
-				2036.716, -- [21]
-				2036.716, -- [22]
-				2036.716, -- [23]
-				2036.716, -- [24]
-				2036.716, -- [25]
-				2036.716, -- [26]
-				2036.716, -- [27]
-				2036.716, -- [28]
-				2036.716, -- [29]
-				2036.716, -- [30]
-				2036.716, -- [31]
-				2036.716, -- [32]
-				2036.716, -- [33]
-				2036.716, -- [34]
-				2036.716, -- [35]
-				2036.716, -- [36]
-				2036.716, -- [37]
-				2036.716, -- [38]
-				2036.716, -- [39]
-				2036.716, -- [40]
-				2036.716, -- [41]
-				2036.716, -- [42]
-				2036.716, -- [43]
-				2036.716, -- [44]
-				2036.716, -- [45]
-				2036.716, -- [46]
-				2036.716, -- [47]
-				2036.716, -- [48]
-				2036.716, -- [49]
-				2036.716, -- [50]
-			},
+		["Ammunae"] = {
+			["GUID"] = "Vehicle-0-3771-644-11563-39731-00005D23E9",
+			["type"] = "Trivial",
+			["FightsSaved"] = 1,
+			["LastAttackedBy"] = "Kneewhoya",
 			["Owner"] = false,
-			["Name"] = "Anraphet",
-			["NextEventNum"] = 10,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				100, -- [4]
-				24.2562336984872, -- [5]
-				1.53322900365154, -- [6]
-				1.53322900365154, -- [7]
-				0.000417318727177882, -- [8]
-				0, -- [9]
-				0, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				0, -- [19]
-				0, -- [20]
-				0, -- [21]
-				0, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				0, -- [27]
-				0, -- [28]
-				0, -- [29]
-				0, -- [30]
-				0, -- [31]
-				0, -- [32]
-				0, -- [33]
-				0, -- [34]
-				0, -- [35]
-				0, -- [36]
-				0, -- [37]
-				0, -- [38]
-				0, -- [39]
-				0, -- [40]
-				0, -- [41]
-				0, -- [42]
-				0, -- [43]
-				0, -- [44]
-				0, -- [45]
-				0, -- [46]
-				0, -- [47]
-				0, -- [48]
-				0, -- [49]
-				0, -- [50]
-			},
-			["LastEvents"] = {
-				"Anraphet Destruction Protocol Kneewhoya Hit -24808 (Shadow)", -- [1]
-				"Anraphet Destruction Protocol Kptblood-EarthenRing Hit -15602 (Shadow)", -- [2]
-				"Anraphet Destruction Protocol Whiltierna-EarthenRing Hit -15703 (Shadow)", -- [3]
-				"Anraphet Melee Kneewhoya Miss (1)", -- [4]
-				"Kneewhoya Inferno Blast Anraphet Crit -181501 (Fire)", -- [5]
-				"Kneewhoya Inferno Blast Anraphet Multistrike (Crit) -54450 (Fire)", -- [6]
-				"Anraphet Melee Kneewhoya Dodge (1)", -- [7]
-				"Kneewhoya Ignite (DoT) Anraphet Tick -8462 (Fire)", -- [8]
-				"Anraphet dies.", -- [9]
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				false, -- [7]
-				true, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 8462,
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						false, -- [1]
-						false, -- [2]
-						false, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
-						false, -- [7]
-						true, -- [8]
-						true, -- [9]
-					},
-					["Messages"] = {
-						"Anraphet Destruction Protocol Kneewhoya Hit -24808 (Shadow)", -- [1]
-						"Anraphet Destruction Protocol Kptblood-EarthenRing Hit -15602 (Shadow)", -- [2]
-						"Anraphet Destruction Protocol Whiltierna-EarthenRing Hit -15703 (Shadow)", -- [3]
-						"Anraphet Melee Kneewhoya Miss (1)", -- [4]
-						"Kneewhoya Inferno Blast Anraphet Crit -181501 (Fire)", -- [5]
-						"Kneewhoya Inferno Blast Anraphet Multistrike (Crit) -54450 (Fire)", -- [6]
-						"Anraphet Melee Kneewhoya Dodge (1)", -- [7]
-						"Kneewhoya Ignite (DoT) Anraphet Tick -8462 (Fire)", -- [8]
-						"Anraphet dies.", -- [9]
-					},
-					["DeathAt"] = 2047.082,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						100, -- [4]
-						24.2562336984872, -- [5]
-						1.53322900365154, -- [6]
-						1.53322900365154, -- [7]
-						0.000417318727177882, -- [8]
-						0, -- [9]
-					},
-					["MessageTimes"] = {
-						-8.54999999999996, -- [1]
-						-8.21699999999987, -- [2]
-						-8.20000000000005, -- [3]
-						-2.34999999999991, -- [4]
-						-1.34999999999991, -- [5]
-						-1.01700000000005, -- [6]
-						-0.849999999999909, -- [7]
-						-0.317000000000007, -- [8]
-						0, -- [9]
-					},
-					["KilledBy"] = "Kneewhoya",
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-						"239625 (100%)", -- [4]
-						"58124 (24%)", -- [5]
-						"3674 (1%)", -- [6]
-						"3674 (1%)", -- [7]
-						"1 (0%)", -- [8]
-						"0 (0%)", -- [9]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						75.7437663015128, -- [5]
-						22.7230046948357, -- [6]
-						0, -- [7]
-						3.53135106937924, -- [8]
-						0, -- [9]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"MISC", -- [9]
-					},
-				}, -- [1]
-			},
-			["TimeLast"] = {
-				["DeathCount"] = 2045.082,
-				["ActiveTime"] = 2044.082,
-				["TimeDamage"] = 2044.082,
-				["OVERALL"] = 2045.082,
-				["DamageTaken"] = 2045.082,
-				["Damage"] = 2037.082,
-			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 177223,
+			["LastActive"] = 2297.082,
+			["LastDamageAbility"] = "Inferno Blast",
+			["Name"] = "Ammunae",
+			["LastFightIn"] = 15,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
+				["Fight1"] = {
 					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
+								["Inferno Blast"] = {
+									["count"] = 177223,
+								},
+							},
+							["amount"] = 222279,
+						},
 					},
 				},
-				["Fight5"] = {
-					["PartialResist"] = {
-						["Inferno Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["DamagedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15602,
-								},
-							},
-							["amount"] = 15602,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15703,
-								},
-							},
-							["amount"] = 15703,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 31305,
-					},
-					["TimeDamaging"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Destruction Protocol"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["ActiveTime"] = 5.35,
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamageTaken"] = 244413,
-					["PartialAbsorb"] = {
-						["Inferno Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15703,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 31305,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 31305,
-						},
-					},
-					["DeathCount"] = 1,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["TimeDamage"] = 5.35,
+				["LastFightData"] = {
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
 								["Inferno Blast"] = {
-									["count"] = 235951,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 8462,
+									["count"] = 177223,
 								},
 							},
-							["amount"] = 244413,
+							["amount"] = 222279,
 						},
 					},
-					["ElementTaken"] = {
-						["Fire"] = 244413,
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Destruction Protocol"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["Damage"] = 31305,
 				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -11671,12 +10984,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -11687,24 +10999,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -11712,284 +11024,75 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["PartialResist"] = {
-						["Inferno Blast"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["DamagedWho"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 24808,
-								},
-							},
-							["amount"] = 24808,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15602,
-								},
-							},
-							["amount"] = 15602,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15703,
-								},
-							},
-							["amount"] = 15703,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 56113,
-					},
-					["TimeDamaging"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Destruction Protocol"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 8.5,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["ActiveTime"] = 8.85,
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Multistrike (Crit)"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamageTaken"] = 244413,
-					["PartialAbsorb"] = {
-						["Inferno Blast"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Ignite (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24808,
-									["min"] = 15602,
-									["count"] = 3,
-									["amount"] = 56113,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 56113,
-						},
-					},
-					["DeathCount"] = 1,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeDamage"] = 8.85,
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
+								["Living Bomb (DoT)"] = {
+									["count"] = 45056,
+								},
 								["Inferno Blast"] = {
-									["count"] = 235951,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 8462,
+									["count"] = 177223,
 								},
 							},
-							["amount"] = 244413,
+							["amount"] = 222279,
 						},
 					},
-					["ElementTaken"] = {
-						["Fire"] = 244413,
-					},
-					["TimeSpent"] = {
-						["Kneewhoya"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-								["Destruction Protocol"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 8.5,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.33,
-								},
-							},
-							["amount"] = 0.33,
-						},
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["Damage"] = 56113,
 				},
 			},
-			["LastAbility"] = 38236.623,
+			["level"] = 87,
+			["UnitLockout"] = 2296.082,
+			["LastAbility"] = 4098.059,
 		},
 		["Kptblood-EarthenRing"] = {
 			["GUID"] = "Player-1317-0818D881",
@@ -12148,1652 +11251,90 @@ RecountPerCharDB = {
 				0.44651969789753, -- [13]
 				4.75607266789141, -- [14]
 				4.72290263319045, -- [15]
-				[37] = 1.22475416593064,
+				[26] = 1.78607879159012,
 				[25] = 0.716983057766891,
 				[50] = 0.604526094722173,
-				[27] = 0.0433761992243315,
+				[37] = 1.22475416593064,
 				[28] = 1.78352725045928,
 				[29] = 0.0433761992243315,
 				[30] = 1.78607879159012,
 				[31] = 0.242396407430088,
 				[32] = 1.57608588981138,
 				[49] = 1.24634438359929,
-				[39] = 0.592749612357456,
+				[43] = 1.55645841920352,
 				[41] = 1.51327798386622,
 				[40] = 2.04321969027851,
 				[42] = 1.73703114879585,
-				[43] = 1.55645841920352,
-				[26] = 1.78607879159012,
+				[39] = 0.592749612357456,
+				[27] = 0.0433761992243315,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastActive"] = 2180.082,
-			["UnitLockout"] = 2149.082,
+			["LastAbility"] = 4098.059,
+			["LastEventTimes"] = {
+				2138.466, -- [1]
+				2143.649, -- [2]
+				2146.532, -- [3]
+				2146.665, -- [4]
+				2146.715, -- [5]
+				2146.849, -- [6]
+				2147.349, -- [7]
+				2149.399, -- [8]
+				2149.665, -- [9]
+				2152.265, -- [10]
+				2152.649, -- [11]
+				2152.682, -- [12]
+				2155.666, -- [13]
+				2155.865, -- [14]
+				2155.865, -- [15]
+				2156.449, -- [16]
+				2156.449, -- [17]
+				2159.215, -- [18]
+				2159.382, -- [19]
+				2159.449, -- [20]
+				2159.449, -- [21]
+				2160.799, -- [22]
+				2160.799, -- [23]
+				2161.882, -- [24]
+				2171.282, -- [25]
+				2174.149, -- [26]
+				2174.299, -- [27]
+				2177.032, -- [28]
+				2177.299, -- [29]
+				2179.899, -- [30]
+				2180.282, -- [31]
+				2133.482, -- [32]
+				2134.532, -- [33]
+				2134.749, -- [34]
+				2134.749, -- [35]
+				2134.749, -- [36]
+				2134.832, -- [37]
+				2134.932, -- [38]
+				2134.982, -- [39]
+				2135.265, -- [40]
+				2135.349, -- [41]
+				2135.349, -- [42]
+				2135.499, -- [43]
+				2136.132, -- [44]
+				2136.165, -- [45]
+				2136.165, -- [46]
+				2136.165, -- [47]
+				2136.332, -- [48]
+				2136.482, -- [49]
+				2136.549, -- [50]
+			},
 			["Owner"] = false,
-			["Fights"] = {
-				["Fight5"] = {
-					["PartialResist"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-					},
-					["HealingTaken"] = 8043,
-					["PartialAbsorb"] = {
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 15602,
-					},
-					["WhoDamaged"] = {
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15602,
-								},
-							},
-							["amount"] = 15602,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DamageTaken"] = 15602,
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Flash Heal"] = {
-									["count"] = 7160,
-								},
-								["Echo of Light"] = {
-									["count"] = 883,
-								},
-							},
-							["amount"] = 8043,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Celestial Familiar"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 38276,
-					["RageGainedFrom"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 20,
-								},
-								["Charge"] = {
-									["count"] = 20,
-								},
-								["Revenge"] = {
-									["count"] = 60,
-								},
-								["Enrage"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 110,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 20,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Reflect"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 6,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 23116,
-						["Arcane"] = 15160,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 678,
-					},
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 544,
-						["Physical"] = 4102,
-					},
-					["TimeHeal"] = 0.38,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 454,
-									["min"] = 224,
-									["count"] = 2,
-									["amount"] = 678,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 678,
-						},
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 110,
-					["ElementDone"] = {
-						["Melee"] = 2580,
-						["Physical"] = 16778,
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 959,
-								},
-							},
-							["amount"] = 959,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1017,
-								},
-								["Revenge"] = {
-									["count"] = 7669,
-								},
-							},
-							["amount"] = 8686,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 793,
-								},
-								["Shield Slam"] = {
-									["count"] = 468,
-								},
-							},
-							["amount"] = 1261,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 1123,
-								},
-								["Melee"] = {
-									["count"] = 770,
-								},
-								["Devastate"] = {
-									["count"] = 1128,
-								},
-								["Revenge"] = {
-									["count"] = 4285,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1146,
-								},
-							},
-							["amount"] = 8452,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7909,
-								},
-								["Astral Rain"] = {
-									["count"] = 4384,
-								},
-							},
-							["amount"] = 12293,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Astral Rain"] = {
-									["count"] = 3257,
-								},
-							},
-							["amount"] = 3257,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6065,
-								},
-								["Arcane Barrage"] = {
-									["count"] = 3804,
-								},
-							},
-							["amount"] = 9869,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Arcane Barrage"] = {
-									["count"] = 3715,
-								},
-							},
-							["amount"] = 3715,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9142,
-								},
-							},
-							["amount"] = 9142,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Charge"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Revenge"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Enrage"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 282,
-						["Physical"] = 308,
-					},
-					["TimeHealing"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.38,
-								},
-							},
-							["amount"] = 0.38,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2775,
-								},
-								["Echo of Light"] = {
-									["count"] = 542,
-								},
-								["Flash Heal"] = {
-									["count"] = 4117,
-								},
-							},
-							["amount"] = 7434,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 308,
-						},
-					},
-					["PartialResist"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 9,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 23,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 22.62,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 0.25,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0.18,
-								},
-								["Charge"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 0.99,
-								},
-							},
-							["amount"] = 8.17,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 3.85,
-								},
-								["Devastate"] = {
-									["count"] = 0.17,
-								},
-								["Revenge"] = {
-									["count"] = 1.35,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.07,
-								},
-							},
-							["amount"] = 8.94,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.88,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.88,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.38,
-								},
-							},
-							["amount"] = 0.38,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 308,
-									["min"] = 308,
-									["count"] = 1,
-									["amount"] = 308,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 308,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 308,
-						},
-					},
-					["Healing"] = 308,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 468,
-									["min"] = 468,
-									["count"] = 1,
-									["amount"] = 468,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 468,
-						},
-						["Charge"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Revenge"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 718,
-									["min"] = 718,
-									["count"] = 1,
-									["amount"] = 718,
-								},
-								["Absorb"] = {
-									["max"] = 4102,
-									["min"] = 4102,
-									["count"] = 1,
-									["amount"] = 4102,
-								},
-								["Crit"] = {
-									["max"] = 3567,
-									["min"] = 3567,
-									["count"] = 1,
-									["amount"] = 3567,
-								},
-								["Hit"] = {
-									["max"] = 1783,
-									["min"] = 446,
-									["count"] = 5,
-									["amount"] = 4526,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 12913,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 332,
-									["min"] = 325,
-									["count"] = 2,
-									["amount"] = 657,
-								},
-								["Absorb"] = {
-									["max"] = 544,
-									["min"] = 544,
-									["count"] = 1,
-									["amount"] = 544,
-								},
-								["Hit"] = {
-									["max"] = 473,
-									["min"] = 438,
-									["count"] = 3,
-									["amount"] = 1379,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 2580,
-						},
-						["Devastate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1128,
-									["min"] = 1128,
-									["count"] = 1,
-									["amount"] = 1128,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1128,
-						},
-						["Thunder Clap"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 562,
-									["min"] = 561,
-									["count"] = 2,
-									["amount"] = 1123,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1123,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 573,
-									["min"] = 573,
-									["count"] = 2,
-									["amount"] = 1146,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1146,
-						},
-					},
-					["HealingTaken"] = 7742,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["TimeDamage"] = 22.24,
-					["TimeDamaging"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 0.25,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.88,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.88,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0.18,
-								},
-								["Charge"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 0.99,
-								},
-							},
-							["amount"] = 8.17,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 3.85,
-								},
-								["Devastate"] = {
-									["count"] = 0.17,
-								},
-								["Revenge"] = {
-									["count"] = 1.35,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.07,
-								},
-							},
-							["amount"] = 8.94,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 19358,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 282,
-						["Physical"] = 308,
-					},
-					["TimeHealing"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.38,
-								},
-							},
-							["amount"] = 0.38,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 454,
-									["min"] = 224,
-									["count"] = 2,
-									["amount"] = 678,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 678,
-						},
-					},
-					["WhoHealed"] = {
-						["Whiltierna-EarthenRing"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2775,
-								},
-								["Flash Heal"] = {
-									["count"] = 11277,
-								},
-								["Echo of Light"] = {
-									["count"] = 1425,
-								},
-							},
-							["amount"] = 15477,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 308,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 20,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Reflect"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["DamageTaken"] = 53878,
-					["RageGainedFrom"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 20,
-								},
-								["Charge"] = {
-									["count"] = 20,
-								},
-								["Revenge"] = {
-									["count"] = 60,
-								},
-								["Enrage"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 110,
-						},
-					},
-					["PartialResist"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 9,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 23,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 5,
-						},
-					},
-					["TimeSpent"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 0.25,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0.18,
-								},
-								["Charge"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 0.99,
-								},
-							},
-							["amount"] = 8.17,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 3.85,
-								},
-								["Devastate"] = {
-									["count"] = 0.17,
-								},
-								["Revenge"] = {
-									["count"] = 1.35,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.07,
-								},
-							},
-							["amount"] = 8.94,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.88,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.88,
-						},
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 0.38,
-								},
-							},
-							["amount"] = 0.38,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Destruction Protocol"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 0,
-						},
-						["Arcane Barrage"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 22.62,
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 544,
-						["Physical"] = 4102,
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 15602,
-						["Melee"] = 23116,
-						["Arcane"] = 15160,
-					},
-					["RageGained"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Charge"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Revenge"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Enrage"] = {
-							["Details"] = {
-								["Kptblood-EarthenRing"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["Damage"] = 19358,
-					["WhoDamaged"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7909,
-								},
-								["Astral Rain"] = {
-									["count"] = 4384,
-								},
-							},
-							["amount"] = 12293,
-						},
-						["Anraphet"] = {
-							["Details"] = {
-								["Destruction Protocol"] = {
-									["count"] = 15602,
-								},
-							},
-							["amount"] = 15602,
-						},
-						["Celestial Call"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6065,
-								},
-								["Arcane Barrage"] = {
-									["count"] = 3804,
-								},
-							},
-							["amount"] = 9869,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Arcane Barrage"] = {
-									["count"] = 3715,
-								},
-							},
-							["amount"] = 3715,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9142,
-								},
-							},
-							["amount"] = 9142,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Astral Rain"] = {
-									["count"] = 3257,
-								},
-							},
-							["amount"] = 3257,
-						},
-					},
-					["Heals"] = {
-						["Leech"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 308,
-									["min"] = 308,
-									["count"] = 1,
-									["amount"] = 308,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 308,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 678,
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["RageGain"] = 110,
-					["Healing"] = 308,
-					["Attacks"] = {
-						["Shield Slam"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 468,
-									["min"] = 468,
-									["count"] = 1,
-									["amount"] = 468,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 468,
-						},
-						["Charge"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Revenge"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 718,
-									["min"] = 718,
-									["count"] = 1,
-									["amount"] = 718,
-								},
-								["Absorb"] = {
-									["max"] = 4102,
-									["min"] = 4102,
-									["count"] = 1,
-									["amount"] = 4102,
-								},
-								["Crit"] = {
-									["max"] = 3567,
-									["min"] = 3567,
-									["count"] = 1,
-									["amount"] = 3567,
-								},
-								["Hit"] = {
-									["max"] = 1783,
-									["min"] = 446,
-									["count"] = 5,
-									["amount"] = 4526,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 12913,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 332,
-									["min"] = 325,
-									["count"] = 2,
-									["amount"] = 657,
-								},
-								["Absorb"] = {
-									["max"] = 544,
-									["min"] = 544,
-									["count"] = 1,
-									["amount"] = 544,
-								},
-								["Hit"] = {
-									["max"] = 473,
-									["min"] = 438,
-									["count"] = 3,
-									["amount"] = 1379,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 2580,
-						},
-						["Devastate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1128,
-									["min"] = 1128,
-									["count"] = 1,
-									["amount"] = 1128,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1128,
-						},
-						["Thunder Clap"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 562,
-									["min"] = 561,
-									["count"] = 2,
-									["amount"] = 1123,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1123,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 573,
-									["min"] = 573,
-									["count"] = 2,
-									["amount"] = 1146,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1146,
-						},
-					},
-					["TimeHeal"] = 0.38,
-					["ElementDone"] = {
-						["Melee"] = 2580,
-						["Physical"] = 16778,
-					},
-					["HealingTaken"] = 15785,
-					["DamagedWho"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 959,
-								},
-							},
-							["amount"] = 959,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1017,
-								},
-								["Revenge"] = {
-									["count"] = 7669,
-								},
-							},
-							["amount"] = 8686,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 793,
-								},
-								["Shield Slam"] = {
-									["count"] = 468,
-								},
-							},
-							["amount"] = 1261,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 1123,
-								},
-								["Melee"] = {
-									["count"] = 770,
-								},
-								["Devastate"] = {
-									["count"] = 1128,
-								},
-								["Revenge"] = {
-									["count"] = 4285,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 1146,
-								},
-							},
-							["amount"] = 8452,
-						},
-					},
-					["TimeDamage"] = 22.24,
-					["TimeDamaging"] = {
-						["Astral Rain"] = {
-							["Details"] = {
-								["Revenge"] = {
-									["count"] = 0.25,
-								},
-							},
-							["amount"] = 0.25,
-						},
-						["Veil of Sky"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.88,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.88,
-						},
-						["Isiset"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 0.18,
-								},
-								["Charge"] = {
-									["count"] = 7,
-								},
-								["Melee"] = {
-									["count"] = 0.99,
-								},
-							},
-							["amount"] = 8.17,
-						},
-						["Celestial Familiar"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 3.85,
-								},
-								["Devastate"] = {
-									["count"] = 0.17,
-								},
-								["Revenge"] = {
-									["count"] = 1.35,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.07,
-								},
-							},
-							["amount"] = 8.94,
-						},
-					},
-					["DOT_Time"] = 6,
-					["HealedWho"] = {
-						["Kptblood-EarthenRing"] = {
-							["Details"] = {
-								["Leech"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 308,
-						},
-					},
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Celestial Familiar"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-				},
+			["TimeLast"] = {
+				["TimeHeal"] = 2136.082,
+				["OVERALL"] = 2161.082,
+				["DamageTaken"] = 2155.082,
+				["RageGain"] = 2160.082,
+				["ActiveTime"] = 2161.082,
+				["TimeDamage"] = 2161.082,
+				["Healing"] = 2136.082,
+				["HealingTaken"] = 2155.082,
+				["DOT_Time"] = 2159.082,
+				["Damage"] = 2161.082,
 			},
 			["NextEventNum"] = 32,
 			["LastEventHealthNum"] = {
@@ -13901,7 +11442,6 @@ RecountPerCharDB = {
 				"Kptblood-EarthenRing Leech Kptblood-EarthenRing Hit +308", -- [50]
 			},
 			["Name"] = "Kptblood-EarthenRing",
-			["LastDamageTaken"] = 1851,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -13954,85 +11494,857 @@ RecountPerCharDB = {
 				true, -- [49]
 				true, -- [50]
 			},
-			["TimeLast"] = {
-				["TimeHeal"] = 2136.082,
-				["OVERALL"] = 2161.082,
-				["DamageTaken"] = 2155.082,
-				["RageGain"] = 2160.082,
-				["TimeDamage"] = 2161.082,
-				["ActiveTime"] = 2161.082,
-				["Healing"] = 2136.082,
-				["HealingTaken"] = 2155.082,
-				["DOT_Time"] = 2159.082,
-				["Damage"] = 2161.082,
-			},
-			["LastEventTimes"] = {
-				2138.466, -- [1]
-				2143.649, -- [2]
-				2146.532, -- [3]
-				2146.665, -- [4]
-				2146.715, -- [5]
-				2146.849, -- [6]
-				2147.349, -- [7]
-				2149.399, -- [8]
-				2149.665, -- [9]
-				2152.265, -- [10]
-				2152.649, -- [11]
-				2152.682, -- [12]
-				2155.666, -- [13]
-				2155.865, -- [14]
-				2155.865, -- [15]
-				2156.449, -- [16]
-				2156.449, -- [17]
-				2159.215, -- [18]
-				2159.382, -- [19]
-				2159.449, -- [20]
-				2159.449, -- [21]
-				2160.799, -- [22]
-				2160.799, -- [23]
-				2161.882, -- [24]
-				2171.282, -- [25]
-				2174.149, -- [26]
-				2174.299, -- [27]
-				2177.032, -- [28]
-				2177.299, -- [29]
-				2179.899, -- [30]
-				2180.282, -- [31]
-				2133.482, -- [32]
-				2134.532, -- [33]
-				2134.749, -- [34]
-				2134.749, -- [35]
-				2134.749, -- [36]
-				2134.832, -- [37]
-				2134.932, -- [38]
-				2134.982, -- [39]
-				2135.265, -- [40]
-				2135.349, -- [41]
-				2135.349, -- [42]
-				2135.499, -- [43]
-				2136.132, -- [44]
-				2136.165, -- [45]
-				2136.165, -- [46]
-				2136.165, -- [47]
-				2136.332, -- [48]
-				2136.482, -- [49]
-				2136.549, -- [50]
-			},
-			["LastAbility"] = 38236.623,
-		},
-		["Setesh"] = {
-			["GUID"] = "Creature-0-3771-644-11563-39732-00005D23E9",
-			["type"] = "Trivial",
-			["FightsSaved"] = 2,
-			["LastAttackedBy"] = "Kneewhoya",
-			["Owner"] = false,
-			["enClass"] = "MOB",
-			["LastDamageTaken"] = 7101,
-			["LastAbility"] = 38236.623,
-			["UnitLockout"] = 2255.082,
-			["Name"] = "Setesh",
-			["LastFightIn"] = 14,
+			["LastDamageTaken"] = 1851,
 			["Fights"] = {
+				["Fight5"] = {
+					["PartialResist"] = {
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["HealingTaken"] = 8043,
+					["PartialAbsorb"] = {
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Echo of Light"] = {
+									["count"] = 883,
+								},
+								["Flash Heal"] = {
+									["count"] = 7160,
+								},
+							},
+							["amount"] = 8043,
+						},
+					},
+					["WhoDamaged"] = {
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15602,
+								},
+							},
+							["amount"] = 15602,
+						},
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 15602,
+					},
+					["DamageTaken"] = 15602,
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Celestial Familiar"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 38276,
+					["RageGainedFrom"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 20,
+								},
+								["Charge"] = {
+									["count"] = 20,
+								},
+								["Revenge"] = {
+									["count"] = 60,
+								},
+								["Enrage"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 110,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Reflect"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 19358,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 23116,
+						["Arcane"] = 15160,
+					},
+					["DOT_Time"] = 6,
+					["ElementTakenBlock"] = {
+						["Melee"] = 678,
+					},
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 544,
+						["Physical"] = 4102,
+					},
+					["TimeHeal"] = 0.38,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 454,
+									["min"] = 224,
+									["count"] = 2,
+									["amount"] = 678,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 678,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 7742,
+					["ElementDone"] = {
+						["Melee"] = 2580,
+						["Physical"] = 16778,
+					},
+					["DamagedWho"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 959,
+								},
+							},
+							["amount"] = 959,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1017,
+								},
+								["Revenge"] = {
+									["count"] = 7669,
+								},
+							},
+							["amount"] = 8686,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 793,
+								},
+								["Shield Slam"] = {
+									["count"] = 468,
+								},
+							},
+							["amount"] = 1261,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 1123,
+								},
+								["Melee"] = {
+									["count"] = 770,
+								},
+								["Devastate"] = {
+									["count"] = 1128,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1146,
+								},
+								["Revenge"] = {
+									["count"] = 4285,
+								},
+							},
+							["amount"] = 8452,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7909,
+								},
+								["Astral Rain"] = {
+									["count"] = 4384,
+								},
+							},
+							["amount"] = 12293,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Astral Rain"] = {
+									["count"] = 3257,
+								},
+							},
+							["amount"] = 3257,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6065,
+								},
+								["Arcane Barrage"] = {
+									["count"] = 3804,
+								},
+							},
+							["amount"] = 9869,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Arcane Barrage"] = {
+									["count"] = 3715,
+								},
+							},
+							["amount"] = 3715,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9142,
+								},
+							},
+							["amount"] = 9142,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 282,
+						["Physical"] = 308,
+					},
+					["TimeHealing"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 0.38,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2775,
+								},
+								["Flash Heal"] = {
+									["count"] = 4117,
+								},
+								["Echo of Light"] = {
+									["count"] = 542,
+								},
+							},
+							["amount"] = 7434,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["HealedWho"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 9,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 23,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0.18,
+								},
+								["Charge"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.99,
+								},
+							},
+							["amount"] = 8.17,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.85,
+								},
+								["Devastate"] = {
+									["count"] = 0.17,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.07,
+								},
+								["Revenge"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 8.94,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.88,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 0.38,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 308,
+									["min"] = 308,
+									["count"] = 1,
+									["amount"] = 308,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 308,
+						},
+					},
+					["ActiveTime"] = 22.62,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 308,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Charge"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Revenge"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Enrage"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Attacks"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 468,
+									["min"] = 468,
+									["count"] = 1,
+									["amount"] = 468,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 468,
+						},
+						["Charge"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Revenge"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 718,
+									["min"] = 718,
+									["count"] = 1,
+									["amount"] = 718,
+								},
+								["Absorb"] = {
+									["max"] = 4102,
+									["min"] = 4102,
+									["count"] = 1,
+									["amount"] = 4102,
+								},
+								["Crit"] = {
+									["max"] = 3567,
+									["min"] = 3567,
+									["count"] = 1,
+									["amount"] = 3567,
+								},
+								["Hit"] = {
+									["max"] = 1783,
+									["min"] = 446,
+									["count"] = 5,
+									["amount"] = 4526,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 12913,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 573,
+									["min"] = 573,
+									["count"] = 2,
+									["amount"] = 1146,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1146,
+						},
+						["Devastate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1128,
+									["min"] = 1128,
+									["count"] = 1,
+									["amount"] = 1128,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1128,
+						},
+						["Thunder Clap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 562,
+									["min"] = 561,
+									["count"] = 2,
+									["amount"] = 1123,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1123,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 332,
+									["min"] = 325,
+									["count"] = 2,
+									["amount"] = 657,
+								},
+								["Absorb"] = {
+									["max"] = 544,
+									["min"] = 544,
+									["count"] = 1,
+									["amount"] = 544,
+								},
+								["Hit"] = {
+									["max"] = 473,
+									["min"] = 438,
+									["count"] = 3,
+									["amount"] = 1379,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 2580,
+						},
+					},
+					["RageGain"] = 110,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 22.24,
+					["TimeDamaging"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.88,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0.18,
+								},
+								["Charge"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.99,
+								},
+							},
+							["amount"] = 8.17,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.85,
+								},
+								["Devastate"] = {
+									["count"] = 0.17,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.07,
+								},
+								["Revenge"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 8.94,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -14046,12 +12358,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -14062,24 +12373,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -14087,55 +12398,744 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 282,
+						["Physical"] = 308,
+					},
+					["TimeHealing"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 0.38,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 454,
+									["min"] = 224,
+									["count"] = 2,
+									["amount"] = 678,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 678,
+						},
+					},
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Celestial Familiar"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Reflect"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["WhoHealed"] = {
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2775,
+								},
+								["Echo of Light"] = {
+									["count"] = 1425,
+								},
+								["Flash Heal"] = {
+									["count"] = 11277,
+								},
+							},
+							["amount"] = 15477,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 20,
+								},
+								["Charge"] = {
+									["count"] = 20,
+								},
+								["Revenge"] = {
+									["count"] = 60,
+								},
+								["Enrage"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 110,
+						},
+					},
+					["PartialResist"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 9,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 23,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["HealedWho"] = {
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 23,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 0,
+						},
+						["Arcane Barrage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 22.62,
+					["DOT_Time"] = 6,
+					["ElementTaken"] = {
+						["Shadow"] = 15602,
+						["Melee"] = 23116,
+						["Arcane"] = 15160,
+					},
+					["RageGained"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Charge"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Revenge"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Enrage"] = {
+							["Details"] = {
+								["Kptblood-EarthenRing"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Damage"] = 19358,
+					["TimeDamaging"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.88,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0.18,
+								},
+								["Charge"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.99,
+								},
+							},
+							["amount"] = 8.17,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.85,
+								},
+								["Devastate"] = {
+									["count"] = 0.17,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.07,
+								},
+								["Revenge"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 8.94,
+						},
+					},
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 308,
+									["min"] = 308,
+									["count"] = 1,
+									["amount"] = 308,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 308,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 678,
+					},
+					["DamagedWho"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 959,
+								},
+							},
+							["amount"] = 959,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1017,
+								},
+								["Revenge"] = {
+									["count"] = 7669,
+								},
+							},
+							["amount"] = 8686,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 793,
+								},
+								["Shield Slam"] = {
+									["count"] = 468,
+								},
+							},
+							["amount"] = 1261,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 1123,
+								},
+								["Melee"] = {
+									["count"] = 770,
+								},
+								["Devastate"] = {
+									["count"] = 1128,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 1146,
+								},
+								["Revenge"] = {
+									["count"] = 4285,
+								},
+							},
+							["amount"] = 8452,
+						},
+					},
+					["HealingTaken"] = 15785,
+					["Healing"] = 308,
+					["ElementDone"] = {
+						["Melee"] = 2580,
+						["Physical"] = 16778,
+					},
+					["TimeHeal"] = 0.38,
+					["Attacks"] = {
+						["Shield Slam"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 468,
+									["min"] = 468,
+									["count"] = 1,
+									["amount"] = 468,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 468,
+						},
+						["Charge"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Revenge"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 718,
+									["min"] = 718,
+									["count"] = 1,
+									["amount"] = 718,
+								},
+								["Absorb"] = {
+									["max"] = 4102,
+									["min"] = 4102,
+									["count"] = 1,
+									["amount"] = 4102,
+								},
+								["Crit"] = {
+									["max"] = 3567,
+									["min"] = 3567,
+									["count"] = 1,
+									["amount"] = 3567,
+								},
+								["Hit"] = {
+									["max"] = 1783,
+									["min"] = 446,
+									["count"] = 5,
+									["amount"] = 4526,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 12913,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 573,
+									["min"] = 573,
+									["count"] = 2,
+									["amount"] = 1146,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1146,
+						},
+						["Devastate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1128,
+									["min"] = 1128,
+									["count"] = 1,
+									["amount"] = 1128,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1128,
+						},
+						["Thunder Clap"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 562,
+									["min"] = 561,
+									["count"] = 2,
+									["amount"] = 1123,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1123,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 332,
+									["min"] = 325,
+									["count"] = 2,
+									["amount"] = 657,
+								},
+								["Absorb"] = {
+									["max"] = 544,
+									["min"] = 544,
+									["count"] = 1,
+									["amount"] = 544,
+								},
+								["Hit"] = {
+									["max"] = 473,
+									["min"] = 438,
+									["count"] = 3,
+									["amount"] = 1379,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 2580,
+						},
+					},
+					["RageGain"] = 110,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["TimeDamage"] = 22.24,
+					["WhoDamaged"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7909,
+								},
+								["Astral Rain"] = {
+									["count"] = 4384,
+								},
+							},
+							["amount"] = 12293,
+						},
+						["Anraphet"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15602,
+								},
+							},
+							["amount"] = 15602,
+						},
+						["Celestial Call"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6065,
+								},
+								["Arcane Barrage"] = {
+									["count"] = 3804,
+								},
+							},
+							["amount"] = 9869,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Arcane Barrage"] = {
+									["count"] = 3715,
+								},
+							},
+							["amount"] = 3715,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9142,
+								},
+							},
+							["amount"] = 9142,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Astral Rain"] = {
+									["count"] = 3257,
+								},
+							},
+							["amount"] = 3257,
+						},
+					},
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 544,
+						["Physical"] = 4102,
+					},
+					["TimeSpent"] = {
+						["Astral Rain"] = {
+							["Details"] = {
+								["Revenge"] = {
+									["count"] = 0.25,
+								},
+							},
+							["amount"] = 0.25,
+						},
+						["Isiset"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 0.18,
+								},
+								["Charge"] = {
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 0.99,
+								},
+							},
+							["amount"] = 8.17,
+						},
+						["Celestial Familiar"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 3.85,
+								},
+								["Devastate"] = {
+									["count"] = 0.17,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.07,
+								},
+								["Revenge"] = {
+									["count"] = 1.35,
+								},
+							},
+							["amount"] = 8.94,
+						},
+						["Veil of Sky"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.88,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 0.38,
+						},
+					},
+					["DamageTaken"] = 53878,
+				},
+			},
+			["UnitLockout"] = 2149.082,
+			["LastActive"] = 2180.082,
+		},
+		["Setesh"] = {
+			["GUID"] = "Creature-0-3771-644-11563-39732-00005D23E9",
+			["type"] = "Trivial",
+			["FightsSaved"] = 2,
+			["LastAttackedBy"] = "Kneewhoya",
+			["Owner"] = false,
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 7101,
+			["LastActive"] = 2257.082,
+			["LastDamageAbility"] = "Ignite (DoT)",
+			["Name"] = "Setesh",
+			["LastFightIn"] = 14,
+			["Fights"] = {
 				["Fight2"] = {
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
@@ -14154,6 +13154,109 @@ RecountPerCharDB = {
 						},
 					},
 				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -14167,12 +13270,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -14183,24 +13285,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -14208,52 +13310,53 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -14277,50 +13380,474 @@ RecountPerCharDB = {
 				},
 			},
 			["level"] = 87,
-			["LastDamageAbility"] = "Ignite (DoT)",
-			["LastActive"] = 2257.082,
+			["UnitLockout"] = 2255.082,
+			["LastAbility"] = 4098.059,
 		},
-		["Ammunae"] = {
-			["GUID"] = "Vehicle-0-3771-644-11563-39731-00005D23E9",
-			["type"] = "Trivial",
-			["FightsSaved"] = 1,
-			["LastAttackedBy"] = "Kneewhoya",
-			["Owner"] = false,
+		["Anraphet"] = {
+			["GUID"] = "Creature-0-3771-644-11563-39788-00005D23E9",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"239625 (100%)", -- [4]
+				"58124 (24%)", -- [5]
+				"3674 (1%)", -- [6]
+				"3674 (1%)", -- [7]
+				"1 (0%)", -- [8]
+				"0 (0%)", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"MISC", -- [9]
+				"MISC", -- [10]
+				"MISC", -- [11]
+				"MISC", -- [12]
+				"MISC", -- [13]
+				"MISC", -- [14]
+				"MISC", -- [15]
+				"MISC", -- [16]
+				"MISC", -- [17]
+				"MISC", -- [18]
+				"MISC", -- [19]
+				"MISC", -- [20]
+				"MISC", -- [21]
+				"MISC", -- [22]
+				"MISC", -- [23]
+				"MISC", -- [24]
+				"MISC", -- [25]
+				"MISC", -- [26]
+				"MISC", -- [27]
+				"MISC", -- [28]
+				"MISC", -- [29]
+				"MISC", -- [30]
+				"MISC", -- [31]
+				"MISC", -- [32]
+				"MISC", -- [33]
+				"MISC", -- [34]
+				"MISC", -- [35]
+				"MISC", -- [36]
+				"MISC", -- [37]
+				"MISC", -- [38]
+				"MISC", -- [39]
+				"MISC", -- [40]
+				"MISC", -- [41]
+				"MISC", -- [42]
+				"MISC", -- [43]
+				"MISC", -- [44]
+				"MISC", -- [45]
+				"MISC", -- [46]
+				"MISC", -- [47]
+				"MISC", -- [48]
+				"MISC", -- [49]
+				"MISC", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					8.85, -- [1]
+				},
+				["TimeDamage"] = {
+					8.85, -- [1]
+				},
+				["DamageTaken"] = {
+					244413, -- [1]
+				},
+				["Damage"] = {
+					56113, -- [1]
+				},
+			},
 			["enClass"] = "MOB",
-			["LastDamageTaken"] = 177223,
-			["LastAbility"] = 38236.623,
-			["UnitLockout"] = 2296.082,
-			["Name"] = "Ammunae",
-			["LastFightIn"] = 15,
+			["unit"] = "playertarget",
+			["LastAbility"] = 4098.059,
+			["level"] = -1,
+			["LastDamageAbility"] = "Ignite (DoT)",
+			["LastFightIn"] = 11,
+			["LastEventNum"] = {
+				[5] = 75.7437663015128,
+				[6] = 22.7230046948357,
+				[8] = 3.53135106937924,
+			},
+			["type"] = "Boss",
+			["FightsSaved"] = 5,
 			["Fights"] = {
-				["OverallData"] = {
-					["WhoDamaged"] = {
+				["Fight5"] = {
+					["ElementDone"] = {
+						["Shadow"] = 31305,
+					},
+					["TimeSpent"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
+								["Melee"] = {
+									["count"] = 5,
 								},
-								["Inferno Blast"] = {
-									["count"] = 177223,
+								["Destruction Protocol"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 222279,
+							["amount"] = 5,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
 						},
 					},
-				},
-				["LastFightData"] = {
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15703,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 31305,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31305,
+						},
+					},
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
+								["Ignite (DoT)"] = {
+									["count"] = 8462,
 								},
 								["Inferno Blast"] = {
-									["count"] = 177223,
+									["count"] = 235951,
 								},
 							},
-							["amount"] = 222279,
+							["amount"] = 244413,
 						},
+					},
+					["TimeDamage"] = 5.35,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 244413,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["PartialResist"] = {
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 1,
+					["DamagedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15602,
+								},
+							},
+							["amount"] = 15602,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15703,
+								},
+							},
+							["amount"] = 15703,
+						},
+					},
+					["ActiveTime"] = 5.35,
+					["TimeDamaging"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Destruction Protocol"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 244413,
+					},
+					["PartialAbsorb"] = {
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 31305,
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
 					},
 				},
 				["CurrentFightData"] = {
@@ -14336,12 +13863,11 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
@@ -14352,24 +13878,24 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["FDamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RageGain"] = 0,
+					["HealingTaken"] = 0,
 					["ElementDone"] = {
-					},
-					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["OverHeals"] = {
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RageGained"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -14377,74 +13903,548 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
-					["Healing"] = 0,
-					["CCBroken"] = {
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
 					},
-					["RunicPowerGained"] = {
+					["PartialAbsorb"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
-				["Fight1"] = {
+				["OverallData"] = {
+					["ElementDone"] = {
+						["Shadow"] = 56113,
+					},
+					["TimeSpent"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Destruction Protocol"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 8.5,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Destruction Protocol"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24808,
+									["min"] = 15602,
+									["count"] = 3,
+									["amount"] = 56113,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 56113,
+						},
+					},
 					["WhoDamaged"] = {
 						["Kneewhoya"] = {
 							["Details"] = {
-								["Living Bomb (DoT)"] = {
-									["count"] = 45056,
+								["Ignite (DoT)"] = {
+									["count"] = 8462,
 								},
 								["Inferno Blast"] = {
-									["count"] = 177223,
+									["count"] = 235951,
 								},
 							},
-							["amount"] = 222279,
+							["amount"] = 244413,
 						},
 					},
+					["TimeDamage"] = 8.85,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Multistrike (Crit)"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 244413,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["PartialResist"] = {
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 1,
+					["DamagedWho"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 24808,
+								},
+							},
+							["amount"] = 24808,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15602,
+								},
+							},
+							["amount"] = 15602,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 15703,
+								},
+							},
+							["amount"] = 15703,
+						},
+					},
+					["ActiveTime"] = 8.85,
+					["TimeDamaging"] = {
+						["Kneewhoya"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+								["Destruction Protocol"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 8.5,
+						},
+						["Kptblood-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.33,
+								},
+							},
+							["amount"] = 0.33,
+						},
+						["Whiltierna-EarthenRing"] = {
+							["Details"] = {
+								["Destruction Protocol"] = {
+									["count"] = 0.02,
+								},
+							},
+							["amount"] = 0.02,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 244413,
+					},
+					["PartialAbsorb"] = {
+						["Ignite (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Inferno Blast"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 56113,
 				},
 			},
-			["level"] = 87,
-			["LastDamageAbility"] = "Inferno Blast",
-			["LastActive"] = 2297.082,
+			["TimeLast"] = {
+				["DeathCount"] = 2045.082,
+				["ActiveTime"] = 2044.082,
+				["TimeDamage"] = 2044.082,
+				["OVERALL"] = 2045.082,
+				["DamageTaken"] = 2045.082,
+				["Damage"] = 2037.082,
+			},
+			["Owner"] = false,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						false, -- [4]
+						true, -- [5]
+						true, -- [6]
+						false, -- [7]
+						true, -- [8]
+						true, -- [9]
+					},
+					["Messages"] = {
+						"Anraphet Destruction Protocol Kneewhoya Hit -24808 (Shadow)", -- [1]
+						"Anraphet Destruction Protocol Kptblood-EarthenRing Hit -15602 (Shadow)", -- [2]
+						"Anraphet Destruction Protocol Whiltierna-EarthenRing Hit -15703 (Shadow)", -- [3]
+						"Anraphet Melee Kneewhoya Miss (1)", -- [4]
+						"Kneewhoya Inferno Blast Anraphet Crit -181501 (Fire)", -- [5]
+						"Kneewhoya Inferno Blast Anraphet Multistrike (Crit) -54450 (Fire)", -- [6]
+						"Anraphet Melee Kneewhoya Dodge (1)", -- [7]
+						"Kneewhoya Ignite (DoT) Anraphet Tick -8462 (Fire)", -- [8]
+						"Anraphet dies.", -- [9]
+					},
+					["DeathAt"] = 2047.082,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						100, -- [4]
+						24.2562336984872, -- [5]
+						1.53322900365154, -- [6]
+						1.53322900365154, -- [7]
+						0.000417318727177882, -- [8]
+						0, -- [9]
+					},
+					["MessageTimes"] = {
+						-8.54999999999996, -- [1]
+						-8.21699999999987, -- [2]
+						-8.20000000000005, -- [3]
+						-2.34999999999991, -- [4]
+						-1.34999999999991, -- [5]
+						-1.01700000000005, -- [6]
+						-0.849999999999909, -- [7]
+						-0.317000000000007, -- [8]
+						0, -- [9]
+					},
+					["KilledBy"] = "Kneewhoya",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"239625 (100%)", -- [4]
+						"58124 (24%)", -- [5]
+						"3674 (1%)", -- [6]
+						"3674 (1%)", -- [7]
+						"1 (0%)", -- [8]
+						"0 (0%)", -- [9]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						75.7437663015128, -- [5]
+						22.7230046948357, -- [6]
+						0, -- [7]
+						3.53135106937924, -- [8]
+						0, -- [9]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"MISC", -- [9]
+					},
+				}, -- [1]
+			},
+			["NextEventNum"] = 10,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				100, -- [4]
+				24.2562336984872, -- [5]
+				1.53322900365154, -- [6]
+				1.53322900365154, -- [7]
+				0.000417318727177882, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Anraphet Destruction Protocol Kneewhoya Hit -24808 (Shadow)", -- [1]
+				"Anraphet Destruction Protocol Kptblood-EarthenRing Hit -15602 (Shadow)", -- [2]
+				"Anraphet Destruction Protocol Whiltierna-EarthenRing Hit -15703 (Shadow)", -- [3]
+				"Anraphet Melee Kneewhoya Miss (1)", -- [4]
+				"Kneewhoya Inferno Blast Anraphet Crit -181501 (Fire)", -- [5]
+				"Kneewhoya Inferno Blast Anraphet Multistrike (Crit) -54450 (Fire)", -- [6]
+				"Anraphet Melee Kneewhoya Dodge (1)", -- [7]
+				"Kneewhoya Ignite (DoT) Anraphet Tick -8462 (Fire)", -- [8]
+				"Anraphet dies.", -- [9]
+			},
+			["Name"] = "Anraphet",
+			["LastDamageTaken"] = 8462,
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				2037.066, -- [1]
+				2037.399, -- [2]
+				2037.416, -- [3]
+				2043.266, -- [4]
+				2044.266, -- [5]
+				2044.599, -- [6]
+				2044.766, -- [7]
+				2045.299, -- [8]
+				2045.616, -- [9]
+				2036.716, -- [10]
+				2036.716, -- [11]
+				2036.716, -- [12]
+				2036.716, -- [13]
+				2036.716, -- [14]
+				2036.716, -- [15]
+				2036.716, -- [16]
+				2036.716, -- [17]
+				2036.716, -- [18]
+				2036.716, -- [19]
+				2036.716, -- [20]
+				2036.716, -- [21]
+				2036.716, -- [22]
+				2036.716, -- [23]
+				2036.716, -- [24]
+				2036.716, -- [25]
+				2036.716, -- [26]
+				2036.716, -- [27]
+				2036.716, -- [28]
+				2036.716, -- [29]
+				2036.716, -- [30]
+				2036.716, -- [31]
+				2036.716, -- [32]
+				2036.716, -- [33]
+				2036.716, -- [34]
+				2036.716, -- [35]
+				2036.716, -- [36]
+				2036.716, -- [37]
+				2036.716, -- [38]
+				2036.716, -- [39]
+				2036.716, -- [40]
+				2036.716, -- [41]
+				2036.716, -- [42]
+				2036.716, -- [43]
+				2036.716, -- [44]
+				2036.716, -- [45]
+				2036.716, -- [46]
+				2036.716, -- [47]
+				2036.716, -- [48]
+				2036.716, -- [49]
+				2036.716, -- [50]
+			},
+			["UnitLockout"] = 2043.082,
+			["LastActive"] = 2045.082,
 		},
 	},
 	["FightNum"] = 16,

@@ -46,7 +46,7 @@ function RCVotingFrame:OnInitialize()
 	}
 	-- The actual table being worked on, new entries should be added to this table "tinsert(RCVotingFrame.scrollCols, data)"
 	-- If you want to add or remove columns, you should do so on your OnInitialize. See RCVotingFrame:RemoveColumn() for removal.
-	self.scrollCols = defaultScrollTableData
+	self.scrollCols = {unpack(defaultScrollTableData)}
 
 	menuFrame = CreateFrame("Frame", "RCLootCouncil_VotingFrame_RightclickMenu", UIParent, "Lib_UIDropDownMenuTemplate")
 	filterMenu = CreateFrame("Frame", "RCLootCouncil_VotingFrame_FilterMenu", UIParent, "Lib_UIDropDownMenuTemplate")
@@ -199,6 +199,23 @@ function RCVotingFrame:OnCommReceived(prefix, serializedMsg, distri, sender)
 				else
 					addon:Debug("Non-ML", sender, "sent rolls!")
 				end
+
+			elseif command == "reconnectData" and addon:UnitIsUnit(sender, addon.masterLooter) then
+				-- We assume we always receive a regular lootTable command first
+				-- All we need to do is updating the loot table and figure out if we've voted previously
+				lootTable = unpack(data)
+				for _, data in ipairs(lootTable) do
+					for _, cand in pairs(data.candidates) do
+						for _, voter in ipairs(cand.voters) do
+							if addon:UnitIsUnit(voter, "player") then -- WE've voted
+								data.haveVoted = true
+								cand.haveVoted = true
+							end
+						end
+					end
+				end
+				self:Update()
+				self:UpdatePeopleToVote()
 			end
 		end
 	end
@@ -221,6 +238,10 @@ function RCVotingFrame:GetCandidateData(session, candidate, data)
 	local ok, arg = pcall(Get, session, candidate, data)
 	if not ok then addon:Debug("Error in 'GetCandidateData':", arg, session, candidate, data)
 	else return arg end
+end
+
+function RCVotingFrame:GetLootTable()
+	return lootTable
 end
 
 function RCVotingFrame:Setup(table)
@@ -289,6 +310,7 @@ end
 --	Visuals														--
 ------------------------------------------------------------------
 function RCVotingFrame:Update()
+	if not self.frame then return end -- No updates when it doesn't exist
 	self.frame.st:SortData()
 	-- update awardString
 	if lootTable[session] and lootTable[session].awarded then
@@ -898,7 +920,7 @@ function ResponseSort(table, rowa, rowb, sortbycol)
 	if a == b then
 		if column.sortnext then
 			local nextcol = table.cols[column.sortnext];
-			if not(nextcol.sort) then
+			if nextcol and not(nextcol.sort) then
 				if nextcol.comparesort then
 					return nextcol.comparesort(table, rowa, rowb, column.sortnext);
 				else
@@ -926,7 +948,7 @@ function GuildRankSort(table, rowa, rowb, sortbycol)
 	if a == b then
 		if column.sortnext then
 			local nextcol = table.cols[column.sortnext];
-			if not(nextcol.sort) then
+			if nextcol and not(nextcol.sort) then
 				if nextcol.comparesort then
 					return nextcol.comparesort(table, rowa, rowb, column.sortnext);
 				else

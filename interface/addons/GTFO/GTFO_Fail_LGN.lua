@@ -340,6 +340,11 @@ GTFO.SpellID["230329"] = {
   sound = 3;
 };
 
+GTFO.SpellID["204042"] = {
+  --desc = "Obliterate (Mo'arg Crusher)";
+  applicationOnly = true;
+  sound = 3;
+};
 
 -- **********
 -- * Mardum *
@@ -472,10 +477,6 @@ GTFO.SpellID["201041"] = {
   --desc = "Madness (Inquisitor)";
   sound = 3;
 };
-
-
-
-
 
 
 -- ********************
@@ -1015,6 +1016,12 @@ GTFO.SpellID["198781"] = {
   sound = 3;
 };
 
+GTFO.SpellID["200914"] = {
+  --desc = "Indigestion (Wyrmtongue Scavenger)";
+  sound = 3;
+  tankSound = 0;
+}
+
 
 -- *************************
 -- * The Emerald Nightmare *
@@ -1191,8 +1198,6 @@ GTFO.SpellID["203110"] = {
 -- TODO: World-Devouring Force (Star Augur Etaeus)
 -- TODO: Delphuric Beam (Grand Magistrix Elisande)
 -- TODO: Epocheric Orb (Grand Magistrix Elisande) -- when debuffed with Epocheric Vulnerability
--- TODO: Storm of the Destroyer (Gul'dan) -- x4
-
 
 GTFO.SpellID["204483"] = {
   --desc = "Focused Blast (Skorpyron)";
@@ -1241,6 +1246,12 @@ GTFO.SpellID["224510"] = {
   sound = 3;
   tankSound = 0;
   test = true;
+};
+
+GTFO.SpellID["213621"] = {
+  --desc = "Entombed in Ice (Spellblade Aluriel)";
+  applicationOnly = true;
+  sound = 3;
 };
 
 GTFO.SpellID["205391"] = {
@@ -1341,6 +1352,37 @@ GTFO.SpellID["231005"] = {
 GTFO.SpellID["212262"] = {
   --desc = "Hand of Gul'dan (Gul'dan)";
   sound = 3;
+};
+
+GTFO.SpellID["167819"] = {
+  --desc = "Storm of the Destroyer (Gul'dan)";
+  sound = 3;
+};
+
+GTFO.SpellID["167935"] = {
+  --desc = "Storm of the Destroyer (Gul'dan)";
+  sound = 3;
+};
+
+GTFO.SpellID["177380"] = {
+  --desc = "Storm of the Destroyer (Gul'dan)";
+  sound = 3;
+};
+
+GTFO.SpellID["152987"] = {
+  --desc = "Storm of the Destroyer (Gul'dan)";
+  sound = 3;
+};
+
+GTFO.SpellID["224440"] = {
+  --desc = "Crushing Stomp (Gilded Guardian)";
+  sound = 3;
+};
+
+GTFO.SpellID["231006"] = {
+  --desc = "Carve (Flightmaster Volnath)";
+  sound = 3;
+  tankSound = 0;
 };
 
 --- ******************
@@ -1555,4 +1597,51 @@ GTFO.SpellID["229161"] = {
 GTFO.SpellID["229151"] = {
   --desc = "Disintegrate (Viz'aduum the Watcher)";
   sound = 3;
+};
+
+-- **************************
+-- * Cathedral of the Night *
+-- **************************
+
+GTFO.SpellID["239558"] = {
+  --desc = "Shadow Swipe (Dreadwing)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["237599"] = {
+  --desc = "Devastating Swipe (Helblaze Felbringer)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["239201"] = {
+  --desc = "Fel Glare (Gazerax)";
+  sound = 3;
+};
+
+GTFO.SpellID["239217"] = {
+  --desc = "Blinding Glare (Gazerax)";
+  sound = 3;
+};
+
+GTFO.SpellID["237276"] = {
+  --desc = "Pulverizing Cudgel (Thrashbite the Scornful)";
+  sound = 3;
+};
+
+GTFO.SpellID["238469"] = {
+  --desc = "Scornful Charge (Thrashbite the Scornful)";
+  sound = 3;
+};
+
+GTFO.SpellID["236543"] = {
+  --desc = "Felsoul Cleave (Domatrax)";
+  sound = 3;
+};
+
+GTFO.SpellID["243152"] = {
+  --desc = "Demonic Upheaval (Mephistroth)";
+  sound = 3;
+  test = true;
 };

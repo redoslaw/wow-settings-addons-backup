@@ -1,10 +1,10 @@
 
-IsNotifying = nil
-IsBattlePetNotifying = nil
-IsPVPNotifying = nil
+IsNotifying = true
+IsBattlePetNotifying = true
+IsPVPNotifying = true
 IsgxRestarting = nil
-IsGroupNotifying = nil
-IsPremadeNotifying = nil
+IsGroupNotifying = true
+IsPremadeNotifying = true
 IsMissionCompleteNotifying = nil
-IsReadyCheckNotifying = nil
-IsAFKChecking = nil
+IsReadyCheckNotifying = true
+IsAFKChecking = true

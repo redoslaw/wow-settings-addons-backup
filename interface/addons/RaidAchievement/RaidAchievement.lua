@@ -6,7 +6,7 @@ if GetLocale()=="deDE" or GetLocale()=="ruRU" or GetLocale()=="zhTW" or GetLocal
 end
 
 
-	raversion=7.102
+	raversion=7.201
 	local raverstiptext="alpha"
 	if string.len(raversion)==6 then
 		raverstiptext="beta"
@@ -1238,7 +1238,7 @@ end
 
 
 --тут добавить рейды Legion
-if GetCurrentMapAreaID()==1094 or GetCurrentMapAreaID()==1088 then
+if GetCurrentMapAreaID()==1094 or GetCurrentMapAreaID()==1088 or GetCurrentMapAreaID()==1147 then
 if IsAddOnLoaded("RaidAchievement_WoDRaids")==false and waslegionrtryloadea==nil then
 waslegionrtryloadea=1
 local loaded, reason = LoadAddOn("RaidAchievement_LegionRaids")

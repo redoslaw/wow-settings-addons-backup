@@ -3,4 +3,5 @@
 if not L then return end
 
 L["Empowering"] = "强化"
-L["Use Grants (%d+) Artifact Power"] = "将(%d+)点神器"
+L["Use Grants (%d+)"] = "将(%d+)"
+L["(%d+) Artifact"] = "(%d+)点神"

@@ -1,13 +1,29 @@
 
 ActionBarProfilesDBv3 = {
 	["profileKeys"] = {
-		["Redbullek - Burning Legion"] = "DRUID",
-		["Redus - Burning Legion"] = "MAGE",
-		["Kot - Chamber of Aspects"] = "DRUID",
-		["Ðeathshot - Steamwheedle Cartel"] = "HUNTER",
 		["Ðeadshot - Burning Legion"] = "HUNTER",
+		["Rêd - Burning Legion"] = "WARLOCK",
+		["Rèd - Burning Legion"] = "PRIEST",
+		["Chúck - Burning Legion"] = "HUNTER",
+		["Ðeadshøt - Burning Legion"] = "HUNTER",
+		["Kot - Chamber of Aspects"] = "DRUID",
+		["Redoslaw - Burning Legion"] = "PALADIN",
+		["Redus - Burning Legion"] = "MAGE",
+		["Pandared - Burning Legion"] = "MONK",
+		["Kneewhoya - Burning Legion"] = "MAGE",
+		["Redbullek - Burning Legion"] = "DRUID",
+		["Ðeathshot - Steamwheedle Cartel"] = "HUNTER",
+		["Wòw - Burning Legion"] = "ROGUE",
 	},
 	["profiles"] = {
+		["HUNTER"] = {
+		},
+		["PALADIN"] = {
+		},
+		["WARLOCK"] = {
+		},
+		["ROGUE"] = {
+		},
 		["MAGE"] = {
 			["minimap"] = {
 				["minimapPos"] = 203.962464263538,
@@ -521,7 +537,6 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:macro:369214:/way Sholazar 54.65 56.18 Jajko~0a|h[TomTom (JAJKO)]|h|r", -- [83]
 					},
 					["class"] = "MAGE",
-					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 					["actions"] = {
 						"|cffff0000|Habp:macro:774322:#showtooltip Combustion~0a/stopcasting~0a/cast Combustion~0a/use 12~0a/use 13~0a/use 14~0a/use ~5bmodifier~3aalt~5d Potion of Prolonged Power~0a/cast ~5bmodifier~3ashift~5d Time Warp~0a:1|h[###MAGE: #Combo]|h|r", -- [1]
 						"|cff71d5ff|Hspell:2948:0|h[Scorch]|h|r", -- [2]
@@ -604,6 +619,7 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:equip|h[raider]|h|r", -- [79]
 						"|cff71d5ff|Hspell:80353:0|h[Time Warp]|h|r", -- [80]
 					},
+					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 				},
 				["AOE"] = {
 					["talents"] = {
@@ -1114,6 +1130,7 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:macro:369214:/way Sholazar 54.65 56.18 Jajko~0a|h[TomTom (JAJKO)]|h|r", -- [85]
 					},
 					["class"] = "MAGE",
+					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 					["actions"] = {
 						"|cffff0000|Habp:macro:774322:#showtooltip Combustion~0a#/stopcasting~0a/cast Combustion~0a/cast Mirror Image~0a/use 12~0a/use 13~0a/use 14~0a/use ~5bmodifier~3aalt~5d Potion of Prolonged Power~0a/cast ~5bmodifier~3ashift~5d Time Warp~0a:1|h[###MAGE: #Combo]|h|r", -- [1]
 						"|cff71d5ff|Hspell:2948:0|h[Scorch]|h|r", -- [2]
@@ -1196,7 +1213,6 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:equip|h[raider]|h|r", -- [79]
 						"|cff71d5ff|Hspell:80353:0|h[Time Warp]|h|r", -- [80]
 					},
-					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 				},
 				["SINGLE"] = {
 					["talents"] = {
@@ -1707,6 +1723,7 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:macro:369214:/way Sholazar 54.65 56.18 Jajko~0a|h[TomTom (JAJKO)]|h|r", -- [85]
 					},
 					["class"] = "MAGE",
+					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 					["actions"] = {
 						"|cffff0000|Habp:macro:774322:#showtooltip Combustion~0a#/stopcasting~0a/cast Combustion~0a/cast Mirror Image~0a/use 12~0a/use 13~0a/use 14~0a/use ~5bmodifier~3aalt~5d Potion of Prolonged Power~0a/cast ~5bmodifier~3ashift~5d Time Warp~0a:1|h[###MAGE: #Combo]|h|r", -- [1]
 						"|cff71d5ff|Hspell:2948:0|h[Scorch]|h|r", -- [2]
@@ -1789,13 +1806,14 @@ ActionBarProfilesDBv3 = {
 						"|cffff0000|Habp:equip|h[raider]|h|r", -- [79]
 						"|cff71d5ff|Hspell:80353:0|h[Time Warp]|h|r", -- [80]
 					},
-					["icon"] = "Interface\\Icons\\Spell_Fire_FireBolt02",
 				},
 			},
 		},
 		["DRUID"] = {
 		},
-		["HUNTER"] = {
+		["MONK"] = {
+		},
+		["PRIEST"] = {
 		},
 	},
 }

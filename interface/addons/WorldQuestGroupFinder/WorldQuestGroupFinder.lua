@@ -9,6 +9,7 @@ WorldQuestGroupFinderAddon:SetScript("OnEvent", function (self, event, ...) if (
 
 local name = "WorldQuestGroupCurrentWQFrame"
 local currentWQFrame = CreateFrame("frame",name,UIParent)
+currentWQFrame.KickButton = CreateFrame("button", currentWQFrame:GetName().."KickButton", currentWQFrame)
 currentWQFrame.RefreshButton = CreateFrame("button", currentWQFrame:GetName().."RefreshButton", currentWQFrame)
 currentWQFrame.StopButton = CreateFrame("button", currentWQFrame:GetName().."StopButton", currentWQFrame)
 			
@@ -250,6 +251,7 @@ local WorldBosses = {
 
 local pendingApplications = {}
 local blacklistedLeaders = {}
+local blacklistedRealmHoppers = {}
 local seenWorldQuests = {}
 
 local function chsize(char)
@@ -312,7 +314,7 @@ end
 function RegisteredEvents:LFG_LIST_APPLICANT_UPDATED(event, applicantID)
 	pendingInvites = C_LFGList.GetNumInvitedApplicantMembers()
 	local id, status, pendingStatus, numMembers, isNew, comment = C_LFGList.GetApplicantInfo(applicantID)
-	if (status == "inviteaccepted" and comment == "WorldQuestGroupFinder User") then
+	if (currentWQ and status == "inviteaccepted" and comment == "WorldQuestGroupFinderUser-"..currentWQ) then
 		if (numMembers > 1) then
 			WorldQuestGroupFinder.prefixedPrint(L["WQGF_USERS_JOINED"], true)
 		else
@@ -373,6 +375,7 @@ function RegisteredEvents:CHAT_MSG_ADDON(event, prefix, message, channel, sender
 			end
 		end
 	end
+	CheckDistances()
 end
 
 function RegisteredEvents:QUEST_TURNED_IN(event, questID, experience, money)
@@ -488,6 +491,59 @@ function RegisteredEvents:LFG_LIST_APPLICATION_STATUS_UPDATED(event, application
 	end
 end
 
+function GetUnitID(RosterIndex)
+	if IsInRaid() then
+		return "raid"..RosterIndex
+	end
+	if RosterIndex == 1 then
+		return "player"
+	end
+	return "party" .. (RosterIndex - 1)
+end
+
+function KickHoppers()
+	if (currentWQ ~= nil) then
+		if (UnitIsGroupLeader("player")) then
+			for i=1, GetNumGroupMembers() do 
+				local unitName, unitRank = GetRaidRosterInfo(i)
+				if (unitRank ~= 2 and blacklistedRealmHoppers[unitName] == true) then
+					WorldQuestGroupFinder.dprint(string.format("Kicking %s for being too far away...", unitName))
+					UninviteUnit(unitName)
+				end
+			end
+		end
+	end
+	currentWQFrame.KickButton:Hide()
+end
+
+function CheckDistances()
+	if (currentWQ ~= nil) then
+		if (UnitIsGroupLeader("player")) then
+			-- Auto-kick all realm hoppers (players that are more than 500 yards away)
+			for i=1, GetNumGroupMembers() do
+				local unitName, unitRank = GetRaidRosterInfo(i)
+				if unitName == GetUnitName(GetUnitID(i), true) then		-- make sure we don't kick the wrong players
+					if (unitRank ~= 2 and blacklistedRealmHoppers[unitName] == nil) then
+						distanceSquared, checkedDistance = UnitDistanceSquared(GetUnitID(i))
+						if checkedDistance then
+							if distanceSquared ^ 0.5 >= 500 then
+								WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_MEMBER_TOO_FAR_AWAY"], unitName, floor(distanceSquared ^ 0.5 + 0.5)))
+								blacklistedRealmHoppers[unitName] = true
+								currentWQFrame.KickButton:Show()
+							end
+						else
+							-- distance could not be determined, check again after 1 second
+							C_Timer.After(1, CheckDistances)
+						end
+					end
+				else
+					WorldQuestGroupFinder.dprint(string.format("WARNING! Unit name of %s mismatch: %s != %s", GetUnitID(i), unitName, GetUnitName(GetUnitID(i), true)))
+				end						
+			end
+		end
+	end
+end
+
 function RegisteredEvents:GROUP_ROSTER_UPDATE(event)
 	-- Remember that this event is often triggered multiple times
 	if (currentWQ ~= nil) then
@@ -498,6 +554,7 @@ function RegisteredEvents:GROUP_ROSTER_UPDATE(event)
 			pendingInvites = 0
 		end
 		if (UnitIsGroupLeader("player")) then
+			CheckDistances()
 			-- If doing a world quest, group is not full and applicants are waiting, we will try to invite them
 			if ((GetNumGroupMembers() < 5 or raidQuests[currentWQ]) and C_LFGList.GetNumApplicants() > 0) then
 				WorldQuestGroupFinder.HandleCustomAutoInvite()
@@ -566,28 +623,25 @@ function WorldQuestGroupFinder.SetHooks()
 	end)
 	
 	hooksecurefunc("QuestObjectiveSetupBlockButton_FindGroup", function(block, questID)
-		-- World Bosses support dropped in 0.21.3
-		if not WorldBosses[questID] then
-			if block.hasGroupFinderButton then
-				local groupFinderButton = block.groupFinderButton;
-				groupFinderButton:Hide()
+		if block.hasGroupFinderButton then
+			local groupFinderButton = block.groupFinderButton;
+			groupFinderButton:Hide()
+		end
+		local canFindGroup = false
+		if QuestUtils_IsQuestWorldQuest(questID) then
+			local _, _, _, worldQuestType, _, _, _, _, _, _ = WorldQuestGroupFinder.GetQuestInfo(questID)
+			canFindGroup = true
+			if (blacklistedQuests[questID] or worldQuestType == LE_QUEST_TAG_TYPE_PET_BATTLE or worldQuestType == LE_QUEST_TAG_TYPE_DUNGEON or worldQuestType == LE_QUEST_TAG_TYPE_PROFESSION) then
+				canFindGroup = false
 			end
-			local canFindGroup = false
-			if QuestUtils_IsQuestWorldQuest(questID) then
-				local _, _, _, worldQuestType, _, _, _, _, _, _ = WorldQuestGroupFinder.GetQuestInfo(questID)
-				canFindGroup = true
-				if (blacklistedQuests[questID] or worldQuestType == LE_QUEST_TAG_TYPE_PET_BATTLE or worldQuestType == LE_QUEST_TAG_TYPE_DUNGEON or worldQuestType == LE_QUEST_TAG_TYPE_PROFESSION) then
-					canFindGroup = false
-				end
-			else 
-				canFindGroup = (QuestUtils_CanUseAutoGroupFinder(questID, true) and WorldQuestGroupFinderConf.GetConfigValue("regularQuests")) or block.hasGroupFinderButton
-			end
-			if (canFindGroup and not block.WQGFButton) then
-				block.WQGFButton = WorldQuestGroupFinder.CreateWQGFButton(block, questID, block.itemButton)
-			end
-			if (block.itemButton and block.WQGFButton) then
-				block.WQGFButton:SetPoint("TOPRIGHT", block, 5, -26)
-			end
+		else 
+			canFindGroup = (QuestUtils_CanUseAutoGroupFinder(questID, true) and WorldQuestGroupFinderConf.GetConfigValue("regularQuests")) or block.hasGroupFinderButton
+		end
+		if (canFindGroup and not block.WQGFButton) then
+			block.WQGFButton = WorldQuestGroupFinder.CreateWQGFButton(block, questID, block.itemButton)
+		end
+		if (block.itemButton and block.WQGFButton) then
+			block.WQGFButton:SetPoint("TOPRIGHT", block, 5, -26)
 		end
 	end)
 	
@@ -704,7 +758,7 @@ function WorldQuestGroupFinder.IsAlreadyQueued(verbose)
 	return false
 end
 
-function WorldQuestGroupFinder.InitWQGroup(questID, retry) 
+function WorldQuestGroupFinder.InitWQGroup(questID, retry, forceCreate) 
 	WorldQuestGroupFinder.dprint(string.format("Looking for a group for a world quest. ID: %d", questID))
 	local title, tagID, tagName, worldQuestType, rarity, elite, tradeskillLineIndex, activityID, categoryID, filters
 	if (QuestUtils_IsQuestWorldQuest(questID)) then
@@ -724,6 +778,7 @@ function WorldQuestGroupFinder.InitWQGroup(questID, retry)
 	local foundZone = false
 	local foundGroup = false
 	local retry = retry or false
+	local forceCreate = forceCreate or false
 	if (IsInGroup() and not UnitIsGroupLeader("player")) then
 		WorldQuestGroupFinder.prefixedPrint(L["WQGF_PLAYER_IS_NOT_LEADER"])
 		return false
@@ -787,10 +842,12 @@ function WorldQuestGroupFinder.InitWQGroup(questID, retry)
 		if (raidQuests[questID]) then
 			WorldQuestGroupFinder.dprint("This WQ can be completed in a raid")
 		end
-		if (worldQuestType) then
-			WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_SEARCHING_FOR_GROUP"], title))
-		else
-			WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_SEARCHING_FOR_GROUP_QUEST"], title))
+		if (not forceCreate) then
+			if (worldQuestType) then
+				WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_SEARCHING_FOR_GROUP"], title))
+			else
+				WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_SEARCHING_FOR_GROUP_QUEST"], title))
+			end
 		end
 		-- Search for existing groups
 		C_LFGList.ClearSearchResults()
@@ -813,61 +870,63 @@ function WorldQuestGroupFinder.InitWQGroup(questID, retry)
 			if (IsInGroup()) then
 				currentPlayers = GetNumGroupMembers()
 			end
-			for k, v in pairs( searchResults ) do
-				local id,_,name,description,_,ilvl,_,_,_,_,_,_,author,members,autoinv = C_LFGList.GetSearchResultInfo(v)
-				-- Check group is correct
-				if (name == title and GetAverageItemLevel() > ilvl and (members + currentPlayers <= 5 or raidQuests[questID]) and author ~= UnitName("player") and not autoinv) then
-					if (blacklistedLeaders[author] == true or (retry and not author)) then
-						if (author) then
-							WorldQuestGroupFinder.dprint(string.format("Ignoring group because leader is blacklisted. ID: %d, Name: %s, Leader: %s", id, name, author))
-						end
-						blacklistedApplicationsCount = blacklistedApplicationsCount + 1
-					else 
-						local avoidPVPGroup = false
-						if (playerRealmType == "PVE" and WorldQuestGroupFinderConf.GetConfigValue("avoidPVP") and worldQuestType ~= LE_QUEST_TAG_TYPE_PVP) then
-							if (string.find(description, "#WQ:"..questID.."#PV")) then
-								-- Created by WQGF 0.13+, server type in description
-								if (string.find(description, "#WQ:"..questID.."#PVP#")) then
-									avoidPVPGroup = true
-								end
-							else
-								-- Created by an outdated version, lookup for leader's realm type 
-								local authorRealmType = nil
-								if (author) then
-									local _, authorRealm = strsplit("-", author)
-									_, _, _, authorRealmType = LibStub("LibRealmInfo"):GetRealmInfo(authorRealm)
-									if (authorRealmType == "PVP" or authorRealmType == "RPPVP") then
+			if (not forceCreate) then
+				for k, v in pairs( searchResults ) do
+					local id,_,name,description,_,ilvl,_,_,_,_,_,_,author,members,autoinv = C_LFGList.GetSearchResultInfo(v)
+					-- Check group is correct
+					if (name == title and GetAverageItemLevel() > ilvl and (members + currentPlayers <= 5 or raidQuests[questID]) and author ~= UnitName("player") and not autoinv) then
+						if (blacklistedLeaders[author] == true or (retry and not author)) then
+							if (author) then
+								WorldQuestGroupFinder.dprint(string.format("Ignoring group because leader is blacklisted. ID: %d, Name: %s, Leader: %s", id, name, author))
+							end
+							blacklistedApplicationsCount = blacklistedApplicationsCount + 1
+						else 
+							local avoidPVPGroup = false
+							if (playerRealmType == "PVE" and WorldQuestGroupFinderConf.GetConfigValue("avoidPVP") and worldQuestType ~= LE_QUEST_TAG_TYPE_PVP) then
+								if (string.find(description, "#WQ:"..questID.."#PV")) then
+									-- Created by WQGF 0.13+, server type in description
+									if (string.find(description, "#WQ:"..questID.."#PVP#")) then
 										avoidPVPGroup = true
 									end
-									WorldQuestGroupFinder.dprint(string.format("Current leader's realm type: %s", authorRealmType))
+								else
+									-- Created by an outdated version, lookup for leader's realm type 
+									local authorRealmType = nil
+									if (author) then
+										local _, authorRealm = strsplit("-", author)
+										_, _, _, authorRealmType = LibStub("LibRealmInfo"):GetRealmInfo(authorRealm)
+										if (authorRealmType == "PVP" or authorRealmType == "RPPVP") then
+											avoidPVPGroup = true
+										end
+										WorldQuestGroupFinder.dprint(string.format("Current leader's realm type: %s", authorRealmType))
+									end
 								end
 							end
-						end
-						if (avoidPVPGroup) then
-							WorldQuestGroupFinder.dprint("Not applying to a PVP realm.")
-						else 
-							foundGroup = true
-							currentlyApplying = true
-							local canBeTank = LFDQueueFrameRoleButtonTank.checkButton:GetChecked()
-							local canBeHealer = LFDQueueFrameRoleButtonHealer.checkButton:GetChecked()
-							local canBeDamager = LFDQueueFrameRoleButtonDPS.checkButton:GetChecked()
-							if ((canBeTank or canBeHealer or canBeDamager) == false) then
-								canBeTank, canBeHealer, canBeDamager = UnitGetAvailableRoles("player")
+							if (avoidPVPGroup) then
+								WorldQuestGroupFinder.dprint("Not applying to a PVP realm.")
+							else 
+								foundGroup = true
+								currentlyApplying = true
+								local canBeTank = LFDQueueFrameRoleButtonTank.checkButton:GetChecked()
+								local canBeHealer = LFDQueueFrameRoleButtonHealer.checkButton:GetChecked()
+								local canBeDamager = LFDQueueFrameRoleButtonDPS.checkButton:GetChecked()
+								if ((canBeTank or canBeHealer or canBeDamager) == false) then
+									canBeTank, canBeHealer, canBeDamager = UnitGetAvailableRoles("player")
+								end
+								if (author) then
+									WorldQuestGroupFinder.dprint(string.format("Applying to group. ID: %d, Name: %s, Leader: %s", id, name, author))
+								else
+									WorldQuestGroupFinder.dprint(string.format("Applying to group. ID: %d, Name: %s", id, name))
+								end
+								C_LFGList.ApplyToGroup(v, "WorldQuestGroupFinderUser-"..questID, canBeTank, canBeHealer, canBeDamager)
+								applicationsCount = applicationsCount + 1
 							end
-							if (author) then
-								WorldQuestGroupFinder.dprint(string.format("Applying to group. ID: %d, Name: %s, Leader: %s", id, name, author))
-							else
-								WorldQuestGroupFinder.dprint(string.format("Applying to group. ID: %d, Name: %s", id, name))
-							end
-							C_LFGList.ApplyToGroup(v, "WorldQuestGroupFinderUser-"..questID, canBeTank, canBeHealer, canBeDamager)
-							applicationsCount = applicationsCount + 1
 						end
 					end
 				end
+				C_LFGList.ClearSearchResults()
 			end
-			C_LFGList.ClearSearchResults()
 			-- No group found, creating a new one
-			if (foundGroup == false) then
+			if (foundGroup == false or forceCreate) then
 				if (blacklistedApplicationsCount > 0) then
 					WorldQuestGroupFinder.prefixedPrint(string.format(L["WQGF_NO_APPLY_BLACKLIST"], blacklistedApplicationsCount), true)
 				end
@@ -993,10 +1052,16 @@ function WorldQuestGroupFinder.HandleCustomAutoInvite()
 					for i=1, #applicants do
 						local id, status, pendingStatus, numMembers, isNew, comment = C_LFGList.GetApplicantInfo(applicants[i]);
 						if (status == "applied") then
-							if (comment == "WorldQuestGroupFinderUser-"..currentWQ) then
-								applicantsWQGF[id] = numMembers
-							else
-								applicantsNonWQGF[id] = numMembers
+							local applicantName, _, _, applicantLevel, _, _, _, _, _ = C_LFGList.GetApplicantMemberInfo(applicants[i], numMembers)
+							WorldQuestGroupFinder.dprint(applicantName .. " [" .. applicantLevel .. "] - blacklisted: " .. (blacklistedRealmHoppers[applicantLevel] or "false"))
+							if (applicantName and (QuestUtils_IsQuestWorldQuest(currentWQ) and applicantLevel == 110)) then
+								if (blacklistedRealmHoppers[applicantName] == nil) then
+									if (comment == "WorldQuestGroupFinderUser-"..currentWQ) then
+										applicantsWQGF[id] = numMembers
+									else
+										applicantsNonWQGF[id] = numMembers
+									end
+								end
 							end
 						end			
 					end
@@ -1100,7 +1165,7 @@ function WorldQuestGroupFinder.HandleRequestTimeout(wqID)
 	WorldQuestGroupFinder.InitWQGroup(wqID, true)
 end
 
-function WorldQuestGroupFinder.HandleBlockClick(wqID)
+function WorldQuestGroupFinder.HandleBlockClick(wqID, forceCreate)
 	if (tempWQ ~= wqID or (C_LFGList.GetNumApplications() == 0 and not C_LFGList.GetActiveEntryInfo())) then
 		if WorldBosses[wqID] then
 			WorldQuestGroupFinder.prefixedPrint(L["WQGF_DROPPED_WB_SUPPORT"])
@@ -1123,7 +1188,7 @@ function WorldQuestGroupFinder.HandleBlockClick(wqID)
 					-- Hide join WQ prompts
 					WorldQuestGroupFinder.HideDialog ("WORLD_QUEST_ENTERED_PROMPT")
 					WorldQuestGroupFinder.HideDialog ("WORLD_QUEST_ENTERED_SWITCH_PROMPT")
-					WorldQuestGroupFinder.InitWQGroup(wqID)
+					WorldQuestGroupFinder.InitWQGroup(wqID, false, forceCreate)
 				else
 					WorldQuestGroupFinder.prefixedPrint(L["WQGF_ALREADY_IS_GROUP_FOR_WQ"])
 				end
@@ -1171,6 +1236,21 @@ function WorldQuestGroupFinder.AttachBorderToWQ(wqID, update)
 		})		
 				
 		if (not update) then
+			currentWQFrame.KickButton:SetFlattensRenderLayers(true)
+			currentWQFrame.KickButton:SetPoint("TOPRIGHT", -46, -6)
+			currentWQFrame.KickButton:SetFrameLevel(10)
+			currentWQFrame.KickButton:RegisterForClicks("LeftButtonUp")
+			currentWQFrame.KickButton:SetScript("OnClick", WorldQuestGroupFinder.KickButton_OnClick)
+			currentWQFrame.KickButton:SetScript("OnEnter", KickButton_OnEnter)
+			currentWQFrame.KickButton:SetSize(20, 20);
+
+			currentWQFrame.KickButton.Icon = currentWQFrame.KickButton:CreateTexture(currentWQFrame.KickButton:GetName().."Texture", "OVERLAY")
+			currentWQFrame.KickButton.Icon:SetSize(12, 12)
+			currentWQFrame.KickButton.Icon:SetPoint("CENTER", 0, 0)
+			currentWQFrame.KickButton.Icon:SetTexture([[Interface\AddOns\WorldQuestGroupFinder\img\autokick.blp]])
+			
+			currentWQFrame.KickButton:Hide()
+
 			currentWQFrame.RefreshButton:SetFlattensRenderLayers(true)
 			currentWQFrame.RefreshButton:SetPoint("TOPRIGHT", -26, -6)
 			currentWQFrame.RefreshButton:SetFrameLevel(10)
@@ -1197,6 +1277,7 @@ function WorldQuestGroupFinder.AttachBorderToWQ(wqID, update)
 			currentWQFrame.StopButton.Icon:SetPoint("CENTER", 0, 0)
 			currentWQFrame.StopButton.Icon:SetTexture([[Interface\AddOns\WorldQuestGroupFinder\img\stop.blp]])
 
+			WorldQuestGroupFinder.AssignButtonTextures(currentWQFrame.KickButton)
 			WorldQuestGroupFinder.AssignButtonTextures(currentWQFrame.RefreshButton)
 			WorldQuestGroupFinder.AssignButtonTextures(currentWQFrame.StopButton)
 		end
@@ -1216,10 +1297,12 @@ function WorldQuestGroupFinder.CreateWQGFButton(block, questID)
 	groupFinderButton:SetFlattensRenderLayers(true)
 	groupFinderButton:SetPoint("TOPRIGHT", 5, 0)
 	groupFinderButton:SetFrameLevel(10)
-	groupFinderButton:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+	groupFinderButton:RegisterForClicks("LeftButtonUp", "MiddleButtonUp", "RightButtonUp")
 	groupFinderButton:SetScript("OnClick", function(self, button, down)
-		if (button == "RightButton") then
+		if (button == "RightButton" or WorldBosses[questID]) then
 			LFGListUtil_FindQuestGroup(self:GetParent().id)
+		elseif (button == "MiddleButton") then
+			WorldQuestGroupFinder.HandleBlockClick(self:GetParent().id, true)
 		else
 			WorldQuestGroupFinder.HandleBlockClick(self:GetParent().id)
 		end
@@ -1262,6 +1345,16 @@ function WorldQuestGroupFinder.AssignButtonTextures(button)
 	button:GetPushedTexture():SetTexCoord(0.375, 0.500, 0.375, 0.5)
 end
 	
+function KickButton_OnEnter(self)
+	GameTooltip:SetOwner(self);
+	GameTooltip:AddLine(L["WQGF_KICK_TOOLTIP"], HIGHLIGHT_FONT_COLOR:GetRGB());
+	if not self:IsEnabled() and C_LFGList.GetActiveEntryInfo() then
+		local r, g, b = RED_FONT_COLOR:GetRGB();
+		GameTooltip:AddLine(CANNOT_DO_THIS_WHILE_LFGLIST_LISTED, r, g, b, true);
+	end
+	GameTooltip:Show();
+end
+
 function RefreshButton_OnEnter(self)
 	GameTooltip:SetOwner(self);
 	GameTooltip:AddLine(L["WQGF_REFRESH_TOOLTIP"], HIGHLIGHT_FONT_COLOR:GetRGB());
@@ -1293,10 +1386,15 @@ function WQGFButton_OnEnter(self)
 	GameTooltip:Show();
 end
 
+function WorldQuestGroupFinder.KickButton_OnClick()
+	CheckDistances()
+	KickHoppers()
+end
+
 function WorldQuestGroupFinder.RefreshButton_OnClick()
 	if (IsInGroup() and not UnitIsGroupLeader("player")) then
 		for i=1, GetNumGroupMembers() do 
-			if (UnitIsGroupLeader("party"..i)) then
+			if (UnitIsGroupLeader(IsInRaid() and ("raid"..i) or ("party"..i))) then
 				local leaderName = GetRaidRosterInfo(i)
 				WorldQuestGroupFinder.dprint(string.format("Adding %s to blacklisted leaders...", leaderName))
 				blacklistedLeaders[leaderName] = true
@@ -1361,6 +1459,7 @@ function WorldQuestGroupFinder.handleCMD(msg, editbox)
 		WorldQuestGroupFinder.dumpTable(WorldQuestGroupFinderCharacterConfig)
 	elseif (string.lower(msg) == "unbl") then
 		blacklistedLeaders = {}
+		blacklistedRealmHoppers = {}
 		WorldQuestGroupFinder.prefixedPrint(L["WQGF_LEADERS_BL_CLEARED"])
 	elseif (string.lower(msg) == "toggle") then
 		local currentValue = WorldQuestGroupFinderConf.GetConfigValue("askZoning")
@@ -1371,6 +1470,9 @@ function WorldQuestGroupFinder.handleCMD(msg, editbox)
 			WorldQuestGroupFinderConf.SetConfigValue("askZoning", true)
 			WorldQuestGroupFinder.prefixedPrint(L["WQGF_ZONE_DETECTION_ENABLED"])
 		end
+	elseif (string.lower(msg) == "autokick") then
+		CheckDistances()
+		KickHoppers()
 	else
 		WorldQuestGroupFinder.help()
 	end

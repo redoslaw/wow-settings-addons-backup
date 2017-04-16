@@ -3,4 +3,5 @@
 if not L then return end
 
 L["Empowering"] = "Potenciador"
-L["Use Grants (%d+) Artifact Power"] = "Otorga (%d+) p de poder de artefacto"
+L["Use Grants (%d+)"] = "Otorga (%d+)"
+L["(%d+) Artifact"] = "(%d+)  p. de poder"

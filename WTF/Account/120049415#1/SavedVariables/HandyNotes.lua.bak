@@ -1,19 +1,93 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
 		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 	},
 	["profiles"] = {
+		["Ðeadshot - Burning Legion"] = {
+		},
+		["Rêd - Burning Legion"] = {
+		},
+		["Rèd - Burning Legion"] = {
+		},
+		["Chúck - Burning Legion"] = {
+		},
+		["Wòw - Burning Legion"] = {
+		},
+		["Kot - Chamber of Aspects"] = {
+		},
+		["Redoslaw - Burning Legion"] = {
+		},
+		["Redus - Burning Legion"] = {
+		},
+		["Pandared - Burning Legion"] = {
+		},
+		["Redbullek - Burning Legion"] = {
+			["icon_scale_minimap"] = 0.7,
+			["icon_alpha_minimap"] = 0.31,
+		},
+		["Kneewhoya - Burning Legion"] = {
+		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+		["Ðeadshøt - Burning Legion"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
+		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
 		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 	},
 	["profiles"] = {
+		["Ðeadshot - Burning Legion"] = {
+		},
+		["Rêd - Burning Legion"] = {
+		},
+		["Rèd - Burning Legion"] = {
+		},
+		["Chúck - Burning Legion"] = {
+		},
+		["Wòw - Burning Legion"] = {
+		},
+		["Kot - Chamber of Aspects"] = {
+		},
+		["Redoslaw - Burning Legion"] = {
+		},
+		["Redus - Burning Legion"] = {
+		},
+		["Pandared - Burning Legion"] = {
+		},
+		["Redbullek - Burning Legion"] = {
+		},
+		["Kneewhoya - Burning Legion"] = {
+		},
 		["Ðeathshot - Steamwheedle Cartel"] = {
+		},
+		["Ðeadshøt - Burning Legion"] = {
 		},
 	},
 }

@@ -1,4 +1,4 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: Raid Assist
 ## Notes: Former 'Iskar' Assist, our further mods and tools will be added here, for now there's 16 raiding tools, type /raa to see.
 ## SavedVariables: IskarAssistDB, RADataBase

@@ -48,6 +48,7 @@ end
 function GottaGoFast.AddBestRun(run)
   if (GottaGoFast.CurrentCM and next(GottaGoFast.CurrentCM) and run ~= "NF") then
     GottaGoFast.CurrentCM["BestRun"] = run;
+    GottaGoFast.PrintBestRun(GottaGoFast.CurrentCM["BestRun"]);
   end
 end
 
@@ -55,9 +56,6 @@ function GottaGoFast.StartCM(offset)
   if (GottaGoFast.CurrentCM and next(GottaGoFast.CurrentCM)) then
     GottaGoFast.CurrentCM["StartTime"] = GetTime() + offset;
     GottaGoFast.BuildCMTooltip();
-    if (GottaGoFast.CurrentCM["BestRun"] ~= nil and next(GottaGoFast.CurrentCM["BestRun"]) ~= nil and offset == 0) then
-      GottaGoFast.PrintBestRun(GottaGoFast.CurrentCM["BestRun"]);
-    end
   end
 end
 

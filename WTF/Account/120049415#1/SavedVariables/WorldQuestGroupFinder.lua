@@ -1,6 +1,8 @@
 
 WorldQuestGroupFinderConfig = {
-	["avoidPVP"] = true,
-	["autoAcceptInvites"] = true,
 	["hideLoginMessage"] = true,
+	["askZoningAuto"] = true,
+	["autoAcceptInvites"] = true,
+	["autoLeaveGroup"] = true,
+	["avoidPVP"] = true,
 }

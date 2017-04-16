@@ -44,4 +44,3 @@ L["option_pet_actions"] = "寵物或惡魔快捷列"
 L["option_talents"] = "天賦"
 L["tooltip_list"] = "可用的設定檔:"
 L["tooltip_list_empty"] = "無設定檔可用"
-

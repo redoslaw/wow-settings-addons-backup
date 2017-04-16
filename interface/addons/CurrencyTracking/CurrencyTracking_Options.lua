@@ -1,5 +1,5 @@
 --[[
-$Id: CurrencyTracking_Options.lua 50 2017-03-01 16:00:24Z arith $
+$Id: CurrencyTracking_Options.lua 60 2017-04-05 15:50:17Z arith $
 ]]
 local _G = getfenv(0)
 -- Libraries
@@ -12,6 +12,7 @@ local LibStub = _G.LibStub;
 local L = LibStub("AceLocale-3.0"):GetLocale("CurrencyTracking");
 
 local myaddon = {};
+local options;
 
 function CurrencyTrackingOptions_Toggle()
 	if(InterfaceOptionsFrame:IsVisible()) then
@@ -29,40 +30,60 @@ function CurrencyTrackingOptions_OnLoad(self)
 	
 	myaddon.panel.name = L["CT_TITLE"];
 	InterfaceOptions_AddCategory(myaddon.panel);
+	
+	--options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 end
 
 function CurrencyTrackingOptions_OnShow()
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+	options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 	
 	CurrencyTrackingOptionsFrame_ShowOnScreen:SetChecked(options.show_currency);
+	CurrencyTrackingOptionsFrame_Lock:SetChecked(options.always_lock);
+	CurrencyTrackingOptionsFrame_ShowMoney:SetChecked(options.show_money);
 	CurrencyTrackingOptionsFrame_BreakupNumbers:SetChecked(options.breakupnumbers);
+	CurrencyTrackingOptionsFrame_IconFirst:SetChecked(options.icon_first);
 	CurrencyTrackingOptionsFrameSliderFrameScale:SetValue(options.scale);
 	CurrencyTrackingOptionsFrameSliderFrameAlpha:SetValue(options.alpha);
 	CurrencyTrackingOptionsFrameSliderFrameBGAlpha:SetValue(options.bgalpha);
 	CurrencyTrackingOptionsFrameSliderToolTipAlpha:SetValue(options.tooltip_alpha);
 	CurrencyTrackingOptionsFrameSliderToolTipScale:SetValue(options.tooltip_scale);
-end
-
-function CurrencyTrackingOptions_ShowOnScreenToggle()
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
-	options.show_currency = not options.show_currency;
 	if(options.show_currency) then
-		CurrencyTrackingFrame:Show();
+		CurrencyTrackingOptionsFrame_ShowMoney:Enable();
 	else
-		CurrencyTrackingFrame:Hide();
+		CurrencyTrackingOptionsFrame_ShowMoney:Disable();
 	end
 end
 
-function CurrencyTrackingOptions_BreakupNumbersToggle()
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+function CurrencyTrackingOptions_ShowOnScreenToggle()
+	options.show_currency = not options.show_currency;
+	if(options.show_currency) then
+		CurrencyTrackingFrame:Show();
+		CurrencyTrackingOptionsFrame_ShowMoney:Enable();
+		CurrencyTrackingOptionsFrame_Lock:Enable();
+	else
+		CurrencyTrackingFrame:Hide();
+		CurrencyTrackingOptionsFrame_ShowMoney:Disable();
+		CurrencyTrackingOptionsFrame_Lock:Disable();
+	end
+end
 
+function CurrencyTrackingOptions_LockToggle()
+	options.always_lock = not options.always_lock;
+end
+
+function CurrencyTrackingOptions_ShowMoneyToggle()
+	options.show_money = not options.show_money;
+end
+
+function CurrencyTrackingOptions_BreakupNumbersToggle()
 	options.breakupnumbers = not options.breakupnumbers;
 end
 
-function CurrencyTrackingOptions_ResetPosition()
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
+function CurrencyTrackingOptions_IconFirstToggle()
+	options.icon_first = not options.icon_first;
+end
 
+function CurrencyTrackingOptions_ResetPosition()
 	CurrencyTrackingFrame:SetPoint("TOPLEFT", nil, "TOPLEFT", 150, -80);
 	options.offsetx = 150;
 	options.offsety = -80;
@@ -83,39 +104,29 @@ local function CurrencyTrackingOptions_UpdateSlider(self, text)
 end
 
 function CurrencyTrackingOptions_SliderFrameScaleOnValueChanged(self)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_SCALE);
 	options.scale = self:GetValue();
 	CurrencyTrackingFrame:SetScale(options.scale); 
 end
 
 function CurrencyTrackingOptions_SliderFrameAlphaOnValueChanged(self)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_TRANSPARENCY);
 	options.alpha = self:GetValue();
 	CurrencyTrackingFrame:SetAlpha(options.alpha); 
 end
 
 function CurrencyTrackingOptions_SliderFrameBGAlphaOnValueChanged(self)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_BGTRANSPARENCY);
 	options.bgalpha = self:GetValue();
 	CurrencyTrackingFrame.Texture:SetColorTexture(0, 0, 0, options.bgalpha); 
 end
 
 function CurrencyTrackingOptions_SliderToolTipAlphaOnValueChanged(self)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_TOOLTIPTRANSPARENCY);
 	options.tooltip_alpha = self:GetValue();
 end
 
 function CurrencyTrackingOptions_SliderToolTipScaleOnValueChanged(self)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
 	CurrencyTrackingOptions_UpdateSlider(self, CT_OPT_TOOLTIPSCALE);
 	options.tooltip_scale = self:GetValue();
 end
@@ -145,8 +156,7 @@ function CurrencyTrackingTokenOptions_OnLoad(self)
 end
 
 function CurrencyTrackingTokenOptions_OnShow()
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-	
+	options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
 	-- Create buttons if not created yet
 	if (not CurrencyTrackingTokenOptionsFrame.TokenContainer.buttons) then
 		HybridScrollFrame_CreateButtons(CurrencyTrackingTokenOptionsFrame.TokenContainer, "CurrencyTrackingTokenButtonTemplate", 1, -2, "TOPLEFT", "TOPLEFT", 0, 0);
@@ -222,7 +232,7 @@ function CurrencyTrackingTokenContainer_Update()
 				button.categoryRight:Hide();
 				button.categoryMiddle:Hide();
 				button.expandIcon:Hide();
-				button.count:SetText(count);
+				button.count:SetText(options.breakupnumbers and BreakUpLargeNumbers(count) or count);
 				button.icon:SetTexture(icon);
 				--if ( isWatched ) then
 				--	button.check:Show();
@@ -282,8 +292,6 @@ function CurrencyTrackingTokenButton_OnClick(self)
 end
 
 function CurrencyTrackingTokenButton_ToggleTrack(name)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-
 	if (options["currencies"][name] ~= nil) then
 		options["currencies"][name] = not options["currencies"][name];
 	else
@@ -292,8 +300,6 @@ function CurrencyTrackingTokenButton_ToggleTrack(name)
 end
 
 function CurrencyTracking_SetupTokenOptions(name)
-	local options = CurrencyTrackingDB[CurrencyTracking_Server][CurrencyTracking_Player]["options"];
-
 	if (options["currencies"][name] == nil) then
 		options["currencies"][name] = false;
 	end

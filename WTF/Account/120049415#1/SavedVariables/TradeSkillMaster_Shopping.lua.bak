@@ -1,49 +1,296 @@
 
 TradeSkillMaster_ShoppingDB = {
-	["g@ @savedSearches"] = {
-		{
-			["searchMode"] = "normal",
-			["lastSearch"] = 1478784094,
-			["name"] = "Fjarnskaggl/exact",
-			["filter"] = "Fjarnskaggl/exact",
-		}, -- [1]
-		{
-			["searchMode"] = "normal",
-			["lastSearch"] = 1478783619,
-			["name"] = "Dreamleaf/exact",
-			["filter"] = "Dreamleaf/exact",
-		}, -- [2]
-	},
+	["g@ @sniperCustomPrice"] = "0c",
 	["g@ @maxDeSearchPercent"] = 1,
-	["_hash"] = 1861581,
+	["g@ @postUndercut"] = "1c",
 	["g@ @postBidPercent"] = 0.95,
 	["_scopeKeys"] = {
 		["char"] = {
 			"Redus - Burning Legion", -- [1]
+			"Ðeadshot - Burning Legion", -- [2]
+			"Ðeathshot - Steamwheedle Cartel", -- [3]
+			"Kot - Chamber of Aspects", -- [4]
 		},
 		["realm"] = {
 			"Burning Legion", -- [1]
+			"Steamwheedle Cartel", -- [2]
+			"Chamber of Aspects", -- [3]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
 		["factionrealm"] = {
 			"Horde - Burning Legion", -- [1]
+			"Alliance - Steamwheedle Cartel", -- [2]
+			"Horde - Chamber of Aspects", -- [3]
 		},
 	},
 	["g@ @helpPlatesShown"] = {
 		["auction"] = true,
 	},
-	["g@ @postUndercut"] = "1c",
-	["g@ @minDeSearchLvl"] = 1,
 	["g@ @sniperVendorPrice"] = true,
 	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["g@ @savedSearches"] = {
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1488827153,
+			["name"] = "The Hungry Magister/exact",
+			["filter"] = "The Hungry Magister/exact",
+		}, -- [1]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1488805987,
+			["name"] = "Quick Dawnlight",
+			["filter"] = "Quick Dawnlight",
+		}, -- [2]
+		{
+			["lastSearch"] = 1488600827,
+			["name"] = "Dreamleaf/exact",
+			["filter"] = "Dreamleaf/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [3]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1487616597,
+			["name"] = "spellblade",
+			["filter"] = "spellblade",
+		}, -- [4]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1487616578,
+			["name"] = "spell blade",
+			["filter"] = "spell blade",
+		}, -- [5]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1487615680,
+			["name"] = "whispered",
+			["filter"] = "whispered",
+		}, -- [6]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1487275909,
+			["name"] = "Flask of the Whispered Pact",
+			["filter"] = "Flask of the Whispered Pact",
+		}, -- [7]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1487193765,
+			["name"] = "Highmountain Salmon/exact",
+			["filter"] = "Highmountain Salmon/exact",
+		}, -- [8]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1486665595,
+			["name"] = "Vantus Rune: Chronomatic Anomaly/exact",
+			["filter"] = "Vantus Rune: Chronomatic Anomaly/exact",
+		}, -- [9]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1486665486,
+			["name"] = "anomaly",
+			["filter"] = "anomaly",
+		}, -- [10]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1486581405,
+			["name"] = "Arkhana/exact",
+			["filter"] = "Arkhana/exact",
+		}, -- [11]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1486060323,
+			["name"] = "arkhana",
+			["filter"] = "arkhana",
+		}, -- [12]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1485381336,
+			["name"] = "tranquil",
+			["filter"] = "tranquil",
+		}, -- [13]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1485205727,
+			["name"] = "gul",
+			["filter"] = "gul",
+		}, -- [14]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484905410,
+			["name"] = "flask of the seventh demon",
+			["filter"] = "flask of the seventh demon",
+		}, -- [15]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484905366,
+			["name"] = " [Flask of the Whispered Pact]",
+			["filter"] = " [Flask of the Whispered Pact]",
+		}, -- [16]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484849967,
+			["name"] = "Dreamleaf",
+			["filter"] = "Dreamleaf",
+		}, -- [17]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484762593,
+			["name"] = "Tome of the Clear Mind/exact",
+			["filter"] = "Tome of the Clear Mind/exact",
+		}, -- [18]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484702228,
+			["name"] = "Deadly Eye of Prophecy",
+			["filter"] = "Deadly Eye of Prophecy",
+		}, -- [19]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484497611,
+			["name"] = "Certificate of Ownership",
+			["filter"] = "Certificate of Ownership",
+		}, -- [20]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484339550,
+			["name"] = "silkweave Bandage",
+			["filter"] = "silkweave Bandage",
+		}, -- [21]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484339530,
+			["name"] = "Highmountain Salmon",
+			["filter"] = "Highmountain Salmon",
+		}, -- [22]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484339490,
+			["name"] = "Big Gamy Ribs",
+			["filter"] = "Big Gamy Ribs",
+		}, -- [23]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484240032,
+			["name"] = " Deadly Eye of Prophecy",
+			["filter"] = " Deadly Eye of Prophecy",
+		}, -- [24]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1484090365,
+			["name"] = "guarm",
+			["filter"] = "guarm",
+		}, -- [25]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1483037423,
+			["name"] = "Vantus Rune: Odyn",
+			["filter"] = "Vantus Rune: Odyn",
+		}, -- [26]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1482448475,
+			["name"] = "Fighter Chow",
+			["filter"] = "Fighter Chow",
+		}, -- [27]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1481950869,
+			["name"] = "obliterum",
+			["filter"] = "obliterum",
+		}, -- [28]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1481950796,
+			["name"] = "obliter",
+			["filter"] = "obliter",
+		}, -- [29]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1481828511,
+			["name"] = "Yseralline Seed/exact",
+			["filter"] = "Yseralline Seed/exact",
+		}, -- [30]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1481741843,
+			["name"] = "Defiled Augment Rune/exact",
+			["filter"] = "Defiled Augment Rune/exact",
+		}, -- [31]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1480911542,
+			["name"] = "Mana Crystal",
+			["filter"] = "Mana Crystal",
+		}, -- [32]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1480871446,
+			["name"] = "Potion of Prolonged Power/exact",
+			["filter"] = "Potion of Prolonged Power/exact",
+		}, -- [33]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1480851197,
+			["name"] = "drums of the mountain",
+			["filter"] = "drums of the mountain",
+		}, -- [34]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1480850985,
+			["name"] = "drums",
+			["filter"] = "drums",
+		}, -- [35]
+		{
+			["lastSearch"] = 1480442536,
+			["name"] = "Starlight Rose/exact",
+			["filter"] = "Starlight Rose/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [36]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1480362743,
+			["name"] = "Tome of the Tranquil Mind/exact",
+			["filter"] = "Tome of the Tranquil Mind/exact",
+		}, -- [37]
+		{
+			["lastSearch"] = 1480263342,
+			["name"] = "Fjarnskaggl/exact",
+			["filter"] = "Fjarnskaggl/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [38]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1479662278,
+			["name"] = "drum",
+			["filter"] = "drum",
+		}, -- [39]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1479430892,
+			["name"] = "Flask of the Seventh Demon/exact",
+			["filter"] = "Flask of the Seventh Demon/exact",
+		}, -- [40]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1478794784,
+			["name"] = "/fl",
+			["filter"] = "/fl",
+		}, -- [41]
+	},
+	["_hash"] = 1861581,
 	["g@ @marketValueSource"] = "dbmarket",
 	["g@ @maxDeSearchLvl"] = 735,
-	["g@ @sniperCustomPrice"] = "0c",
+	["g@ @minDeSearchLvl"] = 1,
 	["g@ @normalPostPrice"] = "150% dbmarket",
 	["_version"] = 3,
 	["_currentProfile"] = {
+		["Ðeadshot - Burning Legion"] = "Default",
 		["Redus - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 	},
 }

@@ -534,6 +534,10 @@ L= DBM:GetModLocalization(1905)
 -----------------------
 L= DBM:GetModLocalization(1906)
 
+L:SetMiscLocalization({
+	bookCase	=	"躲到書架後方"
+})
+
 -----------------------
 -- Domatrax --
 -----------------------
@@ -550,5 +554,5 @@ L= DBM:GetModLocalization(1878)
 L = DBM:GetModLocalization("CoENTrash")
 
 L:SetGeneralLocalization({
-	name =	"Cathedral of Eternal Night Trash"--Maybe something shorter?
+	name =	"永夜聖殿小怪"
 })

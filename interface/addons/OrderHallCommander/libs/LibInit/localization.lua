@@ -6,6 +6,8 @@ L["Always counter increased resource cost"] = true
 L["Always counter increased time"] = true
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = true
 L["Always counter no bonus loot threat"] = true
+L["Artifact shown value is the base value without considering knowledge multiplier"] = true
+L["Attempts to use less champions for missions, in order to fill more missions"] = true
 L["Better parties available in next future"] = true
 L["Building Final report"] = true
 L["Capped %1$s. Spend at least %2$d of them"] = true
@@ -13,33 +15,43 @@ L["Changes the sort order of missions in Mission panel"] = true
 L["Combat ally is proposed for missions so you can consider unassigning him"] = true
 L["Complete all missions without confirmation"] = true
 L["Configuration for mission party builder"] = true
+L["Cost reduced"] = true
 L["Dont kill Troops"] = true
+L["Don't use troops"] = true
 L["Duration reduced"] = true
 L["Duration Time"] = true
 L["Expiration Time"] = true
 L["Favours leveling follower for xp missions"] = true
+L["Followers status "] = true
 L["General"] = true
 L["Global approx. xp reward"] = true
+L["Global approx. xp reward per hour"] = true
 L["HallComander Quick Mission Completion"] = true
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[If you %s, you will lose them
-Click on %s to abort]=]
+L["If not checked, inactive followers are used as last chance"] = true
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = true
+L["Ignore busy followers"] = true
+L["Ignore inactive followers"] = true
 L["Keep cost low"] = true
 L["Keep extra bonus"] = true
 L["Keep time short"] = true
 L["Keep time VERY short"] = true
 L["Level"] = true
 L["Make Order Hall Mission Panel movable"] = true
+L["Max champions"] = true
+L["Maximize filled missions"] = true
 L["Maximize xp gain"] = true
+L["Mission duration reduced"] = true
 L["Missions"] = true
 L["No follower gained xp"] = true
+L["Not enough troops, raise maximum champions' number"] = true
 L["Nothing to report"] = true
 L["Notifies you when you have troops ready to be collected"] = true
 L["Only accept missions with time improved"] = true
+L["Only use champions even if troops are available"] = true
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = true
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = true
 L["Original method"] = true
 L["Position is not saved on logout"] = true
 L["Resurrect troops effect"] = true
@@ -48,9 +60,14 @@ L["Show/hide OrderHallCommander mission menu"] = true
 L["Sort missions by:"] = true
 L["Success Chance"] = true
 L["Troop ready alert"] = true
+L["Unable to fill missions. Check your switches"] = true
 L["Upgrading to |cff00ff00%d|r"] = true
+L["URL Copy"] = true
+L["Use at most this many champions"] = true
 L["Use combat ally"] = true
+L["When no free followers are available shows empty follower"] = true
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = true
+L["You have no troops"] = true
 	L=l:NewLocale(me,"ptBR")
 	if (L) then
 L["Always counter increased resource cost"] = "Sempre contra o aumento do custo de recursos"
@@ -70,8 +87,6 @@ L["Favours leveling follower for xp missions"] = "Favors leveling follower para 
 L["General"] = "Geral"
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclus\195\163o R\195\161pida da Miss\195\163o HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Se voc\195\170% s, voc\195\170 os perder\195\161  nClique em% s para abortar"
 L["Keep cost low"] = "Mantenha o custo baixo"
 L["Keep time short"] = "Mantenha o tempo curto"
 L["Keep time VERY short"] = "Mantenha o tempo MUITO curto"
@@ -83,8 +98,6 @@ L["No follower gained xp"] = "Nenhum seguidor ganhou xp"
 L["Nothing to report"] = "Nada a declarar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica voc\195\170 quando voc\195\170 tem tropas prontas para serem coletadas"
 L["Only accept missions with time improved"] = "Aceitar apenas miss\195\181es com o tempo melhorado"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander substitui o GarrisonCommander para a Gest\195\163o de Hall de Ordem.  N Voc\195\170 pode reverter para GarrisonCommander simplesmente desativando o OrderhallCommander"
 L["Original method"] = "M\195\169todo original"
 L["Position is not saved on logout"] = "A posi\195\167\195\163o n\195\163o \195\169 salva no logout"
 L["Resurrect troops effect"] = "Resurrect efeito tropas"
@@ -115,8 +128,6 @@ L["Favours leveling follower for xp missions"] = "Favors level follower pour les
 L["General"] = "G\195\169n\195\169ral"
 L["Global approx. xp reward"] = "Global env. Xp r\195\169compense"
 L["HallComander Quick Mission Completion"] = "Ach\195\168vement rapide de mission HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si vous% s, vous les perdrez  nCliquez sur% s pour annuler"
 L["Keep cost low"] = "Garder le co\195\187t bas"
 L["Keep time short"] = "Garde le temps court"
 L["Keep time VERY short"] = "Gardez le temps tr\195\168s court"
@@ -128,8 +139,6 @@ L["No follower gained xp"] = "Aucun adepte n'a gagn\195\169 xp"
 L["Nothing to report"] = "Rien \195\160 signaler"
 L["Notifies you when you have troops ready to be collected"] = "Vous avertit lorsque vous avez des troupes pr\195\170tes \195\160 \195\170tre recueillies"
 L["Only accept missions with time improved"] = "N'acceptez que les missions avec le temps am\195\169lior\195\169es"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander annule GarrisonCommander pour la gestion des commandes Hall.  N Vous pouvez revenir \195\160 GarrisonCommander simpy d\195\169sactiver OrderhallCommander"
 L["Original method"] = "M\195\169thode originale"
 L["Position is not saved on logout"] = "La position n'est pas enregistr\195\169e lors de la d\195\169connexion"
 L["Resurrect troops effect"] = "Effet R\195\169surrection des troupes"
@@ -159,15 +168,15 @@ L["Duration reduced"] = "Dauer reduziert"
 L["Duration Time"] = "Dauer"
 L["Expiration Time"] = "Ablaufzeit"
 L["Favours leveling follower for xp missions"] = "Bevorzugt niedrigstufige Anh\195\164nger f\195\188r EP-Missionen"
+L["Followers status "] = "Anh\195\164ngerstatus"
 L["General"] = "Allgemein"
 L["Global approx. xp reward"] = "Ca. Insgesamte EP-Belohnung"
 L["HallComander Quick Mission Completion"] = "HallComander Schneller Missionsabschluss"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[Wenn du %s, wirst du sie verlieren.
-Klicke auf %s, um abzubrechen]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[Wenn du %s, wirst du sie verlieren.
 Klicke auf %s, um abzubrechen]=]
+L["Ignore busy followers"] = "Besch\195\164ftigte Anh\195\164nger ignorieren"
+L["Ignore inactive followers"] = "Unt\195\164tige Anh\195\164nger ignorieren"
 L["Keep cost low"] = "Kosten niedrig halten"
 L["Keep extra bonus"] = "Bonusbeute behalten"
 L["Keep time short"] = "Zeit kurz halten"
@@ -180,8 +189,6 @@ L["No follower gained xp"] = "Kein Anh\195\164nger erhielt EP"
 L["Nothing to report"] = "Nichts zu berichten"
 L["Notifies you when you have troops ready to be collected"] = "Benachrichtigt, wenn Truppen bereit sind, gesammelt zu werden"
 L["Only accept missions with time improved"] = "Nur Missionen mit verk\195\188rzter Dauer annehmen"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander \195\188berschreibt GarrisonCommander f\195\188r die Verwaltung der Ordenshalle. Sie k\195\182nnen GarrisonCommander wiederherstellen, indem Sie OrderhallCommander deaktivieren"
 L["Original method"] = "Urspr\195\188ngliche Methode"
 L["Position is not saved on logout"] = "Die Position wird beim Ausloggen nicht gespeichert"
 L["Resurrect troops effect"] = "Truppen wiederbeleben"
@@ -193,6 +200,7 @@ L["Troop ready alert"] = "Warnung Trupp bereit"
 L["Upgrading to |cff00ff00%d|r"] = "Aktualisieren auf | cff00ff00% d | r"
 L["Use combat ally"] = "Kampfgef\195\164hrten verwenden"
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "Sie verschwenden | cffff0000% d | cffffd200 Punkt (e) !!!"
+L["You have no troops"] = "Sie haben keine Trupps"
 	end
 	L=l:NewLocale(me,"itIT")
 	if (L) then
@@ -200,6 +208,8 @@ L["Always counter increased resource cost"] = "Contrasta sempre incremento risor
 L["Always counter increased time"] = "Contrasta sempre incremento durata"
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = "Contrasta sempre morte milizie (ignorato tutte le milizie hanno solo una vita rimanente)"
 L["Always counter no bonus loot threat"] = "Contrasta sempre il \"no bonus\""
+L["Artifact shown value is the base value without considering knowledge multiplier"] = "Il valore mostrato \195\168 quello base, senza considerare il moltiplicatore dalla conoscenza"
+L["Attempts to use less champions for missions, in order to fill more missions"] = "Cerca di usare meno campioni per poter completare un maggior numero di missioni"
 L["Better parties available in next future"] = "Ci sono combinazioni migliori nel futuro"
 L["Building Final report"] = "Sto preparando il rapporto finale"
 L["Capped %1$s. Spend at least %2$d of them"] = "%1$s ha un limite. Spendine almeno %2%d"
@@ -207,35 +217,61 @@ L["Changes the sort order of missions in Mission panel"] = "Cambia l'ordine dell
 L["Combat ally is proposed for missions so you can consider unassigning him"] = "Viene proposto l'alleato, per poter valutare se rimuoverlo dalla missione di scorta"
 L["Complete all missions without confirmation"] = "Completa tutte le missioni senza chiedere conferma"
 L["Configuration for mission party builder"] = "Configurazioni per il generatore di gruppi"
+L["Cost reduced"] = "Costo ridotto"
 L["Dont kill Troops"] = "Non uccidere le truppe"
+L["Don't use troops"] = "Non usare truppe"
 L["Duration reduced"] = "Durata"
 L["Duration Time"] = "Scadenza"
 L["Expiration Time"] = "Scadenza"
 L["Favours leveling follower for xp missions"] = "Preferisci i campioni che devono livellare"
+L["Followers status "] = "Stato del seguage"
 L["General"] = "Generale"
 L["Global approx. xp reward"] = "Approssimativi PE globali"
+L["Global approx. xp reward per hour"] = "Approssimativi PE globali per ora"
 L["HallComander Quick Mission Completion"] = "OrderHallCommander Completamento rapido"
+L["If not checked, inactive followers are used as last chance"] = "Se non attivo, visualizzer\195\160 seguaci inattivi pur di riempire la missione"
+L[ [=[If you %s, you will lose them
+Click on %s to abort]=] ] = "Se %s le perderai. Clicca su %s per interrompere"
+L["Ignore busy followers"] = "Ignora i seguaci occupati"
+L["Ignore inactive followers"] = "Ignora i seguaci inattivi"
 L["Keep cost low"] = "Mantieni il costo basso"
 L["Keep extra bonus"] = "Ottieni il bonus aggiuntivo"
 L["Keep time short"] = "Riduci la durata"
 L["Keep time VERY short"] = "Riduci MOLTO la durata"
 L["Level"] = "Livello"
 L["Make Order Hall Mission Panel movable"] = "Rendi spostabile il pannello missioni"
+L["Max champions"] = "Campioni massimi"
+L["Maximize filled missions"] = "Massimizza il numero di missioni"
 L["Maximize xp gain"] = "Massimizza il guadagno di PE"
+L["Mission duration reduced"] = "Durata missione ridotta"
 L["Missions"] = "Missioni"
 L["No follower gained xp"] = "Nessun campione ha guaagnato PE"
+L["Not enough troops, raise maximum champions' number"] = "Non hai abbastanza truppe, usa pi\195\185 campioni"
 L["Nothing to report"] = "Niente da segnalare"
 L["Notifies you when you have troops ready to be collected"] = "Notificami quando ho truppe pronte per essere raccolte"
 L["Only accept missions with time improved"] = "Accetta solo missioni con bonus durata ridotta"
+L["Only use champions even if troops are available"] = "Usa solo campioni anche se ci sono truppe disponibili"
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander sostituisce l'interfaccia di GarrisonComamnder per le missioni di classe
-Disabilitalo se preferisci GarrisonCommander]=]
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = [=[OrderHallCommander sostituisce l'interfaccia di GarrisonComamnder per le missioni di classe
+Disabilitalo se preferisci GarrisonCommander.
+Se invece ti piace, aggiungilo al client Curse e tienilo aggiornato]=]
+L["Original method"] = "Metodo originale"
 L["Position is not saved on logout"] = "La posizione non \195\168 salvata alla disconnessione"
 L["Resurrect troops effect"] = "Resurrezione truppe possibile"
 L["Reward type"] = "Tipo ricompensa"
 L["Show/hide OrderHallCommander mission menu"] = "Mostra/ascondi il menu di missione di OrderHallCommander"
+L["Sort missions by:"] = "Ordina le missioni per:"
+L["Success Chance"] = "Percentuale di successo"
 L["Troop ready alert"] = "Avviso truppe pronte"
+L["Unable to fill missions. Check your switches"] = "Impossibile riempire le missioni. Controlla le opzioni scelte"
+L["Upgrading to |cff00ff00%d|r"] = "Incremento a |cff00ff00%d|r"
+L["URL Copy"] = "Copia la URL"
+L["Use at most this many champions"] = "Usa al massimo questo numero di campioni"
 L["Use combat ally"] = "Usa l'alleato"
+L["When no free followers are available shows empty follower"] = "Quando non ci sono seguaci disponibili mostra le caselle vuote"
+L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "Stai sprecando |cffff0000%d|cffffd200 punti!!"
+L["You have no troops"] = "Non hai truppe disponibili"
 	end
 	L=l:NewLocale(me,"koKR")
 	if (L) then
@@ -243,6 +279,8 @@ L["Always counter increased resource cost"] = "\236\158\144\236\155\144 \235\185
 L["Always counter increased time"] = "\236\134\140\236\154\148 \236\139\156\234\176\132 \236\166\157\234\176\128 \237\149\173\236\131\129 \235\140\128\236\157\145"
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = "\235\179\145\235\160\165 \236\163\189\236\157\180\234\184\176 \237\149\173\236\131\129 \235\140\128\236\157\145 (\237\153\156\235\160\165\236\157\180 1\235\167\140 \235\130\168\236\157\128 \235\179\145\235\160\165\235\167\140 \236\158\136\236\157\132 \235\149\144 \235\172\180\236\139\156)"
 L["Always counter no bonus loot threat"] = "\236\182\148\234\176\128 \236\160\132\235\166\172\237\146\136 \237\154\141\235\147\157 \235\182\136\234\176\128 \237\149\173\236\131\129 \235\140\128\236\157\145"
+L["Artifact shown value is the base value without considering knowledge multiplier"] = "\237\145\156\236\139\156\235\144\156 \236\156\160\235\172\188\235\160\165 \234\176\146\236\157\128 \236\156\160\235\172\188 \236\167\128\236\139\157 \235\160\136\235\178\168\236\157\132 \234\179\160\235\160\164\237\149\152\236\167\128 \236\149\138\236\157\128 \234\184\176\235\179\184 \234\176\146\236\158\133\235\139\136\235\139\164"
+L["Attempts to use less champions for missions, in order to fill more missions"] = "\235\141\148 \235\167\142\236\157\128 \236\158\132\235\172\180\235\165\188 \236\177\132\236\154\176\234\184\176 \236\156\132\237\149\180 \236\158\132\235\172\180\236\151\144 \236\181\156\236\134\140\237\149\156\236\157\152 \236\154\169\236\130\172\235\167\140 \235\176\176\236\185\152\237\149\152\235\143\132\235\161\157 \236\139\156\235\143\132\237\149\169\235\139\136\235\139\164"
 L["Better parties available in next future"] = "\235\139\164\236\157\140 \236\139\156\234\176\132 \237\155\132\236\151\148 \235\141\148 \235\130\152\236\157\128 \237\140\140\237\139\176\234\176\128 \234\176\128\235\138\165\237\149\169\235\139\136\235\139\164"
 L["Building Final report"] = "\236\181\156\236\162\133 \235\179\180\234\179\160\236\132\156 \236\158\145\236\132\177"
 L["Capped %1$s. Spend at least %2$d of them"] = "%1$s \236\131\129\237\149\156\236\132\160\236\151\144 \235\143\132\235\139\172\237\150\136\236\138\181\235\139\136\235\139\164. \236\181\156\236\134\140 %2$d\234\176\156\235\165\188 \236\134\140\235\170\168\237\149\152\236\132\184\236\154\148"
@@ -250,35 +288,46 @@ L["Changes the sort order of missions in Mission panel"] = "\236\158\132\235\172
 L["Combat ally is proposed for missions so you can consider unassigning him"] = "\236\160\132\237\136\172 \235\143\153\235\163\140\234\176\128 \236\158\132\235\172\180\236\151\144 \236\160\156\236\149\136\235\144\152\235\169\176 \236\160\132\237\136\172 \235\143\153\235\163\140 \236\167\128\236\160\149 \237\149\180\236\160\156\235\165\188 \237\149\180\236\149\188 \237\149\160 \236\136\152 \236\158\136\236\138\181\235\139\136\235\139\164"
 L["Complete all missions without confirmation"] = "\237\153\149\236\157\184 \236\151\134\236\157\180 \235\170\168\235\147\160 \236\158\132\235\172\180\235\165\188 \236\153\132\235\163\140\237\149\169\235\139\136\235\139\164"
 L["Configuration for mission party builder"] = "\236\158\132\235\172\180 \237\140\140\237\139\176 \234\181\172\236\132\177 \236\132\164\236\160\149"
+L["Cost reduced"] = "\235\185\132\236\154\169 \234\176\144\236\134\140\235\144\168"
 L["Dont kill Troops"] = "\235\179\145\235\160\165 \236\163\189\236\157\180\236\167\128 \236\149\138\234\184\176"
-L["Duration reduced"] = "\236\136\152\237\150\137 \236\139\156\234\176\132 \234\176\144\236\134\140\235\144\168"
-L["Duration Time"] = "\236\136\152\237\150\137 \236\139\156\234\176\132"
+L["Don't use troops"] = "\235\179\145\235\160\165 \236\130\172\236\154\169\237\149\152\236\167\128 \236\149\138\234\184\176"
+L["Duration reduced"] = "\236\167\128\236\134\141\236\139\156\234\176\132 \234\176\144\236\134\140"
+L["Duration Time"] = "\236\167\128\236\134\141 \236\139\156\234\176\132"
 L["Expiration Time"] = "\235\167\140\235\163\140 \236\139\156\234\176\132"
 L["Favours leveling follower for xp missions"] = "\235\160\136\235\178\168 \236\156\161\236\132\177 \236\164\145\236\157\184 \236\182\148\236\162\133\236\158\144\235\165\188 \234\178\189\237\151\152\236\185\152 \236\158\132\235\172\180\236\151\144 \236\154\176\236\132\160 \236\167\128\236\160\149\237\149\169\235\139\136\235\139\164"
+L["Followers status "] = "\236\182\148\236\162\133\236\158\144 \236\131\129\237\131\156"
 L["General"] = "\236\157\188\235\176\152"
 L["Global approx. xp reward"] = "\236\160\132\236\178\180 \234\178\189\237\151\152\236\185\152 \235\179\180\236\131\129 \236\182\148\236\160\149\236\185\152"
+L["Global approx. xp reward per hour"] = "\236\139\156\234\176\132 \235\139\185 \236\152\136\236\131\129 \234\178\189\237\151\152\236\185\152 \235\179\180\236\131\129"
 L["HallComander Quick Mission Completion"] = "HallCommander \235\185\160\235\165\184 \236\158\132\235\172\180 \236\153\132\235\163\140"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[\235\167\140\236\149\189 %s\1241\236\157\180\235\157\188\235\169\180;\235\157\188\235\169\180;, \234\183\184\235\147\164\236\157\132 \236\158\131\234\178\140 \235\144\169\235\139\136\235\139\164
-\236\183\168\236\134\140\237\149\152\235\160\164\235\169\180 %s\1241\236\157\132;\235\165\188; \237\129\180\235\166\173\237\149\152\236\132\184\236\154\148]=]
+L["If not checked, inactive followers are used as last chance"] = "\236\132\160\237\131\157\237\149\152\236\167\128 \236\149\138\236\156\188\235\169\180 \235\185\132\237\153\156\236\132\177 \236\182\148\236\162\133\236\158\144\234\176\128 \237\153\149\235\165\160 \234\179\132\236\130\176\236\151\144 \236\130\172\236\154\169\235\144\169\235\139\136\235\139\164"
 L[ [=[If you %s, you will lose them
-Click on %s to abort]=] ] = [=[\235\167\140\236\149\189 %s\1241\236\157\180\235\157\188\235\169\180;\235\157\188\235\169\180;, \234\183\184\235\147\164\236\157\132 \236\158\131\234\178\140 \235\144\169\235\139\136\235\139\164
-\236\183\168\236\134\140\237\149\152\235\160\164\235\169\180 %s\1241\236\157\132;\235\165\188; \237\129\180\235\166\173\237\149\152\236\132\184\236\154\148]=]
+Click on %s to abort]=] ] = [=[\235\167\140\236\149\189 %s|1\236\157\180\235\157\188\235\169\180;\235\157\188\235\169\180; \234\183\184\235\147\164\236\157\132 \236\158\131\234\178\140 \235\144\169\235\139\136\235\139\164
+\236\183\168\236\134\140\237\149\152\235\160\164\235\169\180 %s|1\236\157\132;\235\165\188; \237\129\180\235\166\173\237\149\152\236\132\184\236\154\148]=]
+L["Ignore busy followers"] = "\235\176\148\236\129\156 \236\182\148\236\162\133\236\158\144 \235\172\180\236\139\156"
+L["Ignore inactive followers"] = "\235\185\132\237\153\156\236\132\177 \236\182\148\236\162\133\236\158\144 \235\172\180\236\139\156"
 L["Keep cost low"] = "\235\185\132\236\154\169 \236\160\136\234\176\144 \236\156\160\236\167\128"
 L["Keep extra bonus"] = "\236\182\148\234\176\128 \236\160\132\235\166\172\237\146\136 \236\156\160\236\167\128"
 L["Keep time short"] = "\236\139\156\234\176\132 \236\160\136\236\149\189 \236\156\160\236\167\128"
 L["Keep time VERY short"] = "\236\139\156\234\176\132 \235\167\164\236\154\176 \236\160\136\236\149\189 \236\156\160\236\167\128"
 L["Level"] = "\235\160\136\235\178\168"
 L["Make Order Hall Mission Panel movable"] = "\236\167\129\236\151\133 \236\160\132\235\139\185 \236\158\132\235\172\180 \236\176\189 \236\157\180\235\143\153 \234\176\128\235\138\165 \236\132\164\236\160\149"
+L["Max champions"] = "\236\181\156\235\140\128 \236\154\169\236\130\172"
+L["Maximize filled missions"] = "\236\158\132\235\172\180 \236\177\132\236\154\176\234\184\176 \236\181\156\235\140\128\237\153\148"
 L["Maximize xp gain"] = "\234\178\189\237\151\152\236\185\152 \237\154\141\235\147\157 \236\181\156\235\140\128\237\153\148"
+L["Mission duration reduced"] = "\236\158\132\235\172\180 \236\167\128\236\134\141\236\139\156\234\176\132 \234\176\144\236\134\140"
 L["Missions"] = "\236\158\132\235\172\180"
 L["No follower gained xp"] = "\234\178\189\237\151\152\236\185\152\235\165\188 \237\154\141\235\147\157\237\149\156 \236\182\148\236\162\133\236\158\144 \236\151\134\236\157\140"
+L["Not enough troops, raise maximum champions' number"] = "\235\179\145\235\160\165\236\157\180 \235\182\128\236\161\177\237\149\169\235\139\136\235\139\164, \236\181\156\235\140\128 \236\154\169\236\130\172\236\157\152 \236\136\152\235\165\188 \235\138\152\235\166\172\236\132\184\236\154\148"
 L["Nothing to report"] = "\235\179\180\234\179\160\237\149\160 \235\130\180\236\154\169 \236\151\134\236\157\140"
 L["Notifies you when you have troops ready to be collected"] = "\235\179\145\235\160\165\236\157\132 \237\154\140\236\136\152\237\149\160 \236\164\128\235\185\132\234\176\128 \235\144\152\235\169\180 \235\139\185\236\139\160\236\151\144\234\178\140 \236\149\140\235\166\189\235\139\136\235\139\164"
 L["Only accept missions with time improved"] = "\236\134\140\236\154\148 \236\139\156\234\176\132\236\157\180 \234\176\144\236\134\140\237\149\156 \236\158\132\235\172\180\235\167\140 \236\136\152\235\157\189\237\149\169\235\139\136\235\139\164"
+L["Only use champions even if troops are available"] = "\235\179\145\235\160\165\236\157\132 \236\130\172\236\154\169\234\176\128\235\138\165 \237\149\180\235\143\132 \236\154\169\236\130\172\235\167\140 \236\130\172\236\154\169\237\149\169\235\139\136\235\139\164"
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander\235\138\148 \236\167\129\236\151\133 \236\160\132\235\139\185 \234\180\128\235\166\172\235\165\188 \236\156\132\237\149\180 GarrisonCommander\235\179\180\235\139\164 \236\154\176\236\132\160\235\144\169\235\139\136\235\139\164.
-OrderHallCommander\235\165\188 \236\130\172\236\154\169 \237\149\152\236\167\128 \236\149\138\236\156\188\235\169\180 GarrisonCommander\235\161\156 \236\160\132\237\153\152\237\149\160 \236\136\152 \236\158\136\236\138\181\235\139\136\235\139\164.]=]
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = [=[OrderHallCommander\235\138\148 \236\167\129\236\151\133 \236\160\132\235\139\185 \234\180\128\235\166\172\236\151\144 GarrisonCommander\235\179\180\235\139\164 \236\154\176\236\132\160\235\144\169\235\139\136\235\139\164.
+OrderHallCommander\235\165\188 \235\185\132\237\153\156\236\132\177\237\149\152\235\169\180 GarrisonCommander\235\161\156 \236\160\132\237\153\152\237\149\160 \236\136\152 \236\158\136\236\138\181\235\139\136\235\139\164.
+\235\140\128\236\139\160 \235\139\185\236\139\160\236\157\180 OrderHallCommander\235\165\188 \236\162\139\236\149\132\237\149\156\235\139\164\235\169\180 Curse \237\129\180\235\157\188\236\157\180\236\150\184\237\138\184\236\151\144 \236\182\148\234\176\128\237\149\152\234\179\160 \236\151\133\235\141\176\236\157\180\237\138\184\235\165\188 \236\156\160\236\167\128\237\149\152\236\132\184\236\154\148]=]
 L["Original method"] = "\236\155\144\235\158\152\236\157\152 \235\176\169\235\178\149"
 L["Position is not saved on logout"] = "\236\160\145\236\134\141 \236\162\133\235\163\140\236\139\156 \236\156\132\236\185\152\235\138\148 \236\160\128\236\158\165\235\144\152\236\167\128 \236\149\138\236\138\181\235\139\136\235\139\164"
 L["Resurrect troops effect"] = "\235\179\145\235\160\165 \235\182\128\237\153\156 \237\154\168\234\179\188"
@@ -287,9 +336,14 @@ L["Show/hide OrderHallCommander mission menu"] = "OrderHallCommander \236\158\13
 L["Sort missions by:"] = "\236\158\132\235\172\180 \236\160\149\235\160\172 \235\176\169\235\178\149:"
 L["Success Chance"] = "\236\132\177\234\179\181 \237\153\149\235\165\160"
 L["Troop ready alert"] = "\235\179\145\235\160\165 \236\164\128\235\185\132 \234\178\189\235\179\180"
+L["Unable to fill missions. Check your switches"] = "\236\158\132\235\172\180\235\165\188 \236\177\132\236\154\184 \236\136\152 \236\151\134\236\138\181\235\139\136\235\139\164. \236\132\164\236\160\149\236\157\132 \237\153\149\236\157\184\237\149\152\236\132\184\236\154\148"
 L["Upgrading to |cff00ff00%d|r"] = "|cff00ff00%d|r\\1241\236\156\188\235\161\156;\235\161\156; \237\150\165\236\131\129\236\139\156\237\130\164\234\184\176"
+L["URL Copy"] = "URL \235\179\181\236\130\172"
+L["Use at most this many champions"] = "\235\144\152\235\143\132\235\161\157 \236\157\180 \236\136\171\236\158\144\236\157\152 \236\154\169\236\130\172\235\165\188 \236\130\172\236\154\169\237\149\169\235\139\136\235\139\164"
 L["Use combat ally"] = "\236\160\132\237\136\172 \235\143\153\235\163\140 \236\130\172\236\154\169"
+L["When no free followers are available shows empty follower"] = "\236\130\172\236\154\169 \234\176\128\235\138\165\237\149\156 \236\182\148\236\162\133\236\158\144\234\176\128 \236\151\134\236\156\188\235\169\180 \236\182\148\236\162\133\236\158\144 \236\185\184\236\157\132 \235\185\136 \236\131\129\237\131\156\235\161\156 \237\145\156\236\139\156\237\149\169\235\139\136\235\139\164"
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "|cffff0000%d|cffffd200\236\160\144\236\157\132 \235\130\173\235\185\132\237\149\152\234\179\160 \236\158\136\236\138\181\235\139\136\235\139\164!!!"
+L["You have no troops"] = "\235\179\145\235\160\165\236\157\180 \236\151\134\236\138\181\235\139\136\235\139\164"
 	end
 	L=l:NewLocale(me,"esMX")
 	if (L) then
@@ -310,8 +364,6 @@ L["Favours leveling follower for xp missions"] = "Favors nivelando seguidor para
 L["General"] = true
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclusi\195\179n de la misi\195\179n r\195\161pida de HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si% s, los perder\195\161  nHaga clic en% s para abortar"
 L["Keep cost low"] = "Mantenga el costo bajo"
 L["Keep time short"] = "Mantenga el tiempo corto"
 L["Keep time VERY short"] = "Mantener el tiempo muy corto"
@@ -323,8 +375,6 @@ L["No follower gained xp"] = "Ning\195\186n seguidor gan\195\179 xp"
 L["Nothing to report"] = "Nada que reportar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica cuando hay tropas listas para ser recolectadas"
 L["Only accept missions with time improved"] = "S\195\179lo aceptar misiones mejoradas con el tiempo"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander reemplaza a GarrisonCommander para la Gesti\195\179n de Hall de Orden.  N Puede volver a GarneyCommander simplemente inhabilitando OrderhallCommander"
 L["Original method"] = "M\195\169todo original"
 L["Position is not saved on logout"] = "La posici\195\179n no se guarda al cerrar la sesi\195\179n"
 L["Resurrect troops effect"] = "Efecto de las tropas de resurrecci\195\179n"
@@ -359,9 +409,6 @@ L["Favours leveling follower for xp missions"] = "\208\146 \208\188\208\184\209\
 L["General"] = "\208\158\209\129\208\189\208\190\208\178\208\189\209\139\208\181"
 L["Global approx. xp reward"] = "\208\158\208\191\209\139\209\130"
 L["HallComander Quick Mission Completion"] = "HallComander \208\145\209\139\209\129\209\130\209\128\208\190\208\181 \208\183\208\176\208\178\208\181\209\128\209\136\208\181\208\189\208\184\208\181 \208\188\208\184\209\129\209\129\208\184\208\185"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[\208\149\209\129\208\187\208\184 \208\178\209\139 %, \208\178\209\139 \208\191\208\190\209\130\208\181\209\128\209\143\208\181\209\130\208\181 \208\184\209\133. 
-\208\157\208\176\208\182\208\188\208\184\209\130\208\181 \208\189\208\176 %, \209\135\209\130\208\190\208\177\209\139 \208\191\209\128\208\181\209\128\208\178\208\176\209\130\209\140]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[\208\149\209\129\208\187\208\184 \208\178\209\139 %, \208\178\209\139 \208\191\208\190\209\130\208\181\209\128\209\143\208\181\209\130\208\181 \208\184\209\133.
 \208\157\208\176\208\182\208\188\208\184\209\130\208\181 \208\189\208\176 %, \209\135\209\130\208\190\208\177\209\139 \208\191\209\128\208\181\209\128\208\178\208\176\209\130\209\140]=]
@@ -377,8 +424,6 @@ L["No follower gained xp"] = "\208\161\208\190\209\128\208\176\209\130\208\189\2
 L["Nothing to report"] = "\208\145\208\181\208\183 \208\190\209\130\209\135\208\181\209\130\208\176"
 L["Notifies you when you have troops ready to be collected"] = "\208\163\208\178\208\181\208\180\208\190\208\188\208\187\209\143\209\130\209\140 \208\190 \208\179\208\190\209\130\208\190\208\178\208\189\208\190\209\129\209\130\208\184 \209\129\208\178\208\181\208\182\208\184\209\133 \208\178\208\190\208\185\209\129\208\186"
 L["Only accept missions with time improved"] = "\208\160\208\176\208\183\209\128\208\181\209\136\208\176\209\130\209\140 \208\188\208\184\209\129\209\129\208\184\208\184 \209\130\208\190\208\187\209\140\208\186\208\190 \209\129 \209\131\209\129\208\186\208\190\209\128\208\181\208\189\208\189\209\139\208\188 \208\178\209\139\208\191\208\190\208\187\208\189\208\181\208\189\208\184\208\181\208\188"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander \208\191\208\181\209\128\208\181\208\190\208\191\209\128\208\181\208\180\208\181\208\187\209\143\208\181\209\130 GarrisonCommander \208\180\208\187\209\143 \209\131\208\191\209\128\208\176\208\178\208\187\208\181\208\189\208\184\209\143 \208\190\208\191\208\187\208\190\209\130\208\190\208\188. \208\146\209\139 \208\188\208\190\208\182\208\181\209\130\208\181 \208\178\208\181\209\128\208\189\209\131\209\130\209\140\209\129\209\143 \208\186 GarrisonCommander \208\190\209\130\208\186\208\187\209\142\209\135\208\184\208\178 OrderhallCommander"
 L["Original method"] = "\208\158\208\177\209\139\209\135\208\189\209\139\208\185 \208\188\208\181\209\130\208\190\208\180"
 L["Position is not saved on logout"] = "\208\159\208\190\208\183\208\184\209\134\208\184\209\143 \208\189\208\181 \209\129\208\190\209\133\209\128\208\176\208\189\208\184\209\130\209\129\209\143 \208\191\209\128\208\184 \208\178\209\139\209\133\208\190\208\180\208\181 \208\184\208\183 \209\129\208\184\209\129\209\130\208\181\208\188\209\139"
 L["Resurrect troops effect"] = "\208\173\209\132\209\132\208\181\208\186\209\130 \208\178\208\190\209\129\208\186\209\128\208\181\209\136\208\181\208\189\208\184\209\143 \208\178\208\190\208\185\209\129\208\186"
@@ -412,9 +457,6 @@ L["Favours leveling follower for xp missions"] = "\229\128\190\229\144\145\228\1
 L["General"] = "\228\184\128\232\136\172"
 L["Global approx. xp reward"] = "\230\149\180\228\189\147\229\164\167\231\186\166\231\187\143\233\170\140\229\128\188\229\165\150\229\138\177"
 L["HallComander Quick Mission Completion"] = "\229\164\167\229\142\133\230\140\135\230\140\165\229\174\152\229\191\171\233\128\159\228\187\187\229\138\161\229\174\140\230\136\144"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[\229\166\130\230\158\156\228\189\160\231\187\167\231\187\173\239\188\140\228\189\160\228\188\154\229\164\177\229\142\187\229\174\131\228\187\172
-\231\130\185\229\135\187%s\228\190\134\229\143\150\230\182\136]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[\229\166\130\230\158\156\228\189\160\231\187\167\231\187\173\239\188\140\228\189\160\228\188\154\229\164\177\229\142\187\229\174\131\228\187\172
 \231\130\185\229\135\187%s\228\190\134\229\143\150\230\182\136]=]
@@ -430,9 +472,6 @@ L["No follower gained xp"] = "\230\178\161\230\156\137\232\191\189\233\154\143\2
 L["Nothing to report"] = "\230\178\161\228\187\128\228\185\136\229\143\175\230\138\165\229\145\138"
 L["Notifies you when you have troops ready to be collected"] = "\229\189\147\233\131\168\233\152\159\229\183\178\229\135\134\229\164\135\229\165\189\232\142\183\229\143\150\230\151\182\230\143\144\233\134\146\228\189\160"
 L["Only accept missions with time improved"] = "\229\143\170\229\133\129\232\174\184\230\156\137\230\151\182\233\151\180\230\148\185\229\150\132\231\154\132\228\187\187\229\138\161"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander\232\166\134\231\155\150GarrisonCommander\232\174\162\229\141\149\229\142\133\231\174\161\231\144\134\227\128\130
-\194\160 \228\189\160\229\143\175\228\187\165\230\129\162\229\164\141\229\136\176GarrisonCommander simpy\231\166\129\231\148\168OrderhallCommander]=]
 L["Original method"] = "\229\142\159\229\167\139\230\150\185\230\179\149"
 L["Position is not saved on logout"] = "\228\189\141\231\189\174\228\184\141\228\188\154\229\156\168\231\153\187\229\135\186\229\144\142\229\130\168\229\173\152"
 L["Resurrect troops effect"] = "\229\164\141\230\180\187\233\131\168\233\152\159\230\149\136\230\158\156"
@@ -465,8 +504,6 @@ L["Favours leveling follower for xp missions"] = "Favors nivelando seguidor para
 L["General"] = true
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclusi\195\179n de la misi\195\179n r\195\161pida de HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si% s, los perder\195\161  nHaga clic en% s para abortar"
 L["Keep cost low"] = "Mantenga el costo bajo"
 L["Keep extra bonus"] = "Mantener bonificaci\195\179n extra"
 L["Keep time short"] = "Mantenga el tiempo corto"
@@ -479,8 +516,6 @@ L["No follower gained xp"] = "Ning\195\186n seguidor gan\195\179 xp"
 L["Nothing to report"] = "Nada que reportar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica cuando hay tropas listas para ser recolectadas"
 L["Only accept missions with time improved"] = "S\195\179lo aceptar misiones mejoradas con el tiempo"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander reemplaza a GarrisonCommander para la Gesti\195\179n de Hall de Orden.  N Puede volver a GarneyCommander simplemente inhabilitando OrderhallCommander"
 L["Original method"] = "M\195\169todo original"
 L["Position is not saved on logout"] = "La posici\195\179n no se guarda al cerrar la sesi\195\179n"
 L["Resurrect troops effect"] = "Efecto de las tropas de resurrecci\195\179n"
@@ -514,9 +549,6 @@ L["Favours leveling follower for xp missions"] = "\229\130\190\229\144\145\230\1
 L["General"] = "(G) \228\184\128\232\136\172"
 L["Global approx. xp reward"] = "\230\149\180\233\171\148\229\164\167\231\180\132\231\182\147\233\169\151\229\128\188\231\141\142\229\139\181"
 L["HallComander Quick Mission Completion"] = "\229\164\167\229\187\179\230\140\135\230\143\174\229\174\152\229\191\171\233\128\159\228\187\187\229\139\153\229\174\140\230\136\144"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[\229\166\130\230\158\156\230\130\168\231\185\188\231\186\140\239\188\140\230\130\168\230\156\131\229\164\177\229\142\187\229\174\131\229\128\145
-\233\187\158\230\147\138%s\228\190\134\229\143\150\230\182\136]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[\229\166\130\230\158\156\230\130\168\231\185\188\231\186\140\239\188\140\230\130\168\230\156\131\229\164\177\229\142\187\229\174\131\229\128\145
 \233\187\158\230\147\138%s\228\190\134\229\143\150\230\182\136]=]
@@ -532,9 +564,6 @@ L["No follower gained xp"] = "\230\178\146\230\156\137\232\191\189\233\154\168\2
 L["Nothing to report"] = "\230\178\146\228\187\128\233\186\188\229\143\175\229\160\177\229\145\138"
 L["Notifies you when you have troops ready to be collected"] = "\231\149\182\233\131\168\233\154\138\229\183\178\230\186\150\229\130\153\229\165\189\231\141\178\229\143\150\230\153\130\230\143\144\233\134\146\228\189\160"
 L["Only accept missions with time improved"] = "\229\143\170\229\133\129\232\168\177\230\156\137\230\153\130\233\150\147\230\148\185\229\150\132\231\154\132\228\187\187\229\139\153"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[\229\164\167\229\187\179\230\140\135\230\143\174\229\174\152\230\156\131\232\166\134\232\147\139\232\166\129\229\161\158\230\140\135\230\143\174\229\174\152\231\130\186\229\164\167\229\187\179\231\174\161\231\144\134\227\128\130
-\228\189\160\229\143\175\228\187\165\232\191\148\229\155\158\228\189\191\231\148\168\232\166\129\229\161\158\230\140\135\230\143\174\229\174\152\229\143\170\232\166\129\231\176\161\229\150\174\231\154\132\229\129\156\231\148\168\229\164\167\229\187\179\230\140\135\230\143\174\229\174\152]=]
 L["Original method"] = "\229\142\159\229\167\139\230\150\185\230\179\149"
 L["Position is not saved on logout"] = "\228\189\141\231\189\174\228\184\141\230\156\131\229\156\168\231\153\187\229\135\186\229\190\140\229\132\178\229\173\152"
 L["Resurrect troops effect"] = "\229\190\169\230\180\187\233\131\168\233\154\138\230\149\136\230\158\156"

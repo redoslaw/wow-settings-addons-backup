@@ -2,7 +2,7 @@
 IsNotifying = true
 IsBattlePetNotifying = false
 IsPVPNotifying = true
-IsgxRestarting = true
+IsgxRestarting = false
 IsGroupNotifying = true
 IsPremadeNotifying = true
 IsMissionCompleteNotifying = true

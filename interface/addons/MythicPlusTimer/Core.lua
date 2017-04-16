@@ -10,9 +10,14 @@ function MythicPlusTimer:OnInitialize()
         MythicPlusTimerDB.config = {
             objectiveTime = true,
             deathCounter = false,
+            objectiveTimeInChat = true,
         } 
     end
     
+    if MythicPlusTimerDB.config.objectiveTimeInChat == nil then
+        MythicPlusTimerDB.config.objectiveTimeInChat = true
+    end
+
     if not MythicPlusTimerDB.currentRun then
         MythicPlusTimerDB.currentRun = {} 
     end
@@ -24,6 +29,14 @@ function MythicPlusTimer:OnInitialize()
         handler = MythicPlusTimerDB,
         type = "group",
         args = {
+            objectivetimeschat = {
+                type = "toggle",
+                name = MythicPlusTimer.L["ObjectiveTimesInChat"],
+                desc = MythicPlusTimer.L["ObjectiveTimesInChatDesc"],
+                get = function(info,val) return MythicPlusTimerDB.config.objectiveTimeInChat  end,
+                set = function(info,val)  MythicPlusTimerDB.config.objectiveTimeInChat = val end,
+                width = "full"
+            },
             objectivetimes = {
                 type = "toggle",
                 name = MythicPlusTimer.L["ObjectiveTimes"],

@@ -6,6 +6,8 @@ L["Always counter increased resource cost"] = true
 L["Always counter increased time"] = true
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = true
 L["Always counter no bonus loot threat"] = true
+L["Artifact shown value is the base value without considering knowledge multiplier"] = true
+L["Attempts to use less champions for missions, in order to fill more missions"] = true
 L["Better parties available in next future"] = true
 L["Building Final report"] = true
 L["Capped %1$s. Spend at least %2$d of them"] = true
@@ -13,33 +15,43 @@ L["Changes the sort order of missions in Mission panel"] = true
 L["Combat ally is proposed for missions so you can consider unassigning him"] = true
 L["Complete all missions without confirmation"] = true
 L["Configuration for mission party builder"] = true
+L["Cost reduced"] = true
 L["Dont kill Troops"] = true
+L["Don't use troops"] = true
 L["Duration reduced"] = true
 L["Duration Time"] = true
 L["Expiration Time"] = true
 L["Favours leveling follower for xp missions"] = true
+L["Followers status "] = true
 L["General"] = true
 L["Global approx. xp reward"] = true
+L["Global approx. xp reward per hour"] = true
 L["HallComander Quick Mission Completion"] = true
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[If you %s, you will lose them
-Click on %s to abort]=]
+L["If not checked, inactive followers are used as last chance"] = true
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = true
+L["Ignore busy followers"] = true
+L["Ignore inactive followers"] = true
 L["Keep cost low"] = true
 L["Keep extra bonus"] = true
 L["Keep time short"] = true
 L["Keep time VERY short"] = true
 L["Level"] = true
 L["Make Order Hall Mission Panel movable"] = true
+L["Max champions"] = true
+L["Maximize filled missions"] = true
 L["Maximize xp gain"] = true
+L["Mission duration reduced"] = true
 L["Missions"] = true
 L["No follower gained xp"] = true
+L["Not enough troops, raise maximum champions' number"] = true
 L["Nothing to report"] = true
 L["Notifies you when you have troops ready to be collected"] = true
 L["Only accept missions with time improved"] = true
+L["Only use champions even if troops are available"] = true
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = true
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = true
 L["Original method"] = true
 L["Position is not saved on logout"] = true
 L["Resurrect troops effect"] = true
@@ -48,9 +60,14 @@ L["Show/hide OrderHallCommander mission menu"] = true
 L["Sort missions by:"] = true
 L["Success Chance"] = true
 L["Troop ready alert"] = true
+L["Unable to fill missions. Check your switches"] = true
 L["Upgrading to |cff00ff00%d|r"] = true
+L["URL Copy"] = true
+L["Use at most this many champions"] = true
 L["Use combat ally"] = true
+L["When no free followers are available shows empty follower"] = true
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = true
+L["You have no troops"] = true
 L=l:NewLocale(me,"ptBR")
 if (L) then
 L["Always counter increased resource cost"] = "Sempre contra o aumento do custo de recursos"
@@ -70,8 +87,6 @@ L["Favours leveling follower for xp missions"] = "Favors leveling follower para 
 L["General"] = "Geral"
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclusão Rápida da Missão HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Se você% s, você os perderá  nClique em% s para abortar"
 L["Keep cost low"] = "Mantenha o custo baixo"
 L["Keep time short"] = "Mantenha o tempo curto"
 L["Keep time VERY short"] = "Mantenha o tempo MUITO curto"
@@ -83,8 +98,6 @@ L["No follower gained xp"] = "Nenhum seguidor ganhou xp"
 L["Nothing to report"] = "Nada a declarar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica você quando você tem tropas prontas para serem coletadas"
 L["Only accept missions with time improved"] = "Aceitar apenas missões com o tempo melhorado"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander substitui o GarrisonCommander para a Gestão de Hall de Ordem.  N Você pode reverter para GarrisonCommander simplesmente desativando o OrderhallCommander"
 L["Original method"] = "Método original"
 L["Position is not saved on logout"] = "A posição não é salva no logout"
 L["Resurrect troops effect"] = "Resurrect efeito tropas"
@@ -116,8 +129,6 @@ L["Favours leveling follower for xp missions"] = "Favors level follower pour les
 L["General"] = "Général"
 L["Global approx. xp reward"] = "Global env. Xp récompense"
 L["HallComander Quick Mission Completion"] = "Achèvement rapide de mission HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si vous% s, vous les perdrez  nCliquez sur% s pour annuler"
 L["Keep cost low"] = "Garder le coût bas"
 L["Keep time short"] = "Garde le temps court"
 L["Keep time VERY short"] = "Gardez le temps très court"
@@ -129,8 +140,6 @@ L["No follower gained xp"] = "Aucun adepte n'a gagné xp"
 L["Nothing to report"] = "Rien à signaler"
 L["Notifies you when you have troops ready to be collected"] = "Vous avertit lorsque vous avez des troupes prêtes à être recueillies"
 L["Only accept missions with time improved"] = "N'acceptez que les missions avec le temps améliorées"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander annule GarrisonCommander pour la gestion des commandes Hall.  N Vous pouvez revenir à GarrisonCommander simpy désactiver OrderhallCommander"
 L["Original method"] = "Méthode originale"
 L["Position is not saved on logout"] = "La position n'est pas enregistrée lors de la déconnexion"
 L["Resurrect troops effect"] = "Effet Résurrection des troupes"
@@ -161,15 +170,15 @@ L["Duration reduced"] = "Dauer reduziert"
 L["Duration Time"] = "Dauer"
 L["Expiration Time"] = "Ablaufzeit"
 L["Favours leveling follower for xp missions"] = "Bevorzugt niedrigstufige Anhänger für EP-Missionen"
+L["Followers status "] = "Anhängerstatus"
 L["General"] = "Allgemein"
 L["Global approx. xp reward"] = "Ca. Insgesamte EP-Belohnung"
 L["HallComander Quick Mission Completion"] = "HallComander Schneller Missionsabschluss"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[Wenn du %s, wirst du sie verlieren.
-Klicke auf %s, um abzubrechen]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[Wenn du %s, wirst du sie verlieren.
 Klicke auf %s, um abzubrechen]=]
+L["Ignore busy followers"] = "Beschäftigte Anhänger ignorieren"
+L["Ignore inactive followers"] = "Untätige Anhänger ignorieren"
 L["Keep cost low"] = "Kosten niedrig halten"
 L["Keep extra bonus"] = "Bonusbeute behalten"
 L["Keep time short"] = "Zeit kurz halten"
@@ -182,8 +191,6 @@ L["No follower gained xp"] = "Kein Anhänger erhielt EP"
 L["Nothing to report"] = "Nichts zu berichten"
 L["Notifies you when you have troops ready to be collected"] = "Benachrichtigt, wenn Truppen bereit sind, gesammelt zu werden"
 L["Only accept missions with time improved"] = "Nur Missionen mit verkürzter Dauer annehmen"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander überschreibt GarrisonCommander für die Verwaltung der Ordenshalle. Sie können GarrisonCommander wiederherstellen, indem Sie OrderhallCommander deaktivieren"
 L["Original method"] = "Ursprüngliche Methode"
 L["Position is not saved on logout"] = "Die Position wird beim Ausloggen nicht gespeichert"
 L["Resurrect troops effect"] = "Truppen wiederbeleben"
@@ -195,6 +202,7 @@ L["Troop ready alert"] = "Warnung Trupp bereit"
 L["Upgrading to |cff00ff00%d|r"] = "Aktualisieren auf | cff00ff00% d | r"
 L["Use combat ally"] = "Kampfgefährten verwenden"
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "Sie verschwenden | cffff0000% d | cffffd200 Punkt (e) !!!"
+L["You have no troops"] = "Sie haben keine Trupps"
 return
 end
 L=l:NewLocale(me,"itIT")
@@ -203,6 +211,8 @@ L["Always counter increased resource cost"] = "Contrasta sempre incremento risor
 L["Always counter increased time"] = "Contrasta sempre incremento durata"
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = "Contrasta sempre morte milizie (ignorato tutte le milizie hanno solo una vita rimanente)"
 L["Always counter no bonus loot threat"] = "Contrasta sempre il \"no bonus\""
+L["Artifact shown value is the base value without considering knowledge multiplier"] = "Il valore mostrato è quello base, senza considerare il moltiplicatore dalla conoscenza"
+L["Attempts to use less champions for missions, in order to fill more missions"] = "Cerca di usare meno campioni per poter completare un maggior numero di missioni"
 L["Better parties available in next future"] = "Ci sono combinazioni migliori nel futuro"
 L["Building Final report"] = "Sto preparando il rapporto finale"
 L["Capped %1$s. Spend at least %2$d of them"] = "%1$s ha un limite. Spendine almeno %2%d"
@@ -210,35 +220,61 @@ L["Changes the sort order of missions in Mission panel"] = "Cambia l'ordine dell
 L["Combat ally is proposed for missions so you can consider unassigning him"] = "Viene proposto l'alleato, per poter valutare se rimuoverlo dalla missione di scorta"
 L["Complete all missions without confirmation"] = "Completa tutte le missioni senza chiedere conferma"
 L["Configuration for mission party builder"] = "Configurazioni per il generatore di gruppi"
+L["Cost reduced"] = "Costo ridotto"
 L["Dont kill Troops"] = "Non uccidere le truppe"
+L["Don't use troops"] = "Non usare truppe"
 L["Duration reduced"] = "Durata"
 L["Duration Time"] = "Scadenza"
 L["Expiration Time"] = "Scadenza"
 L["Favours leveling follower for xp missions"] = "Preferisci i campioni che devono livellare"
+L["Followers status "] = "Stato del seguage"
 L["General"] = "Generale"
 L["Global approx. xp reward"] = "Approssimativi PE globali"
+L["Global approx. xp reward per hour"] = "Approssimativi PE globali per ora"
 L["HallComander Quick Mission Completion"] = "OrderHallCommander Completamento rapido"
+L["If not checked, inactive followers are used as last chance"] = "Se non attivo, visualizzerà seguaci inattivi pur di riempire la missione"
+L[ [=[If you %s, you will lose them
+Click on %s to abort]=] ] = "Se %s le perderai. Clicca su %s per interrompere"
+L["Ignore busy followers"] = "Ignora i seguaci occupati"
+L["Ignore inactive followers"] = "Ignora i seguaci inattivi"
 L["Keep cost low"] = "Mantieni il costo basso"
 L["Keep extra bonus"] = "Ottieni il bonus aggiuntivo"
 L["Keep time short"] = "Riduci la durata"
 L["Keep time VERY short"] = "Riduci MOLTO la durata"
 L["Level"] = "Livello"
 L["Make Order Hall Mission Panel movable"] = "Rendi spostabile il pannello missioni"
+L["Max champions"] = "Campioni massimi"
+L["Maximize filled missions"] = "Massimizza il numero di missioni"
 L["Maximize xp gain"] = "Massimizza il guadagno di PE"
+L["Mission duration reduced"] = "Durata missione ridotta"
 L["Missions"] = "Missioni"
 L["No follower gained xp"] = "Nessun campione ha guaagnato PE"
+L["Not enough troops, raise maximum champions' number"] = "Non hai abbastanza truppe, usa più campioni"
 L["Nothing to report"] = "Niente da segnalare"
 L["Notifies you when you have troops ready to be collected"] = "Notificami quando ho truppe pronte per essere raccolte"
 L["Only accept missions with time improved"] = "Accetta solo missioni con bonus durata ridotta"
+L["Only use champions even if troops are available"] = "Usa solo campioni anche se ci sono truppe disponibili"
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander sostituisce l'interfaccia di GarrisonComamnder per le missioni di classe
-Disabilitalo se preferisci GarrisonCommander]=]
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = [=[OrderHallCommander sostituisce l'interfaccia di GarrisonComamnder per le missioni di classe
+Disabilitalo se preferisci GarrisonCommander.
+Se invece ti piace, aggiungilo al client Curse e tienilo aggiornato]=]
+L["Original method"] = "Metodo originale"
 L["Position is not saved on logout"] = "La posizione non è salvata alla disconnessione"
 L["Resurrect troops effect"] = "Resurrezione truppe possibile"
 L["Reward type"] = "Tipo ricompensa"
 L["Show/hide OrderHallCommander mission menu"] = "Mostra/ascondi il menu di missione di OrderHallCommander"
+L["Sort missions by:"] = "Ordina le missioni per:"
+L["Success Chance"] = "Percentuale di successo"
 L["Troop ready alert"] = "Avviso truppe pronte"
+L["Unable to fill missions. Check your switches"] = "Impossibile riempire le missioni. Controlla le opzioni scelte"
+L["Upgrading to |cff00ff00%d|r"] = "Incremento a |cff00ff00%d|r"
+L["URL Copy"] = "Copia la URL"
+L["Use at most this many champions"] = "Usa al massimo questo numero di campioni"
 L["Use combat ally"] = "Usa l'alleato"
+L["When no free followers are available shows empty follower"] = "Quando non ci sono seguaci disponibili mostra le caselle vuote"
+L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "Stai sprecando |cffff0000%d|cffffd200 punti!!"
+L["You have no troops"] = "Non hai truppe disponibili"
 return
 end
 L=l:NewLocale(me,"koKR")
@@ -247,6 +283,8 @@ L["Always counter increased resource cost"] = "자원 비용 증가 항상 대�
 L["Always counter increased time"] = "소요 시간 증가 항상 대응"
 L["Always counter kill troops (ignored if we can only use troops with just 1 durability left)"] = "병력 죽이기 항상 대응 (활력이 1만 남은 병력만 있을 땐 무시)"
 L["Always counter no bonus loot threat"] = "추가 전리품 획득 불가 항상 대응"
+L["Artifact shown value is the base value without considering knowledge multiplier"] = "표시된 유물력 값은 유물 지식 레벨을 고려하지 않은 기본 값입니다"
+L["Attempts to use less champions for missions, in order to fill more missions"] = "더 많은 임무를 채우기 위해 임무에 최소한의 용사만 배치하도록 시도합니다"
 L["Better parties available in next future"] = "다음 시간 후엔 더 나은 파티가 가능합니다"
 L["Building Final report"] = "최종 보고서 작성"
 L["Capped %1$s. Spend at least %2$d of them"] = "%1$s 상한선에 도달했습니다. 최소 %2$d개를 소모하세요"
@@ -254,35 +292,46 @@ L["Changes the sort order of missions in Mission panel"] = "임무 창 내 임�
 L["Combat ally is proposed for missions so you can consider unassigning him"] = "전투 동료가 임무에 제안되며 전투 동료 지정 해제를 해야 할 수 있습니다"
 L["Complete all missions without confirmation"] = "확인 없이 모든 임무를 완료합니다"
 L["Configuration for mission party builder"] = "임무 파티 구성 설정"
+L["Cost reduced"] = "비용 감소됨"
 L["Dont kill Troops"] = "병력 죽이지 않기"
-L["Duration reduced"] = "수행 시간 감소됨"
-L["Duration Time"] = "수행 시간"
+L["Don't use troops"] = "병력 사용하지 않기"
+L["Duration reduced"] = "지속시간 감소"
+L["Duration Time"] = "지속 시간"
 L["Expiration Time"] = "만료 시간"
 L["Favours leveling follower for xp missions"] = "레벨 육성 중인 추종자를 경험치 임무에 우선 지정합니다"
+L["Followers status "] = "추종자 상태"
 L["General"] = "일반"
 L["Global approx. xp reward"] = "전체 경험치 보상 추정치"
+L["Global approx. xp reward per hour"] = "시간 당 예상 경험치 보상"
 L["HallComander Quick Mission Completion"] = "HallCommander 빠른 임무 완료"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[만약 %s\1241이라면;라면;, 그들을 잃게 됩니다
-취소하려면 %s\1241을;를; 클릭하세요]=]
+L["If not checked, inactive followers are used as last chance"] = "선택하지 않으면 비활성 추종자가 확률 계산에 사용됩니다"
 L[ [=[If you %s, you will lose them
-Click on %s to abort]=] ] = [=[만약 %s\1241이라면;라면;, 그들을 잃게 됩니다
-취소하려면 %s\1241을;를; 클릭하세요]=]
+Click on %s to abort]=] ] = [=[만약 %s|1이라면;라면; 그들을 잃게 됩니다
+취소하려면 %s|1을;를; 클릭하세요]=]
+L["Ignore busy followers"] = "바쁜 추종자 무시"
+L["Ignore inactive followers"] = "비활성 추종자 무시"
 L["Keep cost low"] = "비용 절감 유지"
 L["Keep extra bonus"] = "추가 전리품 유지"
 L["Keep time short"] = "시간 절약 유지"
 L["Keep time VERY short"] = "시간 매우 절약 유지"
 L["Level"] = "레벨"
 L["Make Order Hall Mission Panel movable"] = "직업 전당 임무 창 이동 가능 설정"
+L["Max champions"] = "최대 용사"
+L["Maximize filled missions"] = "임무 채우기 최대화"
 L["Maximize xp gain"] = "경험치 획득 최대화"
+L["Mission duration reduced"] = "임무 지속시간 감소"
 L["Missions"] = "임무"
 L["No follower gained xp"] = "경험치를 획득한 추종자 없음"
+L["Not enough troops, raise maximum champions' number"] = "병력이 부족합니다, 최대 용사의 수를 늘리세요"
 L["Nothing to report"] = "보고할 내용 없음"
 L["Notifies you when you have troops ready to be collected"] = "병력을 회수할 준비가 되면 당신에게 알립니다"
 L["Only accept missions with time improved"] = "소요 시간이 감소한 임무만 수락합니다"
+L["Only use champions even if troops are available"] = "병력을 사용가능 해도 용사만 사용합니다"
 L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander는 직업 전당 관리를 위해 GarrisonCommander보다 우선됩니다.
-OrderHallCommander를 사용 하지 않으면 GarrisonCommander로 전환할 수 있습니다.]=]
+ You can revert to GarrisonCommander simply disabling OrderhallCommander.
+If instead you like OrderHallCommander remember to add it to Curse client and keep it updated]=] ] = [=[OrderHallCommander는 직업 전당 관리에 GarrisonCommander보다 우선됩니다.
+OrderHallCommander를 비활성하면 GarrisonCommander로 전환할 수 있습니다.
+대신 당신이 OrderHallCommander를 좋아한다면 Curse 클라이언트에 추가하고 업데이트를 유지하세요]=]
 L["Original method"] = "원래의 방법"
 L["Position is not saved on logout"] = "접속 종료시 위치는 저장되지 않습니다"
 L["Resurrect troops effect"] = "병력 부활 효과"
@@ -291,9 +340,14 @@ L["Show/hide OrderHallCommander mission menu"] = "OrderHallCommander 임무 메�
 L["Sort missions by:"] = "임무 정렬 방법:"
 L["Success Chance"] = "성공 확률"
 L["Troop ready alert"] = "병력 준비 경보"
+L["Unable to fill missions. Check your switches"] = "임무를 채울 수 없습니다. 설정을 확인하세요"
 L["Upgrading to |cff00ff00%d|r"] = "|cff00ff00%d|r\\1241으로;로; 향상시키기"
+L["URL Copy"] = "URL 복사"
+L["Use at most this many champions"] = "되도록 이 숫자의 용사를 사용합니다"
 L["Use combat ally"] = "전투 동료 사용"
+L["When no free followers are available shows empty follower"] = "사용 가능한 추종자가 없으면 추종자 칸을 빈 상태로 표시합니다"
 L["You are wasting |cffff0000%d|cffffd200 point(s)!!!"] = "|cffff0000%d|cffffd200점을 낭비하고 있습니다!!!"
+L["You have no troops"] = "병력이 없습니다"
 return
 end
 L=l:NewLocale(me,"esMX")
@@ -315,8 +369,6 @@ L["Favours leveling follower for xp missions"] = "Favors nivelando seguidor para
 L["General"] = true
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclusión de la misión rápida de HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si% s, los perderá  nHaga clic en% s para abortar"
 L["Keep cost low"] = "Mantenga el costo bajo"
 L["Keep time short"] = "Mantenga el tiempo corto"
 L["Keep time VERY short"] = "Mantener el tiempo muy corto"
@@ -328,8 +380,6 @@ L["No follower gained xp"] = "Ningún seguidor ganó xp"
 L["Nothing to report"] = "Nada que reportar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica cuando hay tropas listas para ser recolectadas"
 L["Only accept missions with time improved"] = "Sólo aceptar misiones mejoradas con el tiempo"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander reemplaza a GarrisonCommander para la Gestión de Hall de Orden.  N Puede volver a GarneyCommander simplemente inhabilitando OrderhallCommander"
 L["Original method"] = "Método original"
 L["Position is not saved on logout"] = "La posición no se guarda al cerrar la sesión"
 L["Resurrect troops effect"] = "Efecto de las tropas de resurrección"
@@ -365,9 +415,6 @@ L["Favours leveling follower for xp missions"] = "В миссиях на опы�
 L["General"] = "Основные"
 L["Global approx. xp reward"] = "Опыт"
 L["HallComander Quick Mission Completion"] = "HallComander Быстрое завершение миссий"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[Если вы %, вы потеряете их. 
-Нажмите на %, чтобы прервать]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[Если вы %, вы потеряете их.
 Нажмите на %, чтобы прервать]=]
@@ -383,8 +430,6 @@ L["No follower gained xp"] = "Соратник не получает опыт"
 L["Nothing to report"] = "Без отчета"
 L["Notifies you when you have troops ready to be collected"] = "Уведомлять о готовности свежих войск"
 L["Only accept missions with time improved"] = "Разрешать миссии только с ускоренным выполнением"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander переопределяет GarrisonCommander для управления оплотом. Вы можете вернуться к GarrisonCommander отключив OrderhallCommander"
 L["Original method"] = "Обычный метод"
 L["Position is not saved on logout"] = "Позиция не сохранится при выходе из системы"
 L["Resurrect troops effect"] = "Эффект воскрешения войск"
@@ -419,9 +464,6 @@ L["Favours leveling follower for xp missions"] = "倾向于使用升级中追隨
 L["General"] = "一般"
 L["Global approx. xp reward"] = "整体大约经验值奖励"
 L["HallComander Quick Mission Completion"] = "大厅指挥官快速任务完成"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[如果你继续，你会失去它们
-点击%s來取消]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[如果你继续，你会失去它们
 点击%s來取消]=]
@@ -437,9 +479,6 @@ L["No follower gained xp"] = "没有追随者获得经验"
 L["Nothing to report"] = "没什么可报告"
 L["Notifies you when you have troops ready to be collected"] = "当部队已准备好获取时提醒你"
 L["Only accept missions with time improved"] = "只允许有时间改善的任务"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[OrderHallCommander覆盖GarrisonCommander订单厅管理。
-  你可以恢复到GarrisonCommander simpy禁用OrderhallCommander]=]
 L["Original method"] = "原始方法"
 L["Position is not saved on logout"] = "位置不会在登出后储存"
 L["Resurrect troops effect"] = "复活部队效果"
@@ -473,8 +512,6 @@ L["Favours leveling follower for xp missions"] = "Favors nivelando seguidor para
 L["General"] = true
 L["Global approx. xp reward"] = "Global aprox. Recompensa xp"
 L["HallComander Quick Mission Completion"] = "Conclusión de la misión rápida de HallComander"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = "Si% s, los perderá  nHaga clic en% s para abortar"
 L["Keep cost low"] = "Mantenga el costo bajo"
 L["Keep extra bonus"] = "Mantener bonificación extra"
 L["Keep time short"] = "Mantenga el tiempo corto"
@@ -487,8 +524,6 @@ L["No follower gained xp"] = "Ningún seguidor ganó xp"
 L["Nothing to report"] = "Nada que reportar"
 L["Notifies you when you have troops ready to be collected"] = "Notifica cuando hay tropas listas para ser recolectadas"
 L["Only accept missions with time improved"] = "Sólo aceptar misiones mejoradas con el tiempo"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = "OrderHallCommander reemplaza a GarrisonCommander para la Gestión de Hall de Orden.  N Puede volver a GarneyCommander simplemente inhabilitando OrderhallCommander"
 L["Original method"] = "Método original"
 L["Position is not saved on logout"] = "La posición no se guarda al cerrar la sesión"
 L["Resurrect troops effect"] = "Efecto de las tropas de resurrección"
@@ -523,9 +558,6 @@ L["Favours leveling follower for xp missions"] = "傾向於使用升級中追隨
 L["General"] = "(G) 一般"
 L["Global approx. xp reward"] = "整體大約經驗值獎勵"
 L["HallComander Quick Mission Completion"] = "大廳指揮官快速任務完成"
-L[ [=[If you %s,  you will lose them
-Click on %s to abort]=] ] = [=[如果您繼續，您會失去它們
-點擊%s來取消]=]
 L[ [=[If you %s, you will lose them
 Click on %s to abort]=] ] = [=[如果您繼續，您會失去它們
 點擊%s來取消]=]
@@ -541,9 +573,6 @@ L["No follower gained xp"] = "沒有追隨者獲得經驗"
 L["Nothing to report"] = "沒什麼可報告"
 L["Notifies you when you have troops ready to be collected"] = "當部隊已準備好獲取時提醒你"
 L["Only accept missions with time improved"] = "只允許有時間改善的任務"
-L[ [=[OrderHallCommander overrides GarrisonCommander for Order Hall Management.
- You can revert to GarrisonCommander simpy disabling OrderhallCommander]=] ] = [=[大廳指揮官會覆蓋要塞指揮官為大廳管理。
-你可以返回使用要塞指揮官只要簡單的停用大廳指揮官]=]
 L["Original method"] = "原始方法"
 L["Position is not saved on logout"] = "位置不會在登出後儲存"
 L["Resurrect troops effect"] = "復活部隊效果"

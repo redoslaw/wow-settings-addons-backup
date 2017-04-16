@@ -2,9 +2,18 @@
 GuildSearchDB = {
 	["profileKeys"] = {
 		["Ðeadshot - Burning Legion"] = "Default",
-		["Ðeathshot - Steamwheedle Cartel"] = "Default",
-		["Redus - Burning Legion"] = "Default",
+		["Rêd - Burning Legion"] = "Default",
+		["Rèd - Burning Legion"] = "Default",
+		["Chúck - Burning Legion"] = "Default",
+		["Wòw - Burning Legion"] = "Default",
+		["Kot - Chamber of Aspects"] = "Default",
 		["Redbullek - Burning Legion"] = "Default",
+		["Redus - Burning Legion"] = "Default",
+		["Pandared - Burning Legion"] = "Default",
+		["Kneewhoya - Burning Legion"] = "Default",
+		["Redoslaw - Burning Legion"] = "Default",
+		["Ðeathshot - Steamwheedle Cartel"] = "Default",
+		["Ðeadshøt - Burning Legion"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

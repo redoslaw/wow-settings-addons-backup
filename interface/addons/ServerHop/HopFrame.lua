@@ -314,8 +314,6 @@ local function QueueGroups()
 	if summ > 0 then return end
 
 	hopAddon.hopFrame.queueUpdate = 0
-
-	local tank, heal, dd = C_LFGList.GetAvailableRoles()
 	
 	--print(#HopList.." available. Throwing requests...")
 	local i = 1
@@ -342,10 +340,10 @@ local function QueueGroups()
 		maxqueue = 1
 	end
 
+	local tank, heal, dd = C_LFGList.GetAvailableRoles()
 	while #HopList > 0 do
-		if i==maxqueue+1 then break end
-		-- I feel terrible for doing this
-		C_LFGList.ApplyToGroup(HopList[1], "WorldQuestGroupFinder User", tank, heal, dd)
+		if i == maxqueue + 1 then break end
+		C_LFGList.ApplyToGroup(HopList[1], "", tank, heal, dd)
 		table.remove(HopList,1)
 		i=i+1
 	end
@@ -423,7 +421,6 @@ local function FilterHopSearchGroups()
 				if (UIDropDownMenu_GetSelectedID(pvpD) == 1 and hopAddon.var.pvpList[realm] == true) or
 				(UIDropDownMenu_GetSelectedID(pvpD) == 2 and hopAddon.var.pvpList[realm] == nil) or
 				(UIDropDownMenu_GetSelectedID(pvpD) == 3) then
-					if string.find(comment,"#WQ") then autoinv = true end
 					if hopAddon.optionsFrame.hopSearchOptionsFrame.autoInviteCheck:GetChecked() then
 						-- if putting all groups filter autoivite on top
 						if UIDropDownMenu_GetSelectedID(hopAddon.hopFrame.dropDown) == 1 then

@@ -1,8 +1,6 @@
 local SharedMedia = LibStub("LibSharedMedia-3.0");
 local L = WeakAuras.L;
 
--- GLOBALS: WeakAuras UIParent AceGUIWidgetLSMlists
-
 -- Create region options table
 local function createOptions(id, data)
 	-- Region options
@@ -672,7 +670,7 @@ local function createOptions(id, data)
 end
 
 -- Create preview thumbnail
-local function createThumbnail(parent, fullCreate)
+local function createThumbnail(parent)
 	-- Preview frame
     local borderframe = CreateFrame("FRAME", nil, parent);
     borderframe:SetWidth(32);

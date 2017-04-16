@@ -391,28 +391,32 @@ local function ZoomOutForNodes() -- Zoom map out until we can see at least one c
 	local nodeCount = 0
 	for i = 1, #taxiNodePositions do
 		local node = taxiNodePositions[i]
-		if node.type ~= 'NONE' then
+		if node.type == 'REACHABLE' then -- node.type ~= 'NONE' and node.type ~= 'CURRENT' then
 			if node.x < left and node.x > right and node.y > bottom and node.y < top then
 				nodeCount = nodeCount + 1
 			end
 		end
 	end
-	if nodeCount < 2 and IsZoomOutAvailable() and ZoomOut() then
+	if nodeCount < 1 and IsZoomOutAvailable() and ZoomOut() then
 		ZoomOutForNodes()
 	end
 end
 
 function f:TAXIMAP_OPENED()
-	if InCombatLockdown() then -- Prevent the world map from opening in combat due to its action button
-		print(ERR_TAXIPLAYERBUSY)
-		CloseTaxiMap()
-		return
-	end
 	TAXI_OPEN = true
 	if not WorldMapFrame:IsShown() then
+		if InCombatLockdown() then -- Prevent the world map from opening in combat due to its action button
+			print(ERR_TAXIPLAYERBUSY)
+			CloseTaxiMap()
+			TAXI_OPEN = false
+			return
+		end
 		ToggleWorldMap()
+		SetMapToCurrentZone()
+	elseif GetTaxiMapID() ~= select(2, GetCurrentMapContinent()) then
+		-- map is open to a different continent, set it to current zone
+		SetMapToCurrentZone()
 	end
-	SetMapToCurrentZone()
 	local continentID = GetCurrentMapContinent()
 	local continent = FlightmapCoordinates[continentID]
 	if continent then

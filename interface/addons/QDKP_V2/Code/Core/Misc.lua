@@ -434,7 +434,7 @@ end
 function QDKP2_CutString(txt,len)
 -- Cuts txt if is longer than len, adding two dots at the end.
   if #txt>len then
-    txt=string.sub(txt,1,len-2)..'..'
+    txt=string.utf8sub(txt,1,len-2)..'..'
   end
   return txt
 end

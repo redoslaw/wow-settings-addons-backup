@@ -1,3 +1,6 @@
+local ggf = GottaGoFast;
+local utility = ggf.Utility;
+
 function GottaGoFast.InitState()
   -- Default AddOn Globals
   GottaGoFast.inTW = false;

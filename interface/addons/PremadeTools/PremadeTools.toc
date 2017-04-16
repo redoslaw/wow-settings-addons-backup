@@ -1,0 +1,14 @@
+## Interface: 70000
+## Version: 0.1.1.70000
+## Title: Premade Tools
+## Author: Mpstark, Rubio9
+## Notes: Tool for managing a group in the LFG tool.
+## SavedVariables: PremadeToolsDB
+## X-Curse-Packaged-Version: v0.1.1.70000
+## X-Curse-Project-Name: Premade Tools
+## X-Curse-Project-ID: premadetools
+## X-Curse-Repository-ID: wow/premadetools/mainline
+
+embeds.xml
+
+Core.lua

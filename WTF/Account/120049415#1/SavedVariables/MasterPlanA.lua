@@ -1,29 +1,29 @@
 
 MasterPlanAG = {
+	["Steamwheedle Cartel"] = {
+		["Ðeathshot"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Alliance",
+		},
+	},
 	["Chamber of Aspects"] = {
 		["Kot"] = {
 			["class"] = "DRUID",
 			["faction"] = "Horde",
 		},
 	},
-	["Steamwheedle Cartel"] = {
-		["Ðeathshot"] = {
-			["faction"] = "Alliance",
-			["class"] = "HUNTER",
-		},
-	},
 	["Burning Legion"] = {
 		["Redus"] = {
-			["faction"] = "Horde",
 			["class"] = "MAGE",
+			["faction"] = "Horde",
 		},
 		["Redbullek"] = {
-			["faction"] = "Horde",
 			["class"] = "DRUID",
+			["faction"] = "Horde",
 		},
 		["Ðeadshot"] = {
-			["class"] = "HUNTER",
 			["faction"] = "Horde",
+			["class"] = "HUNTER",
 		},
 	},
 }

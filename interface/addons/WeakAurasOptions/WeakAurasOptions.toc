@@ -1,7 +1,7 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: WeakAuras Options
 ## Author: Mirrored and the WeakAuras Team
-## Version: 2.3.4
+## Version: 2.3.9
 ## Notes: Options for WeakAuras
 ## Notes-esES: Opciones para WeakAuras
 ## Notes-deDE: Optionen für WeakAuras
@@ -18,14 +18,14 @@ locales.xml
 
 ForAllIndentsAndPurposes.lua
 
-RegionOptions\aurabar.lua
-RegionOptions\texture.lua
-RegionOptions\icon.lua
-RegionOptions\text.lua
-RegionOptions\group.lua
-RegionOptions\dynamicgroup.lua
-RegionOptions\model.lua
-RegionOptions\progresstexture.lua
+RegionOptions\AuraBar.lua
+RegionOptions\Texture.lua
+RegionOptions\Icon.lua
+RegionOptions\Text.lua
+RegionOptions\Group.lua
+RegionOptions\DynamicGroup.lua
+RegionOptions\Model.lua
+RegionOptions\ProgressTexture.lua
 
 Cache.lua
 

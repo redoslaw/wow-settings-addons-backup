@@ -1,0 +1,7 @@
+changeset:   127:6b20573daa20
+tag:         v7.2.0.127-release
+user:        Tercio
+date:        Wed Apr 12 13:24:44 2017 -0300
+summary:     - fix for ticket #368: invasion quests won't filter correctly on resource filtering.
+
+

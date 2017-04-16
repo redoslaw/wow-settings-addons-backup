@@ -1,15 +1,17 @@
 
 MBB_Exclude = {
+	"LibDBIcon10_PremadeTools", -- [1]
+	"LibDBIcon10_AnnounceItButton", -- [2]
 }
 MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AltExpandDirection"] = 4,
 	["AttachToMinimap"] = 1,
-	["MaxButtonsPerLine"] = 0,
-	["DetachedButtonPos"] = "CENTER",
-	["ButtonPos"] = {
-		-18, -- [1]
-		-100, -- [2]
-	},
 	["ExpandDirection"] = 1,
+	["MaxButtonsPerLine"] = 0,
+	["ButtonPos"] = {
+		-26.2020111083984, -- [1]
+		-71.9717864990235, -- [2]
+	},
+	["DetachedButtonPos"] = "TOPLEFT",
 }

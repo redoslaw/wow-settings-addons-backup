@@ -1,10 +1,13 @@
 local __FILE__=tostring(debugstack(1,2,0):match("(.*):1:")) -- Always check line number in regexp and file, must be 1
+--[===[@debug@
+print('Loaded',__FILE__)
+--@end-debug@]===]
 local function pp(...) print(GetTime(),"|cff009900",__FILE__:sub(-15),strjoin(",",tostringall(...)),"|r") end
 --*TYPE module
 --*CONFIG noswitch=false,profile=true,enhancedProfile=true
 --*MIXINS "AceHook-3.0","AceEvent-3.0","AceTimer-3.0"
 --*MINOR 35
--- Generated on 20/02/2017 09:45:18
+-- Auto Generated
 local me,ns=...
 if ns.die then return end
 local addon=ns --#Addon (to keep eclipse happy)
@@ -29,11 +32,13 @@ local OHFFollowerList=OrderHallMissionFrame.FollowerList -- Contains follower li
 local OHFFollowers=OrderHallMissionFrameFollowers -- Contains scroll list
 local OHFMissionPage=OrderHallMissionFrame.MissionTab.MissionPage -- Contains mission description and party setup 
 local OHFMapTab=OrderHallMissionFrame.MapTab -- Contains quest map
+local OHFCompleteDialog=OrderHallMissionFrameMissions.CompleteDialog
 local followerType=LE_FOLLOWER_TYPE_GARRISON_7_0
 local garrisonType=LE_GARRISON_TYPE_7_0
 local FAKE_FOLLOWERID="0x0000000000000000"
-local MAXLEVEL=110
-
+local MAX_LEVEL=110
+local LE_FOLLOWER_TYPE_GARRISON_7_0=LE_FOLLOWER_TYPE_GARRISON_7_0
+local GARRISON_FOLLOWER_MAX_UPGRADE_QUALITY=GARRISON_FOLLOWER_MAX_UPGRADE_QUALITY[LE_FOLLOWER_TYPE_GARRISON_7_0]
 local ShowTT=OrderHallCommanderMixin.ShowTT
 local HideTT=OrderHallCommanderMixin.HideTT
 
@@ -53,6 +58,8 @@ dprint=function() end
 ddump=function() end
 local print=function() end
 --@end-non-debug@
+local LE_FOLLOWER_TYPE_GARRISON_7_0=LE_FOLLOWER_TYPE_GARRISON_7_0
+local LE_GARRISON_TYPE_7_0=LE_GARRISON_TYPE_7_0
 
 -- End Template - DO NOT MODIFY ANYTHING BEFORE THIS LINE
 --*BEGIN
@@ -73,9 +80,6 @@ function module:OnInitialized()
 	u:Show()
 	--addon:SetBackdrop(u,C:Green())
 	self:SecureHook("GarrisonMission_SetFollowerModel","RefreshUpgrades")
-	self:RegisterEvent("GARRISON_FOLLOWER_UPGRADED")
-	self:RegisterEvent("GARRISON_FOLLOWER_LIST_UPDATE","GARRISON_FOLLOWER_UPGRADED")
-	self:RegisterEvent("GARRISON_FOLLOWER_XP_CHANGED","GARRISON_FOLLOWER_UPGRADED")
 	UpgradeFrame:EnableMouse(true)
 	--[===[@debug@
 	self:RawHookScript(UpgradeFrame,"OnEnter","ShowFollowerData")
@@ -83,6 +87,11 @@ function module:OnInitialized()
 	debugInfo=u:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 	debugInfo:SetPoint("TOPLEFT",70,20)
 --@end-debug@	]===]
+end
+function module:Events()
+	self:RegisterEvent("GARRISON_FOLLOWER_UPGRADED")
+	self:RegisterEvent("GARRISON_FOLLOWER_LIST_UPDATE","GARRISON_FOLLOWER_UPGRADED")
+	self:RegisterEvent("GARRISON_FOLLOWER_XP_CHANGED","GARRISON_FOLLOWER_UPGRADED")
 end
 function module:ShowFollowerData(this)
 	local tip=GameTooltip
@@ -92,6 +101,9 @@ function module:ShowFollowerData(this)
 	tip:Show()
 end
 function module:GARRISON_FOLLOWER_UPGRADED(event,followerType,followerId)
+	if followerType ~= LE_FOLLOWER_TYPE_GARRISON_7_0 then
+		return
+	end
 	if OHFFollowerTab:IsVisible() then
 		self:ScheduleTimer("RefreshUpgrades",0.3)
 	end
@@ -109,7 +121,8 @@ function module:RenderUpgradeButton(id,previous)
 		end
 		previous=b
 		b.itemID=id
-		b:SetAttribute("item",select(2,GetItemInfo(id)))		
+		b:SetAttribute("item",select(2,GetItemInfo(id)))	
+			
 		GarrisonMissionFrame_SetItemRewardDetails(b)
 		b.Quantity:SetFormattedText("%d",qt)
 		b.Quantity:SetTextColor(C.Yellow())
@@ -137,11 +150,16 @@ function module:RefreshUpgrades(model,followerID,displayID,showWeapon)
 	if not follower.isCollected then return end
 	if follower.status==GARRISON_FOLLOWER_ON_MISSION then return end
 	if follower.status==GARRISON_FOLLOWER_COMBAT_ALLY then return end
-	if follower.status==GARRISON_FOLLOWER_INACTIVE then return end
+	--if follower.status==GARRISON_FOLLOWER_INACTIVE then return end
 	local u=UpgradeFrame
 	local previous
-	if follower.iLevel <850 then
+	if follower.iLevel <850  then
 		for _,id in pairs(addon:GetData("Upgrades")) do
+			previous=self:RenderUpgradeButton(id,previous)
+		end	
+	end
+	if follower.iLevel <900 then
+		for _,id in pairs(addon:GetData("Upgrades2")) do
 			previous=self:RenderUpgradeButton(id,previous)
 		end	
 	end
@@ -156,6 +174,7 @@ function module:RefreshUpgrades(model,followerID,displayID,showWeapon)
 		end	
 	end
 end
+local UpgradeFollower 
 function module:AcquireButton()
 	local b=tremove(pool)
 	if not b then
@@ -163,6 +182,7 @@ function module:AcquireButton()
 		b:EnableMouse(true)
 		b:RegisterForClicks("LeftButtonDown")
 		b:SetAttribute("type","item")
+		--b:SetScript("PostClick",UpgradeFollower)		
 		b:SetSize(40,40)
 		b.Icon:SetSize(40,40)
 		b:EnableMouse(true)
@@ -181,7 +201,7 @@ local CONFIRM2=L["Upgrading to |cff00ff00%d|r"].."\n|cffffd200 "..L["You are was
 local function DoUpgradeFollower(this)
 		G.CastSpellOnFollower(this.data);
 end
-local function UpgradeFollower(this)
+function UpgradeFollower(this)
 	local follower=this:GetParent()
 	local followerID=follower.followerID
 	local upgradelevel=this.rawlevel

@@ -1,17 +1,29 @@
 
 RecountDB = {
 	["profileKeys"] = {
+		["Ðeadshot - Burning Legion"] = "Ðeadshot - Burning Legion",
+		["Rêd - Burning Legion"] = "Rêd - Burning Legion",
+		["Rèd - Burning Legion"] = "Rèd - Burning Legion",
+		["Chúck - Burning Legion"] = "Chúck - Burning Legion",
+		["Wòw - Burning Legion"] = "Wòw - Burning Legion",
+		["Kot - Chamber of Aspects"] = "Kot - Chamber of Aspects",
+		["Redoslaw - Burning Legion"] = "Redoslaw - Burning Legion",
 		["Redus - Burning Legion"] = "Redus - Burning Legion",
+		["Pandared - Burning Legion"] = "Pandared - Burning Legion",
+		["Redbullek - Burning Legion"] = "Redbullek - Burning Legion",
+		["Kneewhoya - Burning Legion"] = "Kneewhoya - Burning Legion",
+		["Ðeathshot - Steamwheedle Cartel"] = "Ðeathshot - Steamwheedle Cartel",
+		["Ðeadshøt - Burning Legion"] = "Ðeadshøt - Burning Legion",
 	},
 	["profiles"] = {
-		["Redus - Burning Legion"] = {
-			["GraphWindowY"] = 0,
+		["Ðeadshot - Burning Legion"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -175.999633789063,
-					["x"] = 609.500122070313,
-					["w"] = 202.999938964844,
-					["h"] = 251.999954223633,
+					["y"] = -241.999053955078,
+					["h"] = 314.999969482422,
+					["w"] = 253.000045776367,
+					["x"] = 467.499877929688,
 				},
 			},
 			["Colors"] = {
@@ -24,12 +36,240 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowWidth"] = 202.999969482422,
-			["MainWindowHeight"] = 251.999954223633,
-			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Halls of Valor",
+			["CurDataSet"] = "CurrentFightData",
+		},
+		["Rêd - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Rèd - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Chúck - Burning Legion"] = {
 			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Wòw - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Kot - Chamber of Aspects"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Redoslaw - Burning Legion"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Redus - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -158.498809814453,
+					["x"] = 466.999877929687,
+					["w"] = 251.999771118164,
+					["h"] = 155.999923706055,
+				},
+			},
+			["ConfirmDeleteInstance"] = false,
+			["ReportLines"] = 15,
+			["SegmentBosses"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -324.000579833984,
+			["ConfirmDeleteGroup"] = false,
+			["DetailWindowX"] = 667.00048828125,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Darkheart Thicket",
+			["ConfirmDeleteRaid"] = false,
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 251.999771118164,
+			["MainWindowHeight"] = 155.999923706055,
+		},
+		["Pandared - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Redbullek - Burning Legion"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Kneewhoya - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Ðeathshot - Steamwheedle Cartel"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+		["Ðeadshøt - Burning Legion"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["h"] = 199.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
 			["CurDataSet"] = "OverallData",
 		},
 	},

@@ -1,0 +1,13 @@
+tag 1.0.4
+d80425b6dcdee641649d84569d4dd8b52a07231a
+Kyle Buller <bullerk@gmail.com>
+2016-11-04 04:03:14 -0500
+
+Tagging as 1.0.4
+
+
+--------------------
+
+Kyle Buller:
+	- Update TOC for 7.1
+	- Bump TOC

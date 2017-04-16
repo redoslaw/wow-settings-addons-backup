@@ -1315,7 +1315,7 @@ function Overachiever.OnEvent(self, event, arg1, ...)
 	  C_Timer.After(0, function()
 	    -- This strange double-timer thing works around an issue where the timer starts counting down, so to speak, during the loading screen if the UI is being reloaded (as per /reload), making the toast not appear.
 		C_Timer.After(5, function()
-		  Overachiever.ToastForEvents(Overachiever_Settings.ToastCalendar_holiday, Overachiever_Settings.ToastCalendar_microholiday, Overachiever_Settings.ToastCalendar_bonusevent, Overachiever_Settings.ToastCalendar_dungeonevent)
+		  Overachiever.ToastForEvents(Overachiever_Settings.ToastCalendar_holiday, Overachiever_Settings.ToastCalendar_microholiday, Overachiever_Settings.ToastCalendar_bonusevent, Overachiever_Settings.ToastCalendar_dungeonevent, Overachiever_Settings.ToastCalendar_pvpbrawl)
 		end)
 	  end)
 	  --[[

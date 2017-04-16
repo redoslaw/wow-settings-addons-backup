@@ -1,3 +1,3 @@
 
 thisaddonworkea = true
-raannouncerun = 0
+raannouncerun3 = 0

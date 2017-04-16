@@ -11,7 +11,7 @@ local LibStub = _G.LibStub
 local CharacterNotes = LibStub("AceAddon-3.0"):NewAddon("CharacterNotes", "AceConsole-3.0", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0")
 
 local ADDON_NAME, AddonData = ...
-local ADDON_VERSION = "7.1.0"
+local ADDON_VERSION = "7.2.0"
 
 local NotesDB = AddonData.NotesDB
 

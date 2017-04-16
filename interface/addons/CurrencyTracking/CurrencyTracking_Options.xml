@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-$Id: CurrencyTracking_Options.xml 50 2017-03-01 16:00:24Z arith $
+$Id: CurrencyTracking_Options.xml 60 2017-04-05 15:50:17Z arith $
 -->
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 	<Script file="CurrencyTracking_Options.lua"/>
@@ -201,11 +201,52 @@ $Id: CurrencyTracking_Options.xml 50 2017-03-01 16:00:24Z arith $
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$parent_BreakupNumbers" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+			<CheckButton name="$parent_Lock" inherits="InterfaceOptionsSmallCheckButtonTemplate">
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="$parent_ShowOnScreen">>
+					<Anchor point="TOPLEFT" relativeTo="$parent_ShowOnScreen">
+						<Offset>
+							<AbsDimension x="15" y="-25"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(CT_OPT_ALWAYSLOCK);
+					</OnLoad>
+					<OnClick>
+						CurrencyTrackingOptions_LockToggle();
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText(CT_OPT_ALWAYSLOCK_TIP, nil, nil, nil, nil, 1);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parent_ShowMoney" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_Lock">
 						<Offset>
 							<AbsDimension x="0" y="-25"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(CT_OPT_SHOWMONEY);
+					</OnLoad>
+					<OnClick>
+						CurrencyTrackingOptions_ShowMoneyToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parent_BreakupNumbers" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_ShowMoney">
+						<Offset>
+							<AbsDimension x="-15" y="-25"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -235,6 +276,23 @@ $Id: CurrencyTracking_Options.xml 50 2017-03-01 16:00:24Z arith $
 					</OnClick>
 				</Scripts>
 			</Button>
+			<CheckButton name="$parent_IconFirst" inherits="InterfaceOptionsSmallCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_BreakupNumbers">
+						<Offset>
+							<AbsDimension x="0" y="-25"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						_G[self:GetName().."Text"]:SetText(CT_OPT_ICONPRIORTONUMBER);
+					</OnLoad>
+					<OnClick>
+						CurrencyTrackingOptions_IconFirstToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
 			<Slider name="$parentSliderFrameScale" inherits="OptionsSliderTemplate">
 				<Size>
 					<AbsDimension x="360" y="16"/>
@@ -242,7 +300,7 @@ $Id: CurrencyTracking_Options.xml 50 2017-03-01 16:00:24Z arith $
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="0" y="-110" />
+							<AbsDimension x="0" y="-195" />
 						</Offset>
 					</Anchor>
 				</Anchors>

@@ -1,0 +1,12 @@
+tag v0.1.1.70000
+e84673a9a99ed8a7e92e93bec4d1ccbd17b93a83
+Michael P. Starkweather <mpstark@gmail.com>
+2016-08-14 19:57:25 -0500
+
+
+
+--------------------
+
+Michael P. Starkweather:
+	- Rubio9's changes, add auto-accept option, updates for 7.0.3, and a couple tweaks to the dialog
+	- Fix LibDBIcon embed in .pkgmeta

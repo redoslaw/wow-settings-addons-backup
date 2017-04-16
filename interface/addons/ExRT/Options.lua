@@ -119,6 +119,44 @@ ExRT.Options.InBlizzardInterface.button = ELib:Button(ExRT.Options.InBlizzardInt
 	ExRT.Options:Open()
 end)
 
+------------------------------------------------------------
+
+Options.scale = ELib:Slider(Options):_Size(70,8):Point("TOPRIGHT",-45,-5):Range(50,200,true):OnShow(function(self)
+	VExRT.Addon.Scale = tonumber(VExRT.Addon.Scale or "1") or 1
+	VExRT.Addon.Scale = max( min( VExRT.Addon.Scale,2 ),0.5)
+
+	self:SetTo((VExRT.Addon.Scale or 1)*100):Scale(1 / (VExRT.Addon.Scale or 1)):OnChange(function(self,event) 
+		if self.disable then
+			self:SetTo(100)
+			self.tooltipText = L.bossmodsscale.."|n100%|n"..L.SetScaleReset
+			return
+		end
+		event = ExRT.F.Round(event)
+		VExRT.Addon.Scale = event / 100
+		ExRT.F.SetScaleFixTR(Options,VExRT.Addon.Scale)
+		self:SetScale(1 / VExRT.Addon.Scale)
+		self.tooltipText = L.bossmodsscale.."|n"..event.."%|n"..L.SetScaleReset
+		self:tooltipReload(self)
+	end)
+	self:SetScript("OnShow",nil)
+	self.tooltipText = L.bossmodsscale.."|n"..((VExRT.Addon.Scale or 1) * 100).."%|n"..L.SetScaleReset
+	self:Point("TOPRIGHT",-45 * (VExRT.Addon.Scale or 1),-5)
+	Options:SetScale(VExRT.Addon.Scale or 1)
+end,true)
+
+Options.scale:SetScript("OnMouseDown",function(self,button)
+	if button == "RightButton" then
+		self:SetTo(100)
+		self.disable = true
+	end
+end)
+Options.scale:SetScript("OnMouseUp",function(self,button)
+	if button == "RightButton" then
+		self.disable = nil
+	end
+	self:Point("TOPRIGHT",-45 * (VExRT.Addon.Scale or 1),-5)
+end)
+
 ----> Minimap Icon
 
 local MiniMapIcon = CreateFrame("Button", "LibDBIcon10_ExorsusRaidTools", Minimap)

@@ -1,0 +1,336 @@
+
+FI_SVPC_CONFIG = {
+	["show"] = true,
+	["Currency"] = {
+		["show"] = true,
+		["alpha"] = 1,
+		["tracking"] = true,
+		["scale"] = 1,
+	},
+	["version"] = 2.38,
+	["scale"] = 1,
+	["style"] = "default",
+	["alpha"] = 1,
+	["move"] = true,
+}
+FI_SVPC_STYLE = {
+	["anchor"] = {
+		["pad"] = 2,
+		["background"] = {
+			["color"] = {
+			},
+			["size"] = {
+				56, -- [1]
+				56, -- [2]
+			},
+			["alpha"] = 0.75,
+			["texture"] = "Interface/BUTTONS/UI-QuickSlot",
+		},
+		["text"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/ARIALN.TTF",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["alpha"] = 1,
+			["size"] = 13,
+		},
+		["border"] = {
+			["offset"] = 2,
+			["tile"] = true,
+			["color"] = {
+			},
+			["size"] = 6,
+			["alpha"] = 1,
+			["texture"] = "",
+		},
+		["size"] = {
+			34, -- [1]
+			34, -- [2]
+		},
+	},
+	["button"] = {
+		["number"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/ARIALN.TTF",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["alpha"] = 1,
+			["size"] = 14,
+		},
+		["glow"] = {
+			["color"] = {
+				0.3, -- [1]
+				0.3, -- [2]
+				0.3, -- [3]
+			},
+			["alpha"] = 0.9,
+		},
+		["pad"] = 5,
+		["text"] = {
+			["flags"] = "OUTLINE",
+			["font"] = "Fonts/FRIZQT__.TTF",
+			["color"] = {
+				0.5, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
+			},
+			["alpha"] = 0.75,
+			["size"] = 14,
+		},
+		["background"] = {
+			["color"] = {
+			},
+			["size"] = {
+				66, -- [1]
+				66, -- [2]
+			},
+			["alpha"] = 0.75,
+			["texture"] = "Interface/BUTTONS/UI-EmptySlot.blp",
+		},
+		["border"] = {
+			["offset"] = 2,
+			["tile"] = true,
+			["size"] = 6,
+			["alpha"] = 0.9,
+			["texture"] = "",
+		},
+		["size"] = {
+			37, -- [1]
+			37, -- [2]
+		},
+	},
+}
+FI_SVPC_DATA = {
+	["Sessions"] = {
+		{
+			["id"] = 1,
+			["stop"] = 1492269326,
+			["start"] = 1492264495,
+		}, -- [1]
+		{
+			["id"] = 2,
+			["stop"] = 1492281053,
+			["start"] = 1492269771,
+		}, -- [2]
+		{
+			["id"] = 3,
+			["stop"] = 1492355804,
+			["start"] = 1492304263,
+		}, -- [3]
+		{
+			["id"] = 4,
+			["stop"] = 1492358774,
+			["start"] = 1492358723,
+		}, -- [4]
+		{
+			["id"] = 5,
+			["stop"] = 1492359259,
+			["start"] = 1492359213,
+		}, -- [5]
+		{
+			["id"] = 6,
+			["stop"] = 1492367950,
+			["start"] = 1492362958,
+		}, -- [6]
+	},
+	["Currencies"] = {
+		{
+			["success"] = true,
+			["name"] = "Garrison Resources",
+			["objective"] = 0,
+			["id"] = 1,
+			["lastcount"] = 8228,
+			["icon"] = "Interface\\Icons\\inv_garrison_resource",
+			["count"] = 8228,
+		}, -- [1]
+		{
+			["success"] = true,
+			["name"] = "",
+			["objective"] = 0,
+			["id"] = 2,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["count"] = 0,
+		}, -- [2]
+		{
+			["success"] = true,
+			["name"] = "",
+			["objective"] = 0,
+			["id"] = 3,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["count"] = 0,
+		}, -- [3]
+	},
+	["Groups"] = {
+		{
+			["show"] = true,
+			["grow"] = "U",
+			["move"] = false,
+			["scale"] = 1,
+			["id"] = 1,
+			["pad"] = 5,
+			["alpha"] = 1,
+			["size"] = 7,
+		}, -- [1]
+	},
+	["Buttons"] = {
+		{
+			["count"] = 1079,
+			["objective"] = 0,
+			["item"] = 123918,
+			["lastcount"] = 0,
+			["id"] = 1,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [1]
+		{
+			["count"] = 410,
+			["success"] = false,
+			["item"] = 123919,
+			["group"] = 1,
+			["lastcount"] = 0,
+			["id"] = 2,
+			["objective"] = 0,
+			["bank"] = false,
+		}, -- [2]
+		{
+			["count"] = 0,
+			["success"] = false,
+			["item"] = 124105,
+			["group"] = 1,
+			["lastcount"] = 214,
+			["id"] = 3,
+			["objective"] = 0,
+			["bank"] = false,
+		}, -- [3]
+		{
+			["count"] = 0,
+			["objective"] = 608,
+			["item"] = 124102,
+			["lastcount"] = 814,
+			["id"] = 4,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = true,
+		}, -- [4]
+		{
+			["objective"] = 0,
+			["item"] = 128304,
+			["success"] = false,
+			["id"] = 5,
+			["group"] = 1,
+			["lastcount"] = 983,
+			["count"] = 0,
+			["bank"] = false,
+		}, -- [5]
+		{
+			["objective"] = 830,
+			["success"] = false,
+			["count"] = 0,
+			["lastcount"] = 850,
+			["id"] = 6,
+			["group"] = 1,
+			["item"] = 124104,
+			["bank"] = false,
+		}, -- [6]
+		{
+			["count"] = 112,
+			["objective"] = 0,
+			["item"] = 124124,
+			["lastcount"] = 111,
+			["id"] = 7,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [7]
+		{
+			["count"] = 0,
+			["objective"] = 0,
+			["item"] = false,
+			["lastcount"] = 0,
+			["id"] = 8,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [8]
+		{
+			["count"] = 0,
+			["objective"] = 0,
+			["item"] = false,
+			["lastcount"] = 0,
+			["id"] = 9,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [9]
+		{
+			["count"] = 0,
+			["objective"] = 0,
+			["item"] = false,
+			["lastcount"] = 0,
+			["id"] = 10,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [10]
+		{
+			["count"] = 0,
+			["objective"] = 0,
+			["item"] = false,
+			["lastcount"] = 0,
+			["id"] = 11,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [11]
+		{
+			["count"] = 0,
+			["objective"] = 0,
+			["item"] = false,
+			["lastcount"] = 0,
+			["id"] = 12,
+			["group"] = 1,
+			["success"] = false,
+			["bank"] = false,
+		}, -- [12]
+	},
+}
+FI_SVPC_CACHE = {
+	["Currencies"] = {
+		{
+			["count"] = 8228,
+			["success"] = true,
+			["objective"] = 0,
+			["id"] = 1,
+			["lastcount"] = 8228,
+			["icon"] = "Interface\\Icons\\inv_garrison_resource",
+			["name"] = "Garrison Resources",
+		}, -- [1]
+		{
+			["count"] = 0,
+			["success"] = true,
+			["objective"] = 0,
+			["id"] = 2,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["name"] = "",
+		}, -- [2]
+		{
+			["count"] = 0,
+			["success"] = true,
+			["objective"] = 0,
+			["id"] = 3,
+			["lastcount"] = 0,
+			["icon"] = "",
+			["name"] = "",
+		}, -- [3]
+	},
+}

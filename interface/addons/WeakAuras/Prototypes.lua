@@ -1,19 +1,16 @@
 -- Lua APIs
-local tinsert, tconcat, tremove, wipe = table.insert, table.concat, table.remove, wipe
-local fmt, tostring, string_char = string.format, tostring, string.char
-local select, pairs, next, type, unpack = select, pairs, next, type, unpack
-local loadstring, assert, error = loadstring, assert, error
-local setmetatable, getmetatable, rawset, rawget = setmetatable, getmetatable, rawset, rawget
-local bit_band, bit_lshift, bit_rshift = bit.band, bit.lshift, bit.rshift
+local tinsert = table.insert
+local tostring = tostring
+local select, pairs, type = select, pairs, type
 local ceil, min = ceil, min
 
 -- WoW APIs
-local GetPvpTalentInfo, GetActiveSpecGroup, GetTalentInfo = GetPvpTalentInfo, GetActiveSpecGroup, GetTalentInfo
+local GetPvpTalentInfo, GetTalentInfo = GetPvpTalentInfo, GetTalentInfo
 local GetNumSpecializationsForClassID, GetSpecialization = GetNumSpecializationsForClassID, GetSpecialization
 local UnitClass, UnitHealth, UnitHealthMax, UnitName, UnitStagger, UnitPower, UnitPowerMax = UnitClass, UnitHealth, UnitHealthMax, UnitName, UnitStagger, UnitPower, UnitPowerMax
 local UnitAlternatePowerInfo, UnitAlternatePowerTextureInfo = UnitAlternatePowerInfo, UnitAlternatePowerTextureInfo
-local GetSpellInfo, GetItemInfo, GetTotemInfo, GetItemCount, GetItemIcon = GetSpellInfo, GetItemInfo, GetTotemInfo, GetItemCount, GetItemIcon
-local GetShapeshiftFormInfo, GetNumShapeshiftForms, GetShapeshiftForm = GetShapeshiftFormInfo, GetNumShapeshiftForms, GetShapeshiftForm
+local GetSpellInfo, GetItemInfo, GetItemCount, GetItemIcon = GetSpellInfo, GetItemInfo, GetItemCount, GetItemIcon
+local GetShapeshiftFormInfo, GetShapeshiftForm = GetShapeshiftFormInfo, GetShapeshiftForm
 local GetRuneCooldown, UnitCastingInfo, UnitChannelInfo = GetRuneCooldown, UnitCastingInfo, UnitChannelInfo
 
 local WeakAuras = WeakAuras;
@@ -462,6 +459,10 @@ end
 
 
 function WeakAuras.CheckNumericIds(loadids, currentId)
+  if (not loadids or not currentId) then
+    return false;
+  end
+
   local searchFrom = 0;
 
   local startI, endI = string.find(loadids, currentId, searchFrom);
@@ -1000,7 +1001,7 @@ WeakAuras.event_prototypes = {
         name = "requirePowerType",
         display = L["Only if Primary"],
         type = "toggle",
-        test = "UnitPowerType(unit) == powerType",
+        test = "UnitPowerType(concernedUnit) == powerType",
         enable = function(trigger)
           return trigger.use_powertype
         end,
@@ -1023,14 +1024,14 @@ WeakAuras.event_prototypes = {
       }
     },
     durationFunc = function(trigger)
-      local powerType = trigger.use_powertype and trigger.powertype;
+      local powerType = trigger.use_powertype and trigger.powertype or nil;
       if (powerType == 99) then
         return UnitStagger(trigger.unit), math.max(1, UnitHealthMax(trigger.unit)), "fastUpdate";
       end
       return UnitPower(trigger.unit, powerType), math.max(1, UnitPowerMax(trigger.unit, powerType)), "fastUpdate";
     end,
     stacksFunc = function(trigger)
-      local powerType = trigger.use_powertype and trigger.powertype;
+      local powerType = trigger.use_powertype and trigger.powertype or nil;
       if (powerType == 99) then
         return UnitStagger(trigger.unit);
       end
@@ -1455,7 +1456,7 @@ WeakAuras.event_prototypes = {
         local startTime, duration = WeakAuras.GetSpellCooldown(spellname, ignoreRuneCD, showgcd);
         local charges = WeakAuras.GetSpellCharges(spellname);
         if (charges == nil) then
-            charges = (duration == 0) and 1 or 0;
+          charges = (duration == 0) and 1 or 0;
         end
         local showOn = %s
       ]=];
@@ -2388,8 +2389,6 @@ WeakAuras.event_prototypes = {
         local spellname = [[%s]]
         local startTime, duration = WeakAuras.GetSpellCooldown(spellname);
         local charges = WeakAuras.GetSpellCharges(spellname);
-        startTime = startTime or 0;
-        duration = duration or 0;
         if (charges == nil) then
           charges = (duration == 0) and 1 or 0;
         end
@@ -3060,6 +3059,7 @@ WeakAuras.event_prototypes = {
     type = "status",
     events = {
       "UNIT_INVENTORY_CHANGED",
+      "PLAYER_EQUIPMENT_CHANGED",
       "WA_DELAYED_PLAYER_ENTERING_WORLD"
     },
     force_events = true,
@@ -3138,10 +3138,7 @@ WeakAuras.event_prototypes = {
         local equipped = WeakAuras.GetEquipmentSetInfo(useItemSetName and itemSetName or nil, partial);
       ]];
 
-      return ret:format(trigger.use_itemSetName and "true" or "false",
-                        itemSetName,
-                        trigger.use_inverse and "true" or "false",
-                        trigger.use_partial and "true" or "false");
+      return ret:format(trigger.use_itemSetName and "true" or "false", itemSetName, trigger.use_inverse and "true" or "false", trigger.use_partial and "true" or "false");
     end,
     args = {
       {
@@ -3350,7 +3347,7 @@ WeakAuras.event_prototypes = {
       if not(icon) then
         local _, _, _, icon = UnitChannelInfo(trigger.unit);
         if not(icon) then
-          return "Interface\\AddOns\\WeakAuras\\icon";
+          return "Interface\\AddOns\\WeakAuras\\Media\\Textures\\icon";
         else
           return icon;
         end

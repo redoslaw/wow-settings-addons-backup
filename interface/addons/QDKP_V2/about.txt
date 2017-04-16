@@ -1,4 +1,8 @@
 Release Log:
+v 6.2 March 28 2017
+* ToC update 
+* Correct export function for ISO character sets (thanks wxtry)
+
 v6.1r February 20, 2017
 * Release version of 6.1 alpha fixes below
 * Correct spelling of Chronomatic Anomaly
